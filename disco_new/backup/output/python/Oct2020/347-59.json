@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-05T18:25:19.254000",
+        "user": "Ulrich",
+        "text": "https://stackoverflow.com/questions/64180248/alteringaudiowithdiscordpywithaudiofilters Can someone help with this? How can I create an audiosource?",
+        "conversation_id": "347",
+        "index": 59
+    },
+    "so_post": {
+        "ts": "2020-10-05T18:25:19.254000",
+        "user": "Ulrich",
+        "text": "https://stackoverflow.com/questions/64180248/alteringaudiowithdiscordpywithaudiofilters Can someone help with this? How can I create an audiosource?",
+        "conversation_id": "347",
+        "index": 59
+    },
+    "category": "Question Repost",
+    "comments": "soliciting",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

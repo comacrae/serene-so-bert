@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-13T19:16:22.769000",
+        "user": "Kamazi",
+        "text": "https://stackoverflow.com/questions/61183558/weirddiscrepancybetweenaiohttpandrequests",
+        "conversation_id": "633",
+        "index": 62
+    },
+    "so_post": {
+        "ts": "2020-04-13T19:16:22.769000",
+        "user": "Kamazi",
+        "text": "https://stackoverflow.com/questions/61183558/weirddiscrepancybetweenaiohttpandrequests",
+        "conversation_id": "633",
+        "index": 62
+    },
+    "category": "Question Repost",
+    "comments": "From the context it seems like the user is having issues with a I/O HTTP GET that is not present in the snippit of conversation.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

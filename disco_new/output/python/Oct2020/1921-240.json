@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-26T16:55:28.219000",
+        "user": "Alize",
+        "text": "I have a numpy array that is an image how I add a circular gradient going from black to the middle transparent?",
+        "conversation_id": "1921",
+        "index": 231
+    },
+    "so_post": {
+        "ts": "2020-10-26T16:56:04.631000",
+        "user": "Kaio",
+        "text": "@S\u03bfmeDude https://stackoverflow.com/questions/38809852/caniusenumpygradientfunctionwithimages",
+        "conversation_id": "1921",
+        "index": 240
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct a to q",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

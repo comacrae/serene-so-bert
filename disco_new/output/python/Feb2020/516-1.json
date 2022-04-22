@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-13T02:20:33.907000",
+        "user": "Tijani",
+        "text": "https://stackoverflow.com/a/53417582 is the best solution I've found but boy is it clunky",
+        "conversation_id": "516",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-02-13T02:20:33.907000",
+        "user": "Tijani",
+        "text": "https://stackoverflow.com/a/53417582 is the best solution I've found but boy is it clunky",
+        "conversation_id": "516",
+        "index": 1
+    },
+    "category": "Debugging Solution",
+    "comments": "Post above suggests user tried this solution but didn't work.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

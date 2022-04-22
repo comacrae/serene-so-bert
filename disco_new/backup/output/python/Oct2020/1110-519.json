@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-16T02:25:17.315000",
+        "user": "Torianna",
+        "text": "Why is exit() not a good way of exiting?",
+        "conversation_id": "1110",
+        "index": 513
+    },
+    "so_post": {
+        "ts": "2020-10-16T02:26:16.523000",
+        "user": "Corpus",
+        "text": "https://stackoverflow.com/questions/25141737/whyisusingexitconsideredbadhere is an SO post @Deleted User",
+        "conversation_id": "1110",
+        "index": 519
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to given question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-03T21:46:36.697000",
+        "user": "Corrine",
+        "text": "How can I write the slice to the request? Unless I'm missing something I can't just add new properties to the request object like you can in javascript",
+        "conversation_id": "1654",
+        "index": 68
+    },
+    "so_post": {
+        "ts": "2020-04-03T21:46:47.450000",
+        "user": "Braxtyn",
+        "text": "https://stackoverflow.com/a/46948073",
+        "conversation_id": "1654",
+        "index": 69
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Corrine asks question and Braxyun provides direct So answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

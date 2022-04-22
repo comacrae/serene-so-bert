@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-08T15:59:05.157000",
+        "user": "Izna",
+        "text": "is there any []bytes to stirng conversion that checks for correct utf8",
+        "conversation_id": "934",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-03-08T16:00:19.088000",
+        "user": "Kaiyon",
+        "text": "https://stackoverflow.com/questions/34861479/howtodetectwhenbytescantbeconvertedtostringingo",
+        "conversation_id": "934",
+        "index": 2
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Izna asks question and Kaiyon provides answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

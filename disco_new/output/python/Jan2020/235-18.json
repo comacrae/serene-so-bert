@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-06T13:40:34.726000",
+        "user": "Caelyn",
+        "text": "Anybody got a working syntax highlighter for python in vscode? (not magicpython)",
+        "conversation_id": "235",
+        "index": 10
+    },
+    "so_post": {
+        "ts": "2020-01-06T13:50:32.065000",
+        "user": "Abdelbasset",
+        "text": "more info: https://stackoverflow.com/a/47724866",
+        "conversation_id": "235",
+        "index": 18
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Seems like the user is asking if there's a way to change the color of variable letters. This seems to be an appropiate response.",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

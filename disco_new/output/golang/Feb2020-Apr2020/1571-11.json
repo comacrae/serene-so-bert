@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-31T23:34:32.978000",
+        "user": "Gracelin",
+        "text": "hi please I'm trying to use websockets in a project and every time the user reloads the page the user's websocket connection changes how could I fix this?",
+        "conversation_id": "1571",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-03-31T23:42:22.467000",
+        "user": "Jkari",
+        "text": "ok the browser should already do that for you but you can make sure: https://stackoverflow.com/questions/4812686/closingwebsocketcorrectlyhtml5javascript",
+        "conversation_id": "1571",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Gracelin asks questiona nd Jkari provides SO answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

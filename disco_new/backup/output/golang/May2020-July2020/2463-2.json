@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-26T20:48:13.769000",
+        "user": "Ariya",
+        "text": "Is it okay to post a stackoverflow link here? I wrote a somewhat detailed question there (asked here earlier today but no reply).",
+        "conversation_id": "2463",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-26T20:49:33.759000",
+        "user": "Ariya",
+        "text": "https://stackoverflow.com/questions/63105441/writingtoexeccmdstdinpipedoesntdoanything got an answer wasn't writing a newline",
+        "conversation_id": "2463",
+        "index": 2
+    },
+    "category": "Question Repost",
+    "comments": "They got an answer to their SO post",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

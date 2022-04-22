@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-26T03:41:51.307000",
+        "user": "Zakaria",
+        "text": "what virtual function is for?",
+        "conversation_id": "1787",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2020-09-26T03:42:04.141000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/39092925/whyareinterfacesneededingolang",
+        "conversation_id": "1787",
+        "index": 33
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Zakaria asks question and Samarie provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

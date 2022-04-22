@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-08T07:13:16.724000",
+        "user": "Jahlia",
+        "text": "Yo iv been trying for the past 6 hours anyone know how to restart my application every 5 minutes on windows?",
+        "conversation_id": "1929",
+        "index": 44
+    },
+    "so_post": {
+        "ts": "2020-07-08T07:18:28.618000",
+        "user": "Donna",
+        "text": "https://stackoverflow.com/questions/50531370/startadetachedprocessonwindowsusinggolang",
+        "conversation_id": "1929",
+        "index": 67
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "jahlia has question and Donna provides SO post answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

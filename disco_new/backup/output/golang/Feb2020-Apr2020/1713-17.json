@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-06T03:05:08.062000",
+        "user": "Jkari",
+        "text": "so I have this payload from Discord and I\\'m trying to decompress it: ```gofunc main() { var pl = []byte{52 201 65 10 194 48 16 5 208 187 252 117 34 169 84 23 115 149 166 148 49 13 26 72 211 58 29 149 18 114 119 221 184 123 240 42 20 84 94 57 27 236 127 172 27 168 115 6 51 168 226 17 89 244 22 89 167 84 52 202 155 51 168 239 206 151 223 79 42 28 34 104 192 224 113 103 141 31 62 236 38 179 93 56 21 251 12 238 234 97 170 199 146 130 172 187 7 185 147 107 35 198 214 190 0 0 0 255 255} r := flate.NewReader(bytes.NewReader(pl)) _ err := io.Copy(os.Stdout r) fmt.Println(\"\\ err)}```",
+        "conversation_id": "1713",
+        "index": 2
+    },
+    "so_post": {
+        "ts": "2020-04-06T03:06:23.742000",
+        "user": "Crispin",
+        "text": "https://stackoverflow.com/questions/51105792/golangunexpectedeof",
+        "conversation_id": "1713",
+        "index": 17
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jkari trying to do something and Crispin provides SO answer ",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

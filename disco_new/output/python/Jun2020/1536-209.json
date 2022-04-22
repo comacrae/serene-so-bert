@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-25T22:27:21.330000",
+        "user": "Arrianna",
+        "text": "ok what can i do if i dont want a certain exception from crashing my program and dont wanna `catch` cause of performance and cause i found no way to see if a text file is utf8 without try/catch",
+        "conversation_id": "1536",
+        "index": 171
+    },
+    "so_post": {
+        "ts": "2020-06-25T22:32:23.680000",
+        "user": "Procopio",
+        "text": "<https://stackoverflow.com/questions/436220/howtodeterminetheencodingoftext>",
+        "conversation_id": "1536",
+        "index": 209
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

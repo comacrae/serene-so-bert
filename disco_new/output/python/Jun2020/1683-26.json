@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-28T14:31:23.557000",
+        "user": "Azuri",
+        "text": "Guys i have a trouble...\\\\> i want to create ansible script to deploy my RPI cluster.\\\\> my ansible playbook (`.yml`) is full of `jinja2` templates which make it look awful... + Templates not always work as expected(most notably when i want to create an list/dict but `jinja2` crashes and returns a string with a `.yml` code that represents/encodes a list/dict object i wanted does not creates the object just returns a raw string which passed into a `.yml` file would create an object otherwise)\\\\> I want to create a custom ansible filter that will take a multiline string containing a python code.Can someone please tell me how to execute python code from a string?",
+        "conversation_id": "1683",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-06-28T14:39:50.657000",
+        "user": "Marylouise",
+        "text": "https://stackoverflow.com/questions/2785755/howtosplitbutignoreseparatorsinquotedstringsinpython",
+        "conversation_id": "1683",
+        "index": 26
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-18T11:33:53.944000",
+        "user": "Annalisia",
+        "text": "when ever I try to run this script:```import cv2 as cvimport numpy as npfrom PIL import ImageGrabfrom time import timeimport win32gui win32ui win32con#import os#os.chdir(os.path.dirname(os.path.abspath(__file__)))def windo_capture(): w = 1920 h = 1080  #hwnd = win32gui.FindWindow(None windowname) hwnd = None  wDC = win32gui.GetWindowDC(hwnd) dcObj=win32ui.CreateDCFromHandle(wDC) cDC=dcObj.CreateCompatibleDC() dataBitMap = win32ui.CreateBitmap() dataBitMap.CreateCompatibleBitmap(dcObj w h) cDC.SelectObject(dataBitMap) cDC.BitBlt((0,0),(w h)  dcObj (0,0) win32con.SRCCOPY)  dataBitMap.SaveBitmapFile(cDC \\'debug.bmp\\')  # Free Resources dcObj.DeleteDC() cDC.DeleteDC() win32gui.ReleaseDC(hwnd wDC) win32gui.DeleteObject(dataBitMap.GetHandle())loop_time = time()\\'\\'\\'while(True): screenshot = ImageGrab.grab() screenshot = np.array(screenshot) screenshot = cv.cvtColor(screenshot cv.COLOR_RGB2BGR) cv.imshow(\\'Computer Vision\\ screenshot) print(\\'FPS: {}\\'.format(1 / (time()  loop_time))) loop_time = time()  if cv.waitKey(1) == ord(\\'q\\'): cv.destroyAllWindows() break\\'\\'\\'window_capture()print(\\'Done\\')```I get this error:``Traceback (most recent call last): File C:/Users/user/Desktop/file.py line 5 in <module> import win32gui win32ui win32conModuleNotFoundError: No module named \\'win32gui\\'``",
+        "conversation_id": "1293",
+        "index": 24
+    },
+    "so_post": {
+        "ts": "2020-10-18T11:37:30.851000",
+        "user": "Brigette",
+        "text": "@Crafto1337 https://stackoverflow.com/questions/44063350/pythonnomodulenamedwin32guiafterinstallingpywin32",
+        "conversation_id": "1293",
+        "index": 44
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Annalisa gets a direct answer related to running a 64 bit script with a 32 bit interpreter",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

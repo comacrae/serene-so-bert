@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-03T16:17:48.969000",
+        "user": "Belicia",
+        "text": "how do i use `__file__`? it says its not defined",
+        "conversation_id": "160",
+        "index": 113
+    },
+    "so_post": {
+        "ts": "2020-06-03T16:18:06.947000",
+        "user": "Nyssa",
+        "text": "https://stackoverflow.com/questions/16771894/pythonnameerrorglobalnamefileisnotdefined",
+        "conversation_id": "160",
+        "index": 114
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

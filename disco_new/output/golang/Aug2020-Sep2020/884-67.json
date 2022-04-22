@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-29T03:37:16.139000",
+        "user": "Benen",
+        "text": "Why do i can\\'t run http.ListenAndServe(\":80 nil) but if i change port to 8080 it is ok.",
+        "conversation_id": "884",
+        "index": 64
+    },
+    "so_post": {
+        "ts": "2020-08-29T03:38:03.616000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/10182798/whyareportsbelow1024privileged",
+        "conversation_id": "884",
+        "index": 67
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Benen has question and Samarie provides SO answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

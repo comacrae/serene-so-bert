@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-04T05:37:18.316000",
+        "user": "Jamylah",
+        "text": "For uuid is `uuid.uuid4()` safe that ensure no two processes can obtain the same UUID?",
+        "conversation_id": "226",
+        "index": 79
+    },
+    "so_post": {
+        "ts": "2020-09-04T05:39:29.548000",
+        "user": "Sanson",
+        "text": "@EndenDragon you shouldn't have collision issues with `uuid4` but theres some info here: https://stackoverflow.com/questions/53096198/preventuuidcollisioninpythonsameprocess",
+        "conversation_id": "226",
+        "index": 92
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jamya asks question and Sanson provides So answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

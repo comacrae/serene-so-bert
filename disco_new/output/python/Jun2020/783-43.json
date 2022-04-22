@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-13T18:33:59.628000",
+        "user": "Leilahni",
+        "text": "Whenever I type `ffmpeg` into console it says it is installed but when I try to use it in pycharm I get the error:`discord.ext.commands.errors.CommandInvokeError: Command raised an exception: DownloadError: ERROR: ffprobe/avprobe and ffmpeg/avconv not found. Please install one.`",
+        "conversation_id": "783",
+        "index": 40
+    },
+    "so_post": {
+        "ts": "2020-06-13T18:34:56.714000",
+        "user": "Kodi",
+        "text": "https://stackoverflow.com/questions/30770155/ffprobeoravprobenotfoundpleaseinstallone",
+        "conversation_id": "783",
+        "index": 43
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

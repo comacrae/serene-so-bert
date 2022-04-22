@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-20T07:10:04.751000",
+        "user": "Juno",
+        "text": "whats a `.a` file?",
+        "conversation_id": "597",
+        "index": 42
+    },
+    "so_post": {
+        "ts": "2020-08-20T07:11:14.209000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/5965171/whatisafilewithextensiona",
+        "conversation_id": "597",
+        "index": 45
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Juno asks question and Samarie provides answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-12T20:54:24.023000",
+        "user": "Baldwin",
+        "text": "What's StackOverflow'?",
+        "conversation_id": "589",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-04-12T20:55:33.530000",
+        "user": "Heidy",
+        "text": "stackoverflow.com",
+        "conversation_id": "589",
+        "index": 58
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User on 49 was asking what Stackoverflow was.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

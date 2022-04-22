@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-22T20:33:58.529000",
+        "user": "Preslyn",
+        "text": "i've mainly been dealing with import errors when executing something with `pypy3 <program>.py` instead of `python3 <program>.py`",
+        "conversation_id": "1662",
+        "index": 34
+    },
+    "so_post": {
+        "ts": "2020-10-22T20:36:15.521000",
+        "user": "Kaio",
+        "text": "https://stackoverflow.com/questions/35668460/pypyimporterrornomodulenamedrequests",
+        "conversation_id": "1662",
+        "index": 42
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "import issues gets answer ",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

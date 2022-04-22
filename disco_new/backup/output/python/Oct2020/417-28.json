@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-06T17:36:32.469000",
+        "user": "Admir",
+        "text": "i want to save any error appear in my program into file but how can i do it with logging exactly?",
+        "conversation_id": "417",
+        "index": 24
+    },
+    "so_post": {
+        "ts": "2020-10-06T17:37:41.076000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/6234405/logginguncaughtexceptionsinpython",
+        "conversation_id": "417",
+        "index": 28
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "admir asks question katja provides SO answer ",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

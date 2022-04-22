@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-21T01:28:59.558000",
+        "user": "Stuart",
+        "text": "https://stackoverflow.com/questions/29688846/howdoicreateaborderlesswindowinkivy",
+        "conversation_id": "847",
+        "index": 45
+    },
+    "so_post": {
+        "ts": "2020-02-21T01:28:59.558000",
+        "user": "Stuart",
+        "text": "https://stackoverflow.com/questions/29688846/howdoicreateaborderlesswindowinkivy",
+        "conversation_id": "847",
+        "index": 45
+    },
+    "category": "Question Repost",
+    "comments": "From the post above, it is inferred this is meant to generate conversation about this topic.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

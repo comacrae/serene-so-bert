@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-10T20:29:14.535000",
+        "user": "Angelin",
+        "text": "> Was wondering how people first knew what to do and where to start when they first started programming. Python is my first language and for my first project I want to make a program that will grab my active windows names and how long i've been in there (pretty much an automatic time tracker) but I have no idea where to start in the code. Is it just that I need to google and look at other projects like mine or is it something else?@TheRevTastic Do you know how to do that manually",
+        "conversation_id": "485",
+        "index": 47
+    },
+    "so_post": {
+        "ts": "2020-04-10T20:31:55.176000",
+        "user": "Heidy",
+        "text": "https://stackoverflow.com/questions/2022219/getlistofopenwindowsinpython",
+        "conversation_id": "485",
+        "index": 74
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "The user asked how to obtain the active windows currently running and Heidy replied with a post similar to it",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

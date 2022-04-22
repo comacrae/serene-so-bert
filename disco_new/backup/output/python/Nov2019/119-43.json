@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-04T01:07:47.476000",
+        "user": "Neev",
+        "text": "says I should use `next`",
+        "conversation_id": "119",
+        "index": 44
+    },
+    "so_post": {
+        "ts": "2019-11-04T01:07:41.531000",
+        "user": "Neev",
+        "text": "https://stackoverflow.com/questions/14674275/skipfirstlinefieldinloopusingcsvfile",
+        "conversation_id": "119",
+        "index": 43
+    },
+    "category": "Question Repost",
+    "comments": "issue with skipping first line of csv file",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

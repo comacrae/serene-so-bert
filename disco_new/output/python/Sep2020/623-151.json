@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-09T18:23:54.723000",
+        "user": "Kalu",
+        "text": "how do you check if a name is already in a database?or a string/number",
+        "conversation_id": "623",
+        "index": 150
+    },
+    "so_post": {
+        "ts": "2020-09-09T18:24:30.119000",
+        "user": "Adaira",
+        "text": "@Looka https://stackoverflow.com/questions/27758564/pythonhowtocheckifanentryalreadyexistsinasqldatabase try this",
+        "conversation_id": "623",
+        "index": 151
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Kalu asks questio nand Adaira provides direct SO answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

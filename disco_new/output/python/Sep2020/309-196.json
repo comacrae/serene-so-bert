@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-05T09:08:01.488000",
+        "user": "Niyla",
+        "text": "how would you write a loop so that you could get any combination of 1 2 3 4?",
+        "conversation_id": "309",
+        "index": 193
+    },
+    "so_post": {
+        "ts": "2020-09-05T09:11:23.317000",
+        "user": "Niyla",
+        "text": "like this questionhttps://stackoverflow.com/questions/51111386/combinationswithoutduplicatesofallelementsinpython",
+        "conversation_id": "309",
+        "index": 196
+    },
+    "category": "Question Repost",
+    "comments": "Nilsa has question and is using SO as background",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

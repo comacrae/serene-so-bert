@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-25T20:10:19.787000",
+        "user": "Jatniel",
+        "text": "how can i get the time in sec",
+        "conversation_id": "1251",
+        "index": 34
+    },
+    "so_post": {
+        "ts": "2020-04-25T20:27:11.628000",
+        "user": "Kaiella",
+        "text": "https://stackoverflow.com/questions/1599060/howcanigetanaccurateutctimewithpython",
+        "conversation_id": "1251",
+        "index": 129
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User was having issues obtaining UTC time and after a series of messages Kaiella posted the SO solution to their problem.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

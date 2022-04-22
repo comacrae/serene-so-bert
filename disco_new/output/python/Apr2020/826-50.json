@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-17T12:38:00.252000",
+        "user": "Mckay",
+        "text": "so we're saying `a += b` is inplace but it isn't inplace in the same sense as `extend`?",
+        "conversation_id": "826",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-04-17T12:38:38.898000",
+        "user": "Mckay",
+        "text": "I would refer to this answer <https://stackoverflow.com/a/28119966/12279039> but it fails to bring out that difference",
+        "conversation_id": "826",
+        "index": 50
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Mckay is having troubles understanding extend(), and one of the answers they would like to refer to is missing some information.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

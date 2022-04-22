@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-28T02:43:20.911000",
+        "user": "Rhen",
+        "text": "so in order to implement an interface on something you have to initialize the interface then initialize a struct then set the initialized interface equal to the initialized struct?",
+        "conversation_id": "1781",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-01-28T02:47:13.322000",
+        "user": "Rhen",
+        "text": "reading this https://stackoverflow.com/questions/39092925/whyareinterfacesneededingolang",
+        "conversation_id": "1781",
+        "index": 20
+    },
+    "category": "Question Repost",
+    "comments": "Rhen asking questions and reading SO post as background",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

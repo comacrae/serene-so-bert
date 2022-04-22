@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-06T14:14:39.494000",
+        "user": "Jaquae",
+        "text": "How did you make the background dark?",
+        "conversation_id": "404",
+        "index": 380
+    },
+    "so_post": {
+        "ts": "2020-10-06T14:17:38.627000",
+        "user": "Torianna",
+        "text": "@Kivi https://stackoverflow.com/questions/40595961/howtochangethespydereditorbackgroundtodark",
+        "conversation_id": "404",
+        "index": 403
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "can't include more grouping because the instigator is referring to a screenshot of some code",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

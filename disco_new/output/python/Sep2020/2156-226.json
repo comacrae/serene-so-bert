@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-30T15:37:46.810000",
+        "user": "Nilsa",
+        "text": "alright ty",
+        "conversation_id": "2156",
+        "index": 225
+    },
+    "so_post": {
+        "ts": "2020-09-30T15:37:58.090000",
+        "user": "Sarbjit",
+        "text": "https://stackoverflow.com/questions/1436703/differencebetweenstrandrepr",
+        "conversation_id": "2156",
+        "index": 226
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct q/a",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

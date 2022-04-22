@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-16T20:26:29.028000",
+        "user": "Rainey",
+        "text": "can I output the memory size of a variable directly?",
+        "conversation_id": "494",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-08-16T20:28:16.868000",
+        "user": "Rainey",
+        "text": "https://stackoverflow.com/questions/26975738/howtogetmemorysizeofvariable",
+        "conversation_id": "494",
+        "index": 7
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Rainey asks question and then finds answer from SO themselves",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

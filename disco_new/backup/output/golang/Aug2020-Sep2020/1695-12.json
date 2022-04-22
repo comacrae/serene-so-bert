@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-23T09:08:17.982000",
+        "user": "Sebastien",
+        "text": "Hello yesterday i asked if anyone could help me with my problem my problem is for example: you have a ```start date: 20200101T01:00:00Z end date: 20200801T16:00:00Z intervals: n``` so lets say the intervals is set to 4 (this is a parameter given by the user) so what i wanted to do is i want to slice the time range into 4 smaller time ranges like from 20200101 until 20200228 then from 20200301 until 20200531 etc some told me yesterday get the duration from the 2 timestamps divide it bij intervals and create a slice from each offset well i got the duration from the 2 timestamps ``` dur := t.end.Sub(t.start) fmt.Println(dur)```",
+        "conversation_id": "1695",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-23T09:26:54.403000",
+        "user": "Arlee",
+        "text": "https://stackoverflow.com/questions/54777109/dividingatimedurationingolang",
+        "conversation_id": "1695",
+        "index": 12
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Sebastian asks question and Arlee provides SO answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

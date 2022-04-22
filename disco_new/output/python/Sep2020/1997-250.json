@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-28T13:31:47.820000",
+        "user": "Nilsa",
+        "text": "how do you get the xpath of a element?",
+        "conversation_id": "1997",
+        "index": 215
+    },
+    "so_post": {
+        "ts": "2020-09-28T13:36:13.398000",
+        "user": "Aadhiran",
+        "text": "@Deleted User https://stackoverflow.com/q/29890301",
+        "conversation_id": "1997",
+        "index": 250
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks qusetion and Aadhiran gives direct answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

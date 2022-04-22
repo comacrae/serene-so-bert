@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-06T14:16:19.128000",
+        "user": "Inge",
+        "text": "how do you cast a byte slice to a float32 slice?",
+        "conversation_id": "160",
+        "index": 41
+    },
+    "so_post": {
+        "ts": "2020-05-06T14:22:34.153000",
+        "user": "Gannicus",
+        "text": "here is some 64 bit example code: <https://stackoverflow.com/questions/22491876/convertbytearrayuint8tofloat64ingolang>",
+        "conversation_id": "160",
+        "index": 52
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Inge wants to know how to convert data type",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

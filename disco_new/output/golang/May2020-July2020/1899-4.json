@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-07T07:47:43.524000",
+        "user": "Keyona",
+        "text": "> What i do:I downloaded go2go branch from github go rep as ZIParchive then i'm extract him and go to src and then i use cmd `all.bat`> What i have: I have this error and i don't understand what i need to do:`Building Go cmd/dist using c:\\\\go``go tool dist: FAILED: not a Git repo; must put a VERSION file in $GOROOT`P.S. I have the VERSION file in $GOROOTWhat i should do?",
+        "conversation_id": "1899",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2020-07-07T09:03:38.604000",
+        "user": "Abdullahi",
+        "text": "can this comment help: https://stackoverflow.com/questions/62498725/gotooldistfailednotagitrepomustputaversionfileingoroot#comment110531332_62498725",
+        "conversation_id": "1899",
+        "index": 4
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Keyona has question and abdullahi provides SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

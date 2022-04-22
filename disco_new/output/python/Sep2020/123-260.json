@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-02T21:48:56.623000",
+        "user": "Niyla",
+        "text": "if I wanted to only pick the item that had `'location': 0',`how could I do that?",
+        "conversation_id": "123",
+        "index": 244
+    },
+    "so_post": {
+        "ts": "2020-09-02T21:52:42.928000",
+        "user": "Maat",
+        "text": "@Deleted User you would need a while loop https://stackoverflow.com/questions/14907067/howdoirestartaprogrambasedonuserinput",
+        "conversation_id": "123",
+        "index": 260
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "May require grouping bu Niyali asks question and then Maat provides relevant solution to her question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

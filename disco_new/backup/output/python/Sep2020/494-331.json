@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-07T23:05:49.095000",
+        "user": "Jairus",
+        "text": "> https://stackoverflow.com/questions/20021457/playingmp3songonpython@hmmm do you know if any of those options can have audio files overlapping each other? this is for a digital doorbell chime project",
+        "conversation_id": "494",
+        "index": 331
+    },
+    "so_post": {
+        "ts": "2020-09-07T23:05:49.095000",
+        "user": "Jairus",
+        "text": "> https://stackoverflow.com/questions/20021457/playingmp3songonpython@hmmm do you know if any of those options can have audio files overlapping each other? this is for a digital doorbell chime project",
+        "conversation_id": "494",
+        "index": 331
+    },
+    "category": "Question Repost",
+    "comments": "Jairus using SO source as background for further questions",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

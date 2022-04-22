@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-24T02:31:00.500000",
+        "user": "Hayle",
+        "text": "guys why is it better to use `sys.exit` instead of `quit()`?",
+        "conversation_id": "1160",
+        "index": 22
+    },
+    "so_post": {
+        "ts": "2020-04-24T02:31:54.029000",
+        "user": "Sarvesh",
+        "text": "@\u03b1rc\u0442\u03b9\u0455 https://stackoverflow.com/questions/19747371/pythonexitcommandswhysomanyandwhenshouldeachbeused",
+        "conversation_id": "1160",
+        "index": 25
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

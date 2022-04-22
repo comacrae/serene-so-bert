@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-24T13:09:24.010000",
+        "user": "Jeanelle",
+        "text": "There are _embeddable_ versions of python with all code already compiled to bytecode (.pyc files). What would be a quick way to achieve the same effect?Question got drowned so I reposted it.",
+        "conversation_id": "1454",
+        "index": 39
+    },
+    "so_post": {
+        "ts": "2020-06-24T13:12:25.503000",
+        "user": "Lashay",
+        "text": "https://stackoverflow.com/questions/6578487/initasaconstructor",
+        "conversation_id": "1454",
+        "index": 43
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

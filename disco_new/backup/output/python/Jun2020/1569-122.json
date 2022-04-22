@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-26T13:48:47.989000",
+        "user": "Nyssa",
+        "text": "and no distribution found in pip install sqlite3",
+        "conversation_id": "1569",
+        "index": 113
+    },
+    "so_post": {
+        "ts": "2020-06-26T13:51:08.151000",
+        "user": "Zamariah",
+        "text": "if importing doesnt work try the first google result for `import sqlite3 not working` https://stackoverflow.com/questions/39907475/cannotimportsqlite3inpython3",
+        "conversation_id": "1569",
+        "index": 122
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "nyssa can't install sqlite3 via pip",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

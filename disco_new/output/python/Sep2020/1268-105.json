@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-18T16:39:06.824000",
+        "user": "Caycen",
+        "text": "@pratt ykw happened? Like i did pip install upgrade pip it showed it uninstalled itself and then cause i didnt use the run as administrator thingy it said it couldnt install it in the given location cause it didnt have perms",
+        "conversation_id": "1268",
+        "index": 75
+    },
+    "so_post": {
+        "ts": "2020-09-18T16:41:47.866000",
+        "user": "Wladyslaw",
+        "text": "@boopy https://stackoverflow.com/questions/23708898/pipisnotrecognizedasaninternalorexternalcommand",
+        "conversation_id": "1268",
+        "index": 105
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Cyken asks quesiton about pip and Wladyslaw provides SO post answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

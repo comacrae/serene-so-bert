@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-13T13:52:24.694000",
+        "user": "Vince",
+        "text": "How to stop a py running in a vm by script not ctrl c",
+        "conversation_id": "921",
+        "index": 121
+    },
+    "so_post": {
+        "ts": "2020-10-13T14:07:34.452000",
+        "user": "Sole",
+        "text": "@Mercy. https://stackoverflow.com/questions/11886531/terminatingaprocessstartedwithosexecingolang did u read this?",
+        "conversation_id": "921",
+        "index": 175
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asks question about killing a process without using CTRL C and Sole adds an SO post",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

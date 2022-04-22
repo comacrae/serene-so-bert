@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-25T01:37:55.461000",
+        "user": "Dmya",
+        "text": "@Str\u0153m I don't think you convert an int in a yaml to time.Duration",
+        "conversation_id": "682",
+        "index": 39
+    },
+    "so_post": {
+        "ts": "2020-05-25T01:42:44.454000",
+        "user": "Dmya",
+        "text": "https://stackoverflow.com/questions/49448302/convertinterfacetostruct",
+        "conversation_id": "682",
+        "index": 55
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Dmya says you cant convert and uses SO post to back up claim",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

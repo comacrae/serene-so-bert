@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-03T17:28:35.471000",
+        "user": "Benno",
+        "text": "Hi Need a help on implementing in memory cache data which will holds only \"key & data. Require for faster searching & optimising the CPU percentage. Any example or any implementation will be helpful.Thanks in Advance",
+        "conversation_id": "85",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-03T17:35:18.819000",
+        "user": "Aasha",
+        "text": "https://stackoverflow.com/questions/29677670/whatisthebigoperformanceofmapsingolang",
+        "conversation_id": "85",
+        "index": 37
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Benno asks question and then Aasha says to use map and provides SO post with performance on map",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

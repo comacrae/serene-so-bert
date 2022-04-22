@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-23T15:49:10.251000",
+        "user": "Cyrena",
+        "text": "How hard will it be to create a program that takes a string like \u201c3+24^4(21)\u201d and computes the result? It is quite harder than I thought atm",
+        "conversation_id": "845",
+        "index": 91
+    },
+    "so_post": {
+        "ts": "2019-11-23T15:56:23.154000",
+        "user": "Avilyn",
+        "text": "Here's a few resources: https://stackoverflow.com/a/114601",
+        "conversation_id": "845",
+        "index": 115
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

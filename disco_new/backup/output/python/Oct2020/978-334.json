@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-14T06:53:31.514000",
+        "user": "Imrane",
+        "text": "which best IDE for python?",
+        "conversation_id": "978",
+        "index": 333
+    },
+    "so_post": {
+        "ts": "2020-10-14T06:53:38.701000",
+        "user": "Sole",
+        "text": "@sciencecompliance check this https://stackoverflow.com/questions/18247333/pythonpathonlinux",
+        "conversation_id": "978",
+        "index": 334
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "immediate direct answer to given question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

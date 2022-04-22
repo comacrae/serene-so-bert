@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-24T14:09:23.764000",
+        "user": "Kairy",
+        "text": "https://stackoverflow.com/questions/63941783/howtofindsentenceelementtypesnomatterwhatprogramlanguageweuse",
+        "conversation_id": "1693",
+        "index": 207
+    },
+    "so_post": {
+        "ts": "2020-09-24T14:09:23.764000",
+        "user": "Kairy",
+        "text": "https://stackoverflow.com/questions/63941783/howtofindsentenceelementtypesnomatterwhatprogramlanguageweuse",
+        "conversation_id": "1693",
+        "index": 207
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help (literally their only post in the entire thread",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

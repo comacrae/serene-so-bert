@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-14T22:40:39.887000",
+        "user": "Nyssa",
+        "text": "what's the purpose of the raise keyword in python. Even after reading through this stackoverflow post: https://stackoverflow.com/questions/13957829/howtouseraisekeywordinpython/13957849#13957849 I still don't understand the purpose of raising an error. Is it printing out the error or what?",
+        "conversation_id": "855",
+        "index": 45
+    },
+    "so_post": {
+        "ts": "2020-06-14T22:40:39.887000",
+        "user": "Nyssa",
+        "text": "what's the purpose of the raise keyword in python. Even after reading through this stackoverflow post: https://stackoverflow.com/questions/13957829/howtouseraisekeywordinpython/13957849#13957849 I still don't understand the purpose of raising an error. Is it printing out the error or what?",
+        "conversation_id": "855",
+        "index": 45
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

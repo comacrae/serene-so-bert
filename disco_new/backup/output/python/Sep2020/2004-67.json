@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-28T14:01:29.005000",
+        "user": "Blakley",
+        "text": "I have a file which is like this:robertducksflamingoforkprongpastabeanspiehow can I add s to all of them?likerobertsducksflamingosforksprongspastasbeanspies",
+        "conversation_id": "2004",
+        "index": 62
+    },
+    "so_post": {
+        "ts": "2020-09-28T14:02:49.268000",
+        "user": "Rooney",
+        "text": "https://stackoverflow.com/questions/8249539/pythonhowtoconcatenatetoastringinaforloop",
+        "conversation_id": "2004",
+        "index": 67
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Direct answer to a question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

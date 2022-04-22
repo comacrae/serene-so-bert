@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-09T18:23:54.723000",
+        "user": "Kalu",
+        "text": "how do you check if a name is already in a database?or a string/number",
+        "conversation_id": "623",
+        "index": 150
+    },
+    "so_post": {
+        "ts": "2020-09-09T18:25:37.796000",
+        "user": "Adaira",
+        "text": "try this https://stackoverflow.com/questions/54369494/checkifusernamealreadyexistsindatabasepythonpymongo",
+        "conversation_id": "623",
+        "index": 155
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Kalu asks question and Adaira prvoides another direct answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

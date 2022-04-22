@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-13T15:14:12.255000",
+        "user": "Isacio",
+        "text": "So if I pass a command line flag to my program that looks like a path`test get type report id /reports/interactive/CustomersReport\"`when it gets parsed it gets the path to git prepended... so the value ends up being`C:/Users/djarvis/AppData/Local/Programs/Git/reports/interactive/CustomersReport`",
+        "conversation_id": "1070",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-03-13T15:17:54.888000",
+        "user": "Isacio",
+        "text": "https://stackoverflow.com/questions/39632924/gitbashisaddingitscurrentpathtooneoftheparameter in case anyone hits this",
+        "conversation_id": "1070",
+        "index": 56
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Isacio has question and then finds SO answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

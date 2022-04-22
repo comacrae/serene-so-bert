@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-14T16:02:58.895000",
+        "user": "Leanna",
+        "text": "https://stackoverflow.com/questions/61212065/beautifulsoupsometimesreturnspricesfromamazonandsometimesnot",
+        "conversation_id": "674",
+        "index": 157
+    },
+    "so_post": {
+        "ts": "2020-04-14T16:02:58.895000",
+        "user": "Leanna",
+        "text": "https://stackoverflow.com/questions/61212065/beautifulsoupsometimesreturnspricesfromamazonandsometimesnot",
+        "conversation_id": "674",
+        "index": 157
+    },
+    "category": "Question Repost",
+    "comments": "Because this is the first time the user posted a comment in the chat and the SO post itself doesn't seem to contribute to the conversation what so ever, it seens the user is posting their own SO question asking for help.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

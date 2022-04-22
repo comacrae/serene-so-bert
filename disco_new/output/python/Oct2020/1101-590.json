@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-15T23:05:42.145000",
+        "user": "Danika",
+        "text": "How can o create a function that takes a sentence and adds a  to every blank space",
+        "conversation_id": "1101",
+        "index": 563
+    },
+    "so_post": {
+        "ts": "2020-10-15T23:13:28.858000",
+        "user": "Carin",
+        "text": "@Deleted User https://stackoverflow.com/a/8680110/10295729",
+        "conversation_id": "1101",
+        "index": 590
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Danika wants to know how to change a string in place and they get an SO answer on why you can't do that",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

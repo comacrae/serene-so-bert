@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-15T06:35:57.199000",
+        "user": "Rainey",
+        "text": "so no way to optimize it with goroutine or others? each file I'm dealing with has hundreds of thousands lines",
+        "conversation_id": "448",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-08-15T06:42:32.628000",
+        "user": "Rainey",
+        "text": "https://stackoverflow.com/questions/27217428/readingafileconcurrentlyingolang",
+        "conversation_id": "448",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Rainey finds an SO post which sort-of answers their question abotu speeding up file reading",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

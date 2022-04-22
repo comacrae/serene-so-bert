@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T11:23:54.351000",
+        "user": "Gabi",
+        "text": "is there much overhead on creating a new `p := make([]byte 256)` everytime",
+        "conversation_id": "1497",
+        "index": 34
+    },
+    "so_post": {
+        "ts": "2020-06-23T11:34:20.993000",
+        "user": "Gabi",
+        "text": "https://stackoverflow.com/a/39455193/2768038",
+        "conversation_id": "1497",
+        "index": 44
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Gabi has question and finds SO answer ",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

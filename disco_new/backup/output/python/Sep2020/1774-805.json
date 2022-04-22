@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-25T15:19:00.061000",
+        "user": "Autumnrose",
+        "text": "can u use decorators with `classes`?",
+        "conversation_id": "1774",
+        "index": 795
+    },
+    "so_post": {
+        "ts": "2020-09-25T15:20:19.743000",
+        "user": "Nasiir",
+        "text": "a thread https://stackoverflow.com/questions/681953/howtodecorateaclass",
+        "conversation_id": "1774",
+        "index": 805
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asker has question about decorators and Nasiir posts directly relevant answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

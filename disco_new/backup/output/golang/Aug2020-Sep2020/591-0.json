@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-20T01:48:21.849000",
+        "user": "Mansor",
+        "text": "@Carson whilst searching for a way to convert a waitgroup into a channel to use in a select statement i was wondering if you knew of any simple idiomatic ways to do so?i found this stackoverflow post and if all else i'll probably do what this answer says since it seems to be what i need <https://stackoverflow.com/a/61186832/3780113>",
+        "conversation_id": "591",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-20T01:48:21.849000",
+        "user": "Mansor",
+        "text": "@Carson whilst searching for a way to convert a waitgroup into a channel to use in a select statement i was wondering if you knew of any simple idiomatic ways to do so?i found this stackoverflow post and if all else i'll probably do what this answer says since it seems to be what i need <https://stackoverflow.com/a/61186832/3780113>",
+        "conversation_id": "591",
+        "index": 0
+    },
+    "category": "Validating Solution",
+    "comments": "Mansor double checking that their solution they found in SO is the best way to go",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

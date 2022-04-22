@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-14T02:30:13.706000",
+        "user": "Nilsa",
+        "text": "so how would i use subprocess?",
+        "conversation_id": "938",
+        "index": 217
+    },
+    "so_post": {
+        "ts": "2020-09-14T02:41:12.196000",
+        "user": "Ubaldo",
+        "text": "@Deleted User sorry it's been a while since I've done something like that and don't have any good standalone examples in my projects this should get you on the right track though: https://stackoverflow.com/questions/18421757/liveoutputfromsubprocesscommand",
+        "conversation_id": "938",
+        "index": 219
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks how to use subprocess and Ubaldo provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

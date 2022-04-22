@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-04T16:15:43.153000",
+        "user": "Blesyn",
+        "text": "Traceback (most recent call last): File C:/Users/user/PycharmProjects/WebScraping/panddas.py line 1 in <module> import pandas File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandasinit.py line 55 in <module> from pandas.core.api import ( File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandas\\\\core\\\\api.py line 29 in <module> from pandas.core.groupby import Grouper NamedAgg File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandas\\\\core\\\\groupbyinit.py line 1 in <module> from pandas.core.groupby.generic import DataFrameGroupBy NamedAgg SeriesGroupBy File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandas\\\\core\\\\groupby\\\\generic.py line 60 in <module> from pandas.core.frame import DataFrame File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandas\\\\core\\\\frame.py line 124 in <module> from pandas.core.series import Series File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandas\\\\core\\\\series.py line 4572 in <module> Series._add_series_or_dataframe_operations() File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandas\\\\core\\\\generic.py line 10349 in _add_series_or_dataframe_operations from pandas.core.window import EWM Expanding Rolling Window File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandas\\\\core\\\\windowinit.py line 1 in <module> from pandas.core.window.ewm import EWM # noqa:F401 File C:\\\\Users\\\\user\\\\AppData\\\\Roaming\\\\Python\\\\Python37\\\\sitepackages\\\\pandas\\\\core\\\\window\\\\ewm.py line 5 in <module> import pandas._libs.window.aggregations as window_aggregationsImportError: DLL load failed: The specified module could not be found.this is what i\\'m gettingcan someone help me why i am getting error?",
+        "conversation_id": "220",
+        "index": 80
+    },
+    "so_post": {
+        "ts": "2020-06-04T16:16:25.055000",
+        "user": "Aaryahi",
+        "text": "@ambushneupane If you are running Python 3.7.5 you may need to use an older version of pandas according to https://stackoverflow.com/questions/60767017/importerrordllloadfailedwhileimportingaggregationsthespecifiedmodule",
+        "conversation_id": "220",
+        "index": 82
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

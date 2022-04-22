@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-24T12:30:21.844000",
+        "user": "Nilsa",
+        "text": "that i cant download pyaudio i installed the visual c++ thingy and still it comes that sheel failed to do something somethign wait lemme show u the error",
+        "conversation_id": "1687",
+        "index": 168
+    },
+    "so_post": {
+        "ts": "2020-09-24T12:31:53.938000",
+        "user": "Wladyslaw",
+        "text": "https://stackoverflow.com/questions/53866104/pyaudiofailedtoinstallwindows10 @Deleted User",
+        "conversation_id": "1687",
+        "index": 173
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asker describes error and wladyslaw posts answer ",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

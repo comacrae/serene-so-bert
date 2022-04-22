@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-05T13:15:06.222000",
+        "user": "Oukacha",
+        "text": "im new to python and im reading the pep8 and i didnt understand somethingi should do```pyif foo:```instead of```pyif foo is not None:```or the opposite?",
+        "conversation_id": "332",
+        "index": 9
+    },
+    "so_post": {
+        "ts": "2020-10-05T13:23:14.450000",
+        "user": "Saqib",
+        "text": "> should be > ```py> while need_parsing:> ```@mis I think it should be as this. https://stackoverflow.com/a/53522/9528291",
+        "conversation_id": "332",
+        "index": 26
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ouicha asks question and includes the last part which is quoted but the actual question is the instigating message",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

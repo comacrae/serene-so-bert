@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-22T11:19:37.119000",
+        "user": "Gilen",
+        "text": "_Putting letters in the right order helps _",
+        "conversation_id": "901",
+        "index": 83
+    },
+    "so_post": {
+        "ts": "2020-02-22T11:36:25.018000",
+        "user": "Ned",
+        "text": "<https://stackoverflow.com/questions/4632322/findingallpossiblecombinationsofnumberstoreachagivensum>",
+        "conversation_id": "901",
+        "index": 86
+    },
+    "category": "Question Repost",
+    "comments": "Seems like they were reposting a question.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

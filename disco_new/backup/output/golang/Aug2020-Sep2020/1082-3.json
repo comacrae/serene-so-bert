@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T21:40:19.128000",
+        "user": "Kennya",
+        "text": "I\\'m creating a cobra/viper CLI application... it looks like a subcommand PreRun is executed prior to the global root `initConfig()` where viper configuration is initialized?I was trying to verify flags are set correctly in my PreRun function but it looks like I cannot do this?",
+        "conversation_id": "1082",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-03T21:45:57.450000",
+        "user": "Kennya",
+        "text": "@supermew10 https://stackoverflow.com/questions/38094555/golangreadosstdininputbutdontechoit",
+        "conversation_id": "1082",
+        "index": 3
+    },
+    "category": "Question Repost",
+    "comments": "Kennya asks question and uses SO post as background",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-16T05:12:39.820000",
+        "user": "Naksh",
+        "text": "yo are there any function in turtle that can show me converted rgb value from the color name?```pyfillcolor('red')```to```pyfillcolor(255 0 0)```",
+        "conversation_id": "1095",
+        "index": 23
+    },
+    "so_post": {
+        "ts": "2020-09-16T05:14:54.876000",
+        "user": "Atiq",
+        "text": "https://stackoverflow.com/questions/51350872/pythonfromcolornametorgb",
+        "conversation_id": "1095",
+        "index": 32
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Naksh asks how to chang ecolor and Atiq provides answers",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

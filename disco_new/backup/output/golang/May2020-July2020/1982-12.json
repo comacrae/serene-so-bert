@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-09T13:41:35.365000",
+        "user": "Joshlynn",
+        "text": "is there a simple tool to locate a port that is open? no trial and error",
+        "conversation_id": "1982",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-09T13:43:44.909000",
+        "user": "Annetta",
+        "text": "https://stackoverflow.com/a/43425461",
+        "conversation_id": "1982",
+        "index": 12
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "joshlynn has question and Annetta has answer in SO post",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T16:47:02.953000",
+        "user": "Lashay",
+        "text": "https://stackoverflow.com/questions/61183558/weirddiscrepancybetweenaiohttpandrequests I will never not be mad over this",
+        "conversation_id": "1396",
+        "index": 281
+    },
+    "so_post": {
+        "ts": "2020-06-23T16:47:02.953000",
+        "user": "Lashay",
+        "text": "https://stackoverflow.com/questions/61183558/weirddiscrepancybetweenaiohttpandrequests I will never not be mad over this",
+        "conversation_id": "1396",
+        "index": 281
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

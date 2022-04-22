@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-13T17:09:33.861000",
+        "user": "Hridhaan",
+        "text": "guys when i try to import an icon in tkinter it gives error. Can you help me?",
+        "conversation_id": "779",
+        "index": 64
+    },
+    "so_post": {
+        "ts": "2020-06-13T17:10:52.493000",
+        "user": "Marin",
+        "text": "https://stackoverflow.com/questions/29973246/usingtkintercommandiconbitmaptosetwindowicon",
+        "conversation_id": "779",
+        "index": 69
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

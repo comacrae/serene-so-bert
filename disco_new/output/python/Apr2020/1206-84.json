@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-24T23:37:21.652000",
+        "user": "Daysi",
+        "text": "im up for anyone giving me lessons? im 13 ig i can call if u want",
+        "conversation_id": "1206",
+        "index": 74
+    },
+    "so_post": {
+        "ts": "2020-04-24T23:46:20.321000",
+        "user": "Sohail",
+        "text": "https://stackoverflow.com/questions/61418661/howtoprinthelloworldusingpython27",
+        "conversation_id": "1206",
+        "index": 84
+    },
+    "category": "Debugging Solution",
+    "comments": "From the context in the target message, it seems the Daysi is receving help from Sohail on how to program on Python through voice call and that's somehow related to it.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

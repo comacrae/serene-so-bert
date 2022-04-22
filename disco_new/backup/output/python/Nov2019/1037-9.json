@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-29T04:22:21.909000",
+        "user": "Sigitas",
+        "text": "```Exception in Tkinter callbackTraceback (most recent call last): File C:\\\\Users\\\\qo690\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python38\\\\lib\\\\tkinter\\\\__init__.py line 1883 in __call__ return self.func(args) File C:\\\\Users\\\\qo690\\\\OneDrive\\\\Desktop\\\\1.py line 14 in q self.f[\"text\"]=self.s.get()TypeError: \\'NoneType\\ object does not support item assignment```",
+        "conversation_id": "1037",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2019-11-29T04:26:41.696000",
+        "user": "Hafed",
+        "text": "https://stackoverflow.com/q/2792650/2038264",
+        "conversation_id": "1037",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "sigitas's only message in thread before so post",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

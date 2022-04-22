@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-20T11:38:24.965000",
+        "user": "Juno",
+        "text": "Can you just set the bar value inside of the struct when defining it?",
+        "conversation_id": "606",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-08-20T11:40:52.789000",
+        "user": "Yufan",
+        "text": "https://stackoverflow.com/questions/37135193/howtosetdefaultvaluesingostructs",
+        "conversation_id": "606",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Juno asks question and Yufan provides answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

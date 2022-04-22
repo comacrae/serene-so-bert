@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T01:17:13.371000",
+        "user": "Etziel",
+        "text": "how do i get an image from a youtube linklike the thumbnail ig",
+        "conversation_id": "708",
+        "index": 199
+    },
+    "so_post": {
+        "ts": "2020-09-11T01:19:42.441000",
+        "user": "Xinping",
+        "text": "@Mystik <https://stackoverflow.com/a/2108248> and here's an example",
+        "conversation_id": "708",
+        "index": 203
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asks question about youtube and Xinping provides SO post answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

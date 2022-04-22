@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-12T10:34:06.609000",
+        "user": "Shamiyah",
+        "text": "I've managed to change my GOPATH in this current project in vscode via project specific settings.So then I can import my package which exists in a subfolder.I want to do this without uploading this subpackage to github/similar I hope that's still following convention.Problem is I can't use any external package (3rd party from github for example) if I change the GOPATH.Can you use multiple GOPATHs somehow?",
+        "conversation_id": "784",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2019-12-12T10:35:12.439000",
+        "user": "Shaya",
+        "text": "yes https://stackoverflow.com/questions/36017724/canihavemultiplegopathdirectories",
+        "conversation_id": "784",
+        "index": 7
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Shamiyah asks question and Shaya provides direct SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

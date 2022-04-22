@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-19T19:25:47.665000",
+        "user": "Davinci",
+        "text": "`{'gold chest': {'mora': 0 gems': 0'} silver chest': {'mora': 0 gems': 1'}}` how can i get the name of the chest the mora and the gems out of this dictionary?",
+        "conversation_id": "1416",
+        "index": 19
+    },
+    "so_post": {
+        "ts": "2020-10-19T19:31:48.120000",
+        "user": "Kaio",
+        "text": "it's honestly probably easier to just manipulate it as JSON instead of dealing with nested dicts check out https://stackoverflow.com/questions/51788550/parsingjsonnesteddictionaryusingpython and you can probably find some useful stuff @moanie",
+        "conversation_id": "1416",
+        "index": 53
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Davinci gets answer about manipulating JSON then dealing with nested dict",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

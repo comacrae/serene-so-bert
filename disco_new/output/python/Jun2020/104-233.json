@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-02T16:22:51.938000",
+        "user": "Mahmoud",
+        "text": "@Skynse ThanksHave any idea about this now? WARNING: The scripts pip pip2 and pip2.7 are installed in /Users/Bpower/Library/Python/2.7/bin which is not on PATH. Consider adding this directory to PATH or if you prefer to suppress this warning use nowarnscriptlocation.",
+        "conversation_id": "104",
+        "index": 170
+    },
+    "so_post": {
+        "ts": "2020-06-02T16:32:39.561000",
+        "user": "Kamon",
+        "text": "@BrianSBoros7 https://stackoverflow.com/questions/14637979/howtopermanentlysetpathonlinuxunix",
+        "conversation_id": "104",
+        "index": 233
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

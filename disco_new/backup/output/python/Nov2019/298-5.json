@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-09T02:37:57.081000",
+        "user": "Pollyanna",
+        "text": "I'm looking at sources of major python packages and learning its architecture. I'm noticing a trend of package `./utils/compat.py` for example. Is there a place where they teach you all conventional way to create robust code architecture?",
+        "conversation_id": "298",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2019-11-09T02:47:24.530000",
+        "user": "Pollyanna",
+        "text": "https://stackoverflow.com/questions/58760984/isthereawaytogettensorflowtoworkwithpython2717#comment103814274_58760984",
+        "conversation_id": "298",
+        "index": 5
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

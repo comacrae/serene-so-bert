@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-30T19:59:18.690000",
+        "user": "Modibo",
+        "text": "what's the easiest way to retain cookies from a http session in go?",
+        "conversation_id": "1132",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-30T20:07:15.527000",
+        "user": "Marva",
+        "text": "https://stackoverflow.com/questions/12756782/gohttppostandusecookies/19386573",
+        "conversation_id": "1132",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Modibo asks question and Marva provides SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

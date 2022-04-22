@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-06T23:45:30.657000",
+        "user": "Pollyanna",
+        "text": "how do i clear the console in python using code",
+        "conversation_id": "226",
+        "index": 46
+    },
+    "so_post": {
+        "ts": "2019-11-06T23:47:45.875000",
+        "user": "Silvano",
+        "text": "<https://stackoverflow.com/a/2084628> probably easiest way",
+        "conversation_id": "226",
+        "index": 54
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

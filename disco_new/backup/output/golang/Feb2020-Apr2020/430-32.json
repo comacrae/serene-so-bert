@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-18T09:28:19.922000",
+        "user": "Jamyiah",
+        "text": "I imported my private github repo  like this github.com/username/repo but now I'm in dev branch",
+        "conversation_id": "430",
+        "index": 23
+    },
+    "so_post": {
+        "ts": "2020-02-18T09:32:45.086000",
+        "user": "Aduen",
+        "text": "https://stackoverflow.com/questions/32232655/gogetresultsinterminalpromptsdisablederrorforgithubprivaterepo",
+        "conversation_id": "430",
+        "index": 32
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jamyiah asks question and Aduen provides answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

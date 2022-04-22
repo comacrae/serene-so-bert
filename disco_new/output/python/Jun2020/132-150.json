@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-03T03:19:17.645000",
+        "user": "Burton",
+        "text": "Guys can you check https://stackoverflow.com/questions/62150908/imaplibisgivingerrorsofbrokenpipe",
+        "conversation_id": "132",
+        "index": 150
+    },
+    "so_post": {
+        "ts": "2020-06-03T03:19:17.645000",
+        "user": "Burton",
+        "text": "Guys can you check https://stackoverflow.com/questions/62150908/imaplibisgivingerrorsofbrokenpipe",
+        "conversation_id": "132",
+        "index": 150
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

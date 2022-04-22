@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-21T22:51:39.320000",
+        "user": "Jaxie",
+        "text": "Does a folder in my package have to be classified as a subpackage in order to import things from it?",
+        "conversation_id": "1602",
+        "index": 34
+    },
+    "so_post": {
+        "ts": "2020-10-21T22:56:40.776000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/448271/whatisinitpyfor",
+        "conversation_id": "1602",
+        "index": 69
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jaxie asks about importing and Katja provides answer regarding init",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

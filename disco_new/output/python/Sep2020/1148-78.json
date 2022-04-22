@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-17T01:30:24.491000",
+        "user": "Delayla",
+        "text": "can someone help me convert python script to exe file",
+        "conversation_id": "1148",
+        "index": 77
+    },
+    "so_post": {
+        "ts": "2020-09-17T01:31:39.035000",
+        "user": "Sarbjit",
+        "text": "https://stackoverflow.com/questions/5458048/howcanimakeapythonscriptstandaloneexecutabletorunwithoutanydependen",
+        "conversation_id": "1148",
+        "index": 78
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer for given question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-11T16:00:43.449000",
+        "user": "Torianna",
+        "text": "umm...i wanna know how to create a nested list like i have a data in a list i want the first 7 datas to be separtated in one list another 7 in anotyher list something like that",
+        "conversation_id": "778",
+        "index": 667
+    },
+    "so_post": {
+        "ts": "2020-10-11T16:04:27.593000",
+        "user": "Hogan",
+        "text": "@Deleted User\\u1cbc https://stackoverflow.com/a/312464",
+        "conversation_id": "778",
+        "index": 679
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Torianna asks a qustion about splitting lists evenly and Hogan provides a direct SO answer about slplitting",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

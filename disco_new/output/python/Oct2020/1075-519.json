@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-15T17:06:35.468000",
+        "user": "Dahiana",
+        "text": "how can i make a mute command can anyone give me some site where it explains it????",
+        "conversation_id": "1075",
+        "index": 504
+    },
+    "so_post": {
+        "ts": "2020-10-15T17:09:08.629000",
+        "user": "Rupert",
+        "text": "@\ud835\udd46\ud835\udd5d\ud835\udd5a\ud835\udd67\ud835\udd56\ud835\udd63 https://stackoverflow.com/questions/48753630/discordpyhowtoaddmutecommand",
+        "conversation_id": "1075",
+        "index": 519
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Dariana wants to get a mute command and Rupert sends them a direct SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-05T01:49:15.849000",
+        "user": "Khepri",
+        "text": "embedding with discord.py how do i do it",
+        "conversation_id": "294",
+        "index": 256
+    },
+    "so_post": {
+        "ts": "2020-09-05T01:49:33.349000",
+        "user": "Tayion",
+        "text": "> embedding with discord.py how do i do it@ModX <https://stackoverflow.com/questions/47515361/uploadanembedimage>",
+        "conversation_id": "294",
+        "index": 257
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct question and direct answer immediately following (also has tag)",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

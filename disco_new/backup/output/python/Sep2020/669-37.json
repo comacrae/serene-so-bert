@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-10T11:44:48.753000",
+        "user": "Xinping",
+        "text": "<https://stackoverflow.com/questions/16869024/whatispycache>",
+        "conversation_id": "669",
+        "index": 37
+    },
+    "so_post": {
+        "ts": "2020-09-10T11:44:48.753000",
+        "user": "Xinping",
+        "text": "<https://stackoverflow.com/questions/16869024/whatispycache>",
+        "conversation_id": "669",
+        "index": 37
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User doesn't know what pycache is so Xingping replies with SO post explaining pycache",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

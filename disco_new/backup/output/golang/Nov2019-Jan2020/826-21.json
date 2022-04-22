@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-14T17:55:19.483000",
+        "user": "Raaga",
+        "text": "why do I need to do so many code? ``` m[\"f\"].(func(string))(\"astring\")``` Why can\\'t I juist m[\"f\"](\"string\") ?",
+        "conversation_id": "826",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-14T19:07:10.124000",
+        "user": "Raaga",
+        "text": "https://stackoverflow.com/a/6770333/7415288",
+        "conversation_id": "826",
+        "index": 21
+    },
+    "category": "Question Repost",
+    "comments": "Raaga using SO post as background",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

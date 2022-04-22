@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T17:33:25.507000",
+        "user": "Amany",
+        "text": "```func makeEvenGenerator() func() uint { i := uint(0) return func() (ret uint) { ret = i i += 2 return }}func main() { nextEven := makeEvenGenerator() fmt.Println(nextEven()) // 0 fmt.Println(nextEven()) // 2 fmt.Println(nextEven()) // 4}```Can someone please help me understand why the output is 0 2 4. My guess was that output should be 2 2 2 because at every instance of ``nextEven()`` i is set to zero and incremented by 2.",
+        "conversation_id": "1311",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-11T17:44:38.067000",
+        "user": "Anslee",
+        "text": "@shakuni https://stackoverflow.com/questions/36636/whatisaclosure",
+        "conversation_id": "1311",
+        "index": 8
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Amany asks question and Anslee provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

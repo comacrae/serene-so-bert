@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-06T12:26:39.065000",
+        "user": "Chadi",
+        "text": "Does anyone know how to have multinested subrouters with mux and negroni? I'm able to have singledepth but having more doesn't seem to work eg:",
+        "conversation_id": "894",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-03-06T13:03:40.080000",
+        "user": "Hayat",
+        "text": "<https://stackoverflow.com/questions/29575972/nestingsubroutersingorillamux>",
+        "conversation_id": "894",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Chadi asks question and Hayat provides answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

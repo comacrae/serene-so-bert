@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-02T21:13:39.531000",
+        "user": "Aquinnah",
+        "text": "What does `MAC check failed` mean?",
+        "conversation_id": "144",
+        "index": 146
+    },
+    "so_post": {
+        "ts": "2020-10-02T21:14:19.841000",
+        "user": "Torianna",
+        "text": "https://stackoverflow.com/questions/48616390/pycryptodomeerrormaccheckfailed",
+        "conversation_id": "144",
+        "index": 153
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asks what error means and Torianna provides SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-26T13:10:03.615000",
+        "user": "Sheina",
+        "text": "I just asked a question on SO would be great if somebody could help https://stackoverflow.com/questions/59488921/pyqtqtwebengineviewloadspageonwindowsbutnotonmacosusingsamecondaen",
+        "conversation_id": "925",
+        "index": 78
+    },
+    "so_post": {
+        "ts": "2019-12-26T13:10:03.615000",
+        "user": "Sheina",
+        "text": "I just asked a question on SO would be great if somebody could help https://stackoverflow.com/questions/59488921/pyqtqtwebengineviewloadspageonwindowsbutnotonmacosusingsamecondaen",
+        "conversation_id": "925",
+        "index": 78
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

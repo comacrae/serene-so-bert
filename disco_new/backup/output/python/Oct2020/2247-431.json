@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T20:21:26.295000",
+        "user": "Gryffin",
+        "text": "if price1.text =< order_price: ^SyntaxError: invalid syntax whats the problem \ud83d\ude26",
+        "conversation_id": "2247",
+        "index": 423
+    },
+    "so_post": {
+        "ts": "2020-10-30T20:30:51.281000",
+        "user": "Gryffin",
+        "text": "link https://stackoverflow.com/questions/11067404/howtoexportuserinputsfrompythontoexcelworksheet",
+        "conversation_id": "2247",
+        "index": 431
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

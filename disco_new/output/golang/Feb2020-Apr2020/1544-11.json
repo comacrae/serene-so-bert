@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-31T02:54:47.147000",
+        "user": "Vaden",
+        "text": "no I mean what's the memory layout of the returned function with that `data` upvalue (idk what upvalues are called in Go) ?",
+        "conversation_id": "1544",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-03-31T02:56:33.775000",
+        "user": "Jkari",
+        "text": "https://stackoverflow.com/questions/51489323/howaregoclosureslayedoutinmemory :Thonk:",
+        "conversation_id": "1544",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Vaden asks question and jakari provides answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-19T02:24:19.216000",
+        "user": "Taleyah",
+        "text": "anyone know django feel free to give some feedback https://stackoverflow.com/questions/64420233/howcanicreateamodelviewsetformycustomerandordermodelsindjango",
+        "conversation_id": "1347",
+        "index": 159
+    },
+    "so_post": {
+        "ts": "2020-10-19T02:24:19.216000",
+        "user": "Taleyah",
+        "text": "anyone know django feel free to give some feedback https://stackoverflow.com/questions/64420233/howcanicreateamodelviewsetformycustomerandordermodelsindjango",
+        "conversation_id": "1347",
+        "index": 159
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

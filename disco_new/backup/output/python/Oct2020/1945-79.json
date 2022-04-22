@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-26T23:33:57.040000",
+        "user": "Torianna",
+        "text": "so i want it that everytime someone says this command it plays an mp3 video how do i make that happen?",
+        "conversation_id": "1945",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2020-10-26T23:35:03.114000",
+        "user": "Rovin",
+        "text": "https://stackoverflow.com/questions/36634807/howdoiopenanmp4videofilewithpython",
+        "conversation_id": "1945",
+        "index": 79
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct So answer to given q",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

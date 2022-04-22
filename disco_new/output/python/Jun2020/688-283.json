@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-12T09:28:53.873000",
+        "user": "Nyssa",
+        "text": "@Xithrius I have a genuine question is python limited to RAII?",
+        "conversation_id": "688",
+        "index": 268
+    },
+    "so_post": {
+        "ts": "2020-06-12T09:31:35.915000",
+        "user": "Elea",
+        "text": "@Deleted User https://stackoverflow.com/a/5071376 this may answer your question about RAII",
+        "conversation_id": "688",
+        "index": 283
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

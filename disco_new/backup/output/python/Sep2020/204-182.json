@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T23:46:14.821000",
+        "user": "Dovber",
+        "text": "> @Led you've got two `datetime` values one of which has timezone information and the other not. If you want to work with them they either both have to have timezone information or both have timezone information stripped@Infinimata I really don't know how to do that",
+        "conversation_id": "204",
+        "index": 138
+    },
+    "so_post": {
+        "ts": "2020-09-03T23:49:31.526000",
+        "user": "Nasiir",
+        "text": "@Led https://stackoverflow.com/questions/7986776/howdoyouconvertanaivedatetimetodstawaredatetimeinpython",
+        "conversation_id": "204",
+        "index": 182
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Dovber has question about converting something and this is the answer they get and they later say \"thank you\"",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

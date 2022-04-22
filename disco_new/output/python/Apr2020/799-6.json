@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-16T23:05:07.260000",
+        "user": "Starlah",
+        "text": "is the mysql python connector synchronous only?",
+        "conversation_id": "799",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-04-16T23:22:16.230000",
+        "user": "Starlah",
+        "text": "https://stackoverflow.com/questions/54685210/callingsyncfunctionsfromasyncfunction",
+        "conversation_id": "799",
+        "index": 6
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "User found what seems to be the answer to their own question.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

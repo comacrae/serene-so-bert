@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-04T19:51:02.865000",
+        "user": "Addalee",
+        "text": "> like you read from stdin write that to the ws > read from ws and write to stdin@Madxmike mhm. But whats the usual practice?",
+        "conversation_id": "968",
+        "index": 389
+    },
+    "so_post": {
+        "ts": "2020-06-04T19:51:03.117000",
+        "user": "Thais",
+        "text": "https://stackoverflow.com/questions/37891280/goroutinetimesleeportimeafter",
+        "conversation_id": "968",
+        "index": 390
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "They want to know usual practice and Thais provides directly relevant answer via SO",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

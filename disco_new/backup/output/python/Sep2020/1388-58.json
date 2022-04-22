@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T04:58:25.793000",
+        "user": "Mariya",
+        "text": "is `==` and `is` same thing?",
+        "conversation_id": "1388",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-09-20T05:16:25.709000",
+        "user": "Sarbjit",
+        "text": "https://stackoverflow.com/questions/15171695/whatswiththeintegercachemaintainedbytheinterpreter",
+        "conversation_id": "1388",
+        "index": 58
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Mariya has question and Sarbjit provides SO post answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

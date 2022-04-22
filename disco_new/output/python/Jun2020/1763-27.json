@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-29T23:49:07.116000",
+        "user": "Angel",
+        "text": "is there some way to upgrade every pip module at once?",
+        "conversation_id": "1763",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-06-29T23:58:52.459000",
+        "user": "Makaiyah",
+        "text": "https://stackoverflow.com/questions/47071256/howtoupdateupgradeapackageusingpiphttps://stackoverflow.com/questions/47071256/howtoupdateupgradeapackageusingpip",
+        "conversation_id": "1763",
+        "index": 27
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

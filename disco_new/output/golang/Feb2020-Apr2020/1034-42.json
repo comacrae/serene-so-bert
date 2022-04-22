@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-12T04:37:11.391000",
+        "user": "Corrine",
+        "text": "So I have a login route and when the client posts a valid user name and password to the the `/login` then they should be redirected to the index `/` to display the actual page. However I don't have a post method exposed for the `/` route. So when I redirect them the method stays the same and they get a 405 from the server. Is there a way to redirect them and change the method to a GET? Or should I just accept POST requests on the `/` route to allow them in?",
+        "conversation_id": "1034",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-03-12T05:11:28.468000",
+        "user": "Jkari",
+        "text": "308 is permanent https://stackoverflow.com/questions/42136829/whatsthedifferencebetweenhttp301and308statuscodes",
+        "conversation_id": "1034",
+        "index": 42
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Corrine asks question about 301 v 308 and Jkari provides answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

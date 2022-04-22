@@ -1,0 +1,1826 @@
+<discord>
+<team_domain>Clojurians</team_domain>
+<channel_name>clojure</channel_name>
+<start_date>2020-08-01T14:31:40.017000</start_date>
+<end_date>2020-10-25T03:22:35.633000</end_date>
+<message>
+  <ts>2020-08-01T14:31:40.017000</ts>
+  <user>Aleck</user>
+  <text>do you guys know of a clojure standalone db lib ?</text>
+</message>
+<message>
+  <ts>2020-08-01T14:57:54.613000</ts>
+  <user>Tashon</user>
+  <text>Wdym by standalone</text>
+</message>
+<message>
+  <ts>2020-08-01T21:39:16.829000</ts>
+  <user>Oxford</user>
+  <text>also what db type</text>
+</message>
+<message>
+  <ts>2020-08-02T09:28:39.949000</ts>
+  <user>Aleck</user>
+  <text>@Johnny I'm planning to write a small application in a sensitive office floor on which I probably wont be able to install mysql / postgres or similar you see ?</text>
+</message>
+<message>
+  <ts>2020-08-02T09:28:59.911000</ts>
+  <user>Aleck</user>
+  <text>so far all I have by default is java se 1.6</text>
+</message>
+<message>
+  <ts>2020-08-02T09:29:00.317000</ts>
+  <user>Tashon</user>
+  <text>So you're looking for an embeddable database</text>
+</message>
+<message>
+  <ts>2020-08-02T09:29:12.266000</ts>
+  <user>Aleck</user>
+  <text>yeah</text>
+</message>
+<message>
+  <ts>2020-08-02T09:29:26.797000</ts>
+  <user>Aleck</user>
+  <text>and any persistent db is alright to me I'll manage</text>
+</message>
+<message>
+  <ts>2020-08-02T09:29:49.836000</ts>
+  <user>Aleck</user>
+  <text>I stepped on the line fetching clojure and core.logic jars</text>
+</message>
+<message>
+  <ts>2020-08-02T09:30:05.204000</ts>
+  <user>Tashon</user>
+  <text>SQLite with next.jdbc would perhaps be an option</text>
+</message>
+<message>
+  <ts>2020-08-02T09:30:05.461000</ts>
+  <user>Aleck</user>
+  <text>(and sqlite binary too)</text>
+</message>
+<message>
+  <ts>2020-08-02T09:30:13.454000</ts>
+  <user>Tashon</user>
+  <text>Or datahike which can be file based</text>
+</message>
+<message>
+  <ts>2020-08-02T09:31:36.492000</ts>
+  <user>Aleck</user>
+  <text>I see next.jdbc has no external dependency which is good</text>
+</message>
+<message>
+  <ts>2020-08-02T09:31:50.106000</ts>
+  <user>Aleck</user>
+  <text>the less jars the better I suppose</text>
+</message>
+<message>
+  <ts>2020-08-02T09:32:00.944000</ts>
+  <user>Tashon</user>
+  <text>Well you'd need the sqlite driver additionally</text>
+</message>
+<message>
+  <ts>2020-08-02T09:32:28.555000</ts>
+  <user>Aleck</user>
+  <text>damn yeah I forgot</text>
+</message>
+<message>
+  <ts>2020-08-02T09:32:58.744000</ts>
+  <user>Aleck</user>
+  <text>unless I develop it locally and make a single uberjar with whatever is required</text>
+</message>
+<message>
+  <ts>2020-08-02T09:33:59.546000</ts>
+  <user>Aleck</user>
+  <text>I think I will go with datahike</text>
+</message>
+<message>
+  <ts>2020-08-02T09:34:32.953000</ts>
+  <user>Aleck</user>
+  <text>it's not a large thing ~10 users low frequency and low amounts of data</text>
+</message>
+<message>
+  <ts>2020-08-02T09:37:13.447000</ts>
+  <user>Tashon</user>
+  <text>Then it may also be sufficient to just `pr` clojure data structures directly to files</text>
+</message>
+<message>
+  <ts>2020-08-02T09:46:31.690000</ts>
+  <user>Aleck</user>
+  <text>as in zero libs ?</text>
+</message>
+<message>
+  <ts>2020-08-02T09:46:46.292000</ts>
+  <user>Aleck</user>
+  <text>I like the idea of learning datalog so datahike appeals to me</text>
+</message>
+<message>
+  <ts>2020-08-02T10:01:08.631000</ts>
+  <user>Tashon</user>
+  <text>&gt; as in zero libs ?@agumonkey yes</text>
+</message>
+<message>
+  <ts>2020-08-02T10:01:31.879000</ts>
+  <user>Tashon</user>
+  <text>on such a low scale pretty much any database is overkill</text>
+</message>
+<message>
+  <ts>2020-08-02T10:01:45.124000</ts>
+  <user>Aleck</user>
+  <text>but I need history</text>
+</message>
+<message>
+  <ts>2020-08-02T10:01:49.072000</ts>
+  <user>Aleck</user>
+  <text>and datahike has that built in</text>
+</message>
+<message>
+  <ts>2020-08-02T10:01:53.992000</ts>
+  <user>Tashon</user>
+  <text>but if you wanna learn datalog and it's in the range of your possibilities then go for it</text>
+</message>
+<message>
+  <ts>2020-08-02T10:02:23.121000</ts>
+  <user>Aleck</user>
+  <text>(I didn't know that before I read the github intro)</text>
+</message>
+<message>
+  <ts>2020-08-02T10:18:07.262000</ts>
+  <user>Tashon</user>
+  <text>http://www.learndatalogtoday.org/</text>
+</message>
+<message>
+  <ts>2020-08-02T10:18:30.312000</ts>
+  <user>Tashon</user>
+  <text>recommendable</text>
+</message>
+<message>
+  <ts>2020-08-02T14:23:13.562000</ts>
+  <user>Emersen</user>
+  <text>java 1.6 isn't supported past clojure 1.7</text>
+</message>
+<message>
+  <ts>2020-08-02T14:23:56.443000</ts>
+  <user>Emersen</user>
+  <text>for pure clojure look at datahike if you're willing to learn datalog</text>
+</message>
+<message>
+  <ts>2020-08-02T14:24:41.775000</ts>
+  <user>Emersen</user>
+  <text>i see johnny mentioned it already</text>
+</message>
+<message>
+  <ts>2020-08-02T14:26:25.592000</ts>
+  <user>Tashon</user>
+  <text>It's kinda mindblowing to me that clojure actually used to work with java 6</text>
+</message>
+<message>
+  <ts>2020-08-02T14:26:41.797000</ts>
+  <user>Tashon</user>
+  <text>Considering `invokedynamic` didn't exist yet</text>
+</message>
+<message>
+  <ts>2020-08-02T14:27:13.772000</ts>
+  <user>Emersen</user>
+  <text>yeah invokedynamic support was only added in clojure 1.8</text>
+</message>
+<message>
+  <ts>2020-08-04T11:34:30.881000</ts>
+  <user>Tamsyn</user>
+  <text>Hi I made a function and I want to know does this idea have a name or even a builtin function in Clojure?```(defn iteratecumulative [start coll] (cons start (lazyseq (iteratecumulative (+ start (first coll)) (rest coll)))))```use```misc.core&gt; (take 7 (iteratecumulative 10 (cycle (0 1))))(10 10 11 11 12 12 13)```</text>
+</message>
+<message>
+  <ts>2020-08-04T11:37:45.977000</ts>
+  <user>Tamsyn</user>
+  <text>I have tried to use the regular reduce function with a lazy infinite collection but it doesn't work</text>
+</message>
+<message>
+  <ts>2020-08-04T11:47:07.333000</ts>
+  <user>Tamsyn</user>
+  <text>OMG I found it. As always when I ask a question somewhereIt is called `reductions````misc.core&gt; (take 7 (reductions + 10 (cycle (0 1))))(10 10 11 11 12 12 13)```</text>
+</message>
+<message>
+  <ts>2020-08-04T11:47:28.155000</ts>
+  <user>Kaled</user>
+  <text>...I didn't know that exists. Neat</text>
+</message>
+<message>
+  <ts>2020-08-04T11:47:58.028000</ts>
+  <user>Tashon</user>
+  <text>ah yeah great function. Have used it in the past</text>
+</message>
+<message>
+  <ts>2020-08-10T20:58:15.413000</ts>
+  <user>Mehana</user>
+  <text>Hello i have a question :Code :```clojure(def z (reduce str (take 3 (cycle ["."])))) (println z""z)```Console :```...  ...```How do you not have a space between the ... and the  ? Thk</text>
+</message>
+<message>
+  <ts>2020-08-10T20:59:34.487000</ts>
+  <user>Jayansh</user>
+  <text>```user=&gt; (println ...  ...")...  ...niluser=&gt; (println (str ...  ..."))......nil```</text>
+</message>
+<message>
+  <ts>2020-08-10T21:00:21.409000</ts>
+  <user>Jayansh</user>
+  <text>`println` takes multiple args and prints each of them separated by spaces str takes multiple args and combines them into a single string without spaces.</text>
+</message>
+<message>
+  <ts>2020-08-10T21:00:42.371000</ts>
+  <user>Jayansh</user>
+  <text>So make a single string using `str` and have `println` print that.</text>
+</message>
+<message>
+  <ts>2020-08-10T21:13:11.609000</ts>
+  <user>Mehana</user>
+  <text>Ok Thanks ! And how can I add +2 to the variable ``l`` in this loop ?```clojure(def n 5) ; readline(def l 1)(loop [i n] (when (&gt; i 0) (println i) (recur ( i 1)) ))```</text>
+</message>
+<message>
+  <ts>2020-08-10T21:16:57.917000</ts>
+  <user>Tashon</user>
+  <text>You shouldn't. Changing the value of a variable is not usually how you write clojure code (also `def` creates a global variable so it's even less suitable)</text>
+</message>
+<message>
+  <ts>2020-08-10T21:17:14.032000</ts>
+  <user>Tashon</user>
+  <text>What are you trying to do?</text>
+</message>
+<message>
+  <ts>2020-08-10T21:20:25.050000</ts>
+  <user>Emersen</user>
+  <text>println and the other print fubction insert spaces between their arguments</text>
+</message>
+<message>
+  <ts>2020-08-10T21:20:46.651000</ts>
+  <user>Emersen</user>
+  <text>so just use str</text>
+</message>
+<message>
+  <ts>2020-08-10T21:24:39.679000</ts>
+  <user>Mehana</user>
+  <text>We have a funny little concept where we want to write a code allowing the creation of a tree in as many languages as possible : https://github.com/VirtualRoyaume/SapinAnd so I\'m trying to do it in ClojureThe final result :```........................................```My actual code in Clojure :```clojure(def n 5) ; readline(def l 1)(loop [i n] (when (&gt; i 0) (println i) (recur ( i 1)) )) (def z (reduce str (repeat n .")))(println (str z  z))```</text>
+</message>
+<message>
+  <ts>2020-08-10T22:28:18.354000</ts>
+  <user>Naimah</user>
+  <text>Are you looking for help? Based on your comment in the repo I'm wondering if you got frustrated or if you're still working on it or something else</text>
+</message>
+<message>
+  <ts>2020-08-10T22:31:53.636000</ts>
+  <user>Mehana</user>
+  <text>The comment is for troll because I rage about the language with my friends but I'm still interested in it otherwise I wouldn't be here</text>
+</message>
+<message>
+  <ts>2020-08-10T22:40:21.017000</ts>
+  <user>Mehana</user>
+  <text>```clojure(def n (Integer. (readline))) ; readline(loop [i n l 1] (when (&gt; i 0) (def x (reduce str (repeat i ."))) (println (str x (reduce str (repeat l ")) x)) (recur ( i 1) (+ l 2)) )) (def z (reduce str (repeat n .")))(println (str z  z))```I finally got my script right but could I get some more information on that ? also def creates a global variable so it\'s even less suitable  @Johnny And do you have any tips on how to improve my script ?</text>
+</message>
+<message>
+  <ts>2020-08-10T22:52:10.513000</ts>
+  <user>Tashon</user>
+  <text>Yes there are a couple of things to note here</text>
+</message>
+<message>
+  <ts>2020-08-10T22:53:39.300000</ts>
+  <user>Tashon</user>
+  <text>For the definition of `n` you could use `(read)` instead. This will read any valid clojure expression meaning it's not guaranteed to be an int but if you want to get it as short as possible</text>
+</message>
+<message>
+  <ts>2020-08-10T22:53:56.330000</ts>
+  <user>Tashon</user>
+  <text>otherwise use `Integer/valueOf` instead of `Integer.`</text>
+</message>
+<message>
+  <ts>2020-08-10T22:54:12.137000</ts>
+  <user>Tashon</user>
+  <text>those are just minor things</text>
+</message>
+<message>
+  <ts>2020-08-10T22:56:11.414000</ts>
+  <user>Tashon</user>
+  <text>The code after that is written in an imperative style. Clojure is a functional language so instead of looping and modifying variables you should try to come up with a pure way to define the data you want to print out</text>
+</message>
+<message>
+  <ts>2020-08-10T22:57:03.541000</ts>
+  <user>Tashon</user>
+  <text>you can write code like this in clojure but you're limited compared to real imperative languages</text>
+</message>
+<message>
+  <ts>2020-08-10T22:57:31.442000</ts>
+  <user>Tashon</user>
+  <text>Similarily you can have local variables but you do not define them with `def`</text>
+</message>
+<message>
+  <ts>2020-08-10T22:57:43.079000</ts>
+  <user>Tashon</user>
+  <text>You use `let` for that</text>
+</message>
+<message>
+  <ts>2020-08-10T22:58:50.375000</ts>
+  <user>Tashon</user>
+  <text>when writing clojure it's often best to start by defining functions.</text>
+</message>
+<message>
+  <ts>2020-08-10T22:59:07.353000</ts>
+  <user>Tashon</user>
+  <text>In this case you want to somehow make a tree given a size</text>
+</message>
+<message>
+  <ts>2020-08-10T22:59:30.734000</ts>
+  <user>Tashon</user>
+  <text>so start with a function `tree` that takes one parameter `n` and returns the tree as a string</text>
+</message>
+<message>
+  <ts>2020-08-10T23:00:34.572000</ts>
+  <user>Tashon</user>
+  <text>now you go from there</text>
+</message>
+<message>
+  <ts>2020-08-10T23:01:42.285000</ts>
+  <user>Tashon</user>
+  <text>how do I make a tree? by making its individual lines. how do I make a line? by concatenating a padding string + some amount of tree characters + the same padding string</text>
+</message>
+<message>
+  <ts>2020-08-10T23:02:24.455000</ts>
+  <user>Tashon</user>
+  <text>now you may realise that in order to make a line you only need to know the overall size and the amount of tree characters</text>
+</message>
+<message>
+  <ts>2020-08-10T23:02:55.428000</ts>
+  <user>Tashon</user>
+  <text>so perhaps make another function `treeline` that takes `n` and `x` the amount of tree and returns a string</text>
+</message>
+<message>
+  <ts>2020-08-10T23:04:36.290000</ts>
+  <user>Tashon</user>
+  <text>of course in order to come up with a truly functional solution you need to be somewhat familiar with that paradigm. If you don't know anything about that your current mindset will restrict you</text>
+</message>
+<message>
+  <ts>2020-08-10T23:10:03.357000</ts>
+  <user>Naimah</user>
+  <text>a thing that I did was to create a vector for each line of the tree (e.g. [5 4 3 21]) using `range` and `vec` and then `conj`'ed 5 (or the input height) on the end of it so then I have the padding for all my lines and then I iterated over that seq printing out the tree line</text>
+</message>
+<message>
+  <ts>2020-08-10T23:15:25.884000</ts>
+  <user>Tashon</user>
+  <text>I used range to generate the numbers of tree characters from top to bottom `concat`ing `1` for the stump at the end</text>
+</message>
+<message>
+  <ts>2020-08-10T23:16:06.260000</ts>
+  <user>Tashon</user>
+  <text>And then creating the lines using `(quot ( n x) 2)` as the padding size</text>
+</message>
+<message>
+  <ts>2020-08-10T23:16:40.225000</ts>
+  <user>Mehana</user>
+  <text>Wow</text>
+</message>
+<message>
+  <ts>2020-08-10T23:16:56.713000</ts>
+  <user>Mehana</user>
+  <text>Wow</text>
+</message>
+<message>
+  <ts>2020-08-10T23:17:41.873000</ts>
+  <user>Mehana</user>
+  <text>Thanks for your helping</text>
+</message>
+<message>
+  <ts>2020-08-10T23:22:54.082000</ts>
+  <user>Mehana</user>
+  <text>I think I've improved my current code I take all your advices into account and I will try to apply them tomorrow.Clojure sounds very different from other languages !</text>
+</message>
+<message>
+  <ts>2020-08-10T23:23:14.131000</ts>
+  <user>Mehana</user>
+  <text>```clojure(let [n (read)] (loop [i n l 1] (when (&gt; i 0) (def x (reduce str (repeat i ."))) (println (str x (reduce str (repeat l ")) x)) (recur ( i 1) (+ l 2)))) (let [z (reduce str (repeat n ."))] (println (str z  z))))```</text>
+</message>
+<message>
+  <ts>2020-08-10T23:50:15.650000</ts>
+  <user>Naimah</user>
+  <text>a couple things: I\'d probably use `let` instead of `def` since let keeps the new binding (`x` in this case) scoped to its block you can replace `reduce str` with `apply str` to make one call to `str` with variadic arguments  it\'s not going to make a huge difference in this case but this change should result in one string construction instead of a bunch of intermediate strings you could save a little repetition by `let`ting something like `let [strrep #(apply str (repeat %1 %2)]` and then you could call something like `(strrep i .")`</text>
+</message>
+<message>
+  <ts>2020-08-11T00:23:18.890000</ts>
+  <user>Naimah</user>
+  <text>... and on a larger scale it looks like the github repo you referenced is kind of taking one solution design and just translating syntax between languages as opposed to exploring the idioms of each language and trying to write the solution in a way that fits the general approach of that language. While that's not necessarily wrong it also doesn't really allow for a meaningful comparison between language features and what a lot of code from that language looks like. I guess it's aimed at being more of a code golf type thing but just understand that for at least some of those languages you wouldn't typically find a lot of production code written in the styles used</text>
+</message>
+<message>
+  <ts>2020-08-11T02:43:23.310000</ts>
+  <user>Kya</user>
+  <text>Does anyone happen to know a good contact email for Rich Hickey?</text>
+</message>
+<message>
+  <ts>2020-08-11T03:18:25.536000</ts>
+  <user>Naimah</user>
+  <text>looks like there are a couple of email addresses that are findable on Google</text>
+</message>
+<message>
+  <ts>2020-08-11T03:19:47.854000</ts>
+  <user>Naimah</user>
+  <text>with that said I feel like if someone did have it they might be reluctant to provide it to what is effectively a random stranger on the internet (assuming that if someone said yes the next question was going to be what is it?")</text>
+</message>
+<message>
+  <ts>2020-08-11T03:24:37.860000</ts>
+  <user>Naimah</user>
+  <text>if it's businessy you could probably email the general contact address at Cognitect</text>
+</message>
+<message>
+  <ts>2020-08-28T19:27:28.876000</ts>
+  <user>Gizella</user>
+  <text>How does function composition work when I\'m trying to compose a function that takes multiple arguments? I\'m trying to remove the dash from a kebabcase string and capitalize it so I need to compose the `replace` and capitalize functions. Currently I have it as just a regular function like this but I can\'t figure out how to turn that into a function composition since `replace` takes the string as it\'s first argument```clojure(defn kebab&gt;label [string] (clojure.string/capitalize (replace string #"  )))```</text>
+</message>
+<message>
+  <ts>2020-08-28T19:36:12.616000</ts>
+  <user>Emersen</user>
+  <text>You could use `(comp str/capitalize #(replace % #"  ))`</text>
+</message>
+<message>
+  <ts>2020-08-28T19:50:52.479000</ts>
+  <user>Gizella</user>
+  <text>Ohh right forgot about the lambda shorthand 😅 Not that I couldn't have just used `(lambda (x)...` but this is much nicer</text>
+</message>
+<message>
+  <ts>2020-08-28T19:51:23.171000</ts>
+  <user>Gizella</user>
+  <text>Oh wait I guess it would be `(fn (x)...` cause Clojure doesn't use `lambda`. Too used to Racket lol</text>
+</message>
+<message>
+  <ts>2020-08-28T20:35:58.831000</ts>
+  <user>Tashon</user>
+  <text>Yeah it's `fn` and the arguments are a vector</text>
+</message>
+<message>
+  <ts>2020-08-29T00:33:45.109000</ts>
+  <user>Gizella</user>
+  <text>Right whoops... Thanks!</text>
+</message>
+<message>
+  <ts>2020-08-29T01:10:20.210000</ts>
+  <user>Kavian</user>
+  <text>oh hi johnny</text>
+</message>
+<message>
+  <ts>2020-08-29T11:27:29.758000</ts>
+  <user>Tashon</user>
+  <text>Hi</text>
+</message>
+<message>
+  <ts>2020-09-07T23:51:03.078000</ts>
+  <user>Gizella</user>
+  <text>I\'m trying to make a server with ring and reitit but I can\'t seem to figure out how to enable CORS on the router. I have this code in my `handler.clj````clj(def app (ringcors/wrapcors (reititring/ringhandler (reititring/router [["/ {:get {:handler indexhandler}}] ["/login {:get {:handler indexhandler}}] ["/register {:get {:handler indexhandler}}] ["/api {:get {:handler apihandler}}]] (reititring/routes (reititring/createresourcehandler {:path / :root /public"}) (reititring/createdefaulthandler)) {:middleware middleware})) :accesscontrolalloworigin #"" :accesscontrolallowmethods [:get :put :post :patch :delete]))```And then in my `server.clj` I have```clj(ns fullstack.server (:require [fullstack.handler :refer [app]] [config.core :refer [env]] [ring.adapter.jetty :refer [runjetty]]) (:genclass))(defn main [&amp; args] (let [port (or (env :port) 3000)] (runjetty #\'app {:port port :join? false})))```Now this works perfectly as expected when I remove the call to `wrapcors` but as soon as I try making it accept CORS requests I get this error: ```java.lang.IllegalArgumentException: unable to require the namespace of the handler fullstack.handler/app for :ringhandler```I actually only really want the `/api` route to accept CORS requests but I couldn\'t figure out how to do that so figured I\'d just make them all accept CORS for now.</text>
+</message>
+<message>
+  <ts>2020-09-07T23:51:37.241000</ts>
+  <user>Gizella</user>
+  <text>Does anyone know how I could get this working so that I can accept CORS requests?</text>
+</message>
+<message>
+  <ts>2020-09-08T06:28:41.091000</ts>
+  <user>Crescent</user>
+  <text>Look at reitit doc every route can have middleware option</text>
+</message>
+<message>
+  <ts>2020-09-10T03:02:33.737000</ts>
+  <user>Keenan</user>
+  <text>Hi guys how are you? Can I ask some questions?</text>
+</message>
+<message>
+  <ts>2020-09-10T03:02:49.439000</ts>
+  <user>Keenan</user>
+  <text>My name is Manuel</text>
+</message>
+<message>
+  <ts>2020-09-10T03:03:03.737000</ts>
+  <user>Keenan</user>
+  <text>I am new to Clojure (I'm still reading a book about it I haven't worked on a project before. I come from the world of Elixir)</text>
+</message>
+<message>
+  <ts>2020-09-10T03:03:16.862000</ts>
+  <user>Keenan</user>
+  <text>Right now I'm on a technologies choice process for a project that I'm going to start with a friend</text>
+</message>
+<message>
+  <ts>2020-09-10T03:03:31.493000</ts>
+  <user>Keenan</user>
+  <text>A project related to the area of Civil EngineeringThere will be a lot of formulas Maths Calculus limits derivatives logarithms etc.My friend is a Civil Engineer so he puts the formulas and I put the programming part</text>
+</message>
+<message>
+  <ts>2020-09-10T03:03:45.830000</ts>
+  <user>Keenan</user>
+  <text>Besides it will be necessary to visualize data in the form of 2D and 3D charts</text>
+</message>
+<message>
+  <ts>2020-09-10T03:04:00.494000</ts>
+  <user>Keenan</user>
+  <text>We want at first to develop a desktop applicationI think Python does an excellent job on that field so it's not discarded I know Python and it would be easier for me</text>
+</message>
+<message>
+  <ts>2020-09-10T03:04:18.819000</ts>
+  <user>Keenan</user>
+  <text>I also thought on doing it with Qt which is an excellent framework for desktop applications. Besides C++ is a mature technology and I know that any issue that I face during development will have been solved by anyone in the past</text>
+</message>
+<message>
+  <ts>2020-09-10T03:04:32.856000</ts>
+  <user>Keenan</user>
+  <text>The problem with C++ is that I'm not a big fan of OOP</text>
+</message>
+<message>
+  <ts>2020-09-10T03:04:45.596000</ts>
+  <user>Keenan</user>
+  <text>But I want to do it with Clojure I want to consider Clojure because I think that it would be the best way for me to learn the language well. It's just that the lack of knowledge I have about Clojure doesn't let me take a decision on using or if it will solve my problem</text>
+</message>
+<message>
+  <ts>2020-09-10T03:04:58.550000</ts>
+  <user>Keenan</user>
+  <text>I would like to ask please:</text>
+</message>
+<message>
+  <ts>2020-09-10T03:05:16.063000</ts>
+  <user>Keenan</user>
+  <text>1. Which framework do you recommend to create the type of desktop application that I need? I've seen a lot of options but I don't know how to decide</text>
+</message>
+<message>
+  <ts>2020-09-10T03:05:30.588000</ts>
+  <user>Keenan</user>
+  <text>2. Do you think Clojure have the right libraries for Data Visualization and for complex Math and Calculus topics like the ones I told you about?</text>
+</message>
+<message>
+  <ts>2020-09-10T03:05:44.573000</ts>
+  <user>Keenan</user>
+  <text>3. Do those Data Visualization libraries if they exist can be used and integrated with the desktoporiented frameworks? Or it's just for web?</text>
+</message>
+<message>
+  <ts>2020-09-10T03:05:56.773000</ts>
+  <user>Keenan</user>
+  <text>4. What should I do to export the final project to an installable executable .exe for Windows? Does that exist on Clojure? Can we do that? I use Linux but if the project goes well our clients would be using Windows mostly</text>
+</message>
+<message>
+  <ts>2020-09-10T03:06:10.814000</ts>
+  <user>Keenan</user>
+  <text>5. Is there good documentation about these libraries in the case they exist?</text>
+</message>
+<message>
+  <ts>2020-09-10T03:06:24.472000</ts>
+  <user>Keenan</user>
+  <text>I'd aprecciate if you could comment me your experience. I think Clojure is very powerful but I want to take a good decision on which technology to choose because at the end I don't wanna have a technical debt</text>
+</message>
+<message>
+  <ts>2020-09-10T03:26:01.334000</ts>
+  <user>Emersen</user>
+  <text>Desktop applications aren't super common to be made in Clojure. You could use either electron with CLJS but that'd be a bit complicated. Halgari's fnfx is probably a good place to go if you want something really functional but also seesaw is quite good if you want something simple but closer to java's style.</text>
+</message>
+<message>
+  <ts>2020-09-10T03:26:50.032000</ts>
+  <user>Emersen</user>
+  <text>As for library support clojure has many libraries of its own yes but for nearly any topic that you can't find a good library for clojure you can find a decent library for java which you can use from clojure easily.</text>
+</message>
+<message>
+  <ts>2020-09-10T03:27:35.194000</ts>
+  <user>Emersen</user>
+  <text>As for making an installer java in general doesn't do that as their default manner of working with programs. Nearly any extractiontype installer will be decent for the resulting application however.</text>
+</message>
+<message>
+  <ts>2020-09-10T15:22:33.679000</ts>
+  <user>Aja</user>
+  <text>&gt; Desktop applications aren't super common to be made in Clojure. You could use either electron with CLJS but that'd be a bit complicated. Halgari's fnfx is probably a good place to go if you want something really functional but also seesaw is quite good if you want something simple but closer to java's style.@srasu FWIW I would probably look at `cljfx` rather than `fnfx` if you're looking to do a JavaFX desktop app in Clojure. It's more modern and uses more recent design approaches.</text>
+</message>
+<message>
+  <ts>2020-09-10T15:23:00.629000</ts>
+  <user>Emersen</user>
+  <text>fair enough</text>
+</message>
+<message>
+  <ts>2020-09-10T15:23:33.106000</ts>
+  <user>Aja</user>
+  <text>(background: I was working on a desktop app a few years ago and as part of that did a bit of work on `fnfx` to update it but then the project kind of fell apart so I haven't revisited since then)</text>
+</message>
+<message>
+  <ts>2020-09-10T16:32:12.284000</ts>
+  <user>Oxford</user>
+  <text>For analysis stuff pathera is a thing (https://github.com/alanmarazzi/panthera/) But given it's need for both a JVM and the python pandas libs it's nto going to be easy to package and distribute your code.</text>
+</message>
+<message>
+  <ts>2020-09-10T19:31:59.971000</ts>
+  <user>Keenan</user>
+  <text>Thanks guys. cljfx seems good. I'll check it out but I'll be developing on Python because what it can do. And as a side project I will try to replicate it on Clojure and see how it goes. Thanks a lot</text>
+</message>
+<message>
+  <ts>2020-09-12T04:00:32.851000</ts>
+  <user>Gizella</user>
+  <text>Recently I've been working on a fullstack app using Reagent frontend and ring backend. I'm using figwheel to hotreload the frontend but I wanted to know how I can get reloading on the backend too. What I've been doing is using `lein repl` and then `(compile &lt;whatever namespace&gt;)` then restarting the server from the REPL but with figwheel I can't do that because it loads me into a ClojureScript repl and I can't seem to access functions in my Clojure namespaces. Is there a solution to this so I can get easy reloading on both my frontend and backend from the same repl?</text>
+</message>
+<message>
+  <ts>2020-09-12T05:34:53.031000</ts>
+  <user>Emersen</user>
+  <text>If you have a decent editor it should Just Work™️ otherwise figwheelmain has some instructions on how to switch repls</text>
+</message>
+<message>
+  <ts>2020-09-12T05:41:40.840000</ts>
+  <user>Gizella</user>
+  <text>I'm using Emacs 🤷\u200d♂️ What I've been doing is editing in Emacs with a seperate terminal that's got `lein fighwheel` running in it. But as far as I can tell it's not restarting the server when I make changes to it</text>
+</message>
+<message>
+  <ts>2020-09-12T05:49:54.770000</ts>
+  <user>Emersen</user>
+  <text>right but you should be able to integrate the two by having the figwheel lein plugin injected by cider and starting the repl that way.</text>
+</message>
+<message>
+  <ts>2020-09-12T15:15:13.745000</ts>
+  <user>Gizella</user>
+  <text>Okay so I have to get cider to talk to the nREPL sessions started by figwheel?</text>
+</message>
+<message>
+  <ts>2020-09-12T15:43:25.254000</ts>
+  <user>Jayansh</user>
+  <text>@nixin72 Yea that's one way. Another is to have cider start figwheel.</text>
+</message>
+<message>
+  <ts>2020-09-12T15:44:06.652000</ts>
+  <user>Jayansh</user>
+  <text>If you use `ciderjackincljs` it'll ask you what cljs repl to launch and figwheel is one of the options.</text>
+</message>
+<message>
+  <ts>2020-09-12T15:44:29.598000</ts>
+  <user>Jayansh</user>
+  <text>That will just connect it for cljs tho you need to connect it for clj separately.</text>
+</message>
+<message>
+  <ts>2020-09-12T15:45:06.438000</ts>
+  <user>Jayansh</user>
+  <text>You can do `ciderjackinclj&amp;cljs` tho. It'll launch one nrepl server connect to it twice (two repls) and then launch figwheel in one of them.</text>
+</message>
+<message>
+  <ts>2020-09-12T15:45:17.861000</ts>
+  <user>Jayansh</user>
+  <text>One for clj one for cljs.</text>
+</message>
+<message>
+  <ts>2020-09-16T00:32:35.707000</ts>
+  <user>Gizella</user>
+  <text>Forgot to say I got it working now thank you! It does work now the problem with the hotreloading not working was because I'd commented out middleware stuff and that was included in what I was commenting out so I wasn't using `wrapreload`</text>
+</message>
+<message>
+  <ts>2020-09-16T02:55:10.843000</ts>
+  <user>Gizella</user>
+  <text>How do I send POST parameters to a handler for a route in reitit? I\'ve got it working sending query parameters in a GET request but I can\'t figure out how to get it to work for POST parameters for some reason. I have this set of routes and handler:```clj(defn loginhandler [{{email email"} :params}] (api/respond {:response hello" :other email}))(def routes ["/users" [ {:get {:handler usershandler}}] ["/login {:get {:handler loginhandler} :post {:handler loginhandler}}]])```And I\'m making a request to `/users/login`. This is what my request looks like:```clj(&gt; (js/fetch (util/apiurl endpoint) ; localhost:3449/users/login {:method method ; post  :contenttype application/json" :body {:email test"}}) (js/Promise.resolve) (.then #(.json %)) (.then callback)) ; function that just console.logs in this case ```I\'m trying to just send a JSON payload but the value of email in my handler is always null. If I change the request to have `?email=y` and change `:params` to `:queryparams` it works perfectly fine. But I don\'t want to be sending username/password over GET requests. How do I accept arbitrary post parameters in a handler for a route?</text>
+</message>
+<message>
+  <ts>2020-09-16T02:57:38.097000</ts>
+  <user>Gizella</user>
+  <text>I've read through the docs for Reitit and Ring but I couldn't find anything about how to access post parameters...</text>
+</message>
+<message>
+  <ts>2020-09-16T02:58:24.153000</ts>
+  <user>Gizella</user>
+  <text>I\'m missing PHP right now where I just do `$_POST["data"]` 😦</text>
+</message>
+<message>
+  <ts>2020-09-16T03:22:18.818000</ts>
+  <user>Gizella</user>
+  <text>I'm thinking of using Compojure instead of doing it like this... It looks so much easier...</text>
+</message>
+<message>
+  <ts>2020-09-16T05:48:33.038000</ts>
+  <user>Crescent</user>
+  <text>do you want post parameters or you have issues parsing body?</text>
+</message>
+<message>
+  <ts>2020-09-16T07:31:00.680000</ts>
+  <user>Tashon</user>
+  <text>https://github.com/ringclojure/ringjson @nixin72</text>
+</message>
+<message>
+  <ts>2020-09-16T13:28:23.722000</ts>
+  <user>Oxford</user>
+  <text>I almost always use wrapparams. then you get a key in the request map that's :formparams that lists key/val for the form params</text>
+</message>
+<message>
+  <ts>2020-09-16T13:56:55.452000</ts>
+  <user>Tashon</user>
+  <text>Well yeah but those only work with the form encoding</text>
+</message>
+<message>
+  <ts>2020-09-16T13:57:03.077000</ts>
+  <user>Tashon</user>
+  <text>Not with json</text>
+</message>
+<message>
+  <ts>2020-09-16T21:20:24.295000</ts>
+  <user>Enai</user>
+  <text>The company I work for uses VB.net and they have these global objects we use to queue function calls and they have an extension explicitly to write wrapper Functions to add function calls to it. And it's so obnoxious on so many levels. Nothing remotely like it could ever exist in Clojure</text>
+</message>
+<message>
+  <ts>2020-09-23T18:12:06.511000</ts>
+  <user>Fallynn</user>
+  <text>@nixin72 what happends if you pass :parameters in your reitit post route Look here https://github.com/metosin/reitit/blob/master/examples/ringswagger/src/example/server.clj#L62</text>
+</message>
+<message>
+  <ts>2020-09-23T18:25:02.508000</ts>
+  <user>Fallynn</user>
+  <text>or scratch that this might be swagger related only. Yeah I usually use compojure myself haven't tried reitit yet. compojure + wrapparams middleware should do the trick.</text>
+</message>
+<message>
+  <ts>2020-09-24T07:10:24.507000</ts>
+  <user>Kailor</user>
+  <text>I got Clojure to run on Dalvik and I\'m pretty sure other people have too(and there\'s even a fork). I also forgot that Clojure compiles to JVM lol</text>
+</message>
+<message>
+  <ts>2020-09-24T07:11:14.843000</ts>
+  <user>Kailor</user>
+  <text>The fact that `dx` seems to work on a random jar is actually pretty cool.</text>
+</message>
+<message>
+  <ts>2020-09-24T07:11:44.494000</ts>
+  <user>Kailor</user>
+  <text>If Clojure were just an interpreter then I'm pretty sure it would have worked.</text>
+</message>
+<message>
+  <ts>2020-09-24T07:32:49.466000</ts>
+  <user>Kailor</user>
+  <text>Okay</text>
+</message>
+<message>
+  <ts>2020-09-24T07:32:51.184000</ts>
+  <user>Kailor</user>
+  <text>Sudden realization.</text>
+</message>
+<message>
+  <ts>2020-09-24T07:33:25.725000</ts>
+  <user>Kailor</user>
+  <text>``` :dependencies [[org.clojureandroid/clojure 1.7.0r4"]```</text>
+</message>
+<message>
+  <ts>2020-09-24T07:33:40.696000</ts>
+  <user>Kailor</user>
+  <text>My REPL also works</text>
+</message>
+<message>
+  <ts>2020-09-24T07:34:23.279000</ts>
+  <user>Kailor</user>
+  <text>TL;DR I think if I `dx` this instead it will work.</text>
+</message>
+<message>
+  <ts>2020-09-24T07:47:48.553000</ts>
+  <user>Kailor</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-09-24T07:47:53.058000</ts>
+  <user>Kailor</user>
+  <text>Getting closer</text>
+</message>
+<message>
+  <ts>2020-09-24T08:36:39.456000</ts>
+  <user>Kailor</user>
+  <text>Perfect. :)</text>
+</message>
+<message>
+  <ts>2020-09-24T08:38:25.234000</ts>
+  <user>Kailor</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-09-24T08:38:37.252000</ts>
+  <user>Kailor</user>
+  <text>Any idea why it won't resolve though?</text>
+</message>
+<message>
+  <ts>2020-09-24T08:39:00.955000</ts>
+  <user>Kailor</user>
+  <text>Why is `clojure.core` not part of my `require`?</text>
+</message>
+<message>
+  <ts>2020-09-24T08:40:00.686000</ts>
+  <user>Kailor</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-09-24T08:40:46.493000</ts>
+  <user>Kailor</user>
+  <text>I have a feeling this is probably something on the fork.</text>
+</message>
+<message>
+  <ts>2020-09-24T09:23:10.515000</ts>
+  <user>Kailor</user>
+  <text>```java if(VM_TYPE.deref() == JAVA_VM) { Var.pushThreadBindings( RT.mapUniqueKeys(CURRENT_NS CURRENT_NS.deref(), WARN_ON_REFLECTION WARN_ON_REFLECTION.deref() RT.UNCHECKED_MATH RT.UNCHECKED_MATH.deref())); try { Symbol USER = Symbol.intern("user"); Symbol CLOJURE = Symbol.intern("clojure.core");  Var in_ns = var("clojure.core inns"); Var refer = var("clojure.core refer"); in_ns.invoke(USER); refer.invoke(CLOJURE); maybeLoadResourceScript("user.clj"); } finally { Var.popThreadBindings(); } }```</text>
+</message>
+<message>
+  <ts>2020-09-24T09:23:11.398000</ts>
+  <user>Kailor</user>
+  <text>Found it</text>
+</message>
+<message>
+  <ts>2020-09-24T09:23:13.179000</ts>
+  <user>Kailor</user>
+  <text>But why</text>
+</message>
+<message>
+  <ts>2020-09-24T09:25:25.839000</ts>
+  <user>Kailor</user>
+  <text>Hm maybe that's not it actually.</text>
+</message>
+<message>
+  <ts>2020-09-24T09:26:03.203000</ts>
+  <user>Kailor</user>
+  <text>Eh who knows maybe it will work.</text>
+</message>
+<message>
+  <ts>2020-09-24T09:26:06.453000</ts>
+  <user>Kailor</user>
+  <text>Oh wait</text>
+</message>
+<message>
+  <ts>2020-09-24T09:26:14.185000</ts>
+  <user>Kailor</user>
+  <text>ding ding ding</text>
+</message>
+<message>
+  <ts>2020-09-24T09:26:33.955000</ts>
+  <user>Kailor</user>
+  <text>`refer.invoke(CLOJURE);`</text>
+</message>
+<message>
+  <ts>2020-09-24T09:28:24.328000</ts>
+  <user>Kailor</user>
+  <text>Yay</text>
+</message>
+<message>
+  <ts>2020-09-24T09:28:29.240000</ts>
+  <user>Kailor</user>
+  <text>I don't need to use my `proot` anymore.</text>
+</message>
+<message>
+  <ts>2020-09-24T09:29:05.168000</ts>
+  <user>Kailor</user>
+  <text>Ish</text>
+</message>
+<message>
+  <ts>2020-09-24T09:29:48.021000</ts>
+  <user>Kailor</user>
+  <text>I'm pretty sure maven and the like won't work</text>
+</message>
+<message>
+  <ts>2020-09-24T09:31:49.491000</ts>
+  <user>Kailor</user>
+  <text>This is going to be very interesting. The way I'm understanding this is that with this patch Clojure will work with both jar and dalvik files</text>
+</message>
+<message>
+  <ts>2020-09-24T09:32:04.238000</ts>
+  <user>Kailor</user>
+  <text>Where jars are converted to dalvik on runtime</text>
+</message>
+<message>
+  <ts>2020-09-24T09:32:49.942000</ts>
+  <user>Kailor</user>
+  <text>```  Dalvikspecific method for dynamically loading a class from JVM byte  codes. As there is no easy way to translate a class from the JVM to```</text>
+</message>
+<message>
+  <ts>2020-09-24T09:32:51.790000</ts>
+  <user>Kailor</user>
+  <text>Oh boi</text>
+</message>
+<message>
+  <ts>2020-09-24T12:35:25.580000</ts>
+  <user>Kailor</user>
+  <text>```(require \'[clojure.java.io :as io])(defn streambytes [is] (let [baos (java.io.ByteArrayOutputStream.)] (io/copy is baos) (.toByteArray baos)))(let [cp (.getContextClassLoader (Thread/currentThread)) bytes (streambytes (.getResourceAsStream cp com/coveros/demo/helloworld/HelloWorld.class"))] (.defineClass cp com.coveros.demo.helloworld.HelloWorld bytes))(com.coveros.demo.helloworld.HelloWorld/main (intoarray String []))Hello World! The current time is 12:34:54 PM on September 24 2020.```</text>
+</message>
+<message>
+  <ts>2020-09-24T12:35:30.394000</ts>
+  <user>Kailor</user>
+  <text>:9_Yay:</text>
+</message>
+<message>
+  <ts>2020-09-24T12:35:37.672000</ts>
+  <user>Kailor</user>
+  <text>Loaded a jar file transparently</text>
+</message>
+<message>
+  <ts>2020-09-24T12:38:08.481000</ts>
+  <user>Kailor</user>
+  <text>You know</text>
+</message>
+<message>
+  <ts>2020-09-24T12:38:20.338000</ts>
+  <user>Kailor</user>
+  <text>I think we can just extract this class loader and use it globally for Termux</text>
+</message>
+<message>
+  <ts>2020-09-24T14:05:50.419000</ts>
+  <user>Kailor</user>
+  <text>There we go.</text>
+</message>
+<message>
+  <ts>2020-09-24T14:06:03.357000</ts>
+  <user>Kailor</user>
+  <text>```$ dalvikvm cp classes:helloworld1.1.jar:clojure.dex.jar clojure.mainClojure 1.7.0user=&gt; (+ 1 2)3user=&gt; (com.coveros.demo.helloworld.HelloWorld/main (intoarray String []))Hello World! The current time is 2:05:42 PM on September 24 2020.nil```</text>
+</message>
+<message>
+  <ts>2020-09-24T14:06:13.016000</ts>
+  <user>Kailor</user>
+  <text>Transparent JVM translation. :9_Yay:</text>
+</message>
+<message>
+  <ts>2020-09-24T14:29:36.914000</ts>
+  <user>Oxford</user>
+  <text>Sweet</text>
+</message>
+<message>
+  <ts>2020-09-24T22:08:37.691000</ts>
+  <user>Kailor</user>
+  <text>```$ dalvikvm cp classes:helloworld1.1.jar:clojure.dex.jar D java.system.class.loader=clojure.lang.DalvikDynamicClassLoader com.coveros.demo.helloworld.HelloWorldAborted```</text>
+</message>
+<message>
+  <ts>2020-09-24T22:08:42.320000</ts>
+  <user>Kailor</user>
+  <text>Well that one didn't seem to work though.</text>
+</message>
+<message>
+  <ts>2020-09-24T22:45:02.145000</ts>
+  <user>Kailor</user>
+  <text>I should stop thinking too much about this I don't want to use Java anyway.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:29:54.248000</ts>
+  <user>Aleck</user>
+  <text>identity of the day ``` (apply concat (seq (apply arraymap (1 2 3 4 5 6)))) ```</text>
+</message>
+<message>
+  <ts>2020-09-26T21:37:23.249000</ts>
+  <user>Kailor</user>
+  <text>Ohhhh that's a bit interesting.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:38:50.928000</ts>
+  <user>Kailor</user>
+  <text>I guess arraymap is basically `[[k v] ...]`</text>
+</message>
+<message>
+  <ts>2020-09-26T21:46:34.865000</ts>
+  <user>Aleck</user>
+  <text>kinda</text>
+</message>
+<message>
+  <ts>2020-09-26T21:47:01.264000</ts>
+  <user>Aleck</user>
+  <text>I find the name slightly confusing since it makes me think it's a specialized map for java arrays but alas</text>
+</message>
+<message>
+  <ts>2020-09-26T21:47:14.033000</ts>
+  <user>Kailor</user>
+  <text>:D</text>
+</message>
+<message>
+  <ts>2020-09-26T21:47:31.387000</ts>
+  <user>Kailor</user>
+  <text>Like `map` in the `[ f(x) | x in arr ]` sense?</text>
+</message>
+<message>
+  <ts>2020-09-26T21:48:39.602000</ts>
+  <user>Tashon</user>
+  <text>haskell :5_MonkaShakeG:</text>
+</message>
+<message>
+  <ts>2020-09-26T21:48:51.534000</ts>
+  <user>Kailor</user>
+  <text>:D</text>
+</message>
+<message>
+  <ts>2020-09-26T21:49:02.297000</ts>
+  <user>Kailor</user>
+  <text>Though is that valid Haskell?</text>
+</message>
+<message>
+  <ts>2020-09-26T21:49:05.055000</ts>
+  <user>Kailor</user>
+  <text>It's been like</text>
+</message>
+<message>
+  <ts>2020-09-26T21:49:07.169000</ts>
+  <user>Kailor</user>
+  <text>~3 years</text>
+</message>
+<message>
+  <ts>2020-09-26T21:49:09.899000</ts>
+  <user>Tashon</user>
+  <text>I think so</text>
+</message>
+<message>
+  <ts>2020-09-26T21:49:29.893000</ts>
+  <user>Tashon</user>
+  <text>no wait</text>
+</message>
+<message>
+  <ts>2020-09-26T21:50:00.648000</ts>
+  <user>Tashon</user>
+  <text>ah nah it uses `&lt;` not `in`</text>
+</message>
+<message>
+  <ts>2020-09-26T21:50:20.809000</ts>
+  <user>Kailor</user>
+  <text>```Hugs&gt; let arr = [1,2,3]; f = (1 +); in [ f(x) | x in arr ]ERROR  Syntax error in expression (unexpected keyword in")Hugs&gt; let arr = [1,2,3]; f = (1 +); in [ f(x) | x &lt; arr ][2,3,4]```</text>
+</message>
+<message>
+  <ts>2020-09-26T21:50:22.852000</ts>
+  <user>Kailor</user>
+  <text>Close enough tho</text>
+</message>
+<message>
+  <ts>2020-09-26T21:50:29.798000</ts>
+  <user>Kailor</user>
+  <text>It never escaped me wtf</text>
+</message>
+<message>
+  <ts>2020-09-26T21:50:32.348000</ts>
+  <user>Tashon</user>
+  <text>apart from that you would probably omit the parens but I think they're legal</text>
+</message>
+<message>
+  <ts>2020-09-26T21:51:49.860000</ts>
+  <user>Tashon</user>
+  <text>I'm like an absolute beginner with haskell the language gives me chills</text>
+</message>
+<message>
+  <ts>2020-09-26T21:52:09.452000</ts>
+  <user>Kailor</user>
+  <text>lmao makes sense. It does for me too.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:52:16.925000</ts>
+  <user>Kailor</user>
+  <text>Especially the first time.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:52:31.789000</ts>
+  <user>Kailor</user>
+  <text>I had to try learning it 3 times to understand how to use it</text>
+</message>
+<message>
+  <ts>2020-09-26T21:52:36.915000</ts>
+  <user>Kailor</user>
+  <text>And it was pretty nice while it lasted xd</text>
+</message>
+<message>
+  <ts>2020-09-26T21:53:12.910000</ts>
+  <user>Tashon</user>
+  <text>I'll be forced to learn it at uni but I guess I'm looking forward to it</text>
+</message>
+<message>
+  <ts>2020-09-26T21:53:25.954000</ts>
+  <user>Tashon</user>
+  <text>The resources for selftuition don't seem to be the best</text>
+</message>
+<message>
+  <ts>2020-09-26T21:53:58.095000</ts>
+  <user>Kailor</user>
+  <text>Oh no worries it's a good language for sure.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:54:20.928000</ts>
+  <user>Kailor</user>
+  <text>But like idk I don't really need a good language. I want one which I can actually write.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:54:29.705000</ts>
+  <user>Tashon</user>
+  <text>yeah true</text>
+</message>
+<message>
+  <ts>2020-09-26T21:55:20.218000</ts>
+  <user>Tashon</user>
+  <text>haskell just feels like you have to prove 3 math theorems to print hello world</text>
+</message>
+<message>
+  <ts>2020-09-26T21:56:16.622000</ts>
+  <user>Kailor</user>
+  <text>I think it\'s the other way around actually. You as the user can defer to the type checker to say oh these 3 theorems apply so this hello world is actually a legal program</text>
+</message>
+<message>
+  <ts>2020-09-26T21:56:25.152000</ts>
+  <user>Kailor</user>
+  <text>It's a bit different as a library writer</text>
+</message>
+<message>
+  <ts>2020-09-26T21:56:37.184000</ts>
+  <user>Kailor</user>
+  <text>Because you have to implement implement constraints.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:57:09.171000</ts>
+  <user>Kailor</user>
+  <text>But that aside. My problem with Haskell is that it makes the bad things difficult and the good things... also difficult.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:57:12.494000</ts>
+  <user>Emersen</user>
+  <text>Haskell is an interesting beast for sure</text>
+</message>
+<message>
+  <ts>2020-09-26T21:57:19.577000</ts>
+  <user>Aleck</user>
+  <text>@Johnny honestly who gives a damn about hello world</text>
+</message>
+<message>
+  <ts>2020-09-26T21:57:30.613000</ts>
+  <user>Aleck</user>
+  <text>I'm baffled whenever people bring this argument</text>
+</message>
+<message>
+  <ts>2020-09-26T21:57:33.580000</ts>
+  <user>Emersen</user>
+  <text>anyone who wants to write cmdline utilities</text>
+</message>
+<message>
+  <ts>2020-09-26T21:57:44.362000</ts>
+  <user>Tashon</user>
+  <text>that was hyperbolic obviously</text>
+</message>
+<message>
+  <ts>2020-09-26T21:57:47.115000</ts>
+  <user>Aleck</user>
+  <text>but i find that the real work is so remot e from print/io</text>
+</message>
+<message>
+  <ts>2020-09-26T21:57:52.879000</ts>
+  <user>Tashon</user>
+  <text>don't take offence if you like haskell</text>
+</message>
+<message>
+  <ts>2020-09-26T21:58:00.351000</ts>
+  <user>Emersen</user>
+  <text>controversial opinion grep is just complicated hello world</text>
+</message>
+<message>
+  <ts>2020-09-26T21:58:04.706000</ts>
+  <user>Aleck</user>
+  <text>@Johnny apologies it was a bit aggressive I didn't mean it that way</text>
+</message>
+<message>
+  <ts>2020-09-26T21:58:17.396000</ts>
+  <user>Aleck</user>
+  <text>it was really an open discussion bit</text>
+</message>
+<message>
+  <ts>2020-09-26T21:58:30.616000</ts>
+  <user>Tashon</user>
+  <text>no worries just wanted to get that clear</text>
+</message>
+<message>
+  <ts>2020-09-26T21:58:50.064000</ts>
+  <user>Tashon</user>
+  <text>I can't make a real argument about Haskell because I don't have enough knowledge</text>
+</message>
+<message>
+  <ts>2020-09-26T21:58:52.778000</ts>
+  <user>Aleck</user>
+  <text>it's really super strange to me that people focus on hw when in reality good programming is more about invariants / structures / logic</text>
+</message>
+<message>
+  <ts>2020-09-26T21:59:23.867000</ts>
+  <user>Emersen</user>
+  <text>I like haskell a lot but personally I don't feel like I gain a whole lot from the static types that I don't get from spec.</text>
+</message>
+<message>
+  <ts>2020-09-26T21:59:24.906000</ts>
+  <user>Aleck</user>
+  <text>i'd rather have a language that makes me write great graph / tree code in short than a cute printf</text>
+</message>
+<message>
+  <ts>2020-09-26T21:59:41.853000</ts>
+  <user>Aleck</user>
+  <text>@srasu it's a tough choice I guess</text>
+</message>
+<message>
+  <ts>2020-09-26T22:00:06.100000</ts>
+  <user>Aleck</user>
+  <text>having a compiler enforcing infered specs  or writing your own which may be nicer  better suited</text>
+</message>
+<message>
+  <ts>2020-09-26T22:00:06.905000</ts>
+  <user>Emersen</user>
+  <text>I don't feel like it's a tough choice. The only thing I ever reach for haskell for before I reach for clojure is parsers.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:00:07.496000</ts>
+  <user>Kailor</user>
+  <text>Anyways if you guys want an actual example. So there\'s this thing called monad right? And Haskell extends that concept to monad transformer think of it as an analog to reducer : transducer.Monad transformers allow you to generate monad stacks(once again just like transducers lmao). So you can pile it up until you get a behavior you want. For example an exceptional log reader system.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:00:15.281000</ts>
+  <user>Kailor</user>
+  <text>And like</text>
+</message>
+<message>
+  <ts>2020-09-26T22:00:18.937000</ts>
+  <user>Kailor</user>
+  <text>Yeah sure you can do that.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:00:51.561000</ts>
+  <user>Aleck</user>
+  <text>I never wrote haskell to the point of Monad Transformers though but I get the gist</text>
+</message>
+<message>
+  <ts>2020-09-26T22:01:01.074000</ts>
+  <user>Kailor</user>
+  <text>But why not just `(for [x val] (if (p x) (raise ) (print x))`</text>
+</message>
+<message>
+  <ts>2020-09-26T22:01:09.753000</ts>
+  <user>Kailor</user>
+  <text>You don't have to bring it monadic stacks and all.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:01:16.307000</ts>
+  <user>Aleck</user>
+  <text>@srasu what are (if at all) the negative side of specs in your experience ?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:01:29.844000</ts>
+  <user>Emersen</user>
+  <text>they can be time consuming that's the only one.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:01:52.578000</ts>
+  <user>Aleck</user>
+  <text>I was genuinely worried that people would create an infinite amount of specs for each project</text>
+</message>
+<message>
+  <ts>2020-09-26T22:02:43.260000</ts>
+  <user>Aleck</user>
+  <text>(kinda like OO class explosion in the java world)</text>
+</message>
+<message>
+  <ts>2020-09-26T22:02:59.892000</ts>
+  <user>Emersen</user>
+  <text>Spec 2 pretty much fixes that problem</text>
+</message>
+<message>
+  <ts>2020-09-26T22:03:00.916000</ts>
+  <user>Kailor</user>
+  <text>I guess in a way this falls down to don\'t make macros as the only interface to your library</text>
+</message>
+<message>
+  <ts>2020-09-26T22:03:18.010000</ts>
+  <user>Aleck</user>
+  <text>how so @srasu ?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:03:19.735000</ts>
+  <user>Kailor</user>
+  <text>But in this case macros &gt; complicated stacks</text>
+</message>
+<message>
+  <ts>2020-09-26T22:04:38.077000</ts>
+  <user>Emersen</user>
+  <text>spec2 allows you to have the calling contract for an individual function get separated out from the type of data getting passed to a function which means you no longer have like ::addresswithstate as a spec in your system you just have an ::address and then in a particular function you specify that it must include a ::state key.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:04:51.861000</ts>
+  <user>Emersen</user>
+  <text>Which means you no longer have an explosion of types.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:05:14.856000</ts>
+  <user>Emersen</user>
+  <text>You only have one spec per domain object in your program and one function spec per function in your public interface (and any internal ones you want for generative testing)</text>
+</message>
+<message>
+  <ts>2020-09-26T22:05:41.864000</ts>
+  <user>Kailor</user>
+  <text>Also can I just say that I love `for` expressions? List comprehensions are so janky compared to `for` expressions IMO.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:05:58.491000</ts>
+  <user>Tashon</user>
+  <text>well `for` is list comprehension</text>
+</message>
+<message>
+  <ts>2020-09-26T22:06:02.518000</ts>
+  <user>Kailor</user>
+  <text>Yeah</text>
+</message>
+<message>
+  <ts>2020-09-26T22:06:12.424000</ts>
+  <user>Aleck</user>
+  <text>you prefer syntax that much ?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:06:26.127000</ts>
+  <user>Emersen</user>
+  <text>for is pretty readable for people who come from a programming background rather than a math one.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:06:29.955000</ts>
+  <user>Aleck</user>
+  <text>I became quite care free about things that are so isomorphic</text>
+</message>
+<message>
+  <ts>2020-09-26T22:06:32.362000</ts>
+  <user>Aleck</user>
+  <text>thanks @srasu btw</text>
+</message>
+<message>
+  <ts>2020-09-26T22:06:38.524000</ts>
+  <user>Emersen</user>
+  <text>np</text>
+</message>
+<message>
+  <ts>2020-09-26T22:06:58.930000</ts>
+  <user>Kailor</user>
+  <text>Yeah if anything syntax"(how to express) is what makes me choose languages nowadays.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:06:58.996000</ts>
+  <user>Aleck</user>
+  <text>fair point about migrating newcomers</text>
+</message>
+<message>
+  <ts>2020-09-26T22:07:04.416000</ts>
+  <user>Aleck</user>
+  <text>heh</text>
+</message>
+<message>
+  <ts>2020-09-26T22:07:06.181000</ts>
+  <user>Kailor</user>
+  <text>There's obviously a few other things</text>
+</message>
+<message>
+  <ts>2020-09-26T22:07:12.039000</ts>
+  <user>Kailor</user>
+  <text>For example better mental models</text>
+</message>
+<message>
+  <ts>2020-09-26T22:07:25.484000</ts>
+  <user>Kailor</user>
+  <text>Elixir hits both points on this for the server side.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:07:37.865000</ts>
+  <user>Aleck</user>
+  <text>i used to be all about semantics and types I despise syntax pretty much because it's hard to decompose/compose</text>
+</message>
+<message>
+  <ts>2020-09-26T22:08:04.640000</ts>
+  <user>Aleck</user>
+  <text>that's why fp clicked with me (f a) is the syntax.. now roll your own solutions</text>
+</message>
+<message>
+  <ts>2020-09-26T22:08:26.364000</ts>
+  <user>Aleck</user>
+  <text>@Lonely ᜋᜒᜌᜓ/Myrl but they/them do you like perl / raku ?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:08:48.995000</ts>
+  <user>Aleck</user>
+  <text>I find larry wall approach to syntax in general pretty interesting</text>
+</message>
+<message>
+  <ts>2020-09-26T22:08:59.069000</ts>
+  <user>Kailor</user>
+  <text>Also for expressions allow you to easily find parallels between for loops and list comprehensions.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:09:05.585000</ts>
+  <user>Kailor</user>
+  <text>Also nope. I don't use Perl at all.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:09:13.321000</ts>
+  <user>Aleck</user>
+  <text>ok</text>
+</message>
+<message>
+  <ts>2020-09-26T22:09:27.597000</ts>
+  <user>Emersen</user>
+  <text>isn't perl stringlytyped?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:09:41.178000</ts>
+  <user>Aleck</user>
+  <text>I... can't answer that</text>
+</message>
+<message>
+  <ts>2020-09-26T22:09:58.919000</ts>
+  <user>Aleck</user>
+  <text>i just like the contextual interpretation of objects</text>
+</message>
+<message>
+  <ts>2020-09-26T22:10:11.671000</ts>
+  <user>Emersen</user>
+  <text>I mean it's not 100% a bad thing if it is it just means that it's not my cup of tea.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:10:16.334000</ts>
+  <user>Aleck</user>
+  <text>every object comes with scalar map vector bool projection IIUC</text>
+</message>
+<message>
+  <ts>2020-09-26T22:10:50.398000</ts>
+  <user>Aleck</user>
+  <text>and the language will see the data with a different lens depending on that context</text>
+</message>
+<message>
+  <ts>2020-09-26T22:11:05.230000</ts>
+  <user>Aleck</user>
+  <text>it's like a slightly implicit overloading</text>
+</message>
+<message>
+  <ts>2020-09-26T22:11:32.198000</ts>
+  <user>Aleck</user>
+  <text>or a shortsighted variant of the expression problem</text>
+</message>
+<message>
+  <ts>2020-09-26T22:13:58.314000</ts>
+  <user>Kailor</user>
+  <text>Also what I said applies to languages which make a distinction between expression and statement</text>
+</message>
+<message>
+  <ts>2020-09-26T22:15:05.649000</ts>
+  <user>Kailor</user>
+  <text>When you want to do something stateful while collecting the results you instead have to do```out = []for x in xs out += f(x)```</text>
+</message>
+<message>
+  <ts>2020-09-26T22:15:25.803000</ts>
+  <user>Kailor</user>
+  <text>You technically can write `out = [f(x) for x in xs]`</text>
+</message>
+<message>
+  <ts>2020-09-26T22:15:42.217000</ts>
+  <user>Kailor</user>
+  <text>But you'll probably get howled at.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:15:54.218000</ts>
+  <user>Kailor</user>
+  <text>Or what if you have to write something complicated with local variables?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:17:40.700000</ts>
+  <user>Aleck</user>
+  <text>this is the lexical nature of lisp/fp at play</text>
+</message>
+<message>
+  <ts>2020-09-26T22:17:59.418000</ts>
+  <user>Aleck</user>
+  <text>I always struggled with expr/statement split languages</text>
+</message>
+<message>
+  <ts>2020-09-26T22:18:11.068000</ts>
+  <user>Aleck</user>
+  <text>i like when my world is closed over itself and coherent</text>
+</message>
+<message>
+  <ts>2020-09-26T22:18:19.803000</ts>
+  <user>Aleck</user>
+  <text>(kinda like an algebra)</text>
+</message>
+<message>
+  <ts>2020-09-26T22:19:27.563000</ts>
+  <user>Kailor</user>
+  <text>Yeah I was going to mention that too. Take juxtaposition as an operator if you break a piece of code somewhere do its constituent parts still make sense?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:20:16.319000</ts>
+  <user>Kailor</user>
+  <text>Not with list comprehension because your working variables are further.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:20:17.071000</ts>
+  <user>Aleck</user>
+  <text>that's exactly why syntax was always an issue</text>
+</message>
+<message>
+  <ts>2020-09-26T22:20:29.690000</ts>
+  <user>Aleck</user>
+  <text>you have near zero control over what pieces and how they fit</text>
+</message>
+<message>
+  <ts>2020-09-26T22:20:48.768000</ts>
+  <user>Aleck</user>
+  <text>it's crazy how to most people this is fine</text>
+</message>
+<message>
+  <ts>2020-09-26T22:20:54.174000</ts>
+  <user>Aleck</user>
+  <text>they love C Java ...</text>
+</message>
+<message>
+  <ts>2020-09-26T22:21:03.146000</ts>
+  <user>Aleck</user>
+  <text>to me it was just pain</text>
+</message>
+<message>
+  <ts>2020-09-26T22:21:14.192000</ts>
+  <user>Aleck</user>
+  <text>i naturally align with lisp / forth</text>
+</message>
+<message>
+  <ts>2020-09-26T22:21:30.436000</ts>
+  <user>Kailor</user>
+  <text>I was going to mention Forth too lmao. Because like it wasn't always this way.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:21:41.077000</ts>
+  <user>Kailor</user>
+  <text>We started with these types of languages</text>
+</message>
+<message>
+  <ts>2020-09-26T22:22:37.119000</ts>
+  <user>Aleck</user>
+  <text>we ?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:22:49.489000</ts>
+  <user>Aleck</user>
+  <text>are you an old gray beard ?</text>
+</message>
+<message>
+  <ts>2020-09-26T22:22:50.060000</ts>
+  <user>Kailor</user>
+  <text>We in the sense of CompSci as a field.</text>
+</message>
+<message>
+  <ts>2020-09-26T22:22:53.414000</ts>
+  <user>Aleck</user>
+  <text>oh ok</text>
+</message>
+<message>
+  <ts>2020-09-26T22:24:11.223000</ts>
+  <user>Aleck</user>
+  <text>I saw lisp / forth as systems that gave you more freedom over the different dimension of the language while asking for less efforts</text>
+</message>
+<message>
+  <ts>2020-09-26T22:24:40.355000</ts>
+  <user>Aleck</user>
+  <text>I think we digressed way too far from #clojure 🙂</text>
+</message>
+<message>
+  <ts>2020-09-26T22:24:51.567000</ts>
+  <user>Kailor</user>
+  <text>Yeah fair. :)</text>
+</message>
+<message>
+  <ts>2020-09-28T02:27:33.921000</ts>
+  <user>Kailor</user>
+  <text>I wish transducers were more zipesque operations friendly.</text>
+</message>
+<message>
+  <ts>2020-09-28T02:28:15.649000</ts>
+  <user>Kailor</user>
+  <text>And like</text>
+</message>
+<message>
+  <ts>2020-09-28T02:28:19.278000</ts>
+  <user>Kailor</user>
+  <text>I guess I understand why it's not?</text>
+</message>
+<message>
+  <ts>2020-09-28T02:28:22.229000</ts>
+  <user>Kailor</user>
+  <text>So :(</text>
+</message>
+<message>
+  <ts>2020-09-29T13:29:25.539000</ts>
+  <user>Phinneas</user>
+  <text>@Lonely ᜋᜒᜌᜓ/Myrl but they/them i think that should be possible implement a `zippertransduce` that takes `[xform data]` and returns `data`</text>
+</message>
+<message>
+  <ts>2020-10-01T11:43:18.260000</ts>
+  <user>Macklyn</user>
+  <text>Oh hello 🙂 I'm struggling with something that has to do with readers and quoting/unquoting. For example I want to write a function: `(defn foo [col predfn] {:predfn ... :result [...]})` and then say I call `(foo [1 2 3] (fn [x] (= 2 x)))` I want it to return the shape `{:predfn (fn [x] (= 2 x)) ...}`. Is that possible or am I approaching this wrong?</text>
+</message>
+<message>
+  <ts>2020-10-01T11:57:07.037000</ts>
+  <user>Kailor</user>
+  <text>:BellSip:</text>
+</message>
+<message>
+  <ts>2020-10-01T11:58:06.778000</ts>
+  <user>Kailor</user>
+  <text>I feel like you need to provide more context I don't see why there'd be something wrong.</text>
+</message>
+<message>
+  <ts>2020-10-01T11:58:33.784000</ts>
+  <user>Kailor</user>
+  <text>Ah wait</text>
+</message>
+<message>
+  <ts>2020-10-01T11:58:47.048000</ts>
+  <user>Kailor</user>
+  <text>Are you saying in `{:predfn x ...` you want x to be a list?</text>
+</message>
+<message>
+  <ts>2020-10-01T12:01:43.995000</ts>
+  <user>Kailor</user>
+  <text>`(eval (quote x)) == x` for all x</text>
+</message>
+<message>
+  <ts>2020-10-01T12:01:54.599000</ts>
+  <user>Kailor</user>
+  <text>Alternatively `defmacro`</text>
+</message>
+<message>
+  <ts>2020-10-01T12:16:13.412000</ts>
+  <user>Macklyn</user>
+  <text>@Lonely ᜋᜒᜌᜓ/Myrl but they/them hmm no I want the value of `:predfn` to be the literal form unevaluated. I basically want to show what the predicate was downstream.</text>
+</message>
+<message>
+  <ts>2020-10-01T12:17:10.306000</ts>
+  <user>Kailor</user>
+  <text>Ah.</text>
+</message>
+<message>
+  <ts>2020-10-01T12:17:32.467000</ts>
+  <user>Macklyn</user>
+  <text>Much like what `clojure.test` does 🤔 But I think it shows that I need to go towards a macro as you said.</text>
+</message>
+<message>
+  <ts>2020-10-01T12:22:16.984000</ts>
+  <user>Tashon</user>
+  <text>Just as a side note you could perhaps attach this to the function's meta</text>
+</message>
+<message>
+  <ts>2020-10-01T12:22:43.796000</ts>
+  <user>Tashon</user>
+  <text>I think in some cases it already has a key for the source code</text>
+</message>
+<message>
+  <ts>2020-10-01T12:27:44.959000</ts>
+  <user>Macklyn</user>
+  <text>@Johnny Ooh that's an idea I'll play around with that thank you.</text>
+</message>
+<message>
+  <ts>2020-10-01T12:28:11.211000</ts>
+  <user>Macklyn</user>
+  <text>thank you also @Lonely ᜋᜒᜌᜓ/Myrl but they/them 🙂</text>
+</message>
+<message>
+  <ts>2020-10-01T12:28:25.283000</ts>
+  <user>Kailor</user>
+  <text>No problem. :9_Yay:</text>
+</message>
+<message>
+  <ts>2020-10-01T13:17:27.025000</ts>
+  <user>Emersen</user>
+  <text>for clarity you can pass the unevaluated form to a function by quoting it.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:18:28.287000</ts>
+  <user>Emersen</user>
+  <text>If you were to pass the function form directly then when you're calling the function the original source has long since been thrown away and the only thing that remains is the function object.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:18:46.238000</ts>
+  <user>Emersen</user>
+  <text>This is why macros exist however.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:22:42.265000</ts>
+  <user>Emersen</user>
+  <text>you could have this:```clojure(defmacro foo [pred &amp; args] `{:fnsource ~pred :ret (~pred ~@args)})(foo (fn [x] x) 5); =&gt; {:fnsource (fn [x] x) :ret 5}```</text>
+</message>
+<message>
+  <ts>2020-10-01T13:26:46.838000</ts>
+  <user>Macklyn</user>
+  <text>🙏 @srasu that makes sense and exactly what I was trying to do. I'm new to macros and all the macro characters doesn't make it exactly easy if one doesn't understand them fully yet.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:27:35.988000</ts>
+  <user>Emersen</user>
+  <text>macros take a while to grok for sure.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:27:56.413000</ts>
+  <user>Emersen</user>
+  <text>Took me about a year and a half with clojure to grok em</text>
+</message>
+<message>
+  <ts>2020-10-01T13:28:13.453000</ts>
+  <user>Macklyn</user>
+  <text>What I've gathered so far is to use them sparingly.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:29:48.343000</ts>
+  <user>Emersen</user>
+  <text>So generally there are two reasons to use them. One is to provide a dsl where you work in the sublanguage to express things for a very specific problem space. The other reason is to make a cleaner interface to existing exposed functionality.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:30:13.818000</ts>
+  <user>Emersen</user>
+  <text>There are more possible reasons like reduced duplication performance implications etc but those are the two biggest.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:31:35.971000</ts>
+  <user>Emersen</user>
+  <text>Of course once you're making a DSL though you have to be careful in how you design it because the default in dsl land is to lose all the power of the clojure standard library and others. You have to be careful in your design to keep that power around.</text>
+</message>
+<message>
+  <ts>2020-10-01T13:33:43.138000</ts>
+  <user>Emersen</user>
+  <text>Oh also another good use for them is introducing new flow control constructs like how core.async adds macros to add multiprocess flow control or how in one of my discord bots I introduced a regex pattern matching flow control.</text>
+</message>
+<message>
+  <ts>2020-10-01T14:03:35.049000</ts>
+  <user>Macklyn</user>
+  <text>Phew I think I figured some of it out... of course your example didn't work for my case 😆 The `~args` and `~@x` got me.</text>
+</message>
+<message>
+  <ts>2020-10-01T21:27:17.346000</ts>
+  <user>Aleck</user>
+  <text>in this https://www.youtube.com/watch?v=o2MLHFGUkoQ the host shows that clojure unit testing does output diff between expected value and computed value is it part of clojure core test behavior or is it from another layer ? (cider.. )</text>
+</message>
+<message>
+  <ts>2020-10-01T21:34:18.699000</ts>
+  <user>Naimah</user>
+  <text>clojure.test output from `lein test````FAIL in (myawesometest) (awesome_test.clj:8)expected: (= 3 (+ 2 2)) actual: (not (= 3 4))Ran 1 tests containing 1 assertions.1 failures 0 errors.Tests failed.```</text>
+</message>
+<message>
+  <ts>2020-10-01T21:56:08.468000</ts>
+  <user>Aleck</user>
+  <text>oh thx</text>
+</message>
+<message>
+  <ts>2020-10-02T01:48:26.769000</ts>
+  <user>Naimah</user>
+  <text>@agumonkey I just skimmed over the video and I'm guessing that the diff shown comes from &lt;https://github.com/pjstadig/humanetestoutput&gt; or something similar</text>
+</message>
+<message>
+  <ts>2020-10-07T19:24:01.416000</ts>
+  <user>Ilee</user>
+  <text>https://github.com/arcadiaunity/ArcadiaGodot</text>
+</message>
+<message>
+  <ts>2020-10-07T19:24:30.173000</ts>
+  <user>Ilee</user>
+  <text>selfsame finished version 1.0 of ArcadiaGodot so you can use Clojure to program games and applications in the Godot engine now. It's pretty sick</text>
+</message>
+<message>
+  <ts>2020-10-07T20:04:28.101000</ts>
+  <user>Emersen</user>
+  <text>awesome</text>
+</message>
+<message>
+  <ts>2020-10-07T21:45:09.628000</ts>
+  <user>Oxford</user>
+  <text>oh cool</text>
+</message>
+<message>
+  <ts>2020-10-12T18:52:05.139000</ts>
+  <user>Wolfram</user>
+  <text>Hi</text>
+</message>
+<message>
+  <ts>2020-10-12T18:52:25.335000</ts>
+  <user>Wolfram</user>
+  <text>I'm using hugsql to work with postgresql but I need to handle jsonb data</text>
+</message>
+<message>
+  <ts>2020-10-12T18:53:10.804000</ts>
+  <user>Wolfram</user>
+  <text>I'm sure that I need to use clojure.java.jdbc related features to do this but I don't know how things fit together does anyone have a pointer about this?</text>
+</message>
+<message>
+  <ts>2020-10-13T02:43:39.907000</ts>
+  <user>Crescent</user>
+  <text>There is honeysql postgres library that implements protocols for json serialization you might want to look how its done there.</text>
+</message>
+<message>
+  <ts>2020-10-13T07:14:35.879000</ts>
+  <user>Wolfram</user>
+  <text>@David The Tuna King thank you I'm gonna take a look at this</text>
+</message>
+<message>
+  <ts>2020-10-13T07:14:57.104000</ts>
+  <user>Wolfram</user>
+  <text>I actually found some protocols to work with json in the meantime</text>
+</message>
+<message>
+  <ts>2020-10-13T07:15:56.240000</ts>
+  <user>Wolfram</user>
+  <text>and now the main issue I have is related to the integration of jsonb specific functions with hugsql but I'm still experimenting</text>
+</message>
+<message>
+  <ts>2020-10-13T07:25:41.994000</ts>
+  <user>Crescent</user>
+  <text>I think you need to use raw sql for that</text>
+</message>
+<message>
+  <ts>2020-10-13T09:06:05.440000</ts>
+  <user>Wolfram</user>
+  <text>yes with hugsql/dbrun I managed to set and update jsonb columns</text>
+</message>
+<message>
+  <ts>2020-10-13T09:07:03.108000</ts>
+  <user>Wolfram</user>
+  <text>do you know if there is an intrinsic limitation or is it just something we could work on to improve hugsql DSL?</text>
+</message>
+<message>
+  <ts>2020-10-13T11:10:53.300000</ts>
+  <user>Crescent</user>
+  <text>i dont know really i use honeysql personally but i`ve had that problem with json/jsonb 🙂</text>
+</message>
+<message>
+  <ts>2020-10-25T03:22:35.633000</ts>
+  <user>Haset</user>
+  <text>Hey guys do y'all know a good open source project that uses fulcro?</text>
+</message>
+</discord>

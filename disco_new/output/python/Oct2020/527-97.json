@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-08T08:58:42.661000",
+        "user": "Feras",
+        "text": "```pyp = Package()p.length = 1000000```Is it possible to raise an error when updating an object's attribute in this way? I can't think of how to do it? Would I write a method or something?",
+        "conversation_id": "527",
+        "index": 88
+    },
+    "so_post": {
+        "ts": "2020-10-08T09:03:01.335000",
+        "user": "Yarey",
+        "text": "https://stackoverflow.com/questions/2627002/whatsthepythonicwaytousegettersandsetters",
+        "conversation_id": "527",
+        "index": 97
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Feras asks question about pythonic way to do something and Yarey provides SO post answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-06T16:14:00.505000",
+        "user": "Lamnouar",
+        "text": "Is there a way i can cross compile a go program to my ddwrt router?```root@DDWRT:/proc# cat cpuinfosystem type : Atheros AR7240 rev 1.2 (0x00c2)processor : 0cpu model : MIPS 24Kc V7.4BogoMIPS : 265.42CPUClock : 400wait instruction : yesmicrosecond timers : yestlb_entries : 16extra interrupt vector : yeshardware watchpoint : yes count: 4 address/irw mask: [0x0000 0x0ff8 0x0ff8 0x0ff8]ASEs implemented : mips16shadow register sets : 1kscratch registers : 0core : 0VCED exceptions : not availableVCEI exceptions : not available```",
+        "conversation_id": "112",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2019-11-06T16:18:29.140000",
+        "user": "Tyasia",
+        "text": "https://stackoverflow.com/questions/43208366/golangcrosscompilingformips",
+        "conversation_id": "112",
+        "index": 8
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Lamnouar has question and Tyasia provides SO answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

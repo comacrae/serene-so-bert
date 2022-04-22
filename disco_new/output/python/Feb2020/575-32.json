@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-14T13:02:44.950000",
+        "user": "Itamar",
+        "text": "Morning guys. How would I get the name of a function that called another function without passing it as a argument?",
+        "conversation_id": "575",
+        "index": 23
+    },
+    "so_post": {
+        "ts": "2020-02-14T13:05:32.531000",
+        "user": "Ned",
+        "text": "from <https://stackoverflow.com/questions/2654113/howtogetthecallersmethodnameinthecalledmethod>",
+        "conversation_id": "575",
+        "index": 32
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "What the user was describing was responded in this SO post.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

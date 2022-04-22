@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-06T07:01:46.811000",
+        "user": "Dora",
+        "text": "theres no return statement",
+        "conversation_id": "258",
+        "index": 2
+    },
+    "so_post": {
+        "ts": "2020-04-06T07:05:15.821000",
+        "user": "Zamzam",
+        "text": "https://stackoverflow.com/questions/575196/whycanafunctionmodifysomeargumentsasperceivedbythecallerbutnototh",
+        "conversation_id": "258",
+        "index": 16
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "User was confused why Python didn't change the int type but did the list type, but later found the answer by themselves.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

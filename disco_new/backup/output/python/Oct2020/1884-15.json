@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-26T03:09:31.192000",
+        "user": "Hailyn",
+        "text": "json.decoder.JSONDecodeError",
+        "conversation_id": "1884",
+        "index": 11
+    },
+    "so_post": {
+        "ts": "2020-10-26T03:18:00.484000",
+        "user": "Mamuka",
+        "text": "https://stackoverflow.com/questions/48140858/jsondecoderjsondecodeerrorextradataline2column1char190 @! xXKiller_BOSSXx",
+        "conversation_id": "1884",
+        "index": 15
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "all hailyn says besides this is \"What should I do\" ",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

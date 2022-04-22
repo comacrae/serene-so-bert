@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-19T00:37:06.510000",
+        "user": "Lantz",
+        "text": "> Is subprocess faster than os.system?",
+        "conversation_id": "895",
+        "index": 63
+    },
+    "so_post": {
+        "ts": "2020-04-19T00:38:47.554000",
+        "user": "Heidy",
+        "text": "https://stackoverflow.com/questions/4813238/differencebetweensubprocesspopenandossystem",
+        "conversation_id": "895",
+        "index": 75
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asker was wondering if Subprocess was faster than os.system ",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

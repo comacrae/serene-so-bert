@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-16T21:16:48.166000",
+        "user": "Macklan",
+        "text": "Is there some stdlib way to convert `func(func(func(5)))` to `iterate(func 3)(5)` or similar",
+        "conversation_id": "574",
+        "index": 7
+    },
+    "so_post": {
+        "ts": "2019-12-16T21:25:48.955000",
+        "user": "Andersyn",
+        "text": "https://stackoverflow.com/questions/28259967/howdoiapplyafunctionntimes?rq=1",
+        "conversation_id": "574",
+        "index": 8
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

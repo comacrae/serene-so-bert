@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-04T14:06:04.466000",
+        "user": "Jakub",
+        "text": "Do I need to create an additional wrapper interface to return my types as an interface implementing type or can i do some kind of casting here?",
+        "conversation_id": "1105",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-09-04T14:18:43.457000",
+        "user": "Anslee",
+        "text": "here is a good explanation of why https://stackoverflow.com/questions/12753805/typeconvertingslicesofinterfaces/12754757#12754757",
+        "conversation_id": "1105",
+        "index": 13
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jakub asks question and Anslee provides SO explanation why",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-02T22:01:41.638000",
+        "user": "Daris",
+        "text": "someone help me with `http.Post()`how should i pass parameters?",
+        "conversation_id": "805",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-03-02T22:06:11.767000",
+        "user": "Olivia",
+        "text": "https://stackoverflow.com/questions/39443512/howtoencodeurlparametersingolang",
+        "conversation_id": "805",
+        "index": 37
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Daris has qusetion and Olivia povides answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

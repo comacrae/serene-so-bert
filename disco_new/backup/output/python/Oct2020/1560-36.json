@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-21T10:48:45.049000",
+        "user": "Aarush",
+        "text": "can anyone help?",
+        "conversation_id": "1560",
+        "index": 37
+    },
+    "so_post": {
+        "ts": "2020-10-21T10:48:36.018000",
+        "user": "Aarush",
+        "text": "https://stackoverflow.com/questions/64461893/howtorunaapplicationwhichisinthesamedirectoryasapythonscript",
+        "conversation_id": "1560",
+        "index": 36
+    },
+    "category": "Question Repost",
+    "comments": "soliciting",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

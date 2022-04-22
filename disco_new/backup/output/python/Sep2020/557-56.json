@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-08T18:30:27.820000",
+        "user": "Zabrina",
+        "text": "@Infinimata  Can you give me an example of allocating memory with `ctypes`?",
+        "conversation_id": "557",
+        "index": 50
+    },
+    "so_post": {
+        "ts": "2020-09-08T18:31:14.801000",
+        "user": "Nasiir",
+        "text": "https://stackoverflow.com/questions/18679264/howtousemallocandfreewithpythonctypes",
+        "conversation_id": "557",
+        "index": 56
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Zabrina asks for an example with malloc and Nasiir provides an answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

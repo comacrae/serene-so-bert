@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-29T11:23:19.146000",
+        "user": "Waelyn",
+        "text": "is there a way to check if a script is executed as a an administrator / root (on win/linux) ???",
+        "conversation_id": "1197",
+        "index": 22
+    },
+    "so_post": {
+        "ts": "2020-02-29T11:26:35.908000",
+        "user": "Waelyn",
+        "text": "https://stackoverflow.com/questions/130763/requestuacelevationfromwithinapythonscript",
+        "conversation_id": "1197",
+        "index": 35
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Seems like the asker is answering their own question",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

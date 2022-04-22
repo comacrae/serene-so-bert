@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T16:15:08.443000",
+        "user": "Nilsa",
+        "text": "Ill paypal someone a dollar if you can figure out my problem ive spent so much time with no success.`FileNotFoundError: Could not find module C:\\\\Users\\\\caleb\\\\Desktop\\\\MyProjects\\\\AudioAppFinal\\\\libvlc.dll (or one of its dependencies). Try using the full path with constructor syntax.`how do i stop that error from happening",
+        "conversation_id": "752",
+        "index": 87
+    },
+    "so_post": {
+        "ts": "2020-09-11T16:18:39.194000",
+        "user": "Ubaldo",
+        "text": "@Deleted User without seeing your code i can only suggest to take a look at this to see if one of the answers help you https://stackoverflow.com/questions/59014318/filenotfounderrorcouldnotfindmodulelibvlcdll",
+        "conversation_id": "752",
+        "index": 97
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks question about filepaths and Ubaldo provides an SO post answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

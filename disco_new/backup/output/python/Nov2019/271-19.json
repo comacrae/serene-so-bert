@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-08T05:02:01.014000",
+        "user": "Huntley",
+        "text": "is async not the same as multithreading?",
+        "conversation_id": "271",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2019-11-08T05:04:10.347000",
+        "user": "Jesai",
+        "text": "I prefer this SO answer  https://stackoverflow.com/a/748189",
+        "conversation_id": "271",
+        "index": 19
+    },
+    "category": "Alternative Solution",
+    "comments": "this guy says they prefer this explanation of mulithreading to the other one",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T07:29:18.169000",
+        "user": "Emili",
+        "text": "> now how do i get my timezoneCheck the diff between your timezone and the other timezone if positive then do ur timezone  diff if negative do ur timezone+abs(diff)",
+        "conversation_id": "1390",
+        "index": 134
+    },
+    "so_post": {
+        "ts": "2020-09-20T07:30:07.062000",
+        "user": "Talat",
+        "text": "@Naman I'm sure this thread can help out https://stackoverflow.com/questions/4770297/convertutcdatetimestringtolocaldatetime",
+        "conversation_id": "1390",
+        "index": 138
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Emil asking about dates and Talat provides SO post answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

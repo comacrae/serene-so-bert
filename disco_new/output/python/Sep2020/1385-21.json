@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T03:47:55.216000",
+        "user": "Nilsa",
+        "text": "any idea why typehinting the class itself works in the `init` but not in the last function?",
+        "conversation_id": "1385",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-09-20T03:49:47.308000",
+        "user": "Wladyslaw",
+        "text": "@Ikenna https://stackoverflow.com/questions/33533148/howdoitypehintamethodwiththetypeoftheenclosingclass",
+        "conversation_id": "1385",
+        "index": 21
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks question and Wladslaw provbides answer with SO post",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

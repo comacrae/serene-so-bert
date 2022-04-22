@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-15T18:12:57.562000",
+        "user": "Nilsa",
+        "text": "anyone know how to make it pythonvlc send a signal when the media player is done playing",
+        "conversation_id": "1063",
+        "index": 132
+    },
+    "so_post": {
+        "ts": "2020-09-15T18:14:21.923000",
+        "user": "Xinping",
+        "text": "@Deleted User `pythonvlc media player is done playing` gives me <https://stackoverflow.com/questions/49141463/howtowaituntilasoundfileendsinvlcinpython36> which suggests `get_state()`.",
+        "conversation_id": "1063",
+        "index": 136
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks question and Xinping finds answer on SO post",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

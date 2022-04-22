@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-02T15:14:56.157000",
+        "user": "Heidy",
+        "text": "How can I import random and make a certain chance my code picks winning over losing",
+        "conversation_id": "85",
+        "index": 29
+    },
+    "so_post": {
+        "ts": "2020-04-02T15:15:34.830000",
+        "user": "Ararat",
+        "text": "https://stackoverflow.com/questions/3679694/aweightedversionofrandomchoice",
+        "conversation_id": "85",
+        "index": 38
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Heidi was asking how to implement weighted random and Ararat sent a SO Post about it",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

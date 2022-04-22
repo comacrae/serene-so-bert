@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-14T22:25:52.242000",
+        "user": "Annalina",
+        "text": "yea but why it show error on winshell import",
+        "conversation_id": "690",
+        "index": 19
+    },
+    "so_post": {
+        "ts": "2020-04-14T22:38:33.719000",
+        "user": "Decarri",
+        "text": "https://stackoverflow.com/questions/33591093/winshellerrorwin32connotfound",
+        "conversation_id": "690",
+        "index": 42
+    },
+    "category": "Validating Solution",
+    "comments": "User was having difficulties with winshell and Decarri explained there's a bug in winshell and to corroborate his response posted the SO link",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

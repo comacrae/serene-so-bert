@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-05T16:50:47.118000",
+        "user": "Lalah",
+        "text": "Request a salary as input and then display the salary after receiving three successive 5% pay raises. The program also should display the percentage chance in salary. Sample output is below.",
+        "conversation_id": "343",
+        "index": 113
+    },
+    "so_post": {
+        "ts": "2020-10-05T16:55:15.462000",
+        "user": "Rupert",
+        "text": "https://stackoverflow.com/questions/55192603/howdoigetaprogramtocalculatethepayraiseforeachemployeefromafile",
+        "conversation_id": "343",
+        "index": 152
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Lalah posts the task they're given and Rupert posts an SO link that directly helps",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-23T15:49:10.251000",
+        "user": "Cyrena",
+        "text": "How hard will it be to create a program that takes a string like \u201c3+24^4(21)\u201d and computes the result? It is quite harder than I thought atm",
+        "conversation_id": "845",
+        "index": 91
+    },
+    "so_post": {
+        "ts": "2019-11-23T15:56:02.483000",
+        "user": "Amynah",
+        "text": "https://stackoverflow.com/questions/13421424/howtoevaluateaninfixexpressioninjustonescanusingstacks",
+        "conversation_id": "845",
+        "index": 113
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "amynah recommends using stacks and provides related SO post",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

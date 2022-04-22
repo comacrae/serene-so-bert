@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-09T17:23:25.474000",
+        "user": "Arika",
+        "text": "How do I get go (gin specifically) to return null if it comes back from the database null? At the moment its coming back as:```\"resource\": { String\":  Valid\": false},```And in the struct its```Resource sql.NullString `db:\"resource json:\"resource,string\"````",
+        "conversation_id": "1246",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-09-09T17:28:37.432000",
+        "user": "Miryam",
+        "text": "@Ainsley luckily you're not the first to run into this issue \ud83d\ude42 https://stackoverflow.com/questions/33072172/howcaniworkwithsqlnullvaluesandjsoninagoodway",
+        "conversation_id": "1246",
+        "index": 20
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Arika asks question and Miryam provides answer via SO post",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-12T14:36:41.977000",
+        "user": "Elisandro",
+        "text": "@Infinimata I literally just wanna do this..How complicated can this be? if time==60 exit()",
+        "conversation_id": "852",
+        "index": 361
+    },
+    "so_post": {
+        "ts": "2020-10-12T14:39:53.668000",
+        "user": "Veada",
+        "text": "@<fsociety>[Joyeux No\u00ebl] thats what I'd really like to establish first. How complicated can this be? very. With that in mind: see this. https://stackoverflow.com/questions/1335507/keyboardinputwithtimeout do not just copy paste code read the first 5 answers AND comments first",
+        "conversation_id": "852",
+        "index": 386
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Elisando wants to implement timing out and Veada provides a specific answer from SO",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

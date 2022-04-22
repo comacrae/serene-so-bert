@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-08T20:21:22.284000",
+        "user": "Pollyanna",
+        "text": "can a web game be made with python or its better with a different lang",
+        "conversation_id": "290",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2019-11-08T20:51:25.568000",
+        "user": "Darious",
+        "text": "<https://stackoverflow.com/a/609130><https://codeplea.com/gamescriptinglanguages>",
+        "conversation_id": "290",
+        "index": 178
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

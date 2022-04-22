@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-05T12:14:22.648000",
+        "user": "Sada",
+        "text": "how did they choose a number this large as a memory location `140737488346124` as i don't even that many bits in my memory",
+        "conversation_id": "319",
+        "index": 272
+    },
+    "so_post": {
+        "ts": "2020-10-05T12:16:21.179000",
+        "user": "Hogan",
+        "text": "@Kronos > how did they choose a number this large as a memory location `140737488346124` as i don't even that many bits in my memory@Kronos Check out this answer: https://stackoverflow.com/a/46683437",
+        "conversation_id": "319",
+        "index": 275
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to quoted question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

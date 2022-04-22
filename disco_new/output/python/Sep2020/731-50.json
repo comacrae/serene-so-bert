@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T07:57:06.399000",
+        "user": "Niyla",
+        "text": "how do you completely break out of a nested for loop?",
+        "conversation_id": "731",
+        "index": 28
+    },
+    "so_post": {
+        "ts": "2020-09-11T08:01:39.556000",
+        "user": "Niyla",
+        "text": "https://stackoverflow.com/questions/653509/breakingoutofnestedloops/654002#654002",
+        "conversation_id": "731",
+        "index": 50
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Niyla ahs question about breaking loops and finds an SO post which works for them",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

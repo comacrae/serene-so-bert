@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-09T17:31:56.531000",
+        "user": "Arlee",
+        "text": "Will readline retrieve the input w/o user interaction though?",
+        "conversation_id": "270",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-08-09T17:37:00.133000",
+        "user": "Arlee",
+        "text": "@Deleted User https://stackoverflow.com/a/57397469 that worked for me",
+        "conversation_id": "270",
+        "index": 74
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Arlee has a question and finds an SO post which answers their own question",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

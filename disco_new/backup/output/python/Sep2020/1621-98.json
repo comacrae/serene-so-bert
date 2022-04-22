@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-23T12:48:14.057000",
+        "user": "Damari",
+        "text": "Drawing a bit of a blank. How can I print a timedelta object in a pretty way. I know I can't use strftime suggestions?",
+        "conversation_id": "1621",
+        "index": 81
+    },
+    "so_post": {
+        "ts": "2020-09-23T12:50:59.874000",
+        "user": "Sarbjit",
+        "text": "https://stackoverflow.com/a/13756038/7941251",
+        "conversation_id": "1621",
+        "index": 98
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Damari asks question and recieives answer from Sarjbit about timedelta",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

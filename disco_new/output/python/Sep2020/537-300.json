@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-08T14:03:39.498000",
+        "user": "Soliyana",
+        "text": "can I get the current highlighted/marked text of another program(say web browser)?",
+        "conversation_id": "537",
+        "index": 293
+    },
+    "so_post": {
+        "ts": "2020-09-08T14:04:44.847000",
+        "user": "Sarbjit",
+        "text": "https://stackoverflow.com/questions/1007185/howtoretrievetheselectedtextfromtheactivewindow",
+        "conversation_id": "537",
+        "index": 300
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Someone asks how to highlight text in a window and Sarbjit posts direct answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

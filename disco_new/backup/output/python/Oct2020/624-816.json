@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-09T15:45:52.146000",
+        "user": "Rafaella",
+        "text": "https://stackoverflow.com/questions/64283183/iwanttoturnrandon0s1stoalistpython38",
+        "conversation_id": "624",
+        "index": 816
+    },
+    "so_post": {
+        "ts": "2020-10-09T15:45:52.146000",
+        "user": "Rafaella",
+        "text": "https://stackoverflow.com/questions/64283183/iwanttoturnrandon0s1stoalistpython38",
+        "conversation_id": "624",
+        "index": 816
+    },
+    "category": "Question Repost",
+    "comments": "Reafella is trying to better describe their question using an SO post",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

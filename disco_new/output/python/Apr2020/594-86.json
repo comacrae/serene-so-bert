@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-13T01:09:55.387000",
+        "user": "Kiahna",
+        "text": "is there a trick to positioning matplotlib text when the x axis is a date range? Not sure what to set for (x,y) values in annotate",
+        "conversation_id": "594",
+        "index": 77
+    },
+    "so_post": {
+        "ts": "2020-04-13T01:12:12.771000",
+        "user": "Kiahna",
+        "text": "<https://stackoverflow.com/questions/11067368/annotatetimeseriesplotinmatplotlib> for time series annotation it seems",
+        "conversation_id": "594",
+        "index": 86
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Kiahna was wondering if there was a way to simplify their work and post this as something he found that kinda helped.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

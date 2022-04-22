@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-27T20:28:06.345000",
+        "user": "Lamnouar",
+        "text": "now to make it send the out/err to a file",
+        "conversation_id": "1772",
+        "index": 33
+    },
+    "so_post": {
+        "ts": "2020-01-27T20:29:04.515000",
+        "user": "Lamnouar",
+        "text": "https://stackoverflow.com/questions/30993717/howcaniredirectthestdoutandstderrofacommandtoboththeconsoleanda#31004293",
+        "conversation_id": "1772",
+        "index": 36
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Lamonour asks how to output a string, then later says \"now to send stderr to file\" and then finds an SO post and that's the answer that he posts ",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-27T09:08:02.029000",
+        "user": "Kanna",
+        "text": "or all zip functions are basically izip now",
+        "conversation_id": "1116",
+        "index": 197
+    },
+    "so_post": {
+        "ts": "2020-02-27T09:08:09.288000",
+        "user": "Liv",
+        "text": "https://stackoverflow.com/questions/32659552/importingizipfromitertoolsmodulegivesnameerrorinpython3x#32659581",
+        "conversation_id": "1116",
+        "index": 198
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

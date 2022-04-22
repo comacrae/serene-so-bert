@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-21T12:14:54.230000",
+        "user": "Aarush",
+        "text": "https://stackoverflow.com/questions/64447557/howtogetdatafromdatabasegithub/64462940#64462940",
+        "conversation_id": "1561",
+        "index": 244
+    },
+    "so_post": {
+        "ts": "2020-10-21T12:14:54.230000",
+        "user": "Aarush",
+        "text": "https://stackoverflow.com/questions/64447557/howtogetdatafromdatabasegithub/64462940#64462940",
+        "conversation_id": "1561",
+        "index": 244
+    },
+    "category": "Question Repost",
+    "comments": "soliciting since there's no other question or message from him and nothing related to github in the thread",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

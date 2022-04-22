@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-24T18:27:29.528000",
+        "user": "Lashay",
+        "text": "yeah what's your guys favourite regex visualizer? I'm curious",
+        "conversation_id": "1465",
+        "index": 128
+    },
+    "so_post": {
+        "ts": "2020-06-24T18:33:42.139000",
+        "user": "Zhiming",
+        "text": "https://stackoverflow.com/questions/1732348/regexmatchopentagsexceptxhtmlselfcontainedtags",
+        "conversation_id": "1465",
+        "index": 170
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

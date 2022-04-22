@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-26T21:15:30.874000",
+        "user": "Kalliope",
+        "text": "https://stackoverflow.com/questions/61447852/returndataofnumpysfftandfindingamplitudeandfrequenciespersecondinau",
+        "conversation_id": "1297",
+        "index": 29
+    },
+    "so_post": {
+        "ts": "2020-04-26T21:15:30.874000",
+        "user": "Kalliope",
+        "text": "https://stackoverflow.com/questions/61447852/returndataofnumpysfftandfindingamplitudeandfrequenciespersecondinau",
+        "conversation_id": "1297",
+        "index": 29
+    },
+    "category": "Validating Solution",
+    "comments": "There doesn't seem to be any mention of the information found in the SO post prior to this message so it seems the user is either posting their own question or to instigate a response.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

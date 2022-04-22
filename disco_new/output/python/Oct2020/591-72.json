@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-09T00:45:03.163000",
+        "user": "Adianna",
+        "text": "Anyone know by any chance what the fix here is https://stackoverflow.com/questions/64272253/cantchangestylesforclassesinheritingfromttkframe?",
+        "conversation_id": "591",
+        "index": 72
+    },
+    "so_post": {
+        "ts": "2020-10-09T00:45:03.163000",
+        "user": "Adianna",
+        "text": "Anyone know by any chance what the fix here is https://stackoverflow.com/questions/64272253/cantchangestylesforclassesinheritingfromttkframe?",
+        "conversation_id": "591",
+        "index": 72
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

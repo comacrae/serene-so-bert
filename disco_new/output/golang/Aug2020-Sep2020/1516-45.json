@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-17T19:49:32.304000",
+        "user": "Makynna",
+        "text": "go has dropped support for XP right",
+        "conversation_id": "1516",
+        "index": 38
+    },
+    "so_post": {
+        "ts": "2020-09-17T19:51:06.374000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/52137098/goafter110andsupportofwindowsxp",
+        "conversation_id": "1516",
+        "index": 45
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Makyanna asks question and Samarie provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

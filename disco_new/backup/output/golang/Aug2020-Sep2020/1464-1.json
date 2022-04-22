@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-16T09:22:21.712000",
+        "user": "Fariha",
+        "text": "hi in my app i need to return my severs ip address to the client what's the best way to get the servers ip?",
+        "conversation_id": "1464",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-16T09:27:01.905000",
+        "user": "Yufan",
+        "text": "<https://stackoverflow.com/a/37382208>",
+        "conversation_id": "1464",
+        "index": 1
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Fariah has question and Yufan provides answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

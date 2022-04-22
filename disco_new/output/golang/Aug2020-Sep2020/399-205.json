@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-13T15:07:38.532000",
+        "user": "Matheo",
+        "text": "can i create dockers on the servers. or i need more space?",
+        "conversation_id": "399",
+        "index": 186
+    },
+    "so_post": {
+        "ts": "2020-08-13T15:16:35.905000",
+        "user": "Arlee",
+        "text": "https://stackoverflow.com/a/43987872",
+        "conversation_id": "399",
+        "index": 205
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Someone wants to know about saving space with Docker images and Arlee recommends the alpine image and also posts the SO post as background to back themselves up",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

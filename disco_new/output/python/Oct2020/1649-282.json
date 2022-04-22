@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-22T16:59:47.685000",
+        "user": "Elijah",
+        "text": "so i search how to find href of the website",
+        "conversation_id": "1649",
+        "index": 271
+    },
+    "so_post": {
+        "ts": "2020-10-22T17:01:24.429000",
+        "user": "Kaio",
+        "text": "https://stackoverflow.com/questions/52675506/getchrometaburlinpython @~Hunter",
+        "conversation_id": "1649",
+        "index": 282
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "poorly phrased question because elijah admits he doesn't know how to ask any better but this is the best message that can be used and grouping is difficult with the amount of back and forth",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

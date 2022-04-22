@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-04T14:59:52.031000",
+        "user": "Amariyah",
+        "text": "https://golang.org/pkg/crypto/rand/#Intwhy is this asking for `io.Reader` when I can just do `var Reader rand.Reader`?!",
+        "conversation_id": "83",
+        "index": 29
+    },
+    "so_post": {
+        "ts": "2020-02-04T15:02:40.340000",
+        "user": "Olivia",
+        "text": "https://stackoverflow.com/questions/32349807/howcanigeneratearandomintusingthecryptorandpackage",
+        "conversation_id": "83",
+        "index": 37
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Olivia provides answer to Amirayah",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

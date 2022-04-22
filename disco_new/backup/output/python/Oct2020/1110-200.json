@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-16T01:34:32.557000",
+        "user": "Dally",
+        "text": "RuntimeError: Polyfit sanity test emitted a warning most likely due to using a buggy Accelerate backend. If you compiled yourself see site.cfg.example for information. Otherwise report this to the vendor that provided NumPy.RankWarning: Polyfit may be poorly conditioned",
+        "conversation_id": "1110",
+        "index": 182
+    },
+    "so_post": {
+        "ts": "2020-10-16T01:35:35.461000",
+        "user": "Kashtin",
+        "text": "@Moofasa have you checked this? https://stackoverflow.com/questions/49902585/howtofixpolyfitmaybepoorlyconditionedinnumpy",
+        "conversation_id": "1110",
+        "index": 200
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Dallyfit posts their error (no other context provided) and they get this SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

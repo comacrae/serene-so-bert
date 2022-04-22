@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-07T13:07:27.949000",
+        "user": "Lahouari",
+        "text": "> I have a simple question any idea why this isn't true? ```py> string = Stuff'> > print(string[0])> if string[0] == string.upper():```@nl a letter would not be equal to 5 letters",
+        "conversation_id": "396",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-06-07T13:08:18.535000",
+        "user": "Adhara",
+        "text": "https://stackoverflow.com/questions/18974123/howcanitestifastringstartswithacapitalletter",
+        "conversation_id": "396",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

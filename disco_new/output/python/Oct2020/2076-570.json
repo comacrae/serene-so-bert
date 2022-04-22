@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-28T16:53:43.189000",
+        "user": "Torianna",
+        "text": "How do I add the python bot to my server?",
+        "conversation_id": "2076",
+        "index": 569
+    },
+    "so_post": {
+        "ts": "2020-10-28T16:53:43.195000",
+        "user": "Sakina",
+        "text": "https://stackoverflow.com/questions/52247301/howdoihostmydiscordpybotonheroku @D\u00e9j\u00e0Vu",
+        "conversation_id": "2076",
+        "index": 570
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "literally directly posted after",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

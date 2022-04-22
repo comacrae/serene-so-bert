@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-27T22:58:55.070000",
+        "user": "Torianna",
+        "text": "returning is to return a value from a function",
+        "conversation_id": "2023",
+        "index": 185
+    },
+    "so_post": {
+        "ts": "2020-10-27T22:59:42.691000",
+        "user": "Myana",
+        "text": "https://stackoverflow.com/questions/3881434/differencebetweenreturnsandprintinginpython#:~:text=print%3A%20gives%20the%20value%20to%20the%20user%20as,value.%20return%3A%20gives%20the%20value%20to%20the%20program.",
+        "conversation_id": "2023",
+        "index": 196
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Torianna says \"let me get this straight\" and then posts this",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

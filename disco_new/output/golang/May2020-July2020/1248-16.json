@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-14T16:48:30.433000",
+        "user": "Librado",
+        "text": "I need to test some tasks into a Oracle DB and they take a long time",
+        "conversation_id": "1248",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-06-14T16:51:03.900000",
+        "user": "Maram",
+        "text": "https://stackoverflow.com/questions/24929790/howtosetthegotimeoutflagongotest",
+        "conversation_id": "1248",
+        "index": 16
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asker is trying to run tests that take a long time so Maram posts an SO post that explains how to set timeout on tests in golang",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

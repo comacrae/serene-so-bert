@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-07T09:28:56.544000",
+        "user": "Heiden",
+        "text": "How can I write a text under the name of my robot for example $help",
+        "conversation_id": "464",
+        "index": 89
+    },
+    "so_post": {
+        "ts": "2020-10-07T09:30:43.314000",
+        "user": "Xianzhong",
+        "text": "> How can I write a text under the name of my robot for example $help@Samurai https://stackoverflow.com/questions/60055037/howmakecustomstatusdiscordpy",
+        "conversation_id": "464",
+        "index": 91
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to given question (one msg separating)",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

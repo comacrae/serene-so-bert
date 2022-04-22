@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-26T07:35:50.308000",
+        "user": "Rosamaria",
+        "text": "where would I add seek exactly",
+        "conversation_id": "914",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2019-12-26T07:36:51.575000",
+        "user": "Naely",
+        "text": "Relevant SO answer: https://stackoverflow.com/questions/16208206/confusedbypythonfilemodew",
+        "conversation_id": "914",
+        "index": 18
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "hard to group they're asking about abunch of file reading stuff",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-19T13:39:24.112000",
+        "user": "Muska",
+        "text": "I'm trying to proxy an http request without any specialized libraries to better understand the net/http package",
+        "conversation_id": "2081",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-04-19T13:42:55.276000",
+        "user": "Jhan",
+        "text": "curl v I https://stackoverflow.com",
+        "conversation_id": "2081",
+        "index": 15
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Muska asks question and Jhan provides SO post answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

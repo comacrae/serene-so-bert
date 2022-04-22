@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-13T05:11:03.362000",
+        "user": "Grethel",
+        "text": "Hey does anyone knows how to use XOR operation on pointers ??",
+        "conversation_id": "388",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-13T05:19:55.295000",
+        "user": "Rainey",
+        "text": "https://stackoverflow.com/questions/47846206/bitwisexoronaddressingolang",
+        "conversation_id": "388",
+        "index": 14
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Grethel asks question and Rainey provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

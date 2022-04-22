@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-16T07:07:39.383000",
+        "user": "Winsley",
+        "text": "> ok so i ahve a login system and a tic tac toe game i want the tic tac toe game to run when the login is successful",
+        "conversation_id": "1131",
+        "index": 153
+    },
+    "so_post": {
+        "ts": "2020-10-16T07:08:05.437000",
+        "user": "Tello",
+        "text": "> ok so i ahve a login system and a tic tac toe game i want the tic tac toe game to run when the login is successful@vinam I'm not very sure for the python have you seen this https://stackoverflow.com/questions/1186789/whatisthebestwaytocallascriptfromanotherscript",
+        "conversation_id": "1131",
+        "index": 158
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "tagged and gets answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

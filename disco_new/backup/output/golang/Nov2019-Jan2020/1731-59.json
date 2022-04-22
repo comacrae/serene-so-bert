@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-26T14:40:50.358000",
+        "user": "Aivaras",
+        "text": "I would like to set cookie from httpget",
+        "conversation_id": "1731",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-01-26T15:05:34.250000",
+        "user": "Nataniel",
+        "text": "@Phum <https://stackoverflow.com/questions/38939663/curlwithcookiestogolanghttprequest>",
+        "conversation_id": "1731",
+        "index": 59
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Aivaras asks question (without question mark, that's their first mesage) and then Nataniel provides answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T02:20:06.066000",
+        "user": "Melyssa",
+        "text": "I tried `('Output: str(exec(text_box.get(1.0 END))))` now but it still returns `None` how would I get it to actually return what the console got?",
+        "conversation_id": "1380",
+        "index": 163
+    },
+    "so_post": {
+        "ts": "2020-09-20T02:30:04.046000",
+        "user": "Nasiir",
+        "text": "https://stackoverflow.com/questions/3906232/pythongettheprintoutputinanexecstatement",
+        "conversation_id": "1380",
+        "index": 174
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Melyssa asks question and Nasiir provides SO answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

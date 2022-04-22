@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-04T21:09:38.590000",
+        "user": "Imad",
+        "text": "Well it would be an interesting challenge to create a Python script that modifies its own source file.",
+        "conversation_id": "149",
+        "index": 163
+    },
+    "so_post": {
+        "ts": "2019-11-04T21:10:44.258000",
+        "user": "Imad",
+        "text": "Looks like you can do it directly <https://stackoverflow.com/questions/39643428/howcanimakeapythonscriptchangeitself> but this might depend on copyonwrite support in the operating system",
+        "conversation_id": "149",
+        "index": 165
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "not really a question, but they do describe the task they want to accomplish and find a source that could help",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

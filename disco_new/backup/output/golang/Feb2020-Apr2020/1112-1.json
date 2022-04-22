@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-15T06:29:05.478000",
+        "user": "Marcelli",
+        "text": "Hi I am new to golang and trying to understand modules. I have a module that I implemented locally and want to use it from a different module locally. I am not planning to push to github or any other server. Does anyone know the best way to do this ?",
+        "conversation_id": "1112",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-03-15T07:21:32.305000",
+        "user": "Yennefer",
+        "text": "@matoxian See here https://stackoverflow.com/a/52330233You can use replace in go.mod file to import module localy",
+        "conversation_id": "1112",
+        "index": 1
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Marcelli has question and Yennefer has answer with SO post",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

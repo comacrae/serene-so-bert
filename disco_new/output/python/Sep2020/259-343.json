@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-04T18:01:24.399000",
+        "user": "Khiren",
+        "text": "could someone explain to me what's going on with datetime module and ISO time the curl request that im doing pulls data in ISO format but it has the military time zone at the end Z which doesn't come standard. I've done some googeling and there are some ways to modify the code so that it's included but I'm having a hard time understanding the instructions and how to apply them to my code",
+        "conversation_id": "259",
+        "index": 341
+    },
+    "so_post": {
+        "ts": "2020-09-04T18:01:50.267000",
+        "user": "Khiren",
+        "text": "https://stackoverflow.com/questions/19654578/pythonutcdatetimeobjectsisoformatdoesntincludezzuluorzerooffset#:~:text=123,Python%20UTC%20datetime%20object's%20ISO%20format%20doesn't,Z%20(Zulu%20or%20Zero%20offset)&text=Why%20python%202.7%20doesn't,object's%20isoformat%20string%20unlike%20JavaScript%3F",
+        "conversation_id": "259",
+        "index": 343
+    },
+    "category": "Question Repost",
+    "comments": "Khiren asks question and posts SO as background",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

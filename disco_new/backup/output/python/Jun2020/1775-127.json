@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-30T05:32:01.659000",
+        "user": "Elody",
+        "text": "at downloading all imgs in some web site",
+        "conversation_id": "1775",
+        "index": 121
+    },
+    "so_post": {
+        "ts": "2020-06-30T05:33:34.717000",
+        "user": "Gareth",
+        "text": "@ItsNil https://stackoverflow.com/questions/18408307/howtoextractanddownloadallimagesfromawebsiteusingbeautifulsoup",
+        "conversation_id": "1775",
+        "index": 127
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "instigator's english isn't great so this is the closest msg they have at their question",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

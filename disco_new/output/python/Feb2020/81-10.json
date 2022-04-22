@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-03T01:32:08.356000",
+        "user": "Cypress",
+        "text": "I want to parse a sgf string",
+        "conversation_id": "81",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-02-03T01:40:06.039000",
+        "user": "Anand",
+        "text": "https://stackoverflow.com/a/7503827/3130747",
+        "conversation_id": "81",
+        "index": 10
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Seems like Cypress was asking how to parse a sgf string, and the user was giving them a suggestion on how they could go about it.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

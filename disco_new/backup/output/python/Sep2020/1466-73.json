@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-21T11:11:48.523000",
+        "user": "Kimberly",
+        "text": "i want a class which can destroy itself",
+        "conversation_id": "1466",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2020-09-21T11:12:48.563000",
+        "user": "Wladyslaw",
+        "text": "But if you really want to do that look at this StackOverflow question https://stackoverflow.com/questions/293431/pythonobjectdeletingitself@jonas.frey",
+        "conversation_id": "1466",
+        "index": 73
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Kayla has question and Wladyslaw provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

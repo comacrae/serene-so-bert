@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T16:30:47.217000",
+        "user": "Dyana",
+        "text": "> question is not even defined@SyntaxSnipes How do i remove the <title> tags",
+        "conversation_id": "182",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-09-03T19:02:28.201000",
+        "user": "Maat",
+        "text": "@../../../shrekman.exe have you seen this https://stackoverflow.com/questions/16206380/pythonbeautifulsouphowtoremovealltagsfromanelement",
+        "conversation_id": "182",
+        "index": 533
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Dyana has question and Maat provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

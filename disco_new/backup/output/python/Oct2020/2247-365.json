@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T20:03:47.117000",
+        "user": "Elena",
+        "text": "Will it be alright with threadpooling?",
+        "conversation_id": "2247",
+        "index": 364
+    },
+    "so_post": {
+        "ts": "2020-10-30T20:04:17.772000",
+        "user": "Biannca",
+        "text": "https://stackoverflow.com/questions/38694111/isitthreadsafewhenusingtfsessionininferenceservice",
+        "conversation_id": "2247",
+        "index": 365
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "elena's first message, asking about using tensorflow",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-21T12:02:30.352000",
+        "user": "Miran",
+        "text": "https://stackoverflow.com/questions/64460822/removingexcesstabsfromtxtfileafteruserinputerroranyone? \ud83d\ude04",
+        "conversation_id": "1561",
+        "index": 240
+    },
+    "so_post": {
+        "ts": "2020-10-21T12:02:30.352000",
+        "user": "Miran",
+        "text": "https://stackoverflow.com/questions/64460822/removingexcesstabsfromtxtfileafteruserinputerroranyone? \ud83d\ude04",
+        "conversation_id": "1561",
+        "index": 240
+    },
+    "category": "Question Repost",
+    "comments": "soliciting since they ask \"anyone?\" at end (not part of url)",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

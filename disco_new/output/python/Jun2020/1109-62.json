@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-18T18:18:56.149000",
+        "user": "Vaia",
+        "text": "Someone please help me in this problem: https://stackoverflow.com/q/62451564/12116796",
+        "conversation_id": "1109",
+        "index": 62
+    },
+    "so_post": {
+        "ts": "2020-06-18T18:18:56.149000",
+        "user": "Vaia",
+        "text": "Someone please help me in this problem: https://stackoverflow.com/q/62451564/12116796",
+        "conversation_id": "1109",
+        "index": 62
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

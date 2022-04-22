@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-08T00:07:28.935000",
+        "user": "Ulisses",
+        "text": "I'm trying to get the IPv6 of my clients. https://stackoverflow.com/questions/16276913/reliablygetipv6addressinpython```pydef get_ip_6(host): # search for all addresses but take only the v6 ones alladdr = socket.getaddrinfo(host,PORT) ip6 = filter( lambda x: x[0] == socket.AF_INET6 # means its ip6 alladdr ) # if you want just the sockaddr #return map(lambda x:x[4],ip6) HERE return list(ip6)[0][4][0] # AND HERE```The first return is just equal to: `<map object at 0x07E70130>`While the one that isn't commented is just an empty list.",
+        "conversation_id": "497",
+        "index": 212
+    },
+    "so_post": {
+        "ts": "2020-09-08T00:07:28.935000",
+        "user": "Ulisses",
+        "text": "I'm trying to get the IPv6 of my clients. https://stackoverflow.com/questions/16276913/reliablygetipv6addressinpython```pydef get_ip_6(host): # search for all addresses but take only the v6 ones alladdr = socket.getaddrinfo(host,PORT) ip6 = filter( lambda x: x[0] == socket.AF_INET6 # means its ip6 alladdr ) # if you want just the sockaddr #return map(lambda x:x[4],ip6) HERE return list(ip6)[0][4][0] # AND HERE```The first return is just equal to: `<map object at 0x07E70130>`While the one that isn't commented is just an empty list.",
+        "conversation_id": "497",
+        "index": 212
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help using SO post as background",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-18T11:50:30.365000",
+        "user": "Annalisia",
+        "text": "Traceback (most recent call last): File C:/Users/user/Desktop/file.py line 7 in <module> import win32conModuleNotFoundError: No module named \\'win32con\\",
+        "conversation_id": "1293",
+        "index": 82
+    },
+    "so_post": {
+        "ts": "2020-10-18T11:54:30.309000",
+        "user": "Annalisia",
+        "text": "@Feroz this is the solution! https://stackoverflow.com/questions/227928/whatswin32conmoduleinpythonwherecanifindit/39329641",
+        "conversation_id": "1293",
+        "index": 108
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Annalisa is trying to find win32 and gets an SO post from Annalisia about it",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

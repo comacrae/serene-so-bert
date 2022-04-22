@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-03T23:49:18.073000",
+        "user": "Rainer",
+        "text": "idk how to make sure pointers are removed from arrays",
+        "conversation_id": "945",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-06-03T23:51:54.765000",
+        "user": "Shritha",
+        "text": "https://stackoverflow.com/questions/55045402/memoryleakingolangslice",
+        "conversation_id": "945",
+        "index": 21
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Rainer trying to figure out how to deal with memory leak related to pointers",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

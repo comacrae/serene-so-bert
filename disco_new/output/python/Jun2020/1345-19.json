@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-22T17:34:04.387000",
+        "user": "Vaia",
+        "text": "```def ssl_wrap_socket(sock keyfile=None certfile=None cert_reqs=None, ca_certs=None server_hostname=None, ssl_version=None):``` What does this None in argument represent? (source: https://stackoverflow.com/q/19145097)",
+        "conversation_id": "1345",
+        "index": 19
+    },
+    "so_post": {
+        "ts": "2020-06-22T17:34:04.387000",
+        "user": "Vaia",
+        "text": "```def ssl_wrap_socket(sock keyfile=None certfile=None cert_reqs=None, ca_certs=None server_hostname=None, ssl_version=None):``` What does this None in argument represent? (source: https://stackoverflow.com/q/19145097)",
+        "conversation_id": "1345",
+        "index": 19
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

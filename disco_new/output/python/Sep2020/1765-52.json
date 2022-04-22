@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-25T10:30:37.899000",
+        "user": "Nilsa",
+        "text": "> guys i am doing a kata in code wars i got a question in which i have to convert the given text in ROT13 format can someone help that will i have to create a dict for every alphabet or ..?stackoverflow answered it in the best way tbh",
+        "conversation_id": "1765",
+        "index": 47
+    },
+    "so_post": {
+        "ts": "2020-09-25T10:32:53.875000",
+        "user": "Nilsa",
+        "text": "https://stackoverflow.com/questions/15908366/howtoreworkthisrot13function",
+        "conversation_id": "1765",
+        "index": 52
+    },
+    "category": "Validating Solution",
+    "comments": "Nilsa found an answer from SO and is trying to determine if it's the best way",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

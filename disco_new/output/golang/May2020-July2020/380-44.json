@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-14T19:31:39.215000",
+        "user": "Essiah",
+        "text": "I have `err := http.ListenAndServe(\"localhost:1234 handler)` I\\'d like to log an event when it has successfully started listening but independant of any request arriving. This method only returns if error occurs or it stops listening. My guess is that I should use `net.Listen()` do my logging then pass the result to `http.Serve()`. Am I on the right track? I\\'m a Go newbie for what it\\'s worth.",
+        "conversation_id": "380",
+        "index": 17
+    },
+    "so_post": {
+        "ts": "2020-05-14T19:40:41.198000",
+        "user": "Gwendolen",
+        "text": "https://stackoverflow.com/questions/34312615/logwhenserverisstarted",
+        "conversation_id": "380",
+        "index": 44
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "shritha has question and gwendolen provides answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-28T15:58:59.631000",
+        "user": "Jkari",
+        "text": "does anybody know why gofmt decides to nest this fn 2 levels? ```gofunc BenchmarkLoop(thing string) (func() func()) { now := time.Now() last := now duras := []time.Duration{} return func() { looped := time.Now() duras = append(duras looped.Sub(last)) last = looped }, func() { Debugln(thing took cumulatively time.Now().Sub(now) individually: duras) }}```",
+        "conversation_id": "731",
+        "index": 11
+    },
+    "so_post": {
+        "ts": "2020-02-28T16:09:09.054000",
+        "user": "Nazaret",
+        "text": "Basically what @Blackshell siad https://stackoverflow.com/questions/34817188/replacevalueofinterface",
+        "conversation_id": "731",
+        "index": 105
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jkari asks question and Nazaret provides answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

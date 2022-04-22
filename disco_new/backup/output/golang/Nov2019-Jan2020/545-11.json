@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-01T12:14:14.935000",
+        "user": "Fernand",
+        "text": "I was wondering if everyone here knew why the `string` type in Go is immutable e.g. it\\'s akin to `char const ` in C.",
+        "conversation_id": "545",
+        "index": 2
+    },
+    "so_post": {
+        "ts": "2019-12-01T12:24:17.731000",
+        "user": "Zulfiqar",
+        "text": "This is in java but I think the same answer found here applies on go as well <https://stackoverflow.com/questions/22397861/whyisstringimmutableinjava>",
+        "conversation_id": "545",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Fernand asks question and Zulfiqar provides answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-30T02:11:23.244000",
+        "user": "Antony",
+        "text": "what's the best way to make a program handle both SIGTERMs and goroutine errors?",
+        "conversation_id": "915",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-30T02:28:10.199000",
+        "user": "Daisuke",
+        "text": "@read the status one quick Google later and https://stackoverflow.com/questions/31235211/gotemplateshowdoiaccessarrayitemarr2intemplates/31235243",
+        "conversation_id": "915",
+        "index": 47
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Anthony asks question and Daisuke provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

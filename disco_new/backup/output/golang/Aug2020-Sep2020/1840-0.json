@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-28T07:43:13.214000",
+        "user": "Demondre",
+        "text": "Hiya all I want to keep a global int that can be reset by any of my goroutines. I know I can use a Mutex for concurrent access but I've also heard of sync/atomic package. May I ask about your thoughts? Answer here is a bit confusing https://stackoverflow.com/questions/47445344/isthereadifferenceingobetweenacounterusingatomicoperationsandoneus#:~:text=There%20is%20no%20difference%20in,relying%20on%20external%20locks%20to.",
+        "conversation_id": "1840",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-28T07:43:13.214000",
+        "user": "Demondre",
+        "text": "Hiya all I want to keep a global int that can be reset by any of my goroutines. I know I can use a Mutex for concurrent access but I've also heard of sync/atomic package. May I ask about your thoughts? Answer here is a bit confusing https://stackoverflow.com/questions/47445344/isthereadifferenceingobetweenacounterusingatomicoperationsandoneus#:~:text=There%20is%20no%20difference%20in,relying%20on%20external%20locks%20to.",
+        "conversation_id": "1840",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "Demondre using SO post as background for their own question",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

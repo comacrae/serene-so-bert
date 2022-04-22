@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T20:58:44.021000",
+        "user": "Zyhaire",
+        "text": "I think the internet is wrong in this case. Think about it. Why would that reduce CPU usage?",
+        "conversation_id": "67",
+        "index": 176
+    },
+    "so_post": {
+        "ts": "2020-10-01T20:59:02.802000",
+        "user": "Torianna",
+        "text": "https://stackoverflow.com/questions/787803/howdoesathreadingthreadyieldtherestofitsquantuminpython",
+        "conversation_id": "67",
+        "index": 178
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Someone wants to know why threading would yield and they're given a direct answer via SO post",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

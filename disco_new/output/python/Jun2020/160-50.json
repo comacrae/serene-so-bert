@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-03T16:05:00.176000",
+        "user": "Celestino",
+        "text": "isn't regex for patterns?",
+        "conversation_id": "160",
+        "index": 47
+    },
+    "so_post": {
+        "ts": "2020-06-03T16:05:29.841000",
+        "user": "Kasper",
+        "text": "https://stackoverflow.com/questions/2502354/whatispatternmatchinginfunctionallanguages",
+        "conversation_id": "160",
+        "index": 50
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

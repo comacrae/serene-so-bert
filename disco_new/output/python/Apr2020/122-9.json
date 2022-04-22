@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-03T10:05:40.404000",
+        "user": "Kaelani",
+        "text": "@Larswijn maybe..I mean this:One more interesting point to note\\xa0:\\xa0Logical\\xa0and,\\xa0or\\xa0operators in Python returns an operand's\\xa0value\\xa0instead of a Boolean (True\\xa0or\\xa0False). For example:Operation\\xa0x and y\\xa0gives the result\\xa0if x is false then x else yUnlike in other languages e.g.\\xa0&&,\\xa0||\\xa0operators in C that return either 0 or 1.",
+        "conversation_id": "122",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-04-03T10:12:07.854000",
+        "user": "Miloni",
+        "text": "@me2beats this SO answer explains a lot <https://stackoverflow.com/a/13870633/11400238>also I think the technical term is `Noncoercing result: the result is one of the operands not coerced to bool.` (from the same question couple of answers down)",
+        "conversation_id": "122",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "I believe the poster was giving Kaelani a link to explain his doubts about his question.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

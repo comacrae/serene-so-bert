@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-22T00:18:29.214000",
+        "user": "Shelton",
+        "text": "im trying to get sum of squared numbers using a loop",
+        "conversation_id": "1606",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-10-22T00:20:05.967000",
+        "user": "Kaio",
+        "text": "https://stackoverflow.com/questions/26894227/sumofsquaresinalistinoneline",
+        "conversation_id": "1606",
+        "index": 61
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Shelton asks question and gets SO post directly",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

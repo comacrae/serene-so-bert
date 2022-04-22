@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-25T04:29:35.783000",
+        "user": "Corrine",
+        "text": "> When I do a `err := json.NewDecoder(r.Body).Decode(obj)` when I check for the err and it's not nil I want to return a bad request response but include the clients request body. Is there a clean way I can get back at the body now that it's been read? I like the simplicity of the `json.NewDecoder()` function over doing something like ```go bytebois err := ioutil.ReadAll() if err != nil { things } err = json.Unmarshal(bytebois obj) if err != nil { yet another error check render.Render(w r badReq(bytebois)) }```@Tkdefender",
+        "conversation_id": "2263",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-04-25T04:30:46.804000",
+        "user": "Jkari",
+        "text": "long answer: :maayy::bbeee: <https://stackoverflow.com/questions/39791021/howtoreadmultipletimesfromsameioreader>",
+        "conversation_id": "2263",
+        "index": 3
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Corrine asks question and Jkari provides SO post answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

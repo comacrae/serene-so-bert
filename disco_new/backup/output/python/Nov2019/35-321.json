@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-02T00:23:16.828000",
+        "user": "Pollyanna",
+        "text": "kekekekekek",
+        "conversation_id": "35",
+        "index": 417
+    },
+    "so_post": {
+        "ts": "2019-11-02T00:10:58.530000",
+        "user": "Pollyanna",
+        "text": "https://stackoverflow.com/questions/22971078/howisirangeanydifferentfromrangeorxrange @Epsi",
+        "conversation_id": "35",
+        "index": 321
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

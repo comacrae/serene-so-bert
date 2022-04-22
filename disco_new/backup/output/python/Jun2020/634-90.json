@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-11T13:30:05.780000",
+        "user": "Suping",
+        "text": "> what is class(object) in python ?@X_X .",
+        "conversation_id": "634",
+        "index": 76
+    },
+    "so_post": {
+        "ts": "2020-06-11T13:31:36.896000",
+        "user": "Elea",
+        "text": "https://stackoverflow.com/questions/4015417/pythonclassinheritsobject",
+        "conversation_id": "634",
+        "index": 90
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

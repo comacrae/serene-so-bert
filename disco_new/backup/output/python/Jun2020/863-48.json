@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-15T01:48:53.425000",
+        "user": "Nyssa",
+        "text": "if i have nested class does that mean i need to use __ini__ for each nested class?",
+        "conversation_id": "863",
+        "index": 20
+    },
+    "so_post": {
+        "ts": "2020-06-15T01:51:09.361000",
+        "user": "Pragya",
+        "text": "read thishttps://stackoverflow.com/questions/9123517/howdoyouimportafileinpythonwithspacesinthename",
+        "conversation_id": "863",
+        "index": 48
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

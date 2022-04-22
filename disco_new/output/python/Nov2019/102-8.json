@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-03T15:45:35.027000",
+        "user": "Neev",
+        "text": "is `if __name__== __main__\":` a good pattern?",
+        "conversation_id": "102",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2019-11-03T15:48:37.293000",
+        "user": "Neev",
+        "text": "I am trying to implement https://stackoverflow.com/questions/1836352/similaritybetweenusersbasedonvotes",
+        "conversation_id": "102",
+        "index": 8
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

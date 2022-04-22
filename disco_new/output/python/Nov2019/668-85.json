@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-18T18:28:31.673000",
+        "user": "Emelina",
+        "text": "Ugh.. I just wasted quite some time trying to set up fresh Python installation. And failed. https://stackoverflow.com/questions/58455888/errorininstallingmatplotlibfatalerrorc1083",
+        "conversation_id": "668",
+        "index": 85
+    },
+    "so_post": {
+        "ts": "2019-11-18T18:28:31.673000",
+        "user": "Emelina",
+        "text": "Ugh.. I just wasted quite some time trying to set up fresh Python installation. And failed. https://stackoverflow.com/questions/58455888/errorininstallingmatplotlibfatalerrorc1083",
+        "conversation_id": "668",
+        "index": 85
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

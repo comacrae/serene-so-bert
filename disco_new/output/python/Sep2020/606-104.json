@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-09T13:29:14.739000",
+        "user": "September",
+        "text": "```pyregex = r\"^(?>(?>(?:from ?[+]?\\\\d+(?:\\\\.\\\\d+)? ?to ?|[+]?\\\\d+(?:\\\\.\\\\d+)? ?[~] ?)[+]?\\\\d+(?:\\\\.\\\\d+)?\\\\s+[+]?\\\\d+(?:\\\\.\\\\d+)?(?:[,\\\\s\\\\r]+|$))+)$\"test_str = (\"2029 27\\\" 3039 36\\\" 4049 14\\\" 5059 3\\\" 6069 5\\\" 7079 1\\\" 8089 1\")matches = re.search(regex test_str re.DOTALL)```gives me `re.error: unknown extension ?>`",
+        "conversation_id": "606",
+        "index": 83
+    },
+    "so_post": {
+        "ts": "2020-09-09T13:30:56.104000",
+        "user": "Sarbjit",
+        "text": "@nope https://stackoverflow.com/questions/13577372/dopythonregularexpressionshaveanequivalenttorubysatomicgrouping",
+        "conversation_id": "606",
+        "index": 104
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "This is the only question from this person and Sarbjit replies with an SO post about regexes",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

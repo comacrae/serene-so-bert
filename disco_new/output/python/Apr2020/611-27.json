@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-13T10:22:50.010000",
+        "user": "Jesalyn",
+        "text": "(for Python by the way; https://stackoverflow.com/questions/61041921/pythonreferringtoselfbetweentwoclasses )",
+        "conversation_id": "611",
+        "index": 27
+    },
+    "so_post": {
+        "ts": "2020-04-13T10:22:50.010000",
+        "user": "Jesalyn",
+        "text": "(for Python by the way; https://stackoverflow.com/questions/61041921/pythonreferringtoselfbetweentwoclasses )",
+        "conversation_id": "611",
+        "index": 27
+    },
+    "category": "Question Repost",
+    "comments": "Seems like Jesalyn is posting their own question from SO. Post 31 by Jobe seems to be telling them to go to a different channel for help.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

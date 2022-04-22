@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-24T16:08:20.724000",
+        "user": "Nyssa",
+        "text": "are there any ways to check if a file (exists but it's empty)/(doesn't exist)?",
+        "conversation_id": "1461",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-06-24T16:10:58.679000",
+        "user": "Javiel",
+        "text": "(<https://stackoverflow.com/questions/82831/howdoicheckwhetherafileexistswithoutexceptions> for details)",
+        "conversation_id": "1461",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

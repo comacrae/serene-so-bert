@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-18T20:38:04.718000",
+        "user": "Aribella",
+        "text": "```gobody := strings.NewReader(`username=anxioustest1&password=testtest123`)req err := http.NewRequest(\"POST https://www.instagram.com/accounts/login/ajax/ body) if err != nil { // handle err }req.Header.Set(\"UserAgent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/80.0.3987.106 Safari/537.36\")req.Header.Set(\"XCsrftoken oC1hLF34694avUNUvNvU4BgiTsoFjGBF\") req.Header.Set(\"ContentType application/xwwwformurlencoded\") resp err := http.DefaultClient.Do(req) if err != nil { // handle err }```I need anxioustest1 and testtest123 to be variables called username and password.fmt.sprintf doesn\\'t work as it has no support for headers.",
+        "conversation_id": "447",
+        "index": 46
+    },
+    "so_post": {
+        "ts": "2020-02-18T20:41:44.103000",
+        "user": "Pablo",
+        "text": "@\u03c9ss have you seen this? https://stackoverflow.com/questions/30652577/godoingagetrequestandbuildingthequerystring",
+        "conversation_id": "447",
+        "index": 57
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Someone asks question and Pablo provides direct SO answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

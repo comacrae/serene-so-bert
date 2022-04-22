@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-25T02:43:22.355000",
+        "user": "Adriaan",
+        "text": "Haha I know I just didn\u2019t wanna clog the chat. Anyway to avoid clogging with code here\u2019s a stack overflow post containing code but essentially I\u2019m trying to abstract sql.db into an ExtendedDB struct which contains an element that is sql.sb. The reasoning for this is to create my own methods that operate on the sql.db struct via the ExtendedDB. I\u2019m relatively new to lower level languages so I believe the segfault is being caused by incorrect use of pointers https://stackoverflow.com/q/62566126/10833363",
+        "conversation_id": "1559",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-06-25T02:43:22.355000",
+        "user": "Adriaan",
+        "text": "Haha I know I just didn\u2019t wanna clog the chat. Anyway to avoid clogging with code here\u2019s a stack overflow post containing code but essentially I\u2019m trying to abstract sql.db into an ExtendedDB struct which contains an element that is sql.sb. The reasoning for this is to create my own methods that operate on the sql.db struct via the ExtendedDB. I\u2019m relatively new to lower level languages so I believe the segfault is being caused by incorrect use of pointers https://stackoverflow.com/q/62566126/10833363",
+        "conversation_id": "1559",
+        "index": 61
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

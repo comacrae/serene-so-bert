@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-22T18:04:38.318000",
+        "user": "Kaelyn",
+        "text": "is it okay to build my go code into binary via `go build o wikiupdate`",
+        "conversation_id": "1617",
+        "index": 90
+    },
+    "so_post": {
+        "ts": "2020-01-22T18:05:19.872000",
+        "user": "Kaelyn",
+        "text": "https://stackoverflow.com/questions/42706246/howtobuildexecutablewithnameotherthangolangpackage",
+        "conversation_id": "1617",
+        "index": 97
+    },
+    "category": "Question Repost",
+    "comments": "Kaylen asking question using SO post as background",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

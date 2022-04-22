@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-16T23:27:00.222000",
+        "user": "Salih",
+        "text": "is there a way to give an array of strings as a bunch of arguements for a function that takes multiple strings",
+        "conversation_id": "1484",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-09-16T23:35:20.045000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/17555857/gounpackingarrayasarguments",
+        "conversation_id": "1484",
+        "index": 6
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Salih asks for help and Samarie provides answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

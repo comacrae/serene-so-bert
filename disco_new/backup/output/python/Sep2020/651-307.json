@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-10T05:47:32.090000",
+        "user": "Aahir",
+        "text": "how to change mouse cursor to single line on pycharm i hate that block of white line which erases everything when i add some new code?",
+        "conversation_id": "651",
+        "index": 295
+    },
+    "so_post": {
+        "ts": "2020-09-10T05:49:54.974000",
+        "user": "Mubashir",
+        "text": "@Pie'.'Thon Or read thishttps://stackoverflow.com/questions/34988774/howtochangepycharm501cursor",
+        "conversation_id": "651",
+        "index": 307
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ashar asks question and Mubashir provides direct answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

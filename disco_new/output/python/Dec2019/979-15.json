@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-28T01:22:47.506000",
+        "user": "Azyriah",
+        "text": "I was able to organize my data year by year but now I want to find the average temperature for each year and put them into a dictionary",
+        "conversation_id": "979",
+        "index": 9
+    },
+    "so_post": {
+        "ts": "2019-12-28T01:26:00.984000",
+        "user": "Mianna",
+        "text": "<https://stackoverflow.com/a/45205505>seems like something along this line could work",
+        "conversation_id": "979",
+        "index": 15
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

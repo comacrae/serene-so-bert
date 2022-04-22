@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-01T23:09:43.656000",
+        "user": "Abir",
+        "text": "> can someone please explain why the `[]` are redundant in the following: > ```py> sorted(x for x in dir(df_meta) if x[0] != _')> sorted([x for x in dir(df_meta) if x[0] != _'])> ```@rie https://stackoverflow.com/a/9060686/12628157",
+        "conversation_id": "47",
+        "index": 99
+    },
+    "so_post": {
+        "ts": "2020-04-01T23:09:43.656000",
+        "user": "Abir",
+        "text": "> can someone please explain why the `[]` are redundant in the following: > ```py> sorted(x for x in dir(df_meta) if x[0] != _')> sorted([x for x in dir(df_meta) if x[0] != _'])> ```@rie https://stackoverflow.com/a/9060686/12628157",
+        "conversation_id": "47",
+        "index": 99
+    },
+    "category": "Question Repost",
+    "comments": "Abir was asking another user a question regarding the SO answer.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

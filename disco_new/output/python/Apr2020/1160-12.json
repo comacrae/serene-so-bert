@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-24T02:26:46.396000",
+        "user": "Heidy",
+        "text": "```pythonurlpatterns = [ path( views.index name='index')]```what does `name='index'` do?",
+        "conversation_id": "1160",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-04-24T02:28:01.897000",
+        "user": "Neisha",
+        "text": "as for `name`  https://stackoverflow.com/questions/12818377/djangonameparameterinurlpatterns",
+        "conversation_id": "1160",
+        "index": 12
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Heidy is asking what name='index does.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-25T08:35:43.590000",
+        "user": "Niklas",
+        "text": "Yo I am currently using PyInstaller and files converted by PyInstaller always get a False Positive",
+        "conversation_id": "1760",
+        "index": 48
+    },
+    "so_post": {
+        "ts": "2020-09-25T08:37:14.208000",
+        "user": "Suraj",
+        "text": "@MemeOverload https://stackoverflow.com/questions/43777106/programmadewithpyinstallernowseenasatrojanhorsebyavg",
+        "conversation_id": "1760",
+        "index": 64
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Might need grouping but it would require combining multiple user comments. basically the asker's code is constantly being pinged as a virus",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

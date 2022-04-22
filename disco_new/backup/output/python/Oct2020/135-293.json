@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-02T18:43:57.383000",
+        "user": "Alayza",
+        "text": "i am trying to download a file to downloads",
+        "conversation_id": "135",
+        "index": 291
+    },
+    "so_post": {
+        "ts": "2020-10-02T18:44:32.532000",
+        "user": "Torianna",
+        "text": "https://stackoverflow.com/questions/13207450/permissionerrorerrno13inpython",
+        "conversation_id": "135",
+        "index": 293
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "someone is having issue donwloading a file and Torianna gives an SO post answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

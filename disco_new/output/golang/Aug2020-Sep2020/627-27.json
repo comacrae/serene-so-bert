@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-21T00:53:04.523000",
+        "user": "Ellarie",
+        "text": "how would i stop the error `sql: no rows in result set` from causing the code to stop executing",
+        "conversation_id": "627",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-08-21T01:00:58.069000",
+        "user": "Sita",
+        "text": "Might want to make sure your table uses lowercase column names unless you are going to quote column names in every query you run. https://stackoverflow.com/a/2878408",
+        "conversation_id": "627",
+        "index": 27
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Needs grouping, but Ellarie has question and then Sita provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-08T19:19:44.405000",
+        "user": "Jeancarlo",
+        "text": "@Grote but if you make a http request will you get a list of all possible exceptions? httplib2.HttpLib2Error TimeoutError RemoteDisconnected WindowsError socket.gaierror....",
+        "conversation_id": "270",
+        "index": 225
+    },
+    "so_post": {
+        "ts": "2019-12-08T19:23:33.120000",
+        "user": "Enoc",
+        "text": "https://stackoverflow.com/questions/32560116/howtolistallexceptionsafunctioncouldraiseinpython3Pretty good thread. I might resort to using something like this by hand",
+        "conversation_id": "270",
+        "index": 236
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

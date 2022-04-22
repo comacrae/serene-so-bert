@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-27T12:35:40.175000",
+        "user": "Mason",
+        "text": "Is there any way to extract comments as documents like how Rust does?Ive tried go doc all etc. But nothing generates neither displayed.",
+        "conversation_id": "2474",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-27T13:02:29.439000",
+        "user": "Maddyson",
+        "text": "<https://stackoverflow.com/questions/13530120/howcanigeneratehtmldocumentsusinggodoc>",
+        "conversation_id": "2474",
+        "index": 49
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Mason has question and Maddyson answers",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

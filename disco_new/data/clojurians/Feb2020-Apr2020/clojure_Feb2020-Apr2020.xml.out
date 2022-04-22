@@ -1,0 +1,2326 @@
+<discord>
+<team_domain>Clojurians</team_domain>
+<channel_name>clojure</channel_name>
+<start_date>2020-02-15T23:02:46.362000</start_date>
+<end_date>2020-04-26T21:17:48.937000</end_date>
+<message conversation_id="1">
+  <ts>2020-02-15T23:02:46.362000</ts>
+  <user>Ezrajames</user>
+  <text>stm is really cool</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-02-17T04:01:24.728000</ts>
+  <user>Ezrajames</user>
+  <text>is this server dead?</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-02-17T04:02:29.903000</ts>
+  <user>Alistair</user>
+  <text>Not really?</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-02-17T04:02:32.071000</ts>
+  <user>Alistair</user>
+  <text>But kinda</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-02-17T04:02:47.381000</ts>
+  <user>Alistair</user>
+  <text>There's a few of us here who like to answer questions like me djeis and a few others.</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-02-22T19:13:50.692000</ts>
+  <user>Bettina</user>
+  <text>And some of us looking for help on projects 🙂</text>
+</message>
+<message conversation_id="2">
+  <ts>2020-03-07T04:40:36.692000</ts>
+  <user>Camaron</user>
+  <text>Are efforts to make Clojure (on JVM) a viable development platform for Android abandoned?</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-03-07T09:49:02.803000</ts>
+  <user>Alistair</user>
+  <text>I think for the most part people have moved on to doing cljs via ReactNative for android development. I haven't seen any recent updates to the clojure on android project.</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-03-07T09:52:07.936000</ts>
+  <user>Alistair</user>
+  <text>Although it looks like leindroid should still work even with the latest clojure versions. You just have to determine if the startup time that it provides is fast enough for you.</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-03-07T09:54:49.114000</ts>
+  <user>Alistair</user>
+  <text>Specifically though if you want to do clojure development on mobile I recommend https://expo.io/</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-03-07T09:55:37.984000</ts>
+  <user>Alistair</user>
+  <text>It's a platform which provides a way to use reactnative for everything without having to write any native code either for android or ios.</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-03-07T09:55:38.700000</ts>
+  <user>Alistair</user>
+  <text>https://docs.expo.io/versions/latest/guides/usingclojurescript/</text>
+</message>
+<message conversation_id="3">
+  <ts>2020-03-08T02:17:18.490000</ts>
+  <user>Camaron</user>
+  <text>Ooh interesting.</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-03-09T05:55:32.420000</ts>
+  <user>Bettina</user>
+  <text>Expo is cool but just understand there are tradeoffs with that kind of software.</text>
+</message>
+<message conversation_id="3">
+  <ts>2020-03-09T15:36:37.571000</ts>
+  <user>Kayshawn</user>
+  <text>renatal is greatshadow cljs is getting great too</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-03-14T22:10:51.691000</ts>
+  <user>Rhian</user>
+  <text>Hey i was just wondering if anyone could help me i have a sequence of `'(1 2 3 4 5)`And im wanting to find out the index of 5.for example in this case the result would be 4.Is there anything built into clojure to solve this?</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-03-14T22:19:15.195000</ts>
+  <user>Knowledge</user>
+  <text>`(.indexOf (1 2 3 4 5) 5)`</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-03-14T22:19:32.472000</ts>
+  <user>Knowledge</user>
+  <text>None</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-03-14T22:43:20.138000</ts>
+  <user>Alistair</user>
+  <text>That works but if you want a lazy sequence of the indices of all matches you could do the following:`(map first (filter #(= 5 (second %)) (mapindexed vector (1 2 3 4 5))))`</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-03-15T02:01:22.778000</ts>
+  <user>Rhian</user>
+  <text>🤦\u200d♂️ Thanks guys</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-03-15T19:50:05.501000</ts>
+  <user>Rezki</user>
+  <text>hey guys i want to add two lists as argument:user=&gt; (defn share [a b] (a b))but if i call it i get:user=&gt; (share  #_=&gt; [1 2] [1 2])Execution error (IllegalArgumentException) at user/share (REPL:1).Key must be integer</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-03-15T19:51:09.019000</ts>
+  <user>Rezki</user>
+  <text>None</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-03-15T19:51:33.563000</ts>
+  <user>Rezki</user>
+  <text>anyone any idea what im doing wrong here?</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-03-15T19:51:44.858000</ts>
+  <user>Rezki</user>
+  <text>can't i just pass two lists?</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-03-15T19:52:33.083000</ts>
+  <user>Rezki</user>
+  <text>is there something special about passing lists in clojure?</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-03-15T20:44:02.904000</ts>
+  <user>Rezki</user>
+  <text>i think i got it i have to give list return type</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T00:57:09.810000</ts>
+  <user>Tannen</user>
+  <text>What are you trying to do exactly?</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T00:57:45.390000</ts>
+  <user>Tannen</user>
+  <text>When you call `(a b)` you're calling `([1 2] [1 2])` which kinda doesn't work</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T00:58:26.475000</ts>
+  <user>Tannen</user>
+  <text>If you were to call `([1 2] 0)` you'd get the 0th item since vectors can be called as functions provided their argument is an index</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T12:59:34.156000</ts>
+  <user>Rezki</user>
+  <text>@lsenjov i want to write a program that takes a list of 8 elements and shares assign each two elements on a new list</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T12:59:59.338000</ts>
+  <user>Tannen</user>
+  <text>Shares assign?</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:00:34.903000</ts>
+  <user>Tannen</user>
+  <text>Can you give an example of input and output?</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:02:05.049000</ts>
+  <user>Tannen</user>
+  <text>Are you talking like `(share [1 2 3 4 5 6 7 8]) ; [[1 2] [3 4] [5 6] [7 8]]`?</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:03:02.801000</ts>
+  <user>Rezki</user>
+  <text>@lsenjov exactly it should be card game and i have shuffled now 4 people get each two cards</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:03:19.712000</ts>
+  <user>Tannen</user>
+  <text>Oh I see</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:03:35.754000</ts>
+  <user>Tannen</user>
+  <text>Right so you've got some options</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:03:44.186000</ts>
+  <user>Tannen</user>
+  <text>Gimme a tic</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:04:12.511000</ts>
+  <user>Tannen</user>
+  <text>You can use `(partition 2 coll)`</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:04:17.755000</ts>
+  <user>Tannen</user>
+  <text>http://clojuredocs.org/clojure.core/partition</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-03-16T13:05:12.794000</ts>
+  <user>Rezki</user>
+  <text>nice thank you @lsenjov</text>
+</message>
+<message conversation_id="7">
+  <ts>2020-03-16T18:57:13.825000</ts>
+  <user>Rezki</user>
+  <text>so new this functional approach i need to adapt my thinking. does anyone know a good introduction to thinking in a functional style?</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:18:01.838000</ts>
+  <user>Bettina</user>
+  <text>There's always the classic Are We There Yet? https://www.youtube.com/watch?v=E4RarTAZ2AY for the philosophical side</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:18:38.095000</ts>
+  <user>Bettina</user>
+  <text>https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf is a solid paper for why FP</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:19:36.126000</ts>
+  <user>Bettina</user>
+  <text>https://www.youtube.com/watch?v=P76Vbsk_3J0 is helpful if you know Java</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:19:42.484000</ts>
+  <user>Rezki</user>
+  <text>@WhoNeedszZz thanks i love rich hickeys talks they are addicting</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:19:47.371000</ts>
+  <user>Bettina</user>
+  <text>Very!</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:20:09.834000</ts>
+  <user>Bettina</user>
+  <text>https://www.braveclojure.com/ is a fantastic read and humorous to keep it interesting</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:21:36.970000</ts>
+  <user>Bettina</user>
+  <text>It's difficult to explain how to think in it on a general level so I've found it most helpful to look at those kind of resources and then just practice using it until the coin drops</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:21:48.019000</ts>
+  <user>Bettina</user>
+  <text>Make note of the aha moments</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:22:35.619000</ts>
+  <user>Bettina</user>
+  <text>Rich gives a fantastic explanation in the first talk I posted though</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:23:09.628000</ts>
+  <user>Rezki</user>
+  <text>already watching thanks 🙂</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:23:21.214000</ts>
+  <user>Bettina</user>
+  <text>Right around the 30m mark</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:24:23.656000</ts>
+  <user>Bettina</user>
+  <text>https://www.youtube.com/watch?v=f84n5oFoZBc is also really helpful and I think often overlooked</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:24:38.799000</ts>
+  <user>Bettina</user>
+  <text>Design phase is critical</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-03-16T19:26:06.599000</ts>
+  <user>Rezki</user>
+  <text>thanks @WhoNeedszZz</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-17T22:08:58.783000</ts>
+  <user>Rezki</user>
+  <text>is conj short for conjure?</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-17T22:13:49.105000</ts>
+  <user>Osmundo</user>
+  <text>Conjoin I think.</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-17T22:38:11.942000</ts>
+  <user>Rezki</user>
+  <text>guys i am partioning cards in a small game in clojure. is it fine to just rename the output like this</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-17T22:38:15.414000</ts>
+  <user>Rezki</user>
+  <text>None</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-17T22:40:08.056000</ts>
+  <user>Rezki</user>
+  <text>i am basically giving first two cards to p1 and then the next cards to player 2. after i do this the first time i overwrite players with the changed data. is that perfectly fine to do?</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-17T22:40:53.768000</ts>
+  <user>Rezki</user>
+  <text>i hope this question does not sound strange but functional thinking is not so familiar</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-17T22:56:03.454000</ts>
+  <user>Rezki</user>
+  <text>i was thinking i can put the result directly in the function</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:27:59.136000</ts>
+  <user>Rezki</user>
+  <text>anyone any idea what my error is:</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:28:29.776000</ts>
+  <user>Rezki</user>
+  <text>i want to return {:p1 1} in that function</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:30:48.997000</ts>
+  <user>Tannen</user>
+  <text>Remove the outer parens</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:31:24.183000</ts>
+  <user>Tannen</user>
+  <text>Wait hold on</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:31:34.311000</ts>
+  <user>Tannen</user>
+  <text>You're just wanting something that returns what's given to it?</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:31:48.900000</ts>
+  <user>Tannen</user>
+  <text>But in general remember that parens have different meaning than other languages</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:31:57.762000</ts>
+  <user>Tannen</user>
+  <text>Parens actually _do something_ in lisps</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:32:27.199000</ts>
+  <user>Tannen</user>
+  <text>It's trying to evaluate `{hi 1}` as a function not just return `{hi 1}`</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:32:42.320000</ts>
+  <user>Tannen</user>
+  <text>Wait I was right just remove the outer parens</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:39:00.957000</ts>
+  <user>Rezki</user>
+  <text>None</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:40:11.853000</ts>
+  <user>Rezki</user>
+  <text>nice @lsenjov  that worked</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:40:35.960000</ts>
+  <user>Rezki</user>
+  <text>i forgot ( is evaluating</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:41:08.386000</ts>
+  <user>Rezki</user>
+  <text>some small pitfalls i have to get used to</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:49:54.529000</ts>
+  <user>Rezki</user>
+  <text>is there a way to map a function with two arguments:</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:50:05.235000</ts>
+  <user>Rezki</user>
+  <text>like this?</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:52:46.121000</ts>
+  <user>Tannen</user>
+  <text>Yes but remember your expansion</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:53:07.004000</ts>
+  <user>Tannen</user>
+  <text>That goes to `[(+ [1 2]) (+ [3 4])]`</text>
+</message>
+<message conversation_id="10">
+  <ts>2020-03-18T01:53:26.970000</ts>
+  <user>Tannen</user>
+  <text>What do you want it to look like?</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T01:53:41.582000</ts>
+  <user>Tannen</user>
+  <text>(Also remember that `partial` and `apply` are functions)</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T03:24:50.715000</ts>
+  <user>Rezki</user>
+  <text>None</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T03:25:13.411000</ts>
+  <user>Rezki</user>
+  <text>i am getting an error if i type this</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T03:27:17.111000</ts>
+  <user>Rezki</user>
+  <text>okay i will think about it thanks @lsenjov</text>
+</message>
+<message conversation_id="11">
+  <ts>2020-03-18T03:34:09.942000</ts>
+  <user>Alipio</user>
+  <text>what is your desired output from your map call?</text>
+</message>
+<message conversation_id="11">
+  <ts>2020-03-18T03:45:49.826000</ts>
+  <user>Alipio</user>
+  <text>The essence of what's happening there is that your parameter is a vector with two vectors in it so like lsenjov said that expansion is trying to make two calls to `+` each with one parameter of a vector and Clojure doesn't know how to add one vector e.g. `(+ [1 2])` doesn't really make sense (you probably want `(+ 1 2)`). So you could map `apply +` if you want to add the contents of each vector separately.</text>
+</message>
+<message conversation_id="11">
+  <ts>2020-03-18T03:54:35.963000</ts>
+  <user>Alipio</user>
+  <text>to your question about multiple arguments map has a form that takes more than one collection and it will call the function with the first element of each collection then the second element of each collection then the third element and so on until one of the collections is empty</text>
+</message>
+<message conversation_id="11">
+  <ts>2020-03-18T04:01:50.574000</ts>
+  <user>Alipio</user>
+  <text>for example:the `vector` function creates a vector of its arguments```clojure (vector 1 2)=&gt; [1 2]```using `map` with multiple collections call vector for each position that exists in each collection```clojure (map vector [1 2 3] ["first second third"] ["1st 2nd 3rd 4th"])=&gt; ([1 first 1st"] [2 second 2nd"] [3 third 3rd"])```</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T16:56:47.964000</ts>
+  <user>Rezki</user>
+  <text>yes @SlashDevSlashRandom thanks you both i get it</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T16:56:51.015000</ts>
+  <user>Rezki</user>
+  <text>None</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-18T17:31:51.467000</ts>
+  <user>Bettina</user>
+  <text>@david_node Just a heads up Discord supports code blocks with Clojure syntax highlighting (on desktop). Surround the code with two sets of 3 backticks and clojure after the first set</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-19T20:46:46.873000</ts>
+  <user>Rezki</user>
+  <text>i started out with rich hickeys talks and i thought that his thoughts are so profound that i wanted to hear everything he has to say. some things i do not seem to grasp yet but it's these moments where you found someone who is thinking so different (than everybody else) and yet his arguments make sense. It's like discovering a new world which was there the whole time but you missed it because you simply did know it.I have this feeling that this is the language i learnt the fastest ever. the syntax and semantics are insanely easy. I just need to get familiar with basic functions and wrap my head around the functional way of thinking but this is insane. where are the downsides to this? can anyone relate to this?</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:48:18.049000</ts>
+  <user>Tannen</user>
+  <text>Downsides?</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:48:19.075000</ts>
+  <user>Tannen</user>
+  <text>Okay</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:48:29.472000</ts>
+  <user>Tannen</user>
+  <text>So one it's hard for a lot of people to learn</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:48:45.362000</ts>
+  <user>Tannen</user>
+  <text>Clojure is very opinionated and breaking years of programming habits are hard</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:48:51.101000</ts>
+  <user>Tannen</user>
+  <text>Two lisp syntax scares people</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:49:14.922000</ts>
+  <user>Tannen</user>
+  <text>Three tooling is excellent but takes some time to get used to</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:49:27.621000</ts>
+  <user>Tannen</user>
+  <text>Repl driven development is fucking weird compared to the norm</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:49:50.604000</ts>
+  <user>Tannen</user>
+  <text>Four it really needs spec 2 to get finished so people can start properly building tooling for it</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:50:26.907000</ts>
+  <user>Tannen</user>
+  <text>The lack of saying it has a stable type system is a hard sell for a lot of people</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:51:07.957000</ts>
+  <user>Tannen</user>
+  <text>(Yes spec isn\'t a static type system but it needs to be stable so we can say hey look this is how you use the official thing and why it doesn\'t need to be static")</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:51:44.967000</ts>
+  <user>Tannen</user>
+  <text>Five it's pretty fast but you can't really use it for anything needing blistering performance</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:52:13.800000</ts>
+  <user>Tannen</user>
+  <text>So it's never going to be championed by the googles of the world where a 1% performance improvement is millions in yearly savings</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:52:40.233000</ts>
+  <user>Tannen</user>
+  <text>Six lisp syntax scares people (seriously this is one of the biggest factors)</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:53:14.047000</ts>
+  <user>Tannen</user>
+  <text>That's off the top of my head</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:53:28.828000</ts>
+  <user>Tannen</user>
+  <text>Also while there's very little syntax there's a surprising number of reader macros that confuse readers</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:55:04.745000</ts>
+  <user>Tannen</user>
+  <text>Especially when dealing with cljc files</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T20:55:24.110000</ts>
+  <user>Tannen</user>
+  <text>Every time someone sees `#?@` it scares them a lot</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:01:09.325000</ts>
+  <user>Rezki</user>
+  <text>thanks for elaborating on this @lsenjov  i really need to dig in more and check out what #?@ means. syntax is just the simplest i have ever encountered compared to other languages i think it is just a bit bewildering in the beginning.</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:01:27.982000</ts>
+  <user>Tannen</user>
+  <text>👍</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:01:48.087000</ts>
+  <user>Tannen</user>
+  <text>`#?` and `#?@` are used in .cljc files</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:02:05.210000</ts>
+  <user>Tannen</user>
+  <text>.cljc files compile to both clojure and clojurescript</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:02:28.680000</ts>
+  <user>Tannen</user>
+  <text>And those reader conditionals are for doing platform specific code</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:02:33.212000</ts>
+  <user>Tannen</user>
+  <text>Especially interop</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:02:52.443000</ts>
+  <user>Tannen</user>
+  <text>Your `Integer/parseInt` won't work on the javascript side for instance</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-03-19T21:06:55.213000</ts>
+  <user>Rezki</user>
+  <text>why cant you say that it is a stable system?</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:07:38.763000</ts>
+  <user>Tannen</user>
+  <text>Because `Integer/parseInt` is specifically a Java call</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:07:58.022000</ts>
+  <user>Tannen</user>
+  <text>The js side is `js/parseInt`</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:08:32.037000</ts>
+  <user>Tannen</user>
+  <text>But `#?` allows you to specify how to parse an int on both platforms and use it interchangeably</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:08:46.673000</ts>
+  <user>Tannen</user>
+  <text>Well there's a little more to it but that's why the reader conditional exists</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:09:14.005000</ts>
+  <user>Rezki</user>
+  <text>and that makes the system not stable". i dont understand</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:09:36.819000</ts>
+  <user>Tannen</user>
+  <text>Wait what?</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:09:43.657000</ts>
+  <user>Tannen</user>
+  <text>What do you mean not stable"?</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:02.143000</ts>
+  <user>Rezki</user>
+  <text>you said \'The lack of saying it has a stable type system is a hard sell for a lot of people\</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:05.455000</ts>
+  <user>Tannen</user>
+  <text>Oh right type system</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:06.998000</ts>
+  <user>Tannen</user>
+  <text>Okay</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:17.480000</ts>
+  <user>Rezki</user>
+  <text>type system</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:19.523000</ts>
+  <user>Tannen</user>
+  <text>So one thing that's been hard to sell to people is the dynamic nature</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:19.592000</ts>
+  <user>Rezki</user>
+  <text>oh sorry</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:30.624000</ts>
+  <user>Tannen</user>
+  <text>And spec/spec2 are still in alpha</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:36.259000</ts>
+  <user>Rezki</user>
+  <text>yes got it 🙂</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:51.823000</ts>
+  <user>Rezki</user>
+  <text>will look into spec</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:10:53.232000</ts>
+  <user>Tannen</user>
+  <text>So while I'm using spec at the moment I can't say it's fully ready</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:14:32.377000</ts>
+  <user>Rezki</user>
+  <text>spec is the static type checker for clojure?</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:19:22.445000</ts>
+  <user>Tannen</user>
+  <text>No it's not static</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:19:38.095000</ts>
+  <user>Tannen</user>
+  <text>There's core.typed which is static but I don't know how much it's used</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:20:15.633000</ts>
+  <user>Tannen</user>
+  <text>It's more that spec is the officially condoned way of checking data and it's not stable</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-03-19T21:20:26.100000</ts>
+  <user>Tannen</user>
+  <text>It raises eyebrows when my requires have `clojure.spec.alpha` in them</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-03-19T21:48:21.655000</ts>
+  <user>Rezki</user>
+  <text>i see i need to look into it</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T01:54:14.790000</ts>
+  <user>Bettina</user>
+  <text>&gt; So one it's hard for a lot of people to learn@lsenjov I don't agree with this. I would say the functional mindset is difficult for some to grasp but the language itself is one of the easiest languages to learn</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T01:55:43.313000</ts>
+  <user>Bettina</user>
+  <text>&gt; Five it's pretty fast but you can't really use it for anything needing blistering performance@lsenjov Don't agree with this either</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T01:56:26.900000</ts>
+  <user>Bettina</user>
+  <text>Poor performance in Clojure is a design or implementation failure not a failure of the language</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T01:56:37.341000</ts>
+  <user>Bettina</user>
+  <text>Android uses Java</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T01:57:51.111000</ts>
+  <user>Bettina</user>
+  <text>In fact I don't consider any of those things you said as downsides of the language but downsides of the people trying to learn it</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:01:16.704000</ts>
+  <user>Bettina</user>
+  <text>Regarding spec sure it could be a bit more fleshed out toolwise but I haven't seen glaring issues regarding itself. Again I think you're just highlighting the many flaws in the ways many programmers do things that are in a completely different mindset and thus seem foreign to them. To me this is obvious and logical. When you're learning a foreign language do you not have the same struggles?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:01:56.280000</ts>
+  <user>Tannen</user>
+  <text>blistering meaning things like high end game Dev and other things where you need to squeeze out performance</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:02:26.911000</ts>
+  <user>Tannen</user>
+  <text>There's also a lot of programmers who can't unlearn previous things which is why it's hard for them to learn</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:02:36.472000</ts>
+  <user>Bettina</user>
+  <text>That's a failure of the person not the language</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:03:03.635000</ts>
+  <user>Bettina</user>
+  <text>And to your first statement well yeah. You don't use any general purpose language for a specific task like that</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:03:06.210000</ts>
+  <user>Tannen</user>
+  <text>I know but these _are_ drawbacks when trying to use it commercially</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:03:07.040000</ts>
+  <user>Bettina</user>
+  <text>So it's not really in scope</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:03:29.859000</ts>
+  <user>Bettina</user>
+  <text>that depends on your hiring practices</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:03:32.857000</ts>
+  <user>Tannen</user>
+  <text>Trying to actually find/hire clojure devs is painful</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:03:46.300000</ts>
+  <user>Bettina</user>
+  <text>Says whom?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:03:50.334000</ts>
+  <user>Tannen</user>
+  <text>Because they don't exactly fall from trees</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:04:02.877000</ts>
+  <user>Tannen</user>
+  <text>Us trying to find Aus based clojure devs</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:04:17.535000</ts>
+  <user>Bettina</user>
+  <text>Of course not. Highly skilled people of any trade are difficult to find</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:04:53.347000</ts>
+  <user>Tannen</user>
+  <text>I could have a dozen bites for a Ruby or Java dev in a week</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:05:05.708000</ts>
+  <user>Bettina</user>
+  <text>Yeah and you get what you pay for too</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:05:24.545000</ts>
+  <user>Bettina</user>
+  <text>Highly skilled programmers aren't looking for low ball offers</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:05:25.094000</ts>
+  <user>Tannen</user>
+  <text>Look I agree with you on all these points</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:05:36.230000</ts>
+  <user>Tannen</user>
+  <text>But these are still drawbacks to adoption</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:05:57.461000</ts>
+  <user>Bettina</user>
+  <text>Well to be fair he asked what are the drawbacks of the language itself not specifically to commercial adoption</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:06:15.589000</ts>
+  <user>Bettina</user>
+  <text>I understood his question to mean from a general learning pov</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:06:31.903000</ts>
+  <user>Bettina</user>
+  <text>@david_node Is that accurate?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:06:41.374000</ts>
+  <user>Tannen</user>
+  <text>These are pain points I've been hitting recently so they're fresh in mind</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:06:52.789000</ts>
+  <user>Rezki</user>
+  <text>@WhoNeedszZz exactly</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:07:08.504000</ts>
+  <user>Bettina</user>
+  <text>Ok thought so</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:07:44.906000</ts>
+  <user>Bettina</user>
+  <text>So yeah I totally understand your frustration @lsenjov. That's why I can't find work here in the US and had to start my own company. All I got were low ball offers that never work out</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:08:20.930000</ts>
+  <user>Rezki</user>
+  <text>what does low ball mean?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:08:32.686000</ts>
+  <user>Tannen</user>
+  <text>Low pay</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:08:35.120000</ts>
+  <user>Bettina</user>
+  <text>Low salary to your skill level</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:08:59.794000</ts>
+  <user>Bettina</user>
+  <text>Like offering you $40k when you're worth 6 figures</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:09:31.788000</ts>
+  <user>Rezki</user>
+  <text>but also the commercial side is an interesting point as well</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:09:37.264000</ts>
+  <user>Bettina</user>
+  <text>It is</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:09:39.770000</ts>
+  <user>Bettina</user>
+  <text>And it sucks</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:11:22.296000</ts>
+  <user>Bettina</user>
+  <text>I can't speak to hiring practices in Australia but I know very well how it is in the US. They want to give you low pay give them !20% do multiple roles but not be too good to where you outshine your peers.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:11:38.039000</ts>
+  <user>Bettina</user>
+  <text>It's totally insane</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:12:28.791000</ts>
+  <user>Bettina</user>
+  <text>But if you give them 90100% to avoid the last bit they complain and say they know you can do better</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:12:32.360000</ts>
+  <user>Bettina</user>
+  <text>Catch22 all of the way</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:14:22.303000</ts>
+  <user>Rezki</user>
+  <text>sounds a bit contradicting. interesting you say language is easy to learn as well but that functional programming part is hard.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:14:49.102000</ts>
+  <user>Rezki</user>
+  <text>that is exactly how i experience it</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:15:51.330000</ts>
+  <user>Rezki</user>
+  <text>i have started writing a program and started mutating data with def just because my mind is so used to do so</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:17:06.382000</ts>
+  <user>Rezki</user>
+  <text>it just a complete different way of thinking but with exercise i think the coin will toss</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:17:30.752000</ts>
+  <user>Bettina</user>
+  <text>It sounds contradicting but it depends on your previous exposure. If you've never learned a functional language then any functional language will give you doubletakes. But if you've been exposed to the functional paradigm before it is trivial to learn Clojure</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:17:53.443000</ts>
+  <user>Bettina</user>
+  <text>I had the luxury of being exposed to it previously in my personal and Comp Sci studies</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:18:11.196000</ts>
+  <user>Bettina</user>
+  <text>I also had a professor that prefers the functional paradigm and taught Java using closures</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:18:21.776000</ts>
+  <user>Bettina</user>
+  <text>It made it much easier to grasp</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:18:34.987000</ts>
+  <user>Bettina</user>
+  <text>And our code had very few errors in it to boot</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:19:12.324000</ts>
+  <user>Bettina</user>
+  <text>And this was before Java officially supported closures</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:19:15.961000</ts>
+  <user>Rezki</user>
+  <text>nice seems like your professor was on a good path</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:19:26.097000</ts>
+  <user>Bettina</user>
+  <text>Definitely</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:19:33.186000</ts>
+  <user>Bettina</user>
+  <text>He's a Haskell guy</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:19:59.535000</ts>
+  <user>Rezki</user>
+  <text>oh okay yeah makes sense then 😄</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:20:18.606000</ts>
+  <user>Bettina</user>
+  <text>You want hard language to learn? That's the one</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:20:38.463000</ts>
+  <user>Tannen</user>
+  <text>Australia's a mixed bag like most places but there's definitely a culture of avoiding burnout in most places I hear of</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:20:39.158000</ts>
+  <user>Rezki</user>
+  <text>😄</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:20:46.921000</ts>
+  <user>Bettina</user>
+  <text>But I have to say I actually enjoyed it being written as math</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:21:12.482000</ts>
+  <user>Tannen</user>
+  <text>Mainly because good programmers are in short supply and hiring is expensive so they do their best to not lose people</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:21:25.250000</ts>
+  <user>Bettina</user>
+  <text>The opposite in the US</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:21:30.907000</ts>
+  <user>Bettina</user>
+  <text>Burnout all day every day</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:21:41.920000</ts>
+  <user>Bettina</user>
+  <text>Massive turnover rates</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:22:21.757000</ts>
+  <user>Bettina</user>
+  <text>I often find a large part of it being some idiot director that knows nothing about programming calling the shots</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:22:49.932000</ts>
+  <user>Bettina</user>
+  <text>And leads that haven\'t programmed in 20 years</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:23:04.182000</ts>
+  <user>Bettina</user>
+  <text>True story</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:24:50.630000</ts>
+  <user>Rezki</user>
+  <text>i think it's worth trying to learn the functional paradigm. even if i will not work with clojure i can adapt it in other languages</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:25:41.893000</ts>
+  <user>Bettina</user>
+  <text>In one of my positions we had discussed at length why we shouldn't use Redux unless the task absolutely demanded it. Whole team agreed including the lead that hadn't programmed in 20 years. Few weeks in to the project  we're using Redux now. What changed? Nothing. So why are we using it given everything we talked about? Because I said so.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:25:58.046000</ts>
+  <user>Bettina</user>
+  <text>And not a single person on the team had used it before</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:26:49.419000</ts>
+  <user>Bettina</user>
+  <text>Do you think the project got finished?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:27:53.281000</ts>
+  <user>Rezki</user>
+  <text>i guess not</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:28:15.956000</ts>
+  <user>Bettina</user>
+  <text>&gt; i think it's worth trying to learn the functional paradigm. even if i will not work with clojure i can adapt it in other languages@david_node You can absolutely use it in imperative languages. I would argue you write much more efficient and less errorprone code that way</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:28:36.808000</ts>
+  <user>Bettina</user>
+  <text>Java with closures perfect example</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:29:00.770000</ts>
+  <user>Bettina</user>
+  <text>But I think if you just stick with it you'll be successful</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:29:16.934000</ts>
+  <user>Bettina</user>
+  <text>Most people that shit on functional languages gave up</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:29:23.546000</ts>
+  <user>Rezki</user>
+  <text>i am thinking of python using immutable data</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:29:38.737000</ts>
+  <user>Bettina</user>
+  <text>That would work. Python is a hybrid language anyway</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:29:44.210000</ts>
+  <user>Bettina</user>
+  <text>You don't have to use classes at all</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:30:02.420000</ts>
+  <user>Bettina</user>
+  <text>When I used Python I did exactly that</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:31:01.062000</ts>
+  <user>Rezki</user>
+  <text>nice nice but sticking to clojure first is to get some discipline</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:31:02.286000</ts>
+  <user>Bettina</user>
+  <text>What did you think of the OOP fallacy presented in Are We There Yet?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:31:13.862000</ts>
+  <user>Rezki</user>
+  <text>just loved it</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:31:27.782000</ts>
+  <user>Bettina</user>
+  <text>I show that to anyone that praises OOP</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:31:30.612000</ts>
+  <user>Bettina</user>
+  <text>And laugh</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:31:32.701000</ts>
+  <user>Rezki</user>
+  <text>😄</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:31:58.493000</ts>
+  <user>Bettina</user>
+  <text>Entire class of errors gone by using functional mindset</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:32:02.624000</ts>
+  <user>Rezki</user>
+  <text>i just love that we got the modeling of our world wrong</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:32:07.455000</ts>
+  <user>Bettina</user>
+  <text>ikr</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:32:47.726000</ts>
+  <user>Bettina</user>
+  <text>I thought this did a great job of explaining the pitfalls of Microservices: https://www.youtube.com/watch?v=BThkk5zv0DE</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:32:56.835000</ts>
+  <user>Bettina</user>
+  <text>I would love to work for Derek</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:35:05.597000</ts>
+  <user>Rezki</user>
+  <text>in a way rich hickey really went back to a very abstract level in order figure where the his problems were caused by and that is sooo damn genius</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:35:20.204000</ts>
+  <user>Bettina</user>
+  <text>That's how to do it</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:35:37.884000</ts>
+  <user>Bettina</user>
+  <text>If your tool doesn't allow you to do what you need use another tool</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:35:42.280000</ts>
+  <user>Bettina</user>
+  <text>Tool doesn't exist? Make it</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:35:50.505000</ts>
+  <user>Rezki</user>
+  <text>😄</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:35:59.281000</ts>
+  <user>Rezki</user>
+  <text>true</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:36:06.982000</ts>
+  <user>Bettina</user>
+  <text>We have too many programmers that wait for other people to make the change</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:36:19.156000</ts>
+  <user>Bettina</user>
+  <text>Sheep mentality</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:37:10.032000</ts>
+  <user>Rezki</user>
+  <text>i have seen that LISP is used in quantum computer programming</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:37:39.083000</ts>
+  <user>Rezki</user>
+  <text>clojure could as well take that spot probably</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:37:46.463000</ts>
+  <user>Bettina</user>
+  <text>I believe so</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:37:58.356000</ts>
+  <user>Bettina</user>
+  <text>I think Clojure has much more potential than what people are using it for</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:38:48.521000</ts>
+  <user>Bettina</user>
+  <text>I used ClojureScript + reframe (+ reagent) and made a React site that performs better than a JS React site done the same way</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:39:22.292000</ts>
+  <user>Bettina</user>
+  <text>Yet ClojureScript turns into vanilla JS</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:40:21.955000</ts>
+  <user>Rezki</user>
+  <text>wow that is awesome. for me clojurescript is just another nice language feature.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:41:02.153000</ts>
+  <user>Rezki</user>
+  <text>since it is there it could open many doors</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:41:35.224000</ts>
+  <user>Rezki</user>
+  <text>i wonder if clojure will be the python of ten years before</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:42:10.258000</ts>
+  <user>Bettina</user>
+  <text>That's the beauty of it. Clojure results in plain Java ClojureScript results in plain JS. That's why I don't really understand the feet dragging for commercial adoption. You don't have to redo your whole codebase. You can just write new things in it and go back and migrate when you have the time</text>
+</message>
+<message conversation_id="15">
+  <ts>2020-03-20T02:45:16.374000</ts>
+  <user>Osmundo</user>
+  <text>Well there are still some integration issues just adding clojure into an existing java codebase.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:45:38.398000</ts>
+  <user>Osmundo</user>
+  <text>But there are a lot of cases where you can do that yea.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:45:44.257000</ts>
+  <user>Rezki</user>
+  <text>way is practically laid out for people to go but they won't because it seems too risky probably and you dont want to be dependent on a bunch of clojure developers. where will you get them from?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:45:57.666000</ts>
+  <user>Osmundo</user>
+  <text>🤷\u200d♂️ slow and steady expansion</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:46:10.683000</ts>
+  <user>Bettina</user>
+  <text>People are afraid of risk</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:46:21.770000</ts>
+  <user>Bettina</user>
+  <text>Even though they do risky things on a daily basis</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:46:23.930000</ts>
+  <user>Osmundo</user>
+  <text>A few people screaming at the top of their lungs that it's awesome a lot more being reasonable and friendly.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:46:56.161000</ts>
+  <user>Bettina</user>
+  <text>Huh?</text>
+</message>
+<message conversation_id="15">
+  <ts>2020-03-20T02:47:26.936000</ts>
+  <user>Osmundo</user>
+  <text>Me?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:47:30.885000</ts>
+  <user>Bettina</user>
+  <text>Yes</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:47:34.768000</ts>
+  <user>Bettina</user>
+  <text>Not sure what you meant there</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:47:51.516000</ts>
+  <user>Bettina</user>
+  <text>Why is being vocal about it being great unreasonable?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:47:52.604000</ts>
+  <user>Osmundo</user>
+  <text>Was explaining how we get the developer base to actually change the industry.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:47:56.890000</ts>
+  <user>Osmundo</user>
+  <text>Oh.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:48:30.747000</ts>
+  <user>Bettina</user>
+  <text>Developers have very little ability to influence the higher ups</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:48:33.576000</ts>
+  <user>Osmundo</user>
+  <text>I said screaming for a reason.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:48:46.911000</ts>
+  <user>Osmundo</user>
+  <text>And I'm not saying having those people in the community is a bad thing.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:48:55.011000</ts>
+  <user>Osmundo</user>
+  <text>They get the word out.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:49:01.314000</ts>
+  <user>Bettina</user>
+  <text>Who is screaming though?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:49:06.033000</ts>
+  <user>Osmundo</user>
+  <text>But people that are that loud have a tendancy to also be uncompromising.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:49:06.412000</ts>
+  <user>Bettina</user>
+  <text>I haven't seen these people</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:49:29.383000</ts>
+  <user>Osmundo</user>
+  <text>I've run into a few. Heck I've been one of them from time to time.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:49:42.725000</ts>
+  <user>Bettina</user>
+  <text>Where though?</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:49:52.822000</ts>
+  <user>Osmundo</user>
+  <text>Online mostly.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:50:01.940000</ts>
+  <user>Bettina</user>
+  <text>Certainly not here</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:50:08.745000</ts>
+  <user>Osmundo</user>
+  <text>Oh no not on this discord.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:50:22.267000</ts>
+  <user>Bettina</user>
+  <text>Maybe in the Slack but I couldn't keep up with it to really notice</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:50:40.956000</ts>
+  <user>Bettina</user>
+  <text>And I ignore Reddit</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:50:44.524000</ts>
+  <user>Osmundo</user>
+  <text>It's not the sort of thing you'd see in an actual clojure community no point preaching to the choir.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:50:50.913000</ts>
+  <user>Bettina</user>
+  <text>True</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:50:58.470000</ts>
+  <user>Bettina</user>
+  <text>Except on Reddit</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:51:02.491000</ts>
+  <user>Osmundo</user>
+  <text>True lol</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:51:03.964000</ts>
+  <user>Bettina</user>
+  <text>Reddit is a cesspool</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T02:51:23.498000</ts>
+  <user>Bettina</user>
+  <text>You want to get downvoted for saying something easily verifiable? Post on Reddit</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T03:01:20.330000</ts>
+  <user>Rezki</user>
+  <text>😄</text>
+</message>
+<message conversation_id="16">
+  <ts>2020-03-20T04:27:45.327000</ts>
+  <user>Rezki</user>
+  <text>i thought filter and map were important but now i think it reduce is really key</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T04:28:05.238000</ts>
+  <user>Rezki</user>
+  <text>for composition</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-20T04:28:08.022000</ts>
+  <user>Bettina</user>
+  <text>They are all useful</text>
+</message>
+<message conversation_id="16">
+  <ts>2020-03-21T23:13:49.307000</ts>
+  <user>Rezki</user>
+  <text>i just realized that i am actually executing function after function after function.</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-03-21T23:14:08.618000</ts>
+  <user>Rezki</user>
+  <text>so strange</text>
+</message>
+<message conversation_id="16">
+  <ts>2020-03-21T23:43:37.200000</ts>
+  <user>Alipio</user>
+  <text>well in a really abstract way most languages can be thought of as a bunch of function calls but in a language like Clojure you primarily just have values and functions so if you're going to execute something it's gonna be a function :)</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-21T23:49:08.218000</ts>
+  <user>Ludwig</user>
+  <text>Hi all! How would you import a library like this https://github.com/lambdaisland/trikl using leiningen? It's made with deps.edn not on clojars...</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T00:30:27.486000</ts>
+  <user>Alipio</user>
+  <text>Not to be superpedantic but that's sort of not a library in the sense that it doesn't appear to be packaged for distribution. You could clone that repo build it and deploy it to a local maven repo or you could create some version of a checkout dependency (&lt;https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md#checkoutdependencies&gt;)</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T00:30:46.548000</ts>
+  <user>Alipio</user>
+  <text>those are the ideas that come to mind off the top of my head</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T01:55:32.368000</ts>
+  <user>Ludwig</user>
+  <text>@SlashDevSlashRandom I agree with you looks like it doesn't want to be used xD... anyway thanks for the tips!</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T01:59:22.091000</ts>
+  <user>Alistair</user>
+  <text>leiningen plugins also provide ways to use gitbased dependencies</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T01:59:38.809000</ts>
+  <user>Alistair</user>
+  <text>Also clj deps are designed to be used from git</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T02:00:07.779000</ts>
+  <user>Alistair</user>
+  <text>I'd definitely say a readme that full wants to be used though</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T02:00:56.257000</ts>
+  <user>Ludwig</user>
+  <text>&gt; Also clj deps are designed to be used from git@srasu oh i didn't know that</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T02:02:23.660000</ts>
+  <user>Alistair</user>
+  <text>Yes so for a long time the cljnew tool for the tools.deps ecosystem was done entirely out of git.</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T02:05:43.833000</ts>
+  <user>Ludwig</user>
+  <text>nice! I'll read about that and try it out... thanks!</text>
+</message>
+<message conversation_id="18">
+  <ts>2020-03-22T02:21:00.951000</ts>
+  <user>Rezki</user>
+  <text>@SlashDevSlashRandom yes you are right</text>
+</message>
+<message conversation_id="18">
+  <ts>2020-03-22T02:36:30.905000</ts>
+  <user>Ludwig</user>
+  <text>@srasu @SlashDevSlashRandom creating a project with a deps.edn with dependency on the git repo worked... I guess that's the way it was meant to be then... tried some plugins for leiningen but none of them worked (because trikl it's not using leiningen i believe).... But I found https://jitpack.io/ which seems simple to use could be useful someday.. thank you all!</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T02:38:02.977000</ts>
+  <user>Alistair</user>
+  <text>Leiningen plugins require using leiningen yeah unfortunately they aren't crosscompatible with the deps.edn ecosystem. If you really need git dependencies and leinengen plugins try this one: https://github.com/reifyhealth/leingitdown</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T02:51:32.589000</ts>
+  <user>Ludwig</user>
+  <text>it worked with leingitdown too! cool! =D```:dependencies [[org.clojure/clojure 1.10.0"] [lambdaisland/trikl 8c27a347a96ce66762510f0a87cca66e5713bdec"]]:plugins [[reifyhealth/leingitdown 0.3.6"]]:repositories [["publicgithub {:url git://github.com"}]]```</text>
+</message>
+<message conversation_id="19">
+  <ts>2020-03-22T06:38:48.049000</ts>
+  <user>Bettina</user>
+  <text>&gt; Not to be superpedantic but that's sort of not a library in the sense that it doesn't appear to be packaged for distribution. You could clone that repo build it and deploy it to a local maven repo or you could create some version of a checkout dependency (&lt;https://github.com/technomancy/leiningen/blob/master/doc/TUTORIAL.md#checkoutdependencies&gt;)@SlashDevSlashRandom To be totally pedantic a library doesn't have to be easily distributable to be a library. It simply provides code for other code to consume rather than be built as an executable. 😋</text>
+</message>
+<message conversation_id="19">
+  <ts>2020-03-22T06:43:01.126000</ts>
+  <user>Bettina</user>
+  <text>Libraries existed long before version control existed</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T18:07:04.537000</ts>
+  <user>Ludwig</user>
+  <text>I wish dependency management was easier/clearer... it may be just me but I always have problems trying to put stuff together not just clojure but in general... nowadays i'm just tired and endup not doing anything 😛</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T18:07:12.317000</ts>
+  <user>Ludwig</user>
+  <text>but I'm glad I asked... learned something new haha</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T18:08:28.326000</ts>
+  <user>Ludwig</user>
+  <text>though I understand it's a hard problem to solve definitively... i don't know...</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T18:17:25.008000</ts>
+  <user>Alistair</user>
+  <text>Yeah dependency management was part of what the clojure commandline tools are supposed to help resolve.</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-03-22T18:24:04.820000</ts>
+  <user>Ludwig</user>
+  <text>i think it helps... but when things go wrong i get lost 😛 i'll study a bit more about java dependencies in general leiningen and deps.edn to see what i find</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T20:48:21.850000</ts>
+  <user>Bettina</user>
+  <text>@blahblubliblu https://research.swtch.com/deps</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T20:48:32.728000</ts>
+  <user>Bettina</user>
+  <text>We're up shits creek without a paddle when it comes to deps</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T20:51:38.272000</ts>
+  <user>Bettina</user>
+  <text>That article explains the issues very clearly</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T20:52:14.294000</ts>
+  <user>Bettina</user>
+  <text>And you always have Rich to say the same thing: https://www.youtube.com/watch?v=oytL881pnQ</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T20:52:36.662000</ts>
+  <user>Bettina</user>
+  <text>Can't remember where exactly in that talk he mentions it but he does</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T21:00:46.682000</ts>
+  <user>Ludwig</user>
+  <text>I remember Rich talking about semantic versioning not sure if it's in this talk</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T21:01:51.027000</ts>
+  <user>Ludwig</user>
+  <text>i'll give the article a read thanks!</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T21:17:08.907000</ts>
+  <user>Bettina</user>
+  <text>They both talk about the shift in responsibility. With an inhouse library YOU are responsible for fixing it and have the ability to do it. With a 3rd party library it is their responsibility and the only way you can fix it would be to fork it but you don't have that intimate understanding of the library's design and function. So you have to wait for them to fix it.</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-03-22T21:18:48.169000</ts>
+  <user>Bettina</user>
+  <text>And if you did fork it now you have a bad situation because there is a divergence and massive overhead when it comes to it changing later on</text>
+</message>
+<message conversation_id="21">
+  <ts>2020-03-22T22:00:25.442000</ts>
+  <user>Ludwig</user>
+  <text>so true</text>
+</message>
+<message conversation_id="21">
+  <ts>2020-03-22T22:02:30.678000</ts>
+  <user>Ludwig</user>
+  <text>nice article will keep some ideas in mind for next time 🙂</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-03-24T03:23:56.474000</ts>
+  <user>Alipio</user>
+  <text>@WhoNeedszZz ... hence the sort of</text>
+</message>
+<message conversation_id="23">
+  <ts>2020-03-24T22:03:24.102000</ts>
+  <user>Ahsir</user>
+  <text>anyone think they would be interested in explaining a program to me for 15$ an hour? this is a one time little gig</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-03-30T19:05:21.888000</ts>
+  <user>Brienne</user>
+  <text>Does anyone here have experience setting up luminus behind an nginx reverse proxy?</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-03-30T19:05:57.299000</ts>
+  <user>Vilmar</user>
+  <text>they have great docs for that if I remember correctly</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-03-30T19:06:25.110000</ts>
+  <user>Vilmar</user>
+  <text>https://luminusweb.com/docs/deployment.html#fronting_with_nginxhttps://luminusweb.com/docs/deployment.html#fronting_with_nginx</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-03-30T19:06:48.444000</ts>
+  <user>Brienne</user>
+  <text>Not for my particular issue unfortunately. I am trying to set it up under a location apart from root</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-03-30T19:08:27.276000</ts>
+  <user>Brienne</user>
+  <text>I am having difficulty configuring luminus/jetty to use that path to properly handle links relative to that path</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-03-30T19:08:45.595000</ts>
+  <user>Vilmar</user>
+  <text>I think that's a nginx issue then</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-03-30T19:27:56.744000</ts>
+  <user>Brienne</user>
+  <text>I'm not so sure. For example suppose I am trying to proxy pass everything under `mysite.com/util/` to the running luminus web app. If luminus has no knowledge of the `/util/` prefix all absolute paths will improperly go to `mysite.com/`.</text>
+</message>
+<message conversation_id="25">
+  <ts>2020-03-30T21:00:37.713000</ts>
+  <user>Bettina</user>
+  <text>Docroot configuration is definitely in the Nginx config</text>
+</message>
+<message conversation_id="25">
+  <ts>2020-03-30T21:02:14.741000</ts>
+  <user>Bettina</user>
+  <text>Oh I see. You need to use subdomains instead of path.</text>
+</message>
+<message conversation_id="25">
+  <ts>2020-03-30T21:02:23.743000</ts>
+  <user>Bettina</user>
+  <text>`util.mysite.com`</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-03-30T21:33:44.998000</ts>
+  <user>Brienne</user>
+  <text>I determined a workaround by just modifying the `&lt;project&gt;.layout/render` function that comes with the luminus template to the following:```=(defn render= renders the HTML template located relative to = resources/html"= [request template &amp; [params]]= (contenttype= (ok= (parser/renderfile= template= (assoc params+ :pathprefix (or (env :pathprefix) )+ :selmer/context (or (env :pathprefix) )= :page template= :csrftoken antiforgerytoken)))= text/html; charset=utf8"))```Then all templates are able to generate links properly by just referencing the `pathprefix` and script/style Selmer tags continue to work as well. Just need to set `PATH_PREFIX` as an environment variable to match the path setup in nginx.</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:16:15.723000</ts>
+  <user>Amell</user>
+  <text>Does anybody see a reason why `(map #(loadmap %) data` isn\'t getting called here?```clojure(defn loadmaps [filename] (log/debug Loading maps from filename) (if (.exists (io/file filename)) (let [xs (get (json/parsestream (clojure.java.io/reader filename)) data") data (mapv #(second %) xs)] (log/debug data:  data) (map #(loadmap %) data)) (log/error filename does not exist")) (log/info Finished loading map data"))```</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:18:15.140000</ts>
+  <user>Tannen</user>
+  <text>For the sake of it wrap that map in a `doall`</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-03-31T03:28:30.045000</ts>
+  <user>Amell</user>
+  <text>the one calling loadmap?</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:34:43.066000</ts>
+  <user>Tannen</user>
+  <text>`(doall (map #(loadmap %) data))`</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:35:09.307000</ts>
+  <user>Tannen</user>
+  <text>Otherwise what's it actually returning?</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:35:36.201000</ts>
+  <user>Tannen</user>
+  <text>If you call `(loadmaps test.edn")` what\'s the return?</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:42:00.847000</ts>
+  <user>Amell</user>
+  <text>Here\'s the content of loadmap. ```clojure(defn loadmap [input] (log/debug loadmap called on  input) (let [data {:id (Integer/parseInt (get input MapId")) :name (get input MapName") :image (getin input ["image full"])}] (try (log/debug Loading map: (:name data)) (db/insertmap! data) (catch Exception e (log/error Couldn\'t insert map ID:  (:id data)) (log/error e)))))```</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:42:16.552000</ts>
+  <user>Amell</user>
+  <text>So even that first log/debug is never running</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:42:22.298000</ts>
+  <user>Amell</user>
+  <text>Trying the doall rn</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:44:00.809000</ts>
+  <user>Amell</user>
+  <text>Looks like that worked</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T03:46:19.192000</ts>
+  <user>Amell</user>
+  <text>So since loadmap is primarily side effects it's not fully realized unless wrapped in a doall?</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-03-31T06:51:49.929000</ts>
+  <user>Tannen</user>
+  <text>Unless you're observing it directly then yes it won't realise any of it</text>
+</message>
+<message conversation_id="28">
+  <ts>2020-03-31T16:49:59.141000</ts>
+  <user>Hoorain</user>
+  <text>hello everyone can someone help me I have a lein project as a module of a larger maven projet (using lein pom) does anyone know I can configure building via maven?</text>
+</message>
+<message conversation_id="28">
+  <ts>2020-03-31T16:50:21.147000</ts>
+  <user>Hoorain</user>
+  <text>for that lein project</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T15:56:03.019000</ts>
+  <user>Alistair</user>
+  <text>Anybody around with a lot of async experience? I'm getting what I consider strange behavior where after calling shutdownagents my program still won't exit and seems to have nondaemon threads going on. It has a lot of core.async go blocks and agent usage but nothing too weird.</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:27:40.082000</ts>
+  <user>Brienne</user>
+  <text>@srasu I do not think that `shutdownagents` has any effect on threads/threadpools that are created from clojure.core.async (`thread`/`go`). I believe that it only interacts with the Agent subsystem of clojure.core (`agent` `send` and `sendoff`).</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:29:07.682000</ts>
+  <user>Alistair</user>
+  <text>Then I'm definitely curious because I've never had issues shutting down applications with live goloops before.</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:31:31.331000</ts>
+  <user>Brienne</user>
+  <text>Do you have any blocking/IO actions going on in your go processes?</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:34:00.369000</ts>
+  <user>Alistair</user>
+  <text>Just waiting on channels.</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:34:03.611000</ts>
+  <user>Alistair</user>
+  <text>so parking</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:35:48.005000</ts>
+  <user>Brienne</user>
+  <text>Try closing all of your channels instead. That will allow your go blocks to terminate</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:36:45.830000</ts>
+  <user>Alistair</user>
+  <text>That... would be a challenge. Might be possible but we'll see.</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:38:02.594000</ts>
+  <user>Alistair</user>
+  <text>Wait nevermind. That's weird.</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:39:18.858000</ts>
+  <user>Alistair</user>
+  <text>Actually it looks like I exit the go block.</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T16:45:43.326000</ts>
+  <user>Alistair</user>
+  <text>Yeah so in theory there's no go blocks running and no agents since I call shutdownagents. It's just weird.</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T17:12:04.786000</ts>
+  <user>Alistair</user>
+  <text>Turns out it was actually some dumb undocumented stuff about the websocket library I was using</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-04-01T17:12:37.781000</ts>
+  <user>Osmundo</user>
+  <text>Oof</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T17:13:09.057000</ts>
+  <user>Alistair</user>
+  <text>Yeah because I was going down a layer and creating my own websocket client from jetty I had to manually call .stop on them.</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T18:22:18.790000</ts>
+  <user>Brienne</user>
+  <text>Ouch. Not fun. Glad you got it resolved at least</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-01T18:28:03.249000</ts>
+  <user>Alistair</user>
+  <text>Yeah me too. Should help with people using my discord library</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-11T10:43:34.376000</ts>
+  <user>Babou</user>
+  <text>Is there an alternative to datomic regarding functional dbs in clojure? datomic looks cool and all but only the starter kit is free and it's not open source. I haven't really looked that deeply into it but I presume it's enough for smaller and personal use cases?</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-11T11:01:27.233000</ts>
+  <user>Tannen</user>
+  <text>I hear a good amount about Crux haven't used it myself though</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T10:16:39.450000</ts>
+  <user>Babou</user>
+  <text>There is `alt` in core.async but is there something like `and` that reads input from channels in whatever order it comes in?</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T10:17:56.885000</ts>
+  <user>Babou</user>
+  <text>For example I have channel one and two. I want to take something from both of them but I don't care whether one or two delivers first</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-04-20T14:01:06.093000</ts>
+  <user>Bettina</user>
+  <text>That would be async</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T14:08:32.791000</ts>
+  <user>Babou</user>
+  <text>What do you mean?</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-04-20T15:30:35.448000</ts>
+  <user>Bettina</user>
+  <text>Your objective is asyncronous</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T15:31:05.925000</ts>
+  <user>Babou</user>
+  <text>I don't understand your point</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T15:31:11.316000</ts>
+  <user>Babou</user>
+  <text>Of course it's async</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T15:31:19.552000</ts>
+  <user>Babou</user>
+  <text>We're talking about core.async after all</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T15:32:46.615000</ts>
+  <user>Babou</user>
+  <text>Building the logic of `and` is possible with the existing macros/functions but I was wondering whether something like this already exists</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T15:33:20.402000</ts>
+  <user>Osmundo</user>
+  <text>I actually wrote something that does that a few days ago cus I couldn't find a solution in core.async.</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T15:33:30.165000</ts>
+  <user>Osmundo</user>
+  <text>But I might have missed something.</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-04-20T15:43:40.110000</ts>
+  <user>Bettina</user>
+  <text>What's the issue with using `or`?</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T15:59:17.915000</ts>
+  <user>Babou</user>
+  <text>What `or`? Do you mean `alts!`?</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T15:59:44.934000</ts>
+  <user>Babou</user>
+  <text>Different semantics</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-04-20T15:59:51.147000</ts>
+  <user>Babou</user>
+  <text>It only waits for one</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:44:06.177000</ts>
+  <user>Alistair</user>
+  <text>I wish there were a good parking and in core.async by default yeah. As it is the simplest way to do it is like so:```clojure(let [chans ...] (a/&lt;! (a/thread (map a/&lt;!! chans))))```</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:44:51.278000</ts>
+  <user>Alistair</user>
+  <text>This spawns a new thread that blocks on taking off each channel and the return value of map is put onto a channel. That channel is parked on by the outer execution context.</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:45:12.299000</ts>
+  <user>Osmundo</user>
+  <text>what if you're working in cljs</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:45:31.809000</ts>
+  <user>Osmundo</user>
+  <text>Wrong channel I suppose</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:45:33.611000</ts>
+  <user>Alistair</user>
+  <text>good question. I'm not 100% sure.</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:45:50.861000</ts>
+  <user>Osmundo</user>
+  <text>Short answer is you need some fairly arcane loop trickery.</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:46:00.299000</ts>
+  <user>Osmundo</user>
+  <text>And `alts!`</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:46:51.205000</ts>
+  <user>Osmundo</user>
+  <text>You loop on `alts!` each iteration removing the channel you just took from and passing the rest back in.</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:47:31.124000</ts>
+  <user>Alistair</user>
+  <text>Yeah I dislike that because it's complex and requires more thread overhead. However it doesn't require an additional thread so that can be a bonus.</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:52:18.557000</ts>
+  <user>Osmundo</user>
+  <text>```clj(defn asyncall [chans] (goloop [chanset (set chans) res {}] (if (seq chanset) (let [[val chan] (alts! chanset)] (recur (disj chanset chan) (assoc res chan val))) (into [] (map res chans)))```Or something like that.</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-04-20T17:53:14.087000</ts>
+  <user>Osmundo</user>
+  <text>My original version was inline and collected the results slightly differently plus I don't have it on hand rn 😅</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:48:49.248000</ts>
+  <user>Babou</user>
+  <text>&gt; You loop on `alts!` each iteration removing the channel you just took from and passing the rest back in.@djeis that's what I'd do too</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:49:32.941000</ts>
+  <user>Babou</user>
+  <text>It just becomes very complex especially if you add more channels</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:50:09.861000</ts>
+  <user>Osmundo</user>
+  <text>My little code snippet there should solve it for any number of channels.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:50:18.482000</ts>
+  <user>Babou</user>
+  <text>Oh I see</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:50:25.031000</ts>
+  <user>Osmundo</user>
+  <text>should</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:50:36.121000</ts>
+  <user>Osmundo</user>
+  <text>I have not tested it I just did something similar on another project recently.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:50:58.610000</ts>
+  <user>Osmundo</user>
+  <text>Does one take off each channel and returns a vector of the results in the same order as the channels.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:51:07.113000</ts>
+  <user>Babou</user>
+  <text>I didn't know you could pass a set to alts</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:51:20.408000</ts>
+  <user>Osmundo</user>
+  <text>Ought to take any sequence.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:51:30.493000</ts>
+  <user>Osmundo</user>
+  <text>If not I'll have to coerce to vector.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:51:37.773000</ts>
+  <user>Osmundo</user>
+  <text>But it ought to take anything seqable.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:51:45.680000</ts>
+  <user>Babou</user>
+  <text>Nice</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:51:49.752000</ts>
+  <user>Osmundo</user>
+  <text>I know I've passed it seqs before.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:52:03.793000</ts>
+  <user>Babou</user>
+  <text>Also til goloop is a thing</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:52:20.745000</ts>
+  <user>Osmundo</user>
+  <text>Yea just a bit shorter.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:53:14.306000</ts>
+  <user>Osmundo</user>
+  <text>I am perhaps unreasonably pleased with `(map res chans)` in there.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:54:23.788000</ts>
+  <user>Babou</user>
+  <text>But the order isn't preserved is it?</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:54:38.270000</ts>
+  <user>Osmundo</user>
+  <text>`chans` is the passed in collection 😁</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:54:51.735000</ts>
+  <user>Babou</user>
+  <text>Oh yeah you're right</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:55:55.028000</ts>
+  <user>Babou</user>
+  <text>Thanks a bunch</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:55:59.460000</ts>
+  <user>Osmundo</user>
+  <text>Sure 🙂</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:56:09.866000</ts>
+  <user>Osmundo</user>
+  <text>Do test it 😅</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:56:31.961000</ts>
+  <user>Osmundo</user>
+  <text>I'm pretty sure it works but I don't have anything handy to test it on atm.</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-04-20T21:57:02.890000</ts>
+  <user>Babou</user>
+  <text>Will do tomorrow 👍</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-04-21T01:53:26.837000</ts>
+  <user>Alistair</user>
+  <text>I'm not sure if it'll be anything seqable since the api for vectors (nth) works on sequences but doesn't call seq on its argument.</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-04-21T01:53:36.944000</ts>
+  <user>Alistair</user>
+  <text>at least that I recall.</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:20:01.418000</ts>
+  <user>Babou</user>
+  <text>@djeis doesn't seem to work unfortunately</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:20:24.322000</ts>
+  <user>Osmundo</user>
+  <text>Ah wonder why...</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:20:29.774000</ts>
+  <user>Osmundo</user>
+  <text>Can't really debug atm.</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:20:37.572000</ts>
+  <user>Babou</user>
+  <text>I modified it slightly because alts! doesn't take a set</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:20:46.218000</ts>
+  <user>Babou</user>
+  <text>```clj(defn asyncall [chans] (goloop [chanset (set chans) res {}] (iflet [chanseq (seq chanset)] (let [[val chan] (alts! chanseq)] (recur (disj chanset chan) (assoc res chan val))) (into [] (map res chans)))))```</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:21:17.715000</ts>
+  <user>Babou</user>
+  <text>But it never seems to receive the values you put on the input channels</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:21:31.423000</ts>
+  <user>Osmundo</user>
+  <text>Well that's... weird...</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:22:30.217000</ts>
+  <user>Babou</user>
+  <text>```clj(def chans (repeatedly 5 chan))(def result (asyncall chans))(go (doseq [val (range 5)  c chans] (&gt;! c val)))(&lt;!! result)```maybe you can spot a mistake</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:23:22.649000</ts>
+  <user>Babou</user>
+  <text>so it basically parks in the doseq</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:29:27.439000</ts>
+  <user>Osmundo</user>
+  <text>🤔</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:30:41.804000</ts>
+  <user>Osmundo</user>
+  <text>```cljuser=&gt; (defn asyncall [chans] (a/goloop [chanset (set chans) res {}] (iflet [chanseq (seq chanset)] (let [[val chan] (a/alts! chanseq)] (recur (disj chanset chan) (assoc res chan val))) (into [] (map res chans)))))user=&gt; (def chans (into [] (repeatedly 5 a/chan)))user=&gt; (def res (asyncall chans))user=&gt; (a/go (doseq [[i c] (map list (range) chans)] (a/&gt;! c i)))user=&gt; (a/&lt;!! res)[0 1 2 3 4]```</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-04-21T21:32:14.851000</ts>
+  <user>Osmundo</user>
+  <text>All I did was add `a/` prefixes make `chans` a vector and make sure the `doseq` goes through the index/chans in parallel.</text>
+</message>
+<message conversation_id="36">
+  <ts>2020-04-21T21:46:32.434000</ts>
+  <user>Babou</user>
+  <text>OH</text>
+</message>
+<message conversation_id="36">
+  <ts>2020-04-21T21:47:10.380000</ts>
+  <user>Babou</user>
+  <text>doseq in my case runs chan1 1 chan1 2 chan1 3 and so on right?</text>
+</message>
+<message conversation_id="36">
+  <ts>2020-04-21T21:48:13.010000</ts>
+  <user>Babou</user>
+  <text>I forgot it behaves like `for` and not like `map` in that regard</text>
+</message>
+<message conversation_id="36">
+  <ts>2020-04-21T21:48:35.539000</ts>
+  <user>Babou</user>
+  <text>I'm actually stupid</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-04-24T04:17:57.382000</ts>
+  <user>Camaron</user>
+  <text>What would be the easiest way of validating a map? I want to make sure that the map I deserialised from JSON contains specific fields and nothing else.</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-04-24T04:29:53.711000</ts>
+  <user>Camaron</user>
+  <text>wait I can just `(= (keys data) [:foo ...])`</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-04-24T04:33:51.267000</ts>
+  <user>Jah</user>
+  <text>Or maybe use spec or Prismatic schema? Possibly overkill though.</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-04-24T04:35:49.404000</ts>
+  <user>Camaron</user>
+  <text>Yeah some sort of `spec` would be the way to go normally but since it's just a onetime use I figured I should look for a simpler way to do it.</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-04-24T05:13:00.043000</ts>
+  <user>Babou</user>
+  <text>`(every? data [:key1 :key2 ...])`</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-04-24T05:13:05.351000</ts>
+  <user>Babou</user>
+  <text>Like this perhaps?</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-04-24T05:13:17.591000</ts>
+  <user>Babou</user>
+  <text>That way you allow for more tham the required keys</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-04-24T05:13:20.097000</ts>
+  <user>Babou</user>
+  <text>Like spec</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-04-24T05:45:13.345000</ts>
+  <user>Camaron</user>
+  <text>I considered using `every?` but I want it to contain no other keys.</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-04-24T05:45:52.759000</ts>
+  <user>Camaron</user>
+  <text>Since I'll be saving the map somewhere and I don't want potential junk data lingering there.</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-04-24T06:09:20.915000</ts>
+  <user>Babou</user>
+  <text>Well then you might use sets</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-04-24T06:09:34.342000</ts>
+  <user>Babou</user>
+  <text>I think (keys) returns a set</text>
+</message>
+<message conversation_id="39">
+  <ts>2020-04-24T13:11:18.150000</ts>
+  <user>Alipio</user>
+  <text>I have no context so apply this as it makes sense in your case but Rich Hickey has actually talked specifically about the point of asserting that only certain keys are in a map: &lt;https://youtu.be/oyLBGkS5ICk?t=3258&gt;</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-04-25T12:52:23.706000</ts>
+  <user>Thorne</user>
+  <text>The following I do not understand. Can some one point me in the right direction please?</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-04-25T12:52:35.343000</ts>
+  <user>Thorne</user>
+  <text>```cron.routes=&gt; (keys (yaml/fromfile test.yaml"))(:a)cron.routes=&gt; (defn loadsecrets2 [] (yaml/fromfile test.yaml"))#\'cron.routes/loadsecrets2cron.routes=&gt; (loadsecrets2)#ordered/map ([:a #ordered/map ([:level p7thrv6Nt7mU9fxL"] [:rubbish blah blah"] [:path scripts/"])])cron.routes=&gt; (keys loadsecrets2)Execution error (IllegalArgumentException) at cron.routes/eval6848 (forminit3768456561690446599.clj:1).Don\'t know how to create ISeq from: cron.routes$load_secrets2```</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-04-25T12:53:02.370000</ts>
+  <user>Thorne</user>
+  <text>I load the file direct i can use keys. Do it via another function i get an error 😦</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-04-25T12:56:41.384000</ts>
+  <user>Babou</user>
+  <text>You're passing a function to keys</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-04-25T12:56:47.908000</ts>
+  <user>Babou</user>
+  <text>Not what that function returns</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-04-25T12:57:08.368000</ts>
+  <user>Babou</user>
+  <text>(keys (loadsecrets2)) should work</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-04-25T12:58:14.983000</ts>
+  <user>Thorne</user>
+  <text>lol it does. I do feel silly now thats it been pointed out to me 🙂 Thank you 🙂</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-04-25T12:58:49.809000</ts>
+  <user>Tannen</user>
+  <text>All good I've been working with clojure a while and still make this mistake 😂</text>
+</message>
+<message conversation_id="41">
+  <ts>2020-04-26T13:05:30.324000</ts>
+  <user>Camaron</user>
+  <text>@SlashDevSlashRandom What he says makes sense especially with regards to writing your code in accordance to the map shape you have in mind and let it grow when necessary.</text>
+</message>
+<message conversation_id="41">
+  <ts>2020-04-26T13:06:22.025000</ts>
+  <user>Camaron</user>
+  <text>But I'm taking external JSON input through an HTTP API converting it to a map then inserting it to an SQL database.</text>
+</message>
+<message conversation_id="41">
+  <ts>2020-04-26T13:07:08.742000</ts>
+  <user>Camaron</user>
+  <text>Otherwise I'd need to cherry pick the matching keys from the map to make a new map and discard the original data.</text>
+</message>
+<message conversation_id="41">
+  <ts>2020-04-26T13:07:20.317000</ts>
+  <user>Camaron</user>
+  <text>Maybe there's a cleaner way to do this.</text>
+</message>
+<message conversation_id="42">
+  <ts>2020-04-26T17:09:20.240000</ts>
+  <user>Alipio</user>
+  <text>So the usual caveat of take this FWIW and decide if it applies in your situation: `selectkeys` could do the cherrypicking for you. When I think about comparing the two approaches they feel very similar except for allowing for extra information. If we validate the translated map but it has an extra key then do we reject all the data? If I want a user\'s first and last name and I get a map that has first name last name and DOB should I just say well this isn\'t exactly first name and last name so it\'s not useful"? Alternatively I say get the first and last name from this map and write those to my DB and then if the API changes tomorrow and gives me six more fields my code doesn\'t change</text>
+</message>
+<message conversation_id="41">
+  <ts>2020-04-26T20:04:52.134000</ts>
+  <user>Camaron</user>
+  <text>That makes a lot of sense. I totally forgot about `selectkeys` too.</text>
+</message>
+<message conversation_id="41">
+  <ts>2020-04-26T20:05:10.728000</ts>
+  <user>Camaron</user>
+  <text>Thanks!</text>
+</message>
+<message conversation_id="42">
+  <ts>2020-04-26T20:16:45.843000</ts>
+  <user>Alipio</user>
+  <text>:)</text>
+</message>
+<message conversation_id="41">
+  <ts>2020-04-26T21:17:48.937000</ts>
+  <user>Jah</user>
+  <text>At times I\'ve pleasantly surprised myself by leaving unknown keys present in maps as they flow through code that isn\'t interested in those keys. It supports a kind of cough aspect oriented approach to data &amp; code. Of course I realise that it\'s hard to persist such data in schemaoriented data stores (RDBMS\ and the like)...</text>
+</message>
+</discord>

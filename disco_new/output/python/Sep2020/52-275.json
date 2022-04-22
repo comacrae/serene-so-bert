@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-01T18:24:18.858000",
+        "user": "Karapet",
+        "text": "@Ketz7 I have column names already how to supply the item as an argument for the function?",
+        "conversation_id": "52",
+        "index": 268
+    },
+    "so_post": {
+        "ts": "2020-09-01T18:25:30.909000",
+        "user": "Jeryl",
+        "text": "@bait https://stackoverflow.com/questions/34279378/pythonpandasapplyfunctionwithtwoargumentstocolumns",
+        "conversation_id": "52",
+        "index": 275
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Someone asks question and Jeryl provides SO post answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

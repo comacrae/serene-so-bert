@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T06:43:26.303000",
+        "user": "Nilsa",
+        "text": "how to show only 2.6 instead of 2.698729773",
+        "conversation_id": "725",
+        "index": 14
+    },
+    "so_post": {
+        "ts": "2020-09-11T06:49:54.260000",
+        "user": "Mubashir",
+        "text": "@Deleted User Check this out.https://stackoverflow.com/questions/455612/limitingfloatstotwodecimalpoints",
+        "conversation_id": "725",
+        "index": 36
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks about floats and Mubashir provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-10T11:31:12.720000",
+        "user": "Dalett",
+        "text": "Shouldn\\'t that work?```gofunc doit(w http.ResponseWriter r http.Request) { http.ServeFile(w r /uploads\")}func Run(serverconf utils.Config orm orm.ORM) { r := chi.NewRouter() r.Use(middleware.Logger) r.Get(\"/ func(w http.ResponseWriter r http.Request) { w.Write([]byte(\"ok\")) }) r.Get(\"/uploads doit) // Inform the user where the server is listening logger.Info(\"Running @  + serverconf.ListenEndpoint()) // Print out and exit(1) to the OS if the server cannot run logger.Fatal(http.ListenAndServe(serverconf.ListenEndpoint() r))}```",
+        "conversation_id": "293",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-10T11:57:24.008000",
+        "user": "Iam",
+        "text": "https://stackoverflow.com/questions/27945310/whydoineedtousehttpstripprefixtoaccessmystaticfiles",
+        "conversation_id": "293",
+        "index": 99
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Dallet has question and Iam (after a LOT of conversation) provides an SO post which helps",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

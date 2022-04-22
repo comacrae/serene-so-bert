@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-09T05:29:38.016000",
+        "user": "Codie",
+        "text": "@_diamondburned_ io.CopyN is not what am looking for based on the example in docs it reads from a reader i need something that reads from a byte array byte[] and split the data with a max limit",
+        "conversation_id": "208",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-02-09T05:36:28.016000",
+        "user": "Codie",
+        "text": "https://stackoverflow.com/questions/29746123/convertbyteslicetoioreader",
+        "conversation_id": "208",
+        "index": 18
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Codie found answer to their own question",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

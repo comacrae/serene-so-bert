@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-22T16:47:27.225000",
+        "user": "Braxdyn",
+        "text": "I\u2019m trying to add a code to python that will open excel for me after downloading the file I got it to go to google and sign in and download the file but it closes the downloads tab when I want it to close whole google and opens excel",
+        "conversation_id": "1649",
+        "index": 178
+    },
+    "so_post": {
+        "ts": "2020-10-22T16:50:19.309000",
+        "user": "Kaio",
+        "text": "https://stackoverflow.com/questions/13720940/openingrunningexcelfilefrompython https://stackoverflow.com/questions/42568922/howtoclosewebbrowserusingpython @DeletedChad",
+        "conversation_id": "1649",
+        "index": 201
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Bardyx gets help with an SO post from Kaio",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

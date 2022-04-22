@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-21T18:44:41.704000",
+        "user": "Massie",
+        "text": "lets say I figure out where data is stored how do I use python to access that data?",
+        "conversation_id": "1488",
+        "index": 229
+    },
+    "so_post": {
+        "ts": "2020-09-21T18:45:33.155000",
+        "user": "Latavia",
+        "text": "@B\u0159\u0101\u0111 https://stackoverflow.com/questions/51346572/pythongetvalueofvariablefromram",
+        "conversation_id": "1488",
+        "index": 240
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asks question about getting access to variable in data and Latavia replies with relevant SO post",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-15T18:29:32.564000",
+        "user": "Alexis",
+        "text": "just a quick question is it possible to use ``.replace()`` to replace a text this way?original text is ``Drift 800 yards.`` and i want it to edit to into this: ``Drift %1.``. i can search for the ``yards`` and replace it with ``%1`` but what about the number? how would you solve this?",
+        "conversation_id": "627",
+        "index": 31
+    },
+    "so_post": {
+        "ts": "2020-02-15T18:51:14.725000",
+        "user": "Hutchinson",
+        "text": "https://stackoverflow.com/questions/4489074/pythonregularexpressionreplacingpartofamatchedstring",
+        "conversation_id": "627",
+        "index": 76
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Alexis seems to be having issues that seem to be describing regex.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

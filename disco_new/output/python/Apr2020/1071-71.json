@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-22T09:02:35.694000",
+        "user": "Kenzii",
+        "text": "@Awsm https://stackoverflow.com/questions/27215462/permissionerrorwinerror32theprocesscannotaccessthefilebecauseitis",
+        "conversation_id": "1071",
+        "index": 46
+    },
+    "so_post": {
+        "ts": "2020-04-22T09:06:48.839000",
+        "user": "Harlene",
+        "text": "https://stackoverflow.com/a/8858026",
+        "conversation_id": "1071",
+        "index": 71
+    },
+    "category": "Alternative Solution",
+    "comments": "User tried to provide alternative solutions to Maiella's problem",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

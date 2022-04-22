@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-17T00:21:04.557000",
+        "user": "Yacoub",
+        "text": "does anyone know how i can use random to make certain letters a certain chance to be picked?",
+        "conversation_id": "1144",
+        "index": 127
+    },
+    "so_post": {
+        "ts": "2020-09-17T00:36:21.541000",
+        "user": "Nasiir",
+        "text": "https://stackoverflow.com/a/39976962",
+        "conversation_id": "1144",
+        "index": 192
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Yacoub asks question and descibres in more detail and then Nasiir provides direct answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

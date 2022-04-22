@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-26T02:31:46.874000",
+        "user": "Giselle",
+        "text": "how do i detect a key press",
+        "conversation_id": "1823",
+        "index": 251
+    },
+    "so_post": {
+        "ts": "2020-09-26T02:32:41.319000",
+        "user": "Insa",
+        "text": "@GTA5 Bodycam Footage https://stackoverflow.com/questions/24072790/detectkeypressinpython",
+        "conversation_id": "1823",
+        "index": 252
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct question and answer side by side",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

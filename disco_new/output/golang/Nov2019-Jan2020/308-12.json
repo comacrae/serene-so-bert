@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-18T03:56:26.458000",
+        "user": "Lathan",
+        "text": "Anybody got a clue why my `index.html` file is not being served at `\"/\"` route?My `index.html` file is in a `static` folder and my route handler is defined as `http.Handle(\"/ http.FileServer(http.Dir(\"./static\")))`.",
+        "conversation_id": "308",
+        "index": 7
+    },
+    "so_post": {
+        "ts": "2019-11-18T04:00:50.679000",
+        "user": "Lathan",
+        "text": "Weird following this answer exactly: https://stackoverflow.com/questions/26559557/howdoyouserveastatichtmlfileusingagowebserver",
+        "conversation_id": "308",
+        "index": 12
+    },
+    "category": "Question Repost",
+    "comments": "Lathan having trouble and using SO post answer as background",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-24T09:51:29.745000",
+        "user": "Heidy",
+        "text": "```pyimport tkinter as tkimport tkinter.font as tkffrom PIL import Image ImageTkroot = tk.Tk()canvas = tk.Canvas(root height=700 width=800)canvas.pack()image = Image.open(\"triangle.png\")bg_image = ImageTk.PhotoImage(image)bg_label = tk.Label(root image = bg_image)bg_label.place(x=0,y=0,relwidth = 1 relheight = 1)fontStyle = tkf.Font(size=40)label = tk.Label(canvas  fg = \\'red\\ text=\"WEATHER APP font = fontStyle)label.place(relx = 0.2 rely = 0 height = 60 width = 500)frame = tk.Frame(root,bg = \\'#d5eb34\\')frame.place(relx = 0.25 rely = 0.1,relheight = 0.05 relwidth = 0.55)entry = tk.Entry(frame bd = 5 )entry.place(relx = 0 rely = 0 relheight = 1 relwidth = 0.7)root.mainloop()```",
+        "conversation_id": "1176",
+        "index": 108
+    },
+    "so_post": {
+        "ts": "2020-04-24T09:58:00.563000",
+        "user": "Ardyn",
+        "text": "@Deleted User check some tkinter tutorials looks like this has your answer https://stackoverflow.com/questions/24061099/tkinterresizebackgroundimagetowindowsize",
+        "conversation_id": "1176",
+        "index": 117
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Heidy was asking what to do about their programming problem and user gave them a suggestion.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

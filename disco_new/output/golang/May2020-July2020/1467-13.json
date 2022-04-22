@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-22T12:33:33.806000",
+        "user": "Konstantinos",
+        "text": "I have to convert a map of `[string]bool` to a struct array. I've stumbled upon [mapstructure](https://github.com/mitchellh/mapstructure) to achieve this. Any other recommendations (i e. packages) for doing stuff like that?",
+        "conversation_id": "1467",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-06-22T12:37:54.355000",
+        "user": "Layna",
+        "text": "https://stackoverflow.com/questions/26744873/convertingmaptostruct there's some packages around",
+        "conversation_id": "1467",
+        "index": 13
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Konstantinos has quetsion and Layna provides direct SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

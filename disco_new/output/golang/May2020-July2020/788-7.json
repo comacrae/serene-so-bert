@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-29T08:44:00.287000",
+        "user": "Jak",
+        "text": "Hi everyone! Who's up for a challenge? (it's not :p) I'm looking for the most elegant way to convert a float with 2 precisions in an int. eg: `10 => 1000 / 10.5 = 1050 / 10.1234 = 1012 (notice the 34 being skipped)`. It is required to use a payment API provider I'm currently using",
+        "conversation_id": "788",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-05-29T08:53:30.269000",
+        "user": "Maddyson",
+        "text": "and the explanation here <https://stackoverflow.com/questions/3730019/whynotusedoubleorfloattorepresentcurrency>",
+        "conversation_id": "788",
+        "index": 7
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jak has question and Maddyson provides SO post answer ",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

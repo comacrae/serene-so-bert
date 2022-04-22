@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-09T16:33:56.099000",
+        "user": "Aniello",
+        "text": "can you point me to some resources which will help me learn concepts indepth in python.",
+        "conversation_id": "612",
+        "index": 230
+    },
+    "so_post": {
+        "ts": "2020-09-09T16:39:14.130000",
+        "user": "Kyrell",
+        "text": "@Kronos perhaps take a look at this answer too. https://stackoverflow.com/a/370380",
+        "conversation_id": "612",
+        "index": 251
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Kyrell and Aniello talk for a long time and Aniello asks for resources regarding global/local variables and Kyrell gives them this SO post",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

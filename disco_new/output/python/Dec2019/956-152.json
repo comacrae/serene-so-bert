@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-27T07:55:58.987000",
+        "user": "Areesha",
+        "text": "Is this the best website for this kind of thing? Any alternatives? Cause I'm trying to run simple efficient solutions and it times out even though it takes milliseconds...https://www.codewars.com/kata/themillionthfibonaccikata/train/python",
+        "conversation_id": "956",
+        "index": 119
+    },
+    "so_post": {
+        "ts": "2019-12-27T08:44:29.306000",
+        "user": "Areesha",
+        "text": "https://stackoverflow.com/a/52375514/3124409",
+        "conversation_id": "956",
+        "index": 152
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "related info to their question about fastest way to do something",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

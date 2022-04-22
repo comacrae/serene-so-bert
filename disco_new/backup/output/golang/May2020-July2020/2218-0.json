@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-17T23:42:12.796000",
+        "user": "Kamia",
+        "text": "Is it possible to share a single struct using mutex across multiple go routines at the same time\"?I\\'ve made this question with greater details at stack overflow https://stackoverflow.com/questions/62962702/useasinglemutexacrossmultiplegoroutines?If someone could help me out with this I\\'d be grateful thx",
+        "conversation_id": "2218",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-17T23:42:12.796000",
+        "user": "Kamia",
+        "text": "Is it possible to share a single struct using mutex across multiple go routines at the same time\"?I\\'ve made this question with greater details at stack overflow https://stackoverflow.com/questions/62962702/useasinglemutexacrossmultiplegoroutines?If someone could help me out with this I\\'d be grateful thx",
+        "conversation_id": "2218",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "Kamia soliciting help",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-14T23:09:28.262000",
+        "user": "Decarri",
+        "text": "so all you have to do is import win32com",
+        "conversation_id": "693",
+        "index": 34
+    },
+    "so_post": {
+        "ts": "2020-04-14T23:11:09.098000",
+        "user": "Annalina",
+        "text": "https://stackoverflow.com/questions/25257274/python34importerrornomodulenamedwin32api",
+        "conversation_id": "693",
+        "index": 41
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Annalina seems link to this SO Post to describe what their current issue is.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

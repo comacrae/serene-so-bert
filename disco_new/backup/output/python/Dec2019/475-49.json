@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-14T00:30:08.491000",
+        "user": "Jaz",
+        "text": "got stuck in string inside cursor.execute()",
+        "conversation_id": "475",
+        "index": 7
+    },
+    "so_post": {
+        "ts": "2019-12-14T01:02:11.216000",
+        "user": "Jaz",
+        "text": "found it here https://stackoverflow.com/questions/34484066/createapostgresdatabaseusingpython",
+        "conversation_id": "475",
+        "index": 49
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "they found answer for their issue (would be difficult to group",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-13T15:16:09.170000",
+        "user": "Ashten",
+        "text": "How do I get the day of the week with datetime?",
+        "conversation_id": "906",
+        "index": 62
+    },
+    "so_post": {
+        "ts": "2020-09-13T15:17:28.170000",
+        "user": "Dalmau",
+        "text": "@GalaxyCube101 https://stackoverflow.com/questions/9847213/howdoigetthedayofweekgivenadate",
+        "conversation_id": "906",
+        "index": 67
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ashten asks qusetion and Dalmau provides direct answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

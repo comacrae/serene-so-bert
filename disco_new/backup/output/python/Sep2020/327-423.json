@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-05T15:01:39.832000",
+        "user": "Beckman",
+        "text": "I'm calculating the first million primes and its taking forever lol",
+        "conversation_id": "327",
+        "index": 410
+    },
+    "so_post": {
+        "ts": "2020-09-05T15:03:37.417000",
+        "user": "Nasiir",
+        "text": "@Ewa Various implementations https://stackoverflow.com/questions/2068372/fastestwaytolistallprimesbelown",
+        "conversation_id": "327",
+        "index": 423
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Beckman's first post, then Nasiir replies with a list of fast way of calculating primes (technically not a question, but beckman is clearly soliciting help by sharing the message)",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

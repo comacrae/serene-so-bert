@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-03T23:21:41.278000",
+        "user": "Waverley",
+        "text": "> Hey guys! Is there a way to get the absolute path of images under a directory with python?@aesfb https://stackoverflow.com/questions/51520/howtogetanabsolutefilepathinpython",
+        "conversation_id": "227",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-10-03T23:21:41.278000",
+        "user": "Waverley",
+        "text": "> Hey guys! Is there a way to get the absolute path of images under a directory with python?@aesfb https://stackoverflow.com/questions/51520/howtogetanabsolutefilepathinpython",
+        "conversation_id": "227",
+        "index": 0
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "I'm going to mark this as outsourcing since the question isn't included in the context but the answer is direct",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

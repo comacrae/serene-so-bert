@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-31T13:48:33.048000",
+        "user": "Mawdo",
+        "text": "would you please explain the difference between using `./...` and `.` ? is `.` looking for `.go` files in the current directory only? while `./...` checks all subdirs?",
+        "conversation_id": "854",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-05-31T13:51:55.487000",
+        "user": "Mawdo",
+        "text": "> would you please explain the difference between using `./...` and `.` ? is `.` looking for `.go` files in the current directory only? while `./...` checks all subdirs?I found an answer for it here https://stackoverflow.com/questions/19200235/golangtestsinsubdirectory",
+        "conversation_id": "854",
+        "index": 6
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "finds the answer to their own question",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

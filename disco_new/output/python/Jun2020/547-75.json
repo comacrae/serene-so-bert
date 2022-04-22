@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-10T02:25:30.501000",
+        "user": "Nyssa",
+        "text": "How Could I possibly make it so os gets rid of folders?",
+        "conversation_id": "547",
+        "index": 59
+    },
+    "so_post": {
+        "ts": "2020-06-10T02:30:20.482000",
+        "user": "Amariana",
+        "text": "https://stackoverflow.com/questions/43756284/howtoremoveadirectoryincludingallitsfilesinpython",
+        "conversation_id": "547",
+        "index": 75
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

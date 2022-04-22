@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-08T01:43:47.177000",
+        "user": "Shritha",
+        "text": "I usually enjoy pasting someone's question into Google asis with minimal modifications",
+        "conversation_id": "193",
+        "index": 71
+    },
+    "so_post": {
+        "ts": "2020-05-08T01:44:13.296000",
+        "user": "Shritha",
+        "text": "which yielded the second result: https://stackoverflow.com/questions/23162986/restrictingtosingleinstanceofexecutablewithgolang",
+        "conversation_id": "193",
+        "index": 74
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Shritha had question and shared search results",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

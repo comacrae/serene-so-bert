@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-25T03:37:08.411000",
+        "user": "Heidy",
+        "text": "how could I remove that and get a typical output of the list of dicts without extra text?",
+        "conversation_id": "1214",
+        "index": 112
+    },
+    "so_post": {
+        "ts": "2020-04-25T03:38:43.770000",
+        "user": "Neisha",
+        "text": "https://stackoverflow.com/questions/20428636/pythonconvertdefaultdicttodict",
+        "conversation_id": "1214",
+        "index": 116
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Heidy's question was solved by the SO link posted.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

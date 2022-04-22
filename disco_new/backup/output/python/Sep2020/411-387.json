@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-06T19:47:18.772000",
+        "user": "Adaira",
+        "text": "Can I call python functions in java with Jython?",
+        "conversation_id": "411",
+        "index": 360
+    },
+    "so_post": {
+        "ts": "2020-09-06T19:55:41.982000",
+        "user": "Nasiir",
+        "text": "@Aboo Minister this thread might be useful to solve your underlying problem https://stackoverflow.com/questions/8147284/howtousegoogletranslateapiinmyjavaapplication",
+        "conversation_id": "411",
+        "index": 387
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "This guy asks about calling java functions with python and Nasiir posts an SO link which contains a solution to the underlying problem",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

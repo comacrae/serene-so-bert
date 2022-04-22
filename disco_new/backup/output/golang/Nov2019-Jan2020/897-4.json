@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-18T13:50:35.392000",
+        "user": "Knightley",
+        "text": "ridiculous question how can I take a context with cancellation (like http.Request.Context()) and ignore that cancellation?",
+        "conversation_id": "897",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-18T13:53:25.637000",
+        "user": "Knightley",
+        "text": "https://stackoverflow.com/questions/54128834/contextwithoutcancelpropagation",
+        "conversation_id": "897",
+        "index": 4
+    },
+    "category": "Question Repost",
+    "comments": "Knightley asking question using SO post as background",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

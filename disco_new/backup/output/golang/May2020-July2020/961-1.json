@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-04T11:16:01.114000",
+        "user": "Rainer",
+        "text": "@_diamondburned_ That stack overflow answer should be pinned tbh",
+        "conversation_id": "961",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-06-04T11:16:15.817000",
+        "user": "Rainer",
+        "text": "https://stackoverflow.com/questions/55045402/memoryleakingolangslice",
+        "conversation_id": "961",
+        "index": 1
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "Rainer saying SO post should be pinned",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

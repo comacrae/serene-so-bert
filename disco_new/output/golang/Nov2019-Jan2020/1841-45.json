@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-30T03:30:18.249000",
+        "user": "Meylani",
+        "text": "wait a sec:if functions are firstclass citizens in go how do you return a function that's been initialized on the stack? As soon as the current function returns wouldn't the returned function be deallocated?",
+        "conversation_id": "1841",
+        "index": 13
+    },
+    "so_post": {
+        "ts": "2020-01-30T03:49:37.684000",
+        "user": "Leo",
+        "text": "https://stackoverflow.com/questions/51489323/howaregoclosureslayedoutinmemory",
+        "conversation_id": "1841",
+        "index": 45
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Meylani has question and Leo provides SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

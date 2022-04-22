@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-21T17:13:23.992000",
+        "user": "Malaquias",
+        "text": "https://stackoverflow.com/questions/31463756/convertimageimagetoimagenrgba ?",
+        "conversation_id": "575",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-05-21T17:13:23.992000",
+        "user": "Malaquias",
+        "text": "https://stackoverflow.com/questions/31463756/convertimageimagetoimagenrgba ?",
+        "conversation_id": "575",
+        "index": 6
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "they just post SO link with a question mark no context",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

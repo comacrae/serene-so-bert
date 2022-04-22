@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-20T12:53:37.527000",
+        "user": "Lantz",
+        "text": "How the hell am i supposed to code without using both tabs and spaces",
+        "conversation_id": "977",
+        "index": 135
+    },
+    "so_post": {
+        "ts": "2020-04-20T12:54:04.918000",
+        "user": "Heidy",
+        "text": "read the thing i showed you. https://stackoverflow.com/questions/5685406/inconsistentuseoftabsandspacesinindentation",
+        "conversation_id": "977",
+        "index": 137
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "reiterating SO answer.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-24T23:58:11.318000",
+        "user": "Archit",
+        "text": "the logging module is going to drive me to drink",
+        "conversation_id": "1207",
+        "index": 17
+    },
+    "so_post": {
+        "ts": "2020-04-25T00:15:59.113000",
+        "user": "Audi",
+        "text": "It looks like you've done something similar to this already: https://stackoverflow.com/questions/11232230/loggingtotwofileswithdifferentsettings",
+        "conversation_id": "1207",
+        "index": 22
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Seems like Archit's current project is similar to the SO post.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

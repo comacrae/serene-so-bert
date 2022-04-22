@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-02T02:55:52.053000",
+        "user": "Humayra",
+        "text": "@\\'Pk Here\u2019s some Java code that I didn\u2019t write that might help it shows how to send a full message using sockets```Java// here you are supposed to send your username sendln(in out HELO theWorld\"); // warning : some mail server validate the sender address // in the MAIL FROM command put your real address here sendln(in out MAIL FROM: ); sendln(in out RCPT TO: < + recipient + > ); // to have more than one recipient repeat // sendln(in out RCPT TO: < + recipient2 + > ); // sendln(in out RCPT TO: < + recipient3 + > ); // etc... // thanks to PY Colle for the tip! sendln(in out DATA\"); sendln(out MIMEVersion: 1.0\"); sendln(out Subject: remember me\"); sendln(out From: Elvis Presley <Elvis.Presley@jailhouse.rock>\"); sendln (out ContentType: multipart/mixed; boundary=\\\\ + boundary +\"\\\\\"\"); sendln(out \\\\r\\ + boundary); // Send the body sendln(out ContentType: text/plain; charset=\\\\\"usascii\\\\\"\\\\r\\\"); sendln(out I\\'m alive. Help me!\\\\r\\\\\\r\\\"); sendln(out \\\\r\\ + boundary ); // send the GIF sendln(out ContentType:image/gif; name=\"+FileName); sendln (out ContentDisposition: attachment;filename=\\\\\"\"+FileName+\"\\\\\"\"); sendln(out Contenttransferencoding: base64\\\\r\\\"); MIMEBase64.encode(FileName out); sendln(out \\\\r\\ + boundary); sendln(out \\\\r\\\\\\r\\ + boundary + \\\\r\\\"); sendln(in out,\".\"); sendln(in out QUIT\");```",
+        "conversation_id": "38",
+        "index": 2
+    },
+    "so_post": {
+        "ts": "2019-12-02T03:09:11.099000",
+        "user": "Humayra",
+        "text": "https://stackoverflow.com/questions/12854572/connecttosmtpsslortlsusingpython",
+        "conversation_id": "38",
+        "index": 5
+    },
+    "category": "Question Repost",
+    "comments": "using so post to help describe issue",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

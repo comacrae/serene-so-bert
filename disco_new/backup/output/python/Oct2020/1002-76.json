@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-14T13:14:32.495000",
+        "user": "Zarius",
+        "text": "trying to import a file from DAL to a file in BL",
+        "conversation_id": "1002",
+        "index": 66
+    },
+    "so_post": {
+        "ts": "2020-10-14T13:16:19.172000",
+        "user": "Corpus",
+        "text": "https://stackoverflow.com/questions/14132789/relativeimportsforthebillionthtime/14132912#14132912i think this SO post might help you",
+        "conversation_id": "1002",
+        "index": 76
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "This is the closest thing to a question since other messages are single words",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

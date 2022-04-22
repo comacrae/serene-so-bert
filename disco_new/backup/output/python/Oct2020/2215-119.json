@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T10:49:35.923000",
+        "user": "Sevdalin",
+        "text": "```pyreadme = f.read()s=\\'\\'for i in readme: if i == \\ \\': s+=\\ \\' s+=i```hey guys how can i write this simplerand shorterbasically it reads a file and when it spots a   it will add another space making it  ",
+        "conversation_id": "2215",
+        "index": 118
+    },
+    "so_post": {
+        "ts": "2020-10-30T10:49:53.649000",
+        "user": "Suni",
+        "text": "@Infinitue https://stackoverflow.com/questions/46517738/howcaniaddafileextensionusingtkinter```pythonfiledialog.asksaveasfilename(defaultextension='.pkl')```",
+        "conversation_id": "2215",
+        "index": 119
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

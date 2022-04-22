@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-26T05:35:55.187000",
+        "user": "Nasia",
+        "text": "When are the times that arrays should be used instead of slices? So far I've found slices to be more reasonable for like almost every usecase.. I may be wrong though.",
+        "conversation_id": "453",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2019-11-26T05:28:38.116000",
+        "user": "Nayel",
+        "text": "https://stackoverflow.com/questions/59044236/howtopassroomidfromjavascriptwebsocketclienttogolangsocketserver Hi Gophers  Please help someone today.",
+        "conversation_id": "453",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "Nayel soiciting help",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

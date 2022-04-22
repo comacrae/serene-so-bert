@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-07T18:12:16.224000",
+        "user": "Arika",
+        "text": "I need the base path from the project so I can resolve files and folders all over the place",
+        "conversation_id": "1194",
+        "index": 76
+    },
+    "so_post": {
+        "ts": "2020-09-07T18:12:25.698000",
+        "user": "Mingliang",
+        "text": "https://stackoverflow.com/questions/18537257/howtogetthedirectoryofthecurrentlyrunningfile",
+        "conversation_id": "1194",
+        "index": 77
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "might need grouping but Alika asks question and Mingliang provides SO answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-08T20:45:00.962000",
+        "user": "Isaih",
+        "text": "Hi All,I have 5 CSV files and and another 1 CSV file with list of ID's.I have to search ID's across all 5 csv's and create a new CSV file which contains if value is present mark 1 if not mark 0.Currently I'm stuck.Kindly let me know if I have to explain more about problem",
+        "conversation_id": "576",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-10-08T21:26:48.636000",
+        "user": "Isaih",
+        "text": "https://stackoverflow.com/questions/64270606/howtosearchvaluesinmultiplecsvandcreatenewcsvwithresultinpython> Post link here@Ketz7",
+        "conversation_id": "576",
+        "index": 67
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Isaiah found answer to their own question about CSV",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

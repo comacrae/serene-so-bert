@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-07T11:41:44.235000",
+        "user": "Danilo",
+        "text": "I need some help with Matplotlib stuff. Here's my consolidated issue  https://stackoverflow.com/questions/62244564/howtodisablethelineconnectingstartandendpointsinmatplotlib",
+        "conversation_id": "391",
+        "index": 33
+    },
+    "so_post": {
+        "ts": "2020-06-07T11:41:44.235000",
+        "user": "Danilo",
+        "text": "I need some help with Matplotlib stuff. Here's my consolidated issue  https://stackoverflow.com/questions/62244564/howtodisablethelineconnectingstartandendpointsinmatplotlib",
+        "conversation_id": "391",
+        "index": 33
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

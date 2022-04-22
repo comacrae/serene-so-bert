@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-20T21:47:08.995000",
+        "user": "Chace",
+        "text": "Anyways as I was asking is there any library that would understand directly some time instructions (such as 1h30 or 15m)?",
+        "conversation_id": "1509",
+        "index": 245
+    },
+    "so_post": {
+        "ts": "2020-10-20T21:47:52.332000",
+        "user": "Atta",
+        "text": "@atlas_core a bit of googling gave me <https://stackoverflow.com/questions/1495487/isthereanypythonlibraryforparsingdatesandtimesfromanaturallanguage> which seems to suggest a few though it's a bit more complex than what you want.",
+        "conversation_id": "1509",
+        "index": 251
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direcet answer given from SO for question about parsing time and data from string",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

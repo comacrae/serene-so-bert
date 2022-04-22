@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-28T18:12:43.900000",
+        "user": "Sada",
+        "text": "> @lord yeah and you can use polymorphism to replace if/else chains@snax can you explain?",
+        "conversation_id": "2083",
+        "index": 173
+    },
+    "so_post": {
+        "ts": "2020-10-28T18:13:36.001000",
+        "user": "Kaio",
+        "text": "https://stackoverflow.com/questions/24517069/pythonconditionalsreplacementwithpolymorphism @Kronos has some examples",
+        "conversation_id": "2083",
+        "index": 180
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "sada's first message in thread, they asked for poly to be explained",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T17:32:03.795000",
+        "user": "Caia",
+        "text": "I feel so dumb but like confused",
+        "conversation_id": "1423",
+        "index": 267
+    },
+    "so_post": {
+        "ts": "2020-09-20T17:32:23.070000",
+        "user": "Caia",
+        "text": "https://stackoverflow.com/questions/52593420/pythonconvertwindowsfilepathinavariable",
+        "conversation_id": "1423",
+        "index": 268
+    },
+    "category": "Question Repost",
+    "comments": "using SO post as background for question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

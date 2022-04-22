@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-09T20:52:34.049000",
+        "user": "Malle",
+        "text": "but if im using a built in hash function and i hash a key value isnt it based off of the size of the Data structure so it knows which index its to be placed?",
+        "conversation_id": "444",
+        "index": 80
+    },
+    "so_post": {
+        "ts": "2020-04-09T21:10:36.090000",
+        "user": "Attila",
+        "text": "@AJT https://stackoverflow.com/a/9022835 Just in case you didn't see the link before all the stupid happened",
+        "conversation_id": "444",
+        "index": 187
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Attila reposted the link to reply to the User. There was an argument going on in the chat that prompted the user to repost the link.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

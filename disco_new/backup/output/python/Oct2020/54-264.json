@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T16:37:39.176000",
+        "user": "Vali",
+        "text": "ok im trying to install pocketsphinx for offline speech recognition with the sr module but when i run `pip install pocketsphinx` i get this error:``` ERROR: Command errored out with exit status 1: command: \\'c:\\\\users\\\\eric\\\\appdata\\\\local\\\\programs\\\\python\\\\python38\\\\python.exe\\ u c \\'import sys setuptools tokenize; sys.argv[0] = \\'\"\\'\"\\'C:\\\\\\\\Users\\\\\\\\Eric\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\pipinstall7h73pob4\\\\\\\\pocketsphinx\\\\\\\\setup.py\\'\"\\'\"\\'; __file__=\\'\"\\'\"\\'C:\\\\\\\\Users\\\\\\\\Eric\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\pipinstall7h73pob4\\\\\\\\pocketsphinx\\\\\\\\setup.py\\'\"\\'\"\\';f=getattr(tokenize \\'\"\\'\"\\'open\\'\"\\'\"\\ open)(__file__);code=f.read().replace(\\'\"\\'\"\\'\\\\r\\\\'\"\\'\"\\ \\'\"\\'\"\\'\\\\'\"\\'\"\\');f.close();exec(compile(code __file__ \\'\"\\'\"\\'exec\\'\"\\'\"\\'))\\ bdist_wheel d \\'C:\\\\Users\\\\Eric\\\\AppData\\\\Local\\\\Temp\\\\pipwheelxobm3kqu\\' cwd: C:\\\\Users\\\\Eric\\\\AppData\\\\Local\\\\Temp\\\\pipinstall7h73pob4\\\\pocketsphinx\\\\ Complete output (6 lines): running bdist_wheel running build_ext building \\'sphinxbase._sphinxbase\\ extension swigging deps/sphinxbase/swig/sphinxbase.i to deps/sphinxbase/swig/sphinxbase_wrap.c swig.exe python modern threads Ideps/sphinxbase/include Ideps/sphinxbase/include/sphinxbase Ideps/sphinxbase/include/win32 Ideps/sphinxbase/swig outdir sphinxbase o deps/sphinxbase/swig/sphinxbase_wrap.c deps/sphinxbase/swig/sphinxbase.i error: command \\'swig.exe\\ failed: No such file or directory  ERROR: Failed building wheel for pocketsphinx```",
+        "conversation_id": "54",
+        "index": 255
+    },
+    "so_post": {
+        "ts": "2020-10-01T16:38:23.938000",
+        "user": "Aquinnah",
+        "text": "Yeah... @dsnk try this https://stackoverflow.com/questions/44504899/installingpocketsphinxpythonmodulecommandswigexefailed",
+        "conversation_id": "54",
+        "index": 264
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "ISSUE WITH POCKETSPHNX AND THEY'RE GIVEN THIS SOLUTION",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

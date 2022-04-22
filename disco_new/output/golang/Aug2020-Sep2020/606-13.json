@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-20T11:33:26.655000",
+        "user": "Brian",
+        "text": "instead of ```gofoo := Foo{Bar: something\"}```is it possible to have a default value for `Bar` within its struct that is not its zero value?",
+        "conversation_id": "606",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-20T11:44:26.373000",
+        "user": "Yufan",
+        "text": "https://stackoverflow.com/a/37521991",
+        "conversation_id": "606",
+        "index": 13
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Brian asks question and yufan provides specific answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

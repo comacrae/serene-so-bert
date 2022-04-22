@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-26T19:54:12.282000",
+        "user": "Mezziah",
+        "text": "What\u2019s the best way to convert pyc file to a py file",
+        "conversation_id": "1879",
+        "index": 124
+    },
+    "so_post": {
+        "ts": "2020-09-26T19:55:10.488000",
+        "user": "Jeryl",
+        "text": "> What\u2019s the best way to convert pyc file to a py file@SkeletorAngel https://stackoverflow.com/questions/5287253/isitpossibletodecompileacompiledpycfileintoapyfile",
+        "conversation_id": "1879",
+        "index": 127
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jeryl sends direct answer to tagged question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

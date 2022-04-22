@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-07T19:48:49.067000",
+        "user": "Huntley",
+        "text": "is it possible to read the last line of a file without opening the entire file?",
+        "conversation_id": "253",
+        "index": 67
+    },
+    "so_post": {
+        "ts": "2019-11-07T19:51:03.347000",
+        "user": "Darious",
+        "text": "@Jason_Bjorn https://stackoverflow.com/a/54278929 That one might help?",
+        "conversation_id": "253",
+        "index": 75
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

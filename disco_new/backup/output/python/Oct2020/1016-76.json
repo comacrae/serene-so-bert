@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-14T18:39:48.143000",
+        "user": "Keahi",
+        "text": "how do you end a python script",
+        "conversation_id": "1016",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-10-14T18:42:35.508000",
+        "user": "Adalynd",
+        "text": "https://stackoverflow.com/questions/6501121/differencebetweenexitandsysexitinpython",
+        "conversation_id": "1016",
+        "index": 76
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "not a direct answer but is related to the instigating message on different methods to exit",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

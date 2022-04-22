@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-21T17:26:47.505000",
+        "user": "Reinhold",
+        "text": "Could someone explain/link me to an explanation as to what the syntax on the second and third line of this code is? I'm not understanding what's going on with the two braketed values on the right: https://stackoverflow.com/a/36707413/2336774```gos := []int{1 2 3 4}hdr := (reflect.SliceHeader)(unsafe.Pointer(&s))data := ([4]int)(unsafe.Pointer(hdr.Data))```",
+        "conversation_id": "527",
+        "index": 2
+    },
+    "so_post": {
+        "ts": "2020-02-21T17:26:47.505000",
+        "user": "Reinhold",
+        "text": "Could someone explain/link me to an explanation as to what the syntax on the second and third line of this code is? I'm not understanding what's going on with the two braketed values on the right: https://stackoverflow.com/a/36707413/2336774```gos := []int{1 2 3 4}hdr := (reflect.SliceHeader)(unsafe.Pointer(&s))data := ([4]int)(unsafe.Pointer(hdr.Data))```",
+        "conversation_id": "527",
+        "index": 2
+    },
+    "category": "Question Repost",
+    "comments": "soliciting answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

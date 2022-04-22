@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-23T19:33:46.927000",
+        "user": "Rand",
+        "text": "is their a way to print out the current loop ur in",
+        "conversation_id": "1640",
+        "index": 786
+    },
+    "so_post": {
+        "ts": "2020-09-23T19:36:43.694000",
+        "user": "Rand",
+        "text": "https://stackoverflow.com/questions/49939085/xreftablenotzeroindexedidnumbersforobjectswillbecorrectedwontcon",
+        "conversation_id": "1640",
+        "index": 789
+    },
+    "category": "Question Repost",
+    "comments": "rand is trying to ask question and use SO post as background",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

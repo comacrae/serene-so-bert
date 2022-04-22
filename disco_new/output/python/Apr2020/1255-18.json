@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-25T21:41:03.390000",
+        "user": "Gytis",
+        "text": "i saw this https://stackoverflow.com/questions/28325622/pythoncsvwritingheadersonlyonce when i was trying to search for a way to stop writing headers everytime the task is looped but it still wont work. here is my code ```python@tasks.loop(seconds=3)async def cases_loop(): print(\"trying to loop\") file_exists = os.path.isfile(filename) fileEmpty = os.stat(filename).st_size == 0 with open(filename \\'a\\') as csvfile: print(\"opened csv file\") headers = [\\'ConfirmedCases\\ \\'Date\\'] writer = csv.DictWriter(csvfile delimiter=\\',\\ lineterminator=\\'\\\\',fieldnames=headers) print(\"got my headers boi\") if not fileEmpty: writer.writeheader() writer.writerow([confirmedCases datetoday]) print(\"looped\")```my original code```python @tasks.loop(seconds=3)async def cases_loop(): file_exists = os.path.isfile(\\'confirmedCases\\') confirmedCases = confirmedCasesClass.contents[0] headers = [\\'ConfirmedCases\\ \\'Date\\'] f = csv.writer(open(\\'confirmedCases\\ \\'a\\')) f = csv.DictWriter(filename delimiter=\\',\\ lineterminator=\\'\\\\',fieldnames=headers) if not file_exists: f.writeheader() # file doesn\\'t exist yet write a header f.writerow([confirmedCases datetoday]) print(\"looped\")``` pls guys help it prints everything except the looped one and i kept checking the confirmedcases.csv every 3 seconds to see any changes and nothing changed",
+        "conversation_id": "1255",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-04-25T21:41:03.390000",
+        "user": "Gytis",
+        "text": "i saw this https://stackoverflow.com/questions/28325622/pythoncsvwritingheadersonlyonce when i was trying to search for a way to stop writing headers everytime the task is looped but it still wont work. here is my code ```python@tasks.loop(seconds=3)async def cases_loop(): print(\"trying to loop\") file_exists = os.path.isfile(filename) fileEmpty = os.stat(filename).st_size == 0 with open(filename \\'a\\') as csvfile: print(\"opened csv file\") headers = [\\'ConfirmedCases\\ \\'Date\\'] writer = csv.DictWriter(csvfile delimiter=\\',\\ lineterminator=\\'\\\\',fieldnames=headers) print(\"got my headers boi\") if not fileEmpty: writer.writeheader() writer.writerow([confirmedCases datetoday]) print(\"looped\")```my original code```python @tasks.loop(seconds=3)async def cases_loop(): file_exists = os.path.isfile(\\'confirmedCases\\') confirmedCases = confirmedCasesClass.contents[0] headers = [\\'ConfirmedCases\\ \\'Date\\'] f = csv.writer(open(\\'confirmedCases\\ \\'a\\')) f = csv.DictWriter(filename delimiter=\\',\\ lineterminator=\\'\\\\',fieldnames=headers) if not file_exists: f.writeheader() # file doesn\\'t exist yet write a header f.writerow([confirmedCases datetoday]) print(\"looped\")``` pls guys help it prints everything except the looped one and i kept checking the confirmedcases.csv every 3 seconds to see any changes and nothing changed",
+        "conversation_id": "1255",
+        "index": 18
+    },
+    "category": "Debugging Solution",
+    "comments": "User seems to be asking for help with their problem, and is posting the SO link as a way to indicate their findings while searching for an answer.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

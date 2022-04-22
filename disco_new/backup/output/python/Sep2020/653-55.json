@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-10T06:27:59.380000",
+        "user": "Nilsa",
+        "text": "F means formatted string wts b ??",
+        "conversation_id": "653",
+        "index": 48
+    },
+    "so_post": {
+        "ts": "2020-09-10T06:29:22.791000",
+        "user": "Sanson",
+        "text": "@Deleted User https://stackoverflow.com/questions/6269765/whatdoesthebcharacterdoinfrontofastringliteral",
+        "conversation_id": "653",
+        "index": 55
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks question and Sanson provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

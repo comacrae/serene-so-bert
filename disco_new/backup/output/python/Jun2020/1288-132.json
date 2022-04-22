@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-21T18:39:57.462000",
+        "user": "Nazaria",
+        "text": "anyone know how to make password hidden?",
+        "conversation_id": "1288",
+        "index": 120
+    },
+    "so_post": {
+        "ts": "2020-06-21T18:44:24.179000",
+        "user": "Kynlei",
+        "text": "@David_ have you tried this https://stackoverflow.com/questions/2416486/howtocreateapasswordentryfieldusingtkinter?",
+        "conversation_id": "1288",
+        "index": 132
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

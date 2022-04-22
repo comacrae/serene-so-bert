@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-20T23:29:48.871000",
+        "user": "Laurentino",
+        "text": "@Infinimata Here's a specific example of what I'm doing given a YouTube custom channel URL inspect the code to find the action Channel ID because thats what I need to call the YouTube API. Here's the url: https://www.youtube.com/c/TejhJohnsonMusic",
+        "conversation_id": "1231",
+        "index": 371
+    },
+    "so_post": {
+        "ts": "2020-06-20T23:35:52.636000",
+        "user": "Marin",
+        "text": "@Mr.Charlie does this help? https://stackoverflow.com/questions/14366648/howcanigetachannelidfromyoutube/18665812#18665812",
+        "conversation_id": "1231",
+        "index": 383
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "this is the most specific part of the question",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

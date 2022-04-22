@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T21:10:21.279000",
+        "user": "Ozell",
+        "text": "I would like to use net/http to create a file upload where I process the file without ever saving it to disk.I've found this: https://stackoverflow.com/questions/40684307/howcanireceiveanuploadedfileusingagolangnethttpserver as an example for file uploads I've looked into `ParseMultipartForm` which is used there and saw that it actually writes the file to disk if its above the given size and I would like to avoid that I've found this: https://medium.com/@owlwalks/dontparseeverythingfromclientmultipartpostgolang9280d23cd4ad is this the best way to do it?",
+        "conversation_id": "1080",
+        "index": 65
+    },
+    "so_post": {
+        "ts": "2020-09-03T21:10:21.279000",
+        "user": "Ozell",
+        "text": "I would like to use net/http to create a file upload where I process the file without ever saving it to disk.I've found this: https://stackoverflow.com/questions/40684307/howcanireceiveanuploadedfileusingagolangnethttpserver as an example for file uploads I've looked into `ParseMultipartForm` which is used there and saw that it actually writes the file to disk if its above the given size and I would like to avoid that I've found this: https://medium.com/@owlwalks/dontparseeverythingfromclientmultipartpostgolang9280d23cd4ad is this the best way to do it?",
+        "conversation_id": "1080",
+        "index": 65
+    },
+    "category": "Validating Solution",
+    "comments": "Ozell finds SO post solution to their issue and asks if that's the best way to go about it",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

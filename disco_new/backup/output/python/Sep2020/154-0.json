@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T07:22:08.764000",
+        "user": "Isabelle",
+        "text": "Hey guys! Do you work in analytics? Maybe you can help me out here: https://stackoverflow.com/questions/63513587/bestwaytogetsellingwindowsforeachproductcategoryinpandas I'm stuck with this for 12 days",
+        "conversation_id": "154",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-03T07:22:08.764000",
+        "user": "Isabelle",
+        "text": "Hey guys! Do you work in analytics? Maybe you can help me out here: https://stackoverflow.com/questions/63513587/bestwaytogetsellingwindowsforeachproductcategoryinpandas I'm stuck with this for 12 days",
+        "conversation_id": "154",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

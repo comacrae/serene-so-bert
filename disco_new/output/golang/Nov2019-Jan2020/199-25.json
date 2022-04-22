@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-11T17:07:15.089000",
+        "user": "Zlatko",
+        "text": "Is socketio a websocket of some sort?",
+        "conversation_id": "199",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2019-11-11T17:38:52.227000",
+        "user": "Mirielle",
+        "text": "https://stackoverflow.com/questions/10112178/differencesbetweensocketioandwebsockets",
+        "conversation_id": "199",
+        "index": 25
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Zlatko asks a question and Mirielle provides an answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

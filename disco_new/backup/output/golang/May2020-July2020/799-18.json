@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-29T18:30:05.383000",
+        "user": "Servando",
+        "text": "Using only net/http how can I get the method or a request?",
+        "conversation_id": "799",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-05-29T18:53:43.021000",
+        "user": "Alyanna",
+        "text": "https://stackoverflow.com/questions/37625480/howdoesgocalculateahashvalueforkeysinamap",
+        "conversation_id": "799",
+        "index": 18
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Servando has question and alyanna provides answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

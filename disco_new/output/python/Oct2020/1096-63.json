@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-15T20:06:40.989000",
+        "user": "Analy",
+        "text": "Quick question how would you type `kwargs`? This SO link is telling me to just type it with its first possible type but that was 2 years ago wondering if there's a way to do it nowhttps://stackoverflow.com/questions/37031928/typeannotationsforargsandkwargs",
+        "conversation_id": "1096",
+        "index": 63
+    },
+    "so_post": {
+        "ts": "2020-10-15T20:06:40.989000",
+        "user": "Analy",
+        "text": "Quick question how would you type `kwargs`? This SO link is telling me to just type it with its first possible type but that was 2 years ago wondering if there's a way to do it nowhttps://stackoverflow.com/questions/37031928/typeannotationsforargsandkwargs",
+        "conversation_id": "1096",
+        "index": 63
+    },
+    "category": "Validating Solution",
+    "comments": "This is validating the solution since Analy wants to see if there'ss a newer way to do it",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

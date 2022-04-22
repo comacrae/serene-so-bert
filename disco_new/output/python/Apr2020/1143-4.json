@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-23T16:33:16.652000",
+        "user": "Alien",
+        "text": "How do I stop it? I want it to run in bash",
+        "conversation_id": "1143",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-04-23T16:40:56.358000",
+        "user": "Neisha",
+        "text": "@Akash https://stackoverflow.com/questions/42606837/howdoiusebashonwindowsfromthevisualstudiocodeintegratedterminal",
+        "conversation_id": "1143",
+        "index": 4
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "...",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

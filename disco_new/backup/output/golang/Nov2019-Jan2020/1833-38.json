@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-29T23:08:26.892000",
+        "user": "Meylani",
+        "text": "I'm coming from Java where everything is passbyvalue. Except for the case where I intentionally need to pass args by value (ie. if I'm designing a function for it) when should I pass by reference and when should I pass by value?",
+        "conversation_id": "1833",
+        "index": 24
+    },
+    "so_post": {
+        "ts": "2020-01-29T23:11:34.626000",
+        "user": "Meylani",
+        "text": "https://stackoverflow.com/questions/5893873/passbyreferencevspassbypointer got it nvm @\u20df\u20df",
+        "conversation_id": "1833",
+        "index": 38
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Meylani has question and finds the answer to their question",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

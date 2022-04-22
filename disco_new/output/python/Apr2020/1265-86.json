@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-26T05:14:34.361000",
+        "user": "Viyaan",
+        "text": "Python is not a compliled language",
+        "conversation_id": "1265",
+        "index": 67
+    },
+    "so_post": {
+        "ts": "2020-04-26T05:17:06.635000",
+        "user": "Heidy",
+        "text": "@eholde4 https://stackoverflow.com/questions/6889747/ispythoninterpretedorcompiledorboth",
+        "conversation_id": "1265",
+        "index": 86
+    },
+    "category": "Validating Solution",
+    "comments": "The user they are responding to is saying Python is not a a compiled language so Heidy is posting this as additional information.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

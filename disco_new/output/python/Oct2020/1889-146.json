@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-26T05:55:57.734000",
+        "user": "Albee",
+        "text": "can you please tell me why == is use",
+        "conversation_id": "1889",
+        "index": 126
+    },
+    "so_post": {
+        "ts": "2020-10-26T05:57:22.308000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/132988/isthereadifferencebetweenandis",
+        "conversation_id": "1889",
+        "index": 146
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct q a",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

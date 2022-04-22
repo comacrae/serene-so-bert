@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-28T16:31:49.860000",
+        "user": "Kalai",
+        "text": "I created a Tkinter gui that generates a random number But I need help to not duplicate the same number again and again. Would anyone help me? Here is my pick command to generate a random number```csdef pick(): for _ in range(1): y = random.randint(1,15)  lucky = tk.Label(root text=(y) font=('Helvetica'),) lucky.pack()```",
+        "conversation_id": "2076",
+        "index": 400
+    },
+    "so_post": {
+        "ts": "2020-10-28T16:33:06.234000",
+        "user": "Kaio",
+        "text": "@crim https://stackoverflow.com/questions/9755538/howdoicreatealistofrandomnumberswithoutduplicates",
+        "conversation_id": "2076",
+        "index": 410
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct a to q regarding gneerating random numbers",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

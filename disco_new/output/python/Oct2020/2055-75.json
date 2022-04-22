@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-28T09:43:49.596000",
+        "user": "Jaquarius",
+        "text": "Guys I use pyinstaller (with the gui of autopytoexe) to make my python file that imports a lot of other files into a .exe. It converts it to .exe but when I run nothing happens and it closes immediately what can cause this?",
+        "conversation_id": "2055",
+        "index": 74
+    },
+    "so_post": {
+        "ts": "2020-10-28T09:43:50.015000",
+        "user": "Shukri",
+        "text": "@fix error this didnt get removed https://stackoverflow.com/questions/27494758/howdoimakeapythonscriptexecutable/27494871",
+        "conversation_id": "2055",
+        "index": 75
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct a to q",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

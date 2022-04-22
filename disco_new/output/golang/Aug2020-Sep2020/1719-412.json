@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-24T00:59:11.703000",
+        "user": "Nial",
+        "text": "Sorry for the extremely basic question however HTTP seems to be giving some weird crash and was curious if this code looks right```gofunc main() { log.Println(\"Started\") resp err := http.Get(\"https://httpbin.org/get\") if err != nil { log.Fatalln(err) } defer resp.Body.Close() body err := ioutil.ReadAll(resp.Body) if err != nil { log.Fatalln(err) }  log.Println(string(body))}```",
+        "conversation_id": "1719",
+        "index": 362
+    },
+    "so_post": {
+        "ts": "2020-09-24T01:03:38.448000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/5303524/whatexactlyisthescopeofaccessviolation0xc0000005",
+        "conversation_id": "1719",
+        "index": 412
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nial asks qusetion and Samarie provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

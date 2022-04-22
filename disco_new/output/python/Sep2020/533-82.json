@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-08T11:40:47.013000",
+        "user": "Guojun",
+        "text": "guys do you know the id() method?",
+        "conversation_id": "533",
+        "index": 74
+    },
+    "so_post": {
+        "ts": "2020-09-08T11:44:10.966000",
+        "user": "Rykar",
+        "text": "check this <https://stackoverflow.com/questions/1396668/getobjectbyid/15702647#15702647>",
+        "conversation_id": "533",
+        "index": 82
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Guyjun asks question about id method and rykar posts direct response",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

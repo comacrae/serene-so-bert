@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-02T21:19:15.612000",
+        "user": "Rylon",
+        "text": "I want to convert numbers like 8032 to 80,32. How Can I make it set commas after 2 characters without setting a comma after the last digit?",
+        "conversation_id": "144",
+        "index": 171
+    },
+    "so_post": {
+        "ts": "2020-10-02T21:28:28.382000",
+        "user": "Sandeep",
+        "text": "For formatting numbers you should likely not try doing it yourself. This SO thread might help: https://stackoverflow.com/questions/1823058/howtoprintnumberwithcommasasthousandsseparators",
+        "conversation_id": "144",
+        "index": 217
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asks question about formatting and gets direct SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

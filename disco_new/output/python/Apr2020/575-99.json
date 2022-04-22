@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-12T14:52:13.766000",
+        "user": "Pascasio",
+        "text": "ugh but why would you need to implement `__call__` ?",
+        "conversation_id": "575",
+        "index": 85
+    },
+    "so_post": {
+        "ts": "2020-04-12T15:02:11.982000",
+        "user": "Jayon",
+        "text": "I dont know I was inpsired by this https://stackoverflow.com/questions/5824881/pythoncallspecialmethodpracticalexample/5826283 then again I was purposely looking for an application of `__call__` so take it with a grain of salt",
+        "conversation_id": "575",
+        "index": 99
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Pascasio asked a rethorical question regarding the use of __user__ after another user mentioned using it and , who made the initial comment about using it, mentioned they were inspired by this post.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

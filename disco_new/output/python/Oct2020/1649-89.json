@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-22T16:30:05.147000",
+        "user": "Alicio",
+        "text": "is there a way to . decorate every single methods in the class",
+        "conversation_id": "1649",
+        "index": 88
+    },
+    "so_post": {
+        "ts": "2020-10-22T16:30:05.930000",
+        "user": "Kaio",
+        "text": "@Inheritance \u2666 https://stackoverflow.com/questions/9906144/decorateaclassinpythonbydefiningthedecoratorasaclass you can do something like what's in this SO if you really wanted",
+        "conversation_id": "1649",
+        "index": 89
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to q",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

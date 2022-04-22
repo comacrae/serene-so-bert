@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-21T09:58:31.126000",
+        "user": "Stefani",
+        "text": "I'll tell you not to use Yaml if you'd like",
+        "conversation_id": "861",
+        "index": 17
+    },
+    "so_post": {
+        "ts": "2020-02-21T10:05:17.882000",
+        "user": "Stefani",
+        "text": "https://stackoverflow.com/questions/3790454/howdoibreakastringovermultiplelines/21699210#21699210",
+        "conversation_id": "861",
+        "index": 50
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "User is saying yaml is bad. One of the examples they are citing is the fact that there are other ways to write multiline strings, and provides an example in the SO post",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

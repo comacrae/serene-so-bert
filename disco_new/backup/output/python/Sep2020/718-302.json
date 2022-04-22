@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T05:20:15.626000",
+        "user": "Sarbjit",
+        "text": "also you should move the global function calls in last function into a main block",
+        "conversation_id": "718",
+        "index": 296
+    },
+    "so_post": {
+        "ts": "2020-09-11T05:20:59.012000",
+        "user": "Sarbjit",
+        "text": "https://stackoverflow.com/questions/419163/whatdoesifnamemaindo",
+        "conversation_id": "718",
+        "index": 302
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "someone posted code and sarbjit told them they should do something a certain way and posted an SO example to back it up",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-22T17:13:01.073000",
+        "user": "Santez",
+        "text": "What are your thoughts on this? https://stackoverflow.com/questions/12169839/whichisthepreferredwaytoconcatenateastringinpython/12171382#12171382I used to recommend appending to a list and joining now I'm confused if I should be ashamed of that recommendation because in some cases it's not faster \ud83e\udd14",
+        "conversation_id": "812",
+        "index": 26
+    },
+    "so_post": {
+        "ts": "2019-11-22T17:13:01.073000",
+        "user": "Santez",
+        "text": "What are your thoughts on this? https://stackoverflow.com/questions/12169839/whichisthepreferredwaytoconcatenateastringinpython/12171382#12171382I used to recommend appending to a list and joining now I'm confused if I should be ashamed of that recommendation because in some cases it's not faster \ud83e\udd14",
+        "conversation_id": "812",
+        "index": 26
+    },
+    "category": "Validating Solution",
+    "comments": "asking for other's thoughts on a solution from SO",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

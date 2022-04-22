@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-29T19:40:55.393000",
+        "user": "Hailyn",
+        "text": "json.decoder.JSONDecodeError",
+        "conversation_id": "2163",
+        "index": 632
+    },
+    "so_post": {
+        "ts": "2020-10-29T19:42:33.267000",
+        "user": "Hailyn",
+        "text": "https://stackoverflow.com/questions/48140858/jsondecoderjsondecodeerrorextradataline2column1char190 @Biz",
+        "conversation_id": "2163",
+        "index": 654
+    },
+    "category": "Question Repost",
+    "comments": "they just post that without any message otherwise and then when someone asks them to show the i/error they say cant upload",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

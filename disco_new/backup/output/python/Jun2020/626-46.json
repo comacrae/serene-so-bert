@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-11T10:50:43.961000",
+        "user": "Hridhaan",
+        "text": "guys how do I define the text size in a label using the lib tkinter?",
+        "conversation_id": "626",
+        "index": 42
+    },
+    "so_post": {
+        "ts": "2020-06-11T10:52:44.488000",
+        "user": "Elam",
+        "text": "<https://stackoverflow.com/questions/35441749/changesizeoftextonlabelbytkinter> try this @MySeR",
+        "conversation_id": "626",
+        "index": 46
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

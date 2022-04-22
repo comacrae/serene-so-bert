@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-11T08:22:23.090000",
+        "user": "Lexton",
+        "text": "Is there a general programming terminology for splitting a class into several files? For example I have a main Satellite file corresponding to the Satellite class but it \\'loads\\ extensions such as Lighting which for example introduces a lightingrelated function to the class. not necessarily python specific?",
+        "conversation_id": "507",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2020-04-11T08:34:43.282000",
+        "user": "Lexton",
+        "text": "https://stackoverflow.com/questions/9638446/isthereanypythonequivalenttopartialclasses",
+        "conversation_id": "507",
+        "index": 102
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "User was wondering the correct term for splitting a class into several files and came across the answer.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

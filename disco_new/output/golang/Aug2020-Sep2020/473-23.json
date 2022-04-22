@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-16T10:43:56.146000",
+        "user": "Inmanol",
+        "text": "Maybe I should make my question clearer: interpereting the int64 as a string first and then it becomes base64 is not the way I'd like to go. For example the number 56710363101528064 with a mathematical base of 64 is AADAV8Z5yQA but if it is base64 encoded it becomes NTY3MTAzNjMxMDE1MjgwNjQg",
+        "conversation_id": "473",
+        "index": 21
+    },
+    "so_post": {
+        "ts": "2020-08-16T10:48:02.552000",
+        "user": "Yufan",
+        "text": "https://stackoverflow.com/a/48362821",
+        "conversation_id": "473",
+        "index": 23
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ismano asks question and Yufan provides SO solution",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

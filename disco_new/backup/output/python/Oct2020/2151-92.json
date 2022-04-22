@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-29T15:31:20.050000",
+        "user": "Zarius",
+        "text": "my question on stack overflow^",
+        "conversation_id": "2151",
+        "index": 93
+    },
+    "so_post": {
+        "ts": "2020-10-29T15:31:10.780000",
+        "user": "Zarius",
+        "text": "https://stackoverflow.com/questions/64592344/pythonlisteningtoincomingemailswithimap",
+        "conversation_id": "2151",
+        "index": 92
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

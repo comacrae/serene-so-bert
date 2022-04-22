@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-22T08:31:11.975000",
+        "user": "Lashay",
+        "text": "this was my stackoverflow for the issue",
+        "conversation_id": "1321",
+        "index": 88
+    },
+    "so_post": {
+        "ts": "2020-06-22T08:31:04.533000",
+        "user": "Lashay",
+        "text": "https://stackoverflow.com/questions/61183558/weirddiscrepancybetweenaiohttpandrequests",
+        "conversation_id": "1321",
+        "index": 87
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T13:06:24.615000",
+        "user": "Guoqing",
+        "text": "Ok well I made a python program combining Quart and Discord.py. If I run Quart in development mode Quart works fine but when I just Hypercorn(production) it just doesn't work due to asyncio stuff. Well I implemented a fix https://paste.pythondiscord.com/puvunehavi.py but it partially works. None of the commands/events work but I can use the client object and make the bot do stuff. Any ideas on how I can fix this?",
+        "conversation_id": "740",
+        "index": 251
+    },
+    "so_post": {
+        "ts": "2020-09-11T13:09:19.933000",
+        "user": "Mariyan",
+        "text": "@Deleted User https://stackoverflow.com/a/40559005try checking this out",
+        "conversation_id": "740",
+        "index": 256
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Link is dead so it can't be verified but I can only assume it's related to Guoquings question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

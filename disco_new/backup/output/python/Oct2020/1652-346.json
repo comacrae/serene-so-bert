@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-22T17:38:41.836000",
+        "user": "Sia",
+        "text": "is this a good way to use colored text in python?",
+        "conversation_id": "1652",
+        "index": 95
+    },
+    "so_post": {
+        "ts": "2020-10-22T18:08:13.743000",
+        "user": "Kaio",
+        "text": "https://stackoverflow.com/questions/287871/howtoprintcoloredtextinpython @rydolla",
+        "conversation_id": "1652",
+        "index": 346
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "they want to know how to use color in python and they get an So answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

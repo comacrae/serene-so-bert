@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-06T19:36:50.573000",
+        "user": "Kataleia",
+        "text": "how would I get the value for seconds from this status text? ```429 Retry after 28.2607417 seconds. Only 5 API calls per minute guaranteed```",
+        "conversation_id": "115",
+        "index": 11
+    },
+    "so_post": {
+        "ts": "2019-11-06T19:50:26.034000",
+        "user": "Masud",
+        "text": "https://stackoverflow.com/questions/28125963/golangparsetimeduration",
+        "conversation_id": "115",
+        "index": 20
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Kataleia has question and Masud provides SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

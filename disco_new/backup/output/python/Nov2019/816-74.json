@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-22T19:28:48.698000",
+        "user": "Chengjie",
+        "text": "RAW files have information stored inside them about the AF point / Mode and I want to use that information to test certain pixels around that area in the photo.",
+        "conversation_id": "816",
+        "index": 31
+    },
+    "so_post": {
+        "ts": "2019-11-22T19:48:18.837000",
+        "user": "Darious",
+        "text": "<https://stackoverflow.com/questions/33612232/pythonrawkithowreadmetadatavaluesfromrawfile>",
+        "conversation_id": "816",
+        "index": 74
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "another issue of chingjie's app he wants to make",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

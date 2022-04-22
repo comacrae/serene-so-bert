@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-29T20:55:20.557000",
+        "user": "Ramaz",
+        "text": "https://stackoverflow.com/questions/61507787/whatiswrongwithmyternaryconditionaloperator",
+        "conversation_id": "1450",
+        "index": 93
+    },
+    "so_post": {
+        "ts": "2020-04-29T20:55:20.557000",
+        "user": "Ramaz",
+        "text": "https://stackoverflow.com/questions/61507787/whatiswrongwithmyternaryconditionaloperator",
+        "conversation_id": "1450",
+        "index": 93
+    },
+    "category": "Question Repost",
+    "comments": "The message below this clearly states this is Ramaz's own question.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

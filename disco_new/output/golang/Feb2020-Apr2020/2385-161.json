@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-28T18:41:27.530000",
+        "user": "Arman",
+        "text": "General question: Is it better to store a blob of binary data in your db or store user uploaded images in a filesystem?",
+        "conversation_id": "2385",
+        "index": 139
+    },
+    "so_post": {
+        "ts": "2020-04-28T18:45:17.886000",
+        "user": "Tano",
+        "text": "https://stackoverflow.com/questions/9605922/arethereperformanceissuesstoringfilesinpostgresql",
+        "conversation_id": "2385",
+        "index": 161
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ashmahn asks question about best way to store data and Tano provides SO post to support his answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

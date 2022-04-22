@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-12T22:12:50.728000",
+        "user": "Lamnouar",
+        "text": "now im getting this```# commandlinearguments./editorattocmd.go:19:2: cannot refer to unexported name atto.start./editorattocmd.go:19:2: undefined: atto.start```",
+        "conversation_id": "1398",
+        "index": 123
+    },
+    "so_post": {
+        "ts": "2020-01-12T22:17:46.682000",
+        "user": "Lamnouar",
+        "text": "litterally the only example i can find (all others are litterly the same thing)https://stackoverflow.com/questions/18013529/exposeafunctioningopackage",
+        "conversation_id": "1398",
+        "index": 149
+    },
+    "category": "Question Repost",
+    "comments": "Lamnouar has asked multiple questions over the course of a long thread. This is the last of theor which people say he needs to apply concepts learned from previous questions. He says that he can't find any other examples. So I wll label this as a question repost since he's trying to elaborate on his question using the SO post in the target message",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

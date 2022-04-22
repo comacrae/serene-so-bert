@@ -1,0 +1,48 @@
+30 154705 ./pythongeneral/Dec2019/pythongeneralDec2019.xml.out
+
+67 382450 ./pythongeneral/Apr2020/pythongeneralApr2020.xml.out
+
+29 231570 ./pythongeneral/Jan2020/pythongeneralJan2020.xml.out
+
+155 1046800 ./pythongeneral/Aug2020/pythongeneralAug2020.xml.out
+
+42 283820 ./pythongeneral/Mar2020/pythongeneralMar2020.xml.out
+
+42 169565 ./pythongeneral/Nov2019/pythongeneralNov2019.xml.out
+
+31 191465 ./pythongeneral/Feb2020/pythongeneralFeb2020.xml.out
+
+179 1029310 ./pythongeneral/Oct2020/pythongeneralOct2020.xml.out
+
+74 488560 ./pythongeneral/May2020/pythongeneralMay2020.xml.out
+
+128 825040 ./pythongeneral/Jul2020/pythongeneralJul2020.xml.out
+
+110 603245 ./pythongeneral/Jun2020/pythongeneralJun2020.xml.out
+
+144 865340 ./pythongeneral/Sep2020/pythongeneralSep2020.xml.out
+
+1 3830 ./racketgeneral/May2020-July2020/Racket_general_May2020-Jul2020.xml.out
+
+0 5900 ./racketgeneral/Feb2020-Apr2020/Racket_general_Feb2020-Apr2020.xml.out
+
+0 9705 ./racketgeneral/Aug2020-Oct2020/Racket_general_Aug2020-Oct2020.xml.out
+
+1 5460 ./racketgeneral/Nov2019-Jan2020/racketgeneral_Nov2019-Jan2020.xml.out
+
+72 374535 ./golang/May2020-July2020/golang_May2020-Jul2020.xml.out
+
+49 360555 ./golang/Feb2020-Apr2020/golang_Feb2020-Apr2020.xml.out
+
+61 300400 ./golang/Aug2020-Sep2020/golang_Aug2020-Sep2020.xml.out
+
+36 200425 ./golang/Nov2019-Jan2020/golang_Nov2019-Jan2020.xml.out
+
+2 1905 ./clojurians/May2020-July2020/clojure_May2020-Jul2020.xml.out
+
+0 2325 ./clojurians/Feb2020-Apr2020/clojure_Feb2020-Apr2020.xml.out
+
+0 1825 ./clojurians/Aug2020-Oct2020/clojure_Aug2020-Oct2020.xml.out
+
+0 1850 ./clojurians/Nov2019-Jan2020/clojure_Nov2019-Jan2020.xml.out
+

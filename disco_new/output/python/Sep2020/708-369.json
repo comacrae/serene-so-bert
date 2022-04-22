@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T02:15:29.950000",
+        "user": "Nilsa",
+        "text": "Do you think that this is sketchy?```pyPROJECT_ROOT = os.path.dirname(__file__)sys.path.insert(0 os.path.join(PROJECT_ROOT apps'))```Its adding a directory to the python path so that django can find things in altered project structures.https://stackoverflow.com/questions/55435986/howtoaddadjangoapptosettingspyappnameorappnameappsappnameconfigIt is discussed above but some people seem skeptical in their responses",
+        "conversation_id": "708",
+        "index": 369
+    },
+    "so_post": {
+        "ts": "2020-09-11T02:15:29.950000",
+        "user": "Nilsa",
+        "text": "Do you think that this is sketchy?```pyPROJECT_ROOT = os.path.dirname(__file__)sys.path.insert(0 os.path.join(PROJECT_ROOT apps'))```Its adding a directory to the python path so that django can find things in altered project structures.https://stackoverflow.com/questions/55435986/howtoaddadjangoapptosettingspyappnameorappnameappsappnameconfigIt is discussed above but some people seem skeptical in their responses",
+        "conversation_id": "708",
+        "index": 369
+    },
+    "category": "Validating Solution",
+    "comments": "User is trying to determine if SO post answers are \"sketchy\"",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

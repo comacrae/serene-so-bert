@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-22T19:29:13.775000",
+        "user": "Chengjie",
+        "text": "But my main issues right now is that I don't know how to decode a RAW file because its in binary.",
+        "conversation_id": "816",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2019-11-22T19:31:27.282000",
+        "user": "Darious",
+        "text": "<https://stackoverflow.com/questions/18682830/opencvpythondisplayrawimage/32189758> Yeah that seems to be tricky",
+        "conversation_id": "816",
+        "index": 34
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "chingjie is trying to make an image processing app and describes their main issue",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

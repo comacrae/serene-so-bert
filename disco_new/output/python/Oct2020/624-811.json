@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-09T15:45:06.855000",
+        "user": "Rafaella",
+        "text": "here stack overflow link to this questionhttps://stackoverflow.com/questions/64283183/iwanttoturnrandon0s1stoalistpython38",
+        "conversation_id": "624",
+        "index": 811
+    },
+    "so_post": {
+        "ts": "2020-10-09T15:45:06.855000",
+        "user": "Rafaella",
+        "text": "here stack overflow link to this questionhttps://stackoverflow.com/questions/64283183/iwanttoturnrandon0s1stoalistpython38",
+        "conversation_id": "624",
+        "index": 811
+    },
+    "category": "Question Repost",
+    "comments": "Raefella is trying to describe their question better using an SO post asb ackground",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

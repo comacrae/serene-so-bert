@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-22T18:36:00.444000",
+        "user": "Brayana",
+        "text": "@jcbritobr I\\'m not sure I\\'m getting it... I\\'ll try to explain myself again and tell me if what you said is relevant again...I have a types file with Person and AboutI want to check if they exist in the DB so I created a function entityExist(id string t string p interface{}) errorI choose the collection according to t: col := conf[t]. // conf is map[string]mongo.Collectionso if t == person the col is peopleCollection if t == about the col is aboutCollection And in this function I have the query: err := col.FindOne(context.TODO() bson.M{\"_id\": id}).Decode(&p)Now col was found according to the map.. is there anyway I can set p like a map of types?",
+        "conversation_id": "2342",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2020-07-22T18:50:23.646000",
+        "user": "Emmerson",
+        "text": "take a look at this maybe: <https://stackoverflow.com/questions/11127723/dynamicallycreatevariablesofcertaintypebasedonstringingo>",
+        "conversation_id": "2342",
+        "index": 77
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Brayana asks question and emmerson suggests SO post answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

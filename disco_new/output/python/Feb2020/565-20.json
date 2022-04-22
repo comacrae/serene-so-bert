@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-14T07:40:19.120000",
+        "user": "Alazne",
+        "text": "what version of scipy does seaborn need?",
+        "conversation_id": "565",
+        "index": 2
+    },
+    "so_post": {
+        "ts": "2020-02-14T07:55:01.514000",
+        "user": "Jazzmyn",
+        "text": "See https://stackoverflow.com/a/58194133",
+        "conversation_id": "565",
+        "index": 20
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "User seems to be having issues with a Python Module, and various posts seem to indicate that this link was posted to provide the user help, but not necessarily an answer to their issue.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

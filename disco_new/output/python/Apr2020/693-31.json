@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-14T23:08:18.837000",
+        "user": "Decarri",
+        "text": "@Zdziszkee as @Peruvian Wide Swing pointed out you installed it correctly it is not an error it is just that you do not call PyWin32 by its name when importing",
+        "conversation_id": "693",
+        "index": 30
+    },
+    "so_post": {
+        "ts": "2020-04-14T23:08:21.652000",
+        "user": "Decarri",
+        "text": "https://stackoverflow.com/questions/50683404/importerrornomodulenamedpywin32",
+        "conversation_id": "693",
+        "index": 31
+    },
+    "category": "Validating Solution",
+    "comments": "Zdziskee had been having issues with PyWin for and had been gradually asking for help for a while. Decarri points to 22-24 to tell them what their error is and links to the SO post that explains what the issue is better.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

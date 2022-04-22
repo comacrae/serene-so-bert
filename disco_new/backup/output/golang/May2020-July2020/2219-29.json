@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-18T00:09:26.836000",
+        "user": "Kamia",
+        "text": "Looks like RWMutex is not making any difference in my code against mutex...Anywhere I could look at outside go docs to learn more about it?I think my problem lies here: ```gofor _ v := range input { mwg.Add(1) go msg(v store) }``` store is the cache array but I dunno the right approach to this",
+        "conversation_id": "2219",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-07-18T00:25:00.151000",
+        "user": "Kamia",
+        "text": "> what are you actually doing@Madxmike This: https://stackoverflow.com/questions/62962702/useasinglemutexacrossmultiplegoroutines?Precisely this code: https://play.golang.org/p/mt229ns1R8mMy discord bot reads from the Tibia MMORPG api.It sends out notifications when a char dies up lvl etcWhen you add the bot to ur server you can choose what chars you want to trackBecause of this some servers might want to track the same char twice.Right now I am making an http request to fetch data for that char regardless if Ive already fetched (I run this routine every 10 minutes)What I want to do is reduce the amount of http requests.So if server A fetches data for char XYZ if/when server B for example would fetch data for the same XYZ it would grab the updated data from within the goroutines instead of making a new http requestRight now I have chars that are being fetched more 10 times which is defly not necessary",
+        "conversation_id": "2219",
+        "index": 29
+    },
+    "category": "Question Repost",
+    "comments": "Kamia using SO post to detail their question",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-24T14:41:39.215000",
+        "user": "Dazie",
+        "text": "@subwooferfeasti want to do this .`task.CreateAt.Format(\"20060102 15:04:05\")`i dont know how to substitude after processig .",
+        "conversation_id": "670",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-05-24T14:45:01.047000",
+        "user": "Neena",
+        "text": "Have a look at this: https://stackoverflow.com/questions/23695479/formattimestampinoutgoingjsoningolang",
+        "conversation_id": "670",
+        "index": 5
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Dazie has question and Neena replies with answer SO post",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

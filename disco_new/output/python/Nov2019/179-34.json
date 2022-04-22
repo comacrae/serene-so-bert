@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-05T17:20:44.362000",
+        "user": "Ashaud",
+        "text": "What's the difference between python.exe and python37.exe?",
+        "conversation_id": "179",
+        "index": 9
+    },
+    "so_post": {
+        "ts": "2019-11-05T17:32:03.190000",
+        "user": "Jhonny",
+        "text": "@SMetcalfPS are you using ActivePython by any chance? <https://stackoverflow.com/questions/43710285/whatisthedifferencebetweenpythonexepython3exeandpython36exe>",
+        "conversation_id": "179",
+        "index": 34
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

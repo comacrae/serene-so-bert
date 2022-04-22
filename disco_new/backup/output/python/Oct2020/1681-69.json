@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-23T02:25:01.174000",
+        "user": "Maheer",
+        "text": "how do i find common divisors",
+        "conversation_id": "1681",
+        "index": 55
+    },
+    "so_post": {
+        "ts": "2020-10-23T02:29:53.594000",
+        "user": "Kaio",
+        "text": "@neoncraxks https://stackoverflow.com/questions/6800193/whatisthemostefficientwayoffindingallthefactorsofanumberinpython",
+        "conversation_id": "1681",
+        "index": 69
+    },
+    "category": "Alternative Solution",
+    "comments": "this is an alt solution since Kaio provides one solution to Maheer previously",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

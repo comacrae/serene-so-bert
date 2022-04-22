@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-19T13:47:03.976000",
+        "user": "Jazmarie",
+        "text": "https://stackoverflow.com/questions/62471577/pythonflaskwebservicewithopencvandwebcam",
+        "conversation_id": "1155",
+        "index": 137
+    },
+    "so_post": {
+        "ts": "2020-06-19T13:47:03.976000",
+        "user": "Jazmarie",
+        "text": "https://stackoverflow.com/questions/62471577/pythonflaskwebservicewithopencvandwebcam",
+        "conversation_id": "1155",
+        "index": 137
+    },
+    "category": "Question Repost",
+    "comments": "no context",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

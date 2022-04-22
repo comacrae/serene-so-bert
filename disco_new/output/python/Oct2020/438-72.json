@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-07T00:25:40.742000",
+        "user": "Paizly",
+        "text": "how would i go about makign a program to collect temperatures from 3 days and convert them from C to F?",
+        "conversation_id": "438",
+        "index": 27
+    },
+    "so_post": {
+        "ts": "2020-10-07T00:41:18.641000",
+        "user": "Analy",
+        "text": "@bott Yep that works https://stackoverflow.com/questions/11880430/howtowriteinlineifstatementforprint",
+        "conversation_id": "438",
+        "index": 72
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Paizly asks qusetion and it's basically an issue with printing so Analy provides an answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-06T01:54:07.006000",
+        "user": "Keyden",
+        "text": "how to decompile a pyc file??",
+        "conversation_id": "365",
+        "index": 451
+    },
+    "so_post": {
+        "ts": "2020-10-06T01:54:23.401000",
+        "user": "Advaita",
+        "text": "@taytertest https://stackoverflow.com/questions/5287253/isitpossibletodecompileacompiledpycfileintoapyfile",
+        "conversation_id": "365",
+        "index": 452
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "answer immediately follows question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

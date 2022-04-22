@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-06T09:26:54.921000",
+        "user": "Silly",
+        "text": "anyone combined python and outlook to send mails trough Your own app?",
+        "conversation_id": "379",
+        "index": 31
+    },
+    "so_post": {
+        "ts": "2020-09-06T09:31:14.914000",
+        "user": "Nayali",
+        "text": "Maybe this could work if you insist on using Outlook in some way? I haven't tried it myselfhttps://stackoverflow.com/a/17887528/11661386",
+        "conversation_id": "379",
+        "index": 37
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Silly asks how to do something w/ outlook and Nayali provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-11T12:27:25.582000",
+        "user": "Kaisha",
+        "text": "Anyone know any good libraries for converting midi to readable format? I tried one but it was all random Unicode symbols",
+        "conversation_id": "519",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-04-11T12:36:57.425000",
+        "user": "Noor",
+        "text": "I see this on StackOverflow <https://stackoverflow.com/questions/11059801/howcaniwriteamidifilewithpython>It is about how to write a custom midi file. But the library may be helpful",
+        "conversation_id": "519",
+        "index": 38
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User was wondering how to convert MIDI files and Noor provided a SO link that may allow be of use for him.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

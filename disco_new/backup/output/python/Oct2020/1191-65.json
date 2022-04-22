@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-17T02:12:35.278000",
+        "user": "Yeyson",
+        "text": "is there a way to mask my ip with python so like use a random poxy thats in a list so like `poxys = [232.2323.5.656 323.23.23.2 323.13.4.5` and like every 10 minutes it changes mine to a new one please ping me if theres a api / lib that could help with this",
+        "conversation_id": "1191",
+        "index": 54
+    },
+    "so_post": {
+        "ts": "2020-10-17T02:13:53.372000",
+        "user": "Kataleah",
+        "text": "@Bugley check out this link https://stackoverflow.com/questions/3050262/changebrowserproxysettingsfrompython",
+        "conversation_id": "1191",
+        "index": 65
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Bugsley get direct asnwer about changing IP settings",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

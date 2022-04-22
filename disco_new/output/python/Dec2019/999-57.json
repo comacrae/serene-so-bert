@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-28T16:16:47.492000",
+        "user": "Sheina",
+        "text": "What\\'s the proper way to build/use/install PyQt5? I\\'ve been trying to use PyInstaller to port my app over but its fine for me to just run the app however using PyInstaller highlighted a potential reason for the bug I experience when running my app. ```Unable to find /Users/Jason/anaconda3/lib/python3.7/sitepackages/PyQt5/Qt/lib/QtWebEngineCore.framework/Resources when adding binary and data files.``` QtWebEngineView isn\\'t working and this might be the reason. But I have no idea where to get this .framework file. It works fine on Windows but not on Mac. On Mac i used pip install PyQt5. Is there a better way? Or some way to get that .framework file installed without messing with anything else?",
+        "conversation_id": "999",
+        "index": 36
+    },
+    "so_post": {
+        "ts": "2019-12-28T17:10:24.732000",
+        "user": "Azyriah",
+        "text": "https://stackoverflow.com/questions/252226/signingawindowsexefile",
+        "conversation_id": "999",
+        "index": 57
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "they say you have to sign a file and then they post the link",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

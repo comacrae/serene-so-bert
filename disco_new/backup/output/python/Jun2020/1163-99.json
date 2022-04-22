@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-19T16:29:19.005000",
+        "user": "Angel",
+        "text": "How can I set environ variables via `os`? I've tried setting os.environment and os.putenv but neither of them have actually applied it to the system's env vars",
+        "conversation_id": "1163",
+        "index": 67
+    },
+    "so_post": {
+        "ts": "2020-06-19T16:31:11.711000",
+        "user": "Shivanya",
+        "text": "@eek https://stackoverflow.com/a/5971326",
+        "conversation_id": "1163",
+        "index": 99
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

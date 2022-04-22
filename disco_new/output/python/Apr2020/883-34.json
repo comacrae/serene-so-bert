@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-18T16:32:41.586000",
+        "user": "Koraline",
+        "text": "im trying to get openpyxl in the terminal in pycharm and this happens",
+        "conversation_id": "883",
+        "index": 29
+    },
+    "so_post": {
+        "ts": "2020-04-18T16:34:13.719000",
+        "user": "Zhari",
+        "text": "from here: https://stackoverflow.com/questions/14426491/python3importerrornomodulenamedsetuptools",
+        "conversation_id": "883",
+        "index": 34
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Koraline seems to be having issues imporitng a module and Zhari is giving them a possible solution for it",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

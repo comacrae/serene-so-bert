@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-31T08:39:10.470000",
+        "user": "Samariah",
+        "text": "Hi anyone know why sometimes there is a b before a string",
+        "conversation_id": "1103",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-31T08:40:32.292000",
+        "user": "Jayah",
+        "text": "https://stackoverflow.com/questions/6224052/whatisthedifferencebetweenastringandabytestring",
+        "conversation_id": "1103",
+        "index": 2
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-07T20:13:05.816000",
+        "user": "Jadeyn",
+        "text": "how can I stop my golang http server from cleaning requested url ?",
+        "conversation_id": "1918",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-07-07T20:24:24.215000",
+        "user": "Malaquias",
+        "text": "https://stackoverflow.com/questions/47475802/golang301movedpermanentlyifrequestpathcontainsadditionalslash",
+        "conversation_id": "1918",
+        "index": 14
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jadeyn has question and Malaquias prvoides SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

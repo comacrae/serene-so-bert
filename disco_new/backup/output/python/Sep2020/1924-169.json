@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-27T11:12:01.060000",
+        "user": "Autumnrose",
+        "text": "what was the argument that appends and writes",
+        "conversation_id": "1924",
+        "index": 82
+    },
+    "so_post": {
+        "ts": "2020-09-27T11:26:16.619000",
+        "user": "Rand",
+        "text": "https://stackoverflow.com/questions/35677592/readdbfileintopython",
+        "conversation_id": "1924",
+        "index": 169
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Autumn had question about reading files that turned into a general discussion about how to read files",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

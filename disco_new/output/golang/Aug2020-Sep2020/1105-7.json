@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-04T14:00:49.442000",
+        "user": "Jakub",
+        "text": "hmm so I have code that looks like this ```gotype ChannelIDSnowflakeTuple interface { ChannelID() string Snowflake() string}type ChannelIDSnowflakeTuples = []ChannelIDSnowflakeTuplefunc (s MessageService) FindMany(ctx context.Context tuple ChannelIDSnowflakeTuples) Messages {// do the thing}```But I have a type in another package ```go type MessageSearchResults = []MessageSearchResult```Where MessageSearchResult implements that interface but I can't use MessageSearchResults as a parameter to the FindMany function?",
+        "conversation_id": "1105",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-09-04T14:13:50.382000",
+        "user": "Anslee",
+        "text": "https://stackoverflow.com/questions/40806029/ingohowdoipassasliceofinterfacetosomethingthatexpectssliceofad",
+        "conversation_id": "1105",
+        "index": 7
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jakub asks question and Anslee provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

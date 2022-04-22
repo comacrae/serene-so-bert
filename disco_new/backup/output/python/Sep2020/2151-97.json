@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-30T12:25:43.875000",
+        "user": "Nilsa",
+        "text": "i am trying to flip an image everytime the player presses theleft key",
+        "conversation_id": "2151",
+        "index": 17
+    },
+    "so_post": {
+        "ts": "2020-09-30T12:37:47.251000",
+        "user": "Randa",
+        "text": "https://stackoverflow.com/questions/39920237/pygameflippinghorizontally @Deleted User",
+        "conversation_id": "2151",
+        "index": 97
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User describes what they're trying to work and eventually Randa posts this answer ( this would be adifficult question to group)",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

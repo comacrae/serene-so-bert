@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-23T17:05:35.533000",
+        "user": "Torianna",
+        "text": "Is there any way I can edit a dictionary in a python file?I mean writing new values to it and this value will be modified permanently",
+        "conversation_id": "1721",
+        "index": 227
+    },
+    "so_post": {
+        "ts": "2020-10-23T17:11:22.703000",
+        "user": "Kaio",
+        "text": "https://stackoverflow.com/questions/26745519/convertingdictionarytojson",
+        "conversation_id": "1721",
+        "index": 262
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Torianna gets an answer about modifying a dict in a file",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

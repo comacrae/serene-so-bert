@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T23:10:49.434000",
+        "user": "Nyssa",
+        "text": "what is the best way to get started with tkinter?",
+        "conversation_id": "1419",
+        "index": 39
+    },
+    "so_post": {
+        "ts": "2020-06-23T23:10:57.468000",
+        "user": "Nyssa",
+        "text": "https://stackoverflow.com/questions/22713130/writingtofilenextline @invoke",
+        "conversation_id": "1419",
+        "index": 41
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

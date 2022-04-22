@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-08T22:35:48.913000",
+        "user": "Unay",
+        "text": "anyone ever ran into this?` Installing build dependencies ... done Getting requirements to build wheel ... done Preparing wheel metadata ... doneBuilding wheels for collected packages: UNKNOWN Building wheel for UNKNOWN (PEP 517) ... done Stored in directory: /tmp/user/1000/pipephemwheelcachef1m9fp28/wheels/23/67/c9/7f11a19038b538fe2c2cb58e2cec1da0b080c096e213f4b66dSuccessfully built UNKNOWNInstalling collected packages: UNKNOWNSuccessfully installed UNKNOWN0.0.0`",
+        "conversation_id": "582",
+        "index": 48
+    },
+    "so_post": {
+        "ts": "2020-10-08T22:36:59.891000",
+        "user": "Bawitha",
+        "text": "https://stackoverflow.com/questions/53077360/pipinstallissuewitheggfragmentsthatleadtoanunknowninstallationofap seems related",
+        "conversation_id": "582",
+        "index": 51
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "issue with pip install gets direct answer from SO",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

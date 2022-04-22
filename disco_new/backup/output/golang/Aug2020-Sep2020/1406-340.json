@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-14T17:32:17.346000",
+        "user": "Addie",
+        "text": "I'd assume I just continue multiplying the float value by 10 until I reach the maximum int32 value or the float has no decimal part",
+        "conversation_id": "1406",
+        "index": 319
+    },
+    "so_post": {
+        "ts": "2020-09-14T17:52:43.073000",
+        "user": "Rainey",
+        "text": "hmm https://stackoverflow.com/questions/21216316/differencebetweeneandeinscientificnotation",
+        "conversation_id": "1406",
+        "index": 340
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Needs grouping but user is asking about how to convert and Rainey provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

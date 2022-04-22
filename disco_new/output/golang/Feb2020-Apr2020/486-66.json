@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-20T03:49:54.256000",
+        "user": "Kelaya",
+        "text": "Why are print() and println() inbuilts but also part of fmt and why isnt printf() an inbuilt?",
+        "conversation_id": "486",
+        "index": 54
+    },
+    "so_post": {
+        "ts": "2020-02-20T03:51:52.901000",
+        "user": "Kelaya",
+        "text": "https://stackoverflow.com/questions/14680255/differencebetweenfmtprintlnandprintlningo found this",
+        "conversation_id": "486",
+        "index": 66
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Kelaya asked question and found SO post answer themselves",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

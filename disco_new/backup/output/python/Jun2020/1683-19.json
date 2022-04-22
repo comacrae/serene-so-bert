@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-28T14:34:32.915000",
+        "user": "Shivansh",
+        "text": "When I run this vvv```py\\'\"String two + name + 12 + 3\\'.split()```I get ```py[\\'\"String\\ \\'two\"\\ \\'+\\ \\'name\\ \\'+\\ \\'12\\ \\'+\\ \\'3\\']```which basically splits the stuff inbetween the doublequotes. How to I prevent python from splitting stuff between doublequotes?For example,```py[\\'\"String two\"\\ \\'+\\ \\'name\\ \\'+\\ \\'12\\ \\'+\\ \\'3\\']```",
+        "conversation_id": "1683",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-06-28T14:38:57.739000",
+        "user": "Halli",
+        "text": "https://stackoverflow.com/questions/79968/splitastringbyspacespreservingquotedsubstringsinpython",
+        "conversation_id": "1683",
+        "index": 19
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

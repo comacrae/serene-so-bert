@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-13T13:34:40.196000",
+        "user": "Kayo",
+        "text": "Helloo guys I have a problem to format time.Duration. I want to display Hours but I got error : cannot use value of type float64 as string value in assignment. Is there any method to display hours from a time.Duration ? please Here is my code : ```go if p.Contract.WeeklyDuration != nil { args[\"shifts\"] = p.Contract.WeeklyDuration.Hours() } else { args[\"shifts\"] = p.FormatShifts(loc) }```",
+        "conversation_id": "804",
+        "index": 20
+    },
+    "so_post": {
+        "ts": "2019-12-13T13:43:51.173000",
+        "user": "Masud",
+        "text": "https://stackoverflow.com/questions/17573190/howtomultiplydurationbyinteger",
+        "conversation_id": "804",
+        "index": 24
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Kayo has question and Masud provides SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

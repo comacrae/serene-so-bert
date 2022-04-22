@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-16T22:14:15.620000",
+        "user": "Biannca",
+        "text": "Any ideas why a simple file open() would throw TypeError: str object is not callable",
+        "conversation_id": "1138",
+        "index": 302
+    },
+    "so_post": {
+        "ts": "2020-09-16T22:33:01.091000",
+        "user": "Saylor",
+        "text": "@Tiberius see if this helps https://stackoverflow.com/questions/6039605/typeerrorstrobjectisnotcallablepython",
+        "conversation_id": "1138",
+        "index": 376
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Bianca asks question about str type and Saylor provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

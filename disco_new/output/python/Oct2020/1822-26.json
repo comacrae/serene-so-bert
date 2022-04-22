@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-25T04:29:52.217000",
+        "user": "Chunping",
+        "text": "https://stackoverflow.com/questions/64520197/howcaniparse2krssfeedsaslistintofeedparser",
+        "conversation_id": "1822",
+        "index": 26
+    },
+    "so_post": {
+        "ts": "2020-10-25T04:29:52.217000",
+        "user": "Chunping",
+        "text": "https://stackoverflow.com/questions/64520197/howcaniparse2krssfeedsaslistintofeedparser",
+        "conversation_id": "1822",
+        "index": 26
+    },
+    "category": "Question Repost",
+    "comments": "must be a repost since he doesnt post anythign elese",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

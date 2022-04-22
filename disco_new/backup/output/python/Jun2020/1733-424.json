@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-29T10:52:37.525000",
+        "user": "Nyssa",
+        "text": "im trying to collect some sample browser data and sensor data so that I can then gen my own sensor data",
+        "conversation_id": "1733",
+        "index": 371
+    },
+    "so_post": {
+        "ts": "2020-06-29T11:00:39.263000",
+        "user": "Zamyla",
+        "text": "https://stackoverflow.com/questions/9878020/howdoigettheuseragentwithflask",
+        "conversation_id": "1733",
+        "index": 424
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

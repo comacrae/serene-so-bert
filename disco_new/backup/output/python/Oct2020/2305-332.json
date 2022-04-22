@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-31T15:11:37.761000",
+        "user": "Anquan",
+        "text": "> I'm using a for loop in html with jinja and I want to add to an iterator every time",
+        "conversation_id": "2305",
+        "index": 292
+    },
+    "so_post": {
+        "ts": "2020-10-31T15:16:02.423000",
+        "user": "Elmehdi",
+        "text": "@Latkecrszy https://stackoverflow.com/questions/7537439/howtoincrementavariableonaforloopinjinjatemplate read through this",
+        "conversation_id": "2305",
+        "index": 332
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

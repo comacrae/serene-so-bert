@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-29T17:04:44.042000",
+        "user": "Arlandria",
+        "text": "I do have a stupid go questionis it possible to print the hex representation of a float32 ?",
+        "conversation_id": "1507",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-03-29T17:05:00.479000",
+        "user": "Arlandria",
+        "text": "and found that : https://stackoverflow.com/questions/35130116/golangconvertfloattohexstringhttps://stackoverflow.com/questions/35130116/golangconvertfloattohexstring",
+        "conversation_id": "1507",
+        "index": 18
+    },
+    "category": "Question Repost",
+    "comments": "using SO post as background for question",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

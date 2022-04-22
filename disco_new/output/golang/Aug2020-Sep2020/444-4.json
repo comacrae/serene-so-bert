@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-15T03:13:09.199000",
+        "user": "Antoine",
+        "text": "Hello Gophers. I have a quick question about goroutines. Basically I need to know how to count them.1) I have an HTTP server written in golang. It uses the Gin framework which in turn uses the Golang standard HTTP library. From what I understand the standard library spawns each new HTTP request in a new goroutine.2) I want to initiate a server shutdown such that:  1. no new HTTP connections can be established  2. the work finishes in all existing HTTP requests  3. the server shuts downI found Atomic Counters in the GoByExample to be exactly what I need:<https://gobyexample.com/atomiccounters>However this example does `wg.Add(1)` before the goroutine is spawned.In my case the goroutine is spawned by the standard library.Do I have to use a different solution? Does someone want to point me in the right direction?",
+        "conversation_id": "444",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-15T03:17:35.315000",
+        "user": "Antoine",
+        "text": "Oh like this? <https://stackoverflow.com/questions/39320025/howtostophttplistenandserve>",
+        "conversation_id": "444",
+        "index": 4
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Antoine finds an SO post that they determine is the solution",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

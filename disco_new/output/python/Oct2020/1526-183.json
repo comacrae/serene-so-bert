@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-21T01:06:45.580000",
+        "user": "Torianna",
+        "text": "this may be considered blasphemy but is it possible to slipstream another python source package into my own package's sdist?",
+        "conversation_id": "1526",
+        "index": 164
+    },
+    "so_post": {
+        "ts": "2020-10-21T01:10:35.846000",
+        "user": "Torianna",
+        "text": "@nedbat https://stackoverflow.com/questions/42859852/distributingmultiplepackagesusingsetuppyforpython",
+        "conversation_id": "1526",
+        "index": 183
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Torianna wantss to know how to manage mulitple package setups in the same source dist and finds ann answer they post",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

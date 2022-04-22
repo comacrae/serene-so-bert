@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-28T00:45:27.379000",
+        "user": "Abriella",
+        "text": "> the wrapper thing returns your handlerso i can just pass it through right ?",
+        "conversation_id": "2496",
+        "index": 77
+    },
+    "so_post": {
+        "ts": "2020-07-28T00:46:47.479000",
+        "user": "Emmerson",
+        "text": "@Deleted User https://stackoverflow.com/questions/44370277/typeispointertointerfacenotinterfaceconfusion",
+        "conversation_id": "2496",
+        "index": 82
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Abriella has question about passing ap ointer and Emmerson provides SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

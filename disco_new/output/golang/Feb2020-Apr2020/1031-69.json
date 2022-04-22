@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-12T04:13:29.820000",
+        "user": "Ashvika",
+        "text": "@diamond do I really need to have a all the github stuff on there? right now my directory structure is.``` main.go go.mod  package github.com/diamondburned/test package1/  package1.go package2/  package2.go  package2.1/ subpackage2.1.go  package2.2/ package2.2.go```And I would like package2.2.go to use package2.1",
+        "conversation_id": "1031",
+        "index": 22
+    },
+    "so_post": {
+        "ts": "2020-03-12T04:38:27.826000",
+        "user": "Jkari",
+        "text": "https://stackoverflow.com/questions/17605915/whatisthecorrectbehaviorexpectedofanhttppost302redirecttoget",
+        "conversation_id": "1031",
+        "index": 69
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ashvika asks question and Jkari provides answer w/ SO post",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-04T21:41:57.316000",
+        "user": "Ararat",
+        "text": "how do I write a defaultdict",
+        "conversation_id": "193",
+        "index": 116
+    },
+    "so_post": {
+        "ts": "2020-04-04T21:43:41.782000",
+        "user": "Neisha",
+        "text": "There's also some notes on `defaultdict`'s behavior here https://stackoverflow.com/questions/5900578/howdoescollectionsdefaultdictwork",
+        "conversation_id": "193",
+        "index": 127
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ararat was asking how to write defaultdicts and user provided more information for them.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

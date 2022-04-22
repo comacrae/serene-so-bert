@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-09T20:53:02.251000",
+        "user": "Jeptha",
+        "text": "so how would i install pynput module using pip?",
+        "conversation_id": "390",
+        "index": 124
+    },
+    "so_post": {
+        "ts": "2020-02-09T20:55:35.912000",
+        "user": "Evalia",
+        "text": "<https://stackoverflow.com/questions/47313426/windows10pipnooutput> might fix your `pip` problem btw",
+        "conversation_id": "390",
+        "index": 147
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "The jist of what is going on is that the user is asking for help using pip to install pynput. A post earlier seems to show the user showing a screenshot of them not getting any output confirming their attempt to use pip, and Evalia seems to be providing them with help with that.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

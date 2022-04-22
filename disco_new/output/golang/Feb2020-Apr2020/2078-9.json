@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-19T07:14:50.067000",
+        "user": "Baldomero",
+        "text": "I have also tried `import ../../\"` without success though even if it had I am given to understand that is not correct/idiomatic.",
+        "conversation_id": "2078",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-04-19T07:19:38.987000",
+        "user": "Baldomero",
+        "text": "Thank you so much. For reference what I had seen were responses in the vein of: https://stackoverflow.com/a/35511866",
+        "conversation_id": "2078",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Baldomero had question and then provides SO post answers after someone answers him in discord chat",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

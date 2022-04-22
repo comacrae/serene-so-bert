@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-20T03:29:18.624000",
+        "user": "Torianna",
+        "text": "i wanted to write something at a certain line in a file",
+        "conversation_id": "1436",
+        "index": 582
+    },
+    "so_post": {
+        "ts": "2020-10-20T03:33:57.268000",
+        "user": "Suni",
+        "text": "@Deleted User lot of option to take on your problem https://stackoverflow.com/questions/4719438/editingspecificlineintextfileinpython",
+        "conversation_id": "1436",
+        "index": 604
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Torianna asks the question and they get an answer from SO via Suni",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-11T13:09:15.955000",
+        "user": "Madelynn",
+        "text": "How does golang represent generated file content",
+        "conversation_id": "195",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-11-11T13:12:23.990000",
+        "user": "Madelynn",
+        "text": "https://stackoverflow.com/questions/30886782/generatedsourcefilesshouldnotbeedited",
+        "conversation_id": "195",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Madelynn has quesstion and then finds their own answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

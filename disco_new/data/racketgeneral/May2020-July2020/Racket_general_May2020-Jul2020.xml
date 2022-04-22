@@ -1,0 +1,3831 @@
+<discord>
+<team_domain>Racket</team_domain>
+<channel_name>general</channel_name>
+<start_date>2020-05-01T02:07:59.304000</start_date>
+<end_date>2020-07-31T09:48:13.492000</end_date>
+<message>
+  <ts>2020-05-01T02:07:59.304000</ts>
+  <user>Neema</user>
+  <text>When using Racket in Emacs I get syntax highlighting at the REPL  how can I get syntax highlighting at a REPL when using my normal terminal emulator?</text>
+</message>
+<message>
+  <ts>2020-05-01T03:31:37.839000</ts>
+  <user>Gorka</user>
+  <text>I don't think that is supported.</text>
+</message>
+<message>
+  <ts>2020-05-01T09:19:02.281000</ts>
+  <user>Angelus</user>
+  <text>That could be interesting.</text>
+</message>
+<message>
+  <ts>2020-05-01T09:19:11.938000</ts>
+  <user>Angelus</user>
+  <text>Some languages repls support that.</text>
+</message>
+<message>
+  <ts>2020-05-01T13:04:35.461000</ts>
+  <user>Belmiro</user>
+  <text>ocaml has colorful repls with frames autocompletion and stuff</text>
+</message>
+<message>
+  <ts>2020-05-01T13:04:52.906000</ts>
+  <user>Belmiro</user>
+  <text>eh I really hate how opaque the object system is</text>
+</message>
+<message>
+  <ts>2020-05-01T13:05:10.010000</ts>
+  <user>Belmiro</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-05-01T13:05:20.228000</ts>
+  <user>Belmiro</user>
+  <text>and in color there's</text>
+</message>
+<message>
+  <ts>2020-05-01T13:05:25.550000</ts>
+  <user>Belmiro</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-05-01T13:05:41.783000</ts>
+  <user>Belmiro</user>
+  <text>why can't I get the whole thing? why is everything so opaque?</text>
+</message>
+<message>
+  <ts>2020-05-01T13:54:57.195000</ts>
+  <user>Rahmel</user>
+  <text>just my opinion but I feel like that's sort of what object systems often tend toward  while not a prefect comparison I think of how that class would get written in a language that leans more heavily toward OO and I could see creating the red green blue and alpha members and then generating getters</text>
+</message>
+<message>
+  <ts>2020-05-01T14:02:04.926000</ts>
+  <user>Belmiro</user>
+  <text>yeah I get it encapsulation but it's so horribly annoying when I can't see what's inside and it just prints `(object:foo% ...)`</text>
+</message>
+<message>
+  <ts>2020-05-01T14:27:50.310000</ts>
+  <user>Rahmel</user>
+  <text>I agree  I apologize if I gave the impression I was advocating for it and also that I don't know enough to say if there's a good way to get around it  I imagine you could subclass color% and add a method that would give you what you want but that feels quite cumbersome  probably easier to just write a function that takes a color% instance and makes a list from the values</text>
+</message>
+<message>
+  <ts>2020-05-01T14:35:53.327000</ts>
+  <user>Belmiro</user>
+  <text>no worries</text>
+</message>
+<message>
+  <ts>2020-05-01T14:36:06.652000</ts>
+  <user>Belmiro</user>
+  <text>I’m just expressing my frustration :D</text>
+</message>
+<message>
+  <ts>2020-05-01T14:37:01.646000</ts>
+  <user>Belmiro</user>
+  <text>yeah I can make a helper but I’m used to being able to just print the thing and see what’s inside</text>
+</message>
+<message>
+  <ts>2020-05-01T14:37:59.591000</ts>
+  <user>Belmiro</user>
+  <text>but the languages I’m used to don’t have classes  so yeah</text>
+</message>
+<message>
+  <ts>2020-05-01T14:47:18.432000</ts>
+  <user>Rahmel</user>
+  <text>Can you give me a couple? I grew up in class world and I'm always on the lookout for new languages that are foreign to me</text>
+</message>
+<message>
+  <ts>2020-05-01T14:52:01.034000</ts>
+  <user>Angelus</user>
+  <text>You can write printers for your objects.</text>
+</message>
+<message>
+  <ts>2020-05-01T15:11:30.304000</ts>
+  <user>Belmiro</user>
+  <text>oh maybe I could’ve just called display on it :meow:</text>
+</message>
+<message>
+  <ts>2020-05-01T15:11:50.948000</ts>
+  <user>Belmiro</user>
+  <text>@SlashDevSlashRandom rust has only structs for example</text>
+</message>
+<message>
+  <ts>2020-05-01T15:12:02.461000</ts>
+  <user>Belmiro</user>
+  <text>erlang/elixir</text>
+</message>
+<message>
+  <ts>2020-05-01T15:12:24.109000</ts>
+  <user>Belmiro</user>
+  <text>ocaml has objects but people don’t really use them</text>
+</message>
+<message>
+  <ts>2020-05-01T15:12:26.013000</ts>
+  <user>Belmiro</user>
+  <text>haskell</text>
+</message>
+<message>
+  <ts>2020-05-01T15:12:38.831000</ts>
+  <user>Rahmel</user>
+  <text>thx</text>
+</message>
+<message>
+  <ts>2020-05-01T15:12:44.889000</ts>
+  <user>Belmiro</user>
+  <text>in most of these you’d just `derive show` or whatever and they’d be printable</text>
+</message>
+<message>
+  <ts>2020-05-01T15:13:37.995000</ts>
+  <user>Belmiro</user>
+  <text>racket has transparent structs but this object business is giving me the heebiejeebies</text>
+</message>
+<message>
+  <ts>2020-05-01T15:17:23.322000</ts>
+  <user>Angelus</user>
+  <text>There's O'Haskell</text>
+</message>
+<message>
+  <ts>2020-05-01T15:31:06.361000</ts>
+  <user>Belmiro</user>
+  <text>https://www.ohaskell.guide/</text>
+</message>
+<message>
+  <ts>2020-05-01T15:31:10.060000</ts>
+  <user>Belmiro</user>
+  <text>lol it’s russian</text>
+</message>
+<message>
+  <ts>2020-05-01T15:31:47.086000</ts>
+  <user>Belmiro</user>
+  <text>or is this a book or something?</text>
+</message>
+<message>
+  <ts>2020-05-01T15:35:32.327000</ts>
+  <user>Belmiro</user>
+  <text>https://wiki.haskell.org/O'Haskellokay no it’s this one</text>
+</message>
+<message>
+  <ts>2020-05-01T16:23:34.468000</ts>
+  <user>Gorka</user>
+  <text>Classes need to implement `printable&lt;%&gt;` or `writable&lt;%&gt;`.https://docs.racketlang.org/reference/objectprinting.html</text>
+</message>
+<message>
+  <ts>2020-05-01T16:25:01.981000</ts>
+  <user>Gorka</user>
+  <text>Just like `structs` have to implement the appropriate generic methods struct property or declared `#:transparent`</text>
+</message>
+<message>
+  <ts>2020-05-01T16:52:54.367000</ts>
+  <user>Dejuan</user>
+  <text>Is the opacity of objects is a __feature__ to stop you referencing and using state in unexpected ways</text>
+</message>
+<message>
+  <ts>2020-05-01T16:53:19.224000</ts>
+  <user>Dejuan</user>
+  <text>__unsafe__ ways?</text>
+</message>
+<message>
+  <ts>2020-05-01T18:00:44.774000</ts>
+  <user>Belmiro</user>
+  <text>how is printing it unsafe?</text>
+</message>
+<message>
+  <ts>2020-05-01T18:00:50.418000</ts>
+  <user>Belmiro</user>
+  <text>in a way that's humanreadable</text>
+</message>
+<message>
+  <ts>2020-05-01T18:01:20.208000</ts>
+  <user>Belmiro</user>
+  <text>ha ha very funny mr racket</text>
+</message>
+<message>
+  <ts>2020-05-01T18:03:48.778000</ts>
+  <user>Gorka</user>
+  <text>The perspective Racket takes is not out of the ordinary. To get a useful print string out of most OO languages requires implementing some conversion interface.</text>
+</message>
+<message>
+  <ts>2020-05-01T18:07:44.867000</ts>
+  <user>Belmiro</user>
+  <text>not saying it's uncommon for OO langs just saying I think it's annoying</text>
+</message>
+<message>
+  <ts>2020-05-01T18:16:10.675000</ts>
+  <user>Belmiro</user>
+  <text>trying to debug this with the dr racket debugger the entire dr racket froze.. heck</text>
+</message>
+<message>
+  <ts>2020-05-01T18:28:09.984000</ts>
+  <user>Cavin</user>
+  <text>colors probably shouldn't have been objects</text>
+</message>
+<message>
+  <ts>2020-05-01T18:28:27.336000</ts>
+  <user>Cavin</user>
+  <text>they're just bags of data</text>
+</message>
+<message>
+  <ts>2020-05-01T18:28:43.132000</ts>
+  <user>Cavin</user>
+  <text>(this does not mean objects are bad in general)</text>
+</message>
+<message>
+  <ts>2020-05-01T18:29:41.801000</ts>
+  <user>Belmiro</user>
+  <text>I mean yeah and if they are  why don’t they have a method for displaying the entire color somehow?</text>
+</message>
+<message>
+  <ts>2020-05-01T18:31:41.716000</ts>
+  <user>Belmiro</user>
+  <text>oh my I played myself  I was trying to display a style delta not a color</text>
+</message>
+<message>
+  <ts>2020-05-01T18:31:48.510000</ts>
+  <user>Belmiro</user>
+  <text>gonna try this with a color now :meow:</text>
+</message>
+<message>
+  <ts>2020-05-01T18:34:25.902000</ts>
+  <user>Belmiro</user>
+  <text>`#(struct:object:color% ...)` :meow:</text>
+</message>
+<message>
+  <ts>2020-05-01T18:35:24.347000</ts>
+  <user>Gorka</user>
+  <text>But what if you're underlying color model is not RGB ...</text>
+</message>
+<message>
+  <ts>2020-05-01T18:35:36.702000</ts>
+  <user>Dejuan</user>
+  <text>&gt; colors probably shouldn't have been objects@notjack I though this the multiple representations of colours: rgb colour name</text>
+</message>
+<message>
+  <ts>2020-05-01T18:35:46.053000</ts>
+  <user>Belmiro</user>
+  <text>it’s rgba you can get red green blue and alpha from it @oaktownsam</text>
+</message>
+<message>
+  <ts>2020-05-01T18:36:33.562000</ts>
+  <user>Gorka</user>
+  <text>Yeah but you could have an HSV or CMYK underlying model and a response for `red` should make sense.</text>
+</message>
+<message>
+  <ts>2020-05-01T18:36:39.290000</ts>
+  <user>Cavin</user>
+  <text>I think trying to abstract over that is more complicated than picking a standard format and making it easy to convert between other well known models</text>
+</message>
+<message>
+  <ts>2020-05-01T18:37:03.386000</ts>
+  <user>Dejuan</user>
+  <text>And extensibility is possible? r,g,b,ra,ga,ba</text>
+</message>
+<message>
+  <ts>2020-05-01T18:37:26.529000</ts>
+  <user>Belmiro</user>
+  <text>but why not have a function to get everything? as a struct or a list even</text>
+</message>
+<message>
+  <ts>2020-05-01T18:37:54.770000</ts>
+  <user>Belmiro</user>
+  <text>or just print it for humans..</text>
+</message>
+<message>
+  <ts>2020-05-01T18:38:06.121000</ts>
+  <user>Belmiro</user>
+  <text>I don’t want to `read` it back</text>
+</message>
+<message>
+  <ts>2020-05-01T18:38:08.341000</ts>
+  <user>Cavin</user>
+  <text>Yeah there could have been a `color` struct and a `colorconvertible&lt;%&gt;` interface</text>
+</message>
+<message>
+  <ts>2020-05-01T18:38:13.444000</ts>
+  <user>Belmiro</user>
+  <text>I want to read it</text>
+</message>
+<message>
+  <ts>2020-05-01T18:39:37.523000</ts>
+  <user>Belmiro</user>
+  <text>it’s really funny how the global list of styles has a `number` method so you don’t have to call `length` on the list</text>
+</message>
+<message>
+  <ts>2020-05-01T18:39:54.481000</ts>
+  <user>Belmiro</user>
+  <text>but you have to call four methods on a color to get a RGBA representation</text>
+</message>
+<message>
+  <ts>2020-05-01T18:39:56.395000</ts>
+  <user>Belmiro</user>
+  <text>:meow:</text>
+</message>
+<message>
+  <ts>2020-05-01T18:41:13.350000</ts>
+  <user>Dejuan</user>
+  <text>designed in the 90’s  java hit and everything was about objects</text>
+</message>
+<message>
+  <ts>2020-05-01T18:41:22.283000</ts>
+  <user>Gorka</user>
+  <text>Just a guess I think technically all of racket/draw is objects because it wraps cairo.</text>
+</message>
+<message>
+  <ts>2020-05-01T18:41:45.391000</ts>
+  <user>Belmiro</user>
+  <text>wasn’t the GUI system redesigned?</text>
+</message>
+<message>
+  <ts>2020-05-01T18:41:52.452000</ts>
+  <user>Belmiro</user>
+  <text>I thought it was redesigned a couple years ago</text>
+</message>
+<message>
+  <ts>2020-05-01T18:41:54.519000</ts>
+  <user>Belmiro</user>
+  <text>the racket one</text>
+</message>
+<message>
+  <ts>2020-05-01T18:41:55.215000</ts>
+  <user>Gorka</user>
+  <text>&lt;record scratch&gt; actually it may have been from wxwidgets and then</text>
+</message>
+<message>
+  <ts>2020-05-01T18:42:06.930000</ts>
+  <user>Gorka</user>
+  <text>when ported to cairo maintained</text>
+</message>
+<message>
+  <ts>2020-05-01T18:45:09.949000</ts>
+  <user>Belmiro</user>
+  <text>is there a way to get more info in the debugger by the way?</text>
+</message>
+<message>
+  <ts>2020-05-01T18:45:15.774000</ts>
+  <user>Dejuan</user>
+  <text>I don’t want to be an apologist for other people’s code but I don’t want to implement a crossplatform gui toolkit. I use `racket/gui` too. I feel your pain.</text>
+</message>
+<message>
+  <ts>2020-05-01T18:45:16.575000</ts>
+  <user>Belmiro</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-05-01T18:45:23.363000</ts>
+  <user>Belmiro</user>
+  <text>everything’s opaque (again)</text>
+</message>
+<message>
+  <ts>2020-05-01T18:45:42.258000</ts>
+  <user>Belmiro</user>
+  <text>@StephenD yeah crossplatform GUI is hard</text>
+</message>
+<message>
+  <ts>2020-05-01T18:45:56.414000</ts>
+  <user>Angelus</user>
+  <text>(understatement)</text>
+</message>
+<message>
+  <ts>2020-05-01T18:46:03.232000</ts>
+  <user>Belmiro</user>
+  <text>very hard</text>
+</message>
+<message>
+  <ts>2020-05-02T13:05:49.917000</ts>
+  <user>Angelus</user>
+  <text>@nixin72 Chez Scheme seems to be capable of syntax highlighting in the repl.</text>
+</message>
+<message>
+  <ts>2020-05-02T13:05:54.161000</ts>
+  <user>Angelus</user>
+  <text>But I have no idea how to get it to work.</text>
+</message>
+<message>
+  <ts>2020-05-02T13:12:41.388000</ts>
+  <user>Angelus</user>
+  <text>Ah never mind it's just Geiser.</text>
+</message>
+<message>
+  <ts>2020-05-03T11:10:43.881000</ts>
+  <user>Belmiro</user>
+  <text>hehe I changed where I keep the state (it’s in a toplevel struct now) and actually tried out the `debug` package</text>
+</message>
+<message>
+  <ts>2020-05-03T11:10:48.316000</ts>
+  <user>Belmiro</user>
+  <text>now stuff is much smoother</text>
+</message>
+<message>
+  <ts>2020-05-03T11:11:01.246000</ts>
+  <user>Belmiro</user>
+  <text>thanks @Alex Knauth awesome package :GWcmeisterPeepoLove:</text>
+</message>
+<message>
+  <ts>2020-05-04T00:59:56.558000</ts>
+  <user>Neema</user>
+  <text>Okay so I\'ve messed around with Pollen and now have this working! ```scheme#lang pollenHello world!◊(graphviz&gt;xexpr v0 v1 v2 v0 &gt; v0 v0 &gt; v1 v1 &gt; v2 v2 &gt; v0")```That Pollen code renders to</text>
+</message>
+<message>
+  <ts>2020-05-04T01:00:33.955000</ts>
+  <user>Neema</user>
+  <text>Not that this is remotely impressive but I think I have peaked.</text>
+</message>
+<message>
+  <ts>2020-05-04T04:03:44.851000</ts>
+  <user>Eloisa</user>
+  <text>that's pretty cool! :)</text>
+</message>
+<message>
+  <ts>2020-05-04T05:32:49.664000</ts>
+  <user>Belmiro</user>
+  <text>that’s very nice 👀</text>
+</message>
+<message>
+  <ts>2020-05-04T05:33:20.635000</ts>
+  <user>Belmiro</user>
+  <text>I didn’t know you could make graphs so easily</text>
+</message>
+<message>
+  <ts>2020-05-04T05:47:58.420000</ts>
+  <user>Kaelum</user>
+  <text>morning</text>
+</message>
+<message>
+  <ts>2020-05-04T05:49:12.852000</ts>
+  <user>Kaelum</user>
+  <text>do you consider that Racket's GUI is sufficientlyrich for writing (multiplatform) desktop apps similar to using gtk/qt bindings via some other language?</text>
+</message>
+<message>
+  <ts>2020-05-04T05:55:56.536000</ts>
+  <user>Belmiro</user>
+  <text>it’s pretty capable Dr Racket uses it</text>
+</message>
+<message>
+  <ts>2020-05-04T05:56:37.062000</ts>
+  <user>Belmiro</user>
+  <text>I think it has some limitations regarding finetuning the style/theme  not sure though I’m fine with the defaults</text>
+</message>
+<message>
+  <ts>2020-05-04T05:59:21.847000</ts>
+  <user>Kaelum</user>
+  <text>@sarna well i'm thinking about more complex type of apps....e.g. i've found the following list: https://news.ycombinator.com/item?id=18047967</text>
+</message>
+<message>
+  <ts>2020-05-04T06:01:16.768000</ts>
+  <user>Belmiro</user>
+  <text>there’s a pretty good summary of the current limitations in the comment</text>
+</message>
+<message>
+  <ts>2020-05-04T06:01:31.015000</ts>
+  <user>Belmiro</user>
+  <text>idk how current though it’s from 2018</text>
+</message>
+<message>
+  <ts>2020-05-04T06:01:52.821000</ts>
+  <user>Belmiro</user>
+  <text>:GWseremePeepoThink:</text>
+</message>
+<message>
+  <ts>2020-05-04T06:02:09.506000</ts>
+  <user>Belmiro</user>
+  <text>sorry I’m just starting out basically</text>
+</message>
+<message>
+  <ts>2020-05-04T06:02:35.696000</ts>
+  <user>Kaelum</user>
+  <text>ok fairenough 😉</text>
+</message>
+<message>
+  <ts>2020-05-04T09:29:52.316000</ts>
+  <user>Belmiro</user>
+  <text>draganddrop seems to still be an issue https://github.com/racket/gui/issues/63</text>
+</message>
+<message>
+  <ts>2020-05-04T20:01:57.347000</ts>
+  <user>Zaxtyn</user>
+  <text>Hi there!</text>
+</message>
+<message>
+  <ts>2020-05-04T22:03:43.956000</ts>
+  <user>Gorka</user>
+  <text>This is an interesting change for Schemehttps://srfi.schemers.org/srfi195/srfi195.html</text>
+</message>
+<message>
+  <ts>2020-05-04T22:14:43.212000</ts>
+  <user>Cavin</user>
+  <text>hmm</text>
+</message>
+<message>
+  <ts>2020-05-04T22:16:04.169000</ts>
+  <user>Cavin</user>
+  <text>not sure what problem these are trying to solve</text>
+</message>
+<message>
+  <ts>2020-05-04T22:16:24.895000</ts>
+  <user>Ifra</user>
+  <text>same</text>
+</message>
+<message>
+  <ts>2020-05-04T22:16:56.738000</ts>
+  <user>Ifra</user>
+  <text>and it looks like `unbox` might be the only operation they describe that would even make use of multiplevalue return</text>
+</message>
+<message>
+  <ts>2020-05-04T22:17:35.917000</ts>
+  <user>Cavin</user>
+  <text>also I'm skeptical that there's performance to be gained here</text>
+</message>
+<message>
+  <ts>2020-05-04T22:18:10.986000</ts>
+  <user>Ifra</user>
+  <text>I don't think they mention performance as a motivation</text>
+</message>
+<message>
+  <ts>2020-05-04T22:18:47.033000</ts>
+  <user>Cavin</user>
+  <text>not directly but that's the main motivation I see brought up when discussing why to bother using multiple values at all</text>
+</message>
+<message>
+  <ts>2020-05-04T22:19:15.487000</ts>
+  <user>Cavin</user>
+  <text>so if it's _not_ more performant then.... why not just use a regular mutable list?</text>
+</message>
+<message>
+  <ts>2020-05-04T22:32:06.460000</ts>
+  <user>Ifra</user>
+  <text>their stated goal is to make the language more consistent by using this feature in more places where it makes sense to do so</text>
+</message>
+<message>
+  <ts>2020-05-04T22:32:44.101000</ts>
+  <user>Ifra</user>
+  <text>in that spirit I'd be more optimistic about the vision I described in https://github.com/racket/rhombusbrainstorming/issues/78#issuecomment514025353</text>
+</message>
+<message>
+  <ts>2020-05-04T22:34:01.402000</ts>
+  <user>Ifra</user>
+  <text>but I have trouble taking that vision seriously even if I do think it makes things more consistent</text>
+</message>
+<message>
+  <ts>2020-05-04T22:35:26.793000</ts>
+  <user>Cavin</user>
+  <text>Yeah I'd much rather see standard libraries consistently _not_ use multiple values than consistently use them.</text>
+</message>
+<message>
+  <ts>2020-05-04T22:35:50.384000</ts>
+  <user>Ifra</user>
+  <text>^ this</text>
+</message>
+<message>
+  <ts>2020-05-04T22:36:56.867000</ts>
+  <user>Cavin</user>
+  <text>Jay summed it up pretty well:&gt; My personal taste is that multiple values are theoretically beautiful and elegantly expose the ability of an advanced compiler to use a custom calling convention but are extremely annoying to actually use in almost all circumstances in Scheme &amp; Racket</text>
+</message>
+<message>
+  <ts>2020-05-04T22:39:48.968000</ts>
+  <user>Ifra</user>
+  <text>I think that's exactly the annoyance that leads to proposals like this one trying to smooth out the experience a little better</text>
+</message>
+<message>
+  <ts>2020-05-04T22:41:13.559000</ts>
+  <user>Ifra</user>
+  <text>there's a big bump in the middle of the rug and some of the crowd is conscientiously moving it to one side while some of the crowd is moving it to the other... and as long as it's there people are tripping on it</text>
+</message>
+<message>
+  <ts>2020-05-04T22:41:41.630000</ts>
+  <user>Cavin</user>
+  <text>Yeah definitely</text>
+</message>
+<message>
+  <ts>2020-05-04T22:42:15.978000</ts>
+  <user>Cavin</user>
+  <text>It's one of those language features that doesn't cooperate well with half measures</text>
+</message>
+<message>
+  <ts>2020-05-04T22:43:28.502000</ts>
+  <user>Cavin</user>
+  <text>You gotta go all in on them and plan APIs around it from the ground up or not support them at all. The uncanny valley in between is unpleasant for everyone.</text>
+</message>
+<message>
+  <ts>2020-05-04T22:43:37.339000</ts>
+  <user>Ifra</user>
+  <text>someday I think it'd be nifty to see a typed Scheme where the types compile down to `values` bundles</text>
+</message>
+<message>
+  <ts>2020-05-04T22:43:57.929000</ts>
+  <user>Cavin</user>
+  <text>yes that could be super neat</text>
+</message>
+<message>
+  <ts>2020-05-04T23:15:51.602000</ts>
+  <user>Gorka</user>
+  <text>I figured there would be some opinions here about that SRFI 🙂</text>
+</message>
+<message>
+  <ts>2020-05-04T23:28:59.118000</ts>
+  <user>Gorka</user>
+  <text>From that srfi mailing list it almost reads like an implementation of vectors with a different name.</text>
+</message>
+<message>
+  <ts>2020-05-05T07:58:00.997000</ts>
+  <user>Cavin</user>
+  <text>_finally_ got caught up on the last three months of Racket Users posts...</text>
+</message>
+<message>
+  <ts>2020-05-05T08:04:43.478000</ts>
+  <user>Cavin</user>
+  <text>who knows maybe this week I'll get caught up on actual pull requests too</text>
+</message>
+<message>
+  <ts>2020-05-06T20:16:12.805000</ts>
+  <user>Dejuan</user>
+  <text>Any other Catalina users seeing this ?</text>
+</message>
+<message>
+  <ts>2020-05-06T20:16:25.211000</ts>
+  <user>Dejuan</user>
+  <text>(two title bars)</text>
+</message>
+<message>
+  <ts>2020-05-07T11:16:06.421000</ts>
+  <user>Josafat</user>
+  <text>no normal and cs drracket app seem to have normal menu bars</text>
+</message>
+<message>
+  <ts>2020-05-07T11:16:12.814000</ts>
+  <user>Josafat</user>
+  <text>for 7.7</text>
+</message>
+<message>
+  <ts>2020-05-07T13:56:25.470000</ts>
+  <user>Dejuan</user>
+  <text>is my  I triggered a macos issue that has affected a lot of other projects</text>
+</message>
+<message>
+  <ts>2020-05-07T13:56:50.426000</ts>
+  <user>Dejuan</user>
+  <text>is there a way to capture the mouse position when a racket/gui window doesn’t have focus?```scheme(class canvas% (inherit refresh) (define x 0) (define/override (onevent amouseevent) (set! x (/ (send amouseevent getx) 1)) (refresh))```</text>
+</message>
+<message>
+  <ts>2020-05-07T13:57:11.246000</ts>
+  <user>Dejuan</user>
+  <text>I suspect is it possible because I can get a negative mouse xposition by moving the moving the mouse quickly.</text>
+</message>
+<message>
+  <ts>2020-05-08T00:45:42.079000</ts>
+  <user>Rahmel</user>
+  <text>@StephenD I'm not sure if this is exactly what you're looking for but I did a little experiment and set up a timer repeatedly calling `getcurrentmousestate` from racket/gui and that gave me the (absolute) mouse position even when DrRacket was minimized and whatnot</text>
+</message>
+<message>
+  <ts>2020-05-08T00:46:51.773000</ts>
+  <user>Rahmel</user>
+  <text>apologies for the ping if that's not quite what you were going for</text>
+</message>
+<message>
+  <ts>2020-05-08T09:39:41.559000</ts>
+  <user>Dejuan</user>
+  <text>its awesome thank you!</text>
+</message>
+<message>
+  <ts>2020-05-09T01:13:35.560000</ts>
+  <user>Kendan</user>
+  <text>any good packages for plotting graphs of functions and whatnot?</text>
+</message>
+<message>
+  <ts>2020-05-09T01:15:53.089000</ts>
+  <user>Page</user>
+  <text>The `plot` library is included in the main distribution</text>
+</message>
+<message>
+  <ts>2020-05-09T01:20:52.021000</ts>
+  <user>Kendan</user>
+  <text>thanks somehow i overlooked it 😔</text>
+</message>
+<message>
+  <ts>2020-05-09T01:32:12.993000</ts>
+  <user>Cavin</user>
+  <text>don't worry about it the main distribution is huge 🙂 it's easy to overlook stuff in it</text>
+</message>
+<message>
+  <ts>2020-05-09T05:55:43.841000</ts>
+  <user>Cavin</user>
+  <text>tonight I worked on a neat AI library and got to the point where it can solve this problem: I have 100 copper I can transmute 10 copper into 1 silver I can transmute 10 silver into 1 gold I want 1 gold</text>
+</message>
+<message>
+  <ts>2020-05-09T05:58:35.237000</ts>
+  <user>Cavin</user>
+  <text>the code looks like this:```scheme(define transmutesilver (multisetaction #:requirements (hash copper (atleastrange 10)) #:deletions (multisetofcopies copper 10) #:additions (multiset silver)))(define transmutegold (multisetaction #:requirements (hash silver (atleastrange 10)) #:deletions (multisetofcopies silver 10) #:additions (multiset gold)))(define problem (multisetplanningproblem #:state (multisetofcopies copper 100) #:actions (set transmutesilver transmutegold) #:goal (multisetgoal (hash gold (singletonrange 1)))))(multisetplanningproblemsolve problem)```</text>
+</message>
+<message>
+  <ts>2020-05-09T10:33:10.635000</ts>
+  <user>Dejuan</user>
+  <text>https://github.com/racket/gui/issues/184 See also https://racket.slack.com/archives/C06V96CKX/p1589015478233100</text>
+</message>
+<message>
+  <ts>2020-05-09T20:06:53.155000</ts>
+  <user>Kendan</user>
+  <text>yo plot makes a %snip 😍plot draw gui are all so nicely fit together</text>
+</message>
+<message>
+  <ts>2020-05-09T21:06:38.783000</ts>
+  <user>Gorka</user>
+  <text>Monitoring systems (over ssh) plotting the data using plot and refreshing as new data arrives.</text>
+</message>
+<message>
+  <ts>2020-05-09T21:10:09.506000</ts>
+  <user>Gorka</user>
+  <text>Unfortunately I haven't used it in a while there was a problem with getting the plot frames to stay static.</text>
+</message>
+<message>
+  <ts>2020-05-09T21:18:05.593000</ts>
+  <user>Kendan</user>
+  <text>sweet</text>
+</message>
+<message>
+  <ts>2020-05-09T21:18:34.841000</ts>
+  <user>Kendan</user>
+  <text>i want to make zoomable user interfaces</text>
+</message>
+<message>
+  <ts>2020-05-09T21:19:27.106000</ts>
+  <user>Kendan</user>
+  <text>i have a plan but i'm still pretty new.</text>
+</message>
+<message>
+  <ts>2020-05-09T21:20:53.603000</ts>
+  <user>Kendan</user>
+  <text>if i don't make any progress by a week from now then punish me</text>
+</message>
+<message>
+  <ts>2020-05-09T23:14:01.981000</ts>
+  <user>Dejuan</user>
+  <text>FYI there is a great animated plot lib in planet that I've been meaning to port to the package repository.</text>
+</message>
+<message>
+  <ts>2020-05-09T23:22:27.679000</ts>
+  <user>Dejuan</user>
+  <text>https://github.com/spdegabrielle/animatedcanvas my copy</text>
+</message>
+<message>
+  <ts>2020-05-10T16:19:56.212000</ts>
+  <user>Dejuan</user>
+  <text>https://blog.racketlang.org/2020/05/racketis25.html</text>
+</message>
+<message>
+  <ts>2020-05-10T16:40:58.411000</ts>
+  <user>Kendan</user>
+  <text>today!?</text>
+</message>
+<message>
+  <ts>2020-05-10T16:41:05.968000</ts>
+  <user>Kendan</user>
+  <text>happy bd racket ily</text>
+</message>
+<message>
+  <ts>2020-05-10T18:15:41.512000</ts>
+  <user>Dejuan</user>
+  <text>Quickscriptextra is a bunch of useful scripts for DrRacket scripts (menu) functionality;—Major update: putfunction is much faster by triggering checksyntax as early as possible and avoiding its recomputation. More warnings and error reporting (in particular regarding mutated variables). Added more information at the top of the script file in particular some caveats.Please report bugs here:https://github.com/Metaxal/quickscriptextra/issuesIf you have already installed this: `raco pkg update quickscriptextra`and if DrRacket is open click on Scripts | Manage scripts | Unload persistent scripts to restart the script.</text>
+</message>
+<message>
+  <ts>2020-05-11T12:21:10.202000</ts>
+  <user>Dejuan</user>
+  <text>Continuations in Racket's Web Serverhttps://defn.io/2020/05/11/racketwebserverinternals/</text>
+</message>
+<message>
+  <ts>2020-05-12T19:43:32.273000</ts>
+  <user>Eloisa</user>
+  <text>what's a continutation? i hear about it a fair bit in dicussions related to scheme</text>
+</message>
+<message>
+  <ts>2020-05-12T20:16:58.627000</ts>
+  <user>Cavin</user>
+  <text>It\'s a way of representing the rest of the program</text>
+</message>
+<message>
+  <ts>2020-05-12T20:18:44.155000</ts>
+  <user>Cavin</user>
+  <text>If you pause any running program you can chop up its code into three distinct pieces: The code that's already been run The next step The code to run after the next step</text>
+</message>
+<message>
+  <ts>2020-05-12T20:22:11.863000</ts>
+  <user>Cavin</user>
+  <text>For example say this code is running and the program has reached the part indicated by the ^ symbol:```javavar x = readNumber();var y = readNumber();var result = (x + y);// ^print(result);```Then the code that's already been run is the first two lines the next step is to compute `x + y` and the code to run afterwards is this:```var result = _;print(result);```...where the underscore represents a hole for the result we're going to compute in the next step.</text>
+</message>
+<message>
+  <ts>2020-05-12T20:23:59.112000</ts>
+  <user>Cavin</user>
+  <text>The code to run next is called the program\'s current continuation.</text>
+</message>
+<message>
+  <ts>2020-05-12T20:24:14.293000</ts>
+  <user>Cavin</user>
+  <text>Some languages let you _capture_ continuations meaning you can insert code that says take the rest of the program and save it in a function I can call. This lets you call that function _multiple_ times or decide not to call it at all giving you the ability to restart chunks of code or skip them.</text>
+</message>
+<message>
+  <ts>2020-05-12T20:25:07.882000</ts>
+  <user>Cavin</user>
+  <text>In normal code there's not much point to this it's just a complicated `goto`. But you can combine it with macros to implement your own control systems like for loops exception systems threads etc.</text>
+</message>
+<message>
+  <ts>2020-05-12T20:25:36.556000</ts>
+  <user>Cavin</user>
+  <text>I have a gist with several examples of how to do that here: https://gist.github.com/jackfirth/027411d567385dadb3202bee75a847b4</text>
+</message>
+<message>
+  <ts>2020-05-12T20:27:25.719000</ts>
+  <user>Cavin</user>
+  <text>See also this wonderful stackoverflow answer about continuation prompts as it explains the difference between _full_ continuations and _delimited_ continuations: https://stackoverflow.com/questions/29838344/whatexactlyisacontinuationpromptSummary: delimited continuations are the ones you should use. Full continuations are full of complex nonsensical behavior that\'s not useful in real programs.</text>
+</message>
+<message>
+  <ts>2020-05-13T04:03:44.341000</ts>
+  <user>Cavin</user>
+  <text>unrelated to continuations I'm making a thing! https://twitter.com/doitwithalambda/status/1260419874381156352</text>
+</message>
+<message>
+  <ts>2020-05-13T04:19:40.746000</ts>
+  <user>Angelus</user>
+  <text>Ooh</text>
+</message>
+<message>
+  <ts>2020-05-13T04:19:42.872000</ts>
+  <user>Angelus</user>
+  <text>Neat!</text>
+</message>
+<message>
+  <ts>2020-05-13T20:41:02.997000</ts>
+  <user>Dejuan</user>
+  <text>https://pkgs.racketlang.org/package/rs</text>
+</message>
+<message>
+  <ts>2020-05-13T20:41:51.580000</ts>
+  <user>Dejuan</user>
+  <text>https://github.com/mcdejonge/rs</text>
+</message>
+<message>
+  <ts>2020-05-13T20:57:28.842000</ts>
+  <user>Kendan</user>
+  <text>&gt; Racket is not built for real time computing and I am not a systems programmer so the timing of rs is a bit ... wobbly.</text>
+</message>
+<message>
+  <ts>2020-05-13T20:57:36.238000</ts>
+  <user>Kendan</user>
+  <text>ouch i was worried about this</text>
+</message>
+<message>
+  <ts>2020-05-13T20:58:24.740000</ts>
+  <user>Dejuan</user>
+  <text>That’s why I asked what sound engine you would use?</text>
+</message>
+<message>
+  <ts>2020-05-13T20:58:50.166000</ts>
+  <user>Dejuan</user>
+  <text>I think his package is great!</text>
+</message>
+<message>
+  <ts>2020-05-13T20:59:36.508000</ts>
+  <user>Kendan</user>
+  <text>rsound is the only one right</text>
+</message>
+<message>
+  <ts>2020-05-13T20:59:40.790000</ts>
+  <user>Kendan</user>
+  <text>idk how its timing is</text>
+</message>
+<message>
+  <ts>2020-05-13T20:59:52.113000</ts>
+  <user>Kendan</user>
+  <text>ive experienced this issue with other languages</text>
+</message>
+<message>
+  <ts>2020-05-13T21:00:10.631000</ts>
+  <user>Kendan</user>
+  <text>i don’t want to use C or C++ but for real audio work it often seems like thats the only choice</text>
+</message>
+<message>
+  <ts>2020-05-13T21:00:29.183000</ts>
+  <user>Kendan</user>
+  <text>but idk about bindings maybe theyre safe and provide the same kinds of performance 🤷\u200d♀️</text>
+</message>
+<message>
+  <ts>2020-05-13T21:01:41.573000</ts>
+  <user>Dejuan</user>
+  <text>How about a supercollider client</text>
+</message>
+<message>
+  <ts>2020-05-13T21:02:02.373000</ts>
+  <user>Dejuan</user>
+  <text>https://github.com/quakehead/racketsc?files=1</text>
+</message>
+<message>
+  <ts>2020-05-13T21:03:45.762000</ts>
+  <user>Dejuan</user>
+  <text>https://github.com/quakehead/rsc3</text>
+</message>
+<message>
+  <ts>2020-05-13T22:22:44.362000</ts>
+  <user>Kendan</user>
+  <text>ye supercollider is fast it would do the trick</text>
+</message>
+<message>
+  <ts>2020-05-13T22:22:46.259000</ts>
+  <user>Kendan</user>
+  <text>or csound</text>
+</message>
+<message>
+  <ts>2020-05-13T22:22:49.220000</ts>
+  <user>Kendan</user>
+  <text>or anything like that</text>
+</message>
+<message>
+  <ts>2020-05-13T22:22:58.353000</ts>
+  <user>Kendan</user>
+  <text>well i guess those are the only two stable fast ones</text>
+</message>
+<message>
+  <ts>2020-05-13T22:23:04.755000</ts>
+  <user>Kendan</user>
+  <text>that i can think of at least</text>
+</message>
+<message>
+  <ts>2020-05-13T22:37:33.290000</ts>
+  <user>Kendan</user>
+  <text>o i forgot supercollider works as a server that communicates through OSC</text>
+</message>
+<message>
+  <ts>2020-05-13T22:37:40.216000</ts>
+  <user>Kendan</user>
+  <text>literally the best way they could have done that</text>
+</message>
+<message>
+  <ts>2020-05-13T22:37:48.789000</ts>
+  <user>Kendan</user>
+  <text>that will definitely be my go to</text>
+</message>
+<message>
+  <ts>2020-05-14T00:02:15.364000</ts>
+  <user>Cavin</user>
+  <text>@giftfromgod try Rust instead of C/C++ if you're making something realtime and Racket is too wobbly</text>
+</message>
+<message>
+  <ts>2020-05-14T00:02:42.990000</ts>
+  <user>Cavin</user>
+  <text>Rust is basically what if c/c++ but actually done well</text>
+</message>
+<message>
+  <ts>2020-05-14T01:23:22.975000</ts>
+  <user>Kendan</user>
+  <text>i did</text>
+</message>
+<message>
+  <ts>2020-05-14T01:23:27.223000</ts>
+  <user>Kendan</user>
+  <text>i didn’t enjoy it</text>
+</message>
+<message>
+  <ts>2020-05-14T02:56:47.448000</ts>
+  <user>Cavin</user>
+  <text>oh don't mind me then</text>
+</message>
+<message>
+  <ts>2020-05-14T03:41:15.852000</ts>
+  <user>Kendan</user>
+  <text>nah its a great recommendation; i should try it again in the future but i’d also love to make racket work as much as i can. racket makes me happy</text>
+</message>
+<message>
+  <ts>2020-05-14T03:42:42.656000</ts>
+  <user>Kendan</user>
+  <text>i think supercollider can get me far enough but any way i’m just focused on plotting data for now. audio stuff is way down the line</text>
+</message>
+<message>
+  <ts>2020-05-15T20:58:31.247000</ts>
+  <user>Eloisa</user>
+  <text>can we have a #resouces channel?</text>
+</message>
+<message>
+  <ts>2020-05-15T20:58:41.403000</ts>
+  <user>Eloisa</user>
+  <text>i'd like to add this to it: https://www.cs.uni.edu/~wallingf/teaching/cs3540/</text>
+</message>
+<message>
+  <ts>2020-05-15T21:03:14.253000</ts>
+  <user>Dejuan</user>
+  <text>Added to https://github.com/racket/racket/wiki/CoursesusingRacket</text>
+</message>
+<message>
+  <ts>2020-05-15T21:03:45.609000</ts>
+  <user>Dejuan</user>
+  <text>Please check out https://github.com/racket/racket/wiki</text>
+</message>
+<message>
+  <ts>2020-05-15T21:04:18.593000</ts>
+  <user>Dejuan</user>
+  <text>Can add channel if you still want to?</text>
+</message>
+<message>
+  <ts>2020-05-15T22:22:21.401000</ts>
+  <user>Leslye</user>
+  <text>Yes. Make it easy to discover.</text>
+</message>
+<message>
+  <ts>2020-05-15T22:25:37.024000</ts>
+  <user>Ifra</user>
+  <text>seems like it\'d be nice to have a closed resources or links channel right next to #rules just for general orientation</text>
+</message>
+<message>
+  <ts>2020-05-15T22:25:50.710000</ts>
+  <user>Eloisa</user>
+  <text>yea that's what i was asking about</text>
+</message>
+<message>
+  <ts>2020-05-15T22:25:51.887000</ts>
+  <user>Ifra</user>
+  <text>like pinned messages but across the whole server</text>
+</message>
+<message>
+  <ts>2020-05-15T22:26:26.799000</ts>
+  <user>Eloisa</user>
+  <text>like can we have a #resources channel in this server like there's a #general channel?</text>
+</message>
+<message>
+  <ts>2020-05-15T22:27:10.115000</ts>
+  <user>Dejuan</user>
+  <text>I just made #resources</text>
+</message>
+<message>
+  <ts>2020-05-15T22:27:28.588000</ts>
+  <user>Dejuan</user>
+  <text>Please try it out as I just did it on my phone</text>
+</message>
+<message>
+  <ts>2020-05-15T22:28:02.011000</ts>
+  <user>Ifra</user>
+  <text>I don't see it</text>
+</message>
+<message>
+  <ts>2020-05-15T22:28:56.701000</ts>
+  <user>Ifra</user>
+  <text>I see it now :)</text>
+</message>
+<message>
+  <ts>2020-05-15T22:29:13.632000</ts>
+  <user>Dejuan</user>
+  <text>Forgot to sync</text>
+</message>
+<message>
+  <ts>2020-05-15T22:29:28.057000</ts>
+  <user>Dejuan</user>
+  <text>😭</text>
+</message>
+<message>
+  <ts>2020-05-16T17:26:25.967000</ts>
+  <user>Gorka</user>
+  <text>Four lines to make your computer talk (on Windows):```#lang racket/base(require ffi/com)(define voice (comcreateinstance SAPI.SPVoice"))(cominvoke voice Speak hello world")```</text>
+</message>
+<message>
+  <ts>2020-05-16T17:27:44.957000</ts>
+  <user>Dejuan</user>
+  <text>I wonder what the MacOS and Linux equivalents are</text>
+</message>
+<message>
+  <ts>2020-05-16T17:30:23.826000</ts>
+  <user>Gorka</user>
+  <text>I've done a little research on it. There is a python tts package that could be cribbed from. https://github.com/nateshmbhat/pyttsx3/tree/master/pyttsx3/drivers</text>
+</message>
+<message>
+  <ts>2020-05-16T17:33:57.351000</ts>
+  <user>Gorka</user>
+  <text>Also on Linux is Flite (festival lite) api which I got about five minutes into ffi and then something came up.</text>
+</message>
+<message>
+  <ts>2020-05-16T17:35:07.297000</ts>
+  <user>Gorka</user>
+  <text>That windows code is from about ten minutes of work. Mostly Googleing the correct Racket and Windows apis</text>
+</message>
+<message>
+  <ts>2020-05-16T17:36:51.452000</ts>
+  <user>Dejuan</user>
+  <text>nice. The macos looks like it will be NSSpeechSynthesizer</text>
+</message>
+<message>
+  <ts>2020-05-16T17:38:48.672000</ts>
+  <user>Dejuan</user>
+  <text>post https://discordapp.com/channels/571040468092321801/618895179343986688/711268335739863091 on slack/reddit/twitter</text>
+</message>
+<message>
+  <ts>2020-05-16T17:59:41.423000</ts>
+  <user>Gorka</user>
+  <text>posting now</text>
+</message>
+<message>
+  <ts>2020-05-16T17:59:48.100000</ts>
+  <user>Gorka</user>
+  <text>reddit at least 🙂</text>
+</message>
+<message>
+  <ts>2020-05-16T18:00:08.860000</ts>
+  <user>Dejuan</user>
+  <text>is it wrong to use `(begin ...)` just to indent?</text>
+</message>
+<message>
+  <ts>2020-05-16T18:01:26.745000</ts>
+  <user>Dejuan</user>
+  <text>racketusers too. Can I convince you to post it as a challenge for linux and osx racketeers to do the same in as few lines as possible?</text>
+</message>
+<message>
+  <ts>2020-05-16T18:03:08.140000</ts>
+  <user>Gorka</user>
+  <text>&gt; is it wrong to use (begin ...) just to indent?Probably not it has not much other use and it should not be performance impacting</text>
+</message>
+<message>
+  <ts>2020-05-20T01:23:13.125000</ts>
+  <user>Gorka</user>
+  <text>There are three bit(string|vector) implementations for Racket.</text>
+</message>
+<message>
+  <ts>2020-05-20T01:37:43.855000</ts>
+  <user>Cavin</user>
+  <text>I know of the bitvector package and the rebellion bitstring one what's the third?</text>
+</message>
+<message>
+  <ts>2020-05-20T04:25:43.349000</ts>
+  <user>Gorka</user>
+  <text>bitsyntax</text>
+</message>
+<message>
+  <ts>2020-05-20T04:53:42.058000</ts>
+  <user>Cavin</user>
+  <text>ah that's tonyg's pattern matching one right?</text>
+</message>
+<message>
+  <ts>2020-05-20T16:37:37.989000</ts>
+  <user>Gorka</user>
+  <text>Yeah</text>
+</message>
+<message>
+  <ts>2020-05-20T16:39:19.344000</ts>
+  <user>Gorka</user>
+  <text>Today I found there is a Racket process that has been running for a very long time on this laptop that is using 100% cpu</text>
+</message>
+<message>
+  <ts>2020-05-20T16:39:22.510000</ts>
+  <user>Gorka</user>
+  <text>😦</text>
+</message>
+<message>
+  <ts>2020-05-20T17:13:05.387000</ts>
+  <user>Dejuan</user>
+  <text>I always start a gui processes and forget them behind all the other windows</text>
+</message>
+<message>
+  <ts>2020-05-20T17:17:18.001000</ts>
+  <user>Gorka</user>
+  <text>This was something running `raco setup` (I think) and it got stuck somehow</text>
+</message>
+<message>
+  <ts>2020-05-20T22:36:50.395000</ts>
+  <user>Zaniah</user>
+  <text>Is there a Racket package (maybe even a #lang) for editing video clips like choosing video segments arranging them looping them etc?</text>
+</message>
+<message>
+  <ts>2020-05-21T00:18:57.776000</ts>
+  <user>Ifra</user>
+  <text>sounds like you're describing `#lang video`: https://lang.video/</text>
+</message>
+<message>
+  <ts>2020-05-21T00:56:54.586000</ts>
+  <user>Zaniah</user>
+  <text>@rocketnia Thanks! That is exactly what I was looking for. For some reason it doesn't come up when searching the main Racket docs site even though the docs are hosted there.</text>
+</message>
+<message>
+  <ts>2020-05-21T01:47:26.595000</ts>
+  <user>Ifra</user>
+  <text>Yeah I wonder why that's the case... I looked at the project's info.rkt and I don't see it doing anything on purpose to make it not show up like that. Is this a bug? Is there another configuration somewhere?</text>
+</message>
+<message>
+  <ts>2020-05-21T01:48:22.287000</ts>
+  <user>Ifra</user>
+  <text>there are a few modules I might like to document except that I'm afraid they'll distract people from other things that have the same name so I might like to use this configuration for myself if it exists 😄</text>
+</message>
+<message>
+  <ts>2020-05-21T01:49:07.472000</ts>
+  <user>Ifra</user>
+  <text>(ideally people would still be able to search those docs perhaps using the set context feature in the docs search interface)</text>
+</message>
+<message>
+  <ts>2020-05-21T05:43:31.488000</ts>
+  <user>Cavin</user>
+  <text>this file has made me hate quasiquotation with a burning passion https://github.com/racket/scribble/blob/master/scribblelib/scribble/htmlrender.rkt</text>
+</message>
+<message>
+  <ts>2020-05-21T09:04:04.685000</ts>
+  <user>Ifra</user>
+  <text>(Deleted what I wrote 1.5h ago because I think I let my emotions get the best of me.)</text>
+</message>
+<message>
+  <ts>2020-05-21T09:05:54.603000</ts>
+  <user>Dejuan</user>
+  <text>I know the feeling.</text>
+</message>
+<message>
+  <ts>2020-05-21T09:45:50.832000</ts>
+  <user>Ifra</user>
+  <text>Having collected my thoughts better: I've been hoping to understand that perspective on quasiquotation. I've been keeping an eye out for an example file that would show quasiquotation's strengths and this file is pretty close to what I would have picked. Jack if this file makes you feel that way I'm feeling some despair about finding that common ground anytime soon.(In my original message I mentioned something else about the file that I found frustrating. I waa hoping it would demonstrate that I understood the feeling but I think it would've just been distracting.)</text>
+</message>
+<message>
+  <ts>2020-05-21T09:49:27.593000</ts>
+  <user>Dejuan</user>
+  <text>I came across this link on quasiquote recently but I haven’t read it yet https://weinholt.se/articles/quasiquoteliteralmagic/</text>
+</message>
+<message>
+  <ts>2020-05-21T09:49:48.194000</ts>
+  <user>Dejuan</user>
+  <text>I don't know if it is any good</text>
+</message>
+<message>
+  <ts>2020-05-21T10:57:47.347000</ts>
+  <user>Ifra</user>
+  <text>that is a pretty funny spec wording issue</text>
+</message>
+<message>
+  <ts>2020-05-21T14:47:29.829000</ts>
+  <user>Dejuan</user>
+  <text>now I have to read it</text>
+</message>
+<message>
+  <ts>2020-05-21T14:51:55.832000</ts>
+  <user>Dejuan</user>
+  <text>oh it is scheme. lists created with quasiquote are immutable. OK.</text>
+</message>
+<message>
+  <ts>2020-05-21T16:52:07.610000</ts>
+  <user>Page</user>
+  <text>I\'m working on a version of `dict/c` with chaperones but I\'m running into a surprising problem that only comes up because of the `failureresult` optionalargument to `dictref`.When the `failureresult` is used I don\'t want the value contract to apply to that result. But when the failureresult isn\'t used and the value result happens to be exactly equal to the failureresult I do want the value contract to apply to it. How do I distinguish those though?I tried to take inspiration from Carl Eastlund\'s `dict/c` implemented in `mischief/contract` but it doesn\'t use chaperones so it is free to both add an escape continuation and change the `failureresult` input to always be a new synthesized procedure. That way the new synthesized failureresult procedure can call the escape continuation. If I\'m constrained to chaperones I don\'t know how to do either of those things.How can I detect whether the `failureresult` is usedornot by the dict\'s implementation of `dictref` while keeping the `failureresult` a chaperone of the original failureresult?I have also asked on the Racket Users list: https://groups.google.com/d/msg/racketusers/kHQmJh63mU/8SXYlmZzAAAJ</text>
+</message>
+<message>
+  <ts>2020-05-21T19:04:13.056000</ts>
+  <user>Cavin</user>
+  <text>@rocketnia I'm not bothered by _all_ quasiquotation in that file. Just stuff like this:````(,@xs @ys @zs)```That's just `(append xs ys zs)` with extra steps.</text>
+</message>
+<message>
+  <ts>2020-05-21T19:05:23.939000</ts>
+  <user>Cavin</user>
+  <text>I've even found a few cases of this:````(,x)```...because apparently `(list x)` wasn't arcane enough.</text>
+</message>
+<message>
+  <ts>2020-05-21T19:08:54.960000</ts>
+  <user>Cavin</user>
+  <text>I can see the usefulness of stuff like````(script ([type text/javascript"] [src scriptsrc]))````</text>
+</message>
+<message>
+  <ts>2020-05-21T19:10:14.464000</ts>
+  <user>Angelus</user>
+  <text>``,x`</text>
+</message>
+<message>
+  <ts>2020-05-21T19:22:15.647000</ts>
+  <user>Gorka</user>
+  <text>Some of those I only expect to see in test suites for quasiquotation</text>
+</message>
+<message>
+  <ts>2020-05-21T19:25:58.651000</ts>
+  <user>Gorka</user>
+  <text>The only time I heavily have used quasiquote is in implementing macros in pretty barebones scheme systems.</text>
+</message>
+<message>
+  <ts>2020-05-21T19:29:58.893000</ts>
+  <user>Cavin</user>
+  <text>I\'d mind it less if the template variables were always just variables not nested expressions. I\'d much rather read this:```scheme(define scriptsrc (... some complex expression ...))`(script ([type text/javascript"] [src scriptsrc]))` ```Than this:```scheme`(script ([type text/javascript"] [src (... some complex expression ...)]))````</text>
+</message>
+<message>
+  <ts>2020-05-21T19:32:07.861000</ts>
+  <user>Gorka</user>
+  <text>I have a similar problem with large nested expressions</text>
+</message>
+<message>
+  <ts>2020-05-21T19:38:05.171000</ts>
+  <user>Cavin</user>
+  <text>That file also contained instances of this:```scheme(cond [(let ([x ...]) (and something? x)) =&gt; (lambda (x) body ...)])```which should just be:```scheme(define x ...)(cond [something? body ...])```</text>
+</message>
+<message>
+  <ts>2020-05-21T19:40:55.196000</ts>
+  <user>Gorka</user>
+  <text>!!</text>
+</message>
+<message>
+  <ts>2020-05-21T19:53:29.055000</ts>
+  <user>Cavin</user>
+  <text>I don't think the `=&gt;` form of `cond` clauses is a good idea</text>
+</message>
+<message>
+  <ts>2020-05-21T23:59:26.424000</ts>
+  <user>Ifra</user>
+  <text>There are places I've seen quasiquotation be overused in Racket but when I looked through that file I didn't find any overuse.In particular you mention things like `` `(,@xs @ys @zs)`` and `` `(,x)`` but all six occurrences of `` `(,`` in that file are generating code in an sexpression DSL.It conveys the intent better for refactoring purposes. If someday the sexpression DSL becomes a syntax object DSL for the sake of tracking source locations then all those places that generate code with `` ` `` can be refactored to use ``#` `` but any places that generate code with `list` or `append` will be harder to track down.It allows the quoted code to be edited with the same syntax it would have had if it were in a file by itself. If an expression looks like `` `(,@xs @ys @zs)`` today that's mostly a coincidence. Yesterday it might have looked like `` `(,@xs #:with (foo) (begin @ys) @zs)`` and tomorrow it might look like something else. Spotting patterns in the sexpressions and replacing them with `append` `cons` or `list` can be a clever way to abbreviate but it doesn't last.In general manipulating sexpression code as though it's made of cons cells is a subtle type error. When those cons cells become syntax objects or when the code's lists have little quirky notations in the middle of them the type error springs out. It's better to build up the code using verbatim parentheses under a quasiquotation than to build it up using cons cell operations.</text>
+</message>
+<message>
+  <ts>2020-05-22T01:26:47.333000</ts>
+  <user>Page</user>
+  <text>Is it wrong in a procedure chaperone to call the function I'm supposed to be chaperoning during the chaperone's wrapperproc? It feels kinda evil to me but I'm not sure why</text>
+</message>
+<message>
+  <ts>2020-05-22T02:14:22.562000</ts>
+  <user>Ifra</user>
+  <text>That does seem pretty weird especially if the function gets wrapped multiple times that way (calling it 2^n times) or if the function has side effects that get duplicated.</text>
+</message>
+<message>
+  <ts>2020-05-22T02:16:16.344000</ts>
+  <user>Ifra</user>
+  <text>meanwhile @notjack I wrote up an example of something I like about compound unquoted expressions: &lt;https://gist.github.com/rocketnia/ea4eb48897239f9c80bbcc13dd5b2f61&gt; (edited to remove a pretty boring preview)</text>
+</message>
+<message>
+  <ts>2020-05-22T07:55:31.873000</ts>
+  <user>Cavin</user>
+  <text>@rocketnia I think my hangup here is that I don't want to use quasiquotation _or_ list manipulation functions. I want actual data structures. If I make a typo I want to find out fast.</text>
+</message>
+<message>
+  <ts>2020-05-22T08:45:17.076000</ts>
+  <user>Ifra</user>
+  <text>In that case suppose you define individual operations for making various HTML elements so that when you misspell one of their names you can catch it right away.That's practically what Scribble is already. This is the backend of that layer and the dream of being able to use this kind of thing in its own implementation poses a bootstrapping issue.</text>
+</message>
+<message>
+  <ts>2020-05-22T23:06:20.884000</ts>
+  <user>Cavin</user>
+  <text>It would help if syntax highlighting colored the quoted parts different like string literals</text>
+</message>
+<message>
+  <ts>2020-05-23T03:38:50.853000</ts>
+  <user>Ifra</user>
+  <text>Agreed!</text>
+</message>
+<message>
+  <ts>2020-05-23T04:28:09.661000</ts>
+  <user>Ifra</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-05-23T04:29:09.935000</ts>
+  <user>Ifra</user>
+  <text>I've been thinking lately that a second dimension of indentation could help with this stuff so there's a mockup.</text>
+</message>
+<message>
+  <ts>2020-05-23T17:33:53.951000</ts>
+  <user>Zaniah</user>
+  <text>I haven't used quasiquote that much but I would love something similar for quasisyntax. I was wondering if it would be generalizable  could code in each phase level get highlighted differently? But I don't think this is possible because I've written macros that expand a single piece of code into two separate phase levels.</text>
+</message>
+<message>
+  <ts>2020-05-24T04:51:53.021000</ts>
+  <user>Eloisa</user>
+  <text>we should all have a voice chat sometime! :)</text>
+</message>
+<message>
+  <ts>2020-05-24T16:19:02.971000</ts>
+  <user>Bradley</user>
+  <text>Hi anyone here can clarify to me what the executable for the regular variant of racket is? (see: https://download.racketlang.org/license.html)</text>
+</message>
+<message>
+  <ts>2020-05-24T16:19:21.748000</ts>
+  <user>Dejuan</user>
+  <text>there is a #voice channel</text>
+</message>
+<message>
+  <ts>2020-05-24T16:19:36.262000</ts>
+  <user>Dejuan</user>
+  <text>`racket`</text>
+</message>
+<message>
+  <ts>2020-05-24T16:20:42.342000</ts>
+  <user>Dejuan</user>
+  <text>specifically `bin/racket`</text>
+</message>
+<message>
+  <ts>2020-05-24T16:21:04.013000</ts>
+  <user>Dejuan</user>
+  <text>or `gracket` if you need gui stuff</text>
+</message>
+<message>
+  <ts>2020-05-24T16:21:16.892000</ts>
+  <user>Bradley</user>
+  <text>ok but regarding this sentence: Any program written in Racket that does not distribute the Regular variant racket binary itself is not affected by the license of that binary. If I build an application and bundle the runtime with raco exe ... is that the binary itself ?</text>
+</message>
+<message>
+  <ts>2020-05-24T16:21:46.305000</ts>
+  <user>Bradley</user>
+  <text>is my code then lgpl licensed ? this is really confusing sorry</text>
+</message>
+<message>
+  <ts>2020-05-24T16:21:58.185000</ts>
+  <user>Dejuan</user>
+  <text>no racket moved to mit/apache</text>
+</message>
+<message>
+  <ts>2020-05-24T16:22:11.339000</ts>
+  <user>Dejuan</user>
+  <text>and it confuses everyone</text>
+</message>
+<message>
+  <ts>2020-05-24T16:22:13.016000</ts>
+  <user>Bradley</user>
+  <text>yea but this clause made me insecure here</text>
+</message>
+<message>
+  <ts>2020-05-24T16:22:54.613000</ts>
+  <user>Dejuan</user>
+  <text>but the thing to remember is your code is your code</text>
+</message>
+<message>
+  <ts>2020-05-24T16:23:10.637000</ts>
+  <user>Dejuan</user>
+  <text>Where is that sentence? I'll see if it can be removed</text>
+</message>
+<message>
+  <ts>2020-05-24T16:24:17.734000</ts>
+  <user>Bradley</user>
+  <text>https://download.racketlang.org/license.html the sentence is: Any program written in Racket that does not distribute the Regular variant racket binary itself is not affected by the license of that binary. in conjunction with regular version of racket. my guess is this is needed but i did not understand it really</text>
+</message>
+<message>
+  <ts>2020-05-24T16:24:40.842000</ts>
+  <user>Eloisa</user>
+  <text>Hey @StephenD ! Sorry about the house</text>
+</message>
+<message>
+  <ts>2020-05-24T16:24:43.359000</ts>
+  <user>Eloisa</user>
+  <text>noise</text>
+</message>
+<message>
+  <ts>2020-05-24T16:24:51.672000</ts>
+  <user>Dejuan</user>
+  <text>what noise?</text>
+</message>
+<message>
+  <ts>2020-05-24T16:25:09.099000</ts>
+  <user>Eloisa</user>
+  <text>I muted but I'm hosting a small group at my house</text>
+</message>
+<message>
+  <ts>2020-05-24T16:25:46.269000</ts>
+  <user>Eloisa</user>
+  <text>What are you working on?</text>
+</message>
+<message>
+  <ts>2020-05-24T16:26:05.135000</ts>
+  <user>Dejuan</user>
+  <text>can you see my screen?</text>
+</message>
+<message>
+  <ts>2020-05-24T16:26:13.696000</ts>
+  <user>Eloisa</user>
+  <text>Nope</text>
+</message>
+<message>
+  <ts>2020-05-24T16:26:14.229000</ts>
+  <user>Dejuan</user>
+  <text>I was wonderign if that was working</text>
+</message>
+<message>
+  <ts>2020-05-24T16:26:29.013000</ts>
+  <user>Eloisa</user>
+  <text>I just see two streams of your face</text>
+</message>
+<message>
+  <ts>2020-05-24T16:26:37.504000</ts>
+  <user>Dejuan</user>
+  <text>rofl!</text>
+</message>
+<message>
+  <ts>2020-05-24T16:26:48.635000</ts>
+  <user>Eloisa</user>
+  <text>Try showing your entire screen and not just one app :)</text>
+</message>
+<message>
+  <ts>2020-05-24T16:27:33.503000</ts>
+  <user>Dejuan</user>
+  <text>sorry about that  my face once is enough. Twice is too much</text>
+</message>
+<message>
+  <ts>2020-05-24T16:27:41.072000</ts>
+  <user>Eloisa</user>
+  <text>Hehe no worries</text>
+</message>
+<message>
+  <ts>2020-05-24T16:27:48.634000</ts>
+  <user>Eloisa</user>
+  <text>I'll check out what's going on elsewhere</text>
+</message>
+<message>
+  <ts>2020-05-24T17:13:45.641000</ts>
+  <user>Dejuan</user>
+  <text>@NeroLXIV https://docs.racketlang.org/license/index.html</text>
+</message>
+<message>
+  <ts>2020-05-24T17:28:40.418000</ts>
+  <user>Dejuan</user>
+  <text>@NeroLXIV use CS variant if you are uncomfortable with LGPL</text>
+</message>
+<message>
+  <ts>2020-05-24T17:29:09.110000</ts>
+  <user>Dejuan</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-05-24T17:29:31.915000</ts>
+  <user>Dejuan</user>
+  <text>racket has two variants</text>
+</message>
+<message>
+  <ts>2020-05-24T17:29:34.149000</ts>
+  <user>Dejuan</user>
+  <text>The traditional Racket runtime system includes code distributed under the GNU Lesser General Public License version 3.The Racket on Chez Scheme runtime system embeds Chez Scheme which is distributed under the Apache version 2.0 license.</text>
+</message>
+<message>
+  <ts>2020-05-24T17:30:37.193000</ts>
+  <user>Dejuan</user>
+  <text>the Chez Scheme (CS) variant is newer and faster and has has a cool nanopass compiler</text>
+</message>
+<message>
+  <ts>2020-05-24T19:16:56.504000</ts>
+  <user>Aulii</user>
+  <text>@StephenD @NeroLXIV the regular racket binary is included in programs created by `raco exe` and `raco distribute` if you use the Regular variant (as listed on the download page).</text>
+</message>
+<message>
+  <ts>2020-05-24T19:26:39.133000</ts>
+  <user>Bradley</user>
+  <text>@StephenD @samth Thanks good thing I asked. I am still far away from distribution but I will give the chez variant a shot anyways. Heard a lot of good things about it. Thanks for the help! Licensing is complicated 🙂</text>
+</message>
+<message>
+  <ts>2020-05-24T19:40:22.565000</ts>
+  <user>Bradley</user>
+  <text>Hm does this new runtime (with chez) have problems with racket gui? Seems like every racket program with gui spams errors to my terminal but does not start (e.g. drracket or a simple gui example i wrote). See: https://pastebin.com/N57znEYc etc... it never stops.</text>
+</message>
+<message>
+  <ts>2020-05-24T20:03:05.530000</ts>
+  <user>Dejuan</user>
+  <text>&gt; Hm does this new runtime (with chez) have problems with racket gui? Seems like every racket program with gui spams errors to my terminal but does not start (e.g. drracket or a simple gui example i wrote). See: https://pastebin.com/N57znEYc etc... it never stops.@NeroLXIV that does not look good</text>
+</message>
+<message>
+  <ts>2020-05-24T20:04:42.251000</ts>
+  <user>Dejuan</user>
+  <text>What version Racket ?What OS? Architecture?</text>
+</message>
+<message>
+  <ts>2020-05-24T20:05:51.295000</ts>
+  <user>Bradley</user>
+  <text>7.7 ubuntu 20.04 64bit</text>
+</message>
+<message>
+  <ts>2020-05-24T20:07:52.388000</ts>
+  <user>Dejuan</user>
+  <text>Do you have a sample program that triggers those errors ?</text>
+</message>
+<message>
+  <ts>2020-05-24T20:09:16.405000</ts>
+  <user>Bradley</user>
+  <text>just starting drracket triggers it. i also have a small program but i am currently on another machine</text>
+</message>
+<message>
+  <ts>2020-05-24T20:12:39.811000</ts>
+  <user>Dejuan</user>
+  <text>Ok can you log those details on https://github.com/racket/drracket/issues/new and @StephenD so I get a notification: I’m on MacOS but I’ll try DrRacket from the command line to see if I can reproduce the issue</text>
+</message>
+<message>
+  <ts>2020-05-24T20:13:40.113000</ts>
+  <user>Bradley</user>
+  <text>Ok I will create an issue then probably tomorrow.</text>
+</message>
+<message>
+  <ts>2020-05-24T21:05:13.278000</ts>
+  <user>Aulii</user>
+  <text>@NeroLXIV I do not see those errors</text>
+</message>
+<message>
+  <ts>2020-05-24T21:08:02.080000</ts>
+  <user>Bradley</user>
+  <text>Same system/arch?</text>
+</message>
+<message>
+  <ts>2020-05-25T09:49:52.646000</ts>
+  <user>Bradley</user>
+  <text>I just tried this on a ubuntu 18.04 vm at work and the same result. this is btw not a drracket issue but a gracket one. every start of gracket ends up like this</text>
+</message>
+<message>
+  <ts>2020-05-25T09:52:25.503000</ts>
+  <user>Dejuan</user>
+  <text>Thanks that helps narrow things a little.</text>
+</message>
+<message>
+  <ts>2020-05-25T09:56:18.957000</ts>
+  <user>Dejuan</user>
+  <text>Can I just check you are using 7.7 CS variant from https://download.racketlang.org ?</text>
+</message>
+<message>
+  <ts>2020-05-25T09:58:08.060000</ts>
+  <user>Dejuan</user>
+  <text>If you have time can you check using a nightly snapshot? https://snapshot.racketlang.org</text>
+</message>
+<message>
+  <ts>2020-05-25T10:33:30.111000</ts>
+  <user>Bradley</user>
+  <text>Yes I used the download. link. I will try the snapshot in a few mins.</text>
+</message>
+<message>
+  <ts>2020-05-25T11:12:19.025000</ts>
+  <user>Bradley</user>
+  <text>Seems like I don't have permission to download the file from the snapshot server: https://www.cs.utah.edu/plt/snapshots/current/installers/racket7.7.0.6x86_64linuxcsxenial.sh is 403 forbidden for me</text>
+</message>
+<message>
+  <ts>2020-05-25T11:15:23.687000</ts>
+  <user>Dejuan</user>
+  <text>https://www.cs.utah.edu/plt/snapshots/current/installers/racket7.7.0.6x86_64linuxcsxenial.sh</text>
+</message>
+<message>
+  <ts>2020-05-25T11:22:11.129000</ts>
+  <user>Bradley</user>
+  <text>maybe it's because of my company vpn.. will try again without it in a sec</text>
+</message>
+<message>
+  <ts>2020-05-25T11:49:58.446000</ts>
+  <user>Bradley</user>
+  <text>same result with the snapshot</text>
+</message>
+<message>
+  <ts>2020-05-25T12:45:13.446000</ts>
+  <user>Bradley</user>
+  <text>i will also try this this evening with a new ubuntu 16.04 vm since it seems like racket(cs) was built on this system</text>
+</message>
+<message>
+  <ts>2020-05-25T17:45:37.639000</ts>
+  <user>Bradley</user>
+  <text>OK @StephenD  1) I installed an ubuntu 16.04 VM and there it works so seems to be a problem with newer ubuntu versions (x64). 2) Thanks for updating that license text. It\'s way more informative now. I just wonder if you use `raco exe` on linux does it not also statically link the runtime?</text>
+</message>
+<message>
+  <ts>2020-05-25T18:03:53.157000</ts>
+  <user>Dejuan</user>
+  <text>https://docs.racketlang.org/raco/exe.html</text>
+</message>
+<message>
+  <ts>2020-05-25T18:04:11.519000</ts>
+  <user>Dejuan</user>
+  <text>I don’t use raco exe so I don’t know.</text>
+</message>
+<message>
+  <ts>2020-05-25T18:05:36.044000</ts>
+  <user>Dejuan</user>
+  <text>It would be good to work out what is causing the errors for newer versions of Ubuntu</text>
+</message>
+<message>
+  <ts>2020-05-25T18:06:01.485000</ts>
+  <user>Bradley</user>
+  <text>If I can help with something feel free to ask</text>
+</message>
+<message>
+  <ts>2020-05-25T18:06:39.954000</ts>
+  <user>Dejuan</user>
+  <text>The racket slack is much larger  someone there might know. Did you log the issue?</text>
+</message>
+<message>
+  <ts>2020-05-25T18:07:34.076000</ts>
+  <user>Bradley</user>
+  <text>not yet . in which repo should I report it? I guess drracket was the wrong repo</text>
+</message>
+<message>
+  <ts>2020-05-25T18:07:58.749000</ts>
+  <user>Bradley</user>
+  <text>oh slack also exists.. i was in the irc channel first 🙂</text>
+</message>
+<message>
+  <ts>2020-05-25T18:26:51.594000</ts>
+  <user>Dejuan</user>
+  <text>&gt; not yet . in which repo should I report it? I guess drracket was the wrong repo@NeroLXIV good point  probably log against https://github.com/racket/racket/issues/new</text>
+</message>
+<message>
+  <ts>2020-05-25T18:29:07.797000</ts>
+  <user>Bradley</user>
+  <text>Ok I will file the issue today. I also joined the slack.</text>
+</message>
+<message>
+  <ts>2020-05-28T18:17:40.392000</ts>
+  <user>Neema</user>
+  <text>Man I've been using Common Lisp a bit lately cause I wanted more performance and I've really been enjoying the interactive development and debugging via Slime... Does Racket have anything similar? It's been a great experience so far</text>
+</message>
+<message>
+  <ts>2020-05-28T18:47:45.418000</ts>
+  <user>Cavin</user>
+  <text>There's `racketmode` for emacs users.</text>
+</message>
+<message>
+  <ts>2020-05-28T18:53:12.024000</ts>
+  <user>Neema</user>
+  <text>Yea I use Racketmode</text>
+</message>
+<message>
+  <ts>2020-05-28T19:54:40.407000</ts>
+  <user>Eloisa</user>
+  <text>Racket seems to be closer to Python than Lisp in it's approach to REPLs</text>
+</message>
+<message>
+  <ts>2020-05-28T19:56:24.392000</ts>
+  <user>Dejuan</user>
+  <text>How so?</text>
+</message>
+<message>
+  <ts>2020-05-28T20:38:15.909000</ts>
+  <user>Cavin</user>
+  <text>the way the repl isn't mutable / live</text>
+</message>
+<message>
+  <ts>2020-05-28T20:38:22.840000</ts>
+  <user>Neema</user>
+  <text>Well consider what happens when you get an error in a racket vs Lisp REPL. When you hit an error Racket just gives you the error and aborts back to the top level  which is exactly what Python does. Common Lisp lets you substitute values change the function definition and rewind to before the error lets you provide an expression to evaluate instead all sorts of potential options depending on what the error is. Racket also doesn't let you compile individual functions and have them autoloaded back into the REPL like Python. Common Lisp I can treat individual functions as compilation units and recompile individual function on the fly.</text>
+</message>
+<message>
+  <ts>2020-05-28T20:39:53.173000</ts>
+  <user>Dejuan</user>
+  <text>is that better or worse?</text>
+</message>
+<message>
+  <ts>2020-05-28T20:41:06.628000</ts>
+  <user>Dejuan</user>
+  <text>(sorry I know that is a loaded question)</text>
+</message>
+<message>
+  <ts>2020-05-28T20:41:29.345000</ts>
+  <user>Cavin</user>
+  <text>It's great for building things that are expensive to restart like games and websites</text>
+</message>
+<message>
+  <ts>2020-05-28T20:42:32.405000</ts>
+  <user>Neema</user>
+  <text>I mean I wouldn't say it's either. I'd say Racket just has more of a traditional development cycle more like Python or JavaScript than Common Lisp</text>
+</message>
+<message>
+  <ts>2020-05-28T20:42:42.073000</ts>
+  <user>Cavin</user>
+  <text>but if starting a fresh repl doesn't take very long than there isn't much benefit relative to the very huge cost of needing to keep track of the repl state</text>
+</message>
+<message>
+  <ts>2020-05-28T20:43:10.410000</ts>
+  <user>Dejuan</user>
+  <text>I'm assuming it takes discipline to get right</text>
+</message>
+<message>
+  <ts>2020-05-28T20:43:47.769000</ts>
+  <user>Neema</user>
+  <text>Yea keeping track of repl state seems like a pain  what I'm doing is mostly stateless so the REPL just means a much quicker feedback loop for me</text>
+</message>
+<message>
+  <ts>2020-05-28T20:44:24.955000</ts>
+  <user>Cavin</user>
+  <text>Yes and even if you do it has other tradeoffs. Whole module optimization becomes impossible and macros become way less useful (can't reload a macro expanded definition easily)</text>
+</message>
+<message>
+  <ts>2020-05-28T20:44:37.237000</ts>
+  <user>Cavin</user>
+  <text>(correctly reload I mean)</text>
+</message>
+<message>
+  <ts>2020-05-28T20:45:30.732000</ts>
+  <user>Dejuan</user>
+  <text>And there are other ways to deal with things that are expensive to restart.</text>
+</message>
+<message>
+  <ts>2020-05-28T20:45:56.399000</ts>
+  <user>Dejuan</user>
+  <text>(though I admit I don't know how quickscript works)</text>
+</message>
+<message>
+  <ts>2020-05-28T20:45:57.641000</ts>
+  <user>Neema</user>
+  <text>That's true but Common lisp (well SBCL) is really fast anyways so I'm pretty satisfied with the level of optimization I can do</text>
+</message>
+<message>
+  <ts>2020-05-28T20:47:02.389000</ts>
+  <user>Neema</user>
+  <text>But I know you can also tell SBCL where focus it's optimizations so you can tell it to trade memory efficiency for speed</text>
+</message>
+<message>
+  <ts>2020-05-28T20:47:33.802000</ts>
+  <user>Dejuan</user>
+  <text>thats nice.</text>
+</message>
+<message>
+  <ts>2020-05-28T20:47:43.203000</ts>
+  <user>Dejuan</user>
+  <text>can always buy more ram.</text>
+</message>
+<message>
+  <ts>2020-05-28T20:47:51.729000</ts>
+  <user>Dejuan</user>
+  <text>(or the customer can :))</text>
+</message>
+<message>
+  <ts>2020-05-28T20:49:26.058000</ts>
+  <user>Neema</user>
+  <text>Yea it seems pretty nice. As a programming language I much prefer Racket personally but using CL more the past few weeks I can definitely see the appeal over Racket</text>
+</message>
+<message>
+  <ts>2020-05-28T20:50:45.066000</ts>
+  <user>Dejuan</user>
+  <text>lucky!</text>
+</message>
+<message>
+  <ts>2020-05-28T20:51:04.525000</ts>
+  <user>Dejuan</user>
+  <text>to have choices</text>
+</message>
+<message>
+  <ts>2020-05-28T20:54:52.780000</ts>
+  <user>Neema</user>
+  <text>Lots of Racket stuff I've been really missing though... I've got a whole directory filled with small functions I've needed that are part of Racket but I don't want to bring in a whole library for in CL</text>
+</message>
+<message>
+  <ts>2020-05-28T20:56:56.494000</ts>
+  <user>Dejuan</user>
+  <text>I'm looking forward to the speed increases the chez nanopass compiler should bring to racket.</text>
+</message>
+<message>
+  <ts>2020-05-28T20:57:29.271000</ts>
+  <user>Neema</user>
+  <text>Same</text>
+</message>
+<message>
+  <ts>2020-05-28T20:57:54.047000</ts>
+  <user>Dejuan</user>
+  <text>I seem to remember you could trade compile time for speed but I might be misremembering.</text>
+</message>
+<message>
+  <ts>2020-05-28T20:59:03.846000</ts>
+  <user>Neema</user>
+  <text>Oh nice you can do that in Rust too. It'll give you a quick compile with fewer optimizations but you can add a flag to tell it to run a production build</text>
+</message>
+<message>
+  <ts>2020-05-28T20:59:15.175000</ts>
+  <user>Dejuan</user>
+  <text>(I just spent 53 minutes compiling racket)</text>
+</message>
+<message>
+  <ts>2020-05-28T20:59:32.546000</ts>
+  <user>Neema</user>
+  <text>oof</text>
+</message>
+<message>
+  <ts>2020-05-28T20:59:36.834000</ts>
+  <user>Neema</user>
+  <text>What are you working on?</text>
+</message>
+<message>
+  <ts>2020-05-28T21:00:40.588000</ts>
+  <user>Dejuan</user>
+  <text>adding an error message overlay to drracket</text>
+</message>
+<message>
+  <ts>2020-05-28T21:01:18.843000</ts>
+  <user>Dejuan</user>
+  <text>if I can get that going I'll move on to making urls in the comments work as links</text>
+</message>
+<message>
+  <ts>2020-05-28T21:02:36.283000</ts>
+  <user>Neema</user>
+  <text>Ohh nice!</text>
+</message>
+<message>
+  <ts>2020-05-28T21:03:59.919000</ts>
+  <user>Dejuan</user>
+  <text>🤞 wish me luck</text>
+</message>
+<message>
+  <ts>2020-05-28T21:04:58.472000</ts>
+  <user>Cavin</user>
+  <text>that would be amazing</text>
+</message>
+<message>
+  <ts>2020-05-28T21:05:06.008000</ts>
+  <user>Neema</user>
+  <text>Good luck!</text>
+</message>
+<message>
+  <ts>2020-05-29T11:33:06.281000</ts>
+  <user>Angelus</user>
+  <text>&gt; Racket seems to be closer to Python than Lisp in it's approach to REPLsI believe this is by design. It discourages REPLbased debugging and incremental development in favour of a compileandrun approach within DrRacket.</text>
+</message>
+<message>
+  <ts>2020-05-29T11:33:24.104000</ts>
+  <user>Angelus</user>
+  <text>I remember reading something about it on the Racket Blog but I can't find it now</text>
+</message>
+<message>
+  <ts>2020-05-29T11:43:15.431000</ts>
+  <user>Angelus</user>
+  <text>I think it's this one: https://blog.racketlang.org/2009/03/thedrschemereplisnttheoneinemacs.html</text>
+</message>
+<message>
+  <ts>2020-05-29T18:51:06.846000</ts>
+  <user>Neema</user>
+  <text>Hmm I feel like it would be useful to have an easy way to check the state of the REPL like a function that allows you to see all variables currently in the REPL and then inspect their values</text>
+</message>
+<message>
+  <ts>2020-05-29T18:51:40.392000</ts>
+  <user>Neema</user>
+  <text>Cause I can 100% see REPL state getting out of hand in a larger application that make it a little hard to manage</text>
+</message>
+<message>
+  <ts>2020-05-29T19:30:05.340000</ts>
+  <user>Dejuan</user>
+  <text>Might be a nice script or plugin</text>
+</message>
+<message>
+  <ts>2020-05-29T20:45:37.470000</ts>
+  <user>Cavin</user>
+  <text>there's `debugrepl` which isn't that but it's a similar idea https://docs.racketlang.org/debug/index.html?q=debugrepl#%28form._%28%28lib._debug%2Frepl..rkt%29._debugrepl%29%29</text>
+</message>
+<message>
+  <ts>2020-05-29T20:46:59.876000</ts>
+  <user>Cavin</user>
+  <text>maybe a look at state of the repl API could use a similar implementation?</text>
+</message>
+<message>
+  <ts>2020-05-29T20:47:57.748000</ts>
+  <user>Dejuan</user>
+  <text>And the stepper</text>
+</message>
+<message>
+  <ts>2020-05-30T03:10:01.671000</ts>
+  <user>Rahmel</user>
+  <text>xrepl's apropos might be something vaguely in that neighborhood: &lt;https://docs.racketlang.org/xrepl/index.html#%28xrepl._apropos%29&gt; I played with it a little bit but didn't get too deep into exactly what it makes available</text>
+</message>
+<message>
+  <ts>2020-06-01T05:54:18.859000</ts>
+  <user>Neema</user>
+  <text>Do anyone happen to have any insights as to why the benchmarks game results show Racket 7.7 as being generally faster than Racket 7.7 CS? https://benchmarksgameteam.pages.debian.net/benchmarksgame/fastest/racketracketcs.html</text>
+</message>
+<message>
+  <ts>2020-06-01T07:01:38.595000</ts>
+  <user>Dejuan</user>
+  <text>You could probably look at the last racket cs update on the Racket blog and try work out the corresponding benchmarks.</text>
+</message>
+<message>
+  <ts>2020-06-01T07:22:14.629000</ts>
+  <user>Cavin</user>
+  <text>It might be because they're not compiling the benchmarks first</text>
+</message>
+<message>
+  <ts>2020-06-01T19:40:46.627000</ts>
+  <user>Gorka</user>
+  <text>And now there is another bitvector library :(</text>
+</message>
+<message>
+  <ts>2020-06-01T19:51:47.753000</ts>
+  <user>Cavin</user>
+  <text>@oaktownsam link?</text>
+</message>
+<message>
+  <ts>2020-06-01T19:52:13.812000</ts>
+  <user>Gorka</user>
+  <text>It was in Racket News. One tick</text>
+</message>
+<message>
+  <ts>2020-06-01T19:52:40.137000</ts>
+  <user>Gorka</user>
+  <text>https://linki.tools/2020/05/announcingracketbitvectorsbv.html</text>
+</message>
+<message>
+  <ts>2020-06-01T19:53:28.777000</ts>
+  <user>Cavin</user>
+  <text>ah that makes sense</text>
+</message>
+<message>
+  <ts>2020-06-01T19:55:01.029000</ts>
+  <user>Cavin</user>
+  <text>time for a feature matrix comparison with Rebellion bitstrings?</text>
+</message>
+<message>
+  <ts>2020-06-01T19:56:03.374000</ts>
+  <user>Cavin</user>
+  <text>although if I'm reading these docs right there's five bitvector libraries: there's one in Rosette</text>
+</message>
+<message>
+  <ts>2020-06-01T19:56:10.156000</ts>
+  <user>Gorka</user>
+  <text>I\'m weighing how much effort I would put into rolling all of the features of the others into Rebellion.</text>
+</message>
+<message>
+  <ts>2020-06-01T19:56:24.331000</ts>
+  <user>Gorka</user>
+  <text>Yeah probably</text>
+</message>
+<message>
+  <ts>2020-06-01T19:58:34.955000</ts>
+  <user>Cavin</user>
+  <text>lexicographic comparator for bitstrings could be worth adding</text>
+</message>
+<message>
+  <ts>2020-06-01T19:59:31.336000</ts>
+  <user>Cavin</user>
+  <text>wish the `extract` function in that package was named `subbitvector`</text>
+</message>
+<message>
+  <ts>2020-06-01T19:59:55.423000</ts>
+  <user>Gorka</user>
+  <text>I was doing a Genetic Algorithm so being able to parse the bitstring was valuable so I chose the TGJ package.</text>
+</message>
+<message>
+  <ts>2020-06-01T20:00:33.133000</ts>
+  <user>Cavin</user>
+  <text>with the pattern matching?</text>
+</message>
+<message>
+  <ts>2020-06-01T20:02:39.961000</ts>
+  <user>Gorka</user>
+  <text>Yeah</text>
+</message>
+<message>
+  <ts>2020-06-01T20:03:30.405000</ts>
+  <user>Gorka</user>
+  <text>It also implemented them as ropes which I liked</text>
+</message>
+<message>
+  <ts>2020-06-01T20:04:02.916000</ts>
+  <user>Cavin</user>
+  <text>for concatenation reasons?</text>
+</message>
+<message>
+  <ts>2020-06-01T20:05:25.328000</ts>
+  <user>Gorka</user>
+  <text>No real reason. I just think Ropes are cool datastructures.</text>
+</message>
+<message>
+  <ts>2020-06-01T20:10:35.894000</ts>
+  <user>Cavin</user>
+  <text>lol gotcha :p</text>
+</message>
+<message>
+  <ts>2020-06-01T20:13:20.698000</ts>
+  <user>Cavin</user>
+  <text>I've been thinking about what to do with Rebellion's collections</text>
+</message>
+<message>
+  <ts>2020-06-01T20:13:51.218000</ts>
+  <user>Cavin</user>
+  <text>considering using more generics</text>
+</message>
+<message>
+  <ts>2020-06-01T20:14:17.802000</ts>
+  <user>Cavin</user>
+  <text>also possibly mutable versions</text>
+</message>
+<message>
+  <ts>2020-06-01T20:17:35.526000</ts>
+  <user>Cavin</user>
+  <text>get this: I'm considering using generics _for performance reasons_</text>
+</message>
+<message>
+  <ts>2020-06-01T20:19:42.512000</ts>
+  <user>Gorka</user>
+  <text>Ugh. That reminds me that I need to send a PR to someone about a pretty bad performance effecting contract that I've been sitting on for 18 months 😦</text>
+</message>
+<message>
+  <ts>2020-06-01T20:20:29.132000</ts>
+  <user>Gorka</user>
+  <text>(I\'m saying it out loud to put more public pressure on myself)</text>
+</message>
+<message>
+  <ts>2020-06-01T20:21:42.803000</ts>
+  <user>Cavin</user>
+  <text>😮 details?</text>
+</message>
+<message>
+  <ts>2020-06-01T20:25:00.660000</ts>
+  <user>Gorka</user>
+  <text>It's a contract in CLDR that some values are `json?`. It effects writing and reading date time values in gregor.</text>
+</message>
+<message>
+  <ts>2020-06-01T20:25:23.185000</ts>
+  <user>Gorka</user>
+  <text>`json?` is not a recursive function and really not a contract check.</text>
+</message>
+<message>
+  <ts>2020-06-01T20:31:10.565000</ts>
+  <user>Gorka</user>
+  <text>Here are some samples of generating 200,000 random time stamps with a variety of format strings (note non of these format strings actually write out the times.)```$ racket generate.rkt 200000  xx  : ::"executing with cpu time: 4380 real time: 4467 gc time: 16executing with xx"cpu time: 7690 real time: 7801 gc time: 16executing with "cpu time: 5838 real time: 6659 gc time: 10executing with :"cpu time: 21636 real time: 22739 gc time: 17executing with ::"cpu time: 39928 real time: 43023 gc time: 22```</text>
+</message>
+<message>
+  <ts>2020-06-01T20:31:26.496000</ts>
+  <user>Gorka</user>
+  <text>bbiam</text>
+</message>
+<message>
+  <ts>2020-06-01T20:34:37.968000</ts>
+  <user>Cavin</user>
+  <text>oh dear</text>
+</message>
+<message>
+  <ts>2020-06-02T00:12:33.234000</ts>
+  <user>Gorka</user>
+  <text>Oops actually not true xx writes the timezone offset</text>
+</message>
+<message>
+  <ts>2020-06-02T18:36:28.955000</ts>
+  <user>Gorka</user>
+  <text>FYI here is after I\'ve made some improvements:```$ racket formatperf.rkt 200000  xx  : :: executing with cpu time: 2148 real time: 2147 gc time: 9executing with xx"cpu time: 3847 real time: 3846 gc time: 9executing with "cpu time: 2417 real time: 2416 gc time: 8executing with :"cpu time: 2210 real time: 2209 gc time: 7executing with ::"cpu time: 2260 real time: 2259 gc time: 7```</text>
+</message>
+<message>
+  <ts>2020-06-03T06:43:33.827000</ts>
+  <user>Indyah</user>
+  <text>is there a way I can grab the code for any module Im requiring such that I could statically link my program and compile it from scratch without an internet connection?</text>
+</message>
+<message>
+  <ts>2020-06-03T06:49:39.974000</ts>
+  <user>Cavin</user>
+  <text>@thornAvery that should be how it works already you don't need an internet connection for `require` to work (unless you're doing something strange)</text>
+</message>
+<message>
+  <ts>2020-06-03T06:51:19.056000</ts>
+  <user>Indyah</user>
+  <text>I mean like if I do `(require somepackagenotinbase)` is there a way I can download it to have a local copy rather than requiring `raco pkg install somepackagenotinbase` on a new machine I wanna compile my thing on</text>
+</message>
+<message>
+  <ts>2020-06-03T06:51:48.714000</ts>
+  <user>Indyah</user>
+  <text>say as proofing just in case he raco repos are down but I need to compile from scratch</text>
+</message>
+<message>
+  <ts>2020-06-03T06:53:14.503000</ts>
+  <user>Cavin</user>
+  <text>I'm not sure I follow. Are you installing your program on lots of different machines?</text>
+</message>
+<message>
+  <ts>2020-06-03T06:54:01.869000</ts>
+  <user>Indyah</user>
+  <text>I have times where I dont have internet connection for a long time so Im trying to proof myself to not rely on the internet to build something</text>
+</message>
+<message>
+  <ts>2020-06-03T06:56:26.224000</ts>
+  <user>Cavin</user>
+  <text>you need to install each package you use but only once. After you run `raco pkg install` you have a local copy on your machine. Or do you want a local copy of _every_ package so you're not screwed if by the time you realize you need package X you're on a plane or something and don't have internet?</text>
+</message>
+<message>
+  <ts>2020-06-03T07:24:27.793000</ts>
+  <user>Indyah</user>
+  <text>Yeah I basically wanna be able to raco pkg install from a local directory and be able to pre download a package so I have it in a local directory to be able to raco pkg install from</text>
+</message>
+<message>
+  <ts>2020-06-03T08:00:19.565000</ts>
+  <user>Caleb</user>
+  <text>you can git clone it very likely and then you can install from the local directory</text>
+</message>
+<message>
+  <ts>2020-06-03T08:01:47.903000</ts>
+  <user>Cavin</user>
+  <text>@Majestyxrd that works for one package but doing that for the whole catalog one package at a time would probably suck</text>
+</message>
+<message>
+  <ts>2020-06-03T08:01:59.093000</ts>
+  <user>Caleb</user>
+  <text>then setup?</text>
+</message>
+<message>
+  <ts>2020-06-03T08:02:14.577000</ts>
+  <user>Cavin</user>
+  <text>I think there's a way to do it by stringing together some of the catalogrelated commands like `raco pkg catalogcopy` or something</text>
+</message>
+<message>
+  <ts>2020-06-04T06:32:52.709000</ts>
+  <user>Caleb</user>
+  <text>anybody using arch and racket cs? 5 days ago the racket package in [community] got upgraded to 7.7 but there's no package (neither in aur)</text>
+</message>
+<message>
+  <ts>2020-06-04T06:56:17.607000</ts>
+  <user>Indyah</user>
+  <text>I know that things `define`d inside a macro will not be defined at the call site but are things at the call site able to be `set!` inside a macro?say I have `(define X 0)` and a macro that turns into `(set! X 5)` or something</text>
+</message>
+<message>
+  <ts>2020-06-04T08:54:32.919000</ts>
+  <user>Cavin</user>
+  <text>@thornAvery yes provided you pass the `X` identifier to the macro as an an argument</text>
+</message>
+<message>
+  <ts>2020-06-04T08:54:53.584000</ts>
+  <user>Cavin</user>
+  <text>(also in regards to your question about the local package stuff `raco pkg catalogarchive` does what you want)</text>
+</message>
+<message>
+  <ts>2020-06-04T08:55:00.567000</ts>
+  <user>Indyah</user>
+  <text>oooh thank you</text>
+</message>
+<message>
+  <ts>2020-06-05T02:25:22.646000</ts>
+  <user>Shalaya</user>
+  <text>@Majestyxrd im using arch and racket yes. i dont think they know about racket cs yet lol going to have to wait until it gets fully integrated into racket or install racket cs on your own</text>
+</message>
+<message>
+  <ts>2020-06-05T02:37:18.255000</ts>
+  <user>Caleb</user>
+  <text>yeah there's no cs package in the main repos nor in aur</text>
+</message>
+<message>
+  <ts>2020-06-05T02:37:37.636000</ts>
+  <user>Caleb</user>
+  <text>so I thought I'd roll my own package but I don't know how just yet</text>
+</message>
+<message>
+  <ts>2020-06-05T17:14:36.646000</ts>
+  <user>Gorka</user>
+  <text>Building Racket from source is not too bad. Also the Racket binary package for linux installs pretty easily.</text>
+</message>
+<message>
+  <ts>2020-06-08T05:05:58.849000</ts>
+  <user>Greysi</user>
+  <text>hey</text>
+</message>
+<message>
+  <ts>2020-06-08T05:06:07.764000</ts>
+  <user>Greysi</user>
+  <text>so datum is just a container for code and that datum can be later transformed into syntax and used? D;</text>
+</message>
+<message>
+  <ts>2020-06-08T11:57:14.620000</ts>
+  <user>Dejuan</user>
+  <text>sorry there are not many of us on here at this time. Try slack or racketuser there are more racketeers in both those spaces.</text>
+</message>
+<message>
+  <ts>2020-06-08T12:33:12.570000</ts>
+  <user>Mayu</user>
+  <text>hello all!</text>
+</message>
+<message>
+  <ts>2020-06-08T12:33:26.145000</ts>
+  <user>Dejuan</user>
+  <text>Welcome to the Racket Discord server!</text>
+</message>
+<message>
+  <ts>2020-06-09T08:24:50.691000</ts>
+  <user>Dejuan</user>
+  <text>WIP by Bogdan Popa: https://docs.racketlang.org/httpeasy/index.html</text>
+</message>
+<message>
+  <ts>2020-06-09T08:25:53.563000</ts>
+  <user>Dejuan</user>
+  <text>and an unrelated thing</text>
+</message>
+<message>
+  <ts>2020-06-09T11:36:43.587000</ts>
+  <user>Angelus</user>
+  <text>I'll try to attend.</text>
+</message>
+<message>
+  <ts>2020-06-12T09:20:25.895000</ts>
+  <user>Dejuan</user>
+  <text>Rackathon? Is there any interest in an online hackathonlike thing in a similar form to the Zurihack ? ( https://zfoh.ch/zurihac2020/ screenshot in thread) ( I’d like to find a better term as hackathon has a bad reputation as being exclusionary to women and minority groups) 👍 for yes 👎 for no</text>
+</message>
+<message>
+  <ts>2020-06-12T12:11:57.503000</ts>
+  <user>Dejuan</user>
+  <text>[ICYMI]RacketCon announcement on racketusers: https://groups.google.com/d/msg/racketusers/jS6UCqvEd7A/CAYe5iZfAgAJ</text>
+</message>
+<message>
+  <ts>2020-06-12T12:52:13.755000</ts>
+  <user>Angelus</user>
+  <text>I'm writing a patch for `file(1)` to add Scheme file types and I have a question</text>
+</message>
+<message>
+  <ts>2020-06-12T12:52:36.136000</ts>
+  <user>Angelus</user>
+  <text>If a file begins with `#lang ` should it be treated as `application/xracket` `text/xracket` or `text/xscript.racket`?</text>
+</message>
+<message>
+  <ts>2020-06-12T12:54:22.585000</ts>
+  <user>Angelus</user>
+  <text>I can of course add additional constraints like `#lang typed` and `#lang racket`.</text>
+</message>
+<message>
+  <ts>2020-06-12T13:24:30.101000</ts>
+  <user>Angelus</user>
+  <text>How does this look?```# Racket #lang directive0\tstring\t#lang\\ \tRacket source code!:mime\ttext/xracket&gt;6\tstring\tscheme\t\tMzScheme program text!:mime\ttext/xscheme&gt;6\tstring\tracket\t\tRacket program text!:mime\ttext/xracket!:ext\trkt&gt;6\tstring\ttyped\t\tTyped Racket program text!:mime\ttext/xracket!:ext\trkt&gt;6\tstring\tscribble\tScribble document!:ext\tscrbl```</text>
+</message>
+<message>
+  <ts>2020-06-12T14:08:01.090000</ts>
+  <user>Dejuan</user>
+  <text>Hi @Deleted User I've posted on racket slack  I don't know the impact but my instinct is `application/x.racket` if it is unregistered  can you hold off most of the core team are in the us?</text>
+</message>
+<message>
+  <ts>2020-06-12T14:13:42.941000</ts>
+  <user>Dejuan</user>
+  <text>https://tools.ietf.org/html/rfc6838#section3.3</text>
+</message>
+<message>
+  <ts>2020-06-12T14:17:13.356000</ts>
+  <user>Angelus</user>
+  <text>Sure I'll be surveying and asking around for a few days before sending the patch.</text>
+</message>
+<message>
+  <ts>2020-06-12T14:17:49.808000</ts>
+  <user>Dejuan</user>
+  <text>np. fwiw the `x` prefix seems to be deprecated</text>
+</message>
+<message>
+  <ts>2020-06-12T14:18:08.281000</ts>
+  <user>Angelus</user>
+  <text>Ah</text>
+</message>
+<message>
+  <ts>2020-06-12T14:18:30.067000</ts>
+  <user>Angelus</user>
+  <text>The mimetype is totally optional btw</text>
+</message>
+<message>
+  <ts>2020-06-12T14:18:49.288000</ts>
+  <user>Angelus</user>
+  <text>Right now I'm trying to understand the bytecode signature.</text>
+</message>
+<message>
+  <ts>2020-06-12T14:21:09.635000</ts>
+  <user>Dejuan</user>
+  <text>What is a bytecode signature'?</text>
+</message>
+<message>
+  <ts>2020-06-12T14:23:53.617000</ts>
+  <user>Angelus</user>
+  <text>The magic number of the bytecode files (`.zo`).</text>
+</message>
+<message>
+  <ts>2020-06-12T14:25:22.158000</ts>
+  <user>Angelus</user>
+  <text>I deduced that it begins with `#~` https://docs.racketlang.org/reference/printing.html?q=reader#%28part._printcompiled%29Then is followed by a version length byte and the version string (`37.7` on my end).Then a VM length byte and the VM string (`6racket` on my end).</text>
+</message>
+<message>
+  <ts>2020-06-12T14:25:29.146000</ts>
+  <user>Angelus</user>
+  <text>I'm trying to generalise it now.</text>
+</message>
+<message>
+  <ts>2020-06-12T14:36:57.541000</ts>
+  <user>Dejuan</user>
+  <text>should just ask mflatt he developed that  and I'm pretty sure .zo goes away for racket cs. he is on slack not reddit though</text>
+</message>
+<message>
+  <ts>2020-06-12T14:40:39.534000</ts>
+  <user>Angelus</user>
+  <text>Hmm yeah I was also wondering how it'd work for Racket CS.</text>
+</message>
+<message>
+  <ts>2020-06-12T14:41:15.180000</ts>
+  <user>Angelus</user>
+  <text>Presumably not like `#~37.711chezscheme`?</text>
+</message>
+<message>
+  <ts>2020-06-12T14:43:39.501000</ts>
+  <user>Dejuan</user>
+  <text>maybe  might depend on if changes in the racketcs fork of Chez get merged back into the main Chez.</text>
+</message>
+<message>
+  <ts>2020-06-12T14:44:02.465000</ts>
+  <user>Dejuan</user>
+  <text>if you cant get onto slack I'm happy to ask on your behalf?</text>
+</message>
+<message>
+  <ts>2020-06-12T14:44:59.769000</ts>
+  <user>Dejuan</user>
+  <text>or you could just log it as a query on https://github.com/racket/racket/issues/new</text>
+</message>
+<message>
+  <ts>2020-06-12T14:47:43.582000</ts>
+  <user>Angelus</user>
+  <text>Ah I'll try to get on the Slack.</text>
+</message>
+<message>
+  <ts>2020-06-14T21:21:21.923000</ts>
+  <user>Kasin</user>
+  <text>I have little time for racket anymore 😢 but thats okay its only 7 more weeks and then ill be back at it</text>
+</message>
+<message>
+  <ts>2020-06-14T22:10:02.599000</ts>
+  <user>Angelus</user>
+  <text>Good luck!</text>
+</message>
+<message>
+  <ts>2020-06-17T13:36:13.162000</ts>
+  <user>Dejuan</user>
+  <text>[crosspost form racketusers]It was very nice to see Prof\xa0Diomidis Spinellis\xa0talk about how his students had good experiences working on open source projects for their coursework.\xa0It made me wonder how the Racket community is performing and if there are any gaps we can fill?\xa0Onboarding?Mentoring?Pull request Workflows?Code check bots?Use of [WIP] tag to allow incremental review of work in progress?Anything else? by ‘we’ I mean the community of racketeers not the core team who already do so much.https://twitter.com/CoolSWEng/status/1273010363198570496?s=20https://groups.google.com/g/racketusers/c/RZhF5jexKc/m/_Vefqh0EBgAJ</text>
+</message>
+<message>
+  <ts>2020-06-23T16:13:23.446000</ts>
+  <user>Eloisa</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-06-23T16:13:27.229000</ts>
+  <user>Eloisa</user>
+  <text>🥰</text>
+</message>
+<message>
+  <ts>2020-06-23T16:13:46.855000</ts>
+  <user>Eloisa</user>
+  <text>Linux best boi :)</text>
+</message>
+<message>
+  <ts>2020-06-23T16:14:27.920000</ts>
+  <user>Eloisa</user>
+  <text>I'd love to use BSD but it doesn't have a lot of the packages/software I need. Also battery and gaming wouldn't be good</text>
+</message>
+<message>
+  <ts>2020-06-23T16:14:35.821000</ts>
+  <user>Dejuan</user>
+  <text>😀</text>
+</message>
+<message>
+  <ts>2020-06-23T16:20:14.491000</ts>
+  <user>Neema</user>
+  <text>Added my Linux vote 👌 I use Linux for everything except games lol</text>
+</message>
+<message>
+  <ts>2020-06-23T16:40:40.358000</ts>
+  <user>Dejuan</user>
+  <text>https://blog.racketlang.org/2020/06/racketsurvey2020.html</text>
+</message>
+<message>
+  <ts>2020-06-23T16:41:08.858000</ts>
+  <user>Dejuan</user>
+  <text>official survey!</text>
+</message>
+<message>
+  <ts>2020-06-24T00:06:38.576000</ts>
+  <user>Dejuan</user>
+  <text>The orange site https://news.ycombinator.com/item?id=23620314</text>
+</message>
+<message>
+  <ts>2020-06-24T02:18:03.551000</ts>
+  <user>Eloisa</user>
+  <text>hehe orange site</text>
+</message>
+<message>
+  <ts>2020-06-24T08:29:08.717000</ts>
+  <user>Caleb</user>
+  <text>go vrrrrr</text>
+</message>
+<message>
+  <ts>2020-06-24T17:17:20.783000</ts>
+  <user>Leslye</user>
+  <text>[Typed Racket] Is there a way to write unit tests that assert types are correct? E.g. I would like a test that shows that (min 5) does not typecheck but (min 5 7) does. I did see that turnstile has this capability. I also see there is an asserttypecheckfail which is basically what I wanted so maybe that's a reasonable way to do it... makes me nervous to touch a big codebase without knowing how to write decent checks.</text>
+</message>
+<message>
+  <ts>2020-06-24T17:26:26.883000</ts>
+  <user>Gorka</user>
+  <text>That may be a good Slack/mail list/irc question. I thought SamTH was here but maybe that was short lived. He's the primary dev of TR and I know he is in those places.</text>
+</message>
+<message>
+  <ts>2020-06-24T17:28:03.317000</ts>
+  <user>Gorka</user>
+  <text>A difficulty I see is that those checks would probably have to run in some sort of metatype checking phase.</text>
+</message>
+<message>
+  <ts>2020-06-24T17:28:28.286000</ts>
+  <user>Gorka</user>
+  <text>Or rather they would need to be interleaved at type checking.</text>
+</message>
+<message>
+  <ts>2020-06-24T17:34:53.639000</ts>
+  <user>Gorka</user>
+  <text>A trick that could be done is providing the function under test and require it in an untyped module and then at runtime the contract system would throw an exception.</text>
+</message>
+<message>
+  <ts>2020-06-24T17:37:06.707000</ts>
+  <user>Gorka</user>
+  <text>Not sure 100% sure why you want to test this. If a typecheck fails the module will fail to compile.</text>
+</message>
+<message>
+  <ts>2020-06-24T17:48:42.488000</ts>
+  <user>Leslye</user>
+  <text>Thanks will try there. Want to check on the principle that you shouldn't change stuff without a test. (The item that needs testing is a change in the TR baseenv. Small but being careless isn't a good way to start.)</text>
+</message>
+<message>
+  <ts>2020-06-24T17:56:45.403000</ts>
+  <user>Gorka</user>
+  <text>Ohhhhh</text>
+</message>
+<message>
+  <ts>2020-06-24T17:57:43.908000</ts>
+  <user>Gorka</user>
+  <text>I thought you were testing user level types not base types. Yeah ask SamTH he will know.</text>
+</message>
+<message>
+  <ts>2020-06-25T00:41:10.250000</ts>
+  <user>Cavin</user>
+  <text>&gt; Not sure 100% sure why you want to test this. If a typecheck fails the module will fail to compile.@oaktownsam For user level types it's handy to test that the API you're designing catches the mistakes that you expect it to at compile time</text>
+</message>
+<message>
+  <ts>2020-06-25T00:42:09.484000</ts>
+  <user>Cavin</user>
+  <text>but I would only bother with that for exceptional cases</text>
+</message>
+<message>
+  <ts>2020-06-25T00:42:28.373000</ts>
+  <user>Page</user>
+  <text>Like for example if I'm designing a library to typecheck units of measure I want to make sure that adding two quantities in meters typechecks fine but adding meters and seconds should fail to typecheck</text>
+</message>
+<message>
+  <ts>2020-06-25T00:42:32.905000</ts>
+  <user>Gorka</user>
+  <text>True but I don't think any mainstream types languages can do that.</text>
+</message>
+<message>
+  <ts>2020-06-25T00:42:42.574000</ts>
+  <user>Cavin</user>
+  <text>like if I were designing a units librar yeah what @Alex Knauth</text>
+</message>
+<message>
+  <ts>2020-06-25T00:43:20.515000</ts>
+  <user>Cavin</user>
+  <text>@oaktownsam I don't recall seeing it within languages either but I've seen it lots of times as an extralinguistic thing</text>
+</message>
+<message>
+  <ts>2020-06-25T00:43:28.050000</ts>
+  <user>Cavin</user>
+  <text>like using the build system to check that some code compiles</text>
+</message>
+<message>
+  <ts>2020-06-25T00:43:52.738000</ts>
+  <user>Cavin</user>
+  <text>(or doesn't compile)</text>
+</message>
+<message>
+  <ts>2020-06-25T00:45:27.909000</ts>
+  <user>Gorka</user>
+  <text>Sure that's kind of what I was thinking of</text>
+</message>
+<message>
+  <ts>2020-06-25T00:46:31.269000</ts>
+  <user>Page</user>
+  <text>`asserttypecheckfail`https://docs.racketlang.org/tsreference/Utilities.html#(form._((lib._typedracket%2Fbaseenv%2Fprims..rkt)._asserttypecheckfail))</text>
+</message>
+<message>
+  <ts>2020-06-25T04:05:04.958000</ts>
+  <user>Ifra</user>
+  <text>That was mentioned already: I also see there is an asserttypecheckfail which is basically what I wanted so maybe that\'s a reasonable way to do it...</text>
+</message>
+<message>
+  <ts>2020-06-25T10:55:55.821000</ts>
+  <user>Angelus</user>
+  <text>You might be interested in how Kawa does it which has units out of the box.</text>
+</message>
+<message>
+  <ts>2020-06-25T10:55:58.732000</ts>
+  <user>Angelus</user>
+  <text>https://www.gnu.org/software/kawa/Quantities.html</text>
+</message>
+<message>
+  <ts>2020-06-25T12:07:17.390000</ts>
+  <user>Dejuan</user>
+  <text>F# too I think</text>
+</message>
+<message>
+  <ts>2020-06-25T12:13:59.750000</ts>
+  <user>Dejuan</user>
+  <text>isn't adding units of measure something you can do with a language that has a dependent type system?</text>
+</message>
+<message>
+  <ts>2020-06-25T12:20:58.277000</ts>
+  <user>Dejuan</user>
+  <text>or is that a refinement type system? I really need to find an Introduction to typesystems mooc course I can do.</text>
+</message>
+<message>
+  <ts>2020-06-25T18:28:28.706000</ts>
+  <user>Gorka</user>
+  <text>You can add unit of measure to any language. What each typing flavor does is change how ergonomic they are to use and how efficient they are at runtime (and probably another thing that I cannot remember right now.)</text>
+</message>
+<message>
+  <ts>2020-06-25T18:56:39.511000</ts>
+  <user>Dejuan</user>
+  <text>I’m now wondering if there are any languages that can do measures to high school physics level. E.g. distance vector (m) / time(S) to give velocity</text>
+</message>
+<message>
+  <ts>2020-06-25T20:29:28.358000</ts>
+  <user>Aulii</user>
+  <text>@StephenD see Frink</text>
+</message>
+<message>
+  <ts>2020-06-25T21:24:21.547000</ts>
+  <user>Ifra</user>
+  <text>that Kawa documentation suggests it supports the syntax 10m/s</text>
+</message>
+<message>
+  <ts>2020-06-25T22:18:29.019000</ts>
+  <user>Dejuan</user>
+  <text>Thank you @samth Frink looks amazing!</text>
+</message>
+<message>
+  <ts>2020-06-26T12:27:41.013000</ts>
+  <user>Dejuan</user>
+  <text>Merge #deletedchannel and #offtopic ? 👍 👎</text>
+</message>
+<message>
+  <ts>2020-06-26T12:29:15.289000</ts>
+  <user>Dejuan</user>
+  <text>Merge #help and #deletedchannel ? 👍 👎</text>
+</message>
+<message>
+  <ts>2020-06-26T18:40:44.624000</ts>
+  <user>Leslye</user>
+  <text>Any tips on where I can find TR doing inferencing about the results? I'm curious about the difference between these two outputs:```&gt; (= 0 0) : Boolean [more precisely: True]#t&gt; (= 1 1) : Boolean#t```I know that in `baseenvnumeric.rkt` there are inferences about the inputs based on the output of a predicate but I didn't see figuring out the (sub)type of the result in there. I was expecting to see `(&gt; Zero Zero True)` or something like that. Any clues?</text>
+</message>
+<message>
+  <ts>2020-06-26T18:54:29.183000</ts>
+  <user>Dejuan</user>
+  <text>Sounds like something to ask the developer @samth  he is mostly on racket slack</text>
+</message>
+<message>
+  <ts>2020-06-27T03:54:16.722000</ts>
+  <user>Caleb</user>
+  <text>racket slack?</text>
+</message>
+<message>
+  <ts>2020-06-27T04:02:12.002000</ts>
+  <user>Leslye</user>
+  <text>yes I think there's an invite link around here  or google for it</text>
+</message>
+<message>
+  <ts>2020-06-27T07:19:50.296000</ts>
+  <user>Dejuan</user>
+  <text>It’s on the racket home page racketLang.org</text>
+</message>
+<message>
+  <ts>2020-06-29T01:58:12.786000</ts>
+  <user>Indyah</user>
+  <text>digging my toes into typed racket is there somothing like andmap for generalised functions? wanting to do `(foldr and #t (somelistofbools))`</text>
+</message>
+<message>
+  <ts>2020-06-29T02:38:09.847000</ts>
+  <user>Leslye</user>
+  <text>@thornAvery Something like this? `(andmap (inst identity Boolean) (#t #t #t))`</text>
+</message>
+<message>
+  <ts>2020-06-29T03:28:50.694000</ts>
+  <user>Shalaya</user>
+  <text>i didnt know you could run racket on android oo</text>
+</message>
+<message>
+  <ts>2020-06-29T03:28:55.414000</ts>
+  <user>Shalaya</user>
+  <text>is there an apk or something?</text>
+</message>
+<message>
+  <ts>2020-06-29T03:35:55.650000</ts>
+  <user>Caleb</user>
+  <text>waht?</text>
+</message>
+<message>
+  <ts>2020-06-29T03:36:22.153000</ts>
+  <user>Caleb</user>
+  <text>where did you find out?</text>
+</message>
+<message>
+  <ts>2020-06-29T03:52:22.837000</ts>
+  <user>Cavin</user>
+  <text>@thornAvery how did you end up with a list of bools?</text>
+</message>
+<message>
+  <ts>2020-06-29T03:54:18.142000</ts>
+  <user>Indyah</user>
+  <text>`(map (somepredicate?) listofthings)` or something like that</text>
+</message>
+<message>
+  <ts>2020-06-29T03:55:46.748000</ts>
+  <user>Cavin</user>
+  <text>instead of doing `(andmap identity (map p xs))` you can do `(andmap p xs)`</text>
+</message>
+<message>
+  <ts>2020-06-29T03:56:08.263000</ts>
+  <user>Cavin</user>
+  <text>so instead of turning a list of things into a list of booleans and then figuring out if all the booleans are true you can skip the intermediate list of booleans</text>
+</message>
+<message>
+  <ts>2020-06-30T13:08:47.676000</ts>
+  <user>Yamato</user>
+  <text>hello i need help for exercice on scheme</text>
+</message>
+<message>
+  <ts>2020-06-30T13:08:51.004000</ts>
+  <user>Yamato</user>
+  <text>please</text>
+</message>
+<message>
+  <ts>2020-06-30T13:17:46.138000</ts>
+  <user>Dejuan</user>
+  <text>I’ll try to helpWhich scheme are you using ?A racket teaching language ?</text>
+</message>
+<message>
+  <ts>2020-06-30T13:32:04.146000</ts>
+  <user>Yamato</user>
+  <text>yes</text>
+</message>
+<message>
+  <ts>2020-06-30T13:32:31.460000</ts>
+  <user>Dejuan</user>
+  <text>Which teaching language?</text>
+</message>
+<message>
+  <ts>2020-06-30T13:33:18.934000</ts>
+  <user>Yamato</user>
+  <text>An association organized a stage race for its members. It is a question of establishing thisfinal classification of the race.The result of a participant in the race is represented by a list of 2 elements the first of which is a chainof characters corresponding to the name of the participant and the second a list of times achieved expressed in seconds at the different stages of the race that he has completed. In the rest of this exercise we call this type of dataresult.Define a result function? which takes any type parameter and returns true if and onlythis parameter is of the result type that is to say that it is indeed a list of 2 elements of which the first is astring and the second a list of strictly positive integers.</text>
+</message>
+<message>
+  <ts>2020-06-30T13:33:38.060000</ts>
+  <user>Yamato</user>
+  <text>(define (résultat? ch L)(if (string? ch) (if (number? L) #t)#f))(résultat? Pierre 200)</text>
+</message>
+<message>
+  <ts>2020-06-30T13:33:54.748000</ts>
+  <user>Yamato</user>
+  <text>I have make this but i dont know in list</text>
+</message>
+<message>
+  <ts>2020-06-30T13:34:05.441000</ts>
+  <user>Yamato</user>
+  <text>make list</text>
+</message>
+<message>
+  <ts>2020-06-30T13:42:20.147000</ts>
+  <user>Dejuan</user>
+  <text>so a \'result is something like this; `(("Stephen (2.34 2.20 2.22) ("AZIZ (1.99 1.92 1.90) ...)`</text>
+</message>
+<message>
+  <ts>2020-06-30T13:42:55.391000</ts>
+  <user>Dejuan</user>
+  <text>and you need to define `result?`</text>
+</message>
+<message>
+  <ts>2020-06-30T13:43:43.984000</ts>
+  <user>Dejuan</user>
+  <text>`(define (result? aresult) (if ??? #t #f))` ?</text>
+</message>
+<message>
+  <ts>2020-06-30T13:47:31.106000</ts>
+  <user>Dejuan</user>
+  <text>Maybe work backwards? can you define a predicate for a single positive integer? (or is there one inbuilt?)</text>
+</message>
+<message>
+  <ts>2020-06-30T13:48:29.871000</ts>
+  <user>Dejuan</user>
+  <text>(A function that checks something is called a predicate and traditionally ends with a ‘?’)</text>
+</message>
+<message>
+  <ts>2020-06-30T13:49:59.059000</ts>
+  <user>Dejuan</user>
+  <text>Can you use that to define a function that will check if you have a list of positive integers ?</text>
+</message>
+<message>
+  <ts>2020-06-30T13:54:50.382000</ts>
+  <user>Yamato</user>
+  <text>its okay he works now</text>
+</message>
+<message>
+  <ts>2020-06-30T13:54:54.017000</ts>
+  <user>Yamato</user>
+  <text>🙂</text>
+</message>
+<message>
+  <ts>2020-06-30T13:55:31.772000</ts>
+  <user>Dejuan</user>
+  <text>I’d say good luck but I don’t think you need it. Well done !</text>
+</message>
+<message>
+  <ts>2020-06-30T13:55:35.505000</ts>
+  <user>Yamato</user>
+  <text>Define a name function that takes a result as a parameter and returns the name of the participant concerned by thisresult. For example (name \'("Gaspard (72 142 27))) returns Gaspard".</text>
+</message>
+<message>
+  <ts>2020-06-30T13:55:48.653000</ts>
+  <user>Yamato</user>
+  <text>i have another problem sorry</text>
+</message>
+<message>
+  <ts>2020-06-30T13:57:30.854000</ts>
+  <user>Dejuan</user>
+  <text>‘car’ or ‘first’ ? Inbuilt functions</text>
+</message>
+<message>
+  <ts>2020-06-30T13:59:00.315000</ts>
+  <user>Yamato</user>
+  <text>with car</text>
+</message>
+<message>
+  <ts>2020-06-30T13:59:07.687000</ts>
+  <user>Yamato</user>
+  <text>non first</text>
+</message>
+<message>
+  <ts>2020-06-30T13:59:24.103000</ts>
+  <user>Yamato</user>
+  <text>no first i try since one hours</text>
+</message>
+<message>
+  <ts>2020-06-30T14:04:07.217000</ts>
+  <user>Dejuan</user>
+  <text>https://docs.racketlang.org/htdplangs/beginner.html#%28def._htdpbeginner._%28%28lib._lang%2Fhtdpbeginner..rkt%29._first%29%29</text>
+</message>
+<message>
+  <ts>2020-06-30T14:04:54.678000</ts>
+  <user>Dejuan</user>
+  <text>```scheme(first x) → any/c x : cons?```Selects the first item of a nonempty list.&gt;x(list 2 hello #true)&gt;(first x)2</text>
+</message>
+<message>
+  <ts>2020-06-30T14:05:41.015000</ts>
+  <user>Yamato</user>
+  <text>(define (nom resul) (if (null? R) \'() (car R)))(nom \'("Gaspard (72 142 27)))</text>
+</message>
+<message>
+  <ts>2020-06-30T14:05:50.082000</ts>
+  <user>Yamato</user>
+  <text>R is resulat</text>
+</message>
+<message>
+  <ts>2020-06-30T14:05:55.543000</ts>
+  <user>Yamato</user>
+  <text>result</text>
+</message>
+<message>
+  <ts>2020-06-30T14:05:59.608000</ts>
+  <user>Yamato</user>
+  <text>nom = name</text>
+</message>
+<message>
+  <ts>2020-06-30T14:07:18.318000</ts>
+  <user>Dejuan</user>
+  <text>```schemedefine (nom resul) (if (null? resul) \'() (first resul)))(nom \'("Gaspard (72 142 27)))&gt;"Gaspard"```</text>
+</message>
+<message>
+  <ts>2020-06-30T14:08:06.373000</ts>
+  <user>Dejuan</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-06-30T14:08:24.161000</ts>
+  <user>Dejuan</user>
+  <text>(how to format scheme in discord)</text>
+</message>
+<message>
+  <ts>2020-06-30T14:14:30.966000</ts>
+  <user>Yamato</user>
+  <text>(define (nom resul) (if (null? resul) \'() (car resul)))(nom \'("Gaspard (72 142 27)))</text>
+</message>
+<message>
+  <ts>2020-06-30T14:14:48.550000</ts>
+  <user>Yamato</user>
+  <text>yes he works</text>
+</message>
+<message>
+  <ts>2020-06-30T14:15:01.812000</ts>
+  <user>Yamato</user>
+  <text>i try to make another exercices</text>
+</message>
+<message>
+  <ts>2020-06-30T14:15:20.523000</ts>
+  <user>Yamato</user>
+  <text>thanks</text>
+</message>
+<message>
+  <ts>2020-06-30T14:16:23.922000</ts>
+  <user>Dejuan</user>
+  <text>(nom Stephen") also works. Do you need to check (second resul) = list of integers?</text>
+</message>
+<message>
+  <ts>2020-06-30T14:19:09.465000</ts>
+  <user>Yamato</user>
+  <text>no</text>
+</message>
+<message>
+  <ts>2020-06-30T14:20:43.646000</ts>
+  <user>Yamato</user>
+  <text>One result is less than another if fewer steps have been completed or if as many steps have been completedbut in a larger cumulative time. It is equivalent if so many steps have been completed at the same timeaccumulated. It is superior otherwise.Define the result &lt;? result =? and result&gt;? each taking parameters 2results and returning true if and only if the first result is respectively less equivalent or greater thansecond.</text>
+</message>
+<message>
+  <ts>2020-06-30T14:21:09.383000</ts>
+  <user>Yamato</user>
+  <text>I have found this exercicse yesterday but i dont undertand how i start</text>
+</message>
+<message>
+  <ts>2020-06-30T14:24:16.292000</ts>
+  <user>Dejuan</user>
+  <text>`(result&lt;? \'("Gaspard (72 142 27)) \'("Gaspard (80 152 27)))`is it total steps (+ 72 142 27)?</text>
+</message>
+<message>
+  <ts>2020-06-30T14:28:22.029000</ts>
+  <user>Yamato</user>
+  <text>oui</text>
+</message>
+<message>
+  <ts>2020-06-30T14:28:25.629000</ts>
+  <user>Yamato</user>
+  <text>yes</text>
+</message>
+<message>
+  <ts>2020-06-30T14:30:41.171000</ts>
+  <user>Yamato</user>
+  <text>i need three functions</text>
+</message>
+<message>
+  <ts>2020-06-30T14:42:37.085000</ts>
+  <user>Yamato</user>
+  <text>(define (longueur l)(if (null? l) 0(+ 1 (longueur (cdr l)))))</text>
+</message>
+<message>
+  <ts>2020-06-30T14:42:41.517000</ts>
+  <user>Yamato</user>
+  <text>i have juste this</text>
+</message>
+<message>
+  <ts>2020-06-30T15:04:26.319000</ts>
+  <user>Yamato</user>
+  <text>;Question 3.5(define (longueur l); renvoie le nombre d’éléments de l; liste &gt; entier &gt;= 0(if (null? l) 0(+ 1 (longueur (cdr l)))))(define (resultat=? A B)(and ((= (longueur A) (longueur B)) (= (tempsCumule A) (tempsCumule B)))));Exemple :(resultat=? \'("Gaspard (72 142 27)) \'("Gaspard (80 152 27)))(define (resultat&lt;? A B)(and ((&lt; (longueur A) (longueur B)) (&lt; (tempsCumule A) (tempsCumule B)))));Exemple :(resultat&lt;? \'("Gaspard (72 142 27)) \'("Gaspard (80 152 27)));Exemple : (define (resultat&gt;? A B)(and ((&gt; (longueur A) (longueur B)) (&gt; (tempsCumule A) (tempsCumule B)))))(resultat&gt;? \'("Gaspard (72 142 27)) \'("Gaspard (80 152 27)))</text>
+</message>
+<message>
+  <ts>2020-06-30T15:50:17.240000</ts>
+  <user>Yamato</user>
+  <text>?</text>
+</message>
+<message>
+  <ts>2020-06-30T18:46:10.965000</ts>
+  <user>Neema</user>
+  <text>Si tu veu envoyer ton code @AZIZ peu tu le formatter avec les propre tag sur Discord? Tu peu regarder l'image que @StephenD a envoyer pour voir comment le faire. Mais c'est beacoup plus difficile a lire le code vous avez aulieu de la code en propre format code il a envoyer. Il faut simplement mettre des \\` autour de votre code code il a demonstre. (pardonez mon Francais je ne parle pas assez et jamais au sujet de programmation)</text>
+</message>
+<message>
+  <ts>2020-07-01T06:41:30.658000</ts>
+  <user>Caleb</user>
+  <text>so i forgot was racketcon 2020 canceled?</text>
+</message>
+<message>
+  <ts>2020-07-01T08:50:00.189000</ts>
+  <user>Dejuan</user>
+  <text>its going to be virtual</text>
+</message>
+<message>
+  <ts>2020-07-01T08:50:06.501000</ts>
+  <user>Dejuan</user>
+  <text>wait here</text>
+</message>
+<message>
+  <ts>2020-07-01T08:52:01.290000</ts>
+  <user>Dejuan</user>
+  <text>https://groups.google.com/g/racketusers/c/jS6UCqvEd7A/m/CAYe5iZfAgAJ</text>
+</message>
+<message>
+  <ts>2020-07-01T08:52:15.579000</ts>
+  <user>Dejuan</user>
+  <text>that is a notice on racketusers</text>
+</message>
+<message>
+  <ts>2020-07-01T08:54:05.588000</ts>
+  <user>Dejuan</user>
+  <text>&gt; In October 2020 we'll be holding a virtual RacketCon rather than an &gt; inperson meeting as usual. We hope to get back to normal in 2021. We &gt; have not worked out the exact dates and details but have a few &gt; parameters. &gt; &gt; We're thinking about following PLDI where the general model is to &gt; have prerecorded talks which I would help presenters prepare &gt; followed by live Q&amp;A with an MC relaying questions from Slack. We'd &gt; hope to have the usual State of Racket presentation from Matthew &gt; which would lead into a town hall Q&amp;A/comment session with members of &gt; the Racket team. &gt; &gt; The main details we need to work out now are exactly which and how &gt; many days to run it and in what time slots and in what time zones. I &gt; would greatly appreciate any comments you have in response to this &gt; form: &gt; &gt; https://forms.gle/cYNNY9XhmEoUBBe19 &gt; &gt; Thank you! &gt; &gt; Jay &gt; &gt;  &gt; Jay McCarthy &gt; Associate Professor @ CS @ UMass Lowell &gt; http://jeapostrophe.github.io &gt; Vincit qui se vincit.</text>
+</message>
+<message>
+  <ts>2020-07-01T08:54:23.015000</ts>
+  <user>Dejuan</user>
+  <text>@Majestyxrd</text>
+</message>
+<message>
+  <ts>2020-07-01T10:40:39.214000</ts>
+  <user>Dejuan</user>
+  <text>Quickscript\xa0Competition:Quickscript\xa0is the scripting functionality behind the DrRacket\xa0Scripts\xa0menu: https://docs.racketlang.org/quickscriptFor the month of July we will be running a Quickscript\xa0competition: Write your own script and win prizes! There will be weekly winners in categories to be determined by the judges and overall awards at the end of the month.\xa0We follow Racket’s and the ACM’s\xa0Code of Conduct. https://racketlang.org/friendly.htmlThere will be amazing prizes!An exclusive badge for your github profile recognising your efforts and\xa0contribution to the community. Socks/Mugs/Hats/Stickers with the Racket logo  to be announced on Racket Users mailing list/google group. Scripts licensed appropriately will be included in a package for installation and universal fame.End date: 31JulyGetting startedGetting started for the impatient: https://docs.racketlang.org/quickscript/#%28part._.Make_your_own_script__.First_simple_example%29See quickscriptextra for a bunch of useful and example scripts:[readme] https://github.com/Metaxal/quickscriptextra/blob/master/README.md [scripts] https://github.com/Metaxal/quickscriptextra/tree/master/scriptsHelp and discussion will be available through the\xa0#quickscriptcompetition\xa0slack channel.Once your script is ready,\xa0submit your entry! https://github.com/QuickscriptCompetiton/July2020entries/issues/new/chooseNeed some\xa0ideas to get started? https://github.com/QuickscriptCompetiton/July2020entries/blob/master/IDEAS.mdhttps://groups.google.com/g/racketusers/c/FLy7hoLOBg/m/CftPSg9AAAJ</text>
+</message>
+<message>
+  <ts>2020-07-01T10:47:04.433000</ts>
+  <user>Dejuan</user>
+  <text>Pinned a message.</text>
+</message>
+<message>
+  <ts>2020-07-01T12:29:58.071000</ts>
+  <user>Iliya</user>
+  <text>i thought i saw a question on stack overflow about making an alternating case function ("hello =&gt; HeLlO") but i can\'t find it now. i ended up writing several versions for myself which was kind of fun</text>
+</message>
+<message>
+  <ts>2020-07-01T12:31:00.790000</ts>
+  <user>Iliya</user>
+  <text>my first version was quite long and hard to read. my current version looks like this:</text>
+</message>
+<message>
+  <ts>2020-07-01T12:31:03.383000</ts>
+  <user>Iliya</user>
+  <text>```Scheme#lang racket(require racket/generator)(require srfi/13) ; stringmap(require srfi/26) ; cut(define (stringalternatingcaps s) (define charaltcase (infinitegenerator (yield charupcase) (yield chardowncase))) (stringmap (cut (charaltcase) &lt;&gt;) s))(stringalternatingcaps hello there") ; =&gt; HeLlO ThErE"(stringalternatingcaps HELLO THERE") ; =&gt; HeLlO ThErE"```</text>
+</message>
+<message>
+  <ts>2020-07-01T12:32:13.510000</ts>
+  <user>Iliya</user>
+  <text>so that's me learning to use generators and trying out `cut`. yay!</text>
+</message>
+<message>
+  <ts>2020-07-01T12:33:06.143000</ts>
+  <user>Iliya</user>
+  <text>it seemed to me like `(cut (charaltcase) &lt;&gt;)` was a little easier to read than `(λ (c) ((charaltcase) c))`</text>
+</message>
+<message>
+  <ts>2020-07-01T18:18:31.904000</ts>
+  <user>Angelus</user>
+  <text>You can use `curry`.</text>
+</message>
+<message>
+  <ts>2020-07-01T20:31:24.992000</ts>
+  <user>Iliya</user>
+  <text>i tried `(stringmap (curry (charaltcase)) s)` but i ended up with `"HELLO THERE"` as output</text>
+</message>
+<message>
+  <ts>2020-07-01T21:49:19.443000</ts>
+  <user>Cavin</user>
+  <text>@Plane personally I like `fancyapp`</text>
+</message>
+<message>
+  <ts>2020-07-01T21:51:21.439000</ts>
+  <user>Cavin</user>
+  <text>with it `(stringappend _ foo")` is the same as `(lambda (x) (stringappend x foo"))`</text>
+</message>
+<message>
+  <ts>2020-07-01T21:52:05.638000</ts>
+  <user>Iliya</user>
+  <text>ooh that does sound fancy :D</text>
+</message>
+<message>
+  <ts>2020-07-01T21:59:23.851000</ts>
+  <user>Page</user>
+  <text>So with `fancyapp` `((charaltcase) _)` is another way of writing `(cut (charaltcase) &lt;&gt;)`</text>
+</message>
+<message>
+  <ts>2020-07-01T22:26:11.508000</ts>
+  <user>Iliya</user>
+  <text>i like it thanks a lot (:</text>
+</message>
+<message>
+  <ts>2020-07-01T22:26:28.236000</ts>
+  <user>Iliya</user>
+  <text>that was actually my motivation for posting this i thought someone might suggest something i didn't know about (:</text>
+</message>
+<message>
+  <ts>2020-07-03T21:17:46.582000</ts>
+  <user>Gorka</user>
+  <text>I think `cut` acts as a delimiter which is usefull in other cases.```(cut (+ 3 ( 4 &lt;&gt;))) &gt; (lambda (x) (+ 3 ( 4 x))); fancyapp only does one level"(+ 3 ( 4 _)) &gt; (+ 3 (lambda (x) ( 4 x)))```</text>
+</message>
+<message>
+  <ts>2020-07-03T21:25:19.606000</ts>
+  <user>Page</user>
+  <text>Well maybe another version of `cut` could be better but currently `cut` is just as onelevel as fancyapp:```&gt; (procedurearity (cut + 3 ( 4 &lt;&gt;)))0&gt; ((cut + 3 ( 4 &lt;&gt;))); &lt;&gt;: undefined```</text>
+</message>
+<message>
+  <ts>2020-07-03T21:30:37.220000</ts>
+  <user>Gorka</user>
+  <text>I guess I remembered incorrectly</text>
+</message>
+<message>
+  <ts>2020-07-03T21:30:39.209000</ts>
+  <user>Gorka</user>
+  <text>darn</text>
+</message>
+<message>
+  <ts>2020-07-03T21:31:09.803000</ts>
+  <user>Gorka</user>
+  <text>`cut` apparently also has `&lt;...&gt;` for a rest var</text>
+</message>
+<message>
+  <ts>2020-07-03T21:31:15.520000</ts>
+  <user>Iliya</user>
+  <text>with `cut` you can do this:</text>
+</message>
+<message>
+  <ts>2020-07-03T21:31:18.646000</ts>
+  <user>Iliya</user>
+  <text>```scheme&gt; ((cut &lt;&gt; &lt;&gt;)  3)3```</text>
+</message>
+<message>
+  <ts>2020-07-03T21:31:36.299000</ts>
+  <user>Iliya</user>
+  <text>but i think fancyapp can't have `_` at the beginning</text>
+</message>
+<message>
+  <ts>2020-07-03T21:31:54.550000</ts>
+  <user>Iliya</user>
+  <text>```scheme&gt; ((_ _)  3). _: wildcard not allowed as an expression in: (_ _)```</text>
+</message>
+<message>
+  <ts>2020-07-03T21:43:18.463000</ts>
+  <user>Cavin</user>
+  <text>I'd call that an unfortunately difficult to fix bug in fancyapp</text>
+</message>
+<message>
+  <ts>2020-07-03T21:43:59.804000</ts>
+  <user>Cavin</user>
+  <text>I don't think I've ever needed rest args with `fancyapp`</text>
+</message>
+<message>
+  <ts>2020-07-03T22:12:51.439000</ts>
+  <user>Gorka</user>
+  <text>I haven't either. I have needed deeper nesting on occasion</text>
+</message>
+<message>
+  <ts>2020-07-03T22:31:21.668000</ts>
+  <user>Cavin</user>
+  <text>I think with deeper nesting it's worth it to just make a lambda and name the parameter</text>
+</message>
+<message>
+  <ts>2020-07-03T22:31:58.243000</ts>
+  <user>Cavin</user>
+  <text>especially with the Unicode lambda it's not like it's all that much longer</text>
+</message>
+<message>
+  <ts>2020-07-03T22:39:46.367000</ts>
+  <user>Gorka</user>
+  <text>Sry ASCII for LIFE</text>
+</message>
+<message>
+  <ts>2020-07-03T22:39:50.577000</ts>
+  <user>Gorka</user>
+  <text>😛</text>
+</message>
+<message>
+  <ts>2020-07-03T22:56:03.621000</ts>
+  <user>Gorka</user>
+  <text>I do tend to agree. Pointfree style can be tough to read several months later.</text>
+</message>
+<message>
+  <ts>2020-07-03T23:12:18.893000</ts>
+  <user>Cavin</user>
+  <text>I think eta reduction and `fancyapp` is the most pointfreedom I can read</text>
+</message>
+<message>
+  <ts>2020-07-03T23:12:48.931000</ts>
+  <user>Cavin</user>
+  <text>(and composition provided it's not backwards)</text>
+</message>
+<message>
+  <ts>2020-07-03T23:58:25.164000</ts>
+  <user>Gorka</user>
+  <text>This is why I can't have nice things.```==&gt; testresults20200703_1616.txt &lt;==241 success(es) 42 failure(s) 0 error(s) 283 test(s) run4242/283 test failures==&gt; testresults20200703_1647.txt &lt;==188 success(es) 95 failure(s) 0 error(s) 283 test(s) run9595/283 test failures==&gt; testresults20200703_1649.txt &lt;==186 success(es) 97 failure(s) 0 error(s) 283 test(s) run9797/283 test failures==&gt; testresults20200703_1653.txt &lt;==241 success(es) 42 failure(s) 0 error(s) 283 test(s) run4242/283 test failures```</text>
+</message>
+<message>
+  <ts>2020-07-06T12:58:13.160000</ts>
+  <user>Dejuan</user>
+  <text>Calling package authors and language designers! Have you considered a quickscript for your language or package? Quickscript can access any package  there are scripts that post to twitter with `net` or display an interactive graph with `plot`  what could you do with your package?</text>
+</message>
+<message>
+  <ts>2020-07-07T18:10:57.332000</ts>
+  <user>Dejuan</user>
+  <text>https://github.com/QuickscriptCompetiton/July2020entries</text>
+</message>
+<message>
+  <ts>2020-07-13T22:31:33.315000</ts>
+  <user>Leslye</user>
+  <text>I've been looking for a way to contribute to Racket. Sometimes I wonder if there's a time you sit down and actually make decisions? Issue 3104 https://github.com/racket/racket/issues/3104 got me wondering since it seemed like some good research and discussion when in and then ... the resolution as posted online is very hazy.</text>
+</message>
+<message>
+  <ts>2020-07-13T23:28:35.711000</ts>
+  <user>Cavin</user>
+  <text>@Moinate I think API design decisions have historically not been made with wide participation in racket so there isn't much of a process for pushing them along</text>
+</message>
+<message>
+  <ts>2020-07-13T23:29:41.094000</ts>
+  <user>Cavin</user>
+  <text>that's something we want to change</text>
+</message>
+<message>
+  <ts>2020-07-15T06:24:55.026000</ts>
+  <user>Cavin</user>
+  <text>working on enum types! specifically this: https://github.com/jackfirth/rebellion/issues/431</text>
+</message>
+<message>
+  <ts>2020-07-15T09:22:22.261000</ts>
+  <user>Cavin</user>
+  <text>progress! this works:```scheme;; The enumid syntax class extracts compiletime info about the;; enum.(definesimplemacro (enumconstants enum:enumid) (set enum.constant ...))(defineenumtype compassdirection (north south east west))&gt; (enumconstants compassdirection)(set north south east west)```</text>
+</message>
+<message>
+  <ts>2020-07-15T11:06:32.523000</ts>
+  <user>Cavin</user>
+  <text>`enumout` works 😁</text>
+</message>
+<message>
+  <ts>2020-07-15T11:06:55.524000</ts>
+  <user>Cavin</user>
+  <text>and now bed</text>
+</message>
+<message>
+  <ts>2020-07-15T11:09:59.272000</ts>
+  <user>Angelus</user>
+  <text>Good night!</text>
+</message>
+<message>
+  <ts>2020-07-15T11:11:34.771000</ts>
+  <user>Dejuan</user>
+  <text>oh no 4am  he's worse than me.</text>
+</message>
+<message>
+  <ts>2020-07-15T17:56:23.337000</ts>
+  <user>Cavin</user>
+  <text>I just got into things okay 😅</text>
+</message>
+<message>
+  <ts>2020-07-15T17:56:57.004000</ts>
+  <user>Dejuan</user>
+  <text>😂</text>
+</message>
+<message>
+  <ts>2020-07-15T21:42:54.737000</ts>
+  <user>Angelus</user>
+  <text>I made a silly thing https://erkin.party/blog/200715/evolution/</text>
+</message>
+<message>
+  <ts>2020-07-15T23:39:20.164000</ts>
+  <user>Dejuan</user>
+  <text>Nice!</text>
+</message>
+<message>
+  <ts>2020-07-16T01:16:59.794000</ts>
+  <user>Cavin</user>
+  <text>I love it</text>
+</message>
+<message>
+  <ts>2020-07-16T02:02:57.591000</ts>
+  <user>Angelus</user>
+  <text>Feedback and additions welcome btw :meow:</text>
+</message>
+<message>
+  <ts>2020-07-16T10:07:31.775000</ts>
+  <user>Iliya</user>
+  <text>@Deleted User neat i saw that on lobsters (:</text>
+</message>
+<message>
+  <ts>2020-07-16T10:08:23.376000</ts>
+  <user>Iliya</user>
+  <text>i like that your rainbow parens are literal rainbows</text>
+</message>
+<message>
+  <ts>2020-07-16T10:23:58.489000</ts>
+  <user>Angelus</user>
+  <text>Thanks!</text>
+</message>
+<message>
+  <ts>2020-07-16T10:24:05.936000</ts>
+  <user>Angelus</user>
+  <text>It's a simple trick: https://erkin.party/syntax/</text>
+</message>
+<message>
+  <ts>2020-07-16T10:45:40.236000</ts>
+  <user>Dejuan</user>
+  <text>I've just cargocult'ed a couple of PR's to add racket to the languages for the icfp2020 competition  I have no idea if they are right so if anyone knows anything about docker I'd appreciate it if they took a look at my PR's! https://github.com/icfpcontest2020/dockerfiles/issues/63</text>
+</message>
+<message>
+  <ts>2020-07-16T19:44:18.481000</ts>
+  <user>Cavin</user>
+  <text>Working on a library for converters (objects containing a pair of functions like `string&gt;number` and `number&gt;string`). Anyone else made/used something similar? Example:```scheme(define string&lt;&gt;number (makeconverter string&gt;number number&gt;string))(convertforward string&lt;&gt;number 42") ;; returns 42(convertbackward string&lt;&gt;number 5) ;; returns 5"```</text>
+</message>
+<message>
+  <ts>2020-07-18T18:04:12.952000</ts>
+  <user>Ramsie</user>
+  <text>which book would be a good read after HTDP?</text>
+</message>
+<message>
+  <ts>2020-07-18T18:04:43.461000</ts>
+  <user>Ramsie</user>
+  <text>assuming I'm trying to learn functional programming</text>
+</message>
+<message>
+  <ts>2020-07-19T02:21:41.952000</ts>
+  <user>Jabari</user>
+  <text>I'm glad I learned racket. In some roundabout way it helped me understand convolution. Just started learning DSP and convolution seemed really confusing until I thought about how I'd model the problem in racket</text>
+</message>
+<message>
+  <ts>2020-07-19T02:23:19.826000</ts>
+  <user>Jabari</user>
+  <text>Or I guess a better way to phrase it the thinking in terms of functions helped me the most</text>
+</message>
+<message>
+  <ts>2020-07-19T02:32:11.976000</ts>
+  <user>Cavin</user>
+  <text>what's convolution and DSP?</text>
+</message>
+<message>
+  <ts>2020-07-19T02:32:36.363000</ts>
+  <user>Gorka</user>
+  <text>digital signal processing</text>
+</message>
+<message>
+  <ts>2020-07-19T02:54:35.868000</ts>
+  <user>Cavin</user>
+  <text>oh fascinating</text>
+</message>
+<message>
+  <ts>2020-07-19T06:23:12.878000</ts>
+  <user>Angelus</user>
+  <text>@daniels SICP maybe?</text>
+</message>
+<message>
+  <ts>2020-07-19T11:35:10.319000</ts>
+  <user>Dejuan</user>
+  <text>PLAI ?</text>
+</message>
+<message>
+  <ts>2020-07-19T11:35:47.667000</ts>
+  <user>Dejuan</user>
+  <text>https://cs.brown.edu/~sk/Publications/Books/ProgLangs/20070426/</text>
+</message>
+<message>
+  <ts>2020-07-19T11:36:28.968000</ts>
+  <user>Dejuan</user>
+  <text>Followed by https://redex.racketlang.org</text>
+</message>
+<message>
+  <ts>2020-07-20T18:29:45.055000</ts>
+  <user>Dejuan</user>
+  <text>New week...new racket!What have you been up to?I’ve been seeing some great entries in the Quickscript competition and I’m looking forward to the Standardfish competition. What about you? Answer here or discuss on   https://racket.slack.com/ (Sign up at https://racketslack.herokuapp.com/ )   `#racket` IRC on freenode.net https://botbot.me/freenode/racket/ If you are on Twitter  follow @racketlang Don’t forget to sign up for and contribute Racket News to Racket News at https://racketnews.com/ AND submit your links to Racket Stories https://racketstories.com/ Kind regards Stephen</text>
+</message>
+<message>
+  <ts>2020-07-21T02:39:33.410000</ts>
+  <user>Page</user>
+  <text>Is there a good way to write a conditional where the condition is an and of multiple things including a definition and I would like the thenbody of the conditional to have access to that definition?This is an instance of the idea in a simple example:```(lambda (a) (if (and (pair? a) (define c (car a)) (number? c)) (add1 c) #f))```A template for a class of examples:```(lambda (a) (if (and &lt;condition b using a&gt; (define c &lt;computation c using a relying on b being true&gt;) &lt;condition d using a and c relying on b being true&gt;) &lt;computation e using a and c relying on b and d being true&gt; &lt;computation f using a relying on b or d being false&gt;))```</text>
+</message>
+<message>
+  <ts>2020-07-21T02:48:32.074000</ts>
+  <user>Page</user>
+  <text>I can think of 6 ways of handling this:  Duplicate the code of computation c (condition and thenbranch)  Duplicate the code of computation f (bfalse and dfalse)  Put computation c into a function duplicating execution without duplicating code  Put computation f into a function doesn't duplicate execution or code  Preserve the value of `c` using mutation  Preserve the value of `c` using return results</text>
+</message>
+<message>
+  <ts>2020-07-21T02:55:56.126000</ts>
+  <user>Page</user>
+  <text>There is another relevant factor Typed Racket's inference and occurrence typing around this. Typed Racket would not be able to infer the correct types for the functions introduced in the 3rd and 4th strategies without annotations. And I don't know whether Typed Racket's occurrence typing would play well with the 5th strategy... occurrence typing and mutation don't mix very well.</text>
+</message>
+<message>
+  <ts>2020-07-21T03:08:36.065000</ts>
+  <user>Cavin</user>
+  <text>I'd just nest two `cond` expressions</text>
+</message>
+<message>
+  <ts>2020-07-21T03:09:30.121000</ts>
+  <user>Cavin</user>
+  <text>I do think this is something that needs a better solution but that's the best I think can be done without building new features into internal definition contexts</text>
+</message>
+<message>
+  <ts>2020-07-21T03:09:58.869000</ts>
+  <user>Page</user>
+  <text>The first 2 have the problems associated with duplicating code. The next 3 have problems with Typed Racket. That leaves the 6th and last one which I suppose I should elaborate on:```(lambda (a) (let ([c? (and &lt;condition b using a&gt; (define c &lt;computation c using a relying on b being true&gt;) &lt;condition d using a and c relying on b being true&gt; (list c))]) (if c? (let ([c (car c?)]) &lt;computation e using a and c relying on b and d being true&gt;) &lt;computation f using a relying on b or d being false&gt;)))```</text>
+</message>
+<message>
+  <ts>2020-07-21T03:18:20.022000</ts>
+  <user>Page</user>
+  <text>I\'m not sure what you mean by nest two `cond` expressions". I have 2 conditionals an `and` and an `if`. In the initial example the `and` is nested in the conditionposition of the outer `if`.In the 2nd and 4th strategies the `and` is split to make a 2nd `if` in the thenposition of the outer `if`. Is that what you meant?</text>
+</message>
+<message>
+  <ts>2020-07-21T03:32:00.145000</ts>
+  <user>Page</user>
+  <text>I suppose another way to do this would involve continuations but adding `let/cc` or `let/ec` anywhere would trigger the same typeinference problems as the 3rd and 4th strategies</text>
+</message>
+<message>
+  <ts>2020-07-21T03:39:26.038000</ts>
+  <user>Page</user>
+  <text>The 5th strategy would be the most natural in an imperative language something like```(lambda (a) (declareuninitialized c) (if (and &lt;condition b using a&gt; (initialize! c &lt;computation c using a relying on b being true&gt;) &lt;condition d using a and c relying on b being true&gt;) &lt;computation e using a and c relying on b and d being true&gt; &lt;computation f using a relying on b or d being false&gt;))```</text>
+</message>
+<message>
+  <ts>2020-07-21T03:43:21.095000</ts>
+  <user>Page</user>
+  <text>Although for occurrencetyping purposes I would want `c` to be immutable after it's been initialized like a blank `final` in Java</text>
+</message>
+<message>
+  <ts>2020-07-21T05:19:44.698000</ts>
+  <user>Ifra</user>
+  <text>This is a pretty vexing situation. I usually go with strategy 4 but it always feels like it should be possible without contorting the code so much.</text>
+</message>
+<message>
+  <ts>2020-07-21T07:59:17.736000</ts>
+  <user>Cavin</user>
+  <text>now that I'm not on mobile and can actually read closely I see what you mean</text>
+</message>
+<message>
+  <ts>2020-07-21T07:59:31.045000</ts>
+  <user>Cavin</user>
+  <text>I'd just go with 4 or I'd extract a helper function somehow</text>
+</message>
+<message>
+  <ts>2020-07-21T08:00:01.864000</ts>
+  <user>Cavin</user>
+  <text>if the computation of c isn't effectful I'd probably not worry about duplicating it and extract a helper</text>
+</message>
+<message>
+  <ts>2020-07-21T08:00:52.893000</ts>
+  <user>Cavin</user>
+  <text>```scheme(lambda (a) (if (pairwithnumber? a) (add1 (car a)) #f))(define (pairwithnumber? a) (and (pair? a) (number? (car a))))```</text>
+</message>
+<message>
+  <ts>2020-07-21T08:03:00.386000</ts>
+  <user>Cavin</user>
+  <text>you could contort patterns like this:```scheme(if querycomputingsomethingreusable computationreusingthatthing othercomputation)```to instead use an option value so that `querycomputingsomethingreusable` returns either `(present reusablething)` or `absent` instead of just true or false</text>
+</message>
+<message>
+  <ts>2020-07-21T08:03:47.711000</ts>
+  <user>Cavin</user>
+  <text>...but I wouldn't do that unless there was a good reason I needed to avoid recomputing the thing like because it's an expensive thing or an effectful thing</text>
+</message>
+<message>
+  <ts>2020-07-21T08:13:05.902000</ts>
+  <user>Cavin</user>
+  <text>(oh and since it's typed racket you'd need to make your own `present` and `absent` types)</text>
+</message>
+<message>
+  <ts>2020-07-21T13:12:35.692000</ts>
+  <user>Page</user>
+  <text>I think strategy 4 is closer to what macros like `match` and `syntaxparse` do... something like:```(lambda (a) (define (computebcde) (if &lt;condition b using a&gt; (block (define c &lt;computation c using a relying on b being true&gt;) (if &lt;condition d using a and c relying on b being true&gt; &lt;computation e using a and c relying on b and d being true&gt; (computef))) (computef))) (define (computef) &lt;computation f using a relying on b or d being false&gt;) (computebcde))```This works fine for dynamic typing in normal Racket but Typed Racket's occurrence typing misses the information of `b` or `d` being false within computation `f`. Typed Racket should be able to see that with strategies 1 2 or 6 I think (5 only partially).However since strategy 4 seems good for normal Racket is it possible to change 4 to be more friendly with Typed Racket?</text>
+</message>
+<message>
+  <ts>2020-07-21T13:31:13.011000</ts>
+  <user>Page</user>
+  <text>(re: `present` and `absent` my strategy 6 used 1elementlist and false)</text>
+</message>
+<message>
+  <ts>2020-07-21T15:06:19.282000</ts>
+  <user>Zaniah</user>
+  <text>If `(car a)` cannot be `#f` I would probably write your original example like```(lambda (a) (define c (and (pair? a) (car a))) (if (number? c) (add1 c) #f)))```</text>
+</message>
+<message>
+  <ts>2020-07-21T15:12:05.906000</ts>
+  <user>Zaniah</user>
+  <text>Or use multiple values like</text>
+</message>
+<message>
+  <ts>2020-07-21T15:13:42.476000</ts>
+  <user>Zaniah</user>
+  <text>```(lambda (a) (definevalues (matched? number) (if (pair? a) (values (number? (car a)) (car a)) (values #f #f))) ...)```</text>
+</message>
+<message>
+  <ts>2020-07-21T15:21:24.769000</ts>
+  <user>Page</user>
+  <text>Oh thank you. You said it only works if the `(car a)` cannot be false and that isn't always true... however the real constraint is the `(number? c)` position can be a `&lt;condition d using a and c relying on b being true&gt;`. Based on that I think I can adjust your example slightly to account for this better:```(lambda (a) (define b (pair? a)) (define c (and b (car a))) (if (and b (number? c)) (add1 c) #f)))```Or with the template:```(lambda (a) (define b &lt;condition b using a&gt;) (define c (and b &lt;computation c using a relying on b being true&gt;)) (if (and b &lt;condition d using a and c relying on b being true&gt;) &lt;computation e using a and c relying on b and d being true&gt; &lt;computation f using a relying on b or d being false&gt;))```This looks much more promising</text>
+</message>
+<message>
+  <ts>2020-07-21T15:32:58.319000</ts>
+  <user>Zaniah</user>
+  <text>Yeah that seems to generalize the best and IMO is more readable. Now I wonder if I ever had a real need to use that multiplevalues pattern...</text>
+</message>
+<message>
+  <ts>2020-07-21T15:36:39.340000</ts>
+  <user>Page</user>
+  <text>Although getting Typed Racket to infer the right types might still be hard</text>
+</message>
+<message>
+  <ts>2020-07-21T15:38:50.096000</ts>
+  <user>Page</user>
+  <text>The type of the variable `c` will be the union of `#f` with the type of the computation c and I don't know how to get Typed Racket to recognize that within an `(and b _)` or `(if b _ ...)` the type shouldn't have the `#f` added anymore</text>
+</message>
+<message>
+  <ts>2020-07-21T15:41:32.597000</ts>
+  <user>Page</user>
+  <text>I guess the type of `c` would have to be dependent on the value of `b`</text>
+</message>
+<message>
+  <ts>2020-07-21T16:15:13.229000</ts>
+  <user>Page</user>
+  <text>Is it possible to get a condition on `b` to refine the type of `c` to no longer include the extra `U False`?</text>
+</message>
+<message>
+  <ts>2020-07-21T19:38:33.705000</ts>
+  <user>Page</user>
+  <text>Maybe? This use of `(ann #false (Refine [_ : False] (: b False)))` gives me some hope:```(: f (∀ (A B C D E F) (&gt; (&gt; (U A B D) Boolean : (U B D)) (&gt; (U B D) C) (&gt; (U B D) C Boolean : #:+ D #: (! D)) (&gt; D C E) (&gt; (U A B) F) (&gt; (U A B D) (U E F)))))(define (f conditionb computationc conditiond computatione computationf) (lambda (a) (define b (conditionb a)) (define c (if b (computationc a) (ann #false (Refine [_ : False] (: b False))))) (if (and b (conditiond a c)) (computatione a c) (computationf a))))```</text>
+</message>
+<message>
+  <ts>2020-07-21T22:34:44.350000</ts>
+  <user>Page</user>
+  <text>I have incorporated this pattern into a macro for pattern matching that's meant to use occurrence typing and `typecheckfail` to do exhaustiveness checking... and while it's working for the simplest cases typechecking is taking a lot longer on slightly more complex cases. Is there anything in this pattern that's an obvious timesink for Typed Racket?</text>
+</message>
+<message>
+  <ts>2020-07-22T14:54:59.473000</ts>
+  <user>Zaniah</user>
+  <text>Wow those types are pretty intense! I admit I can't read most of that type signature so I hesitate to even suggest this but... would `cast` work? I know it's ideologically impure but if the runtime cost is minimal it might be OK?</text>
+</message>
+<message>
+  <ts>2020-07-22T15:37:27.905000</ts>
+  <user>Zaniah</user>
+  <text>I guess I was assuming that Refine was the time sink which was a weird assumption to make.</text>
+</message>
+<message>
+  <ts>2020-07-22T16:00:39.061000</ts>
+  <user>Page</user>
+  <text>I doubt that attaching the `Refine` type to `#false` is taking much time for the typechecker but maybe dealing with the uses of `c` later on while `c` has a type like `(U C (Refine [_ : False] (: b False)))` which must be reduced to just `C` in contexts where `b` is known to be true? Using the refinement there seems harder than checking the refinement at the initial `ann`.</text>
+</message>
+<message>
+  <ts>2020-07-23T01:04:16.991000</ts>
+  <user>Cavin</user>
+  <text>just did a good thing 🎵 I don't regret this thing at all 🎵</text>
+</message>
+<message>
+  <ts>2020-07-23T03:43:00.353000</ts>
+  <user>Angelus</user>
+  <text>omg</text>
+</message>
+<message>
+  <ts>2020-07-23T03:43:10.813000</ts>
+  <user>Angelus</user>
+  <text>Source pls</text>
+</message>
+<message>
+  <ts>2020-07-23T03:57:41.760000</ts>
+  <user>Cavin</user>
+  <text>```scheme(require pict planning/private/animation)(define tau ( pi 2))(animation #:framerate 20 (for/list ([offset (sequenceappend (inrange 0 1/32 1/256) (inrange 1/32 0 1/256))]) (standardcat 64 64 #:happy? #t #:leftearangle ( tau (+ 5/16 offset)) #:rightearangle ( tau ( 1/16 offset)))))```</text>
+</message>
+<message>
+  <ts>2020-07-23T03:57:53.954000</ts>
+  <user>Cavin</user>
+  <text>no promises of stability</text>
+</message>
+<message>
+  <ts>2020-07-23T06:17:27.328000</ts>
+  <user>Angelus</user>
+  <text>Haha tau</text>
+</message>
+<message>
+  <ts>2020-07-23T06:55:13.366000</ts>
+  <user>Cavin</user>
+  <text>tau gang represent</text>
+</message>
+<message>
+  <ts>2020-07-23T09:13:37.273000</ts>
+  <user>Dejuan</user>
+  <text>so nice!</text>
+</message>
+<message>
+  <ts>2020-07-23T12:10:36.802000</ts>
+  <user>Dejuan</user>
+  <text>If you could have a wish granted what would you like to see next in Racket? https://www.reddit.com/r/Racket/comments/hwe49b/if_you_could_have_a_wish_granted_what_would_you/?utm_source=share&amp;utm_medium=web2x (originally copied from twitter)</text>
+</message>
+<message>
+  <ts>2020-07-24T05:50:53.554000</ts>
+  <user>Indyah</user>
+  <text>made a thing using macros! I know its small but its a step haha</text>
+</message>
+<message>
+  <ts>2020-07-24T05:50:56.399000</ts>
+  <user>Indyah</user>
+  <text>https://git.lain.church/tA/fizzbuzz</text>
+</message>
+<message>
+  <ts>2020-07-24T19:46:26.497000</ts>
+  <user>Dejuan</user>
+  <text>Hey @Deleted User do you have a licence for your rainbow parens code? https://github.com/QuickscriptCompetiton/July2020entries/issues/14</text>
+</message>
+<message>
+  <ts>2020-07-24T19:49:40.877000</ts>
+  <user>Angelus</user>
+  <text>I don't have one but I can add a CC0 indicator on the webpage.</text>
+</message>
+<message>
+  <ts>2020-07-24T19:57:36.548000</ts>
+  <user>Angelus</user>
+  <text>Done! Added a comment there also.</text>
+</message>
+<message>
+  <ts>2020-07-24T19:57:55.474000</ts>
+  <user>Dejuan</user>
+  <text>TYVM !</text>
+</message>
+<message>
+  <ts>2020-07-24T19:58:14.667000</ts>
+  <user>Dejuan</user>
+  <text>Mr Robin thanks you</text>
+</message>
+<message>
+  <ts>2020-07-24T20:42:34.770000</ts>
+  <user>Angelus</user>
+  <text>😺</text>
+</message>
+<message>
+  <ts>2020-07-24T20:42:38.812000</ts>
+  <user>Angelus</user>
+  <text>No problem Mr Robin!</text>
+</message>
+<message>
+  <ts>2020-07-24T20:45:16.771000</ts>
+  <user>Dejuan</user>
+  <text>I’ve been thinking of a mascot  rust has crabs</text>
+</message>
+<message>
+  <ts>2020-07-24T20:45:30.834000</ts>
+  <user>Dejuan</user>
+  <text>Maybe a robin or a racoon</text>
+</message>
+<message>
+  <ts>2020-07-24T20:45:38.330000</ts>
+  <user>Dejuan</user>
+  <text>Unofficial</text>
+</message>
+<message>
+  <ts>2020-07-24T20:46:03.686000</ts>
+  <user>Dejuan</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-07-24T22:02:39.346000</ts>
+  <user>Gorka</user>
+  <text>+1 racoons</text>
+</message>
+<message>
+  <ts>2020-07-25T08:06:49.304000</ts>
+  <user>Angelus</user>
+  <text>Sup bro's</text>
+</message>
+<message>
+  <ts>2020-07-25T08:07:00.112000</ts>
+  <user>Angelus</user>
+  <text>Dang this inactive to??? qq</text>
+</message>
+<message>
+  <ts>2020-07-25T09:18:28.451000</ts>
+  <user>Angelus</user>
+  <text>It's a small server. Activity comes and goes.</text>
+</message>
+<message>
+  <ts>2020-07-25T10:11:06.439000</ts>
+  <user>Iliya</user>
+  <text>I’ve been enjoying lurking here (: The people are nice and I’ve learned some stuff</text>
+</message>
+<message>
+  <ts>2020-07-25T18:28:29.383000</ts>
+  <user>Leslye</user>
+  <text>Ummmm... some of this to #offtopic ?</text>
+</message>
+<message>
+  <ts>2020-07-25T18:30:42.113000</ts>
+  <user>Earnest</user>
+  <text>Relates somewhat to racket so I wouldn’t say it is for off topic</text>
+</message>
+<message>
+  <ts>2020-07-25T18:43:59.573000</ts>
+  <user>Dejuan</user>
+  <text>Sorry @Moinate I’ll use off topic in future</text>
+</message>
+<message>
+  <ts>2020-07-25T19:05:18.528000</ts>
+  <user>Cavin</user>
+  <text>I agree #offtopic would have been a better match. But I'd like to say that because it's a small server with low traffic I'm not interested in enforcing channel content very strictly and channel policing can be used as a tool to silence discussion.</text>
+</message>
+<message>
+  <ts>2020-07-25T19:36:11.924000</ts>
+  <user>Cavin</user>
+  <text>(also I myself am an extremely disorganized person who wanders from topic to topic with reckless abandon)</text>
+</message>
+<message>
+  <ts>2020-07-26T01:40:01.412000</ts>
+  <user>Porsha</user>
+  <text>#relatable</text>
+</message>
+<message>
+  <ts>2020-07-26T01:40:24.942000</ts>
+  <user>Porsha</user>
+  <text>Or perhaps #offtopic now ^^</text>
+</message>
+<message>
+  <ts>2020-07-26T02:38:58.591000</ts>
+  <user>Leslye</user>
+  <text>i'm not trying to police hope nobody feels bad... if i don't see code or engineering i don't read much  maybe i should have i'll leave it at that.</text>
+</message>
+<message>
+  <ts>2020-07-26T02:39:53.289000</ts>
+  <user>Dejuan</user>
+  <text>Don’t worry it’s all good.: 😆</text>
+</message>
+<message>
+  <ts>2020-07-26T09:55:01.955000</ts>
+  <user>Angelus</user>
+  <text>Emacs users are autobanned!!!!!!!!!!!!!!!!!!!!!!</text>
+</message>
+<message>
+  <ts>2020-07-26T09:55:17.401000</ts>
+  <user>Angelus</user>
+  <text>Oops wrong one</text>
+</message>
+<message>
+  <ts>2020-07-26T10:49:47.452000</ts>
+  <user>Cavin</user>
+  <text>@Moinate It's alright you were nowhere near policing 🙂 It just seemed like a good time to get my policy written down since it's never come up before in the server. Politely asking if another channel would be better like you did is totally fine. I'm worried more about like members repeatedly harassing others over channel usage or moderators deleting offchannel messages without warning. (I've seen things like that happen in other communities and it created a very unwelcoming environment.)</text>
+</message>
+<message>
+  <ts>2020-07-27T14:45:35.352000</ts>
+  <user>Dejuan</user>
+  <text>https://standardfish.github.io/racketsummerpicturecompetition2020.github.io/</text>
+</message>
+<message>
+  <ts>2020-07-27T14:50:16.991000</ts>
+  <user>Dejuan</user>
+  <text>Quickscript\xa0Competition UpdateWe are now in our final days  submit your scripts sooner rather than later! prizes still available.End date: 31July</text>
+</message>
+<message>
+  <ts>2020-07-27T16:10:12.035000</ts>
+  <user>Dejuan</user>
+  <text>IntelliJ plugin for Racket: https://plugins.jetbrains.com/plugin/14752racket  added to the list at https://github.com/racket/racket/wiki/IDE'sandtexteditors</text>
+</message>
+<message>
+  <ts>2020-07-28T15:32:45.987000</ts>
+  <user>Dejuan</user>
+  <text>Have I missed any tools that should be listed for the standardfish competiton https://github.com/standardfish/racketsummerpicturecompetition2020/blob/master/TOOLS.md</text>
+</message>
+<message>
+  <ts>2020-07-29T07:09:43.049000</ts>
+  <user>Indyah</user>
+  <text>is there a racket library for connecting to xmpp?</text>
+</message>
+<message>
+  <ts>2020-07-29T07:11:54.337000</ts>
+  <user>Dejuan</user>
+  <text>I’m not aware of one</text>
+</message>
+<message>
+  <ts>2020-07-29T07:12:38.493000</ts>
+  <user>Dejuan</user>
+  <text>https://github.com/tonyg/racketxmpp</text>
+</message>
+<message>
+  <ts>2020-07-29T07:13:08.572000</ts>
+  <user>Dejuan</user>
+  <text>https://github.com/poi519/nanxmpp</text>
+</message>
+<message>
+  <ts>2020-07-29T07:13:16.011000</ts>
+  <user>Dejuan</user>
+  <text>Just found</text>
+</message>
+<message>
+  <ts>2020-07-29T07:13:26.450000</ts>
+  <user>Dejuan</user>
+  <text>Never used</text>
+</message>
+<message>
+  <ts>2020-07-29T07:14:54.423000</ts>
+  <user>Dejuan</user>
+  <text>Tonyg does good code</text>
+</message>
+<message>
+  <ts>2020-07-29T07:31:31.203000</ts>
+  <user>Indyah</user>
+  <text>oh sweet thanks</text>
+</message>
+<message>
+  <ts>2020-07-29T07:51:45.505000</ts>
+  <user>Dejuan</user>
+  <text>There is also https://gitlab.com/spritely/spritely but I don’t know if it is relevant</text>
+</message>
+<message>
+  <ts>2020-07-29T07:55:51.427000</ts>
+  <user>Indyah</user>
+  <text>hmm the tonyg one wont accept an account from my server ;0;</text>
+</message>
+<message>
+  <ts>2020-07-29T07:58:37.149000</ts>
+  <user>Dejuan</user>
+  <text>Can you run it from the command prompt to see any errors?</text>
+</message>
+<message>
+  <ts>2020-07-29T07:59:52.544000</ts>
+  <user>Indyah</user>
+  <text>yeah its saying DNS Query: Error from server: Name Error</text>
+</message>
+<message>
+  <ts>2020-07-29T08:01:17.902000</ts>
+  <user>Dejuan</user>
+  <text>Can you use ip ?</text>
+</message>
+<message>
+  <ts>2020-07-29T08:05:52.100000</ts>
+  <user>Indyah</user>
+  <text>same deal</text>
+</message>
+<message>
+  <ts>2020-07-29T13:12:41.645000</ts>
+  <user>Angelus</user>
+  <text>It probably needs some maintenance and polish.</text>
+</message>
+<message>
+  <ts>2020-07-31T00:30:56.584000</ts>
+  <user>Donis</user>
+  <text>why is drracket now showing a strange man</text>
+</message>
+<message>
+  <ts>2020-07-31T00:30:58.228000</ts>
+  <user>Donis</user>
+  <text>None</text>
+</message>
+<message>
+  <ts>2020-07-31T00:33:49.917000</ts>
+  <user>Donis</user>
+  <text>easter egg</text>
+</message>
+<message>
+  <ts>2020-07-31T00:39:41.626000</ts>
+  <user>Angelus</user>
+  <text>That's Eli Barzilay!</text>
+</message>
+<message>
+  <ts>2020-07-31T00:39:45.023000</ts>
+  <user>Angelus</user>
+  <text>https://github.com/racket/drracket/blob/master/drracket/drracket/private/eb.rkt</text>
+</message>
+<message>
+  <ts>2020-07-31T00:44:52.014000</ts>
+  <user>Angelus</user>
+  <text>https://github.com/racket/gui/blob/master/guilib/framework/private/bday.rkt</text>
+</message>
+<message>
+  <ts>2020-07-31T00:45:46.605000</ts>
+  <user>Angelus</user>
+  <text>Decoded:```Scheme(provide mrfbday? mfbday? skbday? ebbday?)(define ((bday m d)) (let ([date (seconds&gt;date  (let ([ssec (getenv PLTDREASTERSECONDS")]) (if ssec (string&gt;number ssec) (currentseconds))))]) (and (= (datemonth date) m) (= (dateday date) d))))(define ebbday? (bday 7 30))(define mfbday? (bday 10 29))(define mrfbday? (bday 11 1))(define skbday? (bday 4 8))```</text>
+</message>
+<message>
+  <ts>2020-07-31T09:48:13.492000</ts>
+  <user>Dejuan</user>
+  <text>QuickScript is amazing btw — chapeau !  comment from participant in the DrRacket @racketlang Quickscript Competition (unofficial)</text>
+</message>
+</discord>

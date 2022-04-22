@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-18T19:20:13.726000",
+        "user": "Aribella",
+        "text": "So I was trying my old method```gofunc login(username string password string){ body := url.Values{} body.Add(\"username username) body.Add(\"password password) fmt.Println(body.Encode()) time.Sleep(5 time.Second) req err := http.NewRequest(\"POST https://www.instagram.com/accounts/login/ajax/\",strings.NewReader(body.Encode()))```But for some reason req is like this:```&{POST https://www.instagram.com/accounts/login/ajax/ HTTP/1.1 1 1 map[] {0xc00016a040} 0x62cc00 42 [] false www.instagram.com map[] map[] <nil> map[] <nil> <nil> <nil> 0xc0000120f8}```When I need it to be like this:https://www.instagram.com/accounts/login/ajax/username=USERNAMEHERE&password=PASSWORDHERE",
+        "conversation_id": "446",
+        "index": 14
+    },
+    "so_post": {
+        "ts": "2020-02-18T19:22:11.920000",
+        "user": "Nazaret",
+        "text": "https://stackoverflow.com/questions/26984420/urlbuilderquerybuilderingo",
+        "conversation_id": "446",
+        "index": 20
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Aribellah asks question and Nazaret provides So answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

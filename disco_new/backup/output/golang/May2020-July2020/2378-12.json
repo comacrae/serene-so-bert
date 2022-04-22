@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-23T19:43:52.971000",
+        "user": "Jayshon",
+        "text": "how can I get binary representation of negative integer?```fmt.Printf(\"%b %b 6 6) // 110 110```prepend a negative sign isn\\'t what I want can it show 2\\'s complement?",
+        "conversation_id": "2378",
+        "index": 10
+    },
+    "so_post": {
+        "ts": "2020-07-23T19:44:31.725000",
+        "user": "Jayshon",
+        "text": "there's https://stackoverflow.com/questions/53246159/negativeintegertobinaryingolang using unsafe package",
+        "conversation_id": "2378",
+        "index": 12
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Jayshon asks question and provides SO post answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

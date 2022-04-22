@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-18T11:32:44.739000",
+        "user": "Jhan",
+        "text": "is there any way to do index in above example?",
+        "conversation_id": "2046",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-04-18T11:34:31.095000",
+        "user": "Hewitt",
+        "text": "https://stackoverflow.com/questions/25689829/arithmeticingotemplates",
+        "conversation_id": "2046",
+        "index": 8
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jhan has question and provides SO post answer (needs grouping)",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

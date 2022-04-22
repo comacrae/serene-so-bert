@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-12T15:14:37.989000",
+        "user": "Torianna",
+        "text": "i still don't understand how async allows you to run multiple things as the same time in the same thread",
+        "conversation_id": "852",
+        "index": 715
+    },
+    "so_post": {
+        "ts": "2020-10-12T15:17:07.070000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/1050222/whatisthedifferencebetweenconcurrencyandparallelism",
+        "conversation_id": "852",
+        "index": 737
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Not a direct answer but still related to concurrency since Torriena is trying to understand how async works",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

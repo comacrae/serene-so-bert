@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-19T14:04:42.245000",
+        "user": "Cypress",
+        "text": "```OSError: [Errno 8] Exec format error: /home/pi/Documents/telegrambot_cp/geckodriver'```",
+        "conversation_id": "780",
+        "index": 175
+    },
+    "so_post": {
+        "ts": "2020-02-19T14:10:04.085000",
+        "user": "Liv",
+        "text": "https://stackoverflow.com/questions/27606653/oserrorerrno8execformaterrorHave you read this?",
+        "conversation_id": "780",
+        "index": 183
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

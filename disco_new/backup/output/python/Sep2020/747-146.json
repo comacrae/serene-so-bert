@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T15:08:55.312000",
+        "user": "Nikoli",
+        "text": "unicode can encode any language? @ConfusedReptile",
+        "conversation_id": "747",
+        "index": 136
+    },
+    "so_post": {
+        "ts": "2020-09-11T15:11:09.969000",
+        "user": "Ubaldo",
+        "text": "@Slow I like this explanation hopefully it helps you https://stackoverflow.com/a/15128103",
+        "conversation_id": "747",
+        "index": 146
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nikoli asks about unicode and Ubaldo provides SO post answer directly",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

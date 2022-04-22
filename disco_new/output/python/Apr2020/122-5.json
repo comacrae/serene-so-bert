@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-03T10:05:40.404000",
+        "user": "Kaelani",
+        "text": "@Larswijn maybe..I mean this:One more interesting point to note\\xa0:\\xa0Logical\\xa0and,\\xa0or\\xa0operators in Python returns an operand's\\xa0value\\xa0instead of a Boolean (True\\xa0or\\xa0False). For example:Operation\\xa0x and y\\xa0gives the result\\xa0if x is false then x else yUnlike in other languages e.g.\\xa0&&,\\xa0||\\xa0operators in C that return either 0 or 1.",
+        "conversation_id": "122",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-04-03T10:06:01.778000",
+        "user": "Kaelani",
+        "text": "https://stackoverflow.com/a/14892812/8324477",
+        "conversation_id": "122",
+        "index": 5
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "User discussed shortcircuiting and and added this bit of extra information",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

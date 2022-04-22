@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-11T17:06:29.242000",
+        "user": "Delayah",
+        "text": "How can i make a socket io 2.0 + restful api server using golang?",
+        "conversation_id": "199",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-11-11T17:16:12.001000",
+        "user": "Mirielle",
+        "text": "or here: https://stackoverflow.com/questions/55094133/howtosendsomeeventupdatefromhttphandlertoawebsockethandler",
+        "conversation_id": "199",
+        "index": 15
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Delayah asks question and Mirielle provides SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

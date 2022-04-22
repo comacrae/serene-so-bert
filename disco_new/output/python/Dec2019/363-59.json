@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-10T18:35:28.196000",
+        "user": "Bayler",
+        "text": "Whats a parameter",
+        "conversation_id": "363",
+        "index": 58
+    },
+    "so_post": {
+        "ts": "2019-12-10T18:36:37.957000",
+        "user": "Abdelmadjid",
+        "text": "@MajesticPopTart <https://stackoverflow.com/a/156787>",
+        "conversation_id": "363",
+        "index": 59
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

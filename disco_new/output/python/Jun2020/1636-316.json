@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-27T19:25:27.373000",
+        "user": "Nyssa",
+        "text": "I was asking> Could anybody tell me a module that can create file shortcuts? I think ``os`` is appropriate for such taskes but I don't know what method should I choose.",
+        "conversation_id": "1636",
+        "index": 315
+    },
+    "so_post": {
+        "ts": "2020-06-27T19:25:41.063000",
+        "user": "Fredi",
+        "text": "@Deleted User found this https://stackoverflow.com/questions/43553900/howtocreateashortcuttoafolderonwindows",
+        "conversation_id": "1636",
+        "index": 316
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-18T15:55:43.813000",
+        "user": "Mubashir",
+        "text": "> why do you think so?@gm ```py>>> array[9 0.0 0 9 1 2 0 1 0 1 0.0 3 0 1 9 0 0 0 0 9]>>> apple is apple'True>>> 0 is 0True>>> 0.0 is 0.0True>>> array[1]0.0>>> array[1] is 0.0False>>> ```Since `0.0 is 0.0` is `True` and since `array[1]` is `0.0` then I would think that `array[1] is 0.0` should be `True` but it's not.",
+        "conversation_id": "1260",
+        "index": 299
+    },
+    "so_post": {
+        "ts": "2020-09-18T15:57:54.803000",
+        "user": "Wladyslaw",
+        "text": "@Urkchar is operator isn't equality operator (==)https://stackoverflow.com/questions/13650293/understandingpythonsisoperator",
+        "conversation_id": "1260",
+        "index": 322
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Mubashir asks about diff between == and is and gets an SO post answer from Wladyslaw",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

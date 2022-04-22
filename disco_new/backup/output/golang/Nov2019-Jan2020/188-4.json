@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-11T05:07:17.880000",
+        "user": "Lathan",
+        "text": "Is there a way to print struct field names in Go or nah? Only can find a result on SO where it's not possible in C",
+        "conversation_id": "188",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2019-11-11T05:12:00.086000",
+        "user": "Leo",
+        "text": "https://stackoverflow.com/questions/29967157/reflecthowtogetthenameofastructfield",
+        "conversation_id": "188",
+        "index": 4
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Lathan has question and Leo provides answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

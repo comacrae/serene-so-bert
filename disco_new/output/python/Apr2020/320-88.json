@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-07T11:59:20.177000",
+        "user": "Temperence",
+        "text": "@eivl do u have any idea ? for ```pythonTraceback (most recent call last): File model2.py line 82 in <module> model.add(BatchNormalization()) File c:\\\\users\\\\admin\\\\appdata\\\\local\\\\programs\\\\python\\\\python36\\\\lib\\\\sitepackages\\\\tensorflow_core\\\\python\\\\training\\\\tracking\\\\base.py line 457 in _method_wrapper result = method(self args kwargs) File c:\\\\users\\\\admin\\\\appdata\\\\local\\\\programs\\\\python\\\\python36\\\\lib\\\\sitepackages\\\\tensorflow_core\\\\python\\\\keras\\\\engine\\\\sequential.py line 158 in add \\'Found: \\ + str(layer))TypeError: The added layer must be an instance of class Layer. Found: <keras.layers.normalization.BatchNormalization object at 0x000001CE29AD9A20>```",
+        "conversation_id": "320",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-04-07T12:35:49.762000",
+        "user": "Amanii",
+        "text": "https://stackoverflow.com/questions/55324762/theaddedlayermustbeaninstanceofclasslayerfoundtensorflowpythonke",
+        "conversation_id": "320",
+        "index": 88
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User seems to be asking for help in a their post. It comes from a very long conversation in which Amanii concludes by helping the user by giving them a simple guide on class layers",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

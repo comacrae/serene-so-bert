@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-04T15:16:21.488000",
+        "user": "Gaige",
+        "text": "my use case is simple: i need to create a [POST] /api/files endpoint that stores the file info and sha256 to the db and then upload it to aws s3 (the file can be a few hundred MBs) i got it to work by creating a buffer of the multipart.File but how can i avoid having too much memory consumption?",
+        "conversation_id": "964",
+        "index": 59
+    },
+    "so_post": {
+        "ts": "2020-06-04T15:33:06.020000",
+        "user": "Radostin",
+        "text": "https://stackoverflow.com/questions/15879136/howtocalculatesha256filechecksumingo",
+        "conversation_id": "964",
+        "index": 76
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "dezyre has question and radostin provides SO post answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

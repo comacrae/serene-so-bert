@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-13T22:39:08.285000",
+        "user": "Azeneth",
+        "text": "I have a question posted on:",
+        "conversation_id": "930",
+        "index": 316
+    },
+    "so_post": {
+        "ts": "2020-09-13T22:39:11.812000",
+        "user": "Azeneth",
+        "text": "https://stackoverflow.com/questions/63876084/addingvaluesinajsonfile",
+        "conversation_id": "930",
+        "index": 317
+    },
+    "category": "Question Repost",
+    "comments": "asking for help with SO post",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

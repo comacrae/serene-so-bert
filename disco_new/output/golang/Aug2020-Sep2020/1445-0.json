@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-15T18:13:21.948000",
+        "user": "Arika",
+        "text": "Sorry asking you guys alot recently haha.Could you maybe glance over this question I had on stack overflow? Havent had a responsehttps://stackoverflow.com/questions/63874503/howtoorganisefunctionmapsforspecificendpointsingingolang",
+        "conversation_id": "1445",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-15T18:13:21.948000",
+        "user": "Arika",
+        "text": "Sorry asking you guys alot recently haha.Could you maybe glance over this question I had on stack overflow? Havent had a responsehttps://stackoverflow.com/questions/63874503/howtoorganisefunctionmapsforspecificendpointsingingolang",
+        "conversation_id": "1445",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "Arika soliciting help",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

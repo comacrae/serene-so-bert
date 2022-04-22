@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-25T05:53:06.679000",
+        "user": "Sam",
+        "text": "Noob question: Cant you code anything and everything with python?",
+        "conversation_id": "1219",
+        "index": 139
+    },
+    "so_post": {
+        "ts": "2020-04-25T05:53:32.172000",
+        "user": "Dvonte",
+        "text": "https://stackoverflow.com/questions/7284/whatisturingcomplete",
+        "conversation_id": "1219",
+        "index": 142
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "The SO Post explains that while in theory anything could be written in Python, it may not be the fastest way to go about it, evidenced by their example below.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

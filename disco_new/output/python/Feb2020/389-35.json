@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-09T20:03:15.468000",
+        "user": "Kassen",
+        "text": "I dont see how aimbots would be helped by recording what the user inputs though isnt the aimbot supposed to help the user and not opposite?",
+        "conversation_id": "389",
+        "index": 34
+    },
+    "so_post": {
+        "ts": "2020-02-09T20:05:09.175000",
+        "user": "Letti",
+        "text": "https://stackoverflow.com/questions/4263608/ctypesmouseevents",
+        "conversation_id": "389",
+        "index": 35
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "The user was unsure how tracking mouse movement would help aimbots and Letti provided a link to a SO question and gave their input on the matter.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

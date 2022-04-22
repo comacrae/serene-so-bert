@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-06T02:44:53.948000",
+        "user": "Gundemaro",
+        "text": "I've been fooling around with file objects today just for fun and there's something that doesn't behave the way I expect when it comes to text files",
+        "conversation_id": "193",
+        "index": 2
+    },
+    "so_post": {
+        "ts": "2019-11-06T02:52:03.182000",
+        "user": "Gundemaro",
+        "text": "<https://stackoverflow.com/a/58722058/11601118>",
+        "conversation_id": "193",
+        "index": 28
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

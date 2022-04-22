@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T11:16:25.860000",
+        "user": "Cyril",
+        "text": "the difference between \\\\s+ and \\\\S+",
+        "conversation_id": "166",
+        "index": 64
+    },
+    "so_post": {
+        "ts": "2020-09-03T11:18:51.710000",
+        "user": "Alizey",
+        "text": "first answer came fromhttps://stackoverflow.com/questions/16703150/splittinglineinpython",
+        "conversation_id": "166",
+        "index": 78
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Cyril asks question and Alizey provides relevant SO answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

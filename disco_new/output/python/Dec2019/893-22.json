@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-25T22:30:39.436000",
+        "user": "Xochilt",
+        "text": "I have some funny issue in PyCharm ```Pythona = lalalala\"classes = (str int t.List[int])isinstance(a classes)```There is no error but PyCharm highlights classes like an invalid type of function argument",
+        "conversation_id": "893",
+        "index": 21
+    },
+    "so_post": {
+        "ts": "2019-12-25T22:34:31.419000",
+        "user": "Xochilt",
+        "text": "https://stackoverflow.com/questions/1466000/pythonopenbuiltinfunctiondifferencebetweenmodesaawwandr",
+        "conversation_id": "893",
+        "index": 22
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

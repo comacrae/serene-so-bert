@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-22T11:05:48.792000",
+        "user": "Nyssa",
+        "text": "can you sort output?",
+        "conversation_id": "1328",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-06-22T11:11:46.205000",
+        "user": "Prim",
+        "text": "@Deleted User look into field length formatting like this https://stackoverflow.com/questions/10837017/howdoimakeafixedsizeformattedstringinpython",
+        "conversation_id": "1328",
+        "index": 29
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nyssa wants to know how to format strings (this is related since their question isn't really the question they;re trying to ask, they just word it incorrectly)",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

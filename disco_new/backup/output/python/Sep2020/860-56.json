@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-13T03:29:26.081000",
+        "user": "Wouter",
+        "text": "bruh why does literally everyone here post images of their code and not the actual code",
+        "conversation_id": "860",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-09-13T03:32:48.596000",
+        "user": "Wouter",
+        "text": "https://meta.stackoverflow.com/questions/285551/whynotuploadimagesofcodeerrorswhenaskingaquestion",
+        "conversation_id": "860",
+        "index": 56
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Wouter is complaining about how people post their code and then posts an SO post which backs up his point",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

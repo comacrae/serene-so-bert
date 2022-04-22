@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-28T12:50:54.264000",
+        "user": "Aalaysia",
+        "text": "is that valid json? multiline stuff?",
+        "conversation_id": "1791",
+        "index": 120
+    },
+    "so_post": {
+        "ts": "2020-01-28T12:53:47.941000",
+        "user": "Aalaysia",
+        "text": "<https://stackoverflow.com/questions/2392766/multilinestringsinjson>",
+        "conversation_id": "1791",
+        "index": 128
+    },
+    "category": "Question Repost",
+    "comments": "Aalaysia has question about JSON and posts SO background",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

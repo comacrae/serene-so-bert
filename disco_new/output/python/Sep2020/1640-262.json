@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-23T17:29:14.624000",
+        "user": "Eriana",
+        "text": "How does linux know whether an extensionless file is an executable or a folder when it has no extension?",
+        "conversation_id": "1640",
+        "index": 260
+    },
+    "so_post": {
+        "ts": "2020-09-23T17:30:20.590000",
+        "user": "Xinping",
+        "text": "> How does linux know whether an extensionless file is an executable or a folder when it has no extension?<https://stackoverflow.com/questions/4665051/checkifpassedargumentisfileordirectoryinbash>here's how you do it in pure bash.",
+        "conversation_id": "1640",
+        "index": 262
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asks question and recieves direct answer with quotes",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

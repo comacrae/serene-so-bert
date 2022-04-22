@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-29T06:33:32.960000",
+        "user": "Danil",
+        "text": "so whats the name of the look up method or data structure that try except uses?",
+        "conversation_id": "2054",
+        "index": 40
+    },
+    "so_post": {
+        "ts": "2020-09-29T06:34:17.494000",
+        "user": "Libardo",
+        "text": "https://stackoverflow.com/questions/1995734/howareexceptionsimplementedunderthehood",
+        "conversation_id": "2054",
+        "index": 41
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Danil asks question about try except and Libardo provides direct answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

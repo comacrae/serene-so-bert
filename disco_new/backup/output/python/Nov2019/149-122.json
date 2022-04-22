@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-04T20:56:10.985000",
+        "user": "Maxfield",
+        "text": "How do i obtain the screen cordinates?",
+        "conversation_id": "149",
+        "index": 120
+    },
+    "so_post": {
+        "ts": "2019-11-04T20:56:28.700000",
+        "user": "Dreux",
+        "text": "https://stackoverflow.com/questions/3698635/gettingcursorpositioninpython",
+        "conversation_id": "149",
+        "index": 122
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

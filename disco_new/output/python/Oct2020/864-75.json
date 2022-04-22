@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-12T16:21:48.654000",
+        "user": "Luigi",
+        "text": "i got a really wierd bug import isnt doing ANYTHINGhttps://stackoverflow.com/questions/64321571/relativeimportnotdoinganythingwithoutanyerrors",
+        "conversation_id": "864",
+        "index": 75
+    },
+    "so_post": {
+        "ts": "2020-10-12T16:21:48.654000",
+        "user": "Luigi",
+        "text": "i got a really wierd bug import isnt doing ANYTHINGhttps://stackoverflow.com/questions/64321571/relativeimportnotdoinganythingwithoutanyerrors",
+        "conversation_id": "864",
+        "index": 75
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

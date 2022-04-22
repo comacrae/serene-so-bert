@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-10T13:24:36.173000",
+        "user": "Shem",
+        "text": "anybody has a cool project idea?I\\'ve already done some web scraper script and reddit bots and now I\\'m looking for a new challenge I am still quite newbie but I enjoy learning especially if the project is kinda useful",
+        "conversation_id": "571",
+        "index": 102
+    },
+    "so_post": {
+        "ts": "2020-06-10T13:24:50.315000",
+        "user": "Jeanelle",
+        "text": "<https://stackoverflow.com/questions/753190/programmaticallygeneratevideooranimatedgifinpython> here are some ideas people come up with",
+        "conversation_id": "571",
+        "index": 103
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

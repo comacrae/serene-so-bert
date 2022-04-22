@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-11T00:24:11.681000",
+        "user": "Jiaqi",
+        "text": "one question  if we have parent.com and child.parent.com should I have a separate server for this structure?",
+        "conversation_id": "438",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-02-11T00:29:41.348000",
+        "user": "Laurel",
+        "text": "https://stackoverflow.com/questions/11021691/dynamicsubdomainhandlinginawebappflask",
+        "conversation_id": "438",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Direct answer to the question.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

@@ -1,0 +1,1906 @@
+<discord>
+<team_domain>Clojurians</team_domain>
+<channel_name>clojure</channel_name>
+<start_date>2020-05-06T05:35:13.419000</start_date>
+<end_date>2020-07-30T21:37:35.713000</end_date>
+<message conversation_id="1">
+  <ts>2020-05-06T05:35:13.419000</ts>
+  <user>Azahel</user>
+  <text>HelloI have multiple agents for example 100s of agents.They can have three value Below zero Above Zero And zero.At a particular instant of time I want to print how many agents are above zero zero and below zero.Can someone please guide me how to do it? I am new to the clojure code.</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-05-06T05:36:04.963000</ts>
+  <user>Savvi</user>
+  <text>Do you have a collection of all agents?</text>
+</message>
+<message conversation_id="2">
+  <ts>2020-05-06T06:27:59.282000</ts>
+  <user>Savvi</user>
+  <text>@ashish_prabhune</text>
+</message>
+<message conversation_id="3">
+  <ts>2020-05-06T14:54:11.999000</ts>
+  <user>Amarri</user>
+  <text>@ashish_prabhune https://clojure.org/reference/sequences</text>
+</message>
+<message conversation_id="3">
+  <ts>2020-05-06T14:54:33.463000</ts>
+  <user>Amarri</user>
+  <text>https://clojure.org/reference/sequences#_seq_in_seq_out</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-05-06T15:20:32.296000</ts>
+  <user>Azahel</user>
+  <text>Yes @isenjov I have collection of agents.I am just modifying Rich Hickey's ant colony simulation.</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-05-06T15:22:17.590000</ts>
+  <user>Azahel</user>
+  <text>@gibb I do have a sequence of agents.I want to somehow update a count variable which would be shared by all the agents to update it. when all the agents update the variable i ll print the count.</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-05-06T15:22:58.458000</ts>
+  <user>Azahel</user>
+  <text>@gibb</text>
+</message>
+<message conversation_id="1">
+  <ts>2020-05-06T15:23:12.253000</ts>
+  <user>Azahel</user>
+  <text>@lsenjov</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-05-06T15:36:44.227000</ts>
+  <user>Savvi</user>
+  <text>Can't you just map `deref`?</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-05-06T15:38:13.189000</ts>
+  <user>Hampton</user>
+  <text>Because of the semantics of agents if the simulation isn't stopped and you haven't called `(apply await agents)` then you can't guarantee that it's going to be a completely correct read however you can run code like the following: `(reduce + 0 (map #(Math/signum (float @%1)) agents))`</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-05-06T15:39:49.866000</ts>
+  <user>Hampton</user>
+  <text>What this does is dereference each agent changes each value to be 1 0 or 1 based on if it was negative zero or positive and then sums the result.</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-05-06T15:40:02.222000</ts>
+  <user>Hampton</user>
+  <text>Although I guess that's not quite what you asked for</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-05-06T15:40:10.893000</ts>
+  <user>Dianne</user>
+  <text>That's the sort of thing I'd probably end up reaching for `ref`s to do although I'm not sure of the performance implications....</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-05-06T15:40:56.524000</ts>
+  <user>Hampton</user>
+  <text>Right but agents here are used to ensure that each thing is run asynchronously from each other thing and no core.async is being used afaik so agents are the best way to do it since this is Rich's ants demo.</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-05-06T15:41:23.939000</ts>
+  <user>Hampton</user>
+  <text>You could do something like `(println (count (filter pos? (map deref agents))))`</text>
+</message>
+<message conversation_id="4">
+  <ts>2020-05-06T15:41:37.531000</ts>
+  <user>Hampton</user>
+  <text>and switch out `pos?` for `neg?` and `zero?`</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T04:03:24.425000</ts>
+  <user>Azahel</user>
+  <text>Thankyou @djeis @srasu @lsenjov for your help</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T04:04:09.232000</ts>
+  <user>Azahel</user>
+  <text>Also now I want to send this count to a python program.How can I do that?Using TCP client?How to do that?</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T04:13:14.256000</ts>
+  <user>Savvi</user>
+  <text>To a running python program?</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T04:13:40.175000</ts>
+  <user>Savvi</user>
+  <text>Or just to a file that gets read by a python program?</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T04:23:21.404000</ts>
+  <user>Azahel</user>
+  <text>A running python program.</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T04:36:00.261000</ts>
+  <user>Savvi</user>
+  <text>Well.. how are you wanting the python program to receive the data?</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T04:36:44.542000</ts>
+  <user>Savvi</user>
+  <text>If you have a tcp endpoint it's not difficult to send a request to it</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T04:36:52.732000</ts>
+  <user>Savvi</user>
+  <text>Hell if it's a web endpoint `spit` will probably work</text>
+</message>
+<message conversation_id="5">
+  <ts>2020-05-07T16:16:44.123000</ts>
+  <user>Azahel</user>
+  <text>Yeah I have to send it to a tcp endpoint</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-05-07T16:27:50.224000</ts>
+  <user>Hampton</user>
+  <text>I currently use gniazdo as my websocket connection handler however websockets are a bit above straight tcp connections. You might end up needing to look at other libraries or even java interop if you need to use a lowlevel socket connection.</text>
+</message>
+<message conversation_id="7">
+  <ts>2020-05-11T21:32:18.056000</ts>
+  <user>Tariana</user>
+  <text>anyone doing deep learning with clojure? everyone online suggests cortex but that seems dead.</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-05-11T21:47:45.847000</ts>
+  <user>Hampton</user>
+  <text>In the clojure space it's very common to use libraries which haven't had commits for years. Not because there's a small number of libraries or because the libraries are no longer maintained but because they're just high enough quality that the developers can move on because they're finished. I wouldn't avoid cortex just because it's been a couple years since it had a commit.</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-05-11T21:55:52.981000</ts>
+  <user>Tariana</user>
+  <text>@srasu that is a fair point. I guess it is worth a shot</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-05-11T21:56:16.578000</ts>
+  <user>Hampton</user>
+  <text>👍</text>
+</message>
+<message conversation_id="8">
+  <ts>2020-05-12T00:07:06.071000</ts>
+  <user>Savvi</user>
+  <text>What suskey said. I'm currently using libraries that are 4+ years without commits</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-05-12T11:00:20.003000</ts>
+  <user>Tariana</user>
+  <text>i did go through the library and sadly it is lacking :/ on the other hand i did find mxnet so i will be setting that up. i will not judge a library by its commit dates any longer though :D</text>
+</message>
+<message conversation_id="9">
+  <ts>2020-05-14T07:18:05.434000</ts>
+  <user>Zalaia</user>
+  <text>@Khepu If you're interested in deep learing and clojure you should definetly check out this series of posts: https://dragan.rocks/articles/19/DeepLearninginClojureFromScratchtoGPU0WhyBother</text>
+</message>
+<message conversation_id="6">
+  <ts>2020-05-14T12:40:00.950000</ts>
+  <user>Tariana</user>
+  <text>@AustrianParens hey! thanks for the reply. was one of the first things i checked. It actually inspired me and a friend to try our hand at making our own library using neanderthal</text>
+</message>
+<message conversation_id="10">
+  <ts>2020-05-21T21:07:49.931000</ts>
+  <user>Andras</user>
+  <text>where will be clojure in 10 years ?</text>
+</message>
+<message conversation_id="10">
+  <ts>2020-05-22T00:16:17.064000</ts>
+  <user>Riven</user>
+  <text>2030</text>
+</message>
+<message conversation_id="11">
+  <ts>2020-05-22T02:38:20.475000</ts>
+  <user>Lyncoln</user>
+  <text>the question is where won't it be?</text>
+</message>
+<message conversation_id="12">
+  <ts>2020-05-22T04:10:23.121000</ts>
+  <user>Riven</user>
+  <text>The supermassive black hole in the center of our galaxy id reckon</text>
+</message>
+<message conversation_id="10">
+  <ts>2020-05-22T12:27:17.684000</ts>
+  <user>Hampton</user>
+  <text>I was not expecting a random alex miller</text>
+</message>
+<message conversation_id="11">
+  <ts>2020-05-22T16:29:43.995000</ts>
+  <user>Janita</user>
+  <text>transit question: is there a standard dataset used for verifying and/or benchmarking? I'm writing an implementation in Haskell and would like to be able to compare it against other implementations</text>
+</message>
+<message conversation_id="11">
+  <ts>2020-05-22T16:36:39.301000</ts>
+  <user>Janita</user>
+  <text>actually https://github.com/cognitect/transitformat/tree/master/examples/0.8/simple looks sufficient for the verification part</text>
+</message>
+<message conversation_id="11">
+  <ts>2020-05-22T16:36:53.088000</ts>
+  <user>Janita</user>
+  <text>and then I can write benchmarks comparable to https://github.com/cognitect/transitcljs/blob/master/bench/transit/bench.cljs</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:06:18.814000</ts>
+  <user>Madigan</user>
+  <text>why is my message getting deleted automatically from here</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:06:40.297000</ts>
+  <user>Madigan</user>
+  <text>I am trying to post a code and looking for validation but its gets deleted</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:06:47.468000</ts>
+  <user>Maddison</user>
+  <text>that is odd</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:06:54.084000</ts>
+  <user>Maddison</user>
+  <text>Can you try again?</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:07:12.733000</ts>
+  <user>Madigan</user>
+  <text>I did it goes to botlog</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:07:19.481000</ts>
+  <user>Maddison</user>
+  <text>Weird. Post it on https://hasteb.in</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:07:46.115000</ts>
+  <user>Madigan</user>
+  <text>Done</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:07:57.818000</ts>
+  <user>Maddison</user>
+  <text>you need to save and post the link</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:08:13.029000</ts>
+  <user>Madigan</user>
+  <text>https://hasteb.in/uvulekuh.sql</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:08:41.134000</ts>
+  <user>Madigan</user>
+  <text>Please give feedbacks on the implementation of Sieve_of_Eratosthenes for generating primes</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:08:41.620000</ts>
+  <user>Maddison</user>
+  <text>what exactly is your question?</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:08:44.789000</ts>
+  <user>Maddison</user>
+  <text>ah</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:09:02.107000</ts>
+  <user>Madigan</user>
+  <text>Just seeking validations if this is good enough</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:10:03.281000</ts>
+  <user>Maddison</user>
+  <text>First thing to improve imo would be to make the function a top level declaration</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:10:21.801000</ts>
+  <user>Maddison</user>
+  <text>so `(defn primenumbers? ...)`</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:10:29.316000</ts>
+  <user>Madigan</user>
+  <text>Ok</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:24:41.428000</ts>
+  <user>Madigan</user>
+  <text>Anything else? @Johnny</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:25:03.270000</ts>
+  <user>Maddison</user>
+  <text>yeah I'm currently thinking about how I would implement this</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:27:47.301000</ts>
+  <user>Madigan</user>
+  <text>Ok Ok sure Sorry for the probe</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:38:16.205000</ts>
+  <user>Maddison</user>
+  <text>Ok I would do this rather differently</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:38:28.066000</ts>
+  <user>Maddison</user>
+  <text>Is it ok if I show you my implementation directly and explain it?</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:39:23.169000</ts>
+  <user>Maddison</user>
+  <text>There are a few things about yours that are a bit problematic for example it uses .indexOf and last on sequences all of which are O(n)</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:44:38.915000</ts>
+  <user>Maddison</user>
+  <text>( @Kanishkkumar188nrt )</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:45:48.398000</ts>
+  <user>Madigan</user>
+  <text>Yes pleaze</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:46:05.931000</ts>
+  <user>Madigan</user>
+  <text>Please show your implementation</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:48:08.296000</ts>
+  <user>Maddison</user>
+  <text>```clj(defn sieve [[&amp; [nextprime :as remaining]]] (remove #(zero? (rem % nextprime)) remaining))(defn primes [to] (&gt;&gt; (range 2 to) (iterate sieve) (takewhile seq) (map first)))```</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:50:15.381000</ts>
+  <user>Maddison</user>
+  <text>`sieve` is a helper function that takes a sequence of numbers ignores the first element treats the second element as the next prime and the rest as the remaining numbers. It then uses `rem` (remainder) to remove all multiples of the next prime from the remaining</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:51:51.232000</ts>
+  <user>Maddison</user>
+  <text>This is nice for `iterate`. `iterate` takes the initial numbers and produces a sequence of `numbers` `(sieve numbers)` `(sieve (sieve numbers))` and so on</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:52:25.867000</ts>
+  <user>Maddison</user>
+  <text>This results in a sequence consisting of sequences that each represent one step in the algorithm</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:53:01.515000</ts>
+  <user>Maddison</user>
+  <text>The end is reached when this produces an empty sequence hence why `(takewhile seq)`</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:53:14.847000</ts>
+  <user>Maddison</user>
+  <text>The first element of each sequence is a prime.</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:56:39.979000</ts>
+  <user>Maddison</user>
+  <text>This is reasonably more efficient too. Your initial solution took 292 ms for 9927 mine took 0.02 ms</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T09:58:03.046000</ts>
+  <user>Maddison</user>
+  <text>If you have trouble understanding anything feel free to ask</text>
+</message>
+<message conversation_id="14">
+  <ts>2020-05-31T10:05:02.217000</ts>
+  <user>Maddison</user>
+  <text>Oh and also this is lazy which can be useful</text>
+</message>
+<message conversation_id="15">
+  <ts>2020-05-31T12:19:43.408000</ts>
+  <user>Madigan</user>
+  <text>I am new to clojure and functional programming have been infected by OOPS from a long time. This implementation is more readable. Although I need to understand your thought pattern desingning it. Why can't I think in the same fashion. That's my major problem. I registered myself here to change my thought pattern. Please guide if you can.</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:33:38.563000</ts>
+  <user>Maddison</user>
+  <text>Well that is something that comes with enough practice. Don't worry if you think you wouldn't have figured this out yourself  I know that feeling. Coding in an imperative language is somewhat of an advantage in this regard because most popular algorithms are often defined or explained imperatively. The sieve of Eratosthenes is a good example for this because it is an inherently imperative algorithm (a set of instructions that you can repeat by hand).</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:34:43.905000</ts>
+  <user>Maddison</user>
+  <text>And I mean it took me about half an hour to come up with this.</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:39:14.392000</ts>
+  <user>Maddison</user>
+  <text>What I did is the following: I went to wikipedia and looked at the definition of the algorithm there which is tagging indices in a boolean array essentially. I realised that this can also be described as a series of states. In the beginning all numbers are untagged. After the next step all multiples of 2 are tagged. After the next step all multiples of 3 are tagged... and so on and so forth. This is already a functional description. Now the remaining questions are: what does the \'step\ function look like that marks the next multiples? and how do I get the relevant prime in each state (2 in the first 3 in the second 5 in the third etc.)?</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:41:54.190000</ts>
+  <user>Maddison</user>
+  <text>Now the knowledge about `iterate` comes in handy because it gives me a sequence of all states when repeatedly applying a step function. So what I did was I wrote the step function (`sieve`) in a way that does not care about what was relevant in the previous step by skipping the first element in the sequence. That way the first element in each state is the number I care about.</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:42:54.180000</ts>
+  <user>Maddison</user>
+  <text>And I think the rest of the implementation of `sieve` is pretty clear.</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:43:01.783000</ts>
+  <user>Madigan</user>
+  <text>Yes it is</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:46:06.561000</ts>
+  <user>Madigan</user>
+  <text>The code is so clear in itself that i doesnt need any explanation the explanation to write such code was needed I am reading your explanation again n again to understand better. Thanks @Johnny and Clojurians As helping community only enables the propagation of knowledge.</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:47:08.629000</ts>
+  <user>Maddison</user>
+  <text>You're welcome. Thanks for bringing it up here it's an interesting thing to think about and I really like the result here</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:47:37.671000</ts>
+  <user>Madigan</user>
+  <text>I have worked with multiple languages and never ever found anyone as welcoming and helping community as Clojure's</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:47:59.190000</ts>
+  <user>Maddison</user>
+  <text>Same here haha</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T12:48:18.530000</ts>
+  <user>Madigan</user>
+  <text>Clojure's community is so helping and uplifting and through out all the mediums be it reddit discord slack or stack overflow</text>
+</message>
+<message conversation_id="16">
+  <ts>2020-05-31T13:03:17.866000</ts>
+  <user>Madigan</user>
+  <text>@Johnny [&amp; [nextprime :as remaining]] what is this doing?</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:04:03.324000</ts>
+  <user>Madigan</user>
+  <text>When i printed next prime and remaining i got this &gt; remainaing (19 23 29 31 37)&gt;nextprime 23</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:04:30.741000</ts>
+  <user>Madigan</user>
+  <text>I understood this but how could you do this is there any documentation for it</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:04:59.483000</ts>
+  <user>Madigan</user>
+  <text>Youre doing some very WHAAAAT the hell kinda things</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:05:06.169000</ts>
+  <user>Madigan</user>
+  <text>hahah</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:05:14.819000</ts>
+  <user>Maddison</user>
+  <text>This is called destructuring. It's very powerful. This would be the equivalent without it:```clj(defn sieve [input] (let [remaining (rest input) nextprime (first remaining)] (remove #(zero? (rem % nextprime)) remaining)))```</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:05:32.418000</ts>
+  <user>Maddison</user>
+  <text>https://clojure.org/guides/destructuring</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:05:41.895000</ts>
+  <user>Madigan</user>
+  <text>hahahahahah</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:06:00.624000</ts>
+  <user>Madigan</user>
+  <text>M blown away</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:06:34.505000</ts>
+  <user>Maddison</user>
+  <text>For a long time I didn't know it existed. Now I find myself using it at every corner</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:08:30.574000</ts>
+  <user>Madigan</user>
+  <text>I understand destrcuture as i used in javascript but you did something really clever here by using &amp; you made it for consuming multiple arguments and with using :as you selected the first item from that multiple aruments</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:08:50.764000</ts>
+  <user>Madigan</user>
+  <text>Correct?</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:11:39.157000</ts>
+  <user>Maddison</user>
+  <text>It's all described thoroughly in the guide I just linked and I recommend reading it but the gist of it: `[&amp; foo]` means that `foo` will be the `rest` of the input  `[foo]` means that `foo` will be the `first` of the input  and `[foo :as bar]` means that `foo` will be the `first` of the input and `bar` will be the original input</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:11:50.953000</ts>
+  <user>Maddison</user>
+  <text>And this can all be nested as I did here</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:16:24.623000</ts>
+  <user>Madigan</user>
+  <text>Sure thanks</text>
+</message>
+<message conversation_id="13">
+  <ts>2020-05-31T13:16:30.275000</ts>
+  <user>Madigan</user>
+  <text>I will go through it</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T13:50:55.558000</ts>
+  <user>Maddison</user>
+  <text>oh I just realised I was wrong there</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T13:51:40.527000</ts>
+  <user>Maddison</user>
+  <text>The destructuring could be simplified to `[nextprime &amp; remaining]`</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T13:53:29.541000</ts>
+  <user>Maddison</user>
+  <text>@Kanishkkumar188nrt</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T13:53:46.061000</ts>
+  <user>Maddison</user>
+  <text>I thought the `&amp;` behaved differently</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T13:55:05.471000</ts>
+  <user>Maddison</user>
+  <text>which means that the algorithm is slightly different actually</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T13:55:28.105000</ts>
+  <user>Maddison</user>
+  <text>it's not the `nextprime` but rather the `previousprime`</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T13:59:59.491000</ts>
+  <user>Madigan</user>
+  <text>(defn sieve [nextprime &amp; remaining] (remove #(zero? (rem % nextprime)) remaining))Changing to this doesnt return anything</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T14:00:47.378000</ts>
+  <user>Maddison</user>
+  <text>Yes because this is not destructuring but regular arguments. ```clj(defn sieve [[previousprime &amp; remaining]] (remove #(zero? (rem % previousprime)) remaining))```</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-05-31T14:01:10.664000</ts>
+  <user>Madigan</user>
+  <text>Oh right</text>
+</message>
+<message conversation_id="18">
+  <ts>2020-06-01T04:06:14.659000</ts>
+  <user>Danell</user>
+  <text>@Johnny that was a wonderful implementation of the sieve</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-06-01T09:32:39.086000</ts>
+  <user>Maddison</user>
+  <text>Thank you! Although I did some research and as it turns out this is actually a different algorithm haha.&gt; Primes can also be produced by iteratively sieving out the composites through\xa0divisibility testing\xa0by sequential primes one prime at a time. It is not the sieve of Eratosthenes but is often confused with it even though the sieve of Eratosthenes directly generates the composites instead of testing for them. Trial division has worse theoretical\xa0complexity\xa0than that of the sieve of Eratosthenes in generating ranges of primes.</text>
+</message>
+<message conversation_id="18">
+  <ts>2020-06-01T09:35:13.973000</ts>
+  <user>Maddison</user>
+  <text>To implement a proper sieve with the same characteristics you probably need to write imperative code i.e. use transients</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-06-01T09:47:24.398000</ts>
+  <user>Maddison</user>
+  <text>There is also this definition which seems interesting. I don't know if it is realisable in Clojure though```primes = [2 3 ...] \\ [[p² p²+p ...] for p in primes]```</text>
+</message>
+<message conversation_id="19">
+  <ts>2020-06-01T11:20:31.145000</ts>
+  <user>Madigan</user>
+  <text>&gt; Thank you! Although I did some research and as it turns out this is actually a different algorithm haha.@Johnny There are more than one approach the one which you implemented was the basic one other one is by iteration i did not understand the definition of it hence (cycle reading) it</text>
+</message>
+<message conversation_id="17">
+  <ts>2020-06-01T11:31:50.618000</ts>
+  <user>Maddison</user>
+  <text>My implementation uses testing instead of generating the composites/multiples as well as an iterative/oneatatime approach so if I understand this correctly it's not the sieve of Eratosthenes</text>
+</message>
+<message conversation_id="19">
+  <ts>2020-06-01T11:54:13.121000</ts>
+  <user>Madigan</user>
+  <text>https://www.geeksforgeeks.org/sieveoferatosthenes/ this actually supports your initial implementation. Also i dont think its viable to produce prime numbers iteratively someone correct me.</text>
+</message>
+<message conversation_id="19">
+  <ts>2020-06-01T11:54:43.005000</ts>
+  <user>Madigan</user>
+  <text>Is there any mathematician in the house?</text>
+</message>
+<message conversation_id="19">
+  <ts>2020-06-01T11:56:30.716000</ts>
+  <user>Maddison</user>
+  <text>The implementation there is different from mine in the aspects I just mentioned</text>
+</message>
+<message conversation_id="19">
+  <ts>2020-06-01T11:56:42.431000</ts>
+  <user>Maddison</user>
+  <text>It generates the multiples directly</text>
+</message>
+<message conversation_id="19">
+  <ts>2020-06-01T11:56:57.788000</ts>
+  <user>Maddison</user>
+  <text>It does not generate one prime at a time</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-06-01T15:05:31.128000</ts>
+  <user>Maddison</user>
+  <text>Out of curiosity I tried the classic sieving approach to compare</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-06-01T15:10:19.251000</ts>
+  <user>Maddison</user>
+  <text>When I said it took 0.02ms the other day that was probably due to me forgetting to account for the laziness</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-06-01T15:10:43.478000</ts>
+  <user>Maddison</user>
+  <text>Since it was only evaluated after the measurement</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-06-01T15:11:19.135000</ts>
+  <user>Maddison</user>
+  <text>It's still faster than your initial approach but not in such an extreme way anymore</text>
+</message>
+<message conversation_id="20">
+  <ts>2020-06-01T15:13:44.459000</ts>
+  <user>Maddison</user>
+  <text>For reference this would be the standard implementation transferred to clojure```clj(defn primes [n] (let [tagged (transient (vec (repeat n false)))] (doseq [i (range 2 (Math/sqrt n))] (when (not (tagged i)) (doseq [j (range ( i i) n i)] (assoc! tagged j true)))) (for [i (range 2 n) :when (not (tagged i))] i)))```</text>
+</message>
+<message conversation_id="21">
+  <ts>2020-06-01T15:35:36.412000</ts>
+  <user>Hampton</user>
+  <text>Personally I like the mutuallyrecursive approach like so:```clojure(declare prime?)(def primes (filter prime? (map #(+ 2 %) (range)))) ;; range 2+(defn prime? [n] (or (= n 2) (and (&gt; n 2) (not (some #(zero? (rem n %)) (takewhile #(&lt;= % (/ n 2)) primes))))))```</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:17:50.671000</ts>
+  <user>Dianne</user>
+  <text>You can't just `assoc!` into a transient vector and assume the update will happen inplace 😅</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:20:58.767000</ts>
+  <user>Dianne</user>
+  <text>Transient updates are destructive but not guaranteed to be inplace mutating.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:21:39.504000</ts>
+  <user>Dianne</user>
+  <text>Still have to capture the return value.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:22:05.781000</ts>
+  <user>Dianne</user>
+  <text>If you really want imperative update code like that wrap the transient in a volatile and use `vswap!`.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:22:18.014000</ts>
+  <user>Maddison</user>
+  <text>Oh didn't know that</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:22:22.775000</ts>
+  <user>Maddison</user>
+  <text>Had no issues with this</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:22:49.148000</ts>
+  <user>Dianne</user>
+  <text>I suspect vectors in particular have inplace mutation semantics for transients in whatever version of clojure you're using.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:23:04.924000</ts>
+  <user>Dianne</user>
+  <text>But that's not guaranteed by the transient API.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:25:04.258000</ts>
+  <user>Dianne</user>
+  <text>@srasu Unless transient vectors have extra guarantees that I'm forgetting? ^</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:25:48.786000</ts>
+  <user>Hampton</user>
+  <text>transients require you capture their return value.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:26:26.376000</ts>
+  <user>Hampton</user>
+  <text>Reason being adding a new thing to the end of a transient vector necessarily allocs a new node which points to the old nodes and the new ones since vectors are trees. Now it doesn't always do that alloc but it can and you don't know when it will.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:26:47.777000</ts>
+  <user>Hampton</user>
+  <text>If you rely on it not then you're relying on an implementation detail.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:27:39.549000</ts>
+  <user>Hampton</user>
+  <text>I believe the most likely problem is that the 33rd node will always require you to capture the return value.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:28:50.156000</ts>
+  <user>Dianne</user>
+  <text>But the whole tree is still wrapped by an extra root node at the top isn't it? So it might actually still just work... 🤔</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:29:39.232000</ts>
+  <user>Dianne</user>
+  <text>I always assumed the issue with transients had more to do with maps where the type of map might have to change because you added an element.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:29:45.512000</ts>
+  <user>Hampton</user>
+  <text>I don't know if it is but I don't think so.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:30:09.297000</ts>
+  <user>Hampton</user>
+  <text>also I don't believe transient maps have multiple types although I could be wrong on that.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:30:17.720000</ts>
+  <user>Dianne</user>
+  <text>Persistent maps do IIRC.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:30:26.759000</ts>
+  <user>Hampton</user>
+  <text>they do</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:30:33.582000</ts>
+  <user>Hampton</user>
+  <text>array maps sorted maps and hash maps</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:30:55.092000</ts>
+  <user>Hampton</user>
+  <text>I don't know if you call transient on a sorted map if it would remain sorted though.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:31:03.899000</ts>
+  <user>Dianne</user>
+  <text>Wouldn't it have to?</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:31:27.709000</ts>
+  <user>Dianne</user>
+  <text>Like you can provide the sorting order and the internal implementations are very different.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:31:39.896000</ts>
+  <user>Dianne</user>
+  <text>If making a transient changed the internal representation then it couldn't be constant time.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:32:00.492000</ts>
+  <user>Dianne</user>
+  <text>Internal implementations of sorted vs hash vs array that is.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:32:23.215000</ts>
+  <user>Dianne</user>
+  <text>Like sorted maps are binary search trees while hash maps are hash arraymapped prefix tries.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:32:46.671000</ts>
+  <user>Dianne</user>
+  <text>The sorting of a sorted map is integral to you being able to efficiently perform lookups.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:33:34.981000</ts>
+  <user>Dianne</user>
+  <text>My point though is more that once you put enough elements into an array map it probably turns into a hash map.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:33:53.037000</ts>
+  <user>Dianne</user>
+  <text>That's a change of type at the root level so the root node has to change.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:34:19.850000</ts>
+  <user>Dianne</user>
+  <text>I could be wrong tho.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:34:59.468000</ts>
+  <user>Dianne</user>
+  <text>As for vectors I'm 90% sure that the actual internal tree nodes are made of an inner class to the actual persistent vector class.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:35:21.494000</ts>
+  <user>Dianne</user>
+  <text>It's been a few months since I read that code tho.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:38:26.755000</ts>
+  <user>Maddison</user>
+  <text>&gt; Personally I like the mutuallyrecursive approach like so:@srasu That looks nice but isn't it a little inefficient? because for each check it needs to go over the collection</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:40:48.237000</ts>
+  <user>Hampton</user>
+  <text>It\'s a little inefficient and if you check against sufficiently large numbers without warming the cache so to speak it\'ll blow the stack too. It\'s elegant but not particularly good unless you just need simple checks for lowvalue numbers. Moreover it does cache all the primes which means you aren\'t recomputing if a number is prime at any point ever you\'re just running over your cache. Probably the single easiest optimization though would be to exchange the takewhile from taking until it\'s less or equal to the number divided by two with the same thing but with the square root of the number.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:42:01.860000</ts>
+  <user>Hampton</user>
+  <text>@djeis yeah the transient would just be a wrapper around the sorted thing but calling persistent! on it after making an addition or two and who knows what order things will be sorted in?</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:42:21.331000</ts>
+  <user>Dianne</user>
+  <text>Should be sorted by whatever sorting order the map was created with.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:42:35.771000</ts>
+  <user>Hampton</user>
+  <text>Or rather if there is no sorted map implementation. I genuinely don't know if there are.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:42:36.255000</ts>
+  <user>Dianne</user>
+  <text>Insertion into a sorted map still requires you respect the sorting order.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:42:56.567000</ts>
+  <user>Hampton</user>
+  <text>yeah if you continue using it as a sorted map</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:43:37.678000</ts>
+  <user>Dianne</user>
+  <text>If you try to `assoc!` something into a transient sorted map that can't be sorted by the sorting order of that map then it should error.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:44:28.842000</ts>
+  <user>Dianne</user>
+  <text>Unless... If you `into` into a sorted map something that can't be sorted by that map does clojure just make a hash map out of it? That is an alternative it just seems like... a problematic one.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:45:24.073000</ts>
+  <user>Hampton</user>
+  <text>I haven't really used sorted maps so I can't say.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:45:30.139000</ts>
+  <user>Dianne</user>
+  <text>I\'m right about the type change btw:```cljuser=&gt; (class {:x 5})clojure.lang.PersistentArrayMapuser=&gt; (transient {:x 5})#object[clojure.lang.PersistentArrayMap$TransientArrayMap 0x470a696f clojure.lang.PersistentArrayMap$TransientArrayMap@470a696f"]user=&gt; (reduce (fn [m k] (assoc! m k 5)) 1 (range 31))#object[clojure.lang.PersistentHashMap$TransientHashMap 0x5ddabb18 clojure.lang.PersistentHashMap$TransientHashMap@5ddabb18"]user=&gt; (persistent! 1){0 5 7 5 20 5 27 5 1 5 24 5 4 5 15 5 21 5 13 5 22 5 29 5 6 5 28 5 25 5 17 5 3 5 12 5 2 5 23 5 19 5 11 5 9 5 5 5 14 5 :x 5 26 5 16 5 30 5 10 5 18 5 8 5}```</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:45:54.686000</ts>
+  <user>Hampton</user>
+  <text>cool</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:46:11.788000</ts>
+  <user>Hampton</user>
+  <text>that tells me how they implement the transients so yeah there's gonna be the same for all the kinds.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:46:30.940000</ts>
+  <user>Dianne</user>
+  <text>But there's no similar type change I know of that happens with vectors tho and I know there is an extra root node at the top of a vector.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:46:52.223000</ts>
+  <user>Dianne</user>
+  <text>So I suspect that as an implementation detail you should not rely on it will happen to just work for vectors.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:46:58.962000</ts>
+  <user>Hampton</user>
+  <text>huh</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:48:08.046000</ts>
+  <user>Dianne</user>
+  <text>My implementation of transients in CL has a similar property there's always an extra root node at the top because there kinda has to be to make the transient stuff work out and to hold metadata that you really only need one reference to for the whole data structure (like the comparison function of a sorted map).</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:48:30.697000</ts>
+  <user>Dianne</user>
+  <text>So as long as transient ops don't have to change the actual type/implementation they all happen to be inplace mutations.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:48:59.173000</ts>
+  <user>Hampton</user>
+  <text>fair</text>
+</message>
+<message conversation_id="23">
+  <ts>2020-06-01T16:50:05.271000</ts>
+  <user>Maddison</user>
+  <text>I realised that this also blows up the stack at a sufficiently high number. But how? https://discordapp.com/channels/313110246643990528/315388260987830272/716588820132266065</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:50:26.765000</ts>
+  <user>Maddison</user>
+  <text>Is it because the `remove`s all stack somehow?</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:50:39.397000</ts>
+  <user>Dianne</user>
+  <text>Probably yea.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:58:20.444000</ts>
+  <user>Hampton</user>
+  <text>Huh. I'm surprised honestly.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:58:49.930000</ts>
+  <user>Hampton</user>
+  <text>I've been fiddling around with my implementation in a repl and even sending it to compute 10k primes at a time doesn't blow the stack</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:59:02.492000</ts>
+  <user>Hampton</user>
+  <text>it takes a while sure</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:59:06.718000</ts>
+  <user>Hampton</user>
+  <text>but it doesn't blow the stack</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:59:15.260000</ts>
+  <user>Hampton</user>
+  <text>I wonder how much faster it'd be if I change it to sqrt</text>
+</message>
+<message conversation_id="23">
+  <ts>2020-06-01T16:59:24.522000</ts>
+  <user>Maddison</user>
+  <text>Mine gave me a StackOverflow for the primes up to a million I think</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:59:54.511000</ts>
+  <user>Hampton</user>
+  <text>Yeah the last prime I computed was 224743 and I'm currently computing the 40001st prime</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T16:59:59.450000</ts>
+  <user>Hampton</user>
+  <text>op just popped out</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:00:04.925000</ts>
+  <user>Hampton</user>
+  <text>479939</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:00:21.826000</ts>
+  <user>Maddison</user>
+  <text>ok yours is a lot better then</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:00:48.628000</ts>
+  <user>Maddison</user>
+  <text>because my stack already explodes at 50k</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:01:29.843000</ts>
+  <user>Maddison</user>
+  <text>I thought it wouldn't be possible honestly</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:01:54.552000</ts>
+  <user>Maddison</user>
+  <text>But it must be because of all the `remove` closures</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:04:21.174000</ts>
+  <user>Maddison</user>
+  <text>well that's a little disappointing lol</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:10:47.603000</ts>
+  <user>Hampton</user>
+  <text>holy crap the sqrt optimization helped</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:12:13.725000</ts>
+  <user>Hampton</user>
+  <text>```clojure(declare primes)(defn prime? [n] (or (= n 2) (not (some #(zero? (rem n %)) (let [sqrt (inc (Math/sqrt n))] (takewhile #(&lt;= % sqrt) primes))))))(def primes (filter prime? (cons 2 (map (comp inc #( 2 %) inc) (range)))))```</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:12:45.134000</ts>
+  <user>Hampton</user>
+  <text>Only took ~2s to compute the 100kth prime</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:13:21.927000</ts>
+  <user>Hampton</user>
+  <text>has clojure gotten better at lazy seqs?</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:15:26.503000</ts>
+  <user>Hampton</user>
+  <text>because from a completely fresh `primes` list I get this:```clojure(time (first (drop 1000000 primes)))"Elapsed time: 64829.32917 msecs"15485867```</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:15:45.622000</ts>
+  <user>Hampton</user>
+  <text>didn't blow the stack computing the ~1 millionth prime</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:15:52.298000</ts>
+  <user>Maddison</user>
+  <text>that's pretty damn good</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:15:55.759000</ts>
+  <user>Hampton</user>
+  <text>yeah</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:16:06.598000</ts>
+  <user>Hampton</user>
+  <text>especially for such an elegant solution imo.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:16:15.496000</ts>
+  <user>Hampton</user>
+  <text>guess this solution isn't as bad as I thought lol</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:16:53.121000</ts>
+  <user>Hampton</user>
+  <text>But yeah it helps a lot with other functionality that people might want too since it gives a full sequence of primes not just checks if a particular number is prime</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:17:20.381000</ts>
+  <user>Hampton</user>
+  <text>computing it the second time was 40 ms but that's less reliable since `time` isn't good at lower values.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:18:21.401000</ts>
+  <user>Maddison</user>
+  <text>What's more accurate than `System.nanoTime()` that comes out of the box?</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:19:40.944000</ts>
+  <user>Hampton</user>
+  <text>more accurate (similar amount of precision) is anything that criterium produces</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:19:43.975000</ts>
+  <user>Hampton</user>
+  <text>since it does sampling</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:20:01.580000</ts>
+  <user>Hampton</user>
+  <text>plus also the jvm and how the jit works makes profiling this sort of thing a little weird.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:20:15.716000</ts>
+  <user>Maddison</user>
+  <text>that's true</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:20:22.879000</ts>
+  <user>Hampton</user>
+  <text>alright well now to sit down and wait for the 10 millionth prime and see if that stack overflows.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:20:39.598000</ts>
+  <user>Maddison</user>
+  <text>lmfao</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:20:44.222000</ts>
+  <user>Hampton</user>
+  <text>I doubt it if 1 million didn't but still. :P</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:21:15.773000</ts>
+  <user>Hampton</user>
+  <text>like I already calculated the 2millionth prime and it's 32452867</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:23:12.533000</ts>
+  <user>Maddison</user>
+  <text>you may run into different issues because of Math/sqrt maybe</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:23:21.622000</ts>
+  <user>Hampton</user>
+  <text>Oh?</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:23:37.552000</ts>
+  <user>Maddison</user>
+  <text>Since it takes a double (i think?)</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:23:51.213000</ts>
+  <user>Maddison</user>
+  <text>couldn't that lead to a loss of precision</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:24:12.431000</ts>
+  <user>Hampton</user>
+  <text>Yeah it takes a double.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:24:21.543000</ts>
+  <user>Hampton</user>
+  <text>I should see if there's a clojure sqrt in numerictower</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:24:48.477000</ts>
+  <user>Hampton</user>
+  <text>Ah exactintegersqrt</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:25:29.072000</ts>
+  <user>Hampton</user>
+  <text>But really I just need the sqrt to be accurate to within the distance of primes between each other at the scale that it's at so within the nearest 2 or so.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:25:38.554000</ts>
+  <user>Hampton</user>
+  <text>at a minimum</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:28:34.478000</ts>
+  <user>Hampton</user>
+  <text>Which I'll know if it's accurate as soon as it produces a result and at this point it seems like it will</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:28:45.491000</ts>
+  <user>Hampton</user>
+  <text>because I have the 1million and 1th prime right here</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:40:03.097000</ts>
+  <user>Hampton</user>
+  <text>Lol well I knew it'd get slower as it computed larger primes but this is getting silly</text>
+</message>
+<message conversation_id="24">
+  <ts>2020-06-01T17:43:04.450000</ts>
+  <user>Maddison</user>
+  <text>still not done?</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:44:19.997000</ts>
+  <user>Hampton</user>
+  <text>still not</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:44:27.160000</ts>
+  <user>Hampton</user>
+  <text>but it also hasn't overflowed</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:48:55.790000</ts>
+  <user>Hampton</user>
+  <text>got it!</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:49:21.311000</ts>
+  <user>Hampton</user>
+  <text>and it got it right</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:49:23.703000</ts>
+  <user>Hampton</user>
+  <text>179424691</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:51:05.469000</ts>
+  <user>Hampton</user>
+  <text>What's interesting here as well is that it's faster to compute the sqrt and the divisions than it is to walk to that point in the sequence</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T17:51:45.412000</ts>
+  <user>Hampton</user>
+  <text>`(nth primes 10000001)` takes almost 200 ms while `(prime? 179424697)` only takes 0.25 ms</text>
+</message>
+<message conversation_id="25">
+  <ts>2020-06-01T18:14:42.121000</ts>
+  <user>Dianne</user>
+  <text>Too many rams involved.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:17:57.447000</ts>
+  <user>Hampton</user>
+  <text>Yeah those cache misses hit real hard</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:18:50.366000</ts>
+  <user>Hampton</user>
+  <text>Also notable and amusing is that it means that to compute if a given number is prime the cache need only be warmed with numbers up to the sqrt of its value meaning you can check quite large primes on a relatively small list size.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:19:17.218000</ts>
+  <user>Dianne</user>
+  <text>Yup</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:19:37.370000</ts>
+  <user>Hampton</user>
+  <text>I'm actually not sure if I've seen any other algorithm which scales with sqrt(n)</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:20:07.983000</ts>
+  <user>Dianne</user>
+  <text>I think I've seen a few but I can't remember them off hand.</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:37:23.810000</ts>
+  <user>Hampton</user>
+  <text>As a result the cleaned up version of this code looks like this:```clojure(ns sandbox.primes (:require [clojure.math.numerictower :as math]))(declare primes)(def flooredsqrt Returns the floor of the square root of the input." (comp math/floor math/sqrt))(defn prime? Returns the passed number if it is prime and nil otherwise." [n] (and (when (&gt; n 1) true) (not (some #(zero? (rem n %)) (let [sqrt (flooredsqrt n)] (takewhile #(&lt;= % sqrt) primes))))))(def primes Lazy sequence of all prime numbers." (cons 2 ;; Filters a list of all odd numbers greater than 1 by if they are prime (filter prime? (map (comp inc #( 2 %) inc) (range)))))```</text>
+</message>
+<message conversation_id="26">
+  <ts>2020-06-01T18:41:49.218000</ts>
+  <user>Maddison</user>
+  <text>Is clojure.math.numerictower an external dependency?</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:43:01.926000</ts>
+  <user>Hampton</user>
+  <text>Yes but it's part of clojure contrib</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:43:13.388000</ts>
+  <user>Hampton</user>
+  <text>https://github.com/clojure/math.numerictower</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:43:25.102000</ts>
+  <user>Hampton</user>
+  <text>Which means it's published under org.clojure</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:44:51.894000</ts>
+  <user>Maddison</user>
+  <text>Ah alright</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-01T18:44:58.874000</ts>
+  <user>Maddison</user>
+  <text>Useful stuff</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-03T22:43:52.508000</ts>
+  <user>Maddison</user>
+  <text>Regarding primes again and in particular your implementation @srasu :https://phillippe.siclait.com/blog/primeslazysequence</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-03T22:44:28.464000</ts>
+  <user>Maddison</user>
+  <text>This is something I hadn't even thought about and it's rather difficult to get into my head but it's certainly interesting</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-03T22:47:10.687000</ts>
+  <user>Hampton</user>
+  <text>Yeah that\'s more or less the same idea as I had I just wanted an is prime predicate</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-03T22:48:05.935000</ts>
+  <user>Hampton</user>
+  <text>Also my way of doing it does enable you to have a cache and then do prime tests against numbers up to the square of the largest prime you've fetched from the list without computing any additional primes</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-03T22:48:33.497000</ts>
+  <user>Hampton</user>
+  <text>I do like the article though</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-03T23:02:00.543000</ts>
+  <user>Maddison</user>
+  <text>Yeah I don't mean the specifics just the general similarity that you also filter the sequence using the sequence itself</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-03T23:04:53.789000</ts>
+  <user>Hampton</user>
+  <text>Yup</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-06-04T16:36:44.810000</ts>
+  <user>Lyncoln</user>
+  <text>A History of Clojure by Rich Hickey https://clojure.org/about/history</text>
+</message>
+<message conversation_id="28">
+  <ts>2020-06-04T17:00:50.685000</ts>
+  <user>Savvi</user>
+  <text>Oooo thanks!</text>
+</message>
+<message conversation_id="22">
+  <ts>2020-06-04T18:41:06.512000</ts>
+  <user>Hampton</user>
+  <text>Thanks alex! Super cool to see that!</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-06-06T08:18:20.028000</ts>
+  <user>Maddison</user>
+  <text>That was a nice read</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-06-08T21:09:16.008000</ts>
+  <user>Ioane</user>
+  <text>https://www.tadamframework.dev/</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-06-08T21:09:22.034000</ts>
+  <user>Ioane</user>
+  <text>I like how this looks!</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-06-09T03:14:32.403000</ts>
+  <user>Sincerity</user>
+  <text>@spacey 🌌 will it support reitit in the future?</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-06-09T03:59:28.003000</ts>
+  <user>Ioane</user>
+  <text>I don't know :/</text>
+</message>
+<message conversation_id="29">
+  <ts>2020-06-12T04:06:38.288000</ts>
+  <user>Hampton</user>
+  <text>It's been a while since I mentioned this project so there might be a decent number of people who haven't seen it yet:I made a library for making Discord bots in Clojure. It's currently more complete than any other library offering complete coverage of the Discord API excluding voice gateway support and a number of bots have been developed with it. It offers transparent support for sharding and rate limits.https://github.com/IGJoshua/discljord</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-06-12T15:47:56.259000</ts>
+  <user>Maddison</user>
+  <text>does anybody use babashka and know what's the best way to run a subprocess?</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-06-12T15:54:37.235000</ts>
+  <user>Maddison</user>
+  <text>nvm got it</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-06-12T15:54:40.199000</ts>
+  <user>Maddison</user>
+  <text>clojure.java.shell</text>
+</message>
+<message conversation_id="27">
+  <ts>2020-06-12T15:58:13.916000</ts>
+  <user>Hampton</user>
+  <text>Be aware that `sh` blocks until the subprocess completes</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-06-12T16:18:45.782000</ts>
+  <user>Maddison</user>
+  <text>yup I am</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-06-12T23:16:07.870000</ts>
+  <user>Maddison</user>
+  <text>Is there any way to say use this executor for this specific go block in core.async?</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-06-12T23:20:55.548000</ts>
+  <user>Hampton</user>
+  <text>I don't believe so</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-06-12T23:22:04.684000</ts>
+  <user>Maddison</user>
+  <text>That is really tragic</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-06-12T23:22:59.825000</ts>
+  <user>Maddison</user>
+  <text>It should really be a thing considering that many frameworks and libraries require you to use specific threads or thread pools</text>
+</message>
+<message conversation_id="31">
+  <ts>2020-06-13T05:48:11.929000</ts>
+  <user>Brinna</user>
+  <text>@Johnny only for one specific go block? You could try some dark magic likehttps://stackoverflow.com/a/38577871/1888507But I see it very hard. Globally maybe for one go block maybe not...</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-06-13T08:28:04.163000</ts>
+  <user>Maddison</user>
+  <text>Yeah I don't mean globally</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-06-16T06:56:15.369000</ts>
+  <user>Maddison</user>
+  <text>Any recommendations for writing TCP servers with Clojure? I've only looked at this library so farhttps://github.com/ztellman/aleph</text>
+</message>
+<message conversation_id="33">
+  <ts>2020-06-16T11:58:37.543000</ts>
+  <user>Hampton</user>
+  <text>Gniazdo is what i'm using for websockets but it's not quite as low level as tcp sockets</text>
+</message>
+<message conversation_id="30">
+  <ts>2020-06-16T12:02:57.427000</ts>
+  <user>Maddison</user>
+  <text>I specifically want to look into raw TCP not websockets or anything else on top</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-06-16T13:40:10.579000</ts>
+  <user>Rastislav</user>
+  <text>what about java.nio?</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-06-16T13:59:23.070000</ts>
+  <user>Maddison</user>
+  <text>Oh that might be a good call</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-06-16T13:59:33.166000</ts>
+  <user>Maddison</user>
+  <text>There seems to be an interop library for clojure as well</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-06-16T14:00:01.252000</ts>
+  <user>Maddison</user>
+  <text>`nio` uses some sort of async channels right?</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-06-16T14:01:07.485000</ts>
+  <user>Maddison</user>
+  <text>Would be incredibly useful to find something that translates them to core.async channels or sth</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-06-16T15:58:05.476000</ts>
+  <user>Rastislav</user>
+  <text>yes `nio` supports async</text>
+</message>
+<message conversation_id="35">
+  <ts>2020-06-19T02:46:48.974000</ts>
+  <user>Maelin</user>
+  <text>anyone running cider know if its possible to recompile java source code without completely restarting cider?</text>
+</message>
+<message conversation_id="32">
+  <ts>2020-06-19T06:57:24.041000</ts>
+  <user>Tiara</user>
+  <text>ask on #cider on slackbozidar (main maintainer) is always therehe knows the answer to this.And if you do find it please share cause i was always recompiling 🙂</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-06-22T19:27:56.843000</ts>
+  <user>Danell</user>
+  <text>I've implemented a solution for primes number too what do you think?</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-06-22T19:29:05.990000</ts>
+  <user>Danell</user>
+  <text>```(defn nprimes [to] (reduce (fn [primes n] (if (&gt;&gt; (takewhile #(&lt;= % (Math/sqrt ^long n)) primes) (some #(zero? (rem ^long n ^long %)))) primes (conj primes n))) [] (range 2 (inc to))))```</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-06-23T23:15:02.310000</ts>
+  <user>Danell</user>
+  <text>well seems like with that condition for adding the number to the list of primes I was making a lot of precomputation that I don't need</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-06-23T23:15:23.697000</ts>
+  <user>Danell</user>
+  <text>measured with criterium this is 8.6 times faster</text>
+</message>
+<message conversation_id="34">
+  <ts>2020-06-23T23:15:32.900000</ts>
+  <user>Danell</user>
+  <text>```(defn v6primes [to] (reduce (fn [primes ^long n] (if (reduce (fn [_ ^long x] (cond (zero? (rem n x)) (reduced true) (&gt; x (Math/sqrt n)) (reduced false))) false primes) primes (conj primes n))) [] (cons 2 (range 3 (inc to) 2))))```</text>
+</message>
+<message conversation_id="36">
+  <ts>2020-06-29T21:03:14.218000</ts>
+  <user>Dylam</user>
+  <text>Hey all any Quil users here?</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-06-30T16:27:00.406000</ts>
+  <user>Maelin</user>
+  <text>I poke around with it a bit. What's up?</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-06-30T16:27:26.436000</ts>
+  <user>Zaelah</user>
+  <text>What’s quil for the uninitiated?</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-06-30T16:27:49.928000</ts>
+  <user>Maelin</user>
+  <text>clj[s] wrapper around processing</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-06-30T16:28:19.889000</ts>
+  <user>Zaelah</user>
+  <text>Processing? Very broad</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-06-30T16:29:15.561000</ts>
+  <user>Maelin</user>
+  <text>It's a Java graphics lib focuses around art. Lots of generative art stuff</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-06-30T16:29:54.580000</ts>
+  <user>Maelin</user>
+  <text>Processing is the Java version and p5 is the js version</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-06-30T17:27:35.952000</ts>
+  <user>Dylam</user>
+  <text>Just wondering how hard it would be to create layered images.</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-06-30T17:44:53.124000</ts>
+  <user>Dylam</user>
+  <text>Like if I have 4 PNGs I want to layer on top of each other</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-06-30T17:45:23.117000</ts>
+  <user>Maelin</user>
+  <text>And you're animating them I presume?</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-06-30T17:45:48.012000</ts>
+  <user>Dylam</user>
+  <text>Not animating</text>
+</message>
+<message conversation_id="37">
+  <ts>2020-06-30T17:52:36.175000</ts>
+  <user>Maelin</user>
+  <text>Should be pretty straight forward take a look through this sketch. It's animated but shows how to draw multiple images on top of each other http://quil.info/sketches/show/example_spaceship</text>
+</message>
+<message conversation_id="38">
+  <ts>2020-06-30T18:38:38.007000</ts>
+  <user>Dylam</user>
+  <text>ty</text>
+</message>
+<message conversation_id="39">
+  <ts>2020-07-02T11:00:13.508000</ts>
+  <user>Suraya</user>
+  <text>Hi guys I tried searching everywhere but what unicode encoding in Clojure using? It doesn't seem to be UTF8</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-02T12:19:56.313000</ts>
+  <user>Dianne</user>
+  <text>JVM clojure?</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-02T12:20:07.539000</ts>
+  <user>Dianne</user>
+  <text>I would imagine that's more a property of thet JVM than of clojure.</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-02T12:22:07.116000</ts>
+  <user>Dianne</user>
+  <text>Looks like the internal representation is UTF16: https://stackoverflow.com/questions/9699071/whatisthejavasinternalrepresentionforstringmodifiedutf8utf16</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-02T12:22:12.060000</ts>
+  <user>Maddison</user>
+  <text>the encoding is languageindependent and up to you</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-02T12:22:24.696000</ts>
+  <user>Maddison</user>
+  <text>unless you mean strings or something</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-02T12:23:13.460000</ts>
+  <user>Dianne</user>
+  <text>Right yea if you\'re talking what encoding it defaults to when reading/writing the answer is usually depends how you\'re reading and writing".</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-02T12:25:33.896000</ts>
+  <user>Dianne</user>
+  <text>Oh actually it looks like more recent JVM's use a combination of UTF16 and Latin1 as needed.</text>
+</message>
+<message conversation_id="41">
+  <ts>2020-07-02T14:56:48.817000</ts>
+  <user>Suraya</user>
+  <text>Thanks all! I figured out my eyes might have been playing tricks on me .... :x</text>
+</message>
+<message conversation_id="42">
+  <ts>2020-07-04T13:44:01.643000</ts>
+  <user>Dylam</user>
+  <text>In Quil is there a way to isolate alpha and recolor all the nontransparent pixels to 1 color in a PNG?</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-04T15:25:00.891000</ts>
+  <user>Maelin</user>
+  <text>Yes with `pixels` and `updatepixels` the docs have an example of how to use both together</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-04T15:25:52.814000</ts>
+  <user>Maelin</user>
+  <text>http://quil.info/api/image/pixels#pixels</text>
+</message>
+<message conversation_id="40">
+  <ts>2020-07-04T15:28:15.688000</ts>
+  <user>Maelin</user>
+  <text>If you're having trouble finding how to do something in quil try searching for the equivalent processing method instead. Quil is a pretty thin wrapper and processing has a bigger user base so it's usually easier to find info on processing and just convert</text>
+</message>
+<message conversation_id="42">
+  <ts>2020-07-04T15:28:34.319000</ts>
+  <user>Dylam</user>
+  <text>Thanks that's helpful to know.</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-07T17:36:24.045000</ts>
+  <user>Maddison</user>
+  <text>When exactly do ring sessions get deleted? I have a log in via oauth2 thing on a website and before redirecting to the authorisation url I store a few things in the session. But after the login is completed and redirected to my website the previous session is gone</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-07T17:36:54.331000</ts>
+  <user>Maddison</user>
+  <text>For some reason it worked for a little while until I tampered with it again</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-07T17:37:18.197000</ts>
+  <user>Maddison</user>
+  <text>I tried to restore everything as before but it doesn't work anymore the session is gone every time</text>
+</message>
+<message conversation_id="44">
+  <ts>2020-07-08T03:12:12.736000</ts>
+  <user>Savvi</user>
+  <text>Check if the middleware is httponly. If it is you'll need to change it</text>
+</message>
+<message conversation_id="44">
+  <ts>2020-07-08T03:12:41.317000</ts>
+  <user>Savvi</user>
+  <text>If it's what I'm thinking of the session is fine but the browser is sending a new cookie/not sending the old so it's getting a new one</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:41:15.974000</ts>
+  <user>Maddison</user>
+  <text>Sorry I'm still rather new to webdev and ring. What are the implications of being http only or how does it affect this particular situation? @lsenjov</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:49:15.384000</ts>
+  <user>Maddison</user>
+  <text>:session :cookieattrs :httponly was indeed set to true I dissociated it but still same result</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:49:31.122000</ts>
+  <user>Savvi</user>
+  <text>My bad wrong thing it needs to be lax instead of strict</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:49:42.344000</ts>
+  <user>Maddison</user>
+  <text>:samesite?</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:49:55.575000</ts>
+  <user>Savvi</user>
+  <text>SameSite needs to be lax or the cookie doesn't persist</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:50:43.289000</ts>
+  <user>Maddison</user>
+  <text>Ah I've reckoned something like this. Is it as I suspect: the cookie is deleted/overwritten once you leave the site?</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:51:28.823000</ts>
+  <user>Maddison</user>
+  <text>Because I couldn't find any docs for those config options.</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:52:38.151000</ts>
+  <user>Maddison</user>
+  <text>tysm. This worked. But do you have an idea where this is documented?</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:56:12.493000</ts>
+  <user>Savvi</user>
+  <text>https://developer.mozilla.org/enUS/docs/Web/HTTP/Cookies</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:56:19.324000</ts>
+  <user>Savvi</user>
+  <text>Check SameSite</text>
+</message>
+<message conversation_id="43">
+  <ts>2020-07-08T08:57:22.242000</ts>
+  <user>Maddison</user>
+  <text>Thank you!</text>
+</message>
+<message conversation_id="45">
+  <ts>2020-07-11T03:50:02.902000</ts>
+  <user>Dylam</user>
+  <text>https://github.com/Frosku/mirrorpoolCan someone else see if they can get the uberjar to work for this?</text>
+</message>
+<message conversation_id="45">
+  <ts>2020-07-11T03:50:14.865000</ts>
+  <user>Dylam</user>
+  <text>Mine doesn't but lein run works and I'm very confused.</text>
+</message>
+<message conversation_id="46">
+  <ts>2020-07-11T09:05:10.845000</ts>
+  <user>Cruze</user>
+  <text>What errors do you get?</text>
+</message>
+<message conversation_id="46">
+  <ts>2020-07-29T17:29:03.697000</ts>
+  <user>Andras</user>
+  <text>what's the reasoning for (contains? [:k] :k) =&gt; false</text>
+</message>
+<message conversation_id="46">
+  <ts>2020-07-29T17:31:27.451000</ts>
+  <user>Andras</user>
+  <text>oh clojure docs explains it's a matter of index not value</text>
+</message>
+<message conversation_id="45">
+  <ts>2020-07-29T17:54:48.768000</ts>
+  <user>Maddison</user>
+  <text>Yeah `contains?` only works on associative data structures</text>
+</message>
+<message conversation_id="45">
+  <ts>2020-07-29T17:54:54.271000</ts>
+  <user>Maddison</user>
+  <text>And it uses keys</text>
+</message>
+<message conversation_id="45">
+  <ts>2020-07-29T17:55:12.488000</ts>
+  <user>Maddison</user>
+  <text>Vectors are associations of index &gt; value</text>
+</message>
+<message conversation_id="47">
+  <ts>2020-07-30T01:38:25.806000</ts>
+  <user>Czar</user>
+  <text>`contains?` has to be one of the biggest gotcha fns in the entire language...</text>
+</message>
+<message conversation_id="47">
+  <ts>2020-07-30T01:38:35.561000</ts>
+  <user>Czar</user>
+  <text>Every time I think it's what I need it isn't.</text>
+</message>
+<message conversation_id="47">
+  <ts>2020-07-30T16:40:18.957000</ts>
+  <user>Andras</user>
+  <text>it's surprisingly an ultra common word/term with a very not common semantic 🙂</text>
+</message>
+<message conversation_id="47">
+  <ts>2020-07-30T16:40:31.584000</ts>
+  <user>Andras</user>
+  <text>let's rename it kontains?</text>
+</message>
+<message conversation_id="47">
+  <ts>2020-07-30T16:41:05.050000</ts>
+  <user>Adalind</user>
+  <text>we should have both contains? and kontains? to make it clearer</text>
+</message>
+<message conversation_id="47">
+  <ts>2020-07-30T17:00:02.542000</ts>
+  <user>Andras</user>
+  <text>i was merely joking but I think it deserves a different name</text>
+</message>
+<message conversation_id="47">
+  <ts>2020-07-30T17:02:56.000000</ts>
+  <user>Andras</user>
+  <text>anybody ever seen an attempt at a react style gui framework for client side jvm ?</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T17:10:32.300000</ts>
+  <user>Hampton</user>
+  <text>fnfx</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T17:10:43.538000</ts>
+  <user>Hampton</user>
+  <text>and cljfx</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T17:10:51.406000</ts>
+  <user>Hampton</user>
+  <text>they're both wrappers around javafx</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T17:12:19.757000</ts>
+  <user>Andras</user>
+  <text>I meant standalone not javafx based</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T17:12:46.143000</ts>
+  <user>Andras</user>
+  <text>thanks nonetheless</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:07:12.033000</ts>
+  <user>Hampton</user>
+  <text>What do you mean standalone?</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:07:22.970000</ts>
+  <user>Hampton</user>
+  <text>Do you mean like a wrapper of java swing?</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:07:49.346000</ts>
+  <user>Hampton</user>
+  <text>At some point you have to interoperate with a java gui library whether that be the builtins or javafx.</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:08:00.616000</ts>
+  <user>Hampton</user>
+  <text>@agumonkey</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:22:50.757000</ts>
+  <user>Andras</user>
+  <text>@srasu yeah some kind of raw rewrite of react like concepts on awt/swing</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:23:00.445000</ts>
+  <user>Andras</user>
+  <text>bypassing java usual way of things</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:23:15.161000</ts>
+  <user>Andras</user>
+  <text>a react/seesaw blend</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:25:57.206000</ts>
+  <user>Hampton</user>
+  <text>No that's not currently a thing. Although I'm not sure what disqualifies using javafx with cljfx and fnfx.</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T18:26:07.226000</ts>
+  <user>Hampton</user>
+  <text>Do you want to just straight up port a reagent app to the JVM or something?</text>
+</message>
+<message conversation_id="49">
+  <ts>2020-07-30T18:42:29.812000</ts>
+  <user>Mariana</user>
+  <text>just do what discord does and run electrum ontop of a react app</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T20:58:55.004000</ts>
+  <user>Andras</user>
+  <text>@srasu I don't know much about javafx but it seemed like a recreation of the browser way of things and not a react like system. That's why I thought maybe somebody reusing swing graphic subsystem and write a purely functional reactive layer on it</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:05:40.308000</ts>
+  <user>Hampton</user>
+  <text>No nothing like that exists and I don't think that's an accurate representation of what javafx is. Javafx is still a pretty normal nativestyle graphics library with some utility features around sweeping boiler plate away under xml files.</text>
+</message>
+<message conversation_id="48">
+  <ts>2020-07-30T21:06:07.682000</ts>
+  <user>Hampton</user>
+  <text>It's not a recreation of the dom idea.</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:07:16.993000</ts>
+  <user>Andras</user>
+  <text>doesn't it support css or similar dynamic styling rules ?</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:08:54.701000</ts>
+  <user>Hampton</user>
+  <text>Yeah why?</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:09:48.354000</ts>
+  <user>Hampton</user>
+  <text>So do a lot of other libraries like gtk and qt</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:18:08.830000</ts>
+  <user>Andras</user>
+  <text>that's half why I thought it was a recreation of the browser way</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:18:21.171000</ts>
+  <user>Andras</user>
+  <text>sea of nodes dynamic updates over a big state</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:32:54.352000</ts>
+  <user>Hampton</user>
+  <text>I mean that's how swing gtk qt and everything else that's not immediate mode work. It's just swing and awt don't allow dynamic styling or multithreading.</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:34:47.529000</ts>
+  <user>Hampton</user>
+  <text>The only other common way to do gui programming is immediate mode guis but those are basically write your own retained mode gui for any sizable project. Otherwise it's basically not used. Although you can do it with quil.</text>
+</message>
+<message conversation_id="50">
+  <ts>2020-07-30T21:37:35.713000</ts>
+  <user>Hampton</user>
+  <text>The way that clojure and react work is really just the way you map immutability onto that idea of retained mode. Although it's arguably easier to implement from scratch than true retained mode since you can more easily write a simple immediate mode evaluator for immutable data than you can write an efficient retained mode gui library.</text>
+</message>
+</discord>

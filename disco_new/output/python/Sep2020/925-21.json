@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-13T20:18:13.332000",
+        "user": "Yaya",
+        "text": "@Infinimata i am creating a module i have to get a choice and his percentage of choice how can i do it if i cannot do it with a dictionary so?",
+        "conversation_id": "925",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-09-13T20:30:14.726000",
+        "user": "Nasiir",
+        "text": "See https://stackoverflow.com/a/39976962 for an example of how this works",
+        "conversation_id": "925",
+        "index": 21
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Yaya asks question and Nasiir provides answer after getting more info which would be difficult to include in a group",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

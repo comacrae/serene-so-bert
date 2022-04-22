@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-30T07:35:10.939000",
+        "user": "Pollyanna",
+        "text": "Habe any of you guys noticed that yuou dont have tkinter anymore by defauly in bhase install?",
+        "conversation_id": "1078",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2019-11-30T07:42:21.949000",
+        "user": "Pollyanna",
+        "text": "https://stackoverflow.com/questions/4783810/installtkinterforpython",
+        "conversation_id": "1078",
+        "index": 18
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

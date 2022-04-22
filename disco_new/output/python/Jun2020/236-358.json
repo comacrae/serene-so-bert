@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-04T23:38:05.688000",
+        "user": "Nazaria",
+        "text": "is there a way I could make a drawing and have python give me formulas to replicate the drawing in a graphing calculator?",
+        "conversation_id": "236",
+        "index": 351
+    },
+    "so_post": {
+        "ts": "2020-06-04T23:41:55.555000",
+        "user": "Sid",
+        "text": "@David_ polynomial regression\"https://github.com/mrocklin/multipolyfithttps://stackoverflow.com/a/11856451",
+        "conversation_id": "236",
+        "index": 358
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "user provides SO post on using a library which can fit a function and graph it",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

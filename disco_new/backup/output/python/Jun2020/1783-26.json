@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-30T08:58:12.965000",
+        "user": "Haley",
+        "text": "is there any way i can switch on dark mode on jupyter notebooks?",
+        "conversation_id": "1783",
+        "index": 24
+    },
+    "so_post": {
+        "ts": "2020-06-30T08:58:52.145000",
+        "user": "Javiel",
+        "text": "https://stackoverflow.com/questions/46510192/changethethemeinjupyternotebook",
+        "conversation_id": "1783",
+        "index": 26
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

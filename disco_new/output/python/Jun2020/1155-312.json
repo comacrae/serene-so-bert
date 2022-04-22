@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-19T14:13:13.098000",
+        "user": "Amisha",
+        "text": "@75011 https://stackoverflow.com/questions/332289/howdoyouchangethesizeoffiguresdrawnwithmatplotlib",
+        "conversation_id": "1155",
+        "index": 312
+    },
+    "so_post": {
+        "ts": "2020-06-19T14:13:13.098000",
+        "user": "Amisha",
+        "text": "@75011 https://stackoverflow.com/questions/332289/howdoyouchangethesizeoffiguresdrawnwithmatplotlib",
+        "conversation_id": "1155",
+        "index": 312
+    },
+    "category": "Question Repost",
+    "comments": "no context",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

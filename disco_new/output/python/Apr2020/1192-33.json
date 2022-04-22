@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-24T17:14:55.706000",
+        "user": "Bransen",
+        "text": "Can you redirect stderr to a file?",
+        "conversation_id": "1192",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2020-04-24T17:15:52.298000",
+        "user": "Neisha",
+        "text": "https://stackoverflow.com/a/1956228",
+        "conversation_id": "1192",
+        "index": 33
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

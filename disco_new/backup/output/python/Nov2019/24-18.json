@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-01T14:59:43.379000",
+        "user": "Avaeh",
+        "text": "I guess I wanted to know how to send a keystroke to another process  does that help? \ud83d\ude42",
+        "conversation_id": "24",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2019-11-01T15:06:18.545000",
+        "user": "Pollyanna",
+        "text": "https://stackoverflow.com/questions/13564851/howtogeneratekeyboardeventsinpython",
+        "conversation_id": "24",
+        "index": 18
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

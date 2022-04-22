@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-23T01:06:49.902000",
+        "user": "Miloud",
+        "text": "Golang doesn't have defafult values for functions does it?",
+        "conversation_id": "1628",
+        "index": 25
+    },
+    "so_post": {
+        "ts": "2020-01-23T01:07:08.201000",
+        "user": "Miloud",
+        "text": "not according to https://stackoverflow.com/questions/19612449/defaultvalueingosmethod",
+        "conversation_id": "1628",
+        "index": 26
+    },
+    "category": "Validating Solution",
+    "comments": "I would say this is a validating solution because these are back to back",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

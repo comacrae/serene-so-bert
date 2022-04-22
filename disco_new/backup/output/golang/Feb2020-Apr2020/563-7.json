@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-23T00:24:46.730000",
+        "user": "Jkari",
+        "text": "does anybody know how to resize a GIF in Go?",
+        "conversation_id": "563",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2020-02-23T00:33:35.775000",
+        "user": "Pablo",
+        "text": "\ud83e\udd22 https://stackoverflow.com/questions/54157111/howtousegolangcompressandresizeagif",
+        "conversation_id": "563",
+        "index": 7
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jkari asks question and Pablo answers",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

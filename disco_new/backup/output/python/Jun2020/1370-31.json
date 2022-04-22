@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T04:52:57.453000",
+        "user": "Blesyn",
+        "text": "so how do you scroll down ?",
+        "conversation_id": "1370",
+        "index": 20
+    },
+    "so_post": {
+        "ts": "2020-06-23T04:59:10.011000",
+        "user": "Nyssa",
+        "text": "https://stackoverflow.com/questions/20986631/howcaniscrollawebpageusingseleniumwebdriverinpython",
+        "conversation_id": "1370",
+        "index": 31
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

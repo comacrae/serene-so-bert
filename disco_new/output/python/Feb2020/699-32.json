@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-17T10:27:44.478000",
+        "user": "Charlotterose",
+        "text": "i try start myself but 1st blocking point is module choices ... i try go on pypi.org like for found a yaml module ... and found so many some with docs very light to explain who to work with (even sometimes empty modules name reservation maybe ?). And wehn i google on them so many advices to say one is better than the other .. and vice versa",
+        "conversation_id": "699",
+        "index": 27
+    },
+    "so_post": {
+        "ts": "2020-02-17T10:31:27.350000",
+        "user": "Letti",
+        "text": "https://stackoverflow.com/questions/13019653/convertingyamlfiletopythondict",
+        "conversation_id": "699",
+        "index": 32
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Seems like the SO link helped the user read the yaml modules.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

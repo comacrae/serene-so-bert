@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-26T16:54:32.076000",
+        "user": "Corine",
+        "text": "Is there a way that when I type a value I get it\\'s key?aka```pydict = {\\'test\\':\\'one\\'}Is there a way if I typed one I get test\"```?",
+        "conversation_id": "1921",
+        "index": 224
+    },
+    "so_post": {
+        "ts": "2020-10-26T16:55:01.806000",
+        "user": "Kaio",
+        "text": "@BalmierLight https://stackoverflow.com/questions/8023306/getkeybyvalueindictionary",
+        "conversation_id": "1921",
+        "index": 228
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer via SO to given question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

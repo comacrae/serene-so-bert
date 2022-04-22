@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-23T02:25:01.174000",
+        "user": "Maheer",
+        "text": "how do i find common divisors",
+        "conversation_id": "1681",
+        "index": 55
+    },
+    "so_post": {
+        "ts": "2020-10-23T02:25:59.822000",
+        "user": "Kaio",
+        "text": "@neoncraxks https://stackoverflow.com/questions/57524979/howtofindthecommonfactorsof2numbers",
+        "conversation_id": "1681",
+        "index": 57
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct q a",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

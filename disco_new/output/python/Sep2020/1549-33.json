@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-22T14:29:26.486000",
+        "user": "Aliyahna",
+        "text": "So does anyone have any idea how I can get 6 0s instead of one lol",
+        "conversation_id": "1549",
+        "index": 25
+    },
+    "so_post": {
+        "ts": "2020-09-22T14:31:23.538000",
+        "user": "Jachin",
+        "text": "@Samurai A good friend of mines named StackedOverFlowshttps://stackoverflow.com/questions/15619096/addzerostoafloatafterthedecimalpointinpython/15619126#:~:text=You%20can%20set%20the%20precision,is%20a%20great%20number.%22.",
+        "conversation_id": "1549",
+        "index": 33
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "someone asks about formatting floats and gets a direct answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T14:55:27.262000",
+        "user": "Broly",
+        "text": "Hi all. I'm a go newbie trying to work with modules. I'm trying to set up my go env variables right so that I can download the Private modules from the corporate go proxy and the public ones from the proxy.golang.org but I could not get the setup to work. I have explained it in more detail here. https://stackoverflow.com/q/62527648/2498327. Can someone please guide me?",
+        "conversation_id": "1501",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-06-23T14:55:27.262000",
+        "user": "Broly",
+        "text": "Hi all. I'm a go newbie trying to work with modules. I'm trying to set up my go env variables right so that I can download the Private modules from the corporate go proxy and the public ones from the proxy.golang.org but I could not get the setup to work. I have explained it in more detail here. https://stackoverflow.com/q/62527648/2498327. Can someone please guide me?",
+        "conversation_id": "1501",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "Outsourcing",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

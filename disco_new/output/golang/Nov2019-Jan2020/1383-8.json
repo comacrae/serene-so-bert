@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-12T10:23:55.630000",
+        "user": "Zulfiqar",
+        "text": "why not use html parser? do we have that kind of library?",
+        "conversation_id": "1383",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-01-12T10:48:29.036000",
+        "user": "Kenmari",
+        "text": "https://stackoverflow.com/a/1732454",
+        "conversation_id": "1383",
+        "index": 8
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Zulfiqar asks question and Kenmari provides SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

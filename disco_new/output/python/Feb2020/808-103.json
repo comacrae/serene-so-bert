@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-20T03:39:45.748000",
+        "user": "Stuart",
+        "text": "echo poop | python c \\'import sys; print ([x for x in sys.stdin])\\'[\\'poop\\\\']",
+        "conversation_id": "808",
+        "index": 99
+    },
+    "so_post": {
+        "ts": "2020-02-20T03:41:31.741000",
+        "user": "Nickolas",
+        "text": "https://stackoverflow.com/questions/1450393/howdoyoureadfromstdin",
+        "conversation_id": "808",
+        "index": 103
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User was having issues with a line command and after various attempts, Nickolas provided this link.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-12T17:16:52.858000",
+        "user": "Melodie",
+        "text": "Hi all I am trying to handle a request and after manipulation trying to forward to actual service but getting some error related to port Here is the code what I am doing https://gist.github.com/aavrug/6f6b2062bd573c29205fb2b728e7a6e2",
+        "conversation_id": "2059",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-12T17:35:38.514000",
+        "user": "Melodie",
+        "text": "Basically I was following this https://stackoverflow.com/a/34724481",
+        "conversation_id": "2059",
+        "index": 35
+    },
+    "category": "Question Repost",
+    "comments": "Melodie aslks question with SO post source",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

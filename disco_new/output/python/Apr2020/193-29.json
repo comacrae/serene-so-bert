@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-04T21:23:36.345000",
+        "user": "Heidy",
+        "text": "is there a way to see how much memory an object takes up?",
+        "conversation_id": "193",
+        "index": 21
+    },
+    "so_post": {
+        "ts": "2020-04-04T21:25:18.265000",
+        "user": "Neisha",
+        "text": "Here's an SO thread on that https://stackoverflow.com/a/30316760",
+        "conversation_id": "193",
+        "index": 29
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Heidi asked how to determine the size of an object and the User replied with a post explaining how to do so.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-26T15:54:13.805000",
+        "user": "Tillian",
+        "text": "Hello guys (again).Today i have only one question.What is BigO for the golang's map (insert delete FIND) ? \ud83e\udd14 Thanks.",
+        "conversation_id": "726",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-05-26T15:58:32.748000",
+        "user": "Radostin",
+        "text": "https://stackoverflow.com/questions/200384/constantamortizedtime",
+        "conversation_id": "726",
+        "index": 10
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Tillian has question and Radostin provides SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

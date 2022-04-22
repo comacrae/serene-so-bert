@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-07T10:13:10.162000",
+        "user": "Cassie",
+        "text": "can i make a go function run when you press a button",
+        "conversation_id": "210",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-08-07T10:24:30.623000",
+        "user": "Cassie",
+        "text": "https://stackoverflow.com/questions/52231161/passgofunctiontohtmljsbuttononclickresponse",
+        "conversation_id": "210",
+        "index": 9
+    },
+    "category": "Question Repost",
+    "comments": "Cassie asks question with SO post background",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

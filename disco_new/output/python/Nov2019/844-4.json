@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-23T14:56:25.180000",
+        "user": "Alazar",
+        "text": "wont that still be O(len(s))?",
+        "conversation_id": "844",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-11-23T15:03:13.429000",
+        "user": "Nayef",
+        "text": "https://stackoverflow.com/questions/35180377/timecomplexityofstringslice",
+        "conversation_id": "844",
+        "index": 4
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "very first question in thread, is about time complexity of a slice",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

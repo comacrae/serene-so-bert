@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T08:11:46.268000",
+        "user": "Staton",
+        "text": "I still don't understand ```__str__()``` can anyone tell me pls",
+        "conversation_id": "2206",
+        "index": 240
+    },
+    "so_post": {
+        "ts": "2020-10-30T08:15:21.345000",
+        "user": "Suni",
+        "text": "interesting stuffs https://stackoverflow.com/questions/1301346/whatisthemeaningofsingleanddoubleunderscorebeforeanobjectname",
+        "conversation_id": "2206",
+        "index": 270
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

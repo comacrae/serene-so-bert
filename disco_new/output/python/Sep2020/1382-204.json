@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T03:03:56.842000",
+        "user": "Wladyslaw",
+        "text": "How can i match for example capital letters AZ but not vowels or any other certain characters",
+        "conversation_id": "1382",
+        "index": 170
+    },
+    "so_post": {
+        "ts": "2020-09-20T03:15:14.538000",
+        "user": "Robinson",
+        "text": "Hope that helps @Doctor https://stackoverflow.com/a/59284346",
+        "conversation_id": "1382",
+        "index": 204
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Wladyslaw asks about regex and RObinson provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

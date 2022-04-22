@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-30T10:59:56.257000",
+        "user": "Abir",
+        "text": "Anyone remember that code snippet that when you use it in your code (in your editor) and run it it drops you into interactive mode?",
+        "conversation_id": "1483",
+        "index": 121
+    },
+    "so_post": {
+        "ts": "2020-04-30T11:03:31.016000",
+        "user": "Troyce",
+        "text": "https://stackoverflow.com/questions/13432717/enterinteractivemodeinpython",
+        "conversation_id": "1483",
+        "index": 127
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

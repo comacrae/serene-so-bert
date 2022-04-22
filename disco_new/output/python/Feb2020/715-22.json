@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-17T19:00:37.928000",
+        "user": "Nyella",
+        "text": "Whats the `barry_as_FLUFL` thing?",
+        "conversation_id": "715",
+        "index": 20
+    },
+    "so_post": {
+        "ts": "2020-02-17T19:01:25.509000",
+        "user": "Aadriti",
+        "text": "https://stackoverflow.com/a/4007310/5827958",
+        "conversation_id": "715",
+        "index": 22
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

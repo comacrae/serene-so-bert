@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-24T12:47:32.520000",
+        "user": "Nashton",
+        "text": "how we can compare two functions (without reflect & fmt)? => i can get unsafe pointer to a function without reflect?",
+        "conversation_id": "600",
+        "index": 23
+    },
+    "so_post": {
+        "ts": "2020-02-24T12:51:52.740000",
+        "user": "Tano",
+        "text": "this SO question may help https://stackoverflow.com/questions/34901307/howtocompare2functionsingo/34901677",
+        "conversation_id": "600",
+        "index": 31
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nashton asks question and Tano answers ",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

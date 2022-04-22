@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-28T13:38:37.317000",
+        "user": "Blakley",
+        "text": "how can i check if a string is in a json or txt file?",
+        "conversation_id": "1997",
+        "index": 263
+    },
+    "so_post": {
+        "ts": "2020-09-28T13:40:00.525000",
+        "user": "Rooney",
+        "text": "https://stackoverflow.com/questions/5508509/howdoicheckifastringisvalidjsoninpython",
+        "conversation_id": "1997",
+        "index": 268
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Blakely asks how to check if a string is in a text or json file and Rooney gives solution",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

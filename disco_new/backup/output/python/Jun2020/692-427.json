@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-12T11:07:07.821000",
+        "user": "Elody",
+        "text": "and what to do if i want to easily round in normal form?",
+        "conversation_id": "692",
+        "index": 363
+    },
+    "so_post": {
+        "ts": "2020-06-12T11:28:02.561000",
+        "user": "Iker",
+        "text": "https://stackoverflow.com/questions/40631553/python3decimalroundinghalfdownwithroundhalfupcontext#40631901 decent SO answer",
+        "conversation_id": "692",
+        "index": 427
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

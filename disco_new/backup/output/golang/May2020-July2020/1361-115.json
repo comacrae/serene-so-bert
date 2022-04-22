@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-18T14:12:57.352000",
+        "user": "Espiridion",
+        "text": "How can I do to not overwrite the file?",
+        "conversation_id": "1361",
+        "index": 111
+    },
+    "so_post": {
+        "ts": "2020-06-18T14:14:55.606000",
+        "user": "Haaziq",
+        "text": "https://stackoverflow.com/questions/7151261/appendtoafileingo",
+        "conversation_id": "1361",
+        "index": 115
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Espiridion has question and Haaziq provides So answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

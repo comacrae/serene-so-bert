@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-16T00:33:58.795000",
+        "user": "Shamya",
+        "text": "how do i pip install mysqlldb",
+        "conversation_id": "559",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2019-11-16T00:36:32.932000",
+        "user": "Darious",
+        "text": "<https://stackoverflow.com/a/25724855> @Dino111 Not sure if this is what you need or not. Might help though",
+        "conversation_id": "559",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

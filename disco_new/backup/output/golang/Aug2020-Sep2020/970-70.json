@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-31T19:53:24.621000",
+        "user": "Dreya",
+        "text": "slices are a struct? I need to go look how they are implemented",
+        "conversation_id": "970",
+        "index": 65
+    },
+    "so_post": {
+        "ts": "2020-08-31T19:54:30.055000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/37391009/islocknecessarywhengomaxprocsis1",
+        "conversation_id": "970",
+        "index": 70
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Dreya asks a question and Samarie provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

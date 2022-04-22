@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-13T10:56:10.696000",
+        "user": "Nilsa",
+        "text": "@FarmArt where can i learn more about wsgi",
+        "conversation_id": "893",
+        "index": 91
+    },
+    "so_post": {
+        "ts": "2020-09-13T10:56:57.652000",
+        "user": "Jeremi",
+        "text": "<https://stackoverflow.com/questions/4929626/whatarewsgiandcgiinplainenglish>",
+        "conversation_id": "893",
+        "index": 93
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks for help with wsgi and Jeremi provides answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-17T09:11:02.654000",
+        "user": "Guiliana",
+        "text": "```pythonsamples_to_predict = np.array(test_img) predictions = model.predict(samples_to_predict) #print(\"prediction\",prediction) result2 = np.argmax(predictions) #print(\"result2\",result2) #return [\"country name: Albania document type: Driving Licence\",\"country name: Albania document type: Passport\",\"Invalid Image\"][result2.item()] if result2 == 0: return { status : Invalid Image\" } elif result2 == 1: return { country name\": Kosovo\", document type\": Driving Licence\" } elif result2 == 2: return { country name\": Kosovo\", document type\": Passport\" } else: return exit\"api.add_resource(HandleRequest \\'/\\'+country)if __name__ == \\'__main__\\': app.run(debug=False)```",
+        "conversation_id": "1022",
+        "index": 113
+    },
+    "so_post": {
+        "ts": "2020-06-17T09:21:13.254000",
+        "user": "Daisee",
+        "text": "Here's a solution that uses keras/tf to use the underlying Pillow: <https://stackoverflow.com/a/54133514>",
+        "conversation_id": "1022",
+        "index": 128
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

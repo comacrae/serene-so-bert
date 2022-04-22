@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-22T10:24:32.379000",
+        "user": "Harlene",
+        "text": "https://stackoverflow.com/questions/23904274/isthereawaytogetcoloredtextingithubflavoredmarkdown",
+        "conversation_id": "1073",
+        "index": 219
+    },
+    "so_post": {
+        "ts": "2020-04-22T10:24:32.379000",
+        "user": "Harlene",
+        "text": "https://stackoverflow.com/questions/23904274/isthereawaytogetcoloredtextingithubflavoredmarkdown",
+        "conversation_id": "1073",
+        "index": 219
+    },
+    "category": "Question Repost",
+    "comments": "Seems like user is posting their own question",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

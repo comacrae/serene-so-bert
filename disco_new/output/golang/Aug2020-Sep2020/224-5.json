@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-07T20:11:54.239000",
+        "user": "Zachary",
+        "text": "How can i wait for CONTROL+C",
+        "conversation_id": "224",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-07T20:12:58.256000",
+        "user": "Samarie",
+        "text": "haha yes https://stackoverflow.com/questions/813086/canisendactrlcsiginttoanapplicationonwindows",
+        "conversation_id": "224",
+        "index": 5
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Zachary asks question and Samarie provides direct SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

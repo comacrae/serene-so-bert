@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-17T13:36:53.515000",
+        "user": "Guthrie",
+        "text": "If I have a struct like the one below what is the best way to cycle through or to process each struct property without hardcoding each thing I want to do? I have an example of what I mean below the struct```type IncomingStruct struct { PropOne string  PropTwo string  PropThree string  PropFour string  PropFive string }```I can\\'t alter the struct for legacy reasons but I have to take each value and process it. Right now that looks like this and I don\\'t want to have to continue hardcoding stuff.```ret = append(ret s.processValue(\"lookup_for_prop_one incoming.PropOne))ret = append(ret s.processValue(\"lookup_for_prop_two incoming.PropTwo))ret = append(ret s.processValue(\"lookup_for_prop_three incoming.PropThree))ret = append(ret s.processValue(\"lookup_for_prop_four incoming.PropFour))ret = append(ret s.processValue(\"lookup_for_prop_five incoming.PropFive))```I am not sure how to accomplish this. I found this SO question but it seems like a lot of reflection and stuff would be overly complicated: https://stackoverflow.com/questions/18926303/iteratethroughthefieldsofastructingo",
+        "conversation_id": "2007",
+        "index": 15
+    },
+    "so_post": {
+        "ts": "2020-04-17T13:36:53.515000",
+        "user": "Guthrie",
+        "text": "If I have a struct like the one below what is the best way to cycle through or to process each struct property without hardcoding each thing I want to do? I have an example of what I mean below the struct```type IncomingStruct struct { PropOne string  PropTwo string  PropThree string  PropFour string  PropFive string }```I can\\'t alter the struct for legacy reasons but I have to take each value and process it. Right now that looks like this and I don\\'t want to have to continue hardcoding stuff.```ret = append(ret s.processValue(\"lookup_for_prop_one incoming.PropOne))ret = append(ret s.processValue(\"lookup_for_prop_two incoming.PropTwo))ret = append(ret s.processValue(\"lookup_for_prop_three incoming.PropThree))ret = append(ret s.processValue(\"lookup_for_prop_four incoming.PropFour))ret = append(ret s.processValue(\"lookup_for_prop_five incoming.PropFive))```I am not sure how to accomplish this. I found this SO question but it seems like a lot of reflection and stuff would be overly complicated: https://stackoverflow.com/questions/18926303/iteratethroughthefieldsofastructingo",
+        "conversation_id": "2007",
+        "index": 15
+    },
+    "category": "Question Repost",
+    "comments": "Guthrie asking question using SO post as background",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

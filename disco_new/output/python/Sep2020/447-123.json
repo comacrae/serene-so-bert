@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-07T08:28:41.374000",
+        "user": "Essa",
+        "text": "Is it possible to make a redirect to another tab when it goes to a part and rick roll the teacher?",
+        "conversation_id": "447",
+        "index": 109
+    },
+    "so_post": {
+        "ts": "2020-09-07T08:32:26.366000",
+        "user": "Nilsa",
+        "text": "Tubbus i fount this Stack Overflow page that talks about it:https://stackoverflow.com/questions/36634807/howdoiopenanmp4videofilewithpython#:~:text=If%20you%20just%20want%20to,help%20you%20to%20do%20that.&text=You%20can%20change%20the%20name,read%20or%20not%2C%20frame%20wise.",
+        "conversation_id": "447",
+        "index": 123
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Essa asks question and Nilsa provides an SO post to do what this guy wants ",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-18T18:43:22.170000",
+        "user": "Aycen",
+        "text": "https://stackoverflow.com/questions/62456984/fstringerrorinpythonwhenrunningonvscode",
+        "conversation_id": "1109",
+        "index": 159
+    },
+    "so_post": {
+        "ts": "2020-06-18T18:43:22.170000",
+        "user": "Aycen",
+        "text": "https://stackoverflow.com/questions/62456984/fstringerrorinpythonwhenrunningonvscode",
+        "conversation_id": "1109",
+        "index": 159
+    },
+    "category": "Question Repost",
+    "comments": "they post w/o context",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

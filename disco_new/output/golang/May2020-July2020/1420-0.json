@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-20T16:32:30.939000",
+        "user": "Espiridion",
+        "text": "When I try to remove slice elements I replace them with `\"\"`. However this can cause the outermost loop within `main()` to break. I don\\'t know what I can do to shrink the slice.I\\'m trying to do what Python achieves with `remove()` or `pop()` with its dynamic lists in that language",
+        "conversation_id": "1420",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-06-20T16:00:08.604000",
+        "user": "Espiridion",
+        "text": "I'm having some problems which I don't know how to resolve:https://paste.ee/p/vNRUCI've been using this webpage (https://stackoverflow.com/questions/37334119/howtodeleteanelementfromasliceingolang) for reference btw.",
+        "conversation_id": "1420",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "needs help with question and uses SO post for reference",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

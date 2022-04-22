@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-05T13:42:48.532000",
+        "user": "Maiven",
+        "text": "especially why is `__all__` used outside of classes",
+        "conversation_id": "191",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-01-05T13:43:44.518000",
+        "user": "Telvin",
+        "text": "there's some extensive answers here: https://stackoverflow.com/questions/44834/cansomeoneexplainallinpython",
+        "conversation_id": "191",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

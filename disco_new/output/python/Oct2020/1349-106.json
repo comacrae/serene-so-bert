@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-19T02:48:17.178000",
+        "user": "Hailyn",
+        "text": "can pillow draw a image on base64 image?",
+        "conversation_id": "1349",
+        "index": 95
+    },
+    "so_post": {
+        "ts": "2020-10-19T02:50:45.842000",
+        "user": "Bawitha",
+        "text": "see here for some details https://stackoverflow.com/questions/48229318/howtoconvertimagepilintobase64withoutsaving. I need to be sleeping",
+        "conversation_id": "1349",
+        "index": 106
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Hailyn asks about base 64 image and Bawitha provides SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

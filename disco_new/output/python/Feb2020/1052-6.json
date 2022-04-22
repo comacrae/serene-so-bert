@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-25T21:36:13.709000",
+        "user": "Sal",
+        "text": "https://stackoverflow.com/questions/10904721/isitpossibletocreateanoperatingsystemusingpythonIs it possible to create an operating system using Python?  Stack ...",
+        "conversation_id": "1052",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-02-25T21:36:13.709000",
+        "user": "Sal",
+        "text": "https://stackoverflow.com/questions/10904721/isitpossibletocreateanoperatingsystemusingpythonIs it possible to create an operating system using Python?  Stack ...",
+        "conversation_id": "1052",
+        "index": 6
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "It just seems like they interested in other user's opinions on the matter. It is possible someone asked a question regarding the topic but the chat snippit it out of range.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

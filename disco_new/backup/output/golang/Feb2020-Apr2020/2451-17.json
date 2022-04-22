@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-30T19:10:23.930000",
+        "user": "Izna",
+        "text": "is using lua for config files a bad idea",
+        "conversation_id": "2451",
+        "index": 15
+    },
+    "so_post": {
+        "ts": "2020-04-30T19:11:38.420000",
+        "user": "Olivia",
+        "text": "https://stackoverflow.com/questions/5969417/whyisitabadideatowriteconfigurationdataincode",
+        "conversation_id": "2451",
+        "index": 17
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Izna asks qusetion and Olivia provides direct SO answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-14T19:46:25.773000",
+        "user": "Aquinnah",
+        "text": "When I run my parser im getting this what does it mean? ```pye:\\\\ParserAndLexer\\\\main_parser.py:36: ParserGeneratorWarning: 4 shift/reduce conflicts return self.pg.build()8```",
+        "conversation_id": "1017",
+        "index": 140
+    },
+    "so_post": {
+        "ts": "2020-10-14T19:47:40.612000",
+        "user": "Graceson",
+        "text": "@Aboo Minister https://stackoverflow.com/questions/56531624/howtofixparsergeneratorwarning4shiftreduceconflictsinpython",
+        "conversation_id": "1017",
+        "index": 146
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to given question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

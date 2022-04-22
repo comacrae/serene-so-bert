@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-12T18:14:31.843000",
+        "user": "Noland",
+        "text": "If someone can give an upvote here it would be great https://stackoverflow.com/questions/63382118/sendunencodedgetrequestsingo",
+        "conversation_id": "370",
+        "index": 30
+    },
+    "so_post": {
+        "ts": "2020-08-12T18:14:31.843000",
+        "user": "Noland",
+        "text": "If someone can give an upvote here it would be great https://stackoverflow.com/questions/63382118/sendunencodedgetrequestsingo",
+        "conversation_id": "370",
+        "index": 30
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "Noland just wants others to upvote an SO post because they find it useful ",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

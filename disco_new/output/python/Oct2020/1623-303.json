@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-22T08:44:01.365000",
+        "user": "Imre",
+        "text": "sigh... ...https://stackoverflow.com/questions/6323860/siblingpackageimports. Why did python make this so bad \ud83d\ude26",
+        "conversation_id": "1623",
+        "index": 303
+    },
+    "so_post": {
+        "ts": "2020-10-22T08:44:01.365000",
+        "user": "Imre",
+        "text": "sigh... ...https://stackoverflow.com/questions/6323860/siblingpackageimports. Why did python make this so bad \ud83d\ude26",
+        "conversation_id": "1623",
+        "index": 303
+    },
+    "category": "Question Repost",
+    "comments": "soliciting ",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

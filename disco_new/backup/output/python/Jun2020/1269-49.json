@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-21T12:05:56.839000",
+        "user": "Dumitrel",
+        "text": "what is the best way to check if a number is a fibonaci?",
+        "conversation_id": "1269",
+        "index": 45
+    },
+    "so_post": {
+        "ts": "2020-06-21T12:23:29.024000",
+        "user": "Gunther",
+        "text": "@Yali <https://stackoverflow.com/a/2822801>",
+        "conversation_id": "1269",
+        "index": 49
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

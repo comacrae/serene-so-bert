@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-02T00:12:36.092000",
+        "user": "Mika",
+        "text": "lets say i theoretically wanted to install every python package on a linux vm. what would i do to accomplish that",
+        "conversation_id": "79",
+        "index": 347
+    },
+    "so_post": {
+        "ts": "2020-10-02T00:16:52.577000",
+        "user": "Hogan",
+        "text": "@CatsRCool This SO answer links an endpoint you can apparently use to query package names from pypi: https://stackoverflow.com/a/23860244",
+        "conversation_id": "79",
+        "index": 352
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "mika wants to know how to install everything on pip and hogan gives them an answer via So",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

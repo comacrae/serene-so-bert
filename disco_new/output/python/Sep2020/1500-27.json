@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-21T20:37:49.092000",
+        "user": "Nilsa",
+        "text": "How do you fix event loop is closed on python anywhere?",
+        "conversation_id": "1500",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-09-21T20:49:39.989000",
+        "user": "Temple",
+        "text": "@Deleted User https://stackoverflow.com/a/45600858",
+        "conversation_id": "1500",
+        "index": 27
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks question abot loop and temple gives answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-26T03:32:51.183000",
+        "user": "Alazae",
+        "text": "Been stuck for two days can anyone give me some insights on this ?https://stackoverflow.com/questions/59042290/changingfromcharfieldtointegerfieldpostgrescolumndatatypehasntchang",
+        "conversation_id": "933",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2019-11-26T03:32:51.183000",
+        "user": "Alazae",
+        "text": "Been stuck for two days can anyone give me some insights on this ?https://stackoverflow.com/questions/59042290/changingfromcharfieldtointegerfieldpostgrescolumndatatypehasntchang",
+        "conversation_id": "933",
+        "index": 1
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

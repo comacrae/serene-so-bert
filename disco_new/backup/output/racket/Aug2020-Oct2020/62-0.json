@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-08T08:27:46.538000",
+        "user": "Suleiman",
+        "text": "This is my (least?) favorite example of Python fully and purposefully committing to being fucking _whack_: https://stackoverflow.com/questions/29268892/python3exceptiondeletesvariableinenclosingscopeforunknownreason",
+        "conversation_id": "62",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-08T08:27:46.538000",
+        "user": "Suleiman",
+        "text": "This is my (least?) favorite example of Python fully and purposefully committing to being fucking _whack_: https://stackoverflow.com/questions/29268892/python3exceptiondeletesvariableinenclosingscopeforunknownreason",
+        "conversation_id": "62",
+        "index": 0
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "he's trying to explain why he hates python using an SO post",
+    "meta": {
+        "start_date": "2019-11-02T04:46:55.839000",
+        "end_time": null,
+        "channel_name": "general",
+        "team_domain": "Racket",
+        "count": 1091
+    }
+}

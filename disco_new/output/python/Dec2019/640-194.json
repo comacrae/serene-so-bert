@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-18T14:54:54.036000",
+        "user": "Rosaleen",
+        "text": "is it possible to have a python script popup so you can choose a directory?",
+        "conversation_id": "640",
+        "index": 176
+    },
+    "so_post": {
+        "ts": "2019-12-18T15:07:27.409000",
+        "user": "Rosaleen",
+        "text": "@Random ok cool  thanks just the file.choose() is kinda handy sometimes for others running things you're referring to <https://stackoverflow.com/a/3579625/3130747> as a starting point ?",
+        "conversation_id": "640",
+        "index": 194
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

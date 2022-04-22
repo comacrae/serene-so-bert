@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-27T20:12:06.776000",
+        "user": "Rudesindo",
+        "text": "anybody have any experience interfacing with macOS clipboard? I have been falling in love with go but only used it in practice to make a few xml scrapers at work. I had an idea to make a simple clipboard history CLI tool with go and sqlite and read/write looks easy but I have no idea how to watch for changes to the clipboard without polling. (i'm a juniorjunior web dev so don't have much exp with things like this so if this is a stupid question forgive me)",
+        "conversation_id": "2486",
+        "index": 55
+    },
+    "so_post": {
+        "ts": "2020-07-27T20:13:32.710000",
+        "user": "Shritha",
+        "text": "https://stackoverflow.com/questions/16574337/maclistenforeventcopytopasteboard",
+        "conversation_id": "2486",
+        "index": 64
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Rudesino asks quesstion and Shritha provides answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-13T03:57:13.911000",
+        "user": "Torianna",
+        "text": "> How familiar are you with lambdas and when they execute? vs something like partials?@kutiekatj9 i have no clue about partials",
+        "conversation_id": "893",
+        "index": 733
+    },
+    "so_post": {
+        "ts": "2020-10-13T03:58:50.036000",
+        "user": "Claudette",
+        "text": "@Deleted User Here are a few stack overflows that'll explain it better than I can. Lambdas aren't my strongest area. <https://stackoverflow.com/questions/39174661/tkinterbuttoncommandsinforloop><https://stackoverflow.com/questions/28494089/howtounderstandclosureinalambda>",
+        "conversation_id": "893",
+        "index": 737
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Torianna asks about lambdas and claduette provides direct SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

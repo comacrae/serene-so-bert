@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-17T23:42:34.785000",
+        "user": "Avner",
+        "text": "I am there right now and trying to add the negate pattern but I keep failing",
+        "conversation_id": "2026",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2020-04-17T23:44:01.978000",
+        "user": "Hewitt",
+        "text": "https://stackoverflow.com/questions/1732348/regexmatchopentagsexceptxhtmlselfcontainedtags always relevant lol",
+        "conversation_id": "2026",
+        "index": 12
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "This one needs to be grouped but it's a classic Direct Solution case",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

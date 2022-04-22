@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-02T11:25:59.544000",
+        "user": "Macia",
+        "text": "When should i write `myVar := :)\"` over `var myVar string = :)\"`?",
+        "conversation_id": "41",
+        "index": 25
+    },
+    "so_post": {
+        "ts": "2020-08-02T11:30:14.948000",
+        "user": "Addie",
+        "text": "https://stackoverflow.com/questions/22688906/gonamingconventionsforconst",
+        "conversation_id": "41",
+        "index": 51
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Macia asks question and Addie provides SO answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

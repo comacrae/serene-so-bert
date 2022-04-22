@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-25T06:38:58.329000",
+        "user": "Jamaa",
+        "text": "I received the following error when I was debgging my entire code base in visual studio :1. Exception has occurred: IndexErrorlist index out of rangeFile x:\\\\xxxxx\\\\xxxxx\\\\Documents\\\\coursetitle\\\\modulename\\\\Assignment 1\\\\travelPackageAppLogging.py line 69 in <module> tp = TravelPackage(lineParts[0],lineParts[1],lineParts[2],float(lineParts[3]))The code is as follows. ```python3.8f = open(os.path.join(os.path.dirname(__file__),\"inputtravelPackages.txt\"))lines = f.readlines()f.close()packages=[]for line in lines:#print(line)lineParts = line.split(\"\\\\t\")tp = TravelPackage(lineParts[0],lineParts[1],lineParts[2],float(lineParts[3]))```I have referred to these 2 links but was unable to implement them. 1. https://www.stechies.com/fixlistindexoutrangepython/#:~:text=%E2%80%9CList%20index%20out%20of%20range,indexes%20of%20list%20elements%20properly.2. https://stackoverflow.com/questions/58146809/pythonindexerrorlistindexoutofrangewhileinforloopDoes anyone know what the error is ?",
+        "conversation_id": "1493",
+        "index": 105
+    },
+    "so_post": {
+        "ts": "2020-06-25T06:38:58.329000",
+        "user": "Jamaa",
+        "text": "I received the following error when I was debgging my entire code base in visual studio :1. Exception has occurred: IndexErrorlist index out of rangeFile x:\\\\xxxxx\\\\xxxxx\\\\Documents\\\\coursetitle\\\\modulename\\\\Assignment 1\\\\travelPackageAppLogging.py line 69 in <module> tp = TravelPackage(lineParts[0],lineParts[1],lineParts[2],float(lineParts[3]))The code is as follows. ```python3.8f = open(os.path.join(os.path.dirname(__file__),\"inputtravelPackages.txt\"))lines = f.readlines()f.close()packages=[]for line in lines:#print(line)lineParts = line.split(\"\\\\t\")tp = TravelPackage(lineParts[0],lineParts[1],lineParts[2],float(lineParts[3]))```I have referred to these 2 links but was unable to implement them. 1. https://www.stechies.com/fixlistindexoutrangepython/#:~:text=%E2%80%9CList%20index%20out%20of%20range,indexes%20of%20list%20elements%20properly.2. https://stackoverflow.com/questions/58146809/pythonindexerrorlistindexoutofrangewhileinforloopDoes anyone know what the error is ?",
+        "conversation_id": "1493",
+        "index": 105
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-16T01:09:26.059000",
+        "user": "Davit",
+        "text": "is there a way I can force a compiletime error?example:```go// Cause compiletime errorif (rank!= 1 && rank != 2 && rank!= 3) { panic(\"rank must be 1 2 or 3!\")}```",
+        "conversation_id": "2151",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-16T01:11:53.646000",
+        "user": "Mamoudou",
+        "text": "https://stackoverflow.com/questions/30929477/whydoesaddingparenthesesinifconditionresultsincompileerror",
+        "conversation_id": "2151",
+        "index": 9
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Davit has question and Maoudou provides direct answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

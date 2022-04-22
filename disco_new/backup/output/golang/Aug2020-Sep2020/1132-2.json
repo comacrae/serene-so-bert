@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-05T15:10:20.094000",
+        "user": "Anorah",
+        "text": "Yeah I didn\u2019t want to flood up the chat with any nonsense. I have a question on stack overflow regarding this issue here: https://stackoverflow.com/questions/63749598/inputtingdatatocloudsqlmysqlfromagolangapplicationrunningonappeng",
+        "conversation_id": "1132",
+        "index": 2
+    },
+    "so_post": {
+        "ts": "2020-09-05T15:10:20.094000",
+        "user": "Anorah",
+        "text": "Yeah I didn\u2019t want to flood up the chat with any nonsense. I have a question on stack overflow regarding this issue here: https://stackoverflow.com/questions/63749598/inputtingdatatocloudsqlmysqlfromagolangapplicationrunningonappeng",
+        "conversation_id": "1132",
+        "index": 2
+    },
+    "category": "Question Repost",
+    "comments": "soliciting",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

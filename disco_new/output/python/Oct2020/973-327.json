@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-14T04:40:36.245000",
+        "user": "Jayshon",
+        "text": "so you're telling me stack overflow isn't just the place you go to ask for help?",
+        "conversation_id": "973",
+        "index": 319
+    },
+    "so_post": {
+        "ts": "2020-10-14T04:41:19.259000",
+        "user": "Abdelbasset",
+        "text": "https://stackoverflow.com/questions/26158/howdoesastackoverflowoccurandhowdoyoupreventit",
+        "conversation_id": "973",
+        "index": 327
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jayshon wants to know what a stack overflow is and Adelbasset provides a direct SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

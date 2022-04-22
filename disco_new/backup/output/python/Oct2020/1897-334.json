@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-26T09:09:52.825000",
+        "user": "Torianna",
+        "text": "`RecursionError: maximum recursion depth exceeded` why does this happen i hate it......",
+        "conversation_id": "1897",
+        "index": 312
+    },
+    "so_post": {
+        "ts": "2020-10-26T09:14:01.337000",
+        "user": "Gabryel",
+        "text": "> `RecursionError: maximum recursion depth exceeded` why does this happen i hate it......@Deleted User https://stackoverflow.com/questions/3323001/whatisthemaximumrecursiondepthinpythonandhowtoincreaseit",
+        "conversation_id": "1897",
+        "index": 334
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer given to issue with recursion",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

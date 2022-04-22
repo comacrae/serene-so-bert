@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-24T08:41:11.675000",
+        "user": "Torianna",
+        "text": "As you can see korean text turned into box but english text is same @Flash.",
+        "conversation_id": "1766",
+        "index": 17
+    },
+    "so_post": {
+        "ts": "2020-10-24T08:47:42.489000",
+        "user": "Veada",
+        "text": "@Deleted User try this. https://stackoverflow.com/questions/11411746/drawingmultilingualtextusingpil",
+        "conversation_id": "1766",
+        "index": 29
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Torianna describes issue with showing korean. This is the only message in this thread close to a question and grouping wouldnt help",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-20T16:18:28.818000",
+        "user": "Medha",
+        "text": "jesus christ tkinter is confusing who in their right mind thought it was a good idea to make it so hard to pass arguments to a function call of a button.",
+        "conversation_id": "1494",
+        "index": 51
+    },
+    "so_post": {
+        "ts": "2020-10-20T16:21:41.227000",
+        "user": "Kaio",
+        "text": "@CubaCola https://stackoverflow.com/questions/6920302/howtopassargumentstoabuttoncommandintkinter this has some pretty good example code that you can manipulate if you're feeling brainmelted",
+        "conversation_id": "1494",
+        "index": 58
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Medha complains about using a button and Kaio provides tinkter SO post ",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

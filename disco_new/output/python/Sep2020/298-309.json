@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-05T04:29:25.496000",
+        "user": "Nilsa",
+        "text": "Python is a weak typing programming language right?",
+        "conversation_id": "298",
+        "index": 305
+    },
+    "so_post": {
+        "ts": "2020-09-05T04:31:13.955000",
+        "user": "Nilsa",
+        "text": "see <https://stackoverflow.com/questions/11328920/ispythonstronglytyped> it seems to give a decent explanation",
+        "conversation_id": "298",
+        "index": 309
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Nilsa asks question and they find an answer themeslves",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

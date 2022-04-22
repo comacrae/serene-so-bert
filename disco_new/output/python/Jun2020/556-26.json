@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-10T05:57:58.357000",
+        "user": "Juddah",
+        "text": "is it possible to clear a print line?",
+        "conversation_id": "556",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-06-10T06:00:40.446000",
+        "user": "Trinidad",
+        "text": "@Norman would that help you https://stackoverflow.com/questions/5290994/removeandreplaceprinteditems",
+        "conversation_id": "556",
+        "index": 26
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

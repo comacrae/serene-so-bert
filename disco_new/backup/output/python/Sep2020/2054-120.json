@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-29T07:00:24.724000",
+        "user": "Danil",
+        "text": "also found this it says `try...except is slower only if the number of exceptions actually raised is comparable to the number of times the loop is executed. `",
+        "conversation_id": "2054",
+        "index": 121
+    },
+    "so_post": {
+        "ts": "2020-09-29T07:00:15.889000",
+        "user": "Danil",
+        "text": "https://stackoverflow.com/questions/31804691/whytryexceptisfasterthanif",
+        "conversation_id": "2054",
+        "index": 120
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "I would say this counts as outsourcing...this guy was musing about performance with try/except and eventually posted this link",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

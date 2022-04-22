@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-13T13:49:08.925000",
+        "user": "Alicio",
+        "text": "> raising multiple exceptions?@St3ve Ye is there a way to do that?",
+        "conversation_id": "921",
+        "index": 104
+    },
+    "so_post": {
+        "ts": "2020-10-13T13:49:47.023000",
+        "user": "Sole",
+        "text": "https://stackoverflow.com/questions/12826291/raisetwoerrorsatthesametime/50414672 @Inheritance \u2666",
+        "conversation_id": "921",
+        "index": 112
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Asker wants to know how to raise mulitple exceptions at the same time and sSOle provides SO post",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

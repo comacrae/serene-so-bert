@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-19T11:03:43.507000",
+        "user": "Mailyn",
+        "text": "I have a word how do I find all possible combinations of uppercase and lowercase with it. I think itertools has something not sure...",
+        "conversation_id": "1380",
+        "index": 21
+    },
+    "so_post": {
+        "ts": "2020-10-19T11:04:32.985000",
+        "user": "Suni",
+        "text": "@Systematic Error https://stackoverflow.com/questions/11144389/findallupperlowerandmixedcasecombinationsofastring",
+        "conversation_id": "1380",
+        "index": 23
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to given question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-06T05:00:41.550000",
+        "user": "Carl",
+        "text": "I'm not sure about the internal details of `_`",
+        "conversation_id": "194",
+        "index": 20
+    },
+    "so_post": {
+        "ts": "2019-11-06T05:04:57.444000",
+        "user": "Jesai",
+        "text": "This SO has a good explanation on `_` https://stackoverflow.com/a/5893946",
+        "conversation_id": "194",
+        "index": 29
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

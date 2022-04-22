@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-08T14:10:58.406000",
+        "user": "Ulisses",
+        "text": "@hmmm This is the code. I don't understand the filter function or map functions too well.```pydef get_ip_6(host,port=80): # discard the (family socktype proto canonname) part of the tuple # and make sure the ips are unique alladdr = list( set( map( lambda x: x[4], socket.getaddrinfo(host,port) ) ) ) ip6 = filter( lambda x: : in x[0] # means its ip6 alladdr ) return ip6```",
+        "conversation_id": "537",
+        "index": 345
+    },
+    "so_post": {
+        "ts": "2020-09-08T14:11:09.889000",
+        "user": "Ulisses",
+        "text": "https://stackoverflow.com/questions/16276913/reliablygetipv6addressinpython",
+        "conversation_id": "537",
+        "index": 348
+    },
+    "category": "Question Repost",
+    "comments": "Ulisees is using this as a background for his question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

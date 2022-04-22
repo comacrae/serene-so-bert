@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-12T15:16:26.217000",
+        "user": "Elody",
+        "text": "someone tell me what extactly git does",
+        "conversation_id": "707",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-06-12T15:22:22.246000",
+        "user": "Greylin",
+        "text": "https://stackoverflow.com/questions/8198105/howdoesgitstorefiles",
+        "conversation_id": "707",
+        "index": 44
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

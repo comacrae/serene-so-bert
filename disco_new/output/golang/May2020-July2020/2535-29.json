@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-29T11:15:19.331000",
+        "user": "Makeen",
+        "text": "can anyone help pls https://stackoverflow.com/questions/63150705/logrusmatefilehooknologswrittentofile",
+        "conversation_id": "2535",
+        "index": 29
+    },
+    "so_post": {
+        "ts": "2020-07-29T11:15:19.331000",
+        "user": "Makeen",
+        "text": "can anyone help pls https://stackoverflow.com/questions/63150705/logrusmatefilehooknologswrittentofile",
+        "conversation_id": "2535",
+        "index": 29
+    },
+    "category": "Question Repost",
+    "comments": "asking for help with SO post",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

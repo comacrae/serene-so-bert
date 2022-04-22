@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-08T16:14:22.652000",
+        "user": "Joyous",
+        "text": "someone care to help? https://stackoverflow.com/questions/63797722/tkinterrootupdate",
+        "conversation_id": "537",
+        "index": 1420
+    },
+    "so_post": {
+        "ts": "2020-09-08T16:14:22.652000",
+        "user": "Joyous",
+        "text": "someone care to help? https://stackoverflow.com/questions/63797722/tkinterrootupdate",
+        "conversation_id": "537",
+        "index": 1420
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

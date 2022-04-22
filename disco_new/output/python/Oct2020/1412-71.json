@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-19T18:48:08.699000",
+        "user": "Hildebrando",
+        "text": "does urllib2 work in python3?",
+        "conversation_id": "1412",
+        "index": 56
+    },
+    "so_post": {
+        "ts": "2020-10-19T18:52:33.453000",
+        "user": "Kaio",
+        "text": "@Mazino 244d it looks like urllib2 in python3 is actually split into two modules check out: https://stackoverflow.com/questions/2792650/importerrornomodulenameurllib2",
+        "conversation_id": "1412",
+        "index": 71
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "gets a direct answer to given question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

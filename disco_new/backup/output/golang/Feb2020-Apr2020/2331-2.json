@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-26T23:24:28.666000",
+        "user": "Oshea",
+        "text": "This is cool",
+        "conversation_id": "2331",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-04-26T23:24:39.601000",
+        "user": "Oshea",
+        "text": "https://stackoverflow.com/questions/49580394/sendingmillionsofshortmessagesovertcpsocketingolang From",
+        "conversation_id": "2331",
+        "index": 2
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "Oshea wants to share a cool bit of code from So post",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

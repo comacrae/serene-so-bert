@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-16T15:17:12.874000",
+        "user": "Alize",
+        "text": "what's the difference between optparse and argparse?",
+        "conversation_id": "1157",
+        "index": 14
+    },
+    "so_post": {
+        "ts": "2020-10-16T15:21:05.412000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/3217673/whyuseargparseratherthanoptparse",
+        "conversation_id": "1157",
+        "index": 45
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to given question",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

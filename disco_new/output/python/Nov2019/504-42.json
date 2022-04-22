@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-14T10:02:05.650000",
+        "user": "Pollyanna",
+        "text": "Simillarly 2019M2 to 20190228",
+        "conversation_id": "504",
+        "index": 40
+    },
+    "so_post": {
+        "ts": "2019-11-14T10:02:58.550000",
+        "user": "Hernan",
+        "text": "@Deleted User https://stackoverflow.com/a/43663 < This answer seems to provide a good solution.",
+        "conversation_id": "504",
+        "index": 42
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "this is plyanna's first message regarding their issue. They want to convert date format. Hernan provides answer immediately after",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

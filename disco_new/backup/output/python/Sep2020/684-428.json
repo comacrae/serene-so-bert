@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-10T18:55:09.565000",
+        "user": "Embrey",
+        "text": "Anyone got an idea how to do this but in a not so cumbersome way? https://stackoverflow.com/a/55450776",
+        "conversation_id": "684",
+        "index": 428
+    },
+    "so_post": {
+        "ts": "2020-09-10T18:55:09.565000",
+        "user": "Embrey",
+        "text": "Anyone got an idea how to do this but in a not so cumbersome way? https://stackoverflow.com/a/55450776",
+        "conversation_id": "684",
+        "index": 428
+    },
+    "category": "Question Repost",
+    "comments": "asking for help with implementing an SO post answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

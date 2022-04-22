@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-16T20:52:09.341000",
+        "user": "Gulfam",
+        "text": "```pyself.right = Label(self.m3 text=\"Online: justify=LEFT background=\"#2B2B2B fg=\"#EAECEE\", font=\"Helvetica 12 bold pady=5 width=125) self.right.place(relwidth=1 rely=.08)``` why isnt this text aligning left? i dont get it",
+        "conversation_id": "1173",
+        "index": 218
+    },
+    "so_post": {
+        "ts": "2020-10-16T20:59:03.218000",
+        "user": "Naelani",
+        "text": "@kendalk08 https://stackoverflow.com/questions/37318060/howtojustifytextinlabelintkinterinpythonneedjustifyintkinter/37319137",
+        "conversation_id": "1173",
+        "index": 285
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Guflam gets a direct answer to their issue with text allignment",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

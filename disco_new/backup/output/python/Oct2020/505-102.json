@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-08T01:27:52.827000",
+        "user": "Sebasthian",
+        "text": "why do people like screening their code so much",
+        "conversation_id": "505",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-10-08T01:32:59.492000",
+        "user": "Sebasthian",
+        "text": "https://meta.stackoverflow.com/questions/303812/discouragescreenshotsofcodeandorerrors",
+        "conversation_id": "505",
+        "index": 102
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "sebashtian is sort of asking a rehtorical question but they find an SO post to their own question anyways after arguing with someone about the benefits of screenshotting vs pasting",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

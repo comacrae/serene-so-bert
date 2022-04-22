@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-18T20:11:09.615000",
+        "user": "Taleyah",
+        "text": "hey guys anyone here know django can take a look at this for me? https://stackoverflow.com/questions/64417814/howdoipopulatemyorderitemmodelwithfieldsfrommyproductmodelindjango",
+        "conversation_id": "1327",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-10-18T20:11:09.615000",
+        "user": "Taleyah",
+        "text": "hey guys anyone here know django can take a look at this for me? https://stackoverflow.com/questions/64417814/howdoipopulatemyorderitemmodelwithfieldsfrommyproductmodelindjango",
+        "conversation_id": "1327",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

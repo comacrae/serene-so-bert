@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-14T03:45:43.692000",
+        "user": "Torianna",
+        "text": "> I mean you could run the GUI and async parts of your code on separate threads and have them communicate with each other@PureFunctor How? if i call the async inside a thread it says `no even loop running in thread` and if i do `asyncio.set_event_loop(asyncio.new_event_loop())` it says`task 15 task pending coro ................... got future attached to a different thread`",
+        "conversation_id": "969",
+        "index": 295
+    },
+    "so_post": {
+        "ts": "2020-10-14T03:49:42.970000",
+        "user": "Jacopo",
+        "text": "I've found a relevant SO question although it may require a bit of modification<https://stackoverflow.com/questions/49958180/usingasyncawaitkeywordswithtkaftermethodoftkinter>",
+        "conversation_id": "969",
+        "index": 296
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Torianna has question about issue with async nd Jacopo provides SO post which they claim is related",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

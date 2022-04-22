@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-10T19:08:55.647000",
+        "user": "Embrey",
+        "text": "Posted my question on stackoverflow give me an upvote and wish me luck \ud83d\ude04 https://stackoverflow.com/questions/63836220/creatingarequirementstxtwithoutdevelopmentdependencies",
+        "conversation_id": "684",
+        "index": 489
+    },
+    "so_post": {
+        "ts": "2020-09-10T19:08:55.647000",
+        "user": "Embrey",
+        "text": "Posted my question on stackoverflow give me an upvote and wish me luck \ud83d\ude04 https://stackoverflow.com/questions/63836220/creatingarequirementstxtwithoutdevelopmentdependencies",
+        "conversation_id": "684",
+        "index": 489
+    },
+    "category": "Question Repost",
+    "comments": "embrey asking for help with SO post",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

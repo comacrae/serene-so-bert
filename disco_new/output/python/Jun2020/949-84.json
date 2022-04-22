@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-16T05:38:05.587000",
+        "user": "Shaine",
+        "text": "Anyone know why I get this error?```PermissionError: [Errno 13] Permission denied: top_level.txt'```",
+        "conversation_id": "949",
+        "index": 77
+    },
+    "so_post": {
+        "ts": "2020-06-16T05:42:11.557000",
+        "user": "Vaia",
+        "text": "@xEnder https://stackoverflow.com/q/22736014> Anyone know why I get this error?> ```PermissionError: [Errno 13] Permission denied: top_level.txt'```",
+        "conversation_id": "949",
+        "index": 84
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

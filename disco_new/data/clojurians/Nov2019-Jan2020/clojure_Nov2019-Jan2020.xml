@@ -1,0 +1,1851 @@
+<discord>
+<team_domain>Clojurians</team_domain>
+<channel_name>clojure</channel_name>
+<start_date>2019-11-01T19:36:28.998000</start_date>
+<end_date>2019-12-18T09:44:57.362000</end_date>
+<message>
+  <ts>2019-11-01T19:36:28.998000</ts>
+  <user>Ethaniel</user>
+  <text>It's generally always possible to write map and filter in other languages mind. I personally appreciate the immutability and firstorder functions. Threading macros too.I like how the whole language is like you're composing pipelines of data.</text>
+</message>
+<message>
+  <ts>2019-11-01T19:50:03.330000</ts>
+  <user>Abbigail</user>
+  <text>Some languages it's far more unweildy since in an OOP language without lambdas it would require the strategy or visitor patterns and in procedural languages which lack function objects would need to pass around function pointers which is also iffy</text>
+</message>
+<message>
+  <ts>2019-11-03T20:09:50.616000</ts>
+  <user>Chandru</user>
+  <text>Is there a built in heap type in clojure or how would you go about implementing one?</text>
+</message>
+<message>
+  <ts>2019-11-03T20:10:28.069000</ts>
+  <user>Chandru</user>
+  <text>Just like in any other language (i.e. arraybased)?</text>
+</message>
+<message>
+  <ts>2019-11-03T21:35:02.921000</ts>
+  <user>Jaxiel</user>
+  <text>... Isn't that basically just a list?</text>
+</message>
+<message>
+  <ts>2019-11-03T21:35:41.623000</ts>
+  <user>Jaxiel</user>
+  <text>Wait no that's a stack. Herp</text>
+</message>
+<message>
+  <ts>2019-11-03T21:36:22.494000</ts>
+  <user>Jaxiel</user>
+  <text>What are you needing to do with it that the default days types can't handle?</text>
+</message>
+<message>
+  <ts>2019-11-03T21:39:29.688000</ts>
+  <user>Chandru</user>
+  <text>Implement a stack using just a heap is the task</text>
+</message>
+<message>
+  <ts>2019-11-03T21:41:29.375000</ts>
+  <user>Chandru</user>
+  <text>It's a stupid one I know</text>
+</message>
+<message>
+  <ts>2019-11-03T21:54:26.751000</ts>
+  <user>Jaxiel</user>
+  <text>... then use a vector and pop/push from the end?</text>
+</message>
+<message>
+  <ts>2019-11-03T21:54:42.804000</ts>
+  <user>Jaxiel</user>
+  <text>But otherwise doing it in clj is going to miss the point of the exercise</text>
+</message>
+<message>
+  <ts>2019-11-03T21:54:45.351000</ts>
+  <user>Abbigail</user>
+  <text>So the purpose here is to do particular coding challenges</text>
+</message>
+<message>
+  <ts>2019-11-03T21:54:52.884000</ts>
+  <user>Abbigail</user>
+  <text>If I'm not mistaken</text>
+</message>
+<message>
+  <ts>2019-11-03T21:55:47.209000</ts>
+  <user>Jaxiel</user>
+  <text>I mean if you _really_ want to could implement it on top of a map with keys as addresses</text>
+</message>
+<message>
+  <ts>2019-11-03T21:55:55.529000</ts>
+  <user>Jaxiel</user>
+  <text>But it still sounds far too convoluted</text>
+</message>
+<message>
+  <ts>2019-11-03T21:56:07.878000</ts>
+  <user>Abbigail</user>
+  <text>Actually a heap is just a tree not the heap</text>
+</message>
+<message>
+  <ts>2019-11-03T21:57:08.895000</ts>
+  <user>Abbigail</user>
+  <text>The way that I'd recommend implementing this is with a record type which will represent a heap node. Something like the following:```clojure(defrecord HeapNode [value left right])```and then defining functions on the heap structure which will do basic heap operations.</text>
+</message>
+<message>
+  <ts>2019-11-03T21:59:17.613000</ts>
+  <user>Jaxiel</user>
+  <text>I thought a heap was a virtually contiguous block of randomly accessible data?</text>
+</message>
+<message>
+  <ts>2019-11-03T21:59:31.843000</ts>
+  <user>Jaxiel</user>
+  <text>Going to go read. It's been a few years</text>
+</message>
+<message>
+  <ts>2019-11-03T21:59:42.026000</ts>
+  <user>Abbigail</user>
+  <text>You'd then construct a heap like so:```clojure(def minheap (&gt;HeapNode 10 (&gt;HeapNode 15 (&gt;HeapNode 40 nil nil) (&gt;HeapNode 50 nil nil)) (&gt;HeapNode 30 nil nil)))```</text>
+</message>
+<message>
+  <ts>2019-11-03T21:59:57.738000</ts>
+  <user>Abbigail</user>
+  <text>Also terms in programming are overloaded</text>
+</message>
+<message>
+  <ts>2019-11-03T22:00:44.542000</ts>
+  <user>Abbigail</user>
+  <text>There is the heap which is how memory is stored when it\'s allocated in places other than the stack usually in linear virtual memory and which maps to the heap in C Java Clojure etc. But there are also heap data structures which are binary trees with certain properties.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:00:59.455000</ts>
+  <user>Jaxiel</user>
+  <text>Ah I see. I was thinking of an OS heap rather than a heap data structure</text>
+</message>
+<message>
+  <ts>2019-11-03T22:01:54.364000</ts>
+  <user>Abbigail</user>
+  <text>Honestly I'm not even sure I'd call that an OSlevel concept since a heap is either constructed by the standard library as a part of malloc or is nonexistant in things like assembler where you can just use the whole address space</text>
+</message>
+<message>
+  <ts>2019-11-03T22:02:56.483000</ts>
+  <user>Jaxiel</user>
+  <text>More referring to the lower level memory management heap than the data structure</text>
+</message>
+<message>
+  <ts>2019-11-03T22:02:57.828000</ts>
+  <user>Jaxiel</user>
+  <text>Better? :p</text>
+</message>
+<message>
+  <ts>2019-11-03T22:03:14.765000</ts>
+  <user>Abbigail</user>
+  <text>Yes that's the one I was talking about. :P</text>
+</message>
+<message>
+  <ts>2019-11-03T22:04:20.045000</ts>
+  <user>Jaxiel</user>
+  <text>So is this stack implementation done with keyval pairs?</text>
+</message>
+<message>
+  <ts>2019-11-03T22:04:20.394000</ts>
+  <user>Abbigail</user>
+  <text>An OS usually just handles making the translation tables which convert from the virtual address space of a particular process into the physical memory or memory mapped devices which are available at a hardware level. It doesn't have any concept of a stack or heap. Those are defined entirely in userspace but libc has a lot of stuff which is built around it.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:05:05.975000</ts>
+  <user>Abbigail</user>
+  <text>This HeapNode heap is just a binary tree for which some invariants hold true</text>
+</message>
+<message>
+  <ts>2019-11-03T22:05:28.937000</ts>
+  <user>Abbigail</user>
+  <text>And I figured that records are a good way to represent that node.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:09:17.943000</ts>
+  <user>Jaxiel</user>
+  <text>Yeah but I'm considering the sorting given that we need to remember which order items are going to be in</text>
+</message>
+<message>
+  <ts>2019-11-03T22:10:14.781000</ts>
+  <user>Jaxiel</user>
+  <text>(I'm thinking of the stack implementation in the heap)</text>
+</message>
+<message>
+  <ts>2019-11-03T22:10:50.979000</ts>
+  <user>Jaxiel</user>
+  <text>Actually I'll just stop given that this is the actual puzzle to solve</text>
+</message>
+<message>
+  <ts>2019-11-03T22:11:39.547000</ts>
+  <user>Abbigail</user>
+  <text>Sure yeah. But anyway you can just define some relatively simple heap operations on the record I put there.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:12:26.140000</ts>
+  <user>Abbigail</user>
+  <text>It maps pretty cleanly to a java class with three fields on it so it's good for performance but it's also got the nice things from clojure like immutability the ability to have metadata and it is allowed to have additional fields assoced into it</text>
+</message>
+<message>
+  <ts>2019-11-03T22:12:59.701000</ts>
+  <user>Abbigail</user>
+  <text>If you want to get extra with the performance tuning of it you can even add type hints to the fields</text>
+</message>
+<message>
+  <ts>2019-11-03T22:13:46.267000</ts>
+  <user>Abbigail</user>
+  <text>Also notable is that with java 1.9 and beyond it's using a generational garbage collector which means that for the most part clojure's ephemeral garbage is effectively free.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:14:12.495000</ts>
+  <user>Abbigail</user>
+  <text>Also in java 1.8 you can use a commandline flag when it runs to use the G1 garbage collector anyway which gives the same benefit.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:19:12.825000</ts>
+  <user>Chandru</user>
+  <text>`(defrecord HeapNode [value left right])`I started with exactly that</text>
+</message>
+<message>
+  <ts>2019-11-03T22:19:30.928000</ts>
+  <user>Chandru</user>
+  <text>But I got stuck with sorting</text>
+</message>
+<message>
+  <ts>2019-11-03T22:23:50.793000</ts>
+  <user>Chandru</user>
+  <text>since after the insertion you have to sort everything</text>
+</message>
+<message>
+  <ts>2019-11-03T22:24:56.958000</ts>
+  <user>Abbigail</user>
+  <text>Well not really. The way you can do a heap is by taking a single node and adding each element one by one and then all you need to do is have the node you\'re inserting trickle down the tree to the correct place.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:25:11.128000</ts>
+  <user>Abbigail</user>
+  <text>Then if you do that on repeat it'll sort itself</text>
+</message>
+<message>
+  <ts>2019-11-03T22:25:37.138000</ts>
+  <user>Abbigail</user>
+  <text>Oh wait no brain</text>
+</message>
+<message>
+  <ts>2019-11-03T22:25:40.778000</ts>
+  <user>Abbigail</user>
+  <text>that's a different type of tree</text>
+</message>
+<message>
+  <ts>2019-11-03T22:26:16.194000</ts>
+  <user>Abbigail</user>
+  <text>Riiiiight I forgot how easy it is to implement heaps as vectors</text>
+</message>
+<message>
+  <ts>2019-11-03T22:26:37.669000</ts>
+  <user>Chandru</user>
+  <text>as far as I'm concerned you insert it (it gets put in the last position) and then you swap it with its parent as long as it's smaller/greater</text>
+</message>
+<message>
+  <ts>2019-11-03T22:26:44.629000</ts>
+  <user>Abbigail</user>
+  <text>Yes exactly</text>
+</message>
+<message>
+  <ts>2019-11-03T22:26:50.206000</ts>
+  <user>Abbigail</user>
+  <text>That's what it's supposed to be</text>
+</message>
+<message>
+  <ts>2019-11-03T22:26:58.097000</ts>
+  <user>Abbigail</user>
+  <text>Now that I'm remembering it correctly</text>
+</message>
+<message>
+  <ts>2019-11-03T22:27:51.356000</ts>
+  <user>Abbigail</user>
+  <text>So actually I'd change it and implement a heap on top of a vector</text>
+</message>
+<message>
+  <ts>2019-11-03T22:28:03.297000</ts>
+  <user>Chandru</user>
+  <text>thought so</text>
+</message>
+<message>
+  <ts>2019-11-03T22:28:24.059000</ts>
+  <user>Chandru</user>
+  <text>Actually even inserting is not that great with these nodes</text>
+</message>
+<message>
+  <ts>2019-11-03T22:28:38.631000</ts>
+  <user>Chandru</user>
+  <text>I just realised my implementation of that never worked</text>
+</message>
+<message>
+  <ts>2019-11-03T22:28:44.648000</ts>
+  <user>Chandru</user>
+  <text>```clj(defn push [heap value] (cond (not (:left heap)) (assoc heap :left (HeapNode. value)) (not (:right heap)) (assoc heap :right (HeapNode. value)) :else (recur (:left heap) value)))```</text>
+</message>
+<message>
+  <ts>2019-11-03T22:29:05.613000</ts>
+  <user>Chandru</user>
+  <text>because it never went down the right nodes</text>
+</message>
+<message>
+  <ts>2019-11-03T22:30:13.211000</ts>
+  <user>Abbigail</user>
+  <text>Yeah so implementing it with an actual tree structure is a little difficult since you need a way to do a breadthfirst traversal to even do the first part of an insert and that's just frightening for performance. Just implementing it as a vector is much easier. I'm playing around with it in a repl and building it up at the moment I can guide you through it in a few moments here.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:40:55.623000</ts>
+  <user>Chandru</user>
+  <text>I already began with the implementation</text>
+</message>
+<message>
+  <ts>2019-11-03T22:41:21.686000</ts>
+  <user>Chandru</user>
+  <text>Just stack overflowing my way through this</text>
+</message>
+<message>
+  <ts>2019-11-03T22:42:54.286000</ts>
+  <user>Chandru</user>
+  <text>Usually (with a heap object) there is a pop()/extract() method which returns the root value and heapifies the rest</text>
+</message>
+<message>
+  <ts>2019-11-03T22:43:10.172000</ts>
+  <user>Chandru</user>
+  <text>Now with an object that's easy</text>
+</message>
+<message>
+  <ts>2019-11-03T22:43:23.545000</ts>
+  <user>Chandru</user>
+  <text>But i wonder how I just go about this in fp</text>
+</message>
+<message>
+  <ts>2019-11-03T22:43:43.022000</ts>
+  <user>Chandru</user>
+  <text>Because I can't return the value and the new heap at the same time</text>
+</message>
+<message>
+  <ts>2019-11-03T22:46:22.098000</ts>
+  <user>Chandru</user>
+  <text>Should I separate it into a peek function that just returns the topmost element and a pop function that returns a heap without that element?</text>
+</message>
+<message>
+  <ts>2019-11-03T22:47:15.239000</ts>
+  <user>Abbigail</user>
+  <text>Actually you can return the value and the new heap at the same time. That's a pretty common pattern actually. You'd just return it as a vector of the value and the new heap</text>
+</message>
+<message>
+  <ts>2019-11-03T22:47:24.314000</ts>
+  <user>Abbigail</user>
+  <text>That's how I'd do it anyway</text>
+</message>
+<message>
+  <ts>2019-11-03T22:49:45.006000</ts>
+  <user>Chandru</user>
+  <text>Alright sounds good</text>
+</message>
+<message>
+  <ts>2019-11-03T22:50:12.356000</ts>
+  <user>Chandru</user>
+  <text>Wouldn't a map be better?</text>
+</message>
+<message>
+  <ts>2019-11-03T22:50:24.906000</ts>
+  <user>Chandru</user>
+  <text>Because there you have labelled access</text>
+</message>
+<message>
+  <ts>2019-11-03T22:50:55.463000</ts>
+  <user>Abbigail</user>
+  <text>A map would be better for labeled access but it also makes destructuring less pretty. It's a trade off and there's not really a wrong answer with just the two things being returned.</text>
+</message>
+<message>
+  <ts>2019-11-03T22:52:40.934000</ts>
+  <user>Chandru</user>
+  <text>Aight</text>
+</message>
+<message>
+  <ts>2019-11-03T22:53:15.364000</ts>
+  <user>Chandru</user>
+  <text>Is there a better way than accessing a vector like (v index)?</text>
+</message>
+<message>
+  <ts>2019-11-03T22:54:57.381000</ts>
+  <user>Abbigail</user>
+  <text>There's that and `(nth v index)`</text>
+</message>
+<message>
+  <ts>2019-11-03T22:55:05.604000</ts>
+  <user>Abbigail</user>
+  <text>they map to the same thing</text>
+</message>
+<message>
+  <ts>2019-11-03T22:55:43.643000</ts>
+  <user>Chandru</user>
+  <text>Yeah ok i know that</text>
+</message>
+<message>
+  <ts>2019-11-03T22:56:00.905000</ts>
+  <user>Chandru</user>
+  <text>Honestly these challenges are stupid sometimes</text>
+</message>
+<message>
+  <ts>2019-11-03T22:56:07.635000</ts>
+  <user>Chandru</user>
+  <text>This one is supposed to be easy</text>
+</message>
+<message>
+  <ts>2019-11-03T22:56:37.538000</ts>
+  <user>Chandru</user>
+  <text>While the one yesterday (literally just measuring the distance between two words in a string) was hard</text>
+</message>
+<message>
+  <ts>2019-11-03T22:58:54.519000</ts>
+  <user>Chandru</user>
+  <text>It's getting late Ima log off. Thanks for the help you'll probably see more of my terrible code the next few days</text>
+</message>
+<message>
+  <ts>2019-11-03T23:00:00.671000</ts>
+  <user>Abbigail</user>
+  <text>Fair enough!</text>
+</message>
+<message>
+  <ts>2019-11-04T19:52:45.226000</ts>
+  <user>Chandru</user>
+  <text>Finally got it to work</text>
+</message>
+<message>
+  <ts>2019-11-04T19:52:57.383000</ts>
+  <user>Chandru</user>
+  <text>The implementation I was copying was erronous</text>
+</message>
+<message>
+  <ts>2019-11-04T19:53:47.266000</ts>
+  <user>Chandru</user>
+  <text>Any thoughts on the code? https://github.com/JohnnyJayJay/DailyCodingProblem/blob/master/src/november19/03.clj</text>
+</message>
+<message>
+  <ts>2019-11-04T21:16:03.011000</ts>
+  <user>Edinson</user>
+  <text>anyone know a good way to determine why an lein uberjar build hangs? it looks like it compiles every file but just hangs and doesnt complete.</text>
+</message>
+<message>
+  <ts>2019-11-04T21:17:02.615000</ts>
+  <user>Edinson</user>
+  <text>i checked to make sure nothing was outside of the main function</text>
+</message>
+<message>
+  <ts>2019-11-05T00:20:43.471000</ts>
+  <user>Abbigail</user>
+  <text>sounds like either futures are used in the macros or there's a recursive macro which is never completing</text>
+</message>
+<message>
+  <ts>2019-11-05T00:20:59.000000</ts>
+  <user>Abbigail</user>
+  <text>If you're doing aot</text>
+</message>
+<message>
+  <ts>2019-11-05T18:38:00.064000</ts>
+  <user>Chandru</user>
+  <text>How can I see if a number is truncatable"?</text>
+</message>
+<message>
+  <ts>2019-11-05T18:38:47.723000</ts>
+  <user>Chandru</user>
+  <text>I.e. I'd need something that returns true for 1.0 3.0 231.0 etc. and false for 12.332 67.123 1.1 etc.</text>
+</message>
+<message>
+  <ts>2019-11-05T18:39:17.377000</ts>
+  <user>Chandru</user>
+  <text>I have several ideas but all of them are kinda ugly</text>
+</message>
+<message>
+  <ts>2019-11-05T22:31:06.110000</ts>
+  <user>Veada</user>
+  <text>Not sure if it would cover 100% of cases but how about comparing `x` to `(int x)` which coerces x to an int? Was that one of the ugly ways you had in mind?</text>
+</message>
+<message>
+  <ts>2019-11-05T23:06:31.283000</ts>
+  <user>Chandru</user>
+  <text>Figured it out already. Casting to int doesn't work because (= double int) is always false</text>
+</message>
+<message>
+  <ts>2019-11-05T23:07:14.432000</ts>
+  <user>Chandru</user>
+  <text>What does work though:(= (Math/rint x) x)</text>
+</message>
+<message>
+  <ts>2019-11-05T23:35:01.437000</ts>
+  <user>Abbigail</user>
+  <text>nice</text>
+</message>
+<message>
+  <ts>2019-11-06T01:06:44.273000</ts>
+  <user>Brix</user>
+  <text>Am I going mad or is there some extra step I need to take for the clojure cli tools to put everything in my deps list on the classpath?</text>
+</message>
+<message>
+  <ts>2019-11-06T01:07:09.151000</ts>
+  <user>Brix</user>
+  <text>Clearly it's sourcing my deps.edn file the clojure version changes if I change the version listed in the file.</text>
+</message>
+<message>
+  <ts>2019-11-06T01:07:20.773000</ts>
+  <user>Brix</user>
+  <text>And yet none of the other deps are being added to the classpath afaict.</text>
+</message>
+<message>
+  <ts>2019-11-06T01:09:42.187000</ts>
+  <user>Brix</user>
+  <text>Oh. Ignore me I was being an idiot.</text>
+</message>
+<message>
+  <ts>2019-11-06T01:50:30.752000</ts>
+  <user>Abbigail</user>
+  <text>:+1:</text>
+</message>
+<message>
+  <ts>2019-11-07T23:01:57.054000</ts>
+  <user>Araiya</user>
+  <text>Have to learn .NET for work really like F# but Clojure syntax has me spoiled.</text>
+</message>
+<message>
+  <ts>2019-11-09T01:46:53.378000</ts>
+  <user>Ethaniel</user>
+  <text>I get the feeling. When I wanted to get into functional programming I already had the tooling for F# so tried it... naaaah.How about ClojureCLR?</text>
+</message>
+<message>
+  <ts>2019-11-09T07:04:07.764000</ts>
+  <user>Amiliano</user>
+  <text>it's great</text>
+</message>
+<message>
+  <ts>2019-11-09T12:04:32.708000</ts>
+  <user>Chandru</user>
+  <text>Is there something like `doseq` but not for sideeffects? I want to avoid the boilerplate of doing ```clj(loop [coll1 [1 2 3] coll2 [4 5 6]] (let [one (first coll1) two (first coll2)] ; something with it (recur (rest coll1) (rest coll2))))```</text>
+</message>
+<message>
+  <ts>2019-11-09T12:55:05.812000</ts>
+  <user>Jaxiel</user>
+  <text>...map?</text>
+</message>
+<message>
+  <ts>2019-11-09T12:56:38.639000</ts>
+  <user>Jaxiel</user>
+  <text>```clj(map + [1 2 3] [4 5 6]) ; (5 7 9)```</text>
+</message>
+<message>
+  <ts>2019-11-09T12:57:27.948000</ts>
+  <user>Jaxiel</user>
+  <text>Map takes any number of arguments and will execute the length of the shortest array</text>
+</message>
+<message>
+  <ts>2019-11-09T12:57:39.290000</ts>
+  <user>Jaxiel</user>
+  <text>@Johnny</text>
+</message>
+<message>
+  <ts>2019-11-09T12:58:22.014000</ts>
+  <user>Chandru</user>
+  <text>thanks</text>
+</message>
+<message>
+  <ts>2019-11-09T14:29:15.590000</ts>
+  <user>Abbigail</user>
+  <text>@Auekha ClojureCLR is pretty good however be aware that it's a little harder to get it to play nice with dependencies (or so I've heard)</text>
+</message>
+<message>
+  <ts>2019-11-09T14:30:32.173000</ts>
+  <user>Abbigail</user>
+  <text>Also @Johnny map will work for that exact case however for more general looping with sequences there is also `for`</text>
+</message>
+<message>
+  <ts>2019-11-09T14:36:54.432000</ts>
+  <user>Chandru</user>
+  <text>oh that's perfect</text>
+</message>
+<message>
+  <ts>2019-11-09T14:37:07.330000</ts>
+  <user>Chandru</user>
+  <text>how have i never heard of that</text>
+</message>
+<message>
+  <ts>2019-11-09T14:41:39.154000</ts>
+  <user>Jaxiel</user>
+  <text>Because clojure's core library is pretty freaking large</text>
+</message>
+<message>
+  <ts>2019-11-09T14:42:01.010000</ts>
+  <user>Jaxiel</user>
+  <text>So many times I\'ve gone Why isn\'t there a function that does just this? and turns out there is</text>
+</message>
+<message>
+  <ts>2019-11-09T14:43:10.045000</ts>
+  <user>Jaxiel</user>
+  <text>Not saying it\'s too big just that the 100 functions on 1 data structure is there alive and well</text>
+</message>
+<message>
+  <ts>2019-11-09T14:45:47.400000</ts>
+  <user>Chandru</user>
+  <text>yeah</text>
+</message>
+<message>
+  <ts>2019-11-09T14:46:04.627000</ts>
+  <user>Chandru</user>
+  <text>I always have the cheatsheet open when doing something</text>
+</message>
+<message>
+  <ts>2019-11-09T14:46:30.492000</ts>
+  <user>Chandru</user>
+  <text>But I still haven't internalised the way the different data structures work</text>
+</message>
+<message>
+  <ts>2019-11-09T14:47:11.181000</ts>
+  <user>Chandru</user>
+  <text>While we\'re at it&gt; Why isn\'t there a function that does just this?"Is there a function in the core library that counts the occurrences of an element in a collection?</text>
+</message>
+<message>
+  <ts>2019-11-09T14:47:45.729000</ts>
+  <user>Chandru</user>
+  <text>I ended up writing it myself several times now</text>
+</message>
+<message>
+  <ts>2019-11-09T14:49:11.389000</ts>
+  <user>Jaxiel</user>
+  <text>frequencies?</text>
+</message>
+<message>
+  <ts>2019-11-09T14:50:49.381000</ts>
+  <user>Chandru</user>
+  <text>oof</text>
+</message>
+<message>
+  <ts>2019-11-09T14:50:53.005000</ts>
+  <user>Chandru</user>
+  <text>of course there is one</text>
+</message>
+<message>
+  <ts>2019-11-09T14:50:57.488000</ts>
+  <user>Jaxiel</user>
+  <text>😂</text>
+</message>
+<message>
+  <ts>2019-11-09T14:51:19.960000</ts>
+  <user>Jaxiel</user>
+  <text>Frequencies is kinda just an extension of `groupby` too</text>
+</message>
+<message>
+  <ts>2019-11-09T14:59:54.396000</ts>
+  <user>Chandru</user>
+  <text>It would be great if someone could review my code here &lt;https://github.com/JohnnyJayJay/DailyCodingProblem&gt;</text>
+</message>
+<message>
+  <ts>2019-11-09T15:00:18.799000</ts>
+  <user>Chandru</user>
+  <text>That'd be a big help as I'm currently just working everything out on my own</text>
+</message>
+<message>
+  <ts>2019-11-09T15:12:46.372000</ts>
+  <user>Abbigail</user>
+  <text>for the first one choose looks like it could be rewritten to use a filter and a call to count</text>
+</message>
+<message>
+  <ts>2019-11-09T15:23:47.449000</ts>
+  <user>Chandru</user>
+  <text>Hmm I don't see what you mean</text>
+</message>
+<message>
+  <ts>2019-11-09T16:40:24.226000</ts>
+  <user>Ethaniel</user>
+  <text>I recently got caught out not knowing `reductions` existed. It was like my code shriveled to nothing after that.</text>
+</message>
+<message>
+  <ts>2019-11-09T16:46:51.460000</ts>
+  <user>Chandru</user>
+  <text>Do you mean like `reduce`?</text>
+</message>
+<message>
+  <ts>2019-11-09T16:47:32.799000</ts>
+  <user>Chandru</user>
+  <text>Btw what's the difference between `apply` and `reduce`?</text>
+</message>
+<message>
+  <ts>2019-11-09T16:48:31.452000</ts>
+  <user>Veada</user>
+  <text>in 08.clj you may want to consider turning `chars` into a set as it lets your have I seen this character before check becomes much more concise: `(if (chars char) char (recur...))`</text>
+</message>
+<message>
+  <ts>2019-11-09T16:54:10.227000</ts>
+  <user>Chandru</user>
+  <text>Oh I didn't know you could invoke sets as a function</text>
+</message>
+<message>
+  <ts>2019-11-09T16:54:16.744000</ts>
+  <user>Chandru</user>
+  <text>I'll consider that</text>
+</message>
+<message>
+  <ts>2019-11-09T16:55:47.141000</ts>
+  <user>Florentino</user>
+  <text>@Johnny there's both `reduce` and `reductions`. pretty great duo</text>
+</message>
+<message>
+  <ts>2019-11-09T16:57:26.823000</ts>
+  <user>Florentino</user>
+  <text>```clj(reductions + 0 [1 2 3])(0 1 3 6)```</text>
+</message>
+<message>
+  <ts>2019-11-09T17:00:27.634000</ts>
+  <user>Florentino</user>
+  <text>also `(apply f coll)` is the same as `(f itemofcoll1 item2 item3...)`</text>
+</message>
+<message>
+  <ts>2019-11-09T17:00:42.427000</ts>
+  <user>Veada</user>
+  <text>regarding `apply` vs `reduce` the way I usually think of it is that `apply` basically unwraps a collection and makes it an argument list to a function while `reduce` is more of a stepwise combine the first two then combine the result of that with the third and so on</text>
+</message>
+<message>
+  <ts>2019-11-09T17:01:07.805000</ts>
+  <user>Florentino</user>
+  <text>^</text>
+</message>
+<message>
+  <ts>2019-11-09T17:01:31.391000</ts>
+  <user>Chandru</user>
+  <text>ah i see now</text>
+</message>
+<message>
+  <ts>2019-11-09T17:03:01.632000</ts>
+  <user>Florentino</user>
+  <text>eric normand has a great article on reduce likening it to taking beans out of a bucket and putting them somewhere else one by one</text>
+</message>
+<message>
+  <ts>2019-11-09T17:04:53.321000</ts>
+  <user>Florentino</user>
+  <text>http://www.lispcast.com/annotatedclojurecorereduce</text>
+</message>
+<message>
+  <ts>2019-11-09T17:11:25.045000</ts>
+  <user>Veada</user>
+  <text>```clojure(reduce (partial  10) [1 2 3 4])=&gt; 24000;; becomes something like ( 10 4 ( 10 3 ( 10 1 2))(apply (partial  10) [1 2 3 4])=&gt; 240;; becomes something like ( 10 1 2 3 4)```</text>
+</message>
+<message>
+  <ts>2019-11-12T16:04:25.285000</ts>
+  <user>Chandru</user>
+  <text>uhm so</text>
+</message>
+<message>
+  <ts>2019-11-12T16:04:41.771000</ts>
+  <user>Chandru</user>
+  <text>For the past few weeks I've used IntelliJ as an IDE for Clojure</text>
+</message>
+<message>
+  <ts>2019-11-12T16:05:08.612000</ts>
+  <user>Chandru</user>
+  <text>But the plugin I was using Cursive apparently costs $99 per year?</text>
+</message>
+<message>
+  <ts>2019-11-12T16:05:33.722000</ts>
+  <user>Chandru</user>
+  <text>Does anyone have a IDE/editor recommendation? lol</text>
+</message>
+<message>
+  <ts>2019-11-12T17:02:31.571000</ts>
+  <user>Abbigail</user>
+  <text>cursive is free for noncommercial projects i'd thought</text>
+</message>
+<message>
+  <ts>2019-11-12T17:03:40.741000</ts>
+  <user>Abbigail</user>
+  <text>Anyway I'd recommend vscode lighttable lightmod emacs or vim.</text>
+</message>
+<message>
+  <ts>2019-11-12T17:03:44.096000</ts>
+  <user>Abbigail</user>
+  <text>I use emacs.</text>
+</message>
+<message>
+  <ts>2019-11-12T17:04:13.309000</ts>
+  <user>Abbigail</user>
+  <text>Specifically spacemacs which is a vimlike community maintained config</text>
+</message>
+<message>
+  <ts>2019-11-12T17:04:50.723000</ts>
+  <user>Abbigail</user>
+  <text>@Johnny</text>
+</message>
+<message>
+  <ts>2019-11-12T17:13:14.208000</ts>
+  <user>Chandru</user>
+  <text>do these make sense on windows?</text>
+</message>
+<message>
+  <ts>2019-11-12T17:13:23.776000</ts>
+  <user>Chandru</user>
+  <text>I'm not sure about emacs and vim at least</text>
+</message>
+<message>
+  <ts>2019-11-12T18:18:40.441000</ts>
+  <user>Railee</user>
+  <text>it's been a while but if you install cygwin vim works great on windows</text>
+</message>
+<message>
+  <ts>2019-11-12T18:22:03.875000</ts>
+  <user>Abbigail</user>
+  <text>Emacs has a native windows version vscode and lighttable are both electron apps that work fine on windows and lightmod is actually just a dependency you add to your project that starts up a webserver to an editor site that has introspection on your project because it lives inside your project so all those options work on windows.</text>
+</message>
+<message>
+  <ts>2019-11-12T18:24:08.870000</ts>
+  <user>Railee</user>
+  <text>yeah all are good.. I'm a lighttable user but will often vim around on the command line too</text>
+</message>
+<message>
+  <ts>2019-11-12T18:25:41.462000</ts>
+  <user>Abbigail</user>
+  <text>The biggest gotcha with lightmod is that since it lives in your project if you cannot load your project due to a compile error or something it will not be able to start either.</text>
+</message>
+<message>
+  <ts>2019-11-12T18:39:04.744000</ts>
+  <user>Chandru</user>
+  <text>That sounds scary lol</text>
+</message>
+<message>
+  <ts>2019-11-12T19:10:35.375000</ts>
+  <user>Abbigail</user>
+  <text>Not too bad honestly but it's enough that I haven't bothered to try it over emacs with CIDER. Currently cider is the most fullyfeatured clojure interaction tool outside of the integration between cursive and core.typed</text>
+</message>
+<message>
+  <ts>2019-11-12T19:49:44.386000</ts>
+  <user>Veada</user>
+  <text>and just to confirm Cursive is free for noncommercial usage  when you go to get a license you can select noncommercial and then checkout for $0.00 and it\'ll email you a license key that\'s good for 6 months (and repeat every 6 months as necessary)</text>
+</message>
+<message>
+  <ts>2019-11-12T19:50:48.469000</ts>
+  <user>Chandru</user>
+  <text>Great must have overlooked that</text>
+</message>
+<message>
+  <ts>2019-11-13T21:53:11.349000</ts>
+  <user>Chandru</user>
+  <text>Is there some shortcut for `(count (filter pred coll))`?</text>
+</message>
+<message>
+  <ts>2019-11-13T22:14:56.562000</ts>
+  <user>Jaxiel</user>
+  <text>Not afaik</text>
+</message>
+<message>
+  <ts>2019-11-13T22:34:32.746000</ts>
+  <user>Abbigail</user>
+  <text>Not that I'm aware of. Also might consider using filterv which may be more performant there.</text>
+</message>
+<message>
+  <ts>2019-11-13T22:35:20.619000</ts>
+  <user>Abbigail</user>
+  <text>Since it will return the count in constant time instead of having to walk the list.</text>
+</message>
+<message>
+  <ts>2019-11-13T22:39:39.353000</ts>
+  <user>Chandru</user>
+  <text>Return types are actually still something that confuses me</text>
+</message>
+<message>
+  <ts>2019-11-13T22:40:36.196000</ts>
+  <user>Chandru</user>
+  <text>I never really know whether a function returns a (lazy) sequence some collection or the collection type of the argument</text>
+</message>
+<message>
+  <ts>2019-11-13T22:41:16.818000</ts>
+  <user>Chandru</user>
+  <text>I guess it's documented in the case of filter but it's still rather confusing</text>
+</message>
+<message>
+  <ts>2019-11-13T22:42:02.651000</ts>
+  <user>Abbigail</user>
+  <text>So any function which is considered a sequence function will always return a lazy sequence. The way that you can tell a sequence function apart from a collection function is that in a sequence function the sequences come last in the argument list. In the case of collection functions The Collection comes as the first argument in the call.</text>
+</message>
+<message>
+  <ts>2019-11-14T11:36:14.970000</ts>
+  <user>Onur</user>
+  <text>hey folks; is there an easy way to freeze time in tests?</text>
+</message>
+<message>
+  <ts>2019-11-14T11:48:10.518000</ts>
+  <user>Jaxiel</user>
+  <text>Like pause half way through?</text>
+</message>
+<message>
+  <ts>2019-11-14T11:48:24.301000</ts>
+  <user>Jaxiel</user>
+  <text>And open up a repl?</text>
+</message>
+<message>
+  <ts>2019-11-14T11:50:15.936000</ts>
+  <user>Onur</user>
+  <text>i have a function that adds timestamps to a map and want to test that it adds the correct time</text>
+</message>
+<message>
+  <ts>2019-11-14T11:51:00.630000</ts>
+  <user>Onur</user>
+  <text>in ruby i would do smth like ```rubyTimecop.freeze(Time.now) do # do my tests here  # time will be frozenend```</text>
+</message>
+<message>
+  <ts>2019-11-14T11:52:02.165000</ts>
+  <user>Jaxiel</user>
+  <text>Ohhh you're wanting to mock getting time?</text>
+</message>
+<message>
+  <ts>2019-11-14T11:52:28.359000</ts>
+  <user>Onur</user>
+  <text>exactly; found an article about it that suggest in can be done but it's from 2012 :/</text>
+</message>
+<message>
+  <ts>2019-11-14T11:52:51.801000</ts>
+  <user>Jaxiel</user>
+  <text>It's probably still fine. Clojure libraries don't change much</text>
+</message>
+<message>
+  <ts>2019-11-14T11:53:00.899000</ts>
+  <user>Jaxiel</user>
+  <text>Send link</text>
+</message>
+<message>
+  <ts>2019-11-14T12:00:16.266000</ts>
+  <user>Onur</user>
+  <text>http://blog.jayfields.com/2012/11/clojurefreezingtimeaddedto.html</text>
+</message>
+<message>
+  <ts>2019-11-14T12:00:40.288000</ts>
+  <user>Onur</user>
+  <text>also i have no idea which time library to use</text>
+</message>
+<message>
+  <ts>2019-11-14T12:00:49.828000</ts>
+  <user>Onur</user>
+  <text>it's pretty confusing for a beginner</text>
+</message>
+<message>
+  <ts>2019-11-14T12:02:26.123000</ts>
+  <user>Jaxiel</user>
+  <text>Joda time will do you fine it's a wellused library</text>
+</message>
+<message>
+  <ts>2019-11-14T12:03:39.085000</ts>
+  <user>Jaxiel</user>
+  <text>Otherwise... pick one and play with it and see if you like it?</text>
+</message>
+<message>
+  <ts>2019-11-14T12:06:14.244000</ts>
+  <user>Jaxiel</user>
+  <text>Huh... actually maybe not joda time apparently it's fallen out</text>
+</message>
+<message>
+  <ts>2019-11-14T12:06:52.811000</ts>
+  <user>Onur</user>
+  <text>just checked it and it provides a mock clock</text>
+</message>
+<message>
+  <ts>2019-11-14T12:07:14.507000</ts>
+  <user>Jaxiel</user>
+  <text>Aye just looking at```The Joda Time website says: Note that from Java SE 8 onwards users are asked to migrate to java.time (JSR310)  a core part of the JDK which replaces this project.```</text>
+</message>
+<message>
+  <ts>2019-11-14T12:07:28.764000</ts>
+  <user>Jaxiel</user>
+  <text>But it should still do you decently</text>
+</message>
+<message>
+  <ts>2019-11-14T12:07:32.133000</ts>
+  <user>Onur</user>
+  <text>yup that's what i'm using atm</text>
+</message>
+<message>
+  <ts>2019-11-14T12:15:29.108000</ts>
+  <user>Onur</user>
+  <text>wrapping my test in with `(withclock (mockclock 0) ... ` lock time to `19700101` 🎉</text>
+</message>
+<message>
+  <ts>2019-11-14T12:15:54.039000</ts>
+  <user>Onur</user>
+  <text>thanks for the help!</text>
+</message>
+<message>
+  <ts>2019-11-14T12:16:45.156000</ts>
+  <user>Onur</user>
+  <text>next time I'll read the readme carefully 😄</text>
+</message>
+<message>
+  <ts>2019-11-14T21:23:02.420000</ts>
+  <user>Chandru</user>
+  <text>What's better/more idiomatic?`(apply + coll)` or `(reduce + coll)`?</text>
+</message>
+<message>
+  <ts>2019-11-14T21:30:55.671000</ts>
+  <user>Veada</user>
+  <text>my opinion is apply because `+` is variadic and apply just says says call this function on all the things where reduce says (essentially) keep applying this function one result at a time</text>
+</message>
+<message>
+  <ts>2019-11-14T21:33:38.215000</ts>
+  <user>Brix</user>
+  <text>Is `+` properly tail recursive tho?</text>
+</message>
+<message>
+  <ts>2019-11-14T21:34:21.485000</ts>
+  <user>Brix</user>
+  <text>Or at least implemented as a loop internally.</text>
+</message>
+<message>
+  <ts>2019-11-14T21:35:13.717000</ts>
+  <user>Brix</user>
+  <text>Oh huh it's implemented using reduce.</text>
+</message>
+<message>
+  <ts>2019-11-14T21:35:17.330000</ts>
+  <user>Brix</user>
+  <text>Fancy that.</text>
+</message>
+<message>
+  <ts>2019-11-14T21:35:58.658000</ts>
+  <user>Veada</user>
+  <text>in the case of `+` as a variadic function the difference is probably negligible but with a function like `str` the variadic form uses a StringBuilder to build up the string and then finally create one String whereas reduce would keep creating new StringBuilders and Strings for each reduction</text>
+</message>
+<message>
+  <ts>2019-11-14T21:36:23.105000</ts>
+  <user>Brix</user>
+  <text>Oh yea you'd almost certainly want to apply str.</text>
+</message>
+<message>
+  <ts>2019-11-14T21:37:16.387000</ts>
+  <user>Brix</user>
+  <text>My concern was more born out of variadic `+` causing a stack overflow.</text>
+</message>
+<message>
+  <ts>2019-11-14T21:38:01.204000</ts>
+  <user>Brix</user>
+  <text>Any time I see stuff using apply on large collections on the jvm I get a little nervous tbh.</text>
+</message>
+<message>
+  <ts>2019-11-14T21:38:27.522000</ts>
+  <user>Brix</user>
+  <text>Easy for a slightly naive implementation to blow up.</text>
+</message>
+<message>
+  <ts>2019-11-14T21:39:57.203000</ts>
+  <user>Brix</user>
+  <text>Looks like the variadic str actually uses an inline `recur`sive anonymous function and a string builder.</text>
+</message>
+<message>
+  <ts>2019-11-14T21:41:48.148000</ts>
+  <user>Veada</user>
+  <text>yeah  I imagine that's why the author avoided implementing it in terms of reduce</text>
+</message>
+<message>
+  <ts>2019-11-14T23:09:26.169000</ts>
+  <user>Abbigail</user>
+  <text>I have a lot of faith in Rich having thought of that</text>
+</message>
+<message>
+  <ts>2019-11-15T04:19:05.390000</ts>
+  <user>Brix</user>
+  <text>Sure I'd imagine just about anything in clojure's stdlib is fair game.</text>
+</message>
+<message>
+  <ts>2019-11-15T16:23:36.716000</ts>
+  <user>Florentino</user>
+  <text>one aspect of `reduce`'s usage is generalise this binary function to any number of arguments so in cases where the function can already take any number of arguments `apply` more precisely matches the intent i think. also of course it means you get to use the function author's intended semantics for that case as with `str`</text>
+</message>
+<message>
+  <ts>2019-11-16T22:43:58.797000</ts>
+  <user>Chandru</user>
+  <text>I just implemented reverse polish notation and it's amazing how simple that is in clojure</text>
+</message>
+<message>
+  <ts>2019-11-16T22:44:08.260000</ts>
+  <user>Chandru</user>
+  <text>No parsing required</text>
+</message>
+<message>
+  <ts>2019-11-16T22:44:46.249000</ts>
+  <user>Chandru</user>
+  <text>And just 14 lines of code</text>
+</message>
+<message>
+  <ts>2019-11-16T22:45:28.246000</ts>
+  <user>Chandru</user>
+  <text>This stuff really keeps impressing me</text>
+</message>
+<message>
+  <ts>2019-11-17T10:07:00.106000</ts>
+  <user>Amiliano</user>
+  <text>hehe 😄</text>
+</message>
+<message>
+  <ts>2019-11-17T10:07:05.275000</ts>
+  <user>Amiliano</user>
+  <text>u were in desert my friend</text>
+</message>
+<message>
+  <ts>2019-11-17T10:07:17.680000</ts>
+  <user>Amiliano</user>
+  <text>and u drank glass of water</text>
+</message>
+<message>
+  <ts>2019-11-17T10:07:32.729000</ts>
+  <user>Amiliano</user>
+  <text>imagine when u take a nice bath in oasis that is clojure 😄</text>
+</message>
+<message>
+  <ts>2019-11-17T16:27:07.295000</ts>
+  <user>Abbigail</user>
+  <text>I'm writing OO java at work with 15 minute build times and 10 minute deploy times. Every day I miss clojure.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:08:21.282000</ts>
+  <user>Brix</user>
+  <text>oof...</text>
+</message>
+<message>
+  <ts>2019-11-17T21:12:50.040000</ts>
+  <user>Abbigail</user>
+  <text>Yeah. I love the people I'm working with but the code kills me a little bit inside every day. And this is why I'm picking up discljord again and trying to finish this rewrite because the CSP and functional style is super refreshing by comparison.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:17:19.535000</ts>
+  <user>Chandru</user>
+  <text>I'll be happy to use it or even contribute once I've gotten more used to Clojure</text>
+</message>
+<message>
+  <ts>2019-11-17T21:18:09.072000</ts>
+  <user>Chandru</user>
+  <text>It's all still pretty new for me but I'm starting to get the hang of it.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:19:45.667000</ts>
+  <user>Chandru</user>
+  <text>And honestly I feel you I'm still a student but I've always used Java since I started programming</text>
+</message>
+<message>
+  <ts>2019-11-17T21:21:35.888000</ts>
+  <user>Chandru</user>
+  <text>I read somewhere that everything in the OOP universe ever since its creation has been trying to fix it</text>
+</message>
+<message>
+  <ts>2019-11-17T21:21:52.225000</ts>
+  <user>Chandru</user>
+  <text>That pretty much hits the nail on the head</text>
+</message>
+<message>
+  <ts>2019-11-17T21:23:53.020000</ts>
+  <user>Abbigail</user>
+  <text>Absolutely. I can't say that there's any particular aspect of OOP that I actually like which is unique to OOP. Even someone like Uncle Bob at this point now isn't defending the normal ideas of OOP he just says that Polymorphism=OOP in one of his more recent posts titled `FP vs OO`</text>
+</message>
+<message>
+  <ts>2019-11-17T21:25:49.927000</ts>
+  <user>Abbigail</user>
+  <text>He adds the additional restriction that for polymorphism to equal OOP there must also not be a sourcecode dependence from the caller to the callee and Clojure's multimethods fit that bill meaning that according to Robert C. Martin Clojure's protocols are basically the simplest implementation of OOP and Clojure's multimethods would also qualify along with CLOS (no surprise on that one) plenty of lisp's polymorphismbased macros Traits in Rust typeclasses in Haskell and so many other things.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:36:23.825000</ts>
+  <user>Chandru</user>
+  <text>The thing I realised is that I never even really tried to write proper OOP i.e. the way Java is designed for. Functional ideas are even considered good practice in OOP by now like immutable classes. Or all these patterns e.g. the strategy pattern and whatnot</text>
+</message>
+<message>
+  <ts>2019-11-17T21:37:07.379000</ts>
+  <user>Abbigail</user>
+  <text>Which with patterns I found that probably about 8090% of the usages of patterns that I've seen fall apart as soon as functions are firstclass values.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:37:31.731000</ts>
+  <user>Abbigail</user>
+  <text>In that things which clasically require hundreds of lines of boilerplate come down to a single lambda passed to something.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:37:54.351000</ts>
+  <user>Chandru</user>
+  <text>Yeah</text>
+</message>
+<message>
+  <ts>2019-11-17T21:39:24.095000</ts>
+  <user>Chandru</user>
+  <text>This stuff is always sold as being the simplest way". But if you really think about it OOP is incredibly complex and I don\'t judge people anymore who fail at it</text>
+</message>
+<message>
+  <ts>2019-11-17T21:40:36.064000</ts>
+  <user>Abbigail</user>
+  <text>I think Casey Muratori has a good perspective on it that was summed up well after one of his streams here: https://www.youtube.com/watch?v=GKYCA3UsmrU</text>
+</message>
+<message>
+  <ts>2019-11-17T21:41:31.466000</ts>
+  <user>Abbigail</user>
+  <text>If you think of things from what steps does the computer have to do then most things won\'t end up with objects in the same way. And while it\'s not malicous for objects to appear in your code it should arise naturally as a solution to your problem and not because you were trying to shoehorn your problem into the space of objects.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:42:14.900000</ts>
+  <user>Abbigail</user>
+  <text>Although in the context of Clojure Haskell and other highlevel languages and it\'s not so much what steps does the computer have to do it\'s more what logical transformations need to happen to my data</text>
+</message>
+<message>
+  <ts>2019-11-17T21:42:29.153000</ts>
+  <user>Chandru</user>
+  <text>Yeah right</text>
+</message>
+<message>
+  <ts>2019-11-17T21:42:50.614000</ts>
+  <user>Chandru</user>
+  <text>That's why I think procedural programming is actually the best start for newcomers</text>
+</message>
+<message>
+  <ts>2019-11-17T21:43:25.993000</ts>
+  <user>Chandru</user>
+  <text>Or rather just simple scripting</text>
+</message>
+<message>
+  <ts>2019-11-17T21:43:35.553000</ts>
+  <user>Abbigail</user>
+  <text>Casey has a really good style of programming that he calls compression oriented programming where the idea is to always write the stupidest solution to the problem and to only ever worry about abstracting something if you start having to write it again.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:44:46.285000</ts>
+  <user>Abbigail</user>
+  <text>Which I think may be where I finally was able to figure out a way to word my general opinion on code and part of why I like lisps so much that being that if I have to write something more than a couple times then it's a deficiency of the language because I should be able to operate in the space of only specifying how things are different from the common pattern. I shouldn't have to specify the common pattern.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:45:16.990000</ts>
+  <user>Abbigail</user>
+  <text>Or at least I shouldn't have to specify the common pattern more than once.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:46:44.823000</ts>
+  <user>Chandru</user>
+  <text>&gt; Casey has a really good style of programming that he calls compression oriented programming where the idea is to always write the stupidest solution to the problem and to only ever worry about abstracting something if you start having to write it again.That\'s funny</text>
+</message>
+<message>
+  <ts>2019-11-17T21:47:55.534000</ts>
+  <user>Chandru</user>
+  <text>It depends on what stupidest means but that doesn\'t sound like something I could be friends with</text>
+</message>
+<message>
+  <ts>2019-11-17T21:48:55.414000</ts>
+  <user>Abbigail</user>
+  <text>Well the idea is that you should never worry about abstracting something if you aren't using it more than once. No reason to create generic functions and code for doing something until you do it multiple times.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:49:35.528000</ts>
+  <user>Abbigail</user>
+  <text>So stupidest means that it doesn\'t concern itself with abstraction it is readable and it does the job to the full extent of what\'s required of it.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:50:02.549000</ts>
+  <user>Chandru</user>
+  <text>Hmm there are often cases where the abstraction jumps right into my face</text>
+</message>
+<message>
+  <ts>2019-11-17T21:50:24.377000</ts>
+  <user>Chandru</user>
+  <text>And it doesn't feel right if I take the simple step of making it generic</text>
+</message>
+<message>
+  <ts>2019-11-17T21:50:34.569000</ts>
+  <user>Chandru</user>
+  <text>For example</text>
+</message>
+<message>
+  <ts>2019-11-17T21:51:45.481000</ts>
+  <user>Chandru</user>
+  <text>https://github.com/JohnnyJayJay/DailyCodingProblem/blob/master/src/november19/08.clj</text>
+</message>
+<message>
+  <ts>2019-11-17T21:52:21.396000</ts>
+  <user>Chandru</user>
+  <text>There my task was to find the first recurring element in a string</text>
+</message>
+<message>
+  <ts>2019-11-17T21:52:24.245000</ts>
+  <user>Abbigail</user>
+  <text>why call hashset instead of just #{}?</text>
+</message>
+<message>
+  <ts>2019-11-17T21:52:39.603000</ts>
+  <user>Chandru</user>
+  <text>It was no effort to make it applicable for any collection</text>
+</message>
+<message>
+  <ts>2019-11-17T21:52:44.881000</ts>
+  <user>Chandru</user>
+  <text>So I did it</text>
+</message>
+<message>
+  <ts>2019-11-17T21:53:09.184000</ts>
+  <user>Abbigail</user>
+  <text>Sure because the default way of doing things in Clojure is in terms of the seq abstraction.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:53:15.762000</ts>
+  <user>Chandru</user>
+  <text>&gt; why call hashset instead of just #{}?Yeah I forgot about set literals when I made this lol</text>
+</message>
+<message>
+  <ts>2019-11-17T21:53:18.458000</ts>
+  <user>Abbigail</user>
+  <text>That's not against how you would do things with compression oriented programming.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:53:38.910000</ts>
+  <user>Abbigail</user>
+  <text>The difference is that you didn't have to spend extra time developing an abstraction you'd never use again.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:54:10.269000</ts>
+  <user>Chandru</user>
+  <text>I would have done it in Java too</text>
+</message>
+<message>
+  <ts>2019-11-17T21:54:28.039000</ts>
+  <user>Chandru</user>
+  <text>Make a method that accepts any array</text>
+</message>
+<message>
+  <ts>2019-11-17T21:55:47.686000</ts>
+  <user>Chandru</user>
+  <text>It wouldn't have been any harder either so I'd just go for it</text>
+</message>
+<message>
+  <ts>2019-11-17T21:55:49.192000</ts>
+  <user>Abbigail</user>
+  <text>That requires a tiny bit more effort on the part of the caller since you have to call getBytes but other than that it remains the same</text>
+</message>
+<message>
+  <ts>2019-11-17T21:56:40.902000</ts>
+  <user>Abbigail</user>
+  <text>The difference is that for example when I was writing a rasterizer in C++ instead of simply writing some structures to represent 3x3 matrices and some to represent 4x4 matricies I immediately saw that as an opportunity for abstraction and started writing an NxN implementation. That wasted a lot of time and wasn't necessary.</text>
+</message>
+<message>
+  <ts>2019-11-17T21:57:43.939000</ts>
+  <user>Chandru</user>
+  <text>Or here another small example from my Clojure journeyhttps://github.com/JohnnyJayJay/DailyCodingProblem/blob/master/src/november19/10.clj</text>
+</message>
+<message>
+  <ts>2019-11-17T21:58:07.914000</ts>
+  <user>Chandru</user>
+  <text>The assignment was: make it work for 32bit binary numbers</text>
+</message>
+<message>
+  <ts>2019-11-17T21:58:20.367000</ts>
+  <user>Chandru</user>
+  <text>I made it work for any number with base n</text>
+</message>
+<message>
+  <ts>2019-11-17T21:59:57.774000</ts>
+  <user>Chandru</user>
+  <text>I don't know how I would act in your matrix example but I'd probably do the same</text>
+</message>
+<message>
+  <ts>2019-11-17T22:00:11.374000</ts>
+  <user>Abbigail</user>
+  <text>Again you're using examples of trivial abstraction. Abstraction which consists of basically replacing usage of a constant with usage of a parameter. That's not what compression oriented programming is saying to avoid.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:01:31.611000</ts>
+  <user>Abbigail</user>
+  <text>But yeah making the NxN matrix stuff in C++ was absolutely a mistake and if your reaction would have been to also try writing that then I'd recommend that next time you feel the itch to do a bit of abstraction like that stop and ask if it'll get used. The mistake of starting to do that wasted 6 hours of my time on an assignment where the rest took me all of 3 hours.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:02:36.367000</ts>
+  <user>Chandru</user>
+  <text>I suppose it depends on the perspective</text>
+</message>
+<message>
+  <ts>2019-11-17T22:03:02.614000</ts>
+  <user>Chandru</user>
+  <text>I almost always program for fun to try things out to learn new stuff</text>
+</message>
+<message>
+  <ts>2019-11-17T22:03:18.635000</ts>
+  <user>Abbigail</user>
+  <text>Ah well that's also fair. In that case then it could easily be worth it.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:03:52.231000</ts>
+  <user>Abbigail</user>
+  <text>I also program for fun but I almost always have a specific end goal and I have so many projects I want to work on that I don't feel like it's beneficial for me to puts around doing random abstraction for the sake of it.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:04:13.675000</ts>
+  <user>Chandru</user>
+  <text>I see that</text>
+</message>
+<message>
+  <ts>2019-11-17T22:04:36.313000</ts>
+  <user>Abbigail</user>
+  <text>Especially since getting a job and having less free time that I have the brain power to program in. Amusingly I have way more free time now than I did for the last five years but I just don't have the brain power to program in as much of that free time.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:04:50.002000</ts>
+  <user>Chandru</user>
+  <text>Understandable</text>
+</message>
+<message>
+  <ts>2019-11-17T22:05:14.943000</ts>
+  <user>Abbigail</user>
+  <text>Yet for some reason I have the brain power to learn a spoken language. But hey at least now I'm close to bilingual which has been a goal of mine forever.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:06:03.880000</ts>
+  <user>Chandru</user>
+  <text>If I think about it I\'ve definitely wasted a lot of time reasoning about general solutions but I don\'t view it as a waste of time right now because it has somewhat benefited me</text>
+</message>
+<message>
+  <ts>2019-11-17T22:06:21.713000</ts>
+  <user>Chandru</user>
+  <text>I mean I started programming 2 years ago</text>
+</message>
+<message>
+  <ts>2019-11-17T22:06:32.432000</ts>
+  <user>Abbigail</user>
+  <text>Yeah at this point I mostly consider it a waste since I've been programming for coming up on 12 years.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:06:42.318000</ts>
+  <user>Chandru</user>
+  <text>So I don't feel like I can get anything big done anyway lol</text>
+</message>
+<message>
+  <ts>2019-11-17T22:06:59.378000</ts>
+  <user>Abbigail</user>
+  <text>And doing abstractions has been in my brain for over half of my life so I'm just trying to get some things done.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:07:25.087000</ts>
+  <user>Chandru</user>
+  <text>I reckon I'll get there eventually</text>
+</message>
+<message>
+  <ts>2019-11-17T22:07:28.842000</ts>
+  <user>Abbigail</user>
+  <text>Abstraction is good but good abstraction is hard to make and bad abstraction is often worse than no abstraction. That's the biggest lesson I've learned from that over the years.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:08:01.178000</ts>
+  <user>Chandru</user>
+  <text>:BrillianceThumbsUp:</text>
+</message>
+<message>
+  <ts>2019-11-17T22:08:09.363000</ts>
+  <user>Chandru</user>
+  <text>What language do you learn?</text>
+</message>
+<message>
+  <ts>2019-11-17T22:08:25.606000</ts>
+  <user>Abbigail</user>
+  <text>Last I counted I'd programmed in over 30 languages.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:08:38.872000</ts>
+  <user>Abbigail</user>
+  <text>I'm comfortable sitting down and writing around 14 right now.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:08:50.865000</ts>
+  <user>Chandru</user>
+  <text>I mean the spoken one you mentioned</text>
+</message>
+<message>
+  <ts>2019-11-17T22:08:55.399000</ts>
+  <user>Abbigail</user>
+  <text>Oh lol</text>
+</message>
+<message>
+  <ts>2019-11-17T22:09:22.935000</ts>
+  <user>Abbigail</user>
+  <text>lojban. It's the fifth language I've studied besides my native one (english) and it's the only one I've actually gotten conversational with.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:10:39.226000</ts>
+  <user>Abbigail</user>
+  <text>I've studied in order spanish latin hebrew german and lojban. Studied the first four for about 2 years each never got anywhere with them. I've studied lojban for just over a year and I'm pretty good with it I just need to increase my vocabulary a bit more for some of the use cases which are common in everyday life but not common with the people I speak to in it.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:10:56.742000</ts>
+  <user>Chandru</user>
+  <text>Holy cow</text>
+</message>
+<message>
+  <ts>2019-11-17T22:11:06.675000</ts>
+  <user>Chandru</user>
+  <text>I didn't even know such languages existed</text>
+</message>
+<message>
+  <ts>2019-11-17T22:11:20.715000</ts>
+  <user>Chandru</user>
+  <text>(Lojban not the others)</text>
+</message>
+<message>
+  <ts>2019-11-17T22:11:33.945000</ts>
+  <user>Abbigail</user>
+  <text>Yeah it's definitely pretty interesting.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:11:50.202000</ts>
+  <user>Abbigail</user>
+  <text>I'm currently trying to write a mini novel in lojban.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:15:40.248000</ts>
+  <user>Chandru</user>
+  <text>Good luck with that</text>
+</message>
+<message>
+  <ts>2019-11-17T22:16:03.204000</ts>
+  <user>Abbigail</user>
+  <text>Thanks! I'm about 3.5k words in out of 50k</text>
+</message>
+<message>
+  <ts>2019-11-17T22:16:06.471000</ts>
+  <user>Chandru</user>
+  <text>I'm just trying to further improve my English at this point</text>
+</message>
+<message>
+  <ts>2019-11-17T22:16:21.348000</ts>
+  <user>Chandru</user>
+  <text>My seven years attempt at french was a mistake</text>
+</message>
+<message>
+  <ts>2019-11-17T22:16:24.808000</ts>
+  <user>Abbigail</user>
+  <text>Fair enough. I always wanted to be bilingual. Languages have always facinated me.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:17:22.492000</ts>
+  <user>Chandru</user>
+  <text>I rather see them as tools to communicate</text>
+</message>
+<message>
+  <ts>2019-11-17T22:17:31.997000</ts>
+  <user>Chandru</user>
+  <text>And beyond that they don't interest me too much</text>
+</message>
+<message>
+  <ts>2019-11-17T22:18:33.237000</ts>
+  <user>Abbigail</user>
+  <text>I agree actually which makes me amused when some people take linguistics further into philosophy. I really like the way that lojban makes it easier to express emotions and can clear up some common miscommunications. That's part of why I started learning it.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:19:51.877000</ts>
+  <user>Chandru</user>
+  <text>I guess most artificial languages are objectively better to communicate</text>
+</message>
+<message>
+  <ts>2019-11-17T22:20:04.636000</ts>
+  <user>Abbigail</user>
+  <text>I wouldn't agree with that at all</text>
+</message>
+<message>
+  <ts>2019-11-17T22:20:16.466000</ts>
+  <user>Chandru</user>
+  <text>It's just a guess</text>
+</message>
+<message>
+  <ts>2019-11-17T22:20:58.175000</ts>
+  <user>Chandru</user>
+  <text>Or at least I'd guess so if the designers knew what they were doing and successfully identified problems of other languages</text>
+</message>
+<message>
+  <ts>2019-11-17T22:22:31.877000</ts>
+  <user>Abbigail</user>
+  <text>Yeah it's that there's a lot that goes into making a language usable. There's things like toki pona which only has 123 words which means that to communicate you have to simplify things to an extreme that makes complex communication effectively impossible. On the other side you have ithkuil which is set up to condense information into as tight a space as possible both in writing and in speaking and as a result it's impossible to synthesize it at a reasonable speaking rate because it is far faster than our brains and then there's things like esperanto which are very successful but have problems that they're very eurocentric which is somewhat counter to the goal of being a language to bring the world together under a common tongue.</text>
+</message>
+<message>
+  <ts>2019-11-17T22:26:11.334000</ts>
+  <user>Chandru</user>
+  <text>Very interesting</text>
+</message>
+<message>
+  <ts>2019-11-17T22:27:06.369000</ts>
+  <user>Chandru</user>
+  <text>I think everybody once had this idea of one common language but I feel like many people don't know about these attempts</text>
+</message>
+<message>
+  <ts>2019-11-17T22:27:10.188000</ts>
+  <user>Chandru</user>
+  <text>Including me lol</text>
+</message>
+<message>
+  <ts>2019-11-17T22:27:32.504000</ts>
+  <user>Chandru</user>
+  <text>At least I've never heard about them</text>
+</message>
+<message>
+  <ts>2019-11-17T22:34:04.480000</ts>
+  <user>Abbigail</user>
+  <text>Yeah they don't get a lot of publicity even though esperanto has millions of speakers and hundreds or thousands of native speakers</text>
+</message>
+<message>
+  <ts>2019-11-18T09:10:12.196000</ts>
+  <user>Ethaniel</user>
+  <text>The art is growing. I\'ve been conlanging (constructing languages) for over 8 years and the Reddit community alone has quadrupled in that time.</text>
+</message>
+<message>
+  <ts>2019-11-18T09:10:59.831000</ts>
+  <user>Ethaniel</user>
+  <text>People have created all sorts of beautiful wonderful interesting conlangs but I end up just making really regularised logical ones too.</text>
+</message>
+<message>
+  <ts>2019-11-18T09:12:35.809000</ts>
+  <user>Ethaniel</user>
+  <text>Sometimes when I get stuck on grammar I write my verbs as Clojure functions sentences as forms. It's like an EDN conlang but it's not very good for speaking 😆 Computers are good at counting and forward expectations humans brains are really kinda flat thinking.</text>
+</message>
+<message>
+  <ts>2019-11-26T13:34:12.520000</ts>
+  <user>Ethaniel</user>
+  <text>I have the dependency `[uswitch/lambada 0.1.2"]` and its sole dependency is `[com.amazonaws/awslambdajavacore 1.1.0"]` when inspecting the project with `lein deps :tree`Can I force `lambada` to use `awslambdajavacore 1.2.0"`?</text>
+</message>
+<message>
+  <ts>2019-11-26T15:39:08.056000</ts>
+  <user>Abbigail</user>
+  <text>you can add an exclusion for it and manually add a version.</text>
+</message>
+<message>
+  <ts>2019-11-26T15:40:08.811000</ts>
+  <user>Abbigail</user>
+  <text>Or if you are using deps.edn just including the toplevel dependency on it would do it too even without exclusions.</text>
+</message>
+<message>
+  <ts>2019-11-26T22:23:37.633000</ts>
+  <user>Ethaniel</user>
+  <text>That's cool thank you :)</text>
+</message>
+<message>
+  <ts>2019-11-26T22:24:04.710000</ts>
+  <user>Ethaniel</user>
+  <text>I tried :manageddependencies too which worked.</text>
+</message>
+<message>
+  <ts>2019-12-02T05:55:24.422000</ts>
+  <user>Hades</user>
+  <text>Hey just a quick question about using loop/recur: Can I have multiple recur statements with a single loop? i.e ```(loop [var x] (cond  (= x a) x (= x b) (recur (+ x 1)) (= x c) (recur (+ x 2))))```</text>
+</message>
+<message>
+  <ts>2019-12-02T05:55:26.603000</ts>
+  <user>Hades</user>
+  <text>Or something ilke that?</text>
+</message>
+<message>
+  <ts>2019-12-02T05:57:35.492000</ts>
+  <user>Chandru</user>
+  <text>Yes you can</text>
+</message>
+<message>
+  <ts>2019-12-02T05:57:52.867000</ts>
+  <user>Chandru</user>
+  <text>As long as they're all in tail position</text>
+</message>
+<message>
+  <ts>2019-12-02T05:58:17.975000</ts>
+  <user>Chandru</user>
+  <text>I.e. the last statement in the recur scope</text>
+</message>
+<message>
+  <ts>2019-12-02T05:59:39.494000</ts>
+  <user>Hades</user>
+  <text>Ah</text>
+</message>
+<message>
+  <ts>2019-12-02T05:59:39.853000</ts>
+  <user>Hades</user>
+  <text>Ok</text>
+</message>
+<message>
+  <ts>2019-12-02T06:03:21.613000</ts>
+  <user>Hades</user>
+  <text>thank you!</text>
+</message>
+<message>
+  <ts>2019-12-02T06:18:11.346000</ts>
+  <user>Abbigail</user>
+  <text>Yeah as long as nothing uses the return value of recur in the scope of the loop or recursive function you're good.</text>
+</message>
+<message>
+  <ts>2019-12-02T06:18:59.459000</ts>
+  <user>Abbigail</user>
+  <text>As a general rule anyway Johnny was more precise for sure.</text>
+</message>
+<message>
+  <ts>2019-12-02T06:38:07.831000</ts>
+  <user>Hades</user>
+  <text>okie got it</text>
+</message>
+<message>
+  <ts>2019-12-02T06:38:08.930000</ts>
+  <user>Hades</user>
+  <text>Thank you!</text>
+</message>
+<message>
+  <ts>2019-12-02T06:42:10.724000</ts>
+  <user>Hades</user>
+  <text>Hrm</text>
+</message>
+<message>
+  <ts>2019-12-02T06:42:14.281000</ts>
+  <user>Hades</user>
+  <text>Can I wrap a recur with a let?</text>
+</message>
+<message>
+  <ts>2019-12-02T06:42:31.323000</ts>
+  <user>Hades</user>
+  <text>Like</text>
+</message>
+<message>
+  <ts>2019-12-02T06:43:19.050000</ts>
+  <user>Hades</user>
+  <text>I have something that I need to use twice inside my recur</text>
+</message>
+<message>
+  <ts>2019-12-02T06:43:24.329000</ts>
+  <user>Hades</user>
+  <text>But I don't want to compute it twice</text>
+</message>
+<message>
+  <ts>2019-12-02T06:43:47.280000</ts>
+  <user>Brix</user>
+  <text>Yup as long as the let is in the tail position and the recur is in the tail of the let.</text>
+</message>
+<message>
+  <ts>2019-12-02T06:44:01.183000</ts>
+  <user>Hades</user>
+  <text>okie</text>
+</message>
+<message>
+  <ts>2019-12-02T06:44:02.372000</ts>
+  <user>Hades</user>
+  <text>thank you!</text>
+</message>
+<message>
+  <ts>2019-12-11T16:12:47.927000</ts>
+  <user>Ethaniel</user>
+  <text>Is there a better idiom than`(let [{:keys [k1 k2 k3]} {(returnakeyword) true}] ...)`to bind potential keywords?</text>
+</message>
+<message>
+  <ts>2019-12-11T16:13:14.770000</ts>
+  <user>Ethaniel</user>
+  <text>I haven't read about that one anywhere it's just how I've approached the problem</text>
+</message>
+<message>
+  <ts>2019-12-11T16:17:58.706000</ts>
+  <user>Ethaniel</user>
+  <text>And maybe binding isn\'t the right word,but I\'d like it so when a function returns only one of several possible keys is truthy</text>
+</message>
+<message>
+  <ts>2019-12-11T16:22:48.046000</ts>
+  <user>Ethaniel</user>
+  <text>It's so then instead of `(if (= :k1 result) ...` I can do `(if k1 ...)`</text>
+</message>
+<message>
+  <ts>2019-12-11T16:44:22.116000</ts>
+  <user>Florentino</user>
+  <text>seems fishy to me</text>
+</message>
+<message>
+  <ts>2019-12-11T16:44:30.930000</ts>
+  <user>Florentino</user>
+  <text>thinking</text>
+</message>
+<message>
+  <ts>2019-12-11T16:45:19.363000</ts>
+  <user>Florentino</user>
+  <text>wait that's a condp</text>
+</message>
+<message>
+  <ts>2019-12-11T16:45:44.396000</ts>
+  <user>Florentino</user>
+  <text>```clj(condp = result :k1 (f) :k2 (g) :k3 (h))```</text>
+</message>
+<message>
+  <ts>2019-12-11T16:57:08.939000</ts>
+  <user>Ethaniel</user>
+  <text>Thing is I use it for logic all over the place</text>
+</message>
+<message>
+  <ts>2019-12-11T16:58:16.026000</ts>
+  <user>Ethaniel</user>
+  <text>For example a hypothetical function which returns :north :east :south :westAfter the let I'd be testing if it's one of the four a lot like if composing Hiccup HTML</text>
+</message>
+<message>
+  <ts>2019-12-11T16:59:40.012000</ts>
+  <user>Ethaniel</user>
+  <text>It seems fishy to me too hence I'm asking for another idiom 😆</text>
+</message>
+<message>
+  <ts>2019-12-11T17:05:24.062000</ts>
+  <user>Florentino</user>
+  <text>maybe look into a rules engine too</text>
+</message>
+<message>
+  <ts>2019-12-11T17:05:36.783000</ts>
+  <user>Florentino</user>
+  <text>http://www.clararules.org/</text>
+</message>
+<message>
+  <ts>2019-12-11T18:43:53.645000</ts>
+  <user>Ethaniel</user>
+  <text>Is there `count` with a predicate in core? Rather than `(count (filter pred coll))`?</text>
+</message>
+<message>
+  <ts>2019-12-11T18:44:24.037000</ts>
+  <user>Ethaniel</user>
+  <text>It'd be cool if `count` accepted a predicate</text>
+</message>
+<message>
+  <ts>2019-12-11T19:13:55.025000</ts>
+  <user>Veada</user>
+  <text>I don\'t know of one but I think that generally it\'d be cool if X is sort of a contributing factor to huge core libraries :)</text>
+</message>
+<message>
+  <ts>2019-12-15T14:39:27.284000</ts>
+  <user>Araiya</user>
+  <text>Wanted to use deps.edn instead of always building projects with leiningen if I only need a simple script with a few dependencies. But now I'm wondering if there's a way to consolidate the deps.edn and clj files into one so a script and its dependencies can be totally contained in one file?</text>
+</message>
+<message>
+  <ts>2019-12-15T15:57:24.738000</ts>
+  <user>Abbigail</user>
+  <text>Well if you include all your script dependencies in your user deps.edn then that would be one way. The other is to compile an uberjar or native image from it using cambada or similar.</text>
+</message>
+<message>
+  <ts>2019-12-15T21:58:18.920000</ts>
+  <user>Annalynne</user>
+  <text>How do I use flags such as https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/regex/Pattern.html#DOTALL when using Clojure's regex functions?</text>
+</message>
+<message>
+  <ts>2019-12-15T22:02:19.885000</ts>
+  <user>Annalynne</user>
+  <text>Oh I guess I can use flag expressions at the beginning of the regex</text>
+</message>
+<message>
+  <ts>2019-12-17T03:55:25.661000</ts>
+  <user>Devam</user>
+  <text>Hi are there any projects that heavily uses `funcool/cats` or any other monad library? Would like to learn from it about how they use it.</text>
+</message>
+<message>
+  <ts>2019-12-17T03:57:39.108000</ts>
+  <user>Devam</user>
+  <text>Particularly on how far they integrate with normal clojure code.</text>
+</message>
+<message>
+  <ts>2019-12-17T17:06:48.269000</ts>
+  <user>Neal</user>
+  <text>i'm doing a small hackernewsish thing to better learn clojure. is making a protocol for query insertion and specs and records for posts/users and stuffs good model. Also when to use maps vs records? And though it doesn't matter for a small project do they have significant performance differences?</text>
+</message>
+<message>
+  <ts>2019-12-17T17:49:55.272000</ts>
+  <user>Veada</user>
+  <text>performancewise records create fields for their explicit keys so you're likely to get better read performance than retrieving a value from a map</text>
+</message>
+<message>
+  <ts>2019-12-17T17:57:54.978000</ts>
+  <user>Veada</user>
+  <text>as far as the protocols go it sounds like the things you're talking about using protocols for aren't all that different from core functions like filter and conj so I'm not sure if they'd be warranted  it seems like query and insertion would be on collections of things rather than the things themselves</text>
+</message>
+<message>
+  <ts>2019-12-18T09:44:57.362000</ts>
+  <user>Florentino</user>
+  <text>@feroxide you probably don't need records. stick with maps until you're sure you need otherwise</text>
+</message>
+</discord>

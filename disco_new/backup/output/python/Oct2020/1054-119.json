@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-15T07:41:50.473000",
+        "user": "Jacopo",
+        "text": "> Okay my commit history is so messed up I keep trying to squash these but it will just create a seperate commit with again.. how can I squash these commits into one... I try `git rebase i HEAD~10` but it brings me in a menu and wants me to select some commits? I'm so confused@Theagainmen that prompt allows you to select what things should be done for each commit stuff like rewording the commit message or editing the commit itself",
+        "conversation_id": "1054",
+        "index": 97
+    },
+    "so_post": {
+        "ts": "2020-10-15T07:50:56.318000",
+        "user": "Jaquarius",
+        "text": "@PureFunctor here it says that this should squash it: https://stackoverflow.com/questions/5189560/squashmylastxcommitstogetherusinggit however I have no clue what to do in this menu. I just want to squash my latest pushed commits into 1.",
+        "conversation_id": "1054",
+        "index": 119
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Jacopo has issue with commits and Jaquarias provides a direct SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

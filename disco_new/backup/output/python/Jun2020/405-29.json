@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-07T16:04:01.840000",
+        "user": "Damiano",
+        "text": "I'm not aware of any language that has case insensitive naming",
+        "conversation_id": "405",
+        "index": 24
+    },
+    "so_post": {
+        "ts": "2020-06-07T16:05:57.485000",
+        "user": "Damiano",
+        "text": "https://stackoverflow.com/questions/33273941/phpcasesensitivity",
+        "conversation_id": "405",
+        "index": 29
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "not a question more of him proving his point",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

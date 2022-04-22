@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T22:36:24.367000",
+        "user": "Ruijie",
+        "text": "Could someone enlighten me why is double brackelet byte? As in sss = [][]byte {ss[:indexOfComma2],[]byte(\",\"),ss[indexOfComma:]}",
+        "conversation_id": "1514",
+        "index": 94
+    },
+    "so_post": {
+        "ts": "2020-06-23T22:39:20.111000",
+        "user": "Ruijie",
+        "text": "> slice of slice of bytes@_diamondburned_ Seems this one was for me. Still i am staring blankly \ud83d\ude42 https://stackoverflow.com/questions/19200175/howtostoreasliceofbyteslices",
+        "conversation_id": "1514",
+        "index": 112
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "They found a direct solution themselves (still need help understanding it, but it IS the solution)",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

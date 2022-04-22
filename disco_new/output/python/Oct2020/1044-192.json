@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-15T03:58:38.661000",
+        "user": "Hubert",
+        "text": "i use selenium to go to the site click on upload button and then a explorer window open up for me to select file to upload how do it deal with he explorer window",
+        "conversation_id": "1044",
+        "index": 189
+    },
+    "so_post": {
+        "ts": "2020-10-15T04:00:06.347000",
+        "user": "Torianna",
+        "text": "> i use selenium to go to the site click on upload button and then a explorer window open up for me to select file to upload how do it deal with he explorer windowthis thread says https://stackoverflow.com/questions/8665072/howtouploadfilepicturewithseleniumpythonto do this: `send_keys(os.getcwd()+yourfilename)`",
+        "conversation_id": "1044",
+        "index": 192
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Hubert is tagged by torianna and gets this SO answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

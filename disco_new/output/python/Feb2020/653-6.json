@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-16T11:41:43.721000",
+        "user": "Malang",
+        "text": "ValueError: cannot copy sequence with size 14 to array axis with dimension 3",
+        "conversation_id": "653",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-02-16T11:56:01.906000",
+        "user": "Liv",
+        "text": "@Diamlabodoh https://stackoverflow.com/questions/18688565/valueerrorcannotcopysequencewithsize2toarrayaxiswithdimension4",
+        "conversation_id": "653",
+        "index": 6
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

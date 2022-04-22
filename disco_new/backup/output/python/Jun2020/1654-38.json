@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-28T03:09:05.609000",
+        "user": "Nedko",
+        "text": "import sockethost_name = socket.gethostname() host_ip = socket.gethostbyname(host_name)So I'm using this to get my ip but I'm only getting the local ip am I doing something wrong or is it different to get public IP?",
+        "conversation_id": "1654",
+        "index": 36
+    },
+    "so_post": {
+        "ts": "2020-06-28T03:16:43.558000",
+        "user": "Artem",
+        "text": "https://stackoverflow.com/a/8305740/9110128",
+        "conversation_id": "1654",
+        "index": 38
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

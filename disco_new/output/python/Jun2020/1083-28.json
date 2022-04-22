@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-18T08:57:13.117000",
+        "user": "Atiksh",
+        "text": "How do I make a semicircle in python with the turtle built in module thing?",
+        "conversation_id": "1083",
+        "index": 27
+    },
+    "so_post": {
+        "ts": "2020-06-18T08:57:56.255000",
+        "user": "Nyelah",
+        "text": "https://stackoverflow.com/questions/29441237/howtodrawasemicircleinpythonturtleonly@Portal",
+        "conversation_id": "1083",
+        "index": 28
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

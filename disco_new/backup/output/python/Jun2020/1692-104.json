@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-28T18:07:15.682000",
+        "user": "Legacii",
+        "text": "why? how do I do it other way?",
+        "conversation_id": "1692",
+        "index": 98
+    },
+    "so_post": {
+        "ts": "2020-06-28T18:08:59.915000",
+        "user": "Damiano",
+        "text": "https://stackoverflow.com/questions/1732348/regexmatchopentagsexceptxhtmlselfcontainedtags/1732454#1732454Here's the fun one",
+        "conversation_id": "1692",
+        "index": 104
+    },
+    "category": "Alternative Solution",
+    "comments": "legacii asks why he shouldnt parse regex w/ html",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

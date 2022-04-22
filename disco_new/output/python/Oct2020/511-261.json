@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-08T04:56:33.334000",
+        "user": "Zibiah",
+        "text": "how would you get a list of a function's arguments?",
+        "conversation_id": "511",
+        "index": 233
+    },
+    "so_post": {
+        "ts": "2020-10-08T05:09:25.770000",
+        "user": "Luigi",
+        "text": "i was going to post this ||https://stackoverflow.com/questions/582056/gettinglistofparameternamesinsidepythonfunction||",
+        "conversation_id": "511",
+        "index": 261
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "someone asks about getting list of params and luigi provides direct answer",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

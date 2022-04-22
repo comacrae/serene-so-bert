@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T04:50:31.030000",
+        "user": "Kuran",
+        "text": "```Received response with contentencoding: gzip but failed to decode it. error('Error 3 while decompressing data: incorrect header check')```",
+        "conversation_id": "14",
+        "index": 51
+    },
+    "so_post": {
+        "ts": "2020-10-01T04:51:58.392000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/3122145/zliberrorerror3whiledecompressingincorrectheadercheck",
+        "conversation_id": "14",
+        "index": 55
+    },
+    "category": "Question Repost",
+    "comments": "using SO post to either describe or just repost, not sure",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

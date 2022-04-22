@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T19:30:32.583000",
+        "user": "Geanni",
+        "text": "Can I use R with python?",
+        "conversation_id": "2247",
+        "index": 278
+    },
+    "so_post": {
+        "ts": "2020-10-30T19:32:13.784000",
+        "user": "Kaio",
+        "text": "https://stackoverflow.com/questions/19894365/runningrscriptfrompython this SO post has some info about using subprocess on R scripts @BoB",
+        "conversation_id": "2247",
+        "index": 283
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

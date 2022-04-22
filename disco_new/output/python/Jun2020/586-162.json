@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-10T20:56:27.943000",
+        "user": "Qiang",
+        "text": "z> ```> Using cached https://files.pythonhosted.org/packages/51/54/1fca8285fad3028685b2aab8c27604fb1e6af0dd2d592543d2d2852a4289/minecraft0.1.1.tar.gz> Complete output from command python setup.py egg_info:> Traceback (most recent call last):> File <string> line 1 in <module>> File /tmp/pipinstalljp8jngtf/minecraft/setup.py line 9 in <module>> with open(NOTICE \\'r\\ encoding=\\'utf8\\') as f:> NotADirectoryError: [Errno 20] Not a directory: \\'/tmp/pipinstalljp8jngtf/minecraft/setup.py/../../NOTICE.rst\\'```why is my pip broken running Ubuntu",
+        "conversation_id": "586",
+        "index": 152
+    },
+    "so_post": {
+        "ts": "2020-06-10T21:01:15.988000",
+        "user": "Jacinto",
+        "text": "> so@ClaqClaq https://stackoverflow.com/questions/50999774/everytimeitrytoinstallapackageusingpipitshowsanerror",
+        "conversation_id": "586",
+        "index": 162
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

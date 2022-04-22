@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-03T23:40:28.378000",
+        "user": "Nomi",
+        "text": "What is an example of a python interpreter and a python repl?",
+        "conversation_id": "118",
+        "index": 63
+    },
+    "so_post": {
+        "ts": "2020-02-03T23:41:37.084000",
+        "user": "Jaeleen",
+        "text": "@snowyeti https://stackoverflow.com/a/5451271",
+        "conversation_id": "118",
+        "index": 64
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "It's a direct answer to their question.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

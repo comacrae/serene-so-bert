@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-24T04:06:49.491000",
+        "user": "Anveer",
+        "text": "what does `m` mean in `python3 m pip install...`",
+        "conversation_id": "1752",
+        "index": 53
+    },
+    "so_post": {
+        "ts": "2020-10-24T04:11:09.205000",
+        "user": "Khalyla",
+        "text": "<https://stackoverflow.com/questions/40392499/whyismneededforpythonmpipinstall> @Angeldust",
+        "conversation_id": "1752",
+        "index": 71
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to question w tag",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

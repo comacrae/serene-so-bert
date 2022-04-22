@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-20T12:38:16.730000",
+        "user": "Lantz",
+        "text": "`TabError: inconsistent use of tabs and spaces in indentation`",
+        "conversation_id": "977",
+        "index": 71
+    },
+    "so_post": {
+        "ts": "2020-04-20T12:39:31.512000",
+        "user": "Heidy",
+        "text": "https://stackoverflow.com/questions/5685406/inconsistentuseoftabsandspacesinindentation",
+        "conversation_id": "977",
+        "index": 76
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User is having issues with their program and one of them is their inconsistent use of indents",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

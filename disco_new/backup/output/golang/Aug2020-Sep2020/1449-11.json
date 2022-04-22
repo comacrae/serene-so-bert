@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-15T20:23:55.246000",
+        "user": "Elchonon",
+        "text": "Does anyone have any repos/examples of uploading sending image files from the frontend to backend for upload? Having trouble passing the image file the correct way",
+        "conversation_id": "1449",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-09-15T20:31:37.449000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/35192841/fetchpostwithmultipartformdata",
+        "conversation_id": "1449",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Echeleon has quetion and Samarie provides answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

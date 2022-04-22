@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-07T17:53:46.845000",
+        "user": "Anshika",
+        "text": "Regex fuckery:I'm trying to find all words (including spaces) that aren't between `(` and `)` but having some issues:let's say we have `the horse (is bad) is good (foobar) barfoo`",
+        "conversation_id": "136",
+        "index": 9
+    },
+    "so_post": {
+        "ts": "2019-11-07T18:22:37.144000",
+        "user": "Leo",
+        "text": "@Matti Kettu https://stackoverflow.com/questions/3285510/excludestringswithinparenthesesfromaregularexpression",
+        "conversation_id": "136",
+        "index": 19
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ashika has question and Leo provides SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

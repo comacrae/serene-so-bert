@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-24T01:20:25.345000",
+        "user": "Heidy",
+        "text": "is there a reason you would do this",
+        "conversation_id": "1158",
+        "index": 28
+    },
+    "so_post": {
+        "ts": "2020-04-24T01:21:19.304000",
+        "user": "Heidy",
+        "text": "https://stackoverflow.com/questions/9439480/fromimportvsimport",
+        "conversation_id": "1158",
+        "index": 33
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "User was asking why import from datetime instead of all of it.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

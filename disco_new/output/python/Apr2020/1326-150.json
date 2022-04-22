@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-27T10:25:57.643000",
+        "user": "Kiahna",
+        "text": "```pyIn [20]: df = pd.DataFrame(dict(a = ['one two three'] b = [1,2,3]))In [21]: df[df['a'] == one']['b'].item()Out[21]: 1In [22]: next(iter(df[df['a'] == one']['b']))Out[22]: 1```can anyone shed some light as to why `.item( )` may have been depreciated in favour of the latter?",
+        "conversation_id": "1326",
+        "index": 147
+    },
+    "so_post": {
+        "ts": "2020-04-27T10:28:27.202000",
+        "user": "Kiahna",
+        "text": "here's a thread with a bit of info : <https://stackoverflow.com/questions/57390363/pandasitemhasbeendeprecated>",
+        "conversation_id": "1326",
+        "index": 150
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Seems like Kiahna found the answer to their own question.",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-01T18:38:59.541000",
+        "user": "Maesen",
+        "text": "Anyone know how I'd share the publickey to other clients? https://godoc.org/crypto/rsa#PublicKey",
+        "conversation_id": "24",
+        "index": 19
+    },
+    "so_post": {
+        "ts": "2020-08-01T18:54:33.525000",
+        "user": "Jocko",
+        "text": "@Akandesh https://stackoverflow.com/a/25181584/7794030",
+        "conversation_id": "24",
+        "index": 21
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Maesen asks question and Jocko gives answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

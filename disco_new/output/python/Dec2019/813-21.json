@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-23T09:42:37.224000",
+        "user": "Ludo",
+        "text": "With a while loop you could pretty much do the equivalent of any recursive function couldn't you?",
+        "conversation_id": "813",
+        "index": 19
+    },
+    "so_post": {
+        "ts": "2019-12-23T09:45:44.961000",
+        "user": "Ndiasse",
+        "text": "Anyway as to why you shouldn't this SO post sums that up nicely <https://stackoverflow.com/questions/3323001/whatisthemaximumrecursiondepthinpythonandhowtoincreaseit>",
+        "conversation_id": "813",
+        "index": 21
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Ndiasse says pretty much and then posts this",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

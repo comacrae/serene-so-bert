@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T14:55:18.828000",
+        "user": "Cavin",
+        "text": "```UnicodeEncodeError: \\'charmap\\ codec can\\'t encode characters in position 910: character maps to <undefined>[30/Oct/2020 17:54:32] POST /bidsubmt/3 HTTP/1.1 500 69326```",
+        "conversation_id": "2229",
+        "index": 98
+    },
+    "so_post": {
+        "ts": "2020-10-30T14:55:54.295000",
+        "user": "Abencio",
+        "text": "> ```UnicodeEncodeError: \\'charmap\\ codec can\\'t encode characters in position 910: character maps to <undefined>> [30/Oct/2020 17:54:32] POST /bidsubmt/3 HTTP/1.1 500 69326```@Serag Read this  https://stackoverflow.com/questions/3942888/unicodeencodeerrorlatin1codeccantencodecharacter",
+        "conversation_id": "2229",
+        "index": 104
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

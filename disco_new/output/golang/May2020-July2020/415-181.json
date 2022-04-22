@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-16T00:04:23.582000",
+        "user": "Hildie",
+        "text": "so i have a benchmark that I run in CI which for whatever reason i can't understand takes like 30 minutes sometimes other times it just times out. When I run the benchmark locally it takes like 300s or some shit. I've isolated the benchmark which takes ages to complete to the following one written as pseudocode that uploads a file and downloads it. I ensure that during data generation and upload not to have the timer running because im not interested in measuring that in this benchmark as it is covered by another one:```b.ResetTimer()for i := 0; i < b.N; i++ { rand.Read(10MB buffer) doFileUpload() b.StartTimer() doFileDownload() b.StopTimer()```is there some better way to do this?",
+        "conversation_id": "415",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-05-16T00:50:56.429000",
+        "user": "Shritha",
+        "text": "https://stackoverflow.com/questions/52698194/limitbytestoreadfromhttpresponse",
+        "conversation_id": "415",
+        "index": 181
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Hildie has question and Shritha talks a lot and then provides SO post to help Hldie",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

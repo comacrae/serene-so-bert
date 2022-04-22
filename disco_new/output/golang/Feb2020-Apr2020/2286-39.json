@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-25T19:31:14.657000",
+        "user": "Yared",
+        "text": "https://stackoverflow.com/questions/61431373/panictoomanyconcurrentoperationsonasinglefileorsocketmax1048575",
+        "conversation_id": "2286",
+        "index": 39
+    },
+    "so_post": {
+        "ts": "2020-04-25T19:31:14.657000",
+        "user": "Yared",
+        "text": "https://stackoverflow.com/questions/61431373/panictoomanyconcurrentoperationsonasinglefileorsocketmax1048575",
+        "conversation_id": "2286",
+        "index": 39
+    },
+    "category": "Question Repost",
+    "comments": "This must be a soliciting attempt because Yared hasn't posted a single message in the thread otherwise",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T09:56:59.833000",
+        "user": "Gerson",
+        "text": "anyone please help me to get href with beautifulsoup",
+        "conversation_id": "2212",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2020-10-30T10:00:27.436000",
+        "user": "Emaleigh",
+        "text": "https://stackoverflow.com/questions/5815747/beautifulsoupgettinghref for more reference",
+        "conversation_id": "2212",
+        "index": 84
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

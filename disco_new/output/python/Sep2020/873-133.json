@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-13T06:08:55.385000",
+        "user": "Nilsa",
+        "text": "I\\'m Raji I\\'m trying to do a API in python flask and SQLAlchemy I\\'ve made some models and I have a ID Sequence like this.`db.Column(db.Integer db.Sequence(\"autoseq start=100000 increment=1))`I don\\'t get the starting number in the correct order. I want my starting number to be 100000 but it startswith 1 instead.Thank you for your kind help.I asked in #databases no help.",
+        "conversation_id": "873",
+        "index": 131
+    },
+    "so_post": {
+        "ts": "2020-09-13T06:10:23.954000",
+        "user": "Aniello",
+        "text": "> I\\'m Raji I\\'m trying to do a API in python flask and SQLAlchemy I\\'ve made some models and I have a ID Sequence like this.> `db.Column(db.Integer db.Sequence(\"autoseq start=100000 increment=1))`> I don\\'t get the starting number in the correct order. I want my starting number to be 100000 but it startswith 1 instead.> Thank you for your kind help.> I asked in #databases no help.@Deleted User did you check this .. i don\\'t know if this is right... i don\\'t use sqlalch a lot ; https://stackoverflow.com/questions/10494033/settingsqlalchemyautoincrementstartvalue/10495449",
+        "conversation_id": "873",
+        "index": 133
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Nilsa asks questio and Aniello provides SO post answer",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

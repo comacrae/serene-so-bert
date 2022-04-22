@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-28T20:23:06.709000",
+        "user": "Emslee",
+        "text": "return is like quitting a function?",
+        "conversation_id": "2029",
+        "index": 141
+    },
+    "so_post": {
+        "ts": "2020-09-28T20:43:00.901000",
+        "user": "Makylah",
+        "text": "https://stackoverflow.com/questions/58104087/calculatingwithfunctionscodewarsproblemgot it",
+        "conversation_id": "2029",
+        "index": 159
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Someone has question about returns and Makylah provides a SO post example of returning",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T20:30:17.997000",
+        "user": "Laylanii",
+        "text": "@Carson Okay I'm not sure then what to do. My overall issue is I have a speed test client that I need to rate limit to a speed I specify. I've nearly exhausted my options for wrapping the process and limiting that or the interface etc. So I'm trying to modify the client (which is open source). There's another version of the same client that has rate limiting but it works differently.",
+        "conversation_id": "1079",
+        "index": 39
+    },
+    "so_post": {
+        "ts": "2020-09-03T20:41:37.348000",
+        "user": "Laylanii",
+        "text": "https://stackoverflow.com/questions/63714355/howcangosnetconnberatelimitedthrottled Yeah I got an error trying to use it",
+        "conversation_id": "1079",
+        "index": 59
+    },
+    "category": "Question Repost",
+    "comments": "Laylani trying to debug using SO post as background",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

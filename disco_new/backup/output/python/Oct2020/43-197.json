@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T14:24:44.283000",
+        "user": "Lalah",
+        "text": "no for the prompt i needed it to print everything except the last letter",
+        "conversation_id": "43",
+        "index": 196
+    },
+    "so_post": {
+        "ts": "2020-10-01T14:25:07.159000",
+        "user": "Beautiful",
+        "text": "@chaelee https://stackoverflow.com/questions/15478127/removefinalcharacterfromstring",
+        "conversation_id": "43",
+        "index": 197
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Lalah rephrases their question and they get another direct answer (actually technically a copy, but differently post question anyWAYS)",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-29T20:46:32.772000",
+        "user": "Muna",
+        "text": "ok since in Go the formal grammar uses semicolon to terminate statements and there are no semicolons at the source level the lexer inserts them. However what's the problem with putting an opening brace on a new line cant the lexer just move the brace on the previous line?",
+        "conversation_id": "761",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-02-29T21:08:54.922000",
+        "user": "Muna",
+        "text": "> @starshinata i think you dont know the difference between lexing and parsing is then@Str\u0153m I just said parsing as a way to explain the phase with the brace reformatting didn\\'t mean it as doing the parse phase before the lexer. About the invalid code I\\'m pretty sure there is still a way to code it to account for that case and still put braces on next line I think Lua and other languages do this. Actually I found a so post on that topic for whoever is interested in useless details https://stackoverflow.com/questions/17153838/whydoesgolangenforcecurlybrackettonotbeonthenextline",
+        "conversation_id": "761",
+        "index": 41
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Muna found an SO post for their own question",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

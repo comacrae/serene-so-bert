@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-05T17:45:26.666000",
+        "user": "Oyvind",
+        "text": "The first response is talking about a net.Conn. https://stackoverflow.com/questions/29531993/accessingtheunderlyingsocketofanethttpresponse This is a Reader but what data does it contain? Is it the body of the request or the complete request?",
+        "conversation_id": "1005",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-06-05T17:45:26.666000",
+        "user": "Oyvind",
+        "text": "The first response is talking about a net.Conn. https://stackoverflow.com/questions/29531993/accessingtheunderlyingsocketofanethttpresponse This is a Reader but what data does it contain? Is it the body of the request or the complete request?",
+        "conversation_id": "1005",
+        "index": 4
+    },
+    "category": "Question Repost",
+    "comments": "Ovyind trying to understand SO post (repost)",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

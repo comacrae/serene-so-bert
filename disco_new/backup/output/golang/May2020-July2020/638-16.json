@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-23T15:37:43.468000",
+        "user": "Eisley",
+        "text": "What is wrong with this code:```if c.Port err = strconv.Atoi(os.Getenv(\"GK_Port\")); err != nil { log.Fatalln(err)}```",
+        "conversation_id": "638",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-05-23T15:42:54.738000",
+        "user": "Eisley",
+        "text": "Like here: https://stackoverflow.com/questions/34266337/whyitispossibletoredefineerrinmultiplereturnstatementingo",
+        "conversation_id": "638",
+        "index": 16
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "eisley had question and then found answer and posted SO link",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

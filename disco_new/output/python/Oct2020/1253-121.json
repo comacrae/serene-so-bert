@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-17T21:28:00.270000",
+        "user": "Rosario",
+        "text": "can i hide the selenium window?",
+        "conversation_id": "1253",
+        "index": 119
+    },
+    "so_post": {
+        "ts": "2020-10-17T21:29:18.588000",
+        "user": "Graceson",
+        "text": "> can i hide the selenium window?@Pedro. https://stackoverflow.com/questions/16180428/canseleniumwebdriveropenbrowserwindowssilentlyinbackground#:~:text=You%20can%20also%20hack%20about,the%20window%20once%20it's%20opened.&text=If%20you%20are%20using%20Selenium,wrapper%20for%20Xvfb%20and%20Xephyr.&text=Chrome%2057%20has%20an%20option,which%20makes%20the%20window%20invisible.",
+        "conversation_id": "1253",
+        "index": 121
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to given question and quoted",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

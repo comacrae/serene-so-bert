@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-10T21:49:05.595000",
+        "user": "Makye",
+        "text": "can someone tell me what I\\'m doing wrong here? ```gopackage mainimport ( fmt\" math\")func main() { basePrice := 29.99 qty := 50.0 numberOfPayments := 12.0 totalPurchase := basePrice  qty monthlyPayments := math.Floor((basePriceqty)/numberOfPayments100) / 100 totalPay := monthlyPayments  numberOfPayments autopayCredit := totalPurchase  totalPay fmt.Println(totalPurchase) fmt.Println(monthlyPayments) fmt.Println(totalPay) fmt.Println(autopayCredit)}```",
+        "conversation_id": "2015",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-07-10T21:52:02.632000",
+        "user": "Radostin",
+        "text": "https://stackoverflow.com/questions/3730019/whynotusedoubleorfloattorepresentcurrency",
+        "conversation_id": "2015",
+        "index": 21
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Makye has question and Radostin provides SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

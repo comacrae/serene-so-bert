@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-05T04:34:41.028000",
+        "user": "Agape",
+        "text": "I am trying to get JSON from byte but still unable to do that ```var dat map[string]interface{}fmt.Fprintf(w string(resp) dat)```",
+        "conversation_id": "128",
+        "index": 10
+    },
+    "so_post": {
+        "ts": "2020-08-05T05:12:12.819000",
+        "user": "Toni",
+        "text": "https://stackoverflow.com/questions/46369920/convertstringdatetotimetimeingolang",
+        "conversation_id": "128",
+        "index": 65
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Agape has question and Toni provides answer after understanding the question better",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

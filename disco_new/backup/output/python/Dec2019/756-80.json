@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-21T19:33:24.720000",
+        "user": "Lauretta",
+        "text": "if I have `proc = subprocess.Popen(command)` and then I do `proc.kill()` how would I restart `proc`",
+        "conversation_id": "756",
+        "index": 79
+    },
+    "so_post": {
+        "ts": "2019-12-21T19:35:41.498000",
+        "user": "Andersyn",
+        "text": "https://stackoverflow.com/questions/28302081/subprocesscantsuccessfullyrestartthetargetedpythonfile",
+        "conversation_id": "756",
+        "index": 80
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

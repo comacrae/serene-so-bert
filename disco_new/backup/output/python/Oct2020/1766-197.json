@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-24T08:58:36.896000",
+        "user": "Dakota",
+        "text": "Can anyone help me find out how i can send a styled dash datatable in an email? Or is this a problem that nobody can solve in python?",
+        "conversation_id": "1766",
+        "index": 62
+    },
+    "so_post": {
+        "ts": "2020-10-24T09:32:09.697000",
+        "user": "Dakota",
+        "text": "https://stackoverflow.com/questions/64498244/exportingdatatablewithpythontooutlookmail?r=SearchResults",
+        "conversation_id": "1766",
+        "index": 197
+    },
+    "category": "Question Repost",
+    "comments": "Dakota reposting question since nobody replies",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

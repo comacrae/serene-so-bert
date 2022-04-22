@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-24T09:04:07.852000",
+        "user": "Leylany",
+        "text": "@Darr i understand  then what is the stub file for  i find it contains some python code  is it just for auto completion",
+        "conversation_id": "1443",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2020-06-24T09:04:37.735000",
+        "user": "Halli",
+        "text": "https://stackoverflow.com/questions/41734836/whatdoesirepresentinpythonpyiextension",
+        "conversation_id": "1443",
+        "index": 72
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

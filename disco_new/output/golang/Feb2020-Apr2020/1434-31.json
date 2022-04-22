@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-26T20:06:52.258000",
+        "user": "Jamon",
+        "text": "Small but of help neededI need to convert the intvar given by `os.Getuid()` to a uint32",
+        "conversation_id": "1434",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-03-26T20:10:20.836000",
+        "user": "Jamon",
+        "text": "https://stackoverflow.com/questions/23031752/startaprocessingoanddetachfromit/42190897 trying to do this",
+        "conversation_id": "1434",
+        "index": 31
+    },
+    "category": "Question Repost",
+    "comments": "Jamon trying to get help and posts SO for background",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

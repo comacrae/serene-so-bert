@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-04T14:30:49.035000",
+        "user": "Abraan",
+        "text": "Is there something similar to golang's PHP die command? I am using an echo web framework.",
+        "conversation_id": "590",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-04T14:31:57.281000",
+        "user": "Abraan",
+        "text": "https://stackoverflow.com/questions/38605226/howtoimplementaphpfunctiondieorexitingo",
+        "conversation_id": "590",
+        "index": 2
+    },
+    "category": "Question Repost",
+    "comments": "soliciting help",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

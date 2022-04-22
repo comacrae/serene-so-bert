@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-19T19:05:20.414000",
+        "user": "Rehan",
+        "text": "hey all I need a bit of CGo help. I would like to set the Wattributes flag to false to be able to suppress this warning as that flag shouldnt even be enabled in the first place. help would be much appreciated  thanks :)",
+        "conversation_id": "2260",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-19T19:08:15.020000",
+        "user": "Shritha",
+        "text": "https://stackoverflow.com/questions/925179/selectivelyremovewarningmessagegcchttps://golang.org/cmd/cgo/",
+        "conversation_id": "2260",
+        "index": 3
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Rehan asks question and Shritha provides answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

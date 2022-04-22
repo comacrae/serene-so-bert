@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-10T10:10:42.818000",
+        "user": "Jhon",
+        "text": "I am stuck at installing packages with Go. After enabling GO111MODULES=\"on I am unable to install packages. Getting error in pkg/mod directory with rename permission denied.",
+        "conversation_id": "290",
+        "index": 72
+    },
+    "so_post": {
+        "ts": "2020-08-10T11:10:49.522000",
+        "user": "Jhon",
+        "text": "Refer: https://stackoverflow.com/questions/58096783/visualstudiocodecantinstallthegotools",
+        "conversation_id": "290",
+        "index": 255
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Jhon had question and found SO post that gave them the solution",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

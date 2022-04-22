@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-22T16:34:21.875000",
+        "user": "Vaia",
+        "text": "Started bounty for this on SO. https://stackoverflow.com/questions/61904838/opensslscommandforpartialchaininpython",
+        "conversation_id": "1340",
+        "index": 184
+    },
+    "so_post": {
+        "ts": "2020-06-22T16:34:21.875000",
+        "user": "Vaia",
+        "text": "Started bounty for this on SO. https://stackoverflow.com/questions/61904838/opensslscommandforpartialchaininpython",
+        "conversation_id": "1340",
+        "index": 184
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

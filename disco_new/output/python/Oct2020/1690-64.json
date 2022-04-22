@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-23T04:41:49.095000",
+        "user": "Hildebrando",
+        "text": "> @Mazino 244d x=0 somewhere before the code will work@phoenix TclError Traceback (most recent call last)<ipythoninput41e6f0f2a788e> in <module> 7 screen = Entry(root textvar=scvalue font=\"lucidda 40 bold\") 8 x=0> 9 screen.pack(fill=x ipadx=8 padx=10 pady=10) 10 root.mainloop()c:\\\\users\\\\s&m tech source\\\\appdata\\\\local\\\\programs\\\\python\\\\python37\\\\lib\\\\tkinter\\\\__init__.py in pack_configure(self cnf kw) 2141 self.tk.call( 2142 (\\'pack\\ \\'configure\\ self._w)> 2143 + self._options(cnf kw)) 2144 pack = configure = config = pack_configure 2145 def pack_forget(self):TclError: bad fill style 0\": must be none x y or both",
+        "conversation_id": "1690",
+        "index": 43
+    },
+    "so_post": {
+        "ts": "2020-10-23T04:47:01.279000",
+        "user": "Zuhair",
+        "text": "https://stackoverflow.com/questions/30004060/cannotpositionwidgetswithpack",
+        "conversation_id": "1690",
+        "index": 64
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Hildebrado provides error code and Zuhair provides SO post",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-04T19:52:47.337000",
+        "user": "Anshika",
+        "text": "I have an http server and to quit it I press ctrlc which works fine but it always ends with: exit status 2",
+        "conversation_id": "87",
+        "index": 19
+    },
+    "so_post": {
+        "ts": "2019-11-04T20:13:27.869000",
+        "user": "Anshika",
+        "text": "To answer my own question: https://stackoverflow.com/a/40041517",
+        "conversation_id": "87",
+        "index": 30
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Ashika has question and finds their own answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

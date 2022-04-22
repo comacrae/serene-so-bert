@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-07T19:31:50.634000",
+        "user": "Joyous",
+        "text": "appreciated if someone can help",
+        "conversation_id": "481",
+        "index": 84
+    },
+    "so_post": {
+        "ts": "2020-09-07T19:32:03.095000",
+        "user": "Joyous",
+        "text": "https://stackoverflow.com/questions/63782713/tkinterkeepshowingthedownsidepartofrootStack Overflow",
+        "conversation_id": "481",
+        "index": 86
+    },
+    "category": "Question Repost",
+    "comments": "initating msg is first one from Joyous and their next (and only one) is the one with the SO post",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-20T11:41:40.826000",
+        "user": "Kaelyn",
+        "text": "whats the point of `Read` function in Reader if it returns number of bytes",
+        "conversation_id": "1557",
+        "index": 56
+    },
+    "so_post": {
+        "ts": "2020-01-20T11:41:47.948000",
+        "user": "Kaelyn",
+        "text": "trying to get https://stackoverflow.com/a/36749583/3067664",
+        "conversation_id": "1557",
+        "index": 57
+    },
+    "category": "Question Repost",
+    "comments": "Kaelyn is trying to understand SO post and asks question",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T15:03:41.516000",
+        "user": "Mikeal",
+        "text": "what python code allows you to locate images on the screen ?",
+        "conversation_id": "2229",
+        "index": 147
+    },
+    "so_post": {
+        "ts": "2020-10-30T15:06:55.417000",
+        "user": "Kaio",
+        "text": "then you just have to do a correlation search and there are examples in https://stackoverflow.com/questions/29663764/determineifanimageexistswithinalargerimageandifsofinditusingpy",
+        "conversation_id": "2229",
+        "index": 168
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

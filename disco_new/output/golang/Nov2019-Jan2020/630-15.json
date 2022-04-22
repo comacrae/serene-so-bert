@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-05T21:18:15.279000",
+        "user": "Kona",
+        "text": "Can I tell http.FileServer to serve a specific file when the requested files doesn't exist?",
+        "conversation_id": "630",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-05T21:29:26.847000",
+        "user": "Nicodemus",
+        "text": "@Skippy https://stackoverflow.com/questions/47285119/howtocustomhandleafilenotbeingfoundwhenusinggostaticfileserver this could help you.",
+        "conversation_id": "630",
+        "index": 15
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Kona asks question and Nicodemus provides SO answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

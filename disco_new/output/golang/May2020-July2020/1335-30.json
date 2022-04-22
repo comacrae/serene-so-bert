@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-17T18:34:55.945000",
+        "user": "Ronald",
+        "text": "im a complete noob and theres very little docs i dont get what the templates are and how to use them",
+        "conversation_id": "1335",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-06-17T18:59:14.454000",
+        "user": "Shritha",
+        "text": "https://stackoverflow.com/questions/22584193/cloneagtkwidgetfromgladesoitwillbereusableseveraltimesinapplication",
+        "conversation_id": "1335",
+        "index": 30
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Ronald has question and Shritha provides direct SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

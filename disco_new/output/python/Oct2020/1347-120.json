@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-19T01:37:54.865000",
+        "user": "Josabet",
+        "text": "I'm looking for a function similar to globals() but it also returns a list from all other namespaces. Is this possible?",
+        "conversation_id": "1347",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-10-19T02:13:12.534000",
+        "user": "Bawitha",
+        "text": "Modified from here: https://stackoverflow.com/questions/57361482/howtoimplementametapathimporteronpython3 but the goal is writeyourown since this isn't really a correct application it's simply an example of what is doable here",
+        "conversation_id": "1347",
+        "index": 120
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Josabet asking question about implementing a path importer (this is described later over a LOT of messages and back and forth, would be difficult to generate a group from)",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

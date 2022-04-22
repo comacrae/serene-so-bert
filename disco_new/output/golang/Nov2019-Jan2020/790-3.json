@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-12T19:36:42.638000",
+        "user": "Karter",
+        "text": "well that's unfortunate that there aren't any resources on establishing an ssl connection using Gorm",
+        "conversation_id": "790",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-12T19:46:04.286000",
+        "user": "Gonzalo",
+        "text": "Perhaps this would help? <https://stackoverflow.com/questions/52962028/howtocreatesslconnectiontomysqlwithgorm> \ud83e\udd37",
+        "conversation_id": "790",
+        "index": 3
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Karter asks for help and Gonzalo provides SO post answer",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

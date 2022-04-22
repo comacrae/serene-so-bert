@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-16T19:31:00.816000",
+        "user": "Icaro",
+        "text": "thats my struct how do I make `Email` unique every time?",
+        "conversation_id": "1307",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-06-16T19:31:48.304000",
+        "user": "Maram",
+        "text": "wow googling golang mongo unique turned up results https://stackoverflow.com/questions/55921098/makingauniquefieldinmongogodriver",
+        "conversation_id": "1307",
+        "index": 7
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "guy had question and Maram posts direct answer with SO post",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

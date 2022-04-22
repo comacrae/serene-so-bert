@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-12T17:06:22.114000",
+        "user": "Elisandro",
+        "text": "Okay I probably didnt get what you meant by polymorphism and I realize how stupid I sound",
+        "conversation_id": "864",
+        "index": 278
+    },
+    "so_post": {
+        "ts": "2020-10-12T17:10:23.540000",
+        "user": "Paola",
+        "text": "https://stackoverflow.com/questions/28841260/whatisthedifferencebetweencodataanddata maybe this can clear things up",
+        "conversation_id": "864",
+        "index": 294
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Elisandro is asking about polymorphism and Paola mentions polymorphism is codata in action and provides this OS post",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

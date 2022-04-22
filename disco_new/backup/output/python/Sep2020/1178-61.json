@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-17T12:15:46.468000",
+        "user": "Briea",
+        "text": "ignoring isn't good u know....",
+        "conversation_id": "1178",
+        "index": 57
+    },
+    "so_post": {
+        "ts": "2020-09-17T12:17:16.352000",
+        "user": "Briea",
+        "text": "https://stackoverflow.com/questions/20469174/whatsthedifferencebetweenstaffadminsuperuserindjango",
+        "conversation_id": "1178",
+        "index": 61
+    },
+    "category": "Question Repost",
+    "comments": "Briea is trying to get people to answer their question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

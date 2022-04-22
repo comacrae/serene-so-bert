@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T18:40:20.563000",
+        "user": "Arika",
+        "text": "One more thing! Haha thanksCan go (gin) set a cookie in the browser? Or does js have to do it?",
+        "conversation_id": "1315",
+        "index": 47
+    },
+    "so_post": {
+        "ts": "2020-09-11T18:43:02.677000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/34558264/fetchapiwithcookie",
+        "conversation_id": "1315",
+        "index": 62
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "ARika asks question and Smarie provides SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

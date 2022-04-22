@@ -1,0 +1,30 @@
+DISCO NOTES
+Project:Directory (i.e. time period):Conversation ID:Message Index
+
+Golang:Aug2020-Sep2020:1911:0
+	An SO post URL appears in the comments of code instead of being directly posted in chat
+	NOTE: Didn't actually make a QA pair out of this!!!
+	
+	
+Python:Sep2020:115:30
+	11:Haydin|i am a python beginnner how can i improve?
+	28:Haydin|maybe
+	30:Haydin|stackoverflow.com
+Python:Sep2020:1396:225:
+	225:Kyrell|If you're curious though for me when I stated actually using python I spent a lot of time googling the small questions on stackoverflow.com
+Python:Sep2020:1774:849
+	Quinn|elif \'open youtube\ in query: webbrowser.open("youtube.com") elif \'open google\ in query: webbrowser.open("google.com") elif \'open stackoverflow\ in query: 		   webbrowser.open("stackoverflow.com")Ok so I made it something like this but what i need is whenever a user says \'open (sitename)\ it opens (sitename).com
+
+Python:Oct2020:197:125
+	Mellow|```py@client.command()async def sendembed(ctx): e = discord.Embed(title="Stack Overflow  Where Developers Learn Share & Build Careers", url="https://stackoverflow.com", description="Stack Overflow | The World’s Largest Online Community for Developers") e.set_thumbnail(url="https://i.imgur.com/ddx8Bpg.png") await ctx.send(embed=e)```
+
+Python:Oct2020:1150:251
+	251:Nyliyah|@lakmatiol fair enough I can say I had the worst instructor ever when first learning (Pretty much self taught with a person I could occasionally get assistance troubleshooting from) 	otherwise while in school stackoverflow community helped me learn more than my instructor.
+
+Python:Jun2020:668:161
+	161:Elam|also stackoverflow.com and the youtube channel <https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg>
+
+Python:Jun2020:1575:387
+	387:Halli|Add stackoverflow.com and the figure probably goes to 90+
+
+

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-19T20:52:29.511000",
+        "user": "Magali",
+        "text": "hey I'm new to go and I have a question that I can't seem to find answer for  is it possible to make something packageprivate? (internal in kotlin default modifier in java)I want to expose something but only to the current package I don't want it to be visible in other packages",
+        "conversation_id": "1581",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-19T20:59:30.647000",
+        "user": "Dreya",
+        "text": "> <https://stackoverflow.com/questions/33351387/howtouseinternalpackages>@evandocarmo tldr of why I use `internal` is for stuff that is specific to the current project and shouldn't be imported by any other project. The Go compiler does not allow importing things from `internal` in other packages.",
+        "conversation_id": "1581",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Magali has question and Dreya provides answer using SO post",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

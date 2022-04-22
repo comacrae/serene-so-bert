@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-09T07:44:08.306000",
+        "user": "Hridhaan",
+        "text": "guys how can i position text in pygame?",
+        "conversation_id": "499",
+        "index": 80
+    },
+    "so_post": {
+        "ts": "2020-06-09T07:47:48.478000",
+        "user": "Amatullah",
+        "text": "https://stackoverflow.com/questions/20550743/pygamehowtowritetextontoaspecificlocationalsohowtousecoordinate @MySeR",
+        "conversation_id": "499",
+        "index": 118
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

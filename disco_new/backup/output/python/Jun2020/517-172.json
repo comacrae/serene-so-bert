@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-09T15:09:24.607000",
+        "user": "Valarie",
+        "text": "Mr.Hemlock was wondering if you knew how to implement python into Java are you familiar with any methods ?",
+        "conversation_id": "517",
+        "index": 152
+    },
+    "so_post": {
+        "ts": "2020-06-09T15:14:59.182000",
+        "user": "Janiel",
+        "text": "@crypticzane <https://stackoverflow.com/a/1119884> You might look into what this guy is talking about",
+        "conversation_id": "517",
+        "index": 172
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

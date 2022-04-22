@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-03T21:58:19.698000",
+        "user": "Hailyn",
+        "text": "```pythonif config[\"DebugMode\"] == True: print(\\'file has been created\\') debugfile = open(\\'Debug.txt\\ \\'w\\') currenttime = (time.strftime(\\'[%I:%M:%S:%p] \\')) debugfile.write(\"Debug file created At: +currenttime) debugfile.write(\\'\\\\') debugfile.write(\\'\\\\')```anyone know i did something wrong here?",
+        "conversation_id": "222",
+        "index": 62
+    },
+    "so_post": {
+        "ts": "2020-10-03T22:23:25.524000",
+        "user": "Torianna",
+        "text": "Problably means that the enviroment of ironpython doesn't exist or is incorrectly configured.Link to StackOverFlow = https://stackoverflow.com/questions/46045103/visualstudiotheenvironmentironpython2732appearstobeincorrectlycon",
+        "conversation_id": "222",
+        "index": 119
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Hailyn asks question with error and Torianna provides an SO post ",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-06T22:01:36.127000",
+        "user": "Rubyjean",
+        "text": "Also made a stack overflow post here that explains it a bit better.https://stackoverflow.com/questions/60104118/bestwaytostorexmlneededforapicallsinapythonpackage",
+        "conversation_id": "257",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-02-06T22:01:36.127000",
+        "user": "Rubyjean",
+        "text": "Also made a stack overflow post here that explains it a bit better.https://stackoverflow.com/questions/60104118/bestwaytostorexmlneededforapicallsinapythonpackage",
+        "conversation_id": "257",
+        "index": 12
+    },
+    "category": "Question Repost",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

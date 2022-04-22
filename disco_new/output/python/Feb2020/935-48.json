@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-23T04:22:07.293000",
+        "user": "Kamya",
+        "text": "does it matter which package manager you install/uninstall with",
+        "conversation_id": "935",
+        "index": 39
+    },
+    "so_post": {
+        "ts": "2020-02-23T04:32:16.008000",
+        "user": "Kamya",
+        "text": "https://stackoverflow.com/questions/51373063/pip3badinterpreternosuchfileordirectory",
+        "conversation_id": "935",
+        "index": 48
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

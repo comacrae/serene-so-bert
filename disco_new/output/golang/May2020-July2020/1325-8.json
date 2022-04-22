@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-17T10:24:05.703000",
+        "user": "Espiridion",
+        "text": "how can i make a gorilla/mux router which basiclly works like v1 and after i would need to combine many routers",
+        "conversation_id": "1325",
+        "index": 7
+    },
+    "so_post": {
+        "ts": "2020-06-17T10:26:43.500000",
+        "user": "Arun",
+        "text": "@Deleted User https://stackoverflow.com/a/52473957/9740292 . I used mount in gochi . But not sure about gorilla. Please refer this link.",
+        "conversation_id": "1325",
+        "index": 8
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Espiridion asks question and Arun provides direct SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

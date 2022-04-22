@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-14T19:18:16.080000",
+        "user": "Dareck",
+        "text": "also raised a stack overflow but only upvotes till now https://stackoverflow.com/questions/63410554/golangcgoappdelegateimplementationdoesntwork",
+        "conversation_id": "435",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2020-08-14T19:18:16.080000",
+        "user": "Dareck",
+        "text": "also raised a stack overflow but only upvotes till now https://stackoverflow.com/questions/63410554/golangcgoappdelegateimplementationdoesntwork",
+        "conversation_id": "435",
+        "index": 32
+    },
+    "category": "Question Repost",
+    "comments": "repost",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

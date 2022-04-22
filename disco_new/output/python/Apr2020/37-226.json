@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-01T19:08:10.584000",
+        "user": "Salimata",
+        "text": "is it possible to convert binary to ternary in python",
+        "conversation_id": "37",
+        "index": 221
+    },
+    "so_post": {
+        "ts": "2020-04-01T19:08:54.051000",
+        "user": "Harlene",
+        "text": "@yoda gaming do you mean this? https://stackoverflow.com/questions/394809/doespythonhaveaternaryconditionaloperator",
+        "conversation_id": "37",
+        "index": 226
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Salimata(Yoda Gaming) asked how to convert binary (Base2) to Ternary (Base3)",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

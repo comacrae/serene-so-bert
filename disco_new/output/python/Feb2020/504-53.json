@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-12T19:20:02.241000",
+        "user": "Aldan",
+        "text": "https://stackoverflow.com/questions/60176505/howtoreturnthevalueofaappcallbackfunctiontoaglobalvariableindash",
+        "conversation_id": "504",
+        "index": 53
+    },
+    "so_post": {
+        "ts": "2020-02-12T19:20:02.241000",
+        "user": "Aldan",
+        "text": "https://stackoverflow.com/questions/60176505/howtoreturnthevalueofaappcallbackfunctiontoaglobalvariableindash",
+        "conversation_id": "504",
+        "index": 53
+    },
+    "category": "Question Repost",
+    "comments": "The post above states the user is posting their own question.",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

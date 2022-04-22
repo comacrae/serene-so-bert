@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-28T04:17:05.897000",
+        "user": "Abdelbasset",
+        "text": "`Assuming Python 3 (in Python 2 this difference is a little less welldefined)  a string is a sequence of characters ie unicode codepoints; these are an abstract concept and can't be directly stored on disk. A byte string is a sequence of unsurprisingly bytes  things that can be stored on disk. The mapping between them is an encoding  there are quite a lot of these (and infinitely many are possible)  and you need to know which applies in the particular case in order to do the conversion since a different encoding may map the same bytes to a different string:`",
+        "conversation_id": "2040",
+        "index": 214
+    },
+    "so_post": {
+        "ts": "2020-10-28T04:17:19.547000",
+        "user": "Abdelbasset",
+        "text": "https://stackoverflow.com/questions/6224052/whatisthedifferencebetweenastringandabytestring",
+        "conversation_id": "2040",
+        "index": 216
+    },
+    "category": "Question Repost",
+    "comments": "repost because they say \"just posted in SO\"",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

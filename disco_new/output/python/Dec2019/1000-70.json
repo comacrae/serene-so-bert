@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-28T18:18:39.110000",
+        "user": "Sheina",
+        "text": "https://stackoverflow.com/questions/59513656/qtwebenginenotworkingonmacoswithpyqtwhatisgoingwrong Any ideas?",
+        "conversation_id": "1000",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2019-12-28T18:18:39.110000",
+        "user": "Sheina",
+        "text": "https://stackoverflow.com/questions/59513656/qtwebenginenotworkingonmacoswithpyqtwhatisgoingwrong Any ideas?",
+        "conversation_id": "1000",
+        "index": 70
+    },
+    "category": "Question Repost",
+    "comments": "asking for help",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

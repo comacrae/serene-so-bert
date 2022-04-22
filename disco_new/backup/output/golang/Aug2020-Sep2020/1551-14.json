@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-18T21:03:26.266000",
+        "user": "Yufan",
+        "text": "you can `int()` a rune ?",
+        "conversation_id": "1551",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-09-18T21:05:31.771000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/a/63306643/5041327",
+        "conversation_id": "1551",
+        "index": 14
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Yufan asks question and Samarie provides sO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

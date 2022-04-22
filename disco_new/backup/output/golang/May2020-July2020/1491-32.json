@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T06:16:30.713000",
+        "user": "Jayshon",
+        "text": "is there an official explanation why there's not set data structure in go?",
+        "conversation_id": "1491",
+        "index": 31
+    },
+    "so_post": {
+        "ts": "2020-06-23T06:16:48.070000",
+        "user": "Jayshon",
+        "text": "found https://stackoverflow.com/questions/34018908/golangwhydontwehaveasetdatastructure",
+        "conversation_id": "1491",
+        "index": 32
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Jayshon had question and found direct SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

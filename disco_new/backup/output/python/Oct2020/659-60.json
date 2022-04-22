@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-09T20:05:12.266000",
+        "user": "Zyhaire",
+        "text": "@lgneous So you're saying pay for C wizards is low? Or demand for C wizards is high?",
+        "conversation_id": "659",
+        "index": 59
+    },
+    "so_post": {
+        "ts": "2020-10-09T20:05:20.549000",
+        "user": "Paola",
+        "text": "https://insights.stackoverflow.com/survey/2020#technologywhatlanguagesareassociatedwiththehighestsalariesworldwide same here",
+        "conversation_id": "659",
+        "index": 60
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer form SO to question about languages and salaries",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

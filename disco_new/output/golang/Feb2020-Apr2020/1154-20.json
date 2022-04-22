@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-16T21:03:53.830000",
+        "user": "Peijun",
+        "text": "I'm trying to create an image and I got this error: `panic: open digart.png: not implemented on js`",
+        "conversation_id": "1154",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2020-03-16T21:09:46.431000",
+        "user": "Jkari",
+        "text": "https://stackoverflow.com/questions/8499633/howtodisplaybase64imagesinhtml",
+        "conversation_id": "1154",
+        "index": 20
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Peijun has question and Jkari provides SO post answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

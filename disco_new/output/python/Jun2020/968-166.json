@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-16T12:59:46.532000",
+        "user": "Kayo",
+        "text": "look all i need is: i have a script and when i open the .py file i dont want it to run immidiatly when i start it i justwant it to print the logo and from there when i press 0 that it starts the script",
+        "conversation_id": "968",
+        "index": 122
+    },
+    "so_post": {
+        "ts": "2020-06-16T13:14:13.720000",
+        "user": "Destinee",
+        "text": "https://stackoverflow.com/questions/12175964/pythonmethodforreadingkeypress @helloboi",
+        "conversation_id": "968",
+        "index": 166
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}
