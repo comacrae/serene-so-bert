@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-02T11:00:13.508000",
+        "user": "Suraya",
+        "text": "Hi guys I tried searching everywhere but what unicode encoding in Clojure using? It doesn't seem to be UTF8",
+        "conversation_id": "39",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-02T12:22:07.116000",
+        "user": "Dianne",
+        "text": "Looks like the internal representation is UTF16: https://stackoverflow.com/questions/9699071/whatisthejavasinternalrepresentionforstringmodifiedutf8utf16",
+        "conversation_id": "40",
+        "index": 0
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "someone wants to know about encoding for clojure and they recieve an answer with an SO post link",
+    "meta": {
+        "start_date": "2020-05-06T05:35:13.419000",
+        "end_time": null,
+        "channel_name": "clojure",
+        "team_domain": "Clojurians",
+        "count": 380
+    }
+}
