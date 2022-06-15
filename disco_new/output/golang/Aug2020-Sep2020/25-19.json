@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-01T19:01:32.666000",
+        "user": "Maesen",
+        "text": "Didn't think I'd have to learn the background of RSA to do this",
+        "conversation_id": "25",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-08-01T19:02:22.310000",
+        "user": "Jocko",
+        "text": "https://stackoverflow.com/a/29679379/7794030",
+        "conversation_id": "25",
+        "index": 19
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Maesen is trying to understand RSA and Jocko provides SO implementation",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

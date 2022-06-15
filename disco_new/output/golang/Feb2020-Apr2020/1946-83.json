@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-15T07:43:52.832000",
+        "user": "Georgia",
+        "text": "https://stackoverflow.com/questions/14177862/howtomarshalabyteuint8arrayasjsonarrayingo",
+        "conversation_id": "1946",
+        "index": 83
+    },
+    "so_post": {
+        "ts": "2020-04-15T07:43:52.832000",
+        "user": "Georgia",
+        "text": "https://stackoverflow.com/questions/14177862/howtomarshalabyteuint8arrayasjsonarrayingo",
+        "conversation_id": "1946",
+        "index": 83
+    },
+    "category": "Other",
+    "comments": "nothing else in thread is realted to string marshalling that is a question",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

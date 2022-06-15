@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-28T03:37:44.596000",
+        "user": "Phor",
+        "text": "so how do you guys do it?",
+        "conversation_id": "1783",
+        "index": 30
+    },
+    "so_post": {
+        "ts": "2020-01-28T03:39:05.983000",
+        "user": "Leo",
+        "text": "https://stackoverflow.com/questions/13530120/howcanigeneratehtmldocumentsusinggodoc",
+        "conversation_id": "1783",
+        "index": 39
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Phor wants to know how to use godoc (would be impossible to concatenate messages since the whole convo is between 3-5 people and mixed)",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

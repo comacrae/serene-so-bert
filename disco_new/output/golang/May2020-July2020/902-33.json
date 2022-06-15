@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-02T00:57:27.068000",
+        "user": "Etziel",
+        "text": "@Str\u0153m modd isn't picking up file changes. Here is the dockercompose file: ``` test: build: context: . dockerfile: Dockerfile volumes:  .:/app:rw  $GOPATH/pkg/mod:/go/pkg/mod # Put modules cache into a separate volume command: modd ```",
+        "conversation_id": "902",
+        "index": 28
+    },
+    "so_post": {
+        "ts": "2020-06-02T00:58:16.677000",
+        "user": "Shritha",
+        "text": "https://stackoverflow.com/questions/57562606/whydoessyncmutexlargelydropperformancewhengoroutinecontentionismoret",
+        "conversation_id": "902",
+        "index": 33
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asker needs help and shritha provides an SO post answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

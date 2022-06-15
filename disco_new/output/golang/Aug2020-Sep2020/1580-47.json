@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-19T20:57:39.246000",
+        "user": "Bayne",
+        "text": "https://stackoverflow.com/questions/33351387/howtouseinternalpackages",
+        "conversation_id": "1580",
+        "index": 47
+    },
+    "so_post": {
+        "ts": "2020-09-19T20:57:39.246000",
+        "user": "Bayne",
+        "text": "https://stackoverflow.com/questions/33351387/howtouseinternalpackages",
+        "conversation_id": "1580",
+        "index": 47
+    },
+    "category": "Other",
+    "comments": "no context for given post, unsure if its an outsource or what since it's last post in thread",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

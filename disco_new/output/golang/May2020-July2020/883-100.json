@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-01T15:07:20.027000",
+        "user": "Rainer",
+        "text": "I think ton of consts is more durable to change sure but I always supposed that it would involve an expensive comparison between all of the possibilities in the switch case",
+        "conversation_id": "883",
+        "index": 93
+    },
+    "so_post": {
+        "ts": "2020-06-01T15:10:13.089000",
+        "user": "Radostin",
+        "text": "https://stackoverflow.com/questions/28024884/doesatypeassertiontypeswitchhavebadperformanceisslowingo",
+        "conversation_id": "883",
+        "index": 100
+    },
+    "category": "Other",
+    "comments": "radostin is using the SO post to rebute rainer's statement",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

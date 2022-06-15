@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-20T03:37:08.958000",
+        "user": "Maebel",
+        "text": "https://stackoverflow.com/questions/55925822/ingolangwhyareiterationsovermapsrandom/55925880",
+        "conversation_id": "533",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2020-05-20T03:37:08.958000",
+        "user": "Maebel",
+        "text": "https://stackoverflow.com/questions/55925822/ingolangwhyareiterationsovermapsrandom/55925880",
+        "conversation_id": "533",
+        "index": 3
+    },
+    "category": "Other",
+    "comments": "no context",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

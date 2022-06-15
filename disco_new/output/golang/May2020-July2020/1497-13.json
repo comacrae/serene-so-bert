@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T11:04:11.977000",
+        "user": "Gabi",
+        "text": "```gofunc Encrypt(data []byte key string) ([]byte error) { if key ==  { return nil fmt.Errorf(\"must enter key\") } block _ := aes.NewCipher([]byte(Hash(key))) gcm err := cipher.NewGCM(block) if err != nil { return nil err } nonce := make([]byte gcm.NonceSize()) if _ err = io.ReadFull(rand.Reader nonce); err != nil { return nil err } ciphertext := gcm.Seal(nonce nonce data nil) return ciphertext nil}``` the function `gcm.Seal` only takes bytes instead of a buffer so I need to look for a new function!",
+        "conversation_id": "1497",
+        "index": 9
+    },
+    "so_post": {
+        "ts": "2020-06-23T11:05:53.979000",
+        "user": "Radostin",
+        "text": "https://stackoverflow.com/questions/29237411/howtoconverttypebytesbuffertouseasbyteinargumenttowwrite",
+        "conversation_id": "1497",
+        "index": 13
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "gabi needs to convert bytes. they get a direct SO answer",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

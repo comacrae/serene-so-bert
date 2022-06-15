@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-14T23:10:05.800000",
+        "user": "Annetta",
+        "text": "I'd say it depends of the context?",
+        "conversation_id": "2120",
+        "index": 15
+    },
+    "so_post": {
+        "ts": "2020-07-14T23:12:06.251000",
+        "user": "Jahlia",
+        "text": "https://stackoverflow.com/questions/23079087/postingjsondatatoremoteserverwithhttppost",
+        "conversation_id": "2120",
+        "index": 17
+    },
+    "category": "Other",
+    "comments": "asked about context for best iplementation and they provide an SO post (could be outsourcing, unsure) ",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

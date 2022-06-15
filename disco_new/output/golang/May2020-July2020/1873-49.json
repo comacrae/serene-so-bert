@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-06T13:34:39.676000",
+        "user": "Calin",
+        "text": "well the problem here is that net/http requires a handler which is mapped to a route if there is no valid route there is no handler",
+        "conversation_id": "1873",
+        "index": 44
+    },
+    "so_post": {
+        "ts": "2020-07-06T13:45:08.100000",
+        "user": "Calin",
+        "text": "https://stackoverflow.com/questions/45802492/howcanicustomizehttp400responsesforparseerrors",
+        "conversation_id": "1873",
+        "index": 49
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "calin was trying to catch a 400 request and it turns out they cant do it, discovered via SO post",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-08T21:32:37.989000",
+        "user": "Josselin",
+        "text": "you\\'re reading these lines and using each subsequent newline character to section of that piece of data into its own line",
+        "conversation_id": "245",
+        "index": 64
+    },
+    "so_post": {
+        "ts": "2020-08-08T21:26:36.473000",
+        "user": "Rainey",
+        "text": "https://stackoverflow.com/questions/2287967/whyisitrecommendedtohaveemptylineintheendofasourcefile",
+        "conversation_id": "245",
+        "index": 60
+    },
+    "category": "Other",
+    "comments": "rainey is using SO post as question prompt and josselin answers in plain text",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

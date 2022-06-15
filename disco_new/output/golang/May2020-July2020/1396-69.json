@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-19T19:14:46.831000",
+        "user": "Maram",
+        "text": "you can't embed interfaces in structs?",
+        "conversation_id": "1396",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-06-19T19:15:11.656000",
+        "user": "Dmya",
+        "text": "https://stackoverflow.com/questions/38469452/reducingcodeduplicationingolang",
+        "conversation_id": "1396",
+        "index": 69
+    },
+    "category": "Other",
+    "comments": "maram is making a statement, not a question, but they get proved wrong by SO post ",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

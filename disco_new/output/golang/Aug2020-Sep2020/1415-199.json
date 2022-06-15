@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-14T21:57:58.185000",
+        "user": "Samarie",
+        "text": "holy shit I have found wack",
+        "conversation_id": "1415",
+        "index": 198
+    },
+    "so_post": {
+        "ts": "2020-09-14T21:57:59.708000",
+        "user": "Samarie",
+        "text": "https://stackoverflow.com/questions/1757090/sharedlibraryingo",
+        "conversation_id": "1415",
+        "index": 199
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "sharing cool info with other Go programmers",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

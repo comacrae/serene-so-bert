@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-13T01:47:10.855000",
+        "user": "Shritha",
+        "text": "wait windows rename is different from move?",
+        "conversation_id": "2069",
+        "index": 65
+    },
+    "so_post": {
+        "ts": "2020-07-13T01:47:42.449000",
+        "user": "Shritha",
+        "text": "https://stackoverflow.com/a/2368286",
+        "conversation_id": "2069",
+        "index": 69
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "they find the answer to their own question about rename vs move in windows 32",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

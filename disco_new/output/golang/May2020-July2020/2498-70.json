@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-28T01:42:33.682000",
+        "user": "Khalise",
+        "text": "i have `s` in my pass to goimports when saving config",
+        "conversation_id": "2498",
+        "index": 68
+    },
+    "so_post": {
+        "ts": "2020-07-28T01:53:12.052000",
+        "user": "Shritha",
+        "text": "https://stackoverflow.com/questions/37585758/howtoredirectoutputofsystemdservicetoafile",
+        "conversation_id": "2498",
+        "index": 70
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "khalise's config isnt working as xpected (stdout isnt being redirected as expected)",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

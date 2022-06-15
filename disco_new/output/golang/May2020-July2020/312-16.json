@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-12T15:02:07.621000",
+        "user": "Brandin",
+        "text": "Actually I shoulda probably googled this before I asked here: https://stackoverflow.com/questions/26634554/gomultiplelencallsvsperformance",
+        "conversation_id": "312",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-05-12T15:02:07.621000",
+        "user": "Brandin",
+        "text": "Actually I shoulda probably googled this before I asked here: https://stackoverflow.com/questions/26634554/gomultiplelencallsvsperformance",
+        "conversation_id": "312",
+        "index": 16
+    },
+    "category": "Other",
+    "comments": "i dont know what they asked exactly and dont want to presume so i will mark this as Other instead of direct solution from asker, particularly since the question is beyond thread context",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

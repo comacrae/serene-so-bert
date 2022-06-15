@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-04T12:13:50.730000",
+        "user": "Almamy",
+        "text": "> <https://stackoverflow.com/questions/55045402/memoryleakingolangslice>@mmacheerpuppy whym? ppl just don't understand how memory is allocated",
+        "conversation_id": "962",
+        "index": 39
+    },
+    "so_post": {
+        "ts": "2020-06-04T12:13:50.730000",
+        "user": "Almamy",
+        "text": "> <https://stackoverflow.com/questions/55045402/memoryleakingolangslice>@mmacheerpuppy whym? ppl just don't understand how memory is allocated",
+        "conversation_id": "962",
+        "index": 39
+    },
+    "category": "Other",
+    "comments": "commenting on SO post answer with claim that its not helpful",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

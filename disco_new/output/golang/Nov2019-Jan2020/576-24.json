@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-03T15:48:35.795000",
+        "user": "Masud",
+        "text": "@away to \ud83d\udd4b https://stackoverflow.com/questions/19847594/howtoreliablydetectosplatformingo",
+        "conversation_id": "576",
+        "index": 24
+    },
+    "so_post": {
+        "ts": "2019-12-03T15:48:35.795000",
+        "user": "Masud",
+        "text": "@away to \ud83d\udd4b https://stackoverflow.com/questions/19847594/howtoreliablydetectosplatformingo",
+        "conversation_id": "576",
+        "index": 24
+    },
+    "category": "Other",
+    "comments": "out of context",
+    "meta": {
+        "start_date": "2019-11-01T04:49:13.533000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 40084
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-30T14:22:11.133000",
+        "user": "Zechariah",
+        "text": "Hi all the following code is to create a thumbnail using `github.com/disintegration/imaging` packageworks well for typical image format like jpeg but it does not work well for `webp` file format.I got error`imaging: unsupported image format` with the code below.Is there a more robust way to generate thumbnails for typical image types (jpg gif tiff bmp etc.) and webp?` package main  import ( bytes\" fmt\" github.com/disintegration/imaging\" github.com/chai2010/webp\" io/ioutil\" )  //https://stackoverflow.com/questions/8340751/webpencoderdecoderingo func main() { //img _ := imaging.Open(\"ml/input/apple.jpg\")  // Load webp data _ := ioutil.ReadFile(\"ml/input/waterski2.webp\") // Decode webp img _ := webp.Decode(bytes.NewReader(data)) //Create thumbnail dstImage := imaging.Thumbnail(img 400 400 imaging.Lanczos)  err1:=imaging.Save(dstImage ml/output/waterski2.webp\") if err1!=nil{ fmt.Println(err1) } }`",
+        "conversation_id": "1911",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-30T14:22:11.133000",
+        "user": "Zechariah",
+        "text": "Hi all the following code is to create a thumbnail using `github.com/disintegration/imaging` packageworks well for typical image format like jpeg but it does not work well for `webp` file format.I got error`imaging: unsupported image format` with the code below.Is there a more robust way to generate thumbnails for typical image types (jpg gif tiff bmp etc.) and webp?` package main  import ( bytes\" fmt\" github.com/disintegration/imaging\" github.com/chai2010/webp\" io/ioutil\" )  //https://stackoverflow.com/questions/8340751/webpencoderdecoderingo func main() { //img _ := imaging.Open(\"ml/input/apple.jpg\")  // Load webp data _ := ioutil.ReadFile(\"ml/input/waterski2.webp\") // Decode webp img _ := webp.Decode(bytes.NewReader(data)) //Create thumbnail dstImage := imaging.Thumbnail(img 400 400 imaging.Lanczos)  err1:=imaging.Save(dstImage ml/output/waterski2.webp\") if err1!=nil{ fmt.Println(err1) } }`",
+        "conversation_id": "1911",
+        "index": 0
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "their question in SO post",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-11T18:23:05.497000",
+        "user": "Arika",
+        "text": "Hi there I have a go API & Vue frontend Im wondering how I can obtain (in the API) the current user details i.e if the user is logged in and what there name is for example",
+        "conversation_id": "1315",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-09-11T18:47:24.092000",
+        "user": "Arika",
+        "text": "https://stackoverflow.com/questions/43002444/makeaxiossendcookiesinitsrequestsautomatically",
+        "conversation_id": "1315",
+        "index": 84
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "the solution ends up not working, but the asker finds the solution from SO",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

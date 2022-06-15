@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-14T21:58:45.062000",
+        "user": "Makynna",
+        "text": "> https://stackoverflow.com/questions/1757090/sharedlibraryingo@_diamondburned_ Oh damn thats acc interesting",
+        "conversation_id": "1415",
+        "index": 204
+    },
+    "so_post": {
+        "ts": "2020-09-14T21:58:45.062000",
+        "user": "Makynna",
+        "text": "> https://stackoverflow.com/questions/1757090/sharedlibraryingo@_diamondburned_ Oh damn thats acc interesting",
+        "conversation_id": "1415",
+        "index": 204
+    },
+    "category": "Other",
+    "comments": "just commenting on the url and saying its cool",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

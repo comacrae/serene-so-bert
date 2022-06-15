@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-23T11:01:59.934000",
+        "user": "Radostin",
+        "text": "This is similar to what you're trying to do https://stackoverflow.com/questions/29313133/howdoireadinalargeflatfileingolang",
+        "conversation_id": "1497",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-06-23T11:01:59.934000",
+        "user": "Radostin",
+        "text": "This is similar to what you're trying to do https://stackoverflow.com/questions/29313133/howdoireadinalargeflatfileingolang",
+        "conversation_id": "1497",
+        "index": 5
+    },
+    "category": "Other",
+    "comments": "any context is beyond thread",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

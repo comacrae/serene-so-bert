@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-24T18:05:54.268000",
+        "user": "Jahlia",
+        "text": "@_diamondburned_ i think my code was solid mate https://stackoverflow.com/questions/55243071/doestickercleakmemoryifrunforever",
+        "conversation_id": "2406",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-07-24T18:05:54.268000",
+        "user": "Jahlia",
+        "text": "@_diamondburned_ i think my code was solid mate https://stackoverflow.com/questions/55243071/doestickercleakmemoryifrunforever",
+        "conversation_id": "2406",
+        "index": 18
+    },
+    "category": "Other",
+    "comments": "no context",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

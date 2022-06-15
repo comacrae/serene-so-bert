@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-26T20:06:52.258000",
+        "user": "Jamon",
+        "text": "Small but of help neededI need to convert the intvar given by `os.Getuid()` to a uint32",
+        "conversation_id": "1434",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-03-26T20:10:51.449000",
+        "user": "Jkari",
+        "text": "https://stackoverflow.com/questions/37082388/golangexecprocessandtodisownit",
+        "conversation_id": "1434",
+        "index": 33
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "SO post isnt a direct solution but is required to help with implementing",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

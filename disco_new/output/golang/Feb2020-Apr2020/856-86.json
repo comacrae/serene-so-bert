@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-04T23:09:30.752000",
+        "user": "Tano",
+        "text": "might be `go run ...` doesn't hit the internet when you have a cached copy but when you upgraded go versions it didn't have that copy anymore?",
+        "conversation_id": "856",
+        "index": 63
+    },
+    "so_post": {
+        "ts": "2020-03-04T23:22:58.033000",
+        "user": "Tano",
+        "text": "correction: https://stackoverflow.com/a/28432812",
+        "conversation_id": "856",
+        "index": 86
+    },
+    "category": "Other",
+    "comments": "Tano uses an SO post to correct a previous assumption they had",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-05T08:30:43.305000",
+        "user": "Bastian",
+        "text": "db.exec is variadic so you can basically create a slice of the values you want to insert and then run ``` _ err := db.Exec(stmt valueArgs...)``` theres a full example here https://stackoverflow.com/questions/12486436/howdoibatchsqlstatementswithpackagedatabasesql but it assumes that youre using a sqlite3 implementation that extends that db interface  (disclaimer) probably theres someone else here who knows more than me though",
+        "conversation_id": "1684",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-04-05T08:30:43.305000",
+        "user": "Bastian",
+        "text": "db.exec is variadic so you can basically create a slice of the values you want to insert and then run ``` _ err := db.Exec(stmt valueArgs...)``` theres a full example here https://stackoverflow.com/questions/12486436/howdoibatchsqlstatementswithpackagedatabasesql but it assumes that youre using a sqlite3 implementation that extends that db interface  (disclaimer) probably theres someone else here who knows more than me though",
+        "conversation_id": "1684",
+        "index": 0
+    },
+    "category": "Other",
+    "comments": "bugged thread. no context and it seems like its an answer ot something else",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

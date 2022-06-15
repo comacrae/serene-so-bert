@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-12T20:27:25.719000",
+        "user": "Cavin",
+        "text": "See also this wonderful stackoverflow answer about continuation prompts as it explains the difference between _full_ continuations and _delimited_ continuations: https://stackoverflow.com/questions/29838344/whatexactlyisacontinuationpromptSummary: delimited continuations are the ones you should use. Full continuations are full of complex nonsensical behavior that\\'s not useful in real programs.",
+        "conversation_id": "19",
+        "index": 9
+    },
+    "so_post": {
+        "ts": "2020-05-12T20:27:25.719000",
+        "user": "Cavin",
+        "text": "See also this wonderful stackoverflow answer about continuation prompts as it explains the difference between _full_ continuations and _delimited_ continuations: https://stackoverflow.com/questions/29838344/whatexactlyisacontinuationpromptSummary: delimited continuations are the ones you should use. Full continuations are full of complex nonsensical behavior that\\'s not useful in real programs.",
+        "conversation_id": "19",
+        "index": 9
+    },
+    "category": "Other",
+    "comments": "no context",
+    "meta": {
+        "start_date": "2020-05-01T02:07:59.304000",
+        "end_time": null,
+        "channel_name": "general",
+        "team_domain": "Racket",
+        "count": 765
+    }
+}

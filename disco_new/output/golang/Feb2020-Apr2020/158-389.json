@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-07T03:53:10.447000",
+        "user": "Gracian",
+        "text": "seems like golang only supports ttf",
+        "conversation_id": "158",
+        "index": 383
+    },
+    "so_post": {
+        "ts": "2020-02-07T03:56:15.646000",
+        "user": "Jkari",
+        "text": "https://stackoverflow.com/questions/15455895/convertorextractttcfonttottfhowto",
+        "conversation_id": "158",
+        "index": 389
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Gracian wants to know how to export TTC to TTF and Jkari provides SO post answer",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

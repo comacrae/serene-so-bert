@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-05T22:07:21.568000",
+        "user": "Knova",
+        "text": "It\u2019d be great to have comparison with custom comparator for given json path",
+        "conversation_id": "883",
+        "index": 52
+    },
+    "so_post": {
+        "ts": "2020-03-05T22:08:02.557000",
+        "user": "Knova",
+        "text": "https://stackoverflow.com/questions/38853598/ignorespecificnodesattributeswhilecomparingtwojsons",
+        "conversation_id": "883",
+        "index": 54
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Not exactly a queston, but Knova wishes there was a certain way of comparing JSON strings and finds an SO implementation",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

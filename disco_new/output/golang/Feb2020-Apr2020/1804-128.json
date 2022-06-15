@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-09T19:44:01.714000",
+        "user": "Salva",
+        "text": "basically I have a http endpoint `/api` and a ws endpoint `/ws` lets say client A connects to `/ws` on `node 1` and client B asks `/api` to send a request to client A but unfortunately client B connects to `node 2` who has no idea about client A.",
+        "conversation_id": "1804",
+        "index": 126
+    },
+    "so_post": {
+        "ts": "2020-04-09T19:46:43.298000",
+        "user": "Nazaret",
+        "text": "https://stackoverflow.com/questions/15832147/chatserverloadbalancing @maxisme googleable ;)",
+        "conversation_id": "1804",
+        "index": 128
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

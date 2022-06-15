@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-03T02:29:35.427000",
+        "user": "Kenzli",
+        "text": "Bascially I am web crawling about 1015 sites and using go routines to send the request at the same time. Occasionally I will be met with a EOF error",
+        "conversation_id": "52",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2020-05-03T02:44:41.607000",
+        "user": "Maram",
+        "text": "https://stackoverflow.com/questions/624857/findingwhichprocesswaskilledbylinuxoomkiller",
+        "conversation_id": "52",
+        "index": 39
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "question is very broad but people suggest using oom killer for debugging",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

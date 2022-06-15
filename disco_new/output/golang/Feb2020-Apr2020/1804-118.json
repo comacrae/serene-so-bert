@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-09T19:22:09.913000",
+        "user": "Salva",
+        "text": "to host the websockets in the lb level",
+        "conversation_id": "1804",
+        "index": 113
+    },
+    "so_post": {
+        "ts": "2020-04-09T19:30:42.732000",
+        "user": "Nazaret",
+        "text": "https://stackoverflow.com/questions/48383013/scalingwithstickysessionsandwebsockets",
+        "conversation_id": "1804",
+        "index": 118
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "part of a lot of urls which do the best possible job for answering the general question asker has",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

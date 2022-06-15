@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-20T06:11:02.852000",
+        "user": "Braylynn",
+        "text": "well i assumed it was buffered but what i was wondering about was why it takes significantly longer to read in a block of json compared to a 1080p frame",
+        "conversation_id": "2274",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-07-20T06:15:31.999000",
+        "user": "Donna",
+        "text": "https://stackoverflow.com/questions/31826762/pythonsocketsendimmediately",
+        "conversation_id": "2274",
+        "index": 38
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "braylynn is trying to figure out why reading an image frame in one format is significantly shorter than another and donna gives background info which might help faster transport",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

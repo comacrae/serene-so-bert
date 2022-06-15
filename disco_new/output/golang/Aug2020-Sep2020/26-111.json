@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-01T20:19:48.771000",
+        "user": "Nixon",
+        "text": "https://stackoverflow.com/questions/54197913/parsehexstringtoimagecolor",
+        "conversation_id": "26",
+        "index": 111
+    },
+    "so_post": {
+        "ts": "2020-08-01T20:19:48.771000",
+        "user": "Nixon",
+        "text": "https://stackoverflow.com/questions/54197913/parsehexstringtoimagecolor",
+        "conversation_id": "26",
+        "index": 111
+    },
+    "category": "Other",
+    "comments": "No related target post in converstaion thread",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

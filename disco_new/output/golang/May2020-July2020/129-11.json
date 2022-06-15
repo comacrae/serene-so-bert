@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-05T14:46:14.568000",
+        "user": "Rainer",
+        "text": "then why do i see packagename_test everywhere",
+        "conversation_id": "129",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-05-05T14:46:58.574000",
+        "user": "Radostin",
+        "text": "https://stackoverflow.com/questions/24731370/golangpackageasttestunderscoretest",
+        "conversation_id": "129",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "direct answer to SO q",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

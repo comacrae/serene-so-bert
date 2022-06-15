@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-10T12:16:10.270000",
+        "user": "Dalett",
+        "text": "Now I have to figure how to server wildcard at / to my single page application folder",
+        "conversation_id": "293",
+        "index": 211
+    },
+    "so_post": {
+        "ts": "2020-08-10T12:24:06.297000",
+        "user": "Iam",
+        "text": "<https://stackoverflow.com/questions/27945310/whydoineedtousehttpstripprefixtoaccessmystaticfiles> read that properly too",
+        "conversation_id": "293",
+        "index": 243
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asker wants to know how to strip a prefix of a url using wildcards and iam provides a related answer",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

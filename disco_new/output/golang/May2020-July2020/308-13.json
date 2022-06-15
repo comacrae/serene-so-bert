@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-12T12:15:50.641000",
+        "user": "Jemir",
+        "text": "I would but I don\\'t know how to do it from Golang... I can\\'t find any examples that are NOT followed by http.serve(<someport>) and I already have the serve part covered by Python",
+        "conversation_id": "308",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-05-12T12:38:23.218000",
+        "user": "Jemir",
+        "text": "@deezy thanks that pointed me in the right direction and thanks to stackoverflow I seem to have the solution: https://stackoverflow.com/a/42718113",
+        "conversation_id": "308",
+        "index": 13
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "jemir is trying to figure out how to do something with http and xml requests (the question itself is beyond the thread context) and they end up finding an answer which satisfies them on SO",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

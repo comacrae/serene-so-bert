@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-03T17:35:18.819000",
+        "user": "Aasha",
+        "text": "https://stackoverflow.com/questions/29677670/whatisthebigoperformanceofmapsingolang",
+        "conversation_id": "85",
+        "index": 37
+    },
+    "so_post": {
+        "ts": "2020-08-03T17:35:57.851000",
+        "user": "Navya",
+        "text": "> https://stackoverflow.com/questions/29677670/whatisthebigoperformanceofmapsingolang@WeBareBears all map read and assignments are o(n)",
+        "conversation_id": "85",
+        "index": 39
+    },
+    "category": "Other",
+    "comments": "question is given by SO post but answer is given in plain text",
+    "meta": {
+        "start_date": "2020-08-01T00:01:15.595000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 60079
+    }
+}

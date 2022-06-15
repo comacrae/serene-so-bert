@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-09T16:41:23.359000",
+        "user": "Azaiah",
+        "text": "> parse the json@deezy Ok but using this as external module without initializing it I have to parse this each time. Or is there a way to achive persistence?I mean ideally this should be used like this:``` externalPackage.Lookup(\"foo\") ```Without any prior initialization I would have to unmarshal this json each time",
+        "conversation_id": "1801",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2020-04-09T16:56:55.245000",
+        "user": "Olivia",
+        "text": "https://stackoverflow.com/questions/484635/areglobalvariablesbad",
+        "conversation_id": "1801",
+        "index": 95
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Part of a long list of URLs Olivia gives Aziah related to a big diatribe on certain practices",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

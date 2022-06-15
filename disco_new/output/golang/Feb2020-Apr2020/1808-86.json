@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-09T22:45:19.448000",
+        "user": "Izna",
+        "text": "what if i make it big enough that it would overflow int",
+        "conversation_id": "1808",
+        "index": 84
+    },
+    "so_post": {
+        "ts": "2020-04-09T22:45:51.955000",
+        "user": "Jkari",
+        "text": "https://stackoverflow.com/questions/27647737/maximumlengthofasliceingo",
+        "conversation_id": "1808",
+        "index": 86
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Izna has quesiton about overflow and Jkari provides code solution and related SO post",
+    "meta": {
+        "start_date": "2020-02-01T05:01:13.368000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 72110
+    }
+}

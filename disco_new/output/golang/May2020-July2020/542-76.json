@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-20T19:00:52.519000",
+        "user": "Alyanna",
+        "text": "Are cpu threads actually a thing",
+        "conversation_id": "542",
+        "index": 48
+    },
+    "so_post": {
+        "ts": "2020-05-20T19:08:27.588000",
+        "user": "Shritha",
+        "text": "there's also <https://stackoverflow.com/questions/33358477/doesahyperthreadingcpuimplementparallelismorjustconcurrency>",
+        "conversation_id": "542",
+        "index": 76
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "related to general discussion on threads",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

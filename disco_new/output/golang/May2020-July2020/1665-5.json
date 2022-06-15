@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-29T04:55:04.857000",
+        "user": "Jayshon",
+        "text": "found a good comparison https://stackoverflow.com/questions/30806931/thezerovalueofasliceisnotnil/45918994#45918994> nil slice> > They\u2019re useful when you want to represent a slice that doesn\u2019t exist such as when an exception occurs in a function that returns a slice.> ```> // Create a nil slice of integers.> var slice []int> ```> empty slice> > Empty slices are useful when you want to represent an empty collection such as when a database query returns zero results.> ```> // Use make to create an empty slice of integers.> slice := make([]int 0)> > // Use a slice literal to create an empty slice of integers.> slice := []int{}> ```> \ud83d\udc49 Regardless of whether you\u2019re using a nil slice or an empty slice the builtin functions append len and cap work the same.",
+        "conversation_id": "1665",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-06-29T04:55:04.857000",
+        "user": "Jayshon",
+        "text": "found a good comparison https://stackoverflow.com/questions/30806931/thezerovalueofasliceisnotnil/45918994#45918994> nil slice> > They\u2019re useful when you want to represent a slice that doesn\u2019t exist such as when an exception occurs in a function that returns a slice.> ```> // Create a nil slice of integers.> var slice []int> ```> empty slice> > Empty slices are useful when you want to represent an empty collection such as when a database query returns zero results.> ```> // Use make to create an empty slice of integers.> slice := make([]int 0)> > // Use a slice literal to create an empty slice of integers.> slice := []int{}> ```> \ud83d\udc49 Regardless of whether you\u2019re using a nil slice or an empty slice the builtin functions append len and cap work the same.",
+        "conversation_id": "1665",
+        "index": 5
+    },
+    "category": "Other",
+    "comments": "no context in thread",
+    "meta": {
+        "start_date": "2020-05-01T06:31:06.560000",
+        "end_time": null,
+        "channel_name": "golang",
+        "team_domain": "Discord Gophers",
+        "count": 74906
+    }
+}

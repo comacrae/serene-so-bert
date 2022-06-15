@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-12T23:16:07.870000",
+        "user": "Maddison",
+        "text": "Is there any way to say use this executor for this specific go block in core.async?",
+        "conversation_id": "30",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-06-13T05:48:11.929000",
+        "user": "Brinna",
+        "text": "@Johnny only for one specific go block? You could try some dark magic likehttps://stackoverflow.com/a/38577871/1888507But I see it very hard. Globally maybe for one go block maybe not...",
+        "conversation_id": "31",
+        "index": 0
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asker wants to accomplish something with a specific go block and they get an SO post answer which is a strange workaround. although it might not be the ideal answer, its an answer still",
+    "meta": {
+        "start_date": "2020-05-06T05:35:13.419000",
+        "end_time": null,
+        "channel_name": "clojure",
+        "team_domain": "Clojurians",
+        "count": 380
+    }
+}
