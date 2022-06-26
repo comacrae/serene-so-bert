@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-21T19:06:29.659000",
+        "user": "Kuzey",
+        "text": "A question like this? https://stackoverflow.com/questions/63526060/errortryingtofreezefileusingpyttsx3modulesapi5notfound",
+        "conversation_id": "1475",
+        "index": 92
+    },
+    "so_post": {
+        "ts": "2020-08-21T19:06:29.659000",
+        "user": "Kuzey",
+        "text": "A question like this? https://stackoverflow.com/questions/63526060/errortryingtofreezefileusingpyttsx3modulesapi5notfound",
+        "conversation_id": "1475",
+        "index": 92
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

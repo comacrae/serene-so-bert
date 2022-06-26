@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-23T22:25:40.255000",
+        "user": "Yitzy",
+        "text": "Do you guys know of any way to turn visual studio code into a pdf?",
+        "conversation_id": "1240",
+        "index": 445
+    },
+    "so_post": {
+        "ts": "2020-05-23T22:28:01.087000",
+        "user": "Deveraux",
+        "text": "https://gist.github.com/agentcooper/4c55133f5d95866acdee5017cd318558https://stackoverflow.com/questions/47497309/findtextpositioninpdffile/52977595#52977595apparently this to make highlighting in the pdf xD",
+        "conversation_id": "1240",
+        "index": 465
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "yitzy wanted help getting PDF printing from VS and Deveraux asked about highlighting and found this",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

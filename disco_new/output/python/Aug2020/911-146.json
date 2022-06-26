@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-13T16:22:34.125000",
+        "user": "Shadrack",
+        "text": "For that refer to <https://docs.python.org/3/tutorial/inputoutput.html#readingandwritingfiles> and perhaps <https://stackoverflow.com/questions/26986470/createshortcutfilesinwindows7usingpython>",
+        "conversation_id": "911",
+        "index": 146
+    },
+    "so_post": {
+        "ts": "2020-08-13T16:22:34.125000",
+        "user": "Shadrack",
+        "text": "For that refer to <https://docs.python.org/3/tutorial/inputoutput.html#readingandwritingfiles> and perhaps <https://stackoverflow.com/questions/26986470/createshortcutfilesinwindows7usingpython>",
+        "conversation_id": "911",
+        "index": 146
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

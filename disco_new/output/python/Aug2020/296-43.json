@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-05T06:18:53.047000",
+        "user": "Arrow",
+        "text": "how do you write to a specfic line in between lines in a file?",
+        "conversation_id": "296",
+        "index": 33
+    },
+    "so_post": {
+        "ts": "2020-08-05T06:20:23.330000",
+        "user": "Octavio",
+        "text": "https://stackoverflow.com/questions/4719438/editingspecificlineintextfileinpython",
+        "conversation_id": "296",
+        "index": 43
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

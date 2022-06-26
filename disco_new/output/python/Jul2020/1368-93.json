@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-23T06:34:02.234000",
+        "user": "Zya",
+        "text": "ok where would `__repr__` be implemented?",
+        "conversation_id": "1368",
+        "index": 92
+    },
+    "so_post": {
+        "ts": "2020-07-23T06:35:58.792000",
+        "user": "Sadou",
+        "text": "> in place of __ str__@notChinz you should actually implement both take a look at https://stackoverflow.com/questions/1436703/differencebetweenstrandrepr",
+        "conversation_id": "1368",
+        "index": 93
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "asking about implementing repr and str for a custom obj",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

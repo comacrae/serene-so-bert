@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-14T23:44:54.683000",
+        "user": "Yitzy",
+        "text": "HelloIm looking for guides for develop a car plate detector for my country registration.The car plate has this regular expression:AV1212.Its from Portugal.Any guide for me? I already have done with tesseract and Open cv and no result.I have followed this tutorialhttps://stackoverflow.com/questions/54419097/howtoextractandrecognizethevehicleplatenumberwithpythonThanks",
+        "conversation_id": "743",
+        "index": 195
+    },
+    "so_post": {
+        "ts": "2020-05-14T23:44:54.683000",
+        "user": "Yitzy",
+        "text": "HelloIm looking for guides for develop a car plate detector for my country registration.The car plate has this regular expression:AV1212.Its from Portugal.Any guide for me? I already have done with tesseract and Open cv and no result.I have followed this tutorialhttps://stackoverflow.com/questions/54419097/howtoextractandrecognizethevehicleplatenumberwithpythonThanks",
+        "conversation_id": "743",
+        "index": 195
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

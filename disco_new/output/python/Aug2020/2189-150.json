@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-31T06:59:48.894000",
+        "user": "Avaeyah",
+        "text": "@garanotgara https://stackoverflow.com/questions/39111931/discordchannellinkinmessage",
+        "conversation_id": "2189",
+        "index": 150
+    },
+    "so_post": {
+        "ts": "2020-08-31T06:59:48.894000",
+        "user": "Avaeyah",
+        "text": "@garanotgara https://stackoverflow.com/questions/39111931/discordchannellinkinmessage",
+        "conversation_id": "2189",
+        "index": 150
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

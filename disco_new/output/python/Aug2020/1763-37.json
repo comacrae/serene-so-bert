@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-25T22:10:26.859000",
+        "user": "Estela",
+        "text": "How would I go about debugging my application? It runs but it steadily grows in memory until my computer crashes lol",
+        "conversation_id": "1763",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2020-08-25T22:12:36.560000",
+        "user": "Dayne",
+        "text": "ive never used sublime text so im not sure how you would setup debugging for python.here is a SO post a quick google search returned: https://stackoverflow.com/questions/29064081/runpythondebuggerpdbinsublimetext3",
+        "conversation_id": "1763",
+        "index": 37
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-15T18:43:09.899000",
+        "user": "Aitanna",
+        "text": "and says exit code 1 i just want to know what it means",
+        "conversation_id": "894",
+        "index": 25
+    },
+    "so_post": {
+        "ts": "2020-07-15T18:43:53.319000",
+        "user": "Niklaus",
+        "text": "https://stackoverflow.com/questions/9426045/differencebetweenexit0andexit1inpython/9426115",
+        "conversation_id": "894",
+        "index": 27
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "user wants to know what exit 0 means",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

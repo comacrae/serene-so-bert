@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-10T11:26:32.001000",
+        "user": "Maymunah",
+        "text": "> I think you're misunderstanding what the function does.@Dan6erbond i thought function slice with percent",
+        "conversation_id": "586",
+        "index": 302
+    },
+    "so_post": {
+        "ts": "2020-07-10T10:51:37.260000",
+        "user": "Moussa",
+        "text": "https://stackoverflow.com/questions/2936863/implementingslicingingetitem",
+        "conversation_id": "586",
+        "index": 241
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Mayunmuh thought slice returned the percentage of the total as well. Moussa suggests implementing that by overwritting the slice function",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-08T04:53:04.518000",
+        "user": "Mahy",
+        "text": "is range a generator?",
+        "conversation_id": "457",
+        "index": 190
+    },
+    "so_post": {
+        "ts": "2020-07-08T04:55:20.542000",
+        "user": "Jerico",
+        "text": "oh range is technically not a generator https://stackoverflow.com/questions/13092267/ifrangeisageneratorinpython33whycaninotcallnextonarange",
+        "conversation_id": "457",
+        "index": 205
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

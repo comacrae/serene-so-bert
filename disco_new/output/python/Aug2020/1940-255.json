@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-27T21:03:18.599000",
+        "user": "Ellajane",
+        "text": "> @dato_z Did you?> https://stackoverflow.com/questions/34252273/whatisthedifferencebetweensocketsendandsocketsendall@Deleted User no",
+        "conversation_id": "1940",
+        "index": 255
+    },
+    "so_post": {
+        "ts": "2020-08-27T21:03:18.599000",
+        "user": "Ellajane",
+        "text": "> @dato_z Did you?> https://stackoverflow.com/questions/34252273/whatisthedifferencebetweensocketsendandsocketsendall@Deleted User no",
+        "conversation_id": "1940",
+        "index": 255
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

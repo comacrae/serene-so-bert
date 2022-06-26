@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-23T03:28:15.045000",
+        "user": "Keyaan",
+        "text": "I get an error trying to run that bit of code in PyCharm but no issues when running it in Geany What would cause that/what should I look into in order to resolve it?",
+        "conversation_id": "1200",
+        "index": 83
+    },
+    "so_post": {
+        "ts": "2020-05-23T03:33:07.141000",
+        "user": "Keyla",
+        "text": "I'm betting that it's using a stubbed version of decimal without the real implementation. https://stackoverflow.com/questions/24266114/pycharmwhatispythonstubs",
+        "conversation_id": "1200",
+        "index": 85
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

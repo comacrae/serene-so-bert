@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-13T19:47:39.962000",
+        "user": "Maymunah",
+        "text": "> @Deleted User Actually apparently `inspect` exists: <https://stackoverflow.com/questions/427453/howcanigetthesourcecodeofapythonfunction>> > But for builtins it likely won't work since they are in C.@ConfusedReptile this worked",
+        "conversation_id": "788",
+        "index": 403
+    },
+    "so_post": {
+        "ts": "2020-07-13T19:47:39.962000",
+        "user": "Maymunah",
+        "text": "> @Deleted User Actually apparently `inspect` exists: <https://stackoverflow.com/questions/427453/howcanigetthesourcecodeofapythonfunction>> > But for builtins it likely won't work since they are in C.@ConfusedReptile this worked",
+        "conversation_id": "788",
+        "index": 403
+    },
+    "category": "Other",
+    "comments": "confirming the post worked",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

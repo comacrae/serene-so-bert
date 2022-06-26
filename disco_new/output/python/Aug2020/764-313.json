@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-11T15:43:41.031000",
+        "user": "Aariv",
+        "text": "https://stackoverflow.com/questions/2104080/howcanicheckfilesizeinpython",
+        "conversation_id": "764",
+        "index": 313
+    },
+    "so_post": {
+        "ts": "2020-08-11T15:43:41.031000",
+        "user": "Aariv",
+        "text": "https://stackoverflow.com/questions/2104080/howcanicheckfilesizeinpython",
+        "conversation_id": "764",
+        "index": 313
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

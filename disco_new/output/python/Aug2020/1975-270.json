@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-28T10:11:38.392000",
+        "user": "Enver",
+        "text": "> https://stackoverflow.com/questions/47629570/howtoresolvedyldlibrarynotloadedexecutablepatherror see if this helps@Jac_k ummm thats for installing errors for homebrew",
+        "conversation_id": "1975",
+        "index": 270
+    },
+    "so_post": {
+        "ts": "2020-08-28T10:11:38.392000",
+        "user": "Enver",
+        "text": "> https://stackoverflow.com/questions/47629570/howtoresolvedyldlibrarynotloadedexecutablepatherror see if this helps@Jac_k ummm thats for installing errors for homebrew",
+        "conversation_id": "1975",
+        "index": 270
+    },
+    "category": "Other",
+    "comments": "commenting on a previously posted URL and saying it's not helpful",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

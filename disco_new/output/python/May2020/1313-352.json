@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-25T04:51:35.845000",
+        "user": "Maleiya",
+        "text": "Is there a way to compile python script to DLL in order to inject it?",
+        "conversation_id": "1313",
+        "index": 351
+    },
+    "so_post": {
+        "ts": "2020-05-25T04:51:50.188000",
+        "user": "Nelso",
+        "text": "https://stackoverflow.com/questions/10859369/howtocompileapythonpackagetoadll",
+        "conversation_id": "1313",
+        "index": 352
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

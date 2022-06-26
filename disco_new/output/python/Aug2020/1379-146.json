@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-20T09:48:35.231000",
+        "user": "Ahmed",
+        "text": "> Snapshots are in fact part of git@Qwerty u mean git archive ?",
+        "conversation_id": "1379",
+        "index": 143
+    },
+    "so_post": {
+        "ts": "2020-08-20T09:48:52.779000",
+        "user": "Bryen",
+        "text": "https://stackoverflow.com/questions/4964099/whatisagitsnapshot/32806416#:~:text=The%20term%20snapshot%20is%20used,snapshot%20to%20denote%20the%20difference.",
+        "conversation_id": "1379",
+        "index": 146
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asking what git snapshots are",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

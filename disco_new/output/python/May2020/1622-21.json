@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-30T08:46:34.425000",
+        "user": "Blimy",
+        "text": "https://stackoverflow.com/a/11621141 have you tried this?",
+        "conversation_id": "1622",
+        "index": 21
+    },
+    "so_post": {
+        "ts": "2020-05-30T08:46:34.425000",
+        "user": "Blimy",
+        "text": "https://stackoverflow.com/a/11621141 have you tried this?",
+        "conversation_id": "1622",
+        "index": 21
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

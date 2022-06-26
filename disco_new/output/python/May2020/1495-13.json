@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-28T02:42:59.200000",
+        "user": "Erwin",
+        "text": "https://insights.stackoverflow.com/survey/2020",
+        "conversation_id": "1495",
+        "index": 13
+    },
+    "so_post": {
+        "ts": "2020-05-28T02:42:59.200000",
+        "user": "Erwin",
+        "text": "https://insights.stackoverflow.com/survey/2020",
+        "conversation_id": "1495",
+        "index": 13
+    },
+    "category": "Other",
+    "comments": "survey",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

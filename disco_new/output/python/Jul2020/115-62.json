@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-02T21:10:04.328000",
+        "user": "Sabastian",
+        "text": "https://stackoverflow.com/questions/62705053/detectingclassattributevaluechangeinpythonandthenchanginganotherclass",
+        "conversation_id": "115",
+        "index": 62
+    },
+    "so_post": {
+        "ts": "2020-07-02T21:10:04.328000",
+        "user": "Sabastian",
+        "text": "https://stackoverflow.com/questions/62705053/detectingclassattributevaluechangeinpythonandthenchanginganotherclass",
+        "conversation_id": "115",
+        "index": 62
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

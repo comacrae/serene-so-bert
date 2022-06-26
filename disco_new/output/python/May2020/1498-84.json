@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-28T04:14:24.047000",
+        "user": "Devlin",
+        "text": "pathlib and os both return the wrong capitalisation for the Python38/Lib path",
+        "conversation_id": "1498",
+        "index": 72
+    },
+    "so_post": {
+        "ts": "2020-05-28T04:16:23.103000",
+        "user": "Devlin",
+        "text": "https://stackoverflow.com/questions/21173979/howdoigetpathtopythonscriptwithpropercase",
+        "conversation_id": "1498",
+        "index": 84
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "trying to get path using pathlib and os. gets approprpiate SO answer",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

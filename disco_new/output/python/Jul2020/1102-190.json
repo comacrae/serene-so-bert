@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-19T11:01:11.032000",
+        "user": "Rashed",
+        "text": "hmm it sorts of but not what i wanted. Anyway it's not important. I just want how we can continue to next line by pressing specific keys in python or even any key",
+        "conversation_id": "1102",
+        "index": 167
+    },
+    "so_post": {
+        "ts": "2020-07-19T11:09:44.569000",
+        "user": "Sahory",
+        "text": "https://stackoverflow.com/questions/24072790/detectkeypressinpython",
+        "conversation_id": "1102",
+        "index": 190
+    },
+    "category": "Alternative Solution",
+    "comments": "sahory provides another SO post for same issue",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

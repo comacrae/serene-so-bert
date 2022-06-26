@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-31T01:02:12.222000",
+        "user": "Balbino",
+        "text": "@Cornelius here's an answer I found. <https://stackoverflow.com/questions/62244594/howdoyoumakeabotsettheslowmodeforachannelindiscordpyrewrite>",
+        "conversation_id": "1921",
+        "index": 307
+    },
+    "so_post": {
+        "ts": "2020-07-31T01:02:12.222000",
+        "user": "Balbino",
+        "text": "@Cornelius here's an answer I found. <https://stackoverflow.com/questions/62244594/howdoyoumakeabotsettheslowmodeforachannelindiscordpyrewrite>",
+        "conversation_id": "1921",
+        "index": 307
+    },
+    "category": "Other",
+    "comments": "original post is ooc",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

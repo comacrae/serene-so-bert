@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-08T15:54:23.442000",
+        "user": "Abhiram",
+        "text": "> @pucch How do I use json for the save@stripes make a dictionary and write it into a json file",
+        "conversation_id": "530",
+        "index": 1014
+    },
+    "so_post": {
+        "ts": "2020-08-08T15:56:20.323000",
+        "user": "Deliyah",
+        "text": "@stripes https://stackoverflow.com/questions/17043860/howtodumpadicttoajsonfile",
+        "conversation_id": "530",
+        "index": 1030
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

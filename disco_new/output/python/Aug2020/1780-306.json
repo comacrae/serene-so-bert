@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-26T04:04:57.492000",
+        "user": "Lyudmil",
+        "text": "```py base_image = Image.new(mode=\"RGB\",size=(1920,996)) base_image.paste(new_image (x y)) base_image.paste(trans_image,(0,0,1920,996))``` I get error when I do this @Skynse ```py raise ValueError(\"unknown color specifier: %r % color)ValueError: unknown color specifier: \\'c:/users/iyappan/documents/transtemplate.png\\'```",
+        "conversation_id": "1780",
+        "index": 288
+    },
+    "so_post": {
+        "ts": "2020-08-26T04:12:44.928000",
+        "user": "Korea",
+        "text": "check this out https://stackoverflow.com/questions/51486297/croppinganimageinacircularwayusingpython",
+        "conversation_id": "1780",
+        "index": 306
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "trying to make image appear w/ circle border",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

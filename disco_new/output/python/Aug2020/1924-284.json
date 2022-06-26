@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-27T15:17:56.463000",
+        "user": "Shamya",
+        "text": "could someone explain the difference between json.load vs json.loads",
+        "conversation_id": "1924",
+        "index": 260
+    },
+    "so_post": {
+        "ts": "2020-08-27T15:20:24.857000",
+        "user": "Korea",
+        "text": "see this https://stackoverflow.com/questions/39719689/whatisthedifferencebetweenjsonloadandjsonloadsfunctions",
+        "conversation_id": "1924",
+        "index": 284
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

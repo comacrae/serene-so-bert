@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-16T05:20:29.928000",
+        "user": "Yitzy",
+        "text": "The question I just asked google was https://stackoverflow.com/questions/7180212/whycantgeneratorsbepickled",
+        "conversation_id": "812",
+        "index": 66
+    },
+    "so_post": {
+        "ts": "2020-05-16T05:20:29.928000",
+        "user": "Yitzy",
+        "text": "The question I just asked google was https://stackoverflow.com/questions/7180212/whycantgeneratorsbepickled",
+        "conversation_id": "812",
+        "index": 66
+    },
+    "category": "Question Repost",
+    "comments": "repeating google'd question",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

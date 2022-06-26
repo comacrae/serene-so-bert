@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-28T01:21:01.573000",
+        "user": "Robel",
+        "text": "great!! heres an stack overflow if you get stuck https://stackoverflow.com/questions/53081267/howdoidefaulttoinsteadofplaintextinvisualstudiocode",
+        "conversation_id": "1952",
+        "index": 114
+    },
+    "so_post": {
+        "ts": "2020-08-28T01:21:01.573000",
+        "user": "Robel",
+        "text": "great!! heres an stack overflow if you get stuck https://stackoverflow.com/questions/53081267/howdoidefaulttoinsteadofplaintextinvisualstudiocode",
+        "conversation_id": "1952",
+        "index": 114
+    },
+    "category": "Other",
+    "comments": "code/errors are a screenshot",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

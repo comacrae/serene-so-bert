@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-01T14:32:14.777000",
+        "user": "Sameer",
+        "text": "is there anything cleaner than the responses in this thread for converting seconds to hours/minutes <https://stackoverflow.com/questions/4048651/pythonfunctiontoconvertsecondsintominuteshoursanddays>",
+        "conversation_id": "28",
+        "index": 189
+    },
+    "so_post": {
+        "ts": "2020-05-01T14:32:14.777000",
+        "user": "Sameer",
+        "text": "is there anything cleaner than the responses in this thread for converting seconds to hours/minutes <https://stackoverflow.com/questions/4048651/pythonfunctiontoconvertsecondsintominuteshoursanddays>",
+        "conversation_id": "28",
+        "index": 189
+    },
+    "category": "Validating Solution",
+    "comments": "asking for opoinions on SO solution",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

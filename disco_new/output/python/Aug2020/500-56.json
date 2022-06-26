@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-07T23:15:25.579000",
+        "user": "Konor",
+        "text": "yeah but like is there a way to use replace for a couple of letters? like this``string.replace([  +']  )``",
+        "conversation_id": "500",
+        "index": 48
+    },
+    "so_post": {
+        "ts": "2020-08-07T23:20:07.981000",
+        "user": "Aljawharah",
+        "text": "a related SO question :https://stackoverflow.com/questions/6116978/howtoreplacemultiplesubstringsofastringsecond answer : implementing your own function with replace()first one : using regex@tinogever",
+        "conversation_id": "500",
+        "index": 56
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

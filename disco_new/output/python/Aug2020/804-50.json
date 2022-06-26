@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-12T04:37:51.116000",
+        "user": "Ariel",
+        "text": "yeah my bad. @Urkchar this is a relevant stackoverflow answer https://stackoverflow.com/a/30793138/14041257",
+        "conversation_id": "804",
+        "index": 50
+    },
+    "so_post": {
+        "ts": "2020-08-12T04:37:51.116000",
+        "user": "Ariel",
+        "text": "yeah my bad. @Urkchar this is a relevant stackoverflow answer https://stackoverflow.com/a/30793138/14041257",
+        "conversation_id": "804",
+        "index": 50
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

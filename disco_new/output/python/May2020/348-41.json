@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-07T11:45:14.324000",
+        "user": "Areeba",
+        "text": "printing out a paper using python",
+        "conversation_id": "348",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2020-05-07T11:53:24.359000",
+        "user": "Azaiah",
+        "text": "This SO answer seems to have the most comprehensive information with links to other articles: https://stackoverflow.com/a/12725233",
+        "conversation_id": "348",
+        "index": 41
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "wants to print (physically) using python",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

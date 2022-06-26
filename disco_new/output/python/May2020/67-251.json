@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-02T11:55:31.327000",
+        "user": "Elizabethrose",
+        "text": "https://stackoverflow.com/questions/1732348/regexmatchopentagsexceptxhtmlselfcontainedtags/1732454#1732454",
+        "conversation_id": "67",
+        "index": 251
+    },
+    "so_post": {
+        "ts": "2020-05-02T11:55:31.327000",
+        "user": "Elizabethrose",
+        "text": "https://stackoverflow.com/questions/1732348/regexmatchopentagsexceptxhtmlselfcontainedtags/1732454#1732454",
+        "conversation_id": "67",
+        "index": 251
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "nothing in threadabout regexes so either the msg is out of the thread context or this an outsource",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

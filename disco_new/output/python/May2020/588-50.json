@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-12T09:02:00.231000",
+        "user": "Yitzy",
+        "text": "is there a way to print multiple variables in a function in python without printing them all separately just want to do it in one line if possible. So if I had these two variables```pya = hi\"b = hello\"```",
+        "conversation_id": "588",
+        "index": 30
+    },
+    "so_post": {
+        "ts": "2020-05-12T09:08:09.753000",
+        "user": "Yitzy",
+        "text": "I found this I think this should work https://stackoverflow.com/questions/44656381/printingmultiplevariablesinaseparatelinesusingasingleprint",
+        "conversation_id": "588",
+        "index": 50
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "question about printing multiple variables per line, gets appropriate response in SO",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

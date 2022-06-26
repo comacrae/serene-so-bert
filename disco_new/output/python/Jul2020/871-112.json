@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-15T08:27:01.569000",
+        "user": "Kendrix",
+        "text": "is displaying images as background in tkinter with a grid possible? after few hours on google didn't find anything",
+        "conversation_id": "871",
+        "index": 96
+    },
+    "so_post": {
+        "ts": "2020-07-15T08:34:14.319000",
+        "user": "Aidel",
+        "text": "@Metalicat https://stackoverflow.com/questions/10158552/howtouseanimageforthebackgroundintkinter",
+        "conversation_id": "871",
+        "index": 112
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

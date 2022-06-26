@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-25T18:01:28.851000",
+        "user": "Layonna",
+        "text": "https://stackoverflow.com/questions/63584486/tkinterexplanationontagandsearchmethod",
+        "conversation_id": "1747",
+        "index": 196
+    },
+    "so_post": {
+        "ts": "2020-08-25T18:01:28.851000",
+        "user": "Layonna",
+        "text": "https://stackoverflow.com/questions/63584486/tkinterexplanationontagandsearchmethod",
+        "conversation_id": "1747",
+        "index": 196
+    },
+    "category": "Question Repost",
+    "comments": "no otherp osts",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

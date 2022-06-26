@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-17T17:11:15.037000",
+        "user": "Favour",
+        "text": "Thanks but I know how to create a form. The problem is accessing the attributes when using the `LoginView`.",
+        "conversation_id": "999",
+        "index": 270
+    },
+    "so_post": {
+        "ts": "2020-07-17T17:12:52.157000",
+        "user": "Yianna",
+        "text": "@sciencecompliance https://stackoverflow.com/questions/43542442/djangoaddingplaceholderstodjangobuiltinloginforms",
+        "conversation_id": "999",
+        "index": 279
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "trying to do something with django forms and gets an SO post resposne",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

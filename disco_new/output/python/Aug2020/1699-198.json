@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-25T01:30:54.397000",
+        "user": "Oshay",
+        "text": "i wanna create a cleaner that can delete temp files myself from scratch..a simple explaination plz cuz i cant understand english well",
+        "conversation_id": "1699",
+        "index": 193
+    },
+    "so_post": {
+        "ts": "2020-08-25T01:33:10.935000",
+        "user": "Badreddin",
+        "text": "https://stackoverflow.com/questions/40559024/deletingwindowstempfilesusingpythonscript",
+        "conversation_id": "1699",
+        "index": 198
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

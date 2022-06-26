@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-14T22:06:30.559000",
+        "user": "Mitchell",
+        "text": "```pythonwidth = root.winfo_width()print(width / 2)```` why is this giving me 0.5 instead of the resolution?",
+        "conversation_id": "1003",
+        "index": 69
+    },
+    "so_post": {
+        "ts": "2020-08-14T22:10:08.818000",
+        "user": "Dalylah",
+        "text": "@snowySaturn; I have no personal experience with Tkinter but this SO thread seems relevant: https://stackoverflow.com/questions/28040943/intkinterwhywinfoheightalwaysreturn1",
+        "conversation_id": "1003",
+        "index": 75
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

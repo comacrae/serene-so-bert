@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-15T17:27:56.376000",
+        "user": "Ezio",
+        "text": "https://stackoverflow.com/questions/43500149/boldtextontkintercanvas/57992224",
+        "conversation_id": "889",
+        "index": 144
+    },
+    "so_post": {
+        "ts": "2020-07-15T17:27:56.376000",
+        "user": "Ezio",
+        "text": "https://stackoverflow.com/questions/43500149/boldtextontkintercanvas/57992224",
+        "conversation_id": "889",
+        "index": 144
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

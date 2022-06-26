@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-23T11:27:30.816000",
+        "user": "Remy",
+        "text": "anybody can help me? I am trying to automate some commands for my VPS but I struggle to run commands with python",
+        "conversation_id": "1582",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-08-23T11:32:54.701000",
+        "user": "Antolin",
+        "text": "Saw it covered in a SO thread maybe you'll find that useful https://stackoverflow.com/questions/51156884/sshnotrecognizedasacommandwhenexecutedfrompythonusingsubprocess",
+        "conversation_id": "1582",
+        "index": 70
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

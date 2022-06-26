@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-29T02:16:21.810000",
+        "user": "Whit",
+        "text": "what's the difference between push and sync?",
+        "conversation_id": "2038",
+        "index": 15
+    },
+    "so_post": {
+        "ts": "2020-08-29T02:21:43.064000",
+        "user": "Gittel",
+        "text": "@sushi https://stackoverflow.com/questions/47257586/whatdoessyncdointeamexplorer",
+        "conversation_id": "2038",
+        "index": 35
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

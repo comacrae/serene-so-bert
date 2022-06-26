@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-15T18:02:43.100000",
+        "user": "Pon\u00e3\u2021",
+        "text": "> https://stackoverflow.com/questions/4812144/pythongettheabstractsyntaxtreeofimportedfunction@marshmallow you can reverse the source from the bytecode itself afaik",
+        "conversation_id": "889",
+        "index": 270
+    },
+    "so_post": {
+        "ts": "2020-07-15T18:02:43.100000",
+        "user": "Pon\u00e3\u2021",
+        "text": "> https://stackoverflow.com/questions/4812144/pythongettheabstractsyntaxtreeofimportedfunction@marshmallow you can reverse the source from the bytecode itself afaik",
+        "conversation_id": "889",
+        "index": 270
+    },
+    "category": "Other",
+    "comments": "commenting on previous SO post",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

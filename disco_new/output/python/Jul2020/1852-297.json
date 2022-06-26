@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-30T04:33:53.655000",
+        "user": "Maymunah",
+        "text": "@NoahnOahnoAhnoaH yeah I do that but my script has some features that I cant talk about and it crashes due to an error that I cant fix so I need it to auto restart it self every like 4 hours",
+        "conversation_id": "1852",
+        "index": 295
+    },
+    "so_post": {
+        "ts": "2020-07-30T04:36:29.676000",
+        "user": "Zya",
+        "text": "@Deleted User https://stackoverflow.com/questions/36018401/howtomakeapythonprogramautomaticallyrestartitself/36018657#:~:text=Now%2C%20in%20a%20Python%20Shell,to%20run%20the%20program%20again.",
+        "conversation_id": "1852",
+        "index": 297
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

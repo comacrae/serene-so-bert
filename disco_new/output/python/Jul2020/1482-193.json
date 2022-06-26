@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-24T22:07:49.447000",
+        "user": "Othniel",
+        "text": "> @saitama there's a few ways to do that  place function objects in a dictionary and use the command strings for them as keys@Infinimata i'm a noob an example pls?",
+        "conversation_id": "1482",
+        "index": 191
+    },
+    "so_post": {
+        "ts": "2020-07-24T22:08:16.145000",
+        "user": "Jalayna",
+        "text": "@saitama an example https://stackoverflow.com/questions/21962763/usingadictionaryasaswitchstatementinpython",
+        "conversation_id": "1482",
+        "index": 193
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "othniel asks for an example of how to use a dict as a switch statement",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

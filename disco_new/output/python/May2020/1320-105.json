@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-25T08:32:37.066000",
+        "user": "Keyla",
+        "text": "> who can help me? i'm very new in this type of programming https://stackoverflow.com/questions/61991391/editingtextinamemoryaddressinpythonwithmemedit@iTzVirtual_ Well the docs of that package say it's supposed to be used with `ctypes` types and you appear to be passing a string.",
+        "conversation_id": "1320",
+        "index": 105
+    },
+    "so_post": {
+        "ts": "2020-05-25T08:32:37.066000",
+        "user": "Keyla",
+        "text": "> who can help me? i'm very new in this type of programming https://stackoverflow.com/questions/61991391/editingtextinamemoryaddressinpythonwithmemedit@iTzVirtual_ Well the docs of that package say it's supposed to be used with `ctypes` types and you appear to be passing a string.",
+        "conversation_id": "1320",
+        "index": 105
+    },
+    "category": "Other",
+    "comments": "just commenting on question repost",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-15T09:42:38.460000",
+        "user": "Sabiha",
+        "text": "https://stackoverflow.com/questions/3451439/isthereanythingwhichcanonlybeachievedbyrecursion",
+        "conversation_id": "768",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-05-15T09:42:38.460000",
+        "user": "Sabiha",
+        "text": "https://stackoverflow.com/questions/3451439/isthereanythingwhichcanonlybeachievedbyrecursion",
+        "conversation_id": "768",
+        "index": 61
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "debate about what can be achieved w/ recursion",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

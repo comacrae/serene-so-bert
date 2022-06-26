@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-25T08:03:27.749000",
+        "user": "Teonna",
+        "text": "who can help me? i'm very new in this type of programming https://stackoverflow.com/questions/61991391/editingtextinamemoryaddressinpythonwithmemedit",
+        "conversation_id": "1320",
+        "index": 58
+    },
+    "so_post": {
+        "ts": "2020-05-25T08:03:27.749000",
+        "user": "Teonna",
+        "text": "who can help me? i'm very new in this type of programming https://stackoverflow.com/questions/61991391/editingtextinamemoryaddressinpythonwithmemedit",
+        "conversation_id": "1320",
+        "index": 58
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

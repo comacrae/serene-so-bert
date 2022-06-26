@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-22T02:26:18.234000",
+        "user": "Kristiano",
+        "text": "@MrEdinLaw I had to step away I didn't mean to abandon you. This SO answer might help you write more pointed logs for errors: https://stackoverflow.com/questions/1278705/whenicatchanexceptionhowdoigetthetypefileandlinenumber",
+        "conversation_id": "1147",
+        "index": 144
+    },
+    "so_post": {
+        "ts": "2020-05-22T02:26:18.234000",
+        "user": "Kristiano",
+        "text": "@MrEdinLaw I had to step away I didn't mean to abandon you. This SO answer might help you write more pointed logs for errors: https://stackoverflow.com/questions/1278705/whenicatchanexceptionhowdoigetthetypefileandlinenumber",
+        "conversation_id": "1147",
+        "index": 144
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-12T14:35:20.523000",
+        "user": "Vidhaan",
+        "text": "the packages there i put requests discord... ? @rubicminer",
+        "conversation_id": "720",
+        "index": 94
+    },
+    "so_post": {
+        "ts": "2020-07-12T14:36:58.356000",
+        "user": "Pola",
+        "text": "https://stackoverflow.com/questions/11068551/py2appwhatsthedifferencebetweentheincludesandpackagesvariablesMaybe have a look at this? ^",
+        "conversation_id": "720",
+        "index": 110
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "english isn't great sothis is the closest thing to a question",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

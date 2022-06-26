@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-03T16:13:04.578000",
+        "user": "Dayne",
+        "text": "@Lukasz500 there must be something wrong with your network Im not really sure but if you move into a help channel someone else might be able to help you out",
+        "conversation_id": "182",
+        "index": 112
+    },
+    "so_post": {
+        "ts": "2020-08-03T16:30:23.258000",
+        "user": "Dayne",
+        "text": "https://stackoverflow.com/questions/1977362/howtocreatemodulewidevariablesinpython this article suggests I should use a sort of empty class and assign the application instance as an attribute of that",
+        "conversation_id": "182",
+        "index": 192
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "closest thing to a question...they're trying to do something which requires a modulewide variable",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

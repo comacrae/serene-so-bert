@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-14T01:16:24.549000",
+        "user": "Malaiah",
+        "text": "```pythondef fibonacci(number first accumulator): if number == 0: return accumulator print(accumulator) return fibonacci(number1 accumulator first + accumulator)print(fibonacci(10 0 1))``` can u tell me how this solution is not using taill call optimisation ??? i cant wrap my head around it",
+        "conversation_id": "941",
+        "index": 351
+    },
+    "so_post": {
+        "ts": "2020-08-14T01:19:37.022000",
+        "user": "Locklynn",
+        "text": "https://stackoverflow.com/questions/310974/whatistailcalloptimization @bakedpotato this should explain it",
+        "conversation_id": "941",
+        "index": 382
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

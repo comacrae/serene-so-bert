@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-11T11:41:24.996000",
+        "user": "Lilieth",
+        "text": "anyone knows what this is TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.",
+        "conversation_id": "543",
+        "index": 30
+    },
+    "so_post": {
+        "ts": "2020-05-11T11:42:24.584000",
+        "user": "Toumany",
+        "text": "@Fury\u2122 https://stackoverflow.com/questions/25034123/flaskvalueerrorviewfunctiondidnotreturnaresponse",
+        "conversation_id": "543",
+        "index": 38
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "question about Flask. Gets a proper SO response",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

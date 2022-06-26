@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-30T14:06:47.566000",
+        "user": "Asha",
+        "text": "can some one help me make python program that can turn the windows volume up?",
+        "conversation_id": "1635",
+        "index": 45
+    },
+    "so_post": {
+        "ts": "2020-05-30T14:22:45.724000",
+        "user": "Rudra",
+        "text": "@Halfdan : Have you tried google? A quick google led me here: https://stackoverflow.com/questions/32149809/readandorchangewindows8mastervolumeinpython but it seems non trivial.",
+        "conversation_id": "1635",
+        "index": 61
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

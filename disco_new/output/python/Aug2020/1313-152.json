@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-19T11:17:54.689000",
+        "user": "Amelianna",
+        "text": "Suppose I have 2 python scripts A and B. A uses C:\\\\python385\\\\python.exe as interpreter. B uses C:\\\\Anaconda\\\\python.exe. My objective is to doubleclick on the python file on Windows 10 then have the script run on the interpreter I want.Is there a convenient way to indicate the interpreter path inside the script? I am welcome to other methods to achieve my objective.I am using windows 10 python 3.8 anaconda distribution.",
+        "conversation_id": "1313",
+        "index": 150
+    },
+    "so_post": {
+        "ts": "2020-08-19T11:18:18.297000",
+        "user": "Janae",
+        "text": "They are some very interesting informations here if you are interested https://stackoverflow.com/questions/15171695/whatswiththeintegercachemaintainedbytheinterpreter",
+        "conversation_id": "1313",
+        "index": 152
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

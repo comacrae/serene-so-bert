@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-01T21:16:50.152000",
+        "user": "Caesar",
+        "text": "guys is there a way to recreate or retrieve an object from it's ID (the result of builtin function `id()`)assuming that the object is still there and wasn't deleted.",
+        "conversation_id": "56",
+        "index": 10
+    },
+    "so_post": {
+        "ts": "2020-07-01T21:19:29.978000",
+        "user": "Caesar",
+        "text": "nvm got my answer:https://stackoverflow.com/a/1396739https://stackoverflow.com/a/15702647either ctypes or weakref",
+        "conversation_id": "56",
+        "index": 26
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

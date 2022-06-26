@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-16T19:09:23.301000",
+        "user": "Shamya",
+        "text": "someone know if i can make it so I can hover on the point with matplotlib?",
+        "conversation_id": "1138",
+        "index": 101
+    },
+    "so_post": {
+        "ts": "2020-08-16T19:10:14.097000",
+        "user": "Matan",
+        "text": "@Ovicron with some effort yes. Here's a so that I usually reference for that <https://stackoverflow.com/questions/7908636/possibletomakelabelsappearwhenhoveringoverapointinmatplotlib>I would also recommend pyqtgraphs for native interactivity python charts",
+        "conversation_id": "1138",
+        "index": 112
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

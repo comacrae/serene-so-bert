@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-26T09:37:56.995000",
+        "user": "Ossama",
+        "text": "i want a run as admin option",
+        "conversation_id": "1800",
+        "index": 183
+    },
+    "so_post": {
+        "ts": "2020-08-26T09:38:49.650000",
+        "user": "Dayne",
+        "text": "https://stackoverflow.com/questions/41851413/askforadminaccessforapythonfunctioninwindows",
+        "conversation_id": "1800",
+        "index": 185
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "wants to run python script on windows w/ admin privileges",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

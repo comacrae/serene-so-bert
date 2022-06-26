@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-06T14:06:26.479000",
+        "user": "Meleni",
+        "text": "does anyone can help me with this? https://stackoverflow.com/questions/61633708/howcaniavoidhidelessoncontentfromenduserviewstemplate",
+        "conversation_id": "303",
+        "index": 95
+    },
+    "so_post": {
+        "ts": "2020-05-06T14:06:26.479000",
+        "user": "Meleni",
+        "text": "does anyone can help me with this? https://stackoverflow.com/questions/61633708/howcaniavoidhidelessoncontentfromenduserviewstemplate",
+        "conversation_id": "303",
+        "index": 95
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-21T19:40:19.982000",
+        "user": "Aariv",
+        "text": "> @Deleted User I dont think you can> > https://stackoverflow.com/questions/6390489/howtopreventdecompilationorinspectingpythoncode> > you just just make it difficult. But I doubt people will be going through the effort to decompile your projects they could probably more easily just remake it themself@Binklederry are you saying my projects are not wort...decompiling?",
+        "conversation_id": "1476",
+        "index": 40
+    },
+    "so_post": {
+        "ts": "2020-08-21T19:40:19.982000",
+        "user": "Aariv",
+        "text": "> @Deleted User I dont think you can> > https://stackoverflow.com/questions/6390489/howtopreventdecompilationorinspectingpythoncode> > you just just make it difficult. But I doubt people will be going through the effort to decompile your projects they could probably more easily just remake it themself@Binklederry are you saying my projects are not wort...decompiling?",
+        "conversation_id": "1476",
+        "index": 40
+    },
+    "category": "Other",
+    "comments": "commenting on response",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

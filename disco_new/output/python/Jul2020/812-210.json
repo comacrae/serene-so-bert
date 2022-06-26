@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-14T05:23:56.462000",
+        "user": "Maymunah",
+        "text": "i want to check if the variable in the func is valid to be Processed to the Internal system",
+        "conversation_id": "812",
+        "index": 197
+    },
+    "so_post": {
+        "ts": "2020-07-14T05:25:53.652000",
+        "user": "Jayloni",
+        "text": "@Deleted User more examples are included here: https://stackoverflow.com/questions/10724495/gettingallargumentsandvaluespassedtoafunction",
+        "conversation_id": "812",
+        "index": 210
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "tryign to check out variables passed to a func",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

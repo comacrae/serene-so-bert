@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-07T22:56:13.053000",
+        "user": "Aalya",
+        "text": "``` lat_long_pairs = list(map(lambda lat long: [get_normalized_x(y_max y_min x_max x_min lat long) get_normalized_y(y_max y_min x_max x_min lat long)] zip(activity.latitude activity.longitude)))```",
+        "conversation_id": "441",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-07-07T23:02:42.750000",
+        "user": "Maymunah",
+        "text": "<https://stackoverflow.com/questions/11328312/pythonlambdadoesnotaccepttupleargument>",
+        "conversation_id": "441",
+        "index": 32
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "aayla posts code that's giving error. issue is that its returning a tuple which can't be unpacked in python3",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

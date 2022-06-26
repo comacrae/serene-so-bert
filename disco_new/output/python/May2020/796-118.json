@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-15T20:24:02.908000",
+        "user": "Yitzy",
+        "text": "cannot perform refactoring using selected element(s)",
+        "conversation_id": "796",
+        "index": 116
+    },
+    "so_post": {
+        "ts": "2020-05-15T20:24:46.442000",
+        "user": "Arie",
+        "text": "It's probably this: https://stackoverflow.com/a/33825637",
+        "conversation_id": "796",
+        "index": 118
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "yitzy posts error and gets appropriate SO response. no other context",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

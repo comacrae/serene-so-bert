@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-07T19:56:10.448000",
+        "user": "Amayia",
+        "text": "This SO answer tries to guess some of them: https://stackoverflow.com/a/1485854",
+        "conversation_id": "487",
+        "index": 196
+    },
+    "so_post": {
+        "ts": "2020-08-07T19:56:10.448000",
+        "user": "Amayia",
+        "text": "This SO answer tries to guess some of them: https://stackoverflow.com/a/1485854",
+        "conversation_id": "487",
+        "index": 196
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-03T16:38:07.934000",
+        "user": "Dayne",
+        "text": "> @LennyPhoenix this is pretty interesting https://stackoverflow.com/questions/29064125/addgetitemtomodule#29064150@birb ill take a look \ud83d\udc4d",
+        "conversation_id": "182",
+        "index": 262
+    },
+    "so_post": {
+        "ts": "2020-08-03T16:38:07.934000",
+        "user": "Dayne",
+        "text": "> @LennyPhoenix this is pretty interesting https://stackoverflow.com/questions/29064125/addgetitemtomodule#29064150@birb ill take a look \ud83d\udc4d",
+        "conversation_id": "182",
+        "index": 262
+    },
+    "category": "Other",
+    "comments": "commenting on post",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

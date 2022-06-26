@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-25T14:05:47.242000",
+        "user": "Aariv",
+        "text": "> perms error@Valka https://stackoverflow.com/questions/130763/requestuacelevationfromwithinapythonscript",
+        "conversation_id": "1735",
+        "index": 113
+    },
+    "so_post": {
+        "ts": "2020-08-25T14:05:47.242000",
+        "user": "Aariv",
+        "text": "> perms error@Valka https://stackoverflow.com/questions/130763/requestuacelevationfromwithinapythonscript",
+        "conversation_id": "1735",
+        "index": 113
+    },
+    "category": "Other",
+    "comments": "commenting on solution",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

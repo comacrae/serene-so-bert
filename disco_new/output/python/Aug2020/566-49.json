@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-08T20:42:45.112000",
+        "user": "Benji",
+        "text": "About brevity: some time ago I wrote this: <https://stackoverflow.com/a/61325612/10295729>. Not sure if it\\'s appropriate as an SO answer even with all the warnings but I think it\\'s pretty cool (unless you\\'re using it in production code!).```py>>> d = {\"a\": 1 b\": 2 c\": 3}>>> b a = destructure(d)>>> b2>>> a1```",
+        "conversation_id": "566",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-08-08T20:42:45.112000",
+        "user": "Benji",
+        "text": "About brevity: some time ago I wrote this: <https://stackoverflow.com/a/61325612/10295729>. Not sure if it\\'s appropriate as an SO answer even with all the warnings but I think it\\'s pretty cool (unless you\\'re using it in production code!).```py>>> d = {\"a\": 1 b\": 2 c\": 3}>>> b a = destructure(d)>>> b2>>> a1```",
+        "conversation_id": "566",
+        "index": 49
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "sharing interetsing feature",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

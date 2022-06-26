@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-19T01:28:46.814000",
+        "user": "Florrie",
+        "text": "> i think `sys.exit()`@breh when do you use sys.exit() ?",
+        "conversation_id": "1074",
+        "index": 224
+    },
+    "so_post": {
+        "ts": "2020-07-19T01:30:21.924000",
+        "user": "Florrie",
+        "text": "https://stackoverflow.com/questions/6501121/differencebetweenexitandsysexitinpython",
+        "conversation_id": "1074",
+        "index": 236
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

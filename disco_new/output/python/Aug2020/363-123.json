@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-06T05:09:20.464000",
+        "user": "Aadil",
+        "text": "@dennis where would i change pylint settings?",
+        "conversation_id": "363",
+        "index": 115
+    },
+    "so_post": {
+        "ts": "2020-08-06T05:10:44.461000",
+        "user": "Kemonie",
+        "text": "https://stackoverflow.com/questions/30667612/pylintoverridingmaxlinelengthinindividualfile",
+        "conversation_id": "363",
+        "index": 123
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

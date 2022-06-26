@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-08T14:34:47.058000",
+        "user": "Merzouk",
+        "text": "https://stackoverflow.com/q/62797206/13892476",
+        "conversation_id": "475",
+        "index": 1113
+    },
+    "so_post": {
+        "ts": "2020-07-08T14:34:47.058000",
+        "user": "Merzouk",
+        "text": "https://stackoverflow.com/q/62797206/13892476",
+        "conversation_id": "475",
+        "index": 1113
+    },
+    "category": "Question Repost",
+    "comments": "says \"please help me\"",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

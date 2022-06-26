@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-16T11:13:36.247000",
+        "user": "Blade",
+        "text": "https://stackoverflow.com/questions/60470188/numpyfastestwaytofillcooccurrencematrix has some interesting input",
+        "conversation_id": "1110",
+        "index": 232
+    },
+    "so_post": {
+        "ts": "2020-08-16T11:13:36.247000",
+        "user": "Blade",
+        "text": "https://stackoverflow.com/questions/60470188/numpyfastestwaytofillcooccurrencematrix has some interesting input",
+        "conversation_id": "1110",
+        "index": 232
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-13T17:58:03.932000",
+        "user": "Pola",
+        "text": "@kutiekatj9 I want to see if I can put the simpledialog.askstring in the center of the window",
+        "conversation_id": "783",
+        "index": 204
+    },
+    "so_post": {
+        "ts": "2020-07-13T18:03:16.721000",
+        "user": "Hernan",
+        "text": "@rubicminer Hmmm... I'm not really familiar with how to do that with tkinter. Mine usually defaults to a reasonable position but maybe this will help. <https://stackoverflow.com/questions/40105197/pythontksimpledialogpositioningnexttotherootwindow>",
+        "conversation_id": "783",
+        "index": 220
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "tryign to poistion tkinkter window",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

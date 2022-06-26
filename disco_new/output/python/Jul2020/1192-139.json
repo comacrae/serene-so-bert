@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-20T20:59:40.479000",
+        "user": "Javaid",
+        "text": "note to self: don't try to do a `readlines()` on a 25 GB file",
+        "conversation_id": "1192",
+        "index": 87
+    },
+    "so_post": {
+        "ts": "2020-07-20T21:16:27.946000",
+        "user": "Jazzmin",
+        "text": "https://stackoverflow.com/questions/13913014/greppingahugefile80gbanywaytospeeditup",
+        "conversation_id": "1192",
+        "index": 139
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "javaid never explicitly asks for help, but their issue is trying to search a large file for matches. someone suggsests using grep and sends an SO link",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

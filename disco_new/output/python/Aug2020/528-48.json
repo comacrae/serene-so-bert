@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-08T12:17:08.007000",
+        "user": "Nyara",
+        "text": "I just posted my first answer to stack overflow I'm not sure if I'm right but it works https://stackoverflow.com/a/63315243/8731295",
+        "conversation_id": "528",
+        "index": 48
+    },
+    "so_post": {
+        "ts": "2020-08-08T12:17:08.007000",
+        "user": "Nyara",
+        "text": "I just posted my first answer to stack overflow I'm not sure if I'm right but it works https://stackoverflow.com/a/63315243/8731295",
+        "conversation_id": "528",
+        "index": 48
+    },
+    "category": "Other",
+    "comments": "just bragging about their answer",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

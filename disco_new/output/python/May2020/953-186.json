@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-18T17:09:35.620000",
+        "user": "Euri",
+        "text": "So you can do something like `pip install setup.py` and it will install modules defined in setup.py?",
+        "conversation_id": "953",
+        "index": 158
+    },
+    "so_post": {
+        "ts": "2020-05-18T17:12:35.702000",
+        "user": "Eydan",
+        "text": "@Cherapoonszi Some details here https://stackoverflow.com/a/39811884",
+        "conversation_id": "953",
+        "index": 186
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asks question about pip install and setup.pyand gets appropriate answer",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

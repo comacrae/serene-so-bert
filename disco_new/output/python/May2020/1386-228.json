@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-26T10:25:25.625000",
+        "user": "Max",
+        "text": "https://stackoverflow.com/questions/8265583/dividingpythonmoduleintomultipleregions maybe",
+        "conversation_id": "1386",
+        "index": 228
+    },
+    "so_post": {
+        "ts": "2020-05-26T10:25:25.625000",
+        "user": "Max",
+        "text": "https://stackoverflow.com/questions/8265583/dividingpythonmoduleintomultipleregions maybe",
+        "conversation_id": "1386",
+        "index": 228
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-16T08:45:26.508000",
+        "user": "Alesandro",
+        "text": "How can I get all members of the file that called a method? (Like modules calsses etc.)```py#File_1import File_2File_2.Foo()``````py#File_2def Foo(): #Get members of the file that called this method in this case File_1```",
+        "conversation_id": "818",
+        "index": 96
+    },
+    "so_post": {
+        "ts": "2020-05-16T08:45:40.860000",
+        "user": "Burhan",
+        "text": "@Qkrisi using the inspect libraryhttps://stackoverflow.com/questions/3711184/howtouseinspecttogetthecallersinfofromcalleeinpython",
+        "conversation_id": "818",
+        "index": 97
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

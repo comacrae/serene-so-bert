@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-24T11:18:06.145000",
+        "user": "Kacper",
+        "text": "```pyimport base64message = base64.b64decode(\"encoded string\")AttributeError: partially initialized module \\'base64\\ has no attribute \\'b64decode\\ (most likely due to a circular import)```",
+        "conversation_id": "1648",
+        "index": 176
+    },
+    "so_post": {
+        "ts": "2020-08-24T11:22:32.006000",
+        "user": "Remingtyn",
+        "text": "> can anyone help with my error?@Vantablack try this <https://stackoverflow.com/questions/12020885/pythonconvertingfiletobase64encoding>",
+        "conversation_id": "1648",
+        "index": 192
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

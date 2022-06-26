@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-01T11:09:43.845000",
+        "user": "Espn",
+        "text": "is there an function that splits string into list like: `['abcdef ghijkl']`?",
+        "conversation_id": "22",
+        "index": 188
+    },
+    "so_post": {
+        "ts": "2020-05-01T11:15:10.820000",
+        "user": "Aden",
+        "text": "https://stackoverflow.com/questions/312443/howdoyousplitalistintoevenlysizedchunksThis should show you how to do it. The examples are for lists but should work for strings as well",
+        "conversation_id": "22",
+        "index": 195
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asks question about splitting gets direct SO answer",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

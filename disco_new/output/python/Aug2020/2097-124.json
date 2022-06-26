@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-30T00:09:36.691000",
+        "user": "Mabel",
+        "text": "i want both the buttons to be next to each other but centered",
+        "conversation_id": "2097",
+        "index": 120
+    },
+    "so_post": {
+        "ts": "2020-08-30T00:12:31.296000",
+        "user": "Blade",
+        "text": "https://stackoverflow.com/questions/7591294/howtocreateaselfresizinggridofbuttonsintkinter/ also has help",
+        "conversation_id": "2097",
+        "index": 124
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "wants to adjust tkinter buttons",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

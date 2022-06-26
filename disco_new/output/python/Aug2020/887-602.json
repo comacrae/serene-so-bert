@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-13T11:16:25.895000",
+        "user": "Ilayah",
+        "text": "i have a list i want to know how many times its elements are repeated in another string",
+        "conversation_id": "887",
+        "index": 598
+    },
+    "so_post": {
+        "ts": "2020-08-13T11:18:30.321000",
+        "user": "Dayne",
+        "text": "https://stackoverflow.com/questions/11476713/determininghowmanytimesasubstringoccursinastringinpython",
+        "conversation_id": "887",
+        "index": 602
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

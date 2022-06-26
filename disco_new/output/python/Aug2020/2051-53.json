@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-29T06:59:21.915000",
+        "user": "Codah",
+        "text": "i dont get my py to exe file using autopytoexe",
+        "conversation_id": "2051",
+        "index": 33
+    },
+    "so_post": {
+        "ts": "2020-08-29T07:03:08.141000",
+        "user": "Codah",
+        "text": "like this error https://stackoverflow.com/questions/57393149/projectoutputwillnotbemovedtooutputfolderpyinstaller",
+        "conversation_id": "2051",
+        "index": 53
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "posts related issue from SO question",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

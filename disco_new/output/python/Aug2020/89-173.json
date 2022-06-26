@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-02T09:09:43.229000",
+        "user": "Edin",
+        "text": "@jacK don't want to fill it with colours. Want to blit the background image on a 1920x1080 display",
+        "conversation_id": "89",
+        "index": 172
+    },
+    "so_post": {
+        "ts": "2020-08-02T09:11:31.371000",
+        "user": "Shadrack",
+        "text": "https://stackoverflow.com/questions/10858700/repeatingtilebackgroundpygame",
+        "conversation_id": "89",
+        "index": 173
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "closest thing to a question (also only message from edin in thread)",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

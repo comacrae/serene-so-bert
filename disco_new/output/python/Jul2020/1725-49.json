@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-28T12:19:35.201000",
+        "user": "Malik",
+        "text": "I think it may be a problem of mixing spaces and tabs for indentations:https://stackoverflow.com/questions/492387/indentationerrorunindentdoesnotmatchanyouterindentationlevel#492399",
+        "conversation_id": "1725",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-07-28T12:19:35.201000",
+        "user": "Malik",
+        "text": "I think it may be a problem of mixing spaces and tabs for indentations:https://stackoverflow.com/questions/492387/indentationerrorunindentdoesnotmatchanyouterindentationlevel#492399",
+        "conversation_id": "1725",
+        "index": 49
+    },
+    "category": "Other",
+    "comments": "issue is in screenshot not text",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

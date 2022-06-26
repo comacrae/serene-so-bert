@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-31T02:11:23.144000",
+        "user": "Syir",
+        "text": "How could I scrape data from a popup with login in website and then save it to db?",
+        "conversation_id": "1928",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2020-07-31T02:20:15.385000",
+        "user": "Jalayna",
+        "text": "https://stackoverflow.com/questions/1631959/howtocapturethebrowserwindowcloseevent",
+        "conversation_id": "1928",
+        "index": 69
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

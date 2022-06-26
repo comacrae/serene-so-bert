@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-09T12:16:25.084000",
+        "user": "Jazai",
+        "text": "so this may be a stupid question but.. here we go:so im currently at my cousin\\'s place for the next couple weeks and I wanna game. Problem is I cant carry my desktop along (of course) so I carried along a laptop I use for presentations and such. now the laptop isnt bad but its not gaming material 4gb ram etc.. I have an android smartphone with 8GB RAM so I\\'m wondering if its possible to somehow do some distributed computing thing where the PC uses the Phone\\'s inbuilt RAM. when I googled it most people were like just dont do it but can I get a better answer? Because I remember I saw someone build a PC with multiple RasPis so it seems like it should be possible",
+        "conversation_id": "531",
+        "index": 456
+    },
+    "so_post": {
+        "ts": "2020-07-09T12:16:50.583000",
+        "user": "Blin",
+        "text": "https://stackoverflow.com/questions/20106583/basiccommandlinesonmacterminalnotworking",
+        "conversation_id": "531",
+        "index": 459
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

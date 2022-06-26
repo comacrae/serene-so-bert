@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-28T12:28:22.536000",
+        "user": "Fe",
+        "text": "```pyIn [157]: pols = np.zeros((3,3))In [159]: pols[[1,1,1],[2,2,2]]+=1In [160]: polsOut[160]:array([[0. 0. 0.], [0. 0. 1.], [0. 0. 0.]])```Is there a way to having an array of i values and another of j values add 1 to each i,j cell even if they are duplicated? Like in the example above I want the cell to have `3` in it.",
+        "conversation_id": "1727",
+        "index": 19
+    },
+    "so_post": {
+        "ts": "2020-07-28T12:31:58.866000",
+        "user": "Cambri",
+        "text": "@ConfusedReptile https://stackoverflow.com/questions/5754571/sumonenumbertoeveryelementinalistorarrayinpython",
+        "conversation_id": "1727",
+        "index": 40
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-01T11:43:59.046000",
+        "user": "Maricarmen",
+        "text": "https://stackoverflow.com/questions/14635486/determiningdaysinpythonwhenthetimedeltadaysislessthanone",
+        "conversation_id": "32",
+        "index": 405
+    },
+    "so_post": {
+        "ts": "2020-08-01T11:43:59.046000",
+        "user": "Maricarmen",
+        "text": "https://stackoverflow.com/questions/14635486/determiningdaysinpythonwhenthetimedeltadaysislessthanone",
+        "conversation_id": "32",
+        "index": 405
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

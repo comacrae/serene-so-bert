@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-04T03:37:10.143000",
+        "user": "Aymar",
+        "text": "@NoahnOahnoAhnoaH :```a = [\\'a\\ \\'b\\ \\'c\\']str = a123\"if a in str: print some of the strings found in str\"else: print no strings found in str\"``` from https://stackoverflow.com/questions/3389574/checkifmultiplestringsexistinanotherstring",
+        "conversation_id": "220",
+        "index": 129
+    },
+    "so_post": {
+        "ts": "2020-08-04T03:37:10.143000",
+        "user": "Aymar",
+        "text": "@NoahnOahnoAhnoaH :```a = [\\'a\\ \\'b\\ \\'c\\']str = a123\"if a in str: print some of the strings found in str\"else: print no strings found in str\"``` from https://stackoverflow.com/questions/3389574/checkifmultiplestringsexistinanotherstring",
+        "conversation_id": "220",
+        "index": 129
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

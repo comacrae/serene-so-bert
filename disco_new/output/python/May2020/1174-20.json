@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-22T15:20:50.137000",
+        "user": "Nana",
+        "text": "@Fizz check out the [P]ython [I]maging [L]ibrary (PIL/ now called pillow)<https://stackoverflow.com/questions/5414639/pythonimaginglibrarytextrendering>```pyimage = Image.new(\"RGBA (600,150) (255,255,255))draw = ImageDraw.Draw(image)font = ImageFont.truetype(\"resources/HelveticaNeueLight.ttf fontsize)draw.text((10 0) txt (0,0,0) font=font)img_resized = image.resize((188,45) Image.ANTIALIAS)```",
+        "conversation_id": "1174",
+        "index": 20
+    },
+    "so_post": {
+        "ts": "2020-05-22T15:20:50.137000",
+        "user": "Nana",
+        "text": "@Fizz check out the [P]ython [I]maging [L]ibrary (PIL/ now called pillow)<https://stackoverflow.com/questions/5414639/pythonimaginglibrarytextrendering>```pyimage = Image.new(\"RGBA (600,150) (255,255,255))draw = ImageDraw.Draw(image)font = ImageFont.truetype(\"resources/HelveticaNeueLight.ttf fontsize)draw.text((10 0) txt (0,0,0) font=font)img_resized = image.resize((188,45) Image.ANTIALIAS)```",
+        "conversation_id": "1174",
+        "index": 20
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

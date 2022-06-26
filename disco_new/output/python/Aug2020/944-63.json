@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-14T01:54:53.687000",
+        "user": "Benyounes",
+        "text": "yo peeps so if class variables are global to all the methods within that class why do i still need to add the `self.` prefix when tryna use them in methods definitions?",
+        "conversation_id": "944",
+        "index": 50
+    },
+    "so_post": {
+        "ts": "2020-08-14T01:59:22.202000",
+        "user": "Benyounes",
+        "text": "https://stackoverflow.com/questions/5690888/variablescopesinpythonclasses",
+        "conversation_id": "944",
+        "index": 63
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

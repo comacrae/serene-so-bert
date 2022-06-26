@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-20T06:41:12.143000",
+        "user": "Aariv",
+        "text": "https://stackoverflow.com/questions/46267705/makingadiscordbotchangeplayingstatusevery10seconds",
+        "conversation_id": "1368",
+        "index": 399
+    },
+    "so_post": {
+        "ts": "2020-08-20T06:41:12.143000",
+        "user": "Aariv",
+        "text": "https://stackoverflow.com/questions/46267705/makingadiscordbotchangeplayingstatusevery10seconds",
+        "conversation_id": "1368",
+        "index": 399
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-17T08:27:31.610000",
+        "user": "Maryama",
+        "text": "how to change color in txt",
+        "conversation_id": "982",
+        "index": 128
+    },
+    "so_post": {
+        "ts": "2020-07-17T08:29:35.169000",
+        "user": "Sahory",
+        "text": "https://stackoverflow.com/questions/287871/howtoprintcoloredtextinpython",
+        "conversation_id": "982",
+        "index": 137
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

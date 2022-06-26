@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-27T12:40:04.330000",
+        "user": "Layonna",
+        "text": "anybody can help? https://stackoverflow.com/questions/63616182/tkintertextwidgetreplace",
+        "conversation_id": "1912",
+        "index": 491
+    },
+    "so_post": {
+        "ts": "2020-08-27T12:40:04.330000",
+        "user": "Layonna",
+        "text": "anybody can help? https://stackoverflow.com/questions/63616182/tkintertextwidgetreplace",
+        "conversation_id": "1912",
+        "index": 491
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

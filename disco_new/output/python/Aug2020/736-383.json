@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-11T07:48:20.434000",
+        "user": "Val",
+        "text": "https://stackoverflow.com/questions/63338938/howtosendareplyonthesamethreadinsenderandreceiverside?noredirect=1#comment112003710_63338938",
+        "conversation_id": "736",
+        "index": 383
+    },
+    "so_post": {
+        "ts": "2020-08-11T07:48:20.434000",
+        "user": "Val",
+        "text": "https://stackoverflow.com/questions/63338938/howtosendareplyonthesamethreadinsenderandreceiverside?noredirect=1#comment112003710_63338938",
+        "conversation_id": "736",
+        "index": 383
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

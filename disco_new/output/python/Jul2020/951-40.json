@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-16T18:57:15.153000",
+        "user": "Maymunah",
+        "text": "is it possible to create a variable/list within a for loop based on index?",
+        "conversation_id": "951",
+        "index": 39
+    },
+    "so_post": {
+        "ts": "2020-07-16T18:57:26.686000",
+        "user": "Kanelo",
+        "text": "https://stackoverflow.com/questions/37024727/automaticlistgenerationpython",
+        "conversation_id": "951",
+        "index": 40
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

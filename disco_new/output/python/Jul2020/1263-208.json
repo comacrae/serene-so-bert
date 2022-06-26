@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-21T19:35:16.916000",
+        "user": "Imelda",
+        "text": "> @Mamu Okay crazy idea. You could open the file and run it through a regex that will extract anything between quotes@Mr. Hemlock hm. That would be the actual extraction. But what then? You would need to move the texts in to some other .py file and name the individual variables and all that.",
+        "conversation_id": "1263",
+        "index": 172
+    },
+    "so_post": {
+        "ts": "2020-07-21T19:41:39.300000",
+        "user": "Jazzmin",
+        "text": "@Mamu not sure how you get to 5 times. this gives you an idea of how its done on android https://stackoverflow.com/a/11794965",
+        "conversation_id": "1263",
+        "index": 208
+    },
+    "category": "Other",
+    "comments": "exact question is ooc",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-28T14:27:35.207000",
+        "user": "Garland",
+        "text": "Guys I really need help",
+        "conversation_id": "1730",
+        "index": 316
+    },
+    "so_post": {
+        "ts": "2020-07-28T14:27:51.449000",
+        "user": "Garland",
+        "text": "https://stackoverflow.com/questions/63095917/howtopreventpythonkeylistenerleaksintonextterminal",
+        "conversation_id": "1730",
+        "index": 318
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

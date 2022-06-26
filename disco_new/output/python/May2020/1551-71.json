@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-29T03:51:50.246000",
+        "user": "Hawi",
+        "text": "Where would the header for getrandom be?",
+        "conversation_id": "1551",
+        "index": 67
+    },
+    "so_post": {
+        "ts": "2020-05-29T03:52:41.114000",
+        "user": "Jahsier",
+        "text": "https://stackoverflow.com/questions/45237324/whydoesntgetrandomcompile?noredirect=1&lq=1",
+        "conversation_id": "1551",
+        "index": 71
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "wants to know why random doesnt compile, gets appropriate SO post",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

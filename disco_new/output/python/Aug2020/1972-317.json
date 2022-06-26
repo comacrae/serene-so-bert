@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-28T08:21:52.521000",
+        "user": "Ashima",
+        "text": "bro how tf do i disable ads on my selenium bot",
+        "conversation_id": "1972",
+        "index": 311
+    },
+    "so_post": {
+        "ts": "2020-08-28T08:22:23.485000",
+        "user": "Shadrack",
+        "text": "a quick google of `selenium adblock` gives me <https://stackoverflow.com/questions/20832159/pythonusingadblockwithseleniumandfirefoxwebdriver>",
+        "conversation_id": "1972",
+        "index": 317
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

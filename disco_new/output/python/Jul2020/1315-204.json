@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-22T14:04:03.395000",
+        "user": "Lemmy",
+        "text": "@Poropichu ``` import ctypes File /usr/local/lib/python3.8/ctypes/__init__.py line 7 in <module> from _ctypes import Union Structure Array ModuleNotFoundError: No module named \\'_ctypes\\' ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.```",
+        "conversation_id": "1315",
+        "index": 191
+    },
+    "so_post": {
+        "ts": "2020-07-22T14:07:30.945000",
+        "user": "Rajan",
+        "text": "@alf A quick google shows I think you might need to run `sudo aptget install libffidev` to install the `libffidev` package as a dependency https://stackoverflow.com/questions/27022373/python3importerrornomodulenamedctypeswhenusingvaluefrommodulemul. You may need to reinstall discord.py after this. ( It also says you may need to install this on the discord.py page here https://github.com/Rapptz/discord.py)",
+        "conversation_id": "1315",
+        "index": 204
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "closest thing to a question (library dependencies)",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

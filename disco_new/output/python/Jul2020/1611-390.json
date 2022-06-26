@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-26T20:04:33.432000",
+        "user": "Fe",
+        "text": "> Does anyone here know how to make a basic screen recorder?You'd want a library that provides a way to quickly grab screenshots not PIL.",
+        "conversation_id": "1611",
+        "index": 388
+    },
+    "so_post": {
+        "ts": "2020-07-26T20:04:57.214000",
+        "user": "Fe",
+        "text": "see: <https://stackoverflow.com/questions/1276616/takescreenshotsquicklyfrompython>or use a complete solution like above.",
+        "conversation_id": "1611",
+        "index": 390
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

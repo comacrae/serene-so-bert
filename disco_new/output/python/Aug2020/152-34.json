@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-03T05:27:36.282000",
+        "user": "Ryad",
+        "text": "isn't `2 = 10` then `~2 = 01` right? but ans is `3`. why?",
+        "conversation_id": "152",
+        "index": 24
+    },
+    "so_post": {
+        "ts": "2020-08-03T05:31:28.278000",
+        "user": "Benyounes",
+        "text": "https://stackoverflow.com/questions/7278779/bitwiseoperationunaryinvert",
+        "conversation_id": "152",
+        "index": 34
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asking about bitwise operation inversion",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

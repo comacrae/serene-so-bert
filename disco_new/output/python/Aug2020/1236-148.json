@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-18T05:51:28.251000",
+        "user": "Isair",
+        "text": "```pyself.pinger_response = { 2: Please don\\'t ping me again and again!\", 5: Please I kindly request you not to ping me please!\", 8: I request you not to ping me.\", 11: I order you not to ping.\", 14: For the god sake please don\\'t ping me.\" }```I want to say if they ping these amount of pings in 23 mins",
+        "conversation_id": "1236",
+        "index": 107
+    },
+    "so_post": {
+        "ts": "2020-08-18T05:59:44.509000",
+        "user": "Anyelis",
+        "text": "If you don't want to use curses there are a few cool solutions in this so thread: https://stackoverflow.com/questions/2408560/pythonnonblockingconsoleinput",
+        "conversation_id": "1236",
+        "index": 148
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

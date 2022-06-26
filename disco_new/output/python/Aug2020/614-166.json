@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-09T13:30:29.834000",
+        "user": "Maddisyn",
+        "text": "the more i get to know about python the more i hate it.<https://stackoverflow.com/questions/32691981/pythonmoduleoshasnoattributemknod/38458507#38458507>",
+        "conversation_id": "614",
+        "index": 166
+    },
+    "so_post": {
+        "ts": "2020-08-09T13:30:29.834000",
+        "user": "Maddisyn",
+        "text": "the more i get to know about python the more i hate it.<https://stackoverflow.com/questions/32691981/pythonmoduleoshasnoattributemknod/38458507#38458507>",
+        "conversation_id": "614",
+        "index": 166
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "complaining about some python feature",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

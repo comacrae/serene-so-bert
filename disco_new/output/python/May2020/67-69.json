@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-02T10:01:58.732000",
+        "user": "Talulla",
+        "text": "@Alexdebeast78 quick google search returned this https://stackoverflow.com/questions/40208051/seleniumusingpythongeckodriverexecutableneedstobeinpath",
+        "conversation_id": "67",
+        "index": 69
+    },
+    "so_post": {
+        "ts": "2020-05-02T10:01:58.732000",
+        "user": "Talulla",
+        "text": "@Alexdebeast78 quick google search returned this https://stackoverflow.com/questions/40208051/seleniumusingpythongeckodriverexecutableneedstobeinpath",
+        "conversation_id": "67",
+        "index": 69
+    },
+    "category": "Other",
+    "comments": "instigating msg out of scope",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-21T02:39:05.524000",
+        "user": "Rajinder",
+        "text": "Im confused yolo = wordLowList.remove(0)won't work since my list has no integer zero only strings?",
+        "conversation_id": "1090",
+        "index": 247
+    },
+    "so_post": {
+        "ts": "2020-05-21T02:41:08.426000",
+        "user": "Amelio",
+        "text": "https://stackoverflow.com/questions/11520492/differencebetweendelremoveandpoponlists/11520540",
+        "conversation_id": "1090",
+        "index": 254
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "trying to figure out diff btw pop and remove(), gets appropriate SO link",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

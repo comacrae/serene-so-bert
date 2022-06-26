@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-02T21:30:38.977000",
+        "user": "Kiora",
+        "text": "does re have a\"searchall method?",
+        "conversation_id": "101",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-05-02T21:50:48.561000",
+        "user": "Blimy",
+        "text": "https://stackoverflow.com/a/11264056/12506727",
+        "conversation_id": "101",
+        "index": 125
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "kiora is tryingto use regexes to search for a matching IP",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

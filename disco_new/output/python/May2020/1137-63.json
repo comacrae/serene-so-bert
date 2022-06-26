@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-21T20:52:04.091000",
+        "user": "Braxtyn",
+        "text": "any ideas how do i kill application not the process?",
+        "conversation_id": "1137",
+        "index": 22
+    },
+    "so_post": {
+        "ts": "2020-05-21T21:15:55.569000",
+        "user": "Amelio",
+        "text": "@splexas https://stackoverflow.com/questions/27277257/howtocloseatkinterwindowwithoutterminatingtheprogram",
+        "conversation_id": "1137",
+        "index": 63
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "trying to figure out how to kill a tkinter frame w/o killing process, gets appropriate response in SO link",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

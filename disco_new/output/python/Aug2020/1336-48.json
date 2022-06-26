@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-19T18:33:12.424000",
+        "user": "Brantly",
+        "text": "I am trying to improve tesseract chances of recognizing textI have seen this thread: https://stackoverflow.com/questions/57210342/improvingpytesseractcorrecttextrecognitionfromimagehe applied a threshold of 220 but it will not work on darker image (it will just black it all)what should I do?",
+        "conversation_id": "1336",
+        "index": 48
+    },
+    "so_post": {
+        "ts": "2020-08-19T18:33:12.424000",
+        "user": "Brantly",
+        "text": "I am trying to improve tesseract chances of recognizing textI have seen this thread: https://stackoverflow.com/questions/57210342/improvingpytesseractcorrecttextrecognitionfromimagehe applied a threshold of 220 but it will not work on darker image (it will just black it all)what should I do?",
+        "conversation_id": "1336",
+        "index": 48
+    },
+    "category": "Validating Solution",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-12T10:08:16.200000",
+        "user": "Kentavious",
+        "text": "Wats dynamic typing lol",
+        "conversation_id": "589",
+        "index": 137
+    },
+    "so_post": {
+        "ts": "2020-05-12T10:10:54.128000",
+        "user": "Zemirah",
+        "text": "https://stackoverflow.com/questions/1517582/whatisthedifferencebetweenstaticallytypedanddynamicallytypedlanguages",
+        "conversation_id": "589",
+        "index": 152
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asking about diff between dynamic and strict typing",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

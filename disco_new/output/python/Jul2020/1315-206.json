@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-22T14:08:06.076000",
+        "user": "Lemmy",
+        "text": "> @alf A quick google shows I think you might need to run `sudo aptget install libffidev` to install the `libffidev` package as a dependency <https://stackoverflow.com/questions/27022373/python3importerrornomodulenamedctypeswhenusingvaluefrommodulemul>. You may need to reinstall discord.py after this. ( It also says you may need to install this on the discord.py page here <https://github.com/Rapptz/discord.py>)@wookie i have already tried the libffidev thing. I'll try it again though",
+        "conversation_id": "1315",
+        "index": 206
+    },
+    "so_post": {
+        "ts": "2020-07-22T14:08:06.076000",
+        "user": "Lemmy",
+        "text": "> @alf A quick google shows I think you might need to run `sudo aptget install libffidev` to install the `libffidev` package as a dependency <https://stackoverflow.com/questions/27022373/python3importerrornomodulenamedctypeswhenusingvaluefrommodulemul>. You may need to reinstall discord.py after this. ( It also says you may need to install this on the discord.py page here <https://github.com/Rapptz/discord.py>)@wookie i have already tried the libffidev thing. I'll try it again though",
+        "conversation_id": "1315",
+        "index": 206
+    },
+    "category": "Other",
+    "comments": "commenting on SO post",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

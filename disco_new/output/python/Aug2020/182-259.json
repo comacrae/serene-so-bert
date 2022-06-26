@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-03T16:37:48.515000",
+        "user": "Sachi",
+        "text": "@LennyPhoenix this is pretty interesting https://stackoverflow.com/questions/29064125/addgetitemtomodule#29064150",
+        "conversation_id": "182",
+        "index": 259
+    },
+    "so_post": {
+        "ts": "2020-08-03T16:37:48.515000",
+        "user": "Sachi",
+        "text": "@LennyPhoenix this is pretty interesting https://stackoverflow.com/questions/29064125/addgetitemtomodule#29064150",
+        "conversation_id": "182",
+        "index": 259
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "sharing some info",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-16T22:03:47.422000",
+        "user": "Jax",
+        "text": "> Is there any way to use python as a killswitch for all open desktop applications? So like useing taskkill?@dxniel>< https://stackoverflow.com/questions/6278847/isitpossibletokillaprocessonwindowsfromwithinpython",
+        "conversation_id": "959",
+        "index": 40
+    },
+    "so_post": {
+        "ts": "2020-07-16T22:03:47.422000",
+        "user": "Jax",
+        "text": "> Is there any way to use python as a killswitch for all open desktop applications? So like useing taskkill?@dxniel>< https://stackoverflow.com/questions/6278847/isitpossibletokillaprocessonwindowsfromwithinpython",
+        "conversation_id": "959",
+        "index": 40
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "original msg is quoted and given an SO answer",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

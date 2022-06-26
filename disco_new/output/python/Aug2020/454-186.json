@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-07T10:18:59.148000",
+        "user": "Jerrica",
+        "text": "@\u1d0a\u1d0f\u1d0b\u1d07\u0280 I personally don't use windows but this stack overflow answer may be of help:https://stackoverflow.com/questions/56974927/permissiondeniedtryingtorunpythononwindows10",
+        "conversation_id": "454",
+        "index": 186
+    },
+    "so_post": {
+        "ts": "2020-08-07T10:18:59.148000",
+        "user": "Jerrica",
+        "text": "@\u1d0a\u1d0f\u1d0b\u1d07\u0280 I personally don't use windows but this stack overflow answer may be of help:https://stackoverflow.com/questions/56974927/permissiondeniedtryingtorunpythononwindows10",
+        "conversation_id": "454",
+        "index": 186
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

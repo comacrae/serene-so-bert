@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-07T15:40:27.039000",
+        "user": "Yitzy",
+        "text": "I got a quick and very beginner questionI want to add to a especific value inside of a list but I can't seem to find how to do it",
+        "conversation_id": "357",
+        "index": 105
+    },
+    "so_post": {
+        "ts": "2020-05-07T15:43:37.578000",
+        "user": "Amelio",
+        "text": "https://stackoverflow.com/questions/43107251/isthereamethodlikereplaceforlistinpython",
+        "conversation_id": "357",
+        "index": 109
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

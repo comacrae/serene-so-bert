@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-25T11:09:50.348000",
+        "user": "Oshay",
+        "text": "i somehow dont know how to enable admin perms for a python script",
+        "conversation_id": "1724",
+        "index": 285
+    },
+    "so_post": {
+        "ts": "2020-08-25T11:11:55.244000",
+        "user": "Aariv",
+        "text": "https://stackoverflow.com/questions/130763/requestuacelevationfromwithinapythonscript This has an answer",
+        "conversation_id": "1724",
+        "index": 296
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

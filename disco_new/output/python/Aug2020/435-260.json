@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-07T02:52:09.962000",
+        "user": "Emerson",
+        "text": "I don\\'t understand why you can\\'t do something like```pyprint(f\"{\\\\\"hi\\\\\"}\")```",
+        "conversation_id": "435",
+        "index": 255
+    },
+    "so_post": {
+        "ts": "2020-08-07T02:53:34.257000",
+        "user": "Benji",
+        "text": "@S\u03bfmeDude <https://stackoverflow.com/questions/51775950/whyisntitpossibletousebackslashesinfstrings>",
+        "conversation_id": "435",
+        "index": 260
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

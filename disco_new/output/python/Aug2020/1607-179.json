@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-23T19:22:57.402000",
+        "user": "Oonagh",
+        "text": "`Failed to build pyaudioDEPRECATION: Could not build wheels for pyaudio which do not use PEP 517. pip will fall back to legacy setup.py install for these. pip 21.0 will remove support for this functionality. A possible replacement is to fix the wheel build issue reported above. You can find discussion regarding this at https://github.com/pypa/pip/issues/8368.Installing collected packages: pyaudio Running setup.py install for pyaudio ... error ERROR: Command errored out with exit status 1:`",
+        "conversation_id": "1607",
+        "index": 142
+    },
+    "so_post": {
+        "ts": "2020-08-23T19:28:08.854000",
+        "user": "Nashville",
+        "text": "or try this if it doesnt work https://stackoverflow.com/questions/52283840/icantinstallpyaudioonwindowshowtosolveerrormicrosoftvisualc14/52284344#52284344",
+        "conversation_id": "1607",
+        "index": 179
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

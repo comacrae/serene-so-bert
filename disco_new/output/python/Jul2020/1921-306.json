@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-31T00:58:53.666000",
+        "user": "Vaela",
+        "text": "> alr so I'm coding a discord bot.> discord.py> does anybody know how to create a custom slow mode?@Cornelius le docs lol (https://stackoverflow.com/questions/62244594/howdoyoumakeabotsettheslowmodeforachannelindiscordpyrewrite)",
+        "conversation_id": "1921",
+        "index": 306
+    },
+    "so_post": {
+        "ts": "2020-07-31T00:58:53.666000",
+        "user": "Vaela",
+        "text": "> alr so I'm coding a discord bot.> discord.py> does anybody know how to create a custom slow mode?@Cornelius le docs lol (https://stackoverflow.com/questions/62244594/howdoyoumakeabotsettheslowmodeforachannelindiscordpyrewrite)",
+        "conversation_id": "1921",
+        "index": 306
+    },
+    "category": "Other",
+    "comments": "original post is ooc",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

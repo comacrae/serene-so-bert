@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-30T09:22:47.780000",
+        "user": "Makye",
+        "text": "Are there arrays at all in python?",
+        "conversation_id": "1874",
+        "index": 377
+    },
+    "so_post": {
+        "ts": "2020-07-30T09:38:18.743000",
+        "user": "Malakye",
+        "text": "https://stackoverflow.com/a/4810460/337899",
+        "conversation_id": "1874",
+        "index": 409
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "asking about arrays in python and some people start discussing pros/cons of arrays w/ relation to memory allocation and other stuff",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

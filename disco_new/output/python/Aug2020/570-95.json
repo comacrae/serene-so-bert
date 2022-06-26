@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-08T22:15:42.278000",
+        "user": "Cortlyn",
+        "text": "https://stackoverflow.com/questions/53580507/disableenablebuttonintkinter",
+        "conversation_id": "570",
+        "index": 95
+    },
+    "so_post": {
+        "ts": "2020-08-08T22:15:42.278000",
+        "user": "Cortlyn",
+        "text": "https://stackoverflow.com/questions/53580507/disableenablebuttonintkinter",
+        "conversation_id": "570",
+        "index": 95
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

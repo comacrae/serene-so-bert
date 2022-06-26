@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-16T13:34:14.429000",
+        "user": "Aariv",
+        "text": "Traceback (most recent call last): File C:\\\\Users\\\\Admin\\\\Desktop\\\\bodyDetection.py line 12 in <module> gray = cv2.cvtColor(frame cv2.COLOR_BGR2GRAY)cv2.error: OpenCV(4.4.0) C:\\\\Users\\\\appveyor\\\\AppData\\\\Local\\\\Temp\\\\1\\\\pipreqbuildm9hy83n6\\\\opencv\\\\modules\\\\imgproc\\\\src\\\\color.cpp:182: error: (215:Assertion failed) !_src.empty() in function \\'cv::cvtColor\\",
+        "conversation_id": "1118",
+        "index": 159
+    },
+    "so_post": {
+        "ts": "2020-08-16T13:36:28.586000",
+        "user": "Tavin",
+        "text": "https://stackoverflow.com/questions/52676020/opencvsrcemptyinfunctioncvtcolorerror",
+        "conversation_id": "1118",
+        "index": 166
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "something to do with cv2?",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

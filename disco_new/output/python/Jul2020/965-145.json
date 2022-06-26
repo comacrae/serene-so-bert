@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-17T01:04:06.076000",
+        "user": "Aarish",
+        "text": "who can help me by creating a function which splits a number into 3num blocks?so `123456789`would be `123.456.789`",
+        "conversation_id": "965",
+        "index": 81
+    },
+    "so_post": {
+        "ts": "2020-07-17T01:25:30.789000",
+        "user": "Sahory",
+        "text": "https://stackoverflow.com/questions/3258573/pythonicwaytoinsertevery2elementsinastring",
+        "conversation_id": "965",
+        "index": 145
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

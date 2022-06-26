@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-12T00:03:22.346000",
+        "user": "Whit",
+        "text": "when I do this it returns this `TypeError: vars() argument must have __dict__ attribute`",
+        "conversation_id": "791",
+        "index": 189
+    },
+    "so_post": {
+        "ts": "2020-08-12T00:20:14.843000",
+        "user": "Ousmane",
+        "text": "you could read https://stackoverflow.com/questions/19907442/explaindictattribute it might help",
+        "conversation_id": "791",
+        "index": 250
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "user is using dicts incorrectly",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

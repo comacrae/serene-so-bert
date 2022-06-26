@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-16T01:33:07.958000",
+        "user": "Favour",
+        "text": "No I want the page to display conditional information depending upon whether the user is logged in not restrict the entire view due to a user not being logged in.",
+        "conversation_id": "912",
+        "index": 25
+    },
+    "so_post": {
+        "ts": "2020-07-16T01:37:07.593000",
+        "user": "Yianna",
+        "text": "that wouldn't be a backend thing it would be a frontend one. here's a stackoverflow post about it: https://stackoverflow.com/questions/43043113/howtoforcereloadingapagewhenusingbrowserbackbutton",
+        "conversation_id": "912",
+        "index": 37
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "id say this is a related info because it doesn't provide a direct solution to the user's issue",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

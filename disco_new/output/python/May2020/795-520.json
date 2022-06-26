@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-15T22:22:34.288000",
+        "user": "Amelio",
+        "text": "``` WARNING: The script wheel is installed in /home/username/.local/bin which is not on PATH.  Consider adding this directory to PATH or if you prefer to suppress this warning use nowarnscriptlocation.```",
+        "conversation_id": "795",
+        "index": 501
+    },
+    "so_post": {
+        "ts": "2020-05-15T22:27:36.472000",
+        "user": "Dreya",
+        "text": "@UnruffledST the answer here looks right you just might wanna configure it for Linux https://stackoverflow.com/questions/58051467/fixingpathforpythonlibrariesusingbash",
+        "conversation_id": "795",
+        "index": 520
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "issue with python installation path",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

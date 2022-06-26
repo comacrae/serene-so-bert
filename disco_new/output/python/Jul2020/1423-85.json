@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-24T00:05:45.498000",
+        "user": "Adexe",
+        "text": "is there a way to save the value in the queue and not have it disapear?",
+        "conversation_id": "1423",
+        "index": 83
+    },
+    "so_post": {
+        "ts": "2020-07-24T00:07:14.453000",
+        "user": "Vaela",
+        "text": "<https://stackoverflow.com/questions/156360/getallitemsfromthreadqueue>",
+        "conversation_id": "1423",
+        "index": 85
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

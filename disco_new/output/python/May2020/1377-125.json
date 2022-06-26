@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-26T06:05:54.239000",
+        "user": "Lavelle",
+        "text": "https://stackoverflow.com/questions/28492103/howtocombinepythonasynciowiththreads",
+        "conversation_id": "1377",
+        "index": 125
+    },
+    "so_post": {
+        "ts": "2020-05-26T06:05:54.239000",
+        "user": "Lavelle",
+        "text": "https://stackoverflow.com/questions/28492103/howtocombinepythonasynciowiththreads",
+        "conversation_id": "1377",
+        "index": 125
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-11T08:27:02.266000",
+        "user": "Aariv",
+        "text": "is time_delta available with pygame ?",
+        "conversation_id": "740",
+        "index": 96
+    },
+    "so_post": {
+        "ts": "2020-08-11T08:29:02.733000",
+        "user": "Anyelis",
+        "text": "You would use pygames clock this thread explains it quite well https://stackoverflow.com/questions/24039804/pygamecurrenttimemillisanddeltatime",
+        "conversation_id": "740",
+        "index": 102
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

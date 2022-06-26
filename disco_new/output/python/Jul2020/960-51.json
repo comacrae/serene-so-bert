@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-16T22:05:30.563000",
+        "user": "Maymunah",
+        "text": "the reason I subtract 1 is because if I wanted to do something at the end of the list I need the index number?",
+        "conversation_id": "960",
+        "index": 32
+    },
+    "so_post": {
+        "ts": "2020-07-16T22:08:25.582000",
+        "user": "Maymunah",
+        "text": "https://stackoverflow.com/questions/39808908/detectifitemisthelastinalist",
+        "conversation_id": "960",
+        "index": 51
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "finds their own answer about getting last element of a list",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-20T01:53:40.580000",
+        "user": "Terrance",
+        "text": "how do square root functions work?",
+        "conversation_id": "1142",
+        "index": 217
+    },
+    "so_post": {
+        "ts": "2020-07-20T01:55:07.179000",
+        "user": "Malayiah",
+        "text": "@MmBaguette https://stackoverflow.com/questions/47741833/designingasqrtfunctioninpython",
+        "conversation_id": "1142",
+        "index": 222
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

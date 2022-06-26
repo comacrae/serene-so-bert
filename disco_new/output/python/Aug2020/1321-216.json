@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-19T15:56:36.021000",
+        "user": "Shadrack",
+        "text": "> guys how do I get the most significant float bit?@ibos You'd probably want to use `struct`. See <https://stackoverflow.com/questions/16444726/binaryrepresentationoffloatinpythonbitsnothex>",
+        "conversation_id": "1321",
+        "index": 216
+    },
+    "so_post": {
+        "ts": "2020-08-19T15:56:36.021000",
+        "user": "Shadrack",
+        "text": "> guys how do I get the most significant float bit?@ibos You'd probably want to use `struct`. See <https://stackoverflow.com/questions/16444726/binaryrepresentationoffloatinpythonbitsnothex>",
+        "conversation_id": "1321",
+        "index": 216
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-01T07:01:46.703000",
+        "user": "Ranger",
+        "text": "https://stackoverflow.com/ @GAROU this is like every developers tool to success",
+        "conversation_id": "17",
+        "index": 392
+    },
+    "so_post": {
+        "ts": "2020-08-01T07:01:46.703000",
+        "user": "Ranger",
+        "text": "https://stackoverflow.com/ @GAROU this is like every developers tool to success",
+        "conversation_id": "17",
+        "index": 392
+    },
+    "category": "Other",
+    "comments": "sharing stackoverflow.com as a resource",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

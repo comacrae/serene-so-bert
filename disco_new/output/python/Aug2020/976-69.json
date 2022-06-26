@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-14T13:00:53.629000",
+        "user": "Kahmari",
+        "text": "what about `__main__.py`?",
+        "conversation_id": "976",
+        "index": 54
+    },
+    "so_post": {
+        "ts": "2020-08-14T13:02:57.894000",
+        "user": "Elayah",
+        "text": "https://stackoverflow.com/questions/4042905/whatismainpy",
+        "conversation_id": "976",
+        "index": 69
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "wants to know if __main__.py is a tihng",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

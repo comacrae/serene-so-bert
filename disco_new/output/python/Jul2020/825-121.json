@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-14T11:38:15.298000",
+        "user": "Jajuan",
+        "text": "is it possible to kill a thread in python. The thread is an object since the class inherits from threading.thread.. if its not possible is it memory consuming or is it okay to let the thread be there?",
+        "conversation_id": "825",
+        "index": 119
+    },
+    "so_post": {
+        "ts": "2020-07-14T11:46:27.976000",
+        "user": "Braydon",
+        "text": "@waz That's a whole can of worms you might be opening there. With that being said I will direct you to this SO question: https://stackoverflow.com/questions/323972/isthereanywaytokillathread",
+        "conversation_id": "825",
+        "index": 121
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

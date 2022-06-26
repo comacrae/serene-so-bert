@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-25T08:59:07.138000",
+        "user": "Maymunah",
+        "text": "https://stackoverflow.com/questions/63080970/pythonflaskcountdowntimernotworksyncing @Grincek this is my own stackoverflow question",
+        "conversation_id": "1506",
+        "index": 118
+    },
+    "so_post": {
+        "ts": "2020-07-25T08:59:07.138000",
+        "user": "Maymunah",
+        "text": "https://stackoverflow.com/questions/63080970/pythonflaskcountdowntimernotworksyncing @Grincek this is my own stackoverflow question",
+        "conversation_id": "1506",
+        "index": 118
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

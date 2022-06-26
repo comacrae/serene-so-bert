@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-17T09:37:19.006000",
+        "user": "Yitzy",
+        "text": "Try doing other imports. If you see this problem happen with all of them look at this https://stackoverflow.com/questions/53939751/pylintunresolvedimporterrorinvisualstudiocode",
+        "conversation_id": "876",
+        "index": 12
+    },
+    "so_post": {
+        "ts": "2020-05-17T09:37:19.006000",
+        "user": "Yitzy",
+        "text": "Try doing other imports. If you see this problem happen with all of them look at this https://stackoverflow.com/questions/53939751/pylintunresolvedimporterrorinvisualstudiocode",
+        "conversation_id": "876",
+        "index": 12
+    },
+    "category": "Other",
+    "comments": "thread doesnt pick up any of the msgs to Yitzy,only Yitz's responses",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

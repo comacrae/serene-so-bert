@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-14T08:31:59.000000",
+        "user": "Germain",
+        "text": "I'm pulling web data as JSON from an API to use in a discord bot",
+        "conversation_id": "961",
+        "index": 63
+    },
+    "so_post": {
+        "ts": "2020-08-14T08:48:41.197000",
+        "user": "Loyal",
+        "text": "<https://stackoverflow.com/questions/7160737/pythonhowtovalidateaurlinpythonmalformedornot><https://www.codespeedy.com/checkifastringisavalidurlornotinpython/>",
+        "conversation_id": "961",
+        "index": 73
+    },
+    "category": "Other",
+    "comments": "actual question is ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-18T17:09:15.335000",
+        "user": "Erlan",
+        "text": "how do you print something in pygame",
+        "conversation_id": "1261",
+        "index": 59
+    },
+    "so_post": {
+        "ts": "2020-08-18T17:11:10.262000",
+        "user": "Aristeo",
+        "text": "@A Villager https://stackoverflow.com/questions/20842801/howtodisplaytextinpygame",
+        "conversation_id": "1261",
+        "index": 71
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

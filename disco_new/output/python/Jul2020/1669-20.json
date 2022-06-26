@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-27T15:33:28.258000",
+        "user": "Ananias",
+        "text": "I might be doing something wrong but this doesnt work```pydatetime.date(1970,1,1).timestamp()```",
+        "conversation_id": "1669",
+        "index": 15
+    },
+    "so_post": {
+        "ts": "2020-07-27T15:34:30.513000",
+        "user": "Jalayna",
+        "text": "https://stackoverflow.com/questions/4548684/howtogetthesecondssinceepochfromthetimedateoutputofgmtime",
+        "conversation_id": "1669",
+        "index": 20
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "tryign to get seconds since epoch and gets SO answer",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

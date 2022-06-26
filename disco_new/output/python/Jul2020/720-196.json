@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-12T14:51:01.645000",
+        "user": "Cleto",
+        "text": "@rubicminer OperationalError: attempt to write a readonly database",
+        "conversation_id": "720",
+        "index": 189
+    },
+    "so_post": {
+        "ts": "2020-07-12T14:52:39.647000",
+        "user": "Pola",
+        "text": "https://stackoverflow.com/questions/40703228/pythonsqlite3operationalerrorattempttowriteareadonlydatabase",
+        "conversation_id": "720",
+        "index": 196
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "trying to write to a readonly db",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

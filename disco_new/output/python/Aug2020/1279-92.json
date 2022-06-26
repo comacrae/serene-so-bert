@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-18T21:53:05.657000",
+        "user": "Kasey",
+        "text": "```py\"\"\"Simple Login Page with classes  credits  ! immortal#9160 alphabet = [\"a\",\"b\",\"c\",\"e\",\"f\",\"g\",\"h\",\"i\",\"j\",\"k\",\"l\",\"m\",\"n\",\"o\",\"p\",\"q\",\"r\",\"s\",\"t\",\"u\",\"v\",\"w\",\"x\",\"y\",\"z\"]print(\"Please Login Or sign up\")print(\"Type !signup to sign up / !login to into your account login\")choice_Start = input(\"Choice:\")while True: if choice_Start == !signup\": gmail_signup = input(\"Gmail:\") pass_signup = input(\"Password:\") if len(pass_signup) >= 10 and pass_signup in alphabet:  break  else: print(\"Password is too short please make it longer or add letters\") continue  ```hey i want to make it so it checks if it has 1 letter in the list please help because it says passowrd is too short please make it longer",
+        "conversation_id": "1279",
+        "index": 87
+    },
+    "so_post": {
+        "ts": "2020-08-18T21:56:37.628000",
+        "user": "Armanii",
+        "text": "https://stackoverflow.com/questions/740287/howtocheckifoneofthefollowingitemsisinalist",
+        "conversation_id": "1279",
+        "index": 92
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

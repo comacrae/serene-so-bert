@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-03T09:16:51.787000",
+        "user": "Maisyn",
+        "text": "How to get the key of a value in a dictionary?",
+        "conversation_id": "142",
+        "index": 52
+    },
+    "so_post": {
+        "ts": "2020-07-03T09:20:17.275000",
+        "user": "Kohen",
+        "text": "@Aspirus https://stackoverflow.com/questions/8023306/getkeybyvalueindictionary```pythondictionary = {\\'george\\': 16 \\'amber\\': 19}search_age = input(\"Provide age\")for name age in dictionary.items(): # for name age in dictionary.iteritems(): (for Python 2.x) if age == search_age: print(name)```",
+        "conversation_id": "142",
+        "index": 55
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

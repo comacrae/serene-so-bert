@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-12T04:17:21.369000",
+        "user": "Estela",
+        "text": "How can I see the return result of an executor map ?",
+        "conversation_id": "803",
+        "index": 43
+    },
+    "so_post": {
+        "ts": "2020-08-12T04:19:52.592000",
+        "user": "Ariel",
+        "text": "@smtppop3 is this what you need? https://stackoverflow.com/questions/26590638/howtoprintresultsofpythonthreadpoolexecutormapimmediately",
+        "conversation_id": "803",
+        "index": 45
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-09T12:17:18.786000",
+        "user": "Kyleigha",
+        "text": "> https://stackoverflow.com/questions/20106583/basiccommandlinesonmacterminalnotworking@Seto_Kibah oh i hate DBs",
+        "conversation_id": "531",
+        "index": 463
+    },
+    "so_post": {
+        "ts": "2020-07-09T12:17:18.786000",
+        "user": "Kyleigha",
+        "text": "> https://stackoverflow.com/questions/20106583/basiccommandlinesonmacterminalnotworking@Seto_Kibah oh i hate DBs",
+        "conversation_id": "531",
+        "index": 463
+    },
+    "category": "Other",
+    "comments": "just commenting on an answer given through SO",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-20T18:10:25.225000",
+        "user": "Julee",
+        "text": "Hey So I have a n00b issue here.... I have a float lets say: 0.00123 and I need to get 10% of that float. When I multiply with 1.1 or 0.1 I can get the right sum most of the times. But when I do it multiple times and float points increase  I get the e05 and my results start to mess up my script. Can anyone give me a quick lesson on this? If possible I need to fix the float length to 8 decimals and possibly round down. Suggestions?(Yes I tried stackoverflow  but I simply do not understand the answer: https://stackoverflow.com/questions/22756324/howtoavoide05inpython)",
+        "conversation_id": "1410",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-20T18:10:25.225000",
+        "user": "Julee",
+        "text": "Hey So I have a n00b issue here.... I have a float lets say: 0.00123 and I need to get 10% of that float. When I multiply with 1.1 or 0.1 I can get the right sum most of the times. But when I do it multiple times and float points increase  I get the e05 and my results start to mess up my script. Can anyone give me a quick lesson on this? If possible I need to fix the float length to 8 decimals and possibly round down. Suggestions?(Yes I tried stackoverflow  but I simply do not understand the answer: https://stackoverflow.com/questions/22756324/howtoavoide05inpython)",
+        "conversation_id": "1410",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

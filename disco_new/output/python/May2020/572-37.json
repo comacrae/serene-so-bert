@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-12T01:19:57.770000",
+        "user": "Kent",
+        "text": "can you print specific ascii characters according to their number",
+        "conversation_id": "572",
+        "index": 33
+    },
+    "so_post": {
+        "ts": "2020-05-12T01:20:48.470000",
+        "user": "Amaury",
+        "text": "https://stackoverflow.com/questions/46063974/printingextendedasciicharactersinpython",
+        "conversation_id": "572",
+        "index": 37
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "question about printing specific ascii,gets appropriate response",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

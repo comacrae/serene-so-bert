@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-07T21:03:45.014000",
+        "user": "Aariv",
+        "text": "i feel so dumb```pythongame = string\"a = skateboard\"game[2] = a[1]```",
+        "conversation_id": "487",
+        "index": 688
+    },
+    "so_post": {
+        "ts": "2020-08-07T21:09:02.383000",
+        "user": "Aljawharah",
+        "text": "You can also use slicing as described here (first anwser) : https://stackoverflow.com/questions/41752946/replacingacharacterfromacertainindex",
+        "conversation_id": "487",
+        "index": 701
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "says \"why isnt this working\"",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

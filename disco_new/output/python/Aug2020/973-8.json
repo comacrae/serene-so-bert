@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-14T11:41:11.049000",
+        "user": "Zayvion",
+        "text": "https://stackoverflow.com/questions/63411739/audiooverlappingfrompreviousrecordingwithfluentffmpeg i made a stackoverflow post with my issue. Answer if you know how to fix or if you can upvote it would help alot too !",
+        "conversation_id": "973",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-08-14T11:41:11.049000",
+        "user": "Zayvion",
+        "text": "https://stackoverflow.com/questions/63411739/audiooverlappingfrompreviousrecordingwithfluentffmpeg i made a stackoverflow post with my issue. Answer if you know how to fix or if you can upvote it would help alot too !",
+        "conversation_id": "973",
+        "index": 8
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

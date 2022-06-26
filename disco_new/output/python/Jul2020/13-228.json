@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-01T06:09:39.701000",
+        "user": "Nizar",
+        "text": "i have a peculiar question which i have already asked but i am asking again..... its very simple numpy.array([10,20,30]) creates an array... i just wanna know where is array() function defined in numpy... since the numpy package doesn\\'t have a file called numpy.py",
+        "conversation_id": "13",
+        "index": 208
+    },
+    "so_post": {
+        "ts": "2020-07-01T06:11:17.216000",
+        "user": "Austyn",
+        "text": "@learningThroughOutLife Here's a relevant SO question https://stackoverflow.com/questions/16682672/howdoireadnumpysource",
+        "conversation_id": "13",
+        "index": 228
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

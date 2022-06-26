@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-11T04:20:20.252000",
+        "user": "Aariv",
+        "text": "does anyone know how to make an os in python?",
+        "conversation_id": "731",
+        "index": 157
+    },
+    "so_post": {
+        "ts": "2020-08-11T04:20:37.305000",
+        "user": "Meenah",
+        "text": "@Deleted User https://stackoverflow.com/questions/10904721/isitpossibletocreateanoperatingsystemusingpython#:~:text=It%20is%2C%20however%2C%20technically%20possible,operating%20system%20written%20in%20Python.",
+        "conversation_id": "731",
+        "index": 161
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

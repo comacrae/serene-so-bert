@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-30T05:10:24.907000",
+        "user": "Maymunah",
+        "text": "did I do something wrong lmao ```shell#!/bin/shecho Time Interval to restart program: read WAITTIMEecho Enter Directory: read DIRecho Enter PID\"read PIDx = 0while [$x lt 1]; do sleep $10 python3 $DIR sleep $WAITTIME kill $PIDdone```",
+        "conversation_id": "1857",
+        "index": 33
+    },
+    "so_post": {
+        "ts": "2020-07-30T05:14:58.416000",
+        "user": "Manoel",
+        "text": "@Deleted User I would check this (https://stackoverflow.com/a/53557536/4829765) StackOverflow answer out. Looks like SystemD can handle the timer for you",
+        "conversation_id": "1857",
+        "index": 60
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "trying to create a timer to automatically kill program (i only know this because same user mentioned it in a diff thread)",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

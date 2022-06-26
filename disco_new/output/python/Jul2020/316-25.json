@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-06T00:02:09.437000",
+        "user": "Maelynn",
+        "text": "https://stackoverflow.com/questions/62747582/caniconnectpythontojavascriptinpyqt5qwebengineIf anyone can help that'd be greatly appreciated since I'm quite stuck on this one problem",
+        "conversation_id": "316",
+        "index": 25
+    },
+    "so_post": {
+        "ts": "2020-07-06T00:02:09.437000",
+        "user": "Maelynn",
+        "text": "https://stackoverflow.com/questions/62747582/caniconnectpythontojavascriptinpyqt5qwebengineIf anyone can help that'd be greatly appreciated since I'm quite stuck on this one problem",
+        "conversation_id": "316",
+        "index": 25
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

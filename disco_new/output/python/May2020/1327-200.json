@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-25T11:04:28.926000",
+        "user": "Janeen",
+        "text": "```Loaded plugins: extras_suggestions langpacks priorities updatemotdamzn2core | 2.4 kB 00:00:00amzn2extradocker | 1.8 kB 00:00:00Package python3pip9.0.31.amzn2.0.2.noarch already installed and latest versionNothing to do```",
+        "conversation_id": "1327",
+        "index": 192
+    },
+    "so_post": {
+        "ts": "2020-05-25T11:05:32.598000",
+        "user": "Blimy",
+        "text": "`yum install httpd24` seems to be the answer from https://stackoverflow.com/a/32593095",
+        "conversation_id": "1327",
+        "index": 200
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Janeen posts error msg from attempted installation",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

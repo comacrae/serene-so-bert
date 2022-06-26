@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-29T15:46:07.603000",
+        "user": "Pierino",
+        "text": "https://stackoverflow.com/questions/13434514/pythoncursesinitscrerror",
+        "conversation_id": "2075",
+        "index": 173
+    },
+    "so_post": {
+        "ts": "2020-08-29T15:46:07.603000",
+        "user": "Pierino",
+        "text": "https://stackoverflow.com/questions/13434514/pythoncursesinitscrerror",
+        "conversation_id": "2075",
+        "index": 173
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-15T17:58:35.073000",
+        "user": "Ezio",
+        "text": "Yeah but does it only parse from string? or can you get the ast of a compiled funciton",
+        "conversation_id": "889",
+        "index": 255
+    },
+    "so_post": {
+        "ts": "2020-07-15T17:59:36.848000",
+        "user": "Ezio",
+        "text": "https://stackoverflow.com/questions/4812144/pythongettheabstractsyntaxtreeofimportedfunction",
+        "conversation_id": "889",
+        "index": 260
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "trying to get the abstract syntax tree during runtime. finds own answer",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

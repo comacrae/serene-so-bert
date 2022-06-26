@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-10T07:38:43.801000",
+        "user": "Emerson",
+        "text": "How do I print the full error of something?",
+        "conversation_id": "667",
+        "index": 129
+    },
+    "so_post": {
+        "ts": "2020-08-10T07:43:17.975000",
+        "user": "Alizey",
+        "text": "<https://stackoverflow.com/questions/8238360/howtosavetracebacksysexcinfovaluesinavariable>",
+        "conversation_id": "667",
+        "index": 134
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

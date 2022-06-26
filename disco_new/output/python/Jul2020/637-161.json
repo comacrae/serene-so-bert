@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-11T05:51:41.436000",
+        "user": "Moussa",
+        "text": "https://stackoverflow.com/questions/42231161/asynciogathervsasynciowait",
+        "conversation_id": "637",
+        "index": 161
+    },
+    "so_post": {
+        "ts": "2020-07-11T05:51:41.436000",
+        "user": "Moussa",
+        "text": "https://stackoverflow.com/questions/42231161/asynciogathervsasynciowait",
+        "conversation_id": "637",
+        "index": 161
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

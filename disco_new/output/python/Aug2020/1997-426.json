@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-28T15:53:28.230000",
+        "user": "Arabela",
+        "text": "Can anyone tell me how to run code directly from sublime? Like adding a terminal or something",
+        "conversation_id": "1997",
+        "index": 425
+    },
+    "so_post": {
+        "ts": "2020-08-28T15:53:42.719000",
+        "user": "Prudence",
+        "text": "https://stackoverflow.com/questions/46306331/howtorunpythoncodeinsublimetext3#:~:text=Sublime%20Text%203%20will%20run%20your%20python%20code,to%20build%20your%20own%20builder%2C%20or%20use%20plugins.",
+        "conversation_id": "1997",
+        "index": 426
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

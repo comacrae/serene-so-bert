@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-23T06:57:46.292000",
+        "user": "Aristobulo",
+        "text": "if i do `__init__.py` i can import that package without mentioning the directory?",
+        "conversation_id": "1568",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-08-23T06:57:57.645000",
+        "user": "Ariel",
+        "text": "relevant stack thread https://stackoverflow.com/questions/448271/whatisinitpyfor",
+        "conversation_id": "1568",
+        "index": 19
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

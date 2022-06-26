@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-02T18:52:50.577000",
+        "user": "Aslan",
+        "text": "tkinter.TclError: image pyimage1 doesn\\'t exist",
+        "conversation_id": "92",
+        "index": 103
+    },
+    "so_post": {
+        "ts": "2020-05-02T18:55:53.671000",
+        "user": "Kendale",
+        "text": "Did you already try this?https://stackoverflow.com/questions/23224574/tkintercreateimagefunctionerrorpyimage1doesnotexist",
+        "conversation_id": "92",
+        "index": 107
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "closest thing to a question given. they just post error msg and say \"help required\"",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

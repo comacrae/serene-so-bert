@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-24T13:49:29.591000",
+        "user": "Maymunah",
+        "text": "the warlus operator has appearently been out for 5 years?https://stackoverflow.com/questions/26000198/whatdoescolonequalinpythonmean#:~:text=%3A%3D%20is%20actually%20the%20assignment,In%20Python%20this%20is%20simply%20%3D%20.&text=%3D%20is%20the%20equality%20operator%20or%20%3D%3D%20in%20Python",
+        "conversation_id": "1458",
+        "index": 101
+    },
+    "so_post": {
+        "ts": "2020-07-24T13:49:29.591000",
+        "user": "Maymunah",
+        "text": "the warlus operator has appearently been out for 5 years?https://stackoverflow.com/questions/26000198/whatdoescolonequalinpythonmean#:~:text=%3A%3D%20is%20actually%20the%20assignment,In%20Python%20this%20is%20simply%20%3D%20.&text=%3D%20is%20the%20equality%20operator%20or%20%3D%3D%20in%20Python",
+        "conversation_id": "1458",
+        "index": 101
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "sharing info on walrus operator",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

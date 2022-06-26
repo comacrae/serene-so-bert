@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-13T00:32:16.976000",
+        "user": "Javanni",
+        "text": "It looks like it's a pain in the butt to output error logs to a file and a console",
+        "conversation_id": "859",
+        "index": 380
+    },
+    "so_post": {
+        "ts": "2020-08-13T00:43:33.535000",
+        "user": "Llibert",
+        "text": "@Latkecrszy look at this for the dual logger https://stackoverflow.com/questions/13733552/loggerconfigurationtologtofileandprinttostdout",
+        "conversation_id": "859",
+        "index": 411
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

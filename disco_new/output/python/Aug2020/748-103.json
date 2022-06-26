@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-11T11:08:58.857000",
+        "user": "Aariv",
+        "text": "https://stackoverflow.com/questions/39570207/whatprocessisusingagivenfile",
+        "conversation_id": "748",
+        "index": 103
+    },
+    "so_post": {
+        "ts": "2020-08-11T11:08:58.857000",
+        "user": "Aariv",
+        "text": "https://stackoverflow.com/questions/39570207/whatprocessisusingagivenfile",
+        "conversation_id": "748",
+        "index": 103
+    },
+    "category": "Other",
+    "comments": "user's question is ooc since user is deleted",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-16T15:12:51.291000",
+        "user": "Gavriella",
+        "text": "what would you explain `__repr__` as then?",
+        "conversation_id": "830",
+        "index": 139
+    },
+    "so_post": {
+        "ts": "2020-05-16T15:15:01.179000",
+        "user": "Arie",
+        "text": "https://stackoverflow.com/a/2626364",
+        "conversation_id": "830",
+        "index": 149
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "a debate about __rep__ vs __str__ elaborated using an SO post",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

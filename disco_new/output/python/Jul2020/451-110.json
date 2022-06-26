@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-08T02:56:58.872000",
+        "user": "Maymunah",
+        "text": "ok so im trying to make like a thing where it asks whats ur favorite numberthen if you put a number itll say thatnum is coolbut if its not a number then it will say Thats not a number but my problem is when i put a number it will say what should happen whewn i put a letter or something not a numberalso vicesversa",
+        "conversation_id": "451",
+        "index": 93
+    },
+    "so_post": {
+        "ts": "2020-07-08T03:02:31.072000",
+        "user": "Maymunah",
+        "text": "https://stackoverflow.com/questions/9191388/itismoreefficienttouseifreturnreturnorifelsereturn",
+        "conversation_id": "451",
+        "index": 110
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "he says the link answered his quesiton",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

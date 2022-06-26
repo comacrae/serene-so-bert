@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-09T17:59:08.715000",
+        "user": "Maymunah",
+        "text": "ERROR: Could not install packages due to an EnvironmentError: Please check proxy URL. It is malformed and could be missing the host.rmed and could be missing the host.",
+        "conversation_id": "550",
+        "index": 156
+    },
+    "so_post": {
+        "ts": "2020-07-09T17:59:56.644000",
+        "user": "December",
+        "text": "https://stackoverflow.com/questions/55688358/howtofixcouldnotinstallpackagesduetoanenvironmenterrorhttpsconnecti/55688499",
+        "conversation_id": "550",
+        "index": 159
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "mayunmuh posts the error (w no context)",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

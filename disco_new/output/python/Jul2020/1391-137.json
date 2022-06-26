@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-23T16:35:16.201000",
+        "user": "Aitanna",
+        "text": "wdym compile python games",
+        "conversation_id": "1391",
+        "index": 104
+    },
+    "so_post": {
+        "ts": "2020-07-23T16:42:18.728000",
+        "user": "Callon",
+        "text": "<https://stackoverflow.com/a/2657453/8346740> This is a fairly good explanation",
+        "conversation_id": "1391",
+        "index": 137
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asks what compile means and gets an SO answer",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

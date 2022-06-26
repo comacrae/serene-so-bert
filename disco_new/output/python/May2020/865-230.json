@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-17T05:42:52.730000",
+        "user": "Yitzy",
+        "text": "@Djdude02 Checking if something is None",
+        "conversation_id": "865",
+        "index": 222
+    },
+    "so_post": {
+        "ts": "2020-05-17T05:44:05.987000",
+        "user": "Yitzy",
+        "text": "https://stackoverflow.com/questions/3257919/whatisthedifferencebetweenisnoneandnone",
+        "conversation_id": "865",
+        "index": 230
+    },
+    "category": "Other",
+    "comments": "the referred to msg is out of scope",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

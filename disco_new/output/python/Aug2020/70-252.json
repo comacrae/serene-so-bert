@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-02T02:06:23.497000",
+        "user": "Damarion",
+        "text": "should I be using `object.type() == Class` or `object.type() is Class` (I am intentionally not using `isinstance` so don't tell me to)",
+        "conversation_id": "70",
+        "index": 235
+    },
+    "so_post": {
+        "ts": "2020-08-02T02:14:31.100000",
+        "user": "Gittel",
+        "text": "https://stackoverflow.com/questions/132988/isthereadifferencebetweenandis",
+        "conversation_id": "70",
+        "index": 252
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

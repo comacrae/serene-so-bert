@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-21T22:28:43.878000",
+        "user": "Adeena",
+        "text": "\\'\\'\\'Y = what sup man what so you need x = Y +  do you need something ?  def myfunc(): global x x =  my name is mit wiz kid  print(x + Y) print(\\'why is \\') \\'\\'\\",
+        "conversation_id": "1139",
+        "index": 87
+    },
+    "so_post": {
+        "ts": "2020-05-21T22:29:13.205000",
+        "user": "Amelio",
+        "text": "https://stackoverflow.com/questions/19130958/whatdoesitmeantocallafunctioninpython",
+        "conversation_id": "1139",
+        "index": 90
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "adeena posts code and says \"can someone cheak this\"",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

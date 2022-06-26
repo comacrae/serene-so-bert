@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-05T23:11:13.250000",
+        "user": "Aariv",
+        "text": "like with discord when you close it and its not in the task bar its icon is in the hide window",
+        "conversation_id": "342",
+        "index": 176
+    },
+    "so_post": {
+        "ts": "2020-08-05T23:14:50.980000",
+        "user": "Shadrack",
+        "text": "also <https://stackoverflow.com/questions/17200167/minimisepythontosystemtrayandgeneratenotifications>",
+        "conversation_id": "342",
+        "index": 210
+    },
+    "category": "Alternative Solution",
+    "comments": "same issue. trying to make the window close and go to task bar. ",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

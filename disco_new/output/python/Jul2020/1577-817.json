@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-26T09:30:00.165000",
+        "user": "Nicholai",
+        "text": "https://stackoverflow.com/questions/16048237/passvariablebetweenpythonscripts",
+        "conversation_id": "1577",
+        "index": 817
+    },
+    "so_post": {
+        "ts": "2020-07-26T09:30:00.165000",
+        "user": "Nicholai",
+        "text": "https://stackoverflow.com/questions/16048237/passvariablebetweenpythonscripts",
+        "conversation_id": "1577",
+        "index": 817
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-17T11:22:35.648000",
+        "user": "Baer",
+        "text": "@monstaslaya Im using this python client: https://browsermobproxypy.readthedocs.io/en/stable/And the code im using is:  dict = {\\'port\\': 8090} server = Server(path=\"/var/www/app.seoinsight.io/public_html/app/Libraries/Audit/crawler/browsermobproxy/bin/browsermobproxy.bat options=dict) server.start() proxy = server.create_proxy() from selenium import webdriver profile = webdriver.FirefoxProfile() profile.set_proxy(proxy.selenium_proxy()) driver = webdriver.Firefox(firefox_profile=profile) proxy.new_har(\"google\") driver.get(\"http://www.google.co.uk\") print(driver.page_source) proxy.har # returns a HAR JSON blob pprint.pprint(proxy.har) server.stop() driver.quit()",
+        "conversation_id": "987",
+        "index": 328
+    },
+    "so_post": {
+        "ts": "2020-07-17T11:24:48.896000",
+        "user": "Nahin",
+        "text": "@Zany https://stackoverflow.com/a/1732454",
+        "conversation_id": "987",
+        "index": 332
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "baer posts issue ",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

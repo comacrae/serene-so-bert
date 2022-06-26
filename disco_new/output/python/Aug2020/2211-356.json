@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-31T14:59:18.378000",
+        "user": "Inza",
+        "text": "Yo is there an easy way to export just the outputs of jupyter notebook to pdf",
+        "conversation_id": "2211",
+        "index": 352
+    },
+    "so_post": {
+        "ts": "2020-08-31T15:00:09.568000",
+        "user": "Shadrack",
+        "text": "@pancakehammer googling `export just the outputs of jupyter notebook to pdf` gave me <https://stackoverflow.com/questions/34818723/exportnotebooktopdfwithoutcode> which seems to be what you need. Does this work?",
+        "conversation_id": "2211",
+        "index": 356
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

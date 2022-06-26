@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-21T07:34:40.173000",
+        "user": "Annesophie",
+        "text": "https://stackoverflow.com",
+        "conversation_id": "1439",
+        "index": 95
+    },
+    "so_post": {
+        "ts": "2020-08-21T07:34:40.173000",
+        "user": "Annesophie",
+        "text": "https://stackoverflow.com",
+        "conversation_id": "1439",
+        "index": 95
+    },
+    "category": "Other",
+    "comments": "sharing stackoverflow.com as a source of info",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

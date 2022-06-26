@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-23T21:25:03.934000",
+        "user": "Rozie",
+        "text": "but im ultimate beginner i only know print lmfao",
+        "conversation_id": "1404",
+        "index": 578
+    },
+    "so_post": {
+        "ts": "2020-07-23T21:25:58.109000",
+        "user": "Danyka",
+        "text": "but here's something for you@Black Knight https://stackoverflow.com/questions/123198/howdoicopyafileinpython",
+        "conversation_id": "1404",
+        "index": 582
+    },
+    "category": "Other",
+    "comments": "wants suggestions for what to work on",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-29T23:49:03.609000",
+        "user": "Jerrica",
+        "text": "> ... got MemoryError: stack overflow...@AntiPops You just got stack overflow. You got visited by the entire world of programming inside that program (https://stackoverflow.com/)",
+        "conversation_id": "2097",
+        "index": 53
+    },
+    "so_post": {
+        "ts": "2020-08-29T23:49:03.609000",
+        "user": "Jerrica",
+        "text": "> ... got MemoryError: stack overflow...@AntiPops You just got stack overflow. You got visited by the entire world of programming inside that program (https://stackoverflow.com/)",
+        "conversation_id": "2097",
+        "index": 53
+    },
+    "category": "Other",
+    "comments": "sharing SO as a source of info",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-13T15:45:31.481000",
+        "user": "Rain",
+        "text": "does anyone know how to get a image for each letter",
+        "conversation_id": "908",
+        "index": 150
+    },
+    "so_post": {
+        "ts": "2020-08-13T15:48:16.788000",
+        "user": "Aizik",
+        "text": "Perhaps this helps using pillow <https://stackoverflow.com/questions/2672144/dumpcharactersglyphsfromtruetypefontttfintobitmaps> @Aspirus",
+        "conversation_id": "908",
+        "index": 156
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

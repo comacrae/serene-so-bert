@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-01T10:18:30.753000",
+        "user": "Caesar",
+        "text": "@PureFunctor thanks. also damn :/i come from c++ and it seems to me that python is hella confusing... i mean if we check this up: https://stackoverflow.com/a/986145 (the mutable / list part)and compare it to my example above we got basically the same code but with `dict` instead of `list` and teh results are totally different :/",
+        "conversation_id": "28",
+        "index": 92
+    },
+    "so_post": {
+        "ts": "2020-07-01T10:18:30.753000",
+        "user": "Caesar",
+        "text": "@PureFunctor thanks. also damn :/i come from c++ and it seems to me that python is hella confusing... i mean if we check this up: https://stackoverflow.com/a/986145 (the mutable / list part)and compare it to my example above we got basically the same code but with `dict` instead of `list` and teh results are totally different :/",
+        "conversation_id": "28",
+        "index": 92
+    },
+    "category": "Validating Solution",
+    "comments": "trying to better understand answer from SO",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

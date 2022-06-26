@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-03T19:13:28.090000",
+        "user": "Prudence",
+        "text": "https://stackoverflow.com/questions/510357/pythonreadasinglecharacterfromtheuser",
+        "conversation_id": "193",
+        "index": 85
+    },
+    "so_post": {
+        "ts": "2020-08-03T19:13:28.090000",
+        "user": "Prudence",
+        "text": "https://stackoverflow.com/questions/510357/pythonreadasinglecharacterfromtheuser",
+        "conversation_id": "193",
+        "index": 85
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

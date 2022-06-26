@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-29T23:40:16.912000",
+        "user": "Conall",
+        "text": "Same fix from here: https://stackoverflow.com/questions/50569453/whydoesitsaythatmodulepygamehasnoinitmember",
+        "conversation_id": "1838",
+        "index": 112
+    },
+    "so_post": {
+        "ts": "2020-07-29T23:40:16.912000",
+        "user": "Conall",
+        "text": "Same fix from here: https://stackoverflow.com/questions/50569453/whydoesitsaythatmodulepygamehasnoinitmember",
+        "conversation_id": "1838",
+        "index": 112
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-08T06:29:41.207000",
+        "user": "Maymunah",
+        "text": "thought there was like a pop for strings or something",
+        "conversation_id": "461",
+        "index": 270
+    },
+    "so_post": {
+        "ts": "2020-07-08T06:31:28.989000",
+        "user": "Moussa",
+        "text": "https://stackoverflow.com/questions/9639754/pythonremovelastcharfromstringandreturnit",
+        "conversation_id": "461",
+        "index": 292
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "maynmuh wants to remove last char from string",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-03T16:02:30.959000",
+        "user": "Anuoluwapo",
+        "text": "```pyPython 3.8.0 (tags/v3.8.0:fa919fd Oct 14 2019 19:37:50) [MSC v.1916 64 bit (AMD64)] on win32Type help copyright credits or license for more information.>>> from __future__ import barry_as_FLUFL>>> 5 <> 45True>>> 5 !=45 File <stdin> line 1 5 !=45 ^SyntaxError: with Barry as BDFL use \\'<>\\ instead of \\'!=\\'>>>```you can get it on py3 with an easter egg? feature? Not quite sure where to put this",
+        "conversation_id": "145",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-05-03T16:08:29.892000",
+        "user": "Sameer",
+        "text": "<https://stackoverflow.com/questions/4007289/sowhatexactlydoesfromfutureimportbarryasflufldo>",
+        "conversation_id": "145",
+        "index": 20
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asking about a strange python easteregg",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

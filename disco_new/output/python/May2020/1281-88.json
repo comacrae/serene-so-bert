@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-24T15:33:53.960000",
+        "user": "Zemirah",
+        "text": "https://stackoverflow.com/questions/61987855/pythonwritingtxtfilesfromacsvfileThis is a StackOverflow question. Someone doesn't know how to solve a problemA documentation issue is someone not knowing that a tool exists for what they want or not remembering that they need to include one more parameter",
+        "conversation_id": "1281",
+        "index": 88
+    },
+    "so_post": {
+        "ts": "2020-05-24T15:33:53.960000",
+        "user": "Zemirah",
+        "text": "https://stackoverflow.com/questions/61987855/pythonwritingtxtfilesfromacsvfileThis is a StackOverflow question. Someone doesn't know how to solve a problemA documentation issue is someone not knowing that a tool exists for what they want or not remembering that they need to include one more parameter",
+        "conversation_id": "1281",
+        "index": 88
+    },
+    "category": "Other",
+    "comments": "using SO post as example of using SO vs Googling (not actually answering a question)",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

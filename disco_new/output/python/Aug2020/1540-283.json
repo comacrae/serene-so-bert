@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-22T20:10:28.660000",
+        "user": "Abhiram",
+        "text": "what was the name of the module (and the function/attribute) which lets us know what the OS is?",
+        "conversation_id": "1540",
+        "index": 276
+    },
+    "so_post": {
+        "ts": "2020-08-22T20:11:52.275000",
+        "user": "Benji",
+        "text": "<https://stackoverflow.com/questions/110362/howcanifindthecurrentosinpython>",
+        "conversation_id": "1540",
+        "index": 283
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

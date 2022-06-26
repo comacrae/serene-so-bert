@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-23T13:02:23.053000",
+        "user": "Xueliang",
+        "text": "https://stackoverflow.com/questions/63054393/failedtolaunchrospyfilesyntaxerrorinvalidsyntaxyamlobjectmetaclassya",
+        "conversation_id": "1379",
+        "index": 412
+    },
+    "so_post": {
+        "ts": "2020-07-23T13:02:23.053000",
+        "user": "Xueliang",
+        "text": "https://stackoverflow.com/questions/63054393/failedtolaunchrospyfilesyntaxerrorinvalidsyntaxyamlobjectmetaclassya",
+        "conversation_id": "1379",
+        "index": 412
+    },
+    "category": "Other",
+    "comments": "reposting",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

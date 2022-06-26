@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-04T06:11:56.849000",
+        "user": "Salia",
+        "text": "so the bot is online and in my procfile i have dis: `web: python private.py` but it wont do what i want it to do pls help?",
+        "conversation_id": "204",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-07-04T06:34:14.687000",
+        "user": "Maymunah",
+        "text": "https://stackoverflow.com/questions/52247301/howdoihostmydiscordpybotonheroku",
+        "conversation_id": "204",
+        "index": 119
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

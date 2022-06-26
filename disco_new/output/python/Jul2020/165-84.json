@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-03T16:51:26.587000",
+        "user": "Seana",
+        "text": "So in theory in python 3.6+ if I want a reversed range(0,10) to be the keys for a dict they will be ALWAYS ordered from 9 to 0 ?",
+        "conversation_id": "165",
+        "index": 43
+    },
+    "so_post": {
+        "ts": "2020-07-03T17:04:56.020000",
+        "user": "Austyn",
+        "text": "Re: setsHere's a relevant SO question <https://stackoverflow.com/questions/45581901/aresetsorderedlikedictsinpython36>",
+        "conversation_id": "165",
+        "index": 84
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "trying to determine diff btw sets and ordered dicts",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

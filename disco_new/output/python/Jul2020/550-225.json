@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-09T18:52:34.969000",
+        "user": "Moussa",
+        "text": "Funny I'm in the relevant thread right now: https://stackoverflow.com/questions/730764/howtoproperlyignoreexceptions",
+        "conversation_id": "550",
+        "index": 225
+    },
+    "so_post": {
+        "ts": "2020-07-09T18:52:34.969000",
+        "user": "Moussa",
+        "text": "Funny I'm in the relevant thread right now: https://stackoverflow.com/questions/730764/howtoproperlyignoreexceptions",
+        "conversation_id": "550",
+        "index": 225
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

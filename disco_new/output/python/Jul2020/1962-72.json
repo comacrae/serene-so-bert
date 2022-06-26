@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-31T13:30:26.187000",
+        "user": "Noredine",
+        "text": "What is correct pep8 : ```pyprint('This is a very long string long enough that you want to split it up or do you?')```or```pyprint('This is a very long string long enough that you want to split it up or do you?')```",
+        "conversation_id": "1962",
+        "index": 63
+    },
+    "so_post": {
+        "ts": "2020-07-31T13:33:48.674000",
+        "user": "Bettie",
+        "text": "@Omar https://stackoverflow.com/questions/1874592/howtowriteverylongstringthatconformswithpep8andprevente501",
+        "conversation_id": "1962",
+        "index": 72
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

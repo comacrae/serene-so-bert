@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-06T20:30:27.980000",
+        "user": "Yitzy",
+        "text": "how do you import a file",
+        "conversation_id": "317",
+        "index": 11
+    },
+    "so_post": {
+        "ts": "2020-05-06T20:35:35.504000",
+        "user": "Amelio",
+        "text": "https://stackoverflow.com/questions/44491442/howtoimportpythonfilepyintoamainpythonfile",
+        "conversation_id": "317",
+        "index": 27
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "asks about how to import in python",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

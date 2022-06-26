@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-24T23:35:23.710000",
+        "user": "Meir",
+        "text": "does anyone know how to add bacground photo in tkinter?",
+        "conversation_id": "1697",
+        "index": 28
+    },
+    "so_post": {
+        "ts": "2020-08-24T23:37:17.492000",
+        "user": "Stevi",
+        "text": "a quick google shows a few answers here https://stackoverflow.com/questions/10158552/howtouseanimageforthebackgroundintkinter",
+        "conversation_id": "1697",
+        "index": 34
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

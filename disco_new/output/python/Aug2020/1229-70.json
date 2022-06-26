@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-18T02:39:22.162000",
+        "user": "Panagiotis",
+        "text": "How do I check the size of a file using python",
+        "conversation_id": "1229",
+        "index": 64
+    },
+    "so_post": {
+        "ts": "2020-08-18T02:40:28.908000",
+        "user": "Aristeo",
+        "text": "@FriendlyGooseMan https://stackoverflow.com/questions/2104080/howcanicheckfilesizeinpython",
+        "conversation_id": "1229",
+        "index": 70
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

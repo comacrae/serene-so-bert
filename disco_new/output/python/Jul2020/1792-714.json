@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-29T11:46:05.431000",
+        "user": "Rein",
+        "text": "Could someone please explain this code and give the variables meaningful names?```pycontiguous_rows = []for _ g in itertools.groupby(enumerate(selected_rows) lambda x: x[0]  x[1]): contiguous_rows.append(tuple(map(operator.itemgetter(1) g)))```Found here: <https://stackoverflow.com/a/3149493/2512078>",
+        "conversation_id": "1792",
+        "index": 714
+    },
+    "so_post": {
+        "ts": "2020-07-29T11:46:05.431000",
+        "user": "Rein",
+        "text": "Could someone please explain this code and give the variables meaningful names?```pycontiguous_rows = []for _ g in itertools.groupby(enumerate(selected_rows) lambda x: x[0]  x[1]): contiguous_rows.append(tuple(map(operator.itemgetter(1) g)))```Found here: <https://stackoverflow.com/a/3149493/2512078>",
+        "conversation_id": "1792",
+        "index": 714
+    },
+    "category": "Validating Solution",
+    "comments": "trying to understand code from SO post ",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

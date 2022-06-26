@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-28T13:36:27.757000",
+        "user": "Sameer",
+        "text": "I use requirements.in with pip tools not sure what the syntax is tho for a local package",
+        "conversation_id": "1521",
+        "index": 10
+    },
+    "so_post": {
+        "ts": "2020-05-28T13:37:08.612000",
+        "user": "Azaiah",
+        "text": "@rie Seems you can add extra URLs in your pip.conf: https://stackoverflow.com/questions/30889494/canpipconfspecifytwoindexurlatthesametime",
+        "conversation_id": "1521",
+        "index": 11
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

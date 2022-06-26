@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-18T18:31:20.124000",
+        "user": "Eydan",
+        "text": "@Procez https://stackoverflow.com/questions/12996985/sendsomekeystoinactivewindowwithpython",
+        "conversation_id": "956",
+        "index": 187
+    },
+    "so_post": {
+        "ts": "2020-05-18T18:31:20.124000",
+        "user": "Eydan",
+        "text": "@Procez https://stackoverflow.com/questions/12996985/sendsomekeystoinactivewindowwithpython",
+        "conversation_id": "956",
+        "index": 187
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

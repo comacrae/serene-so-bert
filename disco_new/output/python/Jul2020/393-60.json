@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-07T05:31:14.666000",
+        "user": "Malakye",
+        "text": "https://stackoverflow.com/a/17705456/337899",
+        "conversation_id": "393",
+        "index": 60
+    },
+    "so_post": {
+        "ts": "2020-07-07T05:31:14.666000",
+        "user": "Malakye",
+        "text": "https://stackoverflow.com/a/17705456/337899",
+        "conversation_id": "393",
+        "index": 60
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

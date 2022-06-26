@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-31T00:00:59.401000",
+        "user": "Isaac",
+        "text": "its stuff likeERROR: Dependency for svg.pyx not resolved: config.pxiand then at the end just says: ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.@Infinimata",
+        "conversation_id": "1921",
+        "index": 103
+    },
+    "so_post": {
+        "ts": "2020-07-31T00:04:41.195000",
+        "user": "Jalayna",
+        "text": "(from https://stackoverflow.com/questions/59125232/howtodealwithkivyinstallingerrorinpython38 )",
+        "conversation_id": "1921",
+        "index": 115
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "error is closest thing to question described",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

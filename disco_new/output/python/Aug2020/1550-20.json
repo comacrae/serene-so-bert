@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-23T00:39:10.811000",
+        "user": "Pearson",
+        "text": "Can Python read image bytecode when reading image files? (E.g.: cram the contents of a book into a picture)",
+        "conversation_id": "1550",
+        "index": 7
+    },
+    "so_post": {
+        "ts": "2020-08-23T00:40:31.835000",
+        "user": "Deliyah",
+        "text": "https://stackoverflow.com/questions/7569553/workingwithtiffsimportexportinpythonusingnumpy",
+        "conversation_id": "1550",
+        "index": 20
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-26T11:19:50.413000",
+        "user": "Lain",
+        "text": "so NonameJr how to use global cooldown ??",
+        "conversation_id": "1586",
+        "index": 112
+    },
+    "so_post": {
+        "ts": "2020-07-26T11:23:16.551000",
+        "user": "Vaela",
+        "text": "https://stackoverflow.com/questions/46087253/cooldownforcommandondiscordbotpython @Winszy",
+        "conversation_id": "1586",
+        "index": 138
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

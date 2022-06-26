@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-31T14:44:58.726000",
+        "user": "Aariv",
+        "text": "I am changing my private repo with sensitive information to public so I want to delete the old commits/history",
+        "conversation_id": "2211",
+        "index": 273
+    },
+    "so_post": {
+        "ts": "2020-08-31T14:47:12.226000",
+        "user": "Nyko",
+        "text": "https://stackoverflow.com/questions/13716658/howtodeleteallcommithistoryingithub",
+        "conversation_id": "2211",
+        "index": 277
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "aariv wants to accomplish task described",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

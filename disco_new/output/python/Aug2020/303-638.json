@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-05T11:46:08.133000",
+        "user": "Benyounes",
+        "text": "wait why cant we import inside functions etc?",
+        "conversation_id": "303",
+        "index": 618
+    },
+    "so_post": {
+        "ts": "2020-08-05T11:48:20.141000",
+        "user": "Benyounes",
+        "text": "https://stackoverflow.com/questions/3095071/inpythonwhathappenswhenyouimportinsideofafunction",
+        "conversation_id": "303",
+        "index": 638
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

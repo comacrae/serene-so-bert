@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-26T05:55:56.273000",
+        "user": "Clayton",
+        "text": "I do I make it so the script ends when an exception is raised",
+        "conversation_id": "1574",
+        "index": 53
+    },
+    "so_post": {
+        "ts": "2020-07-26T05:56:43.299000",
+        "user": "Fe",
+        "text": "https://stackoverflow.com/questions/2829329/catchathreadsexceptioninthecallerthreadinpython",
+        "conversation_id": "1574",
+        "index": 58
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "typo. means to say \"How do I make it...\"",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

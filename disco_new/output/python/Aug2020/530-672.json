@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-08T15:11:12.738000",
+        "user": "Mena",
+        "text": "How do I check if a text file is empty with FILE I/O",
+        "conversation_id": "530",
+        "index": 667
+    },
+    "so_post": {
+        "ts": "2020-08-08T15:11:37.344000",
+        "user": "Benji",
+        "text": "@juls https://stackoverflow.com/questions/10140281/howtofindoutwhetherafileisatitseof",
+        "conversation_id": "530",
+        "index": 672
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

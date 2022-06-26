@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-15T20:30:21.645000",
+        "user": "Yitzy",
+        "text": "> https://stackoverflow.com/questions/33188104/pycharmerrorcannotperformrefactoringusingselectedelements according to this the user has the same problem.> > The answer is; > @Sc1r0 this is answer to my problem",
+        "conversation_id": "796",
+        "index": 136
+    },
+    "so_post": {
+        "ts": "2020-05-15T20:30:21.645000",
+        "user": "Yitzy",
+        "text": "> https://stackoverflow.com/questions/33188104/pycharmerrorcannotperformrefactoringusingselectedelements according to this the user has the same problem.> > The answer is; > @Sc1r0 this is answer to my problem",
+        "conversation_id": "796",
+        "index": 136
+    },
+    "category": "Other",
+    "comments": "this is just a comment to the given answer",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

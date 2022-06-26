@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-11T00:30:11.526000",
+        "user": "Noveah",
+        "text": "How can timsort be in place if it needs additional memory from its merge sort components?",
+        "conversation_id": "627",
+        "index": 43
+    },
+    "so_post": {
+        "ts": "2020-07-11T00:39:53.365000",
+        "user": "Amr",
+        "text": "@TheKing At first glance this StackOverflow post seems to answer your question about recursion and memory usage. <https://stackoverflow.com/questions/39948357/recursionvsiterationwithregardstomemoryusage>",
+        "conversation_id": "627",
+        "index": 76
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

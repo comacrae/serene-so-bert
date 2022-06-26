@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-31T00:35:20.284000",
+        "user": "Sameer",
+        "text": "@godlygeek <https://stackoverflow.com/questions/39975898/copymatplotlibartist> \ud83e\udd26\\u200d\u2642\ufe0fmatplotlib gives me a new reason to hate it every day",
+        "conversation_id": "1658",
+        "index": 151
+    },
+    "so_post": {
+        "ts": "2020-05-31T00:35:20.284000",
+        "user": "Sameer",
+        "text": "@godlygeek <https://stackoverflow.com/questions/39975898/copymatplotlibartist> \ud83e\udd26\\u200d\u2642\ufe0fmatplotlib gives me a new reason to hate it every day",
+        "conversation_id": "1658",
+        "index": 151
+    },
+    "category": "Outsourcing SO Post",
+    "comments": "sharing a post on matplotlib (otherwise must be ooc)",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

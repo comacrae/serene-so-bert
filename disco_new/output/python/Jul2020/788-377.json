@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-13T19:42:44.886000",
+        "user": "Maymunah",
+        "text": "> I don't think you can get a source code of a function through reflection.@ConfusedReptile then is this module opensource our anything?",
+        "conversation_id": "788",
+        "index": 374
+    },
+    "so_post": {
+        "ts": "2020-07-13T19:43:36.050000",
+        "user": "Fe",
+        "text": "@Deleted User Actually apparently `inspect` exists: <https://stackoverflow.com/questions/427453/howcanigetthesourcecodeofapythonfunction>But for builtins it likely won't work since they are in C.",
+        "conversation_id": "788",
+        "index": 377
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "trying to inspect source code, answer doesnt help",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

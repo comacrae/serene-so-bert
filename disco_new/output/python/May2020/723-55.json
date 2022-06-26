@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-14T16:21:24.141000",
+        "user": "Ayyad",
+        "text": "what's the dunder for divide",
+        "conversation_id": "723",
+        "index": 48
+    },
+    "so_post": {
+        "ts": "2020-05-14T16:22:25.029000",
+        "user": "Burhan",
+        "text": "https://stackoverflow.com/a/29155868/12159369",
+        "conversation_id": "723",
+        "index": 55
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

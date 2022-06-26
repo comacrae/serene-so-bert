@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-11T02:59:46.420000",
+        "user": "Shaban",
+        "text": "i am tryna creat a simple version of password manager",
+        "conversation_id": "729",
+        "index": 59
+    },
+    "so_post": {
+        "ts": "2020-08-11T03:06:47.365000",
+        "user": "Pradeep",
+        "text": "@Inheritance \u2666 https://stackoverflow.com/questions/42568262/howtoencrypttextwithapasswordinpython/44212550",
+        "conversation_id": "729",
+        "index": 98
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "tryign to create a password manager and doesnt know how to encrypt plaintext",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

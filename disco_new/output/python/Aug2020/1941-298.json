@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-27T21:45:21.396000",
+        "user": "Andilyn",
+        "text": "Can someone help with my question on BeautifulSoup https://stackoverflow.com/questions/63624396/whyisbeautifulsoupsometimesfindingallelementswithfindallandsometimes",
+        "conversation_id": "1941",
+        "index": 298
+    },
+    "so_post": {
+        "ts": "2020-08-27T21:45:21.396000",
+        "user": "Andilyn",
+        "text": "Can someone help with my question on BeautifulSoup https://stackoverflow.com/questions/63624396/whyisbeautifulsoupsometimesfindingallelementswithfindallandsometimes",
+        "conversation_id": "1941",
+        "index": 298
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

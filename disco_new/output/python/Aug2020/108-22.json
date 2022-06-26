@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-02T15:01:55.575000",
+        "user": "Tavin",
+        "text": "https://stackoverflow.com/questions/47481955/pythoncursesdetectingthebackspacekey",
+        "conversation_id": "108",
+        "index": 22
+    },
+    "so_post": {
+        "ts": "2020-08-02T15:01:55.575000",
+        "user": "Tavin",
+        "text": "https://stackoverflow.com/questions/47481955/pythoncursesdetectingthebackspacekey",
+        "conversation_id": "108",
+        "index": 22
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

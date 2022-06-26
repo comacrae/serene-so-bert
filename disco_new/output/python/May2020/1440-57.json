@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-27T04:48:02.337000",
+        "user": "Pauleth",
+        "text": "how do I horizontally center an element",
+        "conversation_id": "1440",
+        "index": 52
+    },
+    "so_post": {
+        "ts": "2020-05-27T04:49:17.426000",
+        "user": "Keyla",
+        "text": "@Procez  https://stackoverflow.com/a/58429403 it seems?",
+        "conversation_id": "1440",
+        "index": 57
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "tkinkter question",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

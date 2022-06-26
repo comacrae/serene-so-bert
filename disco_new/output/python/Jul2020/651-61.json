@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-11T11:29:21.564000",
+        "user": "Yonas",
+        "text": "Use global <variable name > at start of fuction",
+        "conversation_id": "651",
+        "index": 28
+    },
+    "so_post": {
+        "ts": "2020-07-11T11:32:55.916000",
+        "user": "Della",
+        "text": "https://stackoverflow.com/questions/19158339/whyareglobalvariablesevil",
+        "conversation_id": "651",
+        "index": 61
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "argument about pros/cons of global variables",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

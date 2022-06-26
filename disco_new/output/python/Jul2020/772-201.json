@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-13T13:32:35.011000",
+        "user": "Belgacem",
+        "text": "> https://stackoverflow.com/questions/52210855/giverolewhenauseraddreactiondiscordpyhttps://stackoverflow.com/questions/52210855/giverolewhenauseraddreactiondiscordpy @Deleted User@sleepntsheep doesnt work for me \ud83d\ude42 check the link please",
+        "conversation_id": "772",
+        "index": 201
+    },
+    "so_post": {
+        "ts": "2020-07-13T13:32:35.011000",
+        "user": "Belgacem",
+        "text": "> https://stackoverflow.com/questions/52210855/giverolewhenauseraddreactiondiscordpyhttps://stackoverflow.com/questions/52210855/giverolewhenauseraddreactiondiscordpy @Deleted User@sleepntsheep doesnt work for me \ud83d\ude42 check the link please",
+        "conversation_id": "772",
+        "index": 201
+    },
+    "category": "Other",
+    "comments": "so link is dead",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

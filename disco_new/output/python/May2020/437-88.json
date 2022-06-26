@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-09T07:54:00.393000",
+        "user": "Kally",
+        "text": "what's the difference between string.isnumeric() isdigit() and isdecimal()?",
+        "conversation_id": "437",
+        "index": 82
+    },
+    "so_post": {
+        "ts": "2020-05-09T08:00:13.942000",
+        "user": "Burhan",
+        "text": "@Xero https://stackoverflow.com/questions/47113787/differencebetweenisnumericandisdecimalinpython",
+        "conversation_id": "437",
+        "index": 88
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

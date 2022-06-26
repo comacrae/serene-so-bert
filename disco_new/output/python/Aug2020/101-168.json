@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-02T12:16:56.853000",
+        "user": "Elayah",
+        "text": "I personally don't know tkinter. But if that's your question then you could use a different phrasing to make it clearer. A quick Google search comes up with https://stackoverflow.com/questions/60019822/howcanifindoverlappingobjectsonatkintercanvas",
+        "conversation_id": "101",
+        "index": 168
+    },
+    "so_post": {
+        "ts": "2020-08-02T12:16:56.853000",
+        "user": "Elayah",
+        "text": "I personally don't know tkinter. But if that's your question then you could use a different phrasing to make it clearer. A quick Google search comes up with https://stackoverflow.com/questions/60019822/howcanifindoverlappingobjectsonatkintercanvas",
+        "conversation_id": "101",
+        "index": 168
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

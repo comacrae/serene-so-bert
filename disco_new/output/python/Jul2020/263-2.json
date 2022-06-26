@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-05T02:38:49.424000",
+        "user": "Mouhamet",
+        "text": "Yo what does ``` > ``` do in python? Seen it around but never found out what it was abount.",
+        "conversation_id": "263",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-07-05T02:39:57.151000",
+        "user": "Londonn",
+        "text": "https://stackoverflow.com/questions/14379753/whatdoesmeaninpythonfunctiondefinitions",
+        "conversation_id": "263",
+        "index": 2
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

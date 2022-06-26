@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-15T20:14:45.480000",
+        "user": "Yitzy",
+        "text": "why i cant type [ in pycharm?",
+        "conversation_id": "796",
+        "index": 58
+    },
+    "so_post": {
+        "ts": "2020-05-15T20:25:10.620000",
+        "user": "Boubou",
+        "text": "https://stackoverflow.com/questions/33188104/pycharmerrorcannotperformrefactoringusingselectedelements according to this the user has the same problem.The answer is; > If you are using [Right Alt] + F to insert square bracket (for example with Czech keyboard layout) pycharm interprets it as [Ctrl] + [Alt] + F which is a shortcut to some sort of refactoring.> > You can change the shortcut to something else in File  Settings  Keymap  Main menu  Refactor  Extract  Field..",
+        "conversation_id": "796",
+        "index": 120
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "cant type character and getrs appropriate SO response",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

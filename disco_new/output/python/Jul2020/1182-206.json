@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-20T17:17:46.739000",
+        "user": "Hoke",
+        "text": "i need source code for a python browser with a gui for mac",
+        "conversation_id": "1182",
+        "index": 194
+    },
+    "so_post": {
+        "ts": "2020-07-20T17:24:00.142000",
+        "user": "Steinar",
+        "text": "I actually did this recently in my own projects using PyQt5 with this widget https://pypi.org/project/PyQtWebEngine/another solution is the BrowserFrame widget in tkinter like shown here https://stackoverflow.com/questions/14706069/pythontkinterwithasimplewebwrapper",
+        "conversation_id": "1182",
+        "index": 206
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

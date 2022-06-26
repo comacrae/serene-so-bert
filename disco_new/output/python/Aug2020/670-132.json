@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-10T08:42:13.647000",
+        "user": "Emerson",
+        "text": "How do I log errors in a file without like putting the WHOLE script in a try block?",
+        "conversation_id": "670",
+        "index": 125
+    },
+    "so_post": {
+        "ts": "2020-08-10T08:44:19.232000",
+        "user": "Locklynn",
+        "text": "https://stackoverflow.com/questions/8050775/usingpythonsloggingmoduletologallexceptionsanderrors this has an answer unsure i'd do it like that really",
+        "conversation_id": "670",
+        "index": 132
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

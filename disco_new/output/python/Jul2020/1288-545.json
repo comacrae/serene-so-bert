@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-22T05:05:42.958000",
+        "user": "Nama",
+        "text": "If anyone knows the answer I asked this question:https://stackoverflow.com/questions/63027170/pythonlinuxusingwificellandschemehowdoiconnecttoanetwork",
+        "conversation_id": "1288",
+        "index": 545
+    },
+    "so_post": {
+        "ts": "2020-07-22T05:05:42.958000",
+        "user": "Nama",
+        "text": "If anyone knows the answer I asked this question:https://stackoverflow.com/questions/63027170/pythonlinuxusingwificellandschemehowdoiconnecttoanetwork",
+        "conversation_id": "1288",
+        "index": 545
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

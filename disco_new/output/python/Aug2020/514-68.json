@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-08T08:18:50.532000",
+        "user": "Octavio",
+        "text": "https://stackoverflow.com/a/16592241a comment says not sure if a nocopy hash is possible in python3anyone have an idea?",
+        "conversation_id": "514",
+        "index": 68
+    },
+    "so_post": {
+        "ts": "2020-08-08T08:18:50.532000",
+        "user": "Octavio",
+        "text": "https://stackoverflow.com/a/16592241a comment says not sure if a nocopy hash is possible in python3anyone have an idea?",
+        "conversation_id": "514",
+        "index": 68
+    },
+    "category": "Validating Solution",
+    "comments": "asking for others opinions on SO post answer",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

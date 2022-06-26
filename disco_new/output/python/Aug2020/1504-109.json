@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-22T06:59:21.229000",
+        "user": "Luxanna",
+        "text": "Where is a good place I can learn about venvs?",
+        "conversation_id": "1504",
+        "index": 99
+    },
+    "so_post": {
+        "ts": "2020-08-22T07:00:18.542000",
+        "user": "Enola",
+        "text": "> Where is a good place I can learn about venvs?@pakeke this is a good thread to see the different optionshttps://stackoverflow.com/questions/41573587/whatisthedifferencebetweenvenvpyvenvpyenvvirtualenvvirtualenvwrappeand then just the Python official docs for `venv`",
+        "conversation_id": "1504",
+        "index": 109
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

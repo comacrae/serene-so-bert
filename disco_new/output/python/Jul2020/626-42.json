@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-10T23:41:40.433000",
+        "user": "Maymunah",
+        "text": "Am I stupid?```pythonimport coloramafrom colorama import Forecolorama.init()print(f\"{Fore.RED} Hey\")```gives me this response after compiled with pyinstaller```python\\x1b[31m Hey```",
+        "conversation_id": "626",
+        "index": 40
+    },
+    "so_post": {
+        "ts": "2020-07-10T23:44:11.919000",
+        "user": "Maymunah",
+        "text": "Found the error here https://stackoverflow.com/questions/59429570/whyisforebluemakingthetextstartwithrandomcharactersinsteadofmakingits already my exact code tho this is the fix I have dont multiple times in the past",
+        "conversation_id": "626",
+        "index": 42
+    },
+    "category": "Validating Solution",
+    "comments": "Mayunmuh says they found an SO answer with exact same error but they've tried it before and it hasnt worked in the past",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

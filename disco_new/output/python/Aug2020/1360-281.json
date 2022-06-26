@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-20T04:02:16.491000",
+        "user": "Annalina",
+        "text": "``` with open(filename w\") as file_object: ^IndentationError: unindent does not match any outer indentation level``` stupidest error from python",
+        "conversation_id": "1360",
+        "index": 230
+    },
+    "so_post": {
+        "ts": "2020-08-20T04:12:37.665000",
+        "user": "Yeiko",
+        "text": "https://stackoverflow.com/a/30140625",
+        "conversation_id": "1360",
+        "index": 281
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

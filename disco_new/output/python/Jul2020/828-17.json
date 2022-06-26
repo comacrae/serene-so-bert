@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-14T11:49:57.633000",
+        "user": "Jajuan",
+        "text": "> That's a whole can of worms you might be opening there. With that being said I will direct you to this SO question: <https://stackoverflow.com/questions/323972/isthereanywaytokillathread>sure thanks ill check it out",
+        "conversation_id": "828",
+        "index": 17
+    },
+    "so_post": {
+        "ts": "2020-07-14T11:49:57.633000",
+        "user": "Jajuan",
+        "text": "> That's a whole can of worms you might be opening there. With that being said I will direct you to this SO question: <https://stackoverflow.com/questions/323972/isthereanywaytokillathread>sure thanks ill check it out",
+        "conversation_id": "828",
+        "index": 17
+    },
+    "category": "Other",
+    "comments": "commenting and thanking user for SO post",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

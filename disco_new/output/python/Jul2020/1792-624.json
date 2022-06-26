@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-29T11:16:49.930000",
+        "user": "Pearl",
+        "text": "lol i wish notepad++ had a dark mode",
+        "conversation_id": "1792",
+        "index": 616
+    },
+    "so_post": {
+        "ts": "2020-07-29T11:17:56.460000",
+        "user": "Sahory",
+        "text": "https://stackoverflow.com/questions/24147214/howtochangebackgroundcolorinthenotepadtexteditor",
+        "conversation_id": "1792",
+        "index": 624
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-05T17:27:40.109000",
+        "user": "Benji",
+        "text": "@example for 2.\": source please. Python has JIT implementations (PyPy alpha support for GraalVM)for 16. : it\\'s not backwards. <https://stackoverflow.com/questions/493819/whyisitstringjoinlistinsteadoflistjoinstring>for 11.\": what\\'s the alternative? load every single thing from stdlib into the global namespace?for 5.\"`\"\"\"`literals are used as multiline commentsfor 3.: pattern matching will likely get added. And IMO `switch` _with fallthrough by default_ is worse than no `switch`.for 4. I agree `const` might be nice. But it has a problem where it can deceieve readers: it only protects from reassignment not mutation (in JS).for 7.\": You don\\'t have to do `myvar = None`. Could you show an example where you have to do this? Or do you propose that accessing an uninitialized variable returns `None`?for 9.\": Well syntax stuff is subject to opinions. It is impossible to mix tabs and spaces because a tab doesn\\'t have a defined width. for 8.\": 1. What do you mean by builtins? 2. What common methods/functions are tuples and lists missing? 3. if you present JS as an alternative type weirdness is more on the JS side \\\\:)for 10. <https://en.wikipedia.org/wiki/IEEE_754>for 15.\": it\\'s a very valid point. Syntax errors confuse beginners and nonbeginners and I hope it will be improved with the new parserfor 12\": ...and it would be a total pain in the ass to use `.items()` `.keys()` `.values()` or other dictionary methods and you\\'ll end up with `dict.items(my_dict)` or something",
+        "conversation_id": "329",
+        "index": 138
+    },
+    "so_post": {
+        "ts": "2020-08-05T17:27:40.109000",
+        "user": "Benji",
+        "text": "@example for 2.\": source please. Python has JIT implementations (PyPy alpha support for GraalVM)for 16. : it\\'s not backwards. <https://stackoverflow.com/questions/493819/whyisitstringjoinlistinsteadoflistjoinstring>for 11.\": what\\'s the alternative? load every single thing from stdlib into the global namespace?for 5.\"`\"\"\"`literals are used as multiline commentsfor 3.: pattern matching will likely get added. And IMO `switch` _with fallthrough by default_ is worse than no `switch`.for 4. I agree `const` might be nice. But it has a problem where it can deceieve readers: it only protects from reassignment not mutation (in JS).for 7.\": You don\\'t have to do `myvar = None`. Could you show an example where you have to do this? Or do you propose that accessing an uninitialized variable returns `None`?for 9.\": Well syntax stuff is subject to opinions. It is impossible to mix tabs and spaces because a tab doesn\\'t have a defined width. for 8.\": 1. What do you mean by builtins? 2. What common methods/functions are tuples and lists missing? 3. if you present JS as an alternative type weirdness is more on the JS side \\\\:)for 10. <https://en.wikipedia.org/wiki/IEEE_754>for 15.\": it\\'s a very valid point. Syntax errors confuse beginners and nonbeginners and I hope it will be improved with the new parserfor 12\": ...and it would be a total pain in the ass to use `.items()` `.keys()` `.values()` or other dictionary methods and you\\'ll end up with `dict.items(my_dict)` or something",
+        "conversation_id": "329",
+        "index": 138
+    },
+    "category": "Question Repost",
+    "comments": "i assume this is a question repost and they pasted the contents from the SO post as well",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

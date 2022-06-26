@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-01T21:29:31.021000",
+        "user": "Lisset",
+        "text": "So im trying to add a portable firefox into my selenium program:```from selenium.webdriver.firefox.firefox_binary import FirefoxBinaryfirefox_binary = FirefoxBinary(executable_path = \\\\\\\\Firefox Portable\\\\\\\\FirefoxPortable.exe\")```Apparently I cant use executable path?",
+        "conversation_id": "56",
+        "index": 83
+    },
+    "so_post": {
+        "ts": "2020-07-01T21:57:26.773000",
+        "user": "Lisset",
+        "text": "https://stackoverflow.com/questions/22289969/forceseleniumtousetheportablefirefoxapplication",
+        "conversation_id": "56",
+        "index": 172
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

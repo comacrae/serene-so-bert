@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-11T06:04:45.297000",
+        "user": "Moussa",
+        "text": "> how do you not wait for a users response and continue on with the program?@LimesKey async.",
+        "conversation_id": "637",
+        "index": 173
+    },
+    "so_post": {
+        "ts": "2020-07-11T06:04:58.081000",
+        "user": "Moussa",
+        "text": "https://stackoverflow.com/questions/10941851/grabuserinputasynchronouslyandpasstoaneventloopinpython",
+        "conversation_id": "637",
+        "index": 174
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "instigating msg is quoted but is the only version in the thread",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

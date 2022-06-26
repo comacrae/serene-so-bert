@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-08T05:45:38.145000",
+        "user": "Paulin",
+        "text": "How do u get the error messege of someone that say something before the time cooldown ends",
+        "conversation_id": "460",
+        "index": 145
+    },
+    "so_post": {
+        "ts": "2020-07-08T05:53:58.313000",
+        "user": "Maymunah",
+        "text": "https://stackoverflow.com/questions/31715119/howcaniopenawebsiteinmywebbrowserusingpython",
+        "conversation_id": "460",
+        "index": 163
+    },
+    "category": "Other",
+    "comments": "im going to say this is ooc because instigating msg selected is the best i could find for a possible candidate",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

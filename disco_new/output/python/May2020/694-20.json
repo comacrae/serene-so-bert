@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-14T06:05:40.871000",
+        "user": "Hawi",
+        "text": "Also if i compile a `__init__.py` file so it's `__init__.so` for me on Linux would it still work as if it was a `__init__.py` file?",
+        "conversation_id": "694",
+        "index": 17
+    },
+    "so_post": {
+        "ts": "2020-05-14T06:11:23.307000",
+        "user": "Rojelio",
+        "text": "It's from this old SO post thoughhttps://stackoverflow.com/questions/28261147/cythonpackagewithinitpyxpossible",
+        "conversation_id": "694",
+        "index": 20
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

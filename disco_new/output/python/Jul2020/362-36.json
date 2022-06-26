@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-06T18:41:24.430000",
+        "user": "Chrystian",
+        "text": "I need to have an internal function so that when a user calls `sort()` its sorts based on only that 1 attribute",
+        "conversation_id": "362",
+        "index": 34
+    },
+    "so_post": {
+        "ts": "2020-07-06T18:41:40.637000",
+        "user": "Fe",
+        "text": "@Gilfoyle Yes you can. https://stackoverflow.com/questions/11705371/pythonsortcustomclasswithoutuseofkeyargument",
+        "conversation_id": "362",
+        "index": 36
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

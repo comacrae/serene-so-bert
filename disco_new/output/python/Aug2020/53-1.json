@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-01T17:56:15.756000",
+        "user": "Topanga",
+        "text": "hello i am trying to parse two lists from a json into seperate csv columns. Here is the stackoverflow post can any of you help me? Been banging my head against the wall \ud83d\ude26 https://stackoverflow.com/questions/63202631/writingtwoliststoseparatecsvcolumns",
+        "conversation_id": "53",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-08-01T17:56:15.756000",
+        "user": "Topanga",
+        "text": "hello i am trying to parse two lists from a json into seperate csv columns. Here is the stackoverflow post can any of you help me? Been banging my head against the wall \ud83d\ude26 https://stackoverflow.com/questions/63202631/writingtwoliststoseparatecsvcolumns",
+        "conversation_id": "53",
+        "index": 1
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

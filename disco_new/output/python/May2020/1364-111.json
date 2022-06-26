@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-26T01:54:15.469000",
+        "user": "Juliette",
+        "text": "https://stackoverflow.com/questions/15871391/implementingflaskloginwithmultipleuserclasses Can anybody decode the third answer here for me? I'm trying to do something similar but don't know how to connect `SchoolAccount` (or should I just connect `User`) to FlaskLogin",
+        "conversation_id": "1364",
+        "index": 111
+    },
+    "so_post": {
+        "ts": "2020-05-26T01:54:15.469000",
+        "user": "Juliette",
+        "text": "https://stackoverflow.com/questions/15871391/implementingflaskloginwithmultipleuserclasses Can anybody decode the third answer here for me? I'm trying to do something similar but don't know how to connect `SchoolAccount` (or should I just connect `User`) to FlaskLogin",
+        "conversation_id": "1364",
+        "index": 111
+    },
+    "category": "Validating Solution",
+    "comments": "needs help understanding SO post",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

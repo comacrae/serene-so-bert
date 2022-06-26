@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-31T12:28:18.626000",
+        "user": "Aariv",
+        "text": "Can anyone teach me on how a Python script can find the user's IP Address and then uses it with his permission ofc",
+        "conversation_id": "2203",
+        "index": 134
+    },
+    "so_post": {
+        "ts": "2020-08-31T12:33:37.400000",
+        "user": "Shadrack",
+        "text": "`python get external IP` gives me <https://stackoverflow.com/questions/2311510/gettingamachinesexternalipaddresswithpython> which says it's generally not possible if you're behind a router or something. Use some API that you can ping and get your IP back.",
+        "conversation_id": "2203",
+        "index": 165
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

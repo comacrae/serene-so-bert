@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-05T07:58:51.503000",
+        "user": "Elli",
+        "text": "How would I go about getting the host out of a url? (i.e getting `google.com` out `https://google.com/xyz`)?",
+        "conversation_id": "273",
+        "index": 194
+    },
+    "so_post": {
+        "ts": "2020-07-05T08:10:15.885000",
+        "user": "Rya",
+        "text": "https://stackoverflow.com/questions/1732348/regexmatchopentagsexceptxhtmlselfcontainedtags/1732454#1732454",
+        "conversation_id": "273",
+        "index": 200
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

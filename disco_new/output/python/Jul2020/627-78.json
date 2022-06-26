@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-11T00:30:11.526000",
+        "user": "Noveah",
+        "text": "How can timsort be in place if it needs additional memory from its merge sort components?",
+        "conversation_id": "627",
+        "index": 43
+    },
+    "so_post": {
+        "ts": "2020-07-11T00:41:23.487000",
+        "user": "Mallie",
+        "text": "https://stackoverflow.com/questions/33923/whatistailrecursion",
+        "conversation_id": "627",
+        "index": 78
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "related to recursion discussion and memory (but not direct answer to given question)",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-05-27T02:14:10.327000",
+        "user": "Olaya",
+        "text": "For example:In the folder Program i want to create individual files when a specific action is made",
+        "conversation_id": "1431",
+        "index": 151
+    },
+    "so_post": {
+        "ts": "2020-05-27T02:17:41.382000",
+        "user": "Kentavious",
+        "text": "https://stackoverflow.com/questions/7132861/buildthefullpathfilenameinpython",
+        "conversation_id": "1431",
+        "index": 161
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "trying to figure out how to use OS to find a file and import",
+    "meta": {
+        "start_date": "2020-05-01T00:00:12.573000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 97711
+    }
+}

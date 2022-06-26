@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-11T07:13:36.593000",
+        "user": "Dat",
+        "text": "It does not know 0.1 + 0.2 but it does know 0.1 + 0.3",
+        "conversation_id": "736",
+        "index": 147
+    },
+    "so_post": {
+        "ts": "2020-08-11T07:14:50.425000",
+        "user": "Caylei",
+        "text": "@AndyPythonProgrammer https://stackoverflow.com/questions/6713673/precisionerrorwithfloatsinjava",
+        "conversation_id": "736",
+        "index": 150
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "Dat is saying that float output isn't as expected",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

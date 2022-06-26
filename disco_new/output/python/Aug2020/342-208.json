@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-05T23:11:13.250000",
+        "user": "Aariv",
+        "text": "like with discord when you close it and its not in the task bar its icon is in the hide window",
+        "conversation_id": "342",
+        "index": 176
+    },
+    "so_post": {
+        "ts": "2020-08-05T23:14:42.526000",
+        "user": "Shadrack",
+        "text": "@Deleted User Here I googled it for you:<https://stackoverflow.com/questions/1085694/whatsthesimplestwaytoputapythonscriptintothesystemtraywindows>",
+        "conversation_id": "342",
+        "index": 208
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "closest thing to a question. wants the code to go to task bar when the window is minimized??",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

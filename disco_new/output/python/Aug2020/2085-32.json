@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-29T19:56:12.830000",
+        "user": "Marcus",
+        "text": "how do i install pyHook in 3.7",
+        "conversation_id": "2085",
+        "index": 29
+    },
+    "so_post": {
+        "ts": "2020-08-29T19:57:11.041000",
+        "user": "Nyko",
+        "text": "@RoyalewithcheeseALT https://stackoverflow.com/questions/54332037/installingpyhookpython3764bit",
+        "conversation_id": "2085",
+        "index": 32
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

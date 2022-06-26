@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-21T11:26:49.265000",
+        "user": "Kiaan",
+        "text": "but still pls answer my errorhttps://stackoverflow.com/q/63521861/13735127",
+        "conversation_id": "1448",
+        "index": 425
+    },
+    "so_post": {
+        "ts": "2020-08-21T11:26:49.265000",
+        "user": "Kiaan",
+        "text": "but still pls answer my errorhttps://stackoverflow.com/q/63521861/13735127",
+        "conversation_id": "1448",
+        "index": 425
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

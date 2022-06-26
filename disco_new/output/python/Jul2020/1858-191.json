@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-07-30T06:19:48.811000",
+        "user": "Percy",
+        "text": "With what should I take the screenshot?",
+        "conversation_id": "1858",
+        "index": 189
+    },
+    "so_post": {
+        "ts": "2020-07-30T06:20:24.565000",
+        "user": "Fina",
+        "text": "@br if you're on windows see https://stackoverflow.com/questions/3586046/fastestwaytotakeascreenshotwithpythononwindows. If not ask google.",
+        "conversation_id": "1858",
+        "index": 191
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "percy asking how to take a screenshot on windows ",
+    "meta": {
+        "start_date": "2020-07-01T00:00:47.690000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 165007
+    }
+}
