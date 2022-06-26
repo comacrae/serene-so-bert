@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-02T19:00:50.080000",
+        "user": "Haydin",
+        "text": "stackoverflow.com",
+        "conversation_id": "115",
+        "index": 30
+    },
+    "so_post": {
+        "ts": "2020-09-02T19:00:50.080000",
+        "user": "Haydin",
+        "text": "stackoverflow.com",
+        "conversation_id": "115",
+        "index": 30
+    },
+    "category": "Other",
+    "comments": "so url",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

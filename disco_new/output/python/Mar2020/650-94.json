@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-16T20:42:02.697000",
+        "user": "Osias",
+        "text": "@MADARA https://stackoverflow.com/questions/509211/understandingslicenotation",
+        "conversation_id": "650",
+        "index": 94
+    },
+    "so_post": {
+        "ts": "2020-03-16T20:42:02.697000",
+        "user": "Osias",
+        "text": "@MADARA https://stackoverflow.com/questions/509211/understandingslicenotation",
+        "conversation_id": "650",
+        "index": 94
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

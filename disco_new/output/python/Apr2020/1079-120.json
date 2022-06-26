@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-22T15:05:30.841000",
+        "user": "Neisha",
+        "text": "@Deleted User One way is with sets: https://stackoverflow.com/questions/28444561/getonlyuniqueelementsfromtwolistspython",
+        "conversation_id": "1079",
+        "index": 120
+    },
+    "so_post": {
+        "ts": "2020-04-22T15:05:30.841000",
+        "user": "Neisha",
+        "text": "@Deleted User One way is with sets: https://stackoverflow.com/questions/28444561/getonlyuniqueelementsfromtwolistspython",
+        "conversation_id": "1079",
+        "index": 120
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

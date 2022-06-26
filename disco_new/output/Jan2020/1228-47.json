@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-30T23:49:54.171000",
+        "user": "Henzlee",
+        "text": "how can I format like python strings into variables? https://stackoverflow.com/questions/59996154/howcaniformatpythonstringintovariableslines",
+        "conversation_id": "1228",
+        "index": 47
+    },
+    "so_post": {
+        "ts": "2020-01-30T23:49:54.171000",
+        "user": "Henzlee",
+        "text": "how can I format like python strings into variables? https://stackoverflow.com/questions/59996154/howcaniformatpythonstringintovariableslines",
+        "conversation_id": "1228",
+        "index": 47
+    },
+    "category": "Question Repost",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

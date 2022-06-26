@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-25T00:10:07.973000",
+        "user": "Claudette",
+        "text": "@! xXKiller_BOSSXx This is generally the method I implemented at work for listening to data but also doing other stuff while there wasn't data <https://stackoverflow.com/questions/2719017/howtosettimeoutonpythonssocketrecvmethod>",
+        "conversation_id": "1812",
+        "index": 104
+    },
+    "so_post": {
+        "ts": "2020-10-25T00:10:07.973000",
+        "user": "Claudette",
+        "text": "@! xXKiller_BOSSXx This is generally the method I implemented at work for listening to data but also doing other stuff while there wasn't data <https://stackoverflow.com/questions/2719017/howtosettimeoutonpythonssocketrecvmethod>",
+        "conversation_id": "1812",
+        "index": 104
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

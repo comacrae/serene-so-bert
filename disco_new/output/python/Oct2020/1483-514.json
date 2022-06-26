@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-20T15:07:17.091000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/49355010/howdoiwatchpythonsourcecodefilesandrestartwhenisave",
+        "conversation_id": "1483",
+        "index": 514
+    },
+    "so_post": {
+        "ts": "2020-10-20T15:07:17.091000",
+        "user": "Katja",
+        "text": "https://stackoverflow.com/questions/49355010/howdoiwatchpythonsourcecodefilesandrestartwhenisave",
+        "conversation_id": "1483",
+        "index": 514
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

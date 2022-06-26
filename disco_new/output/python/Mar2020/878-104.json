@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-22T13:43:11.633000",
+        "user": "Khlifa",
+        "text": "https://stackoverflow.com/questions/21236824/unresolvedreferenceissueinpycharm",
+        "conversation_id": "878",
+        "index": 104
+    },
+    "so_post": {
+        "ts": "2020-03-22T13:43:11.633000",
+        "user": "Khlifa",
+        "text": "https://stackoverflow.com/questions/21236824/unresolvedreferenceissueinpycharm",
+        "conversation_id": "878",
+        "index": 104
+    },
+    "category": "Question Repost",
+    "comments": "Seems like the user is having its own issues with pycharm but I find it a bit confusing.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

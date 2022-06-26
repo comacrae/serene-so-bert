@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-22T14:09:33.213000",
+        "user": "Galilea",
+        "text": "Can one of you explain this line ? `if __name__ == __main__\":` It\\'s part of a tutorial I\\'m following and I don\\'t know why the guy is doing it. He has written a `main` function which this calls but I don\\'t understand the underscores or why `__name__` is equivalent to the string `\"__main__\"`",
+        "conversation_id": "894",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-01-22T14:19:33.336000",
+        "user": "Galilea",
+        "text": "@tshirtman  This is a pretty good breakdown https://stackoverflow.com/questions/419163/whatdoesifnamemaindo",
+        "conversation_id": "894",
+        "index": 81
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

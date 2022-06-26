@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-29T10:49:41.540000",
+        "user": "Carra",
+        "text": "https://stackoverflow.com/questions/59965417/couldntgetridoftkintertclerrorbadeventtypeorkeysymupproblem",
+        "conversation_id": "1170",
+        "index": 163
+    },
+    "so_post": {
+        "ts": "2020-01-29T10:49:41.540000",
+        "user": "Carra",
+        "text": "https://stackoverflow.com/questions/59965417/couldntgetridoftkintertclerrorbadeventtypeorkeysymupproblem",
+        "conversation_id": "1170",
+        "index": 163
+    },
+    "category": "Question Repost",
+    "comments": "The user hadn't posted prior to these messages and it doesn't seem relevant to any comment.",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

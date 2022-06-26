@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-20T16:13:51.015000",
+        "user": "Jenova",
+        "text": "> hey can someone give me a hand with install the ```webbrowswer``` module  I run ```pip install webbrowser``` but it returns that there is no matching python distribution@NxtDaemon i googled for you https://stackoverflow.com/questions/47926088/howtogetwebbrowsermoduleforpython36usingpip",
+        "conversation_id": "1491",
+        "index": 164
+    },
+    "so_post": {
+        "ts": "2020-10-20T16:13:51.015000",
+        "user": "Jenova",
+        "text": "> hey can someone give me a hand with install the ```webbrowswer``` module  I run ```pip install webbrowser``` but it returns that there is no matching python distribution@NxtDaemon i googled for you https://stackoverflow.com/questions/47926088/howtogetwebbrowsermoduleforpython36usingpip",
+        "conversation_id": "1491",
+        "index": 164
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

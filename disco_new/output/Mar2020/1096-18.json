@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-27T11:13:15.293000",
+        "user": "Kailanie",
+        "text": "i am trying to make a maze solver",
+        "conversation_id": "1096",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-03-27T11:21:26.778000",
+        "user": "Esme",
+        "text": "Here's where I stole that example from: <https://stackoverflow.com/questions/40943108/readingamazefileinpythonandprintingoutthemazelinebyline>",
+        "conversation_id": "1096",
+        "index": 18
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

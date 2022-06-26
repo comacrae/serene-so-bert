@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-25T22:26:19.094000",
+        "user": "Damoni",
+        "text": "https://stackoverflow.com/questions/1839289/whyshouldfunctionsalwaysreturnthesametype",
+        "conversation_id": "924",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2019-11-25T22:26:19.094000",
+        "user": "Damoni",
+        "text": "https://stackoverflow.com/questions/1839289/whyshouldfunctionsalwaysreturnthesametype",
+        "conversation_id": "924",
+        "index": 5
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

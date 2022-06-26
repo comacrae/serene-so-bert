@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-07T12:27:33.983000",
+        "user": "Markian",
+        "text": "@your average axolotl#7255 Seems like you can print to a printer: https://stackoverflow.com/questions/42726925/pythonhowtocommunicatewithprinter",
+        "conversation_id": "470",
+        "index": 79
+    },
+    "so_post": {
+        "ts": "2020-10-07T12:27:33.983000",
+        "user": "Markian",
+        "text": "@your average axolotl#7255 Seems like you can print to a printer: https://stackoverflow.com/questions/42726925/pythonhowtocommunicatewithprinter",
+        "conversation_id": "470",
+        "index": 79
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

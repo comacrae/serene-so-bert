@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-29T11:35:37.258000",
+        "user": "Jeralyn",
+        "text": "Stumbled upon this on stackoverflow. You could try opening your workbooks with xlsxwriter and adjusting them.```You could use set_column as follows:worksheet1.set_column(1 1 25)This is defined as follows:set_column(first_col last_col width cell_format options)```https://stackoverflow.com/questions/33665865/adjustcellwidthinexcel",
+        "conversation_id": "1048",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-11-29T11:35:37.258000",
+        "user": "Jeralyn",
+        "text": "Stumbled upon this on stackoverflow. You could try opening your workbooks with xlsxwriter and adjusting them.```You could use set_column as follows:worksheet1.set_column(1 1 25)This is defined as follows:set_column(first_col last_col width cell_format options)```https://stackoverflow.com/questions/33665865/adjustcellwidthinexcel",
+        "conversation_id": "1048",
+        "index": 0
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

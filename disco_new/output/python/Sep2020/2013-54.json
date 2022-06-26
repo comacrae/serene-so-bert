@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-28T15:58:30.080000",
+        "user": "Abrahan",
+        "text": "@Sairam In that case you can do this to check the emails (this is example REPL):```python>>> from email.utils import parseaddr(\\'Full Name with quotes and <weird@chars.com>\\ \\'weird@example.com\\')>>> parseaddr(\\'foo@example.com\\')(\\'\\ \\'foo@example.com\\')>>> parseaddr(\\'Full Name <full@example.com>\\')(\\'Full Name\\ \\'full@example.com\\')>>> parseaddr(\\'\"Full Name with quotes and <weird@chars.com> <weird@example.com>\\')(\\'Full Name with quotes and <weird@chars.com>\\ \\'weird@example.com\\')```Taken from https://stackoverflow.com/a/14485817.",
+        "conversation_id": "2013",
+        "index": 54
+    },
+    "so_post": {
+        "ts": "2020-09-28T15:58:30.080000",
+        "user": "Abrahan",
+        "text": "@Sairam In that case you can do this to check the emails (this is example REPL):```python>>> from email.utils import parseaddr(\\'Full Name with quotes and <weird@chars.com>\\ \\'weird@example.com\\')>>> parseaddr(\\'foo@example.com\\')(\\'\\ \\'foo@example.com\\')>>> parseaddr(\\'Full Name <full@example.com>\\')(\\'Full Name\\ \\'full@example.com\\')>>> parseaddr(\\'\"Full Name with quotes and <weird@chars.com> <weird@example.com>\\')(\\'Full Name with quotes and <weird@chars.com>\\ \\'weird@example.com\\')```Taken from https://stackoverflow.com/a/14485817.",
+        "conversation_id": "2013",
+        "index": 54
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

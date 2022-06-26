@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-06T17:19:55.453000",
+        "user": "Qira",
+        "text": "https://stackoverflow.com/a/47724866",
+        "conversation_id": "239",
+        "index": 91
+    },
+    "so_post": {
+        "ts": "2020-01-06T17:19:55.453000",
+        "user": "Qira",
+        "text": "https://stackoverflow.com/a/47724866",
+        "conversation_id": "239",
+        "index": 91
+    },
+    "category": "Question Repost",
+    "comments": "Because this is the only times Qira has posted in this chat snippit, and the link contributes nothing to the current conversationit seems to me that they are posting their question for others to answer.",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

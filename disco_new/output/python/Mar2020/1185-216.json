@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-29T14:43:22.721000",
+        "user": "Leodan",
+        "text": "@Light https://stackoverflow.com/questions/20994716/whatisthedifferencebetweenpipandconda",
+        "conversation_id": "1185",
+        "index": 216
+    },
+    "so_post": {
+        "ts": "2020-03-29T14:43:22.721000",
+        "user": "Leodan",
+        "text": "@Light https://stackoverflow.com/questions/20994716/whatisthedifferencebetweenpipandconda",
+        "conversation_id": "1185",
+        "index": 216
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

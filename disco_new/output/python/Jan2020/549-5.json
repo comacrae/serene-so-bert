@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-13T15:37:13.419000",
+        "user": "Arien",
+        "text": "@Nay2D2 this looks promising. https://stackoverflow.com/questions/5287538/howtogettheuserinputinjava",
+        "conversation_id": "549",
+        "index": 5
+    },
+    "so_post": {
+        "ts": "2020-01-13T15:37:13.419000",
+        "user": "Arien",
+        "text": "@Nay2D2 this looks promising. https://stackoverflow.com/questions/5287538/howtogettheuserinputinjava",
+        "conversation_id": "549",
+        "index": 5
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

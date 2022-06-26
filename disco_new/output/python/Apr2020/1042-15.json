@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-21T18:57:04.109000",
+        "user": "Neisha",
+        "text": "Another relevant/useful SO thread https://stackoverflow.com/questions/9576063/stackingordermaintenanceintkinter/9576938#9576938",
+        "conversation_id": "1042",
+        "index": 15
+    },
+    "so_post": {
+        "ts": "2020-04-21T18:57:04.109000",
+        "user": "Neisha",
+        "text": "Another relevant/useful SO thread https://stackoverflow.com/questions/9576063/stackingordermaintenanceintkinter/9576938#9576938",
+        "conversation_id": "1042",
+        "index": 15
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

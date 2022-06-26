@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-22T14:51:44.610000",
+        "user": "Kaio",
+        "text": "@vortex https://stackoverflow.com/questions/6181304/arethereanywaystoscramblestringsinpython",
+        "conversation_id": "1640",
+        "index": 407
+    },
+    "so_post": {
+        "ts": "2020-10-22T14:51:44.610000",
+        "user": "Kaio",
+        "text": "@vortex https://stackoverflow.com/questions/6181304/arethereanywaystoscramblestringsinpython",
+        "conversation_id": "1640",
+        "index": 407
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

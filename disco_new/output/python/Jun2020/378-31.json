@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-07T05:33:35.985000",
+        "user": "Devontae",
+        "text": "https://stackoverflow.com/a/41900551 seems to be what you need to know @Deleted User",
+        "conversation_id": "378",
+        "index": 31
+    },
+    "so_post": {
+        "ts": "2020-06-07T05:33:35.985000",
+        "user": "Devontae",
+        "text": "https://stackoverflow.com/a/41900551 seems to be what you need to know @Deleted User",
+        "conversation_id": "378",
+        "index": 31
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-16T20:48:52.633000",
+        "user": "Maddalyn",
+        "text": "https://stackoverflow.com/questions/8066199/isflaskanmvcormtv",
+        "conversation_id": "676",
+        "index": 44
+    },
+    "so_post": {
+        "ts": "2020-01-16T20:48:52.633000",
+        "user": "Maddalyn",
+        "text": "https://stackoverflow.com/questions/8066199/isflaskanmvcormtv",
+        "conversation_id": "676",
+        "index": 44
+    },
+    "category": "Question Repost",
+    "comments": "Seems like the there is no mention of Flask in the previous conversation. And since this user just posted the question without a link to a particular answer as well as this being the poster's first chat in this snippit, it seems it's just a question repost.",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

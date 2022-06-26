@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-06T02:06:34.033000",
+        "user": "Daysha",
+        "text": "https://stackoverflow.com/",
+        "conversation_id": "214",
+        "index": 33
+    },
+    "so_post": {
+        "ts": "2020-01-06T02:06:34.033000",
+        "user": "Daysha",
+        "text": "https://stackoverflow.com/",
+        "conversation_id": "214",
+        "index": 33
+    },
+    "category": "Other",
+    "comments": "just sharing SO url",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

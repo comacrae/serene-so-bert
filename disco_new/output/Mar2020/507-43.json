@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-13T02:42:22.904000",
+        "user": "Falah",
+        "text": "@Xithrius how do I do underlines in python shell",
+        "conversation_id": "507",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-03-13T02:46:20.266000",
+        "user": "Avrielle",
+        "text": "https://stackoverflow.com/questions/287871/howtoprintcoloredtextinterminalinpython",
+        "conversation_id": "507",
+        "index": 43
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Seems like this is related to the question in hand",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

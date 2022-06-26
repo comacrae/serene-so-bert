@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-08T04:46:32.047000",
+        "user": "Falah",
+        "text": "I want chat bot",
+        "conversation_id": "298",
+        "index": 72
+    },
+    "so_post": {
+        "ts": "2020-03-08T04:47:53.948000",
+        "user": "Khlifa",
+        "text": "https://stackoverflow.com/a/5307230/9614384",
+        "conversation_id": "298",
+        "index": 77
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "User wants to make a chat bot and they were asked if they meant Markov bot. When they didn't know what that was they posted the SO link for its definition.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

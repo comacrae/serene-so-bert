@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-27T18:08:18.847000",
+        "user": "Aliu",
+        "text": "https://stackoverflow.com/questions/32753415/pythonspeechrecognitionignorestimeoutwhenlisteningandhangs",
+        "conversation_id": "1946",
+        "index": 104
+    },
+    "so_post": {
+        "ts": "2020-09-27T18:08:18.847000",
+        "user": "Aliu",
+        "text": "https://stackoverflow.com/questions/32753415/pythonspeechrecognitionignorestimeoutwhenlisteningandhangs",
+        "conversation_id": "1946",
+        "index": 104
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

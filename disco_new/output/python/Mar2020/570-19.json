@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-14T21:33:25.992000",
+        "user": "Faraz",
+        "text": "` u = urllib.urlopen('http://ctabustracker.com/bustime/map/getBusesForRoute.jsp?route=22')AttributeError: module urllib has no attribute urlopen'`",
+        "conversation_id": "570",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-03-14T21:33:56.465000",
+        "user": "Kaizon",
+        "text": "https://stackoverflow.com/questions/25863101/pythonurlliburlopennotworking",
+        "conversation_id": "570",
+        "index": 19
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

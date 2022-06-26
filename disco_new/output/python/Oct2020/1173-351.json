@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-16T21:15:57.819000",
+        "user": "Evon",
+        "text": "https://stackoverflow.com/questions/11063458/pythonscripttocopytexttoclipboard try that",
+        "conversation_id": "1173",
+        "index": 351
+    },
+    "so_post": {
+        "ts": "2020-10-16T21:15:57.819000",
+        "user": "Evon",
+        "text": "https://stackoverflow.com/questions/11063458/pythonscripttocopytexttoclipboard try that",
+        "conversation_id": "1173",
+        "index": 351
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-10T06:03:40.405000",
+        "user": "Juddah",
+        "text": "> @Norman would that help you https://stackoverflow.com/questions/5290994/removeandreplaceprinteditems@ColdEmber thanks it worked",
+        "conversation_id": "556",
+        "index": 52
+    },
+    "so_post": {
+        "ts": "2020-06-10T06:03:40.405000",
+        "user": "Juddah",
+        "text": "> @Norman would that help you https://stackoverflow.com/questions/5290994/removeandreplaceprinteditems@ColdEmber thanks it worked",
+        "conversation_id": "556",
+        "index": 52
+    },
+    "category": "Other",
+    "comments": "commenting on SO url",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

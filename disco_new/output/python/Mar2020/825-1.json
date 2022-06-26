@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-21T08:15:58.729000",
+        "user": "Vahan",
+        "text": "https://stackoverflow.com/questions/60785563/inpythonisthereanywayyoucanmakenonterminatingfloatfractionintoa",
+        "conversation_id": "825",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-03-21T08:15:58.729000",
+        "user": "Vahan",
+        "text": "https://stackoverflow.com/questions/60785563/inpythonisthereanywayyoucanmakenonterminatingfloatfractionintoa",
+        "conversation_id": "825",
+        "index": 1
+    },
+    "category": "Question Repost",
+    "comments": "Seems like the user is posting their own Python question. Though the chat snippit is too small to be 100% sure.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-13T08:35:58.739000",
+        "user": "Xinping",
+        "text": "@starcat I bookmarked <https://stackoverflow.com/questions/50149562/jupyterlabinteractiveplot> and <https://github.com/matplotlib/ipympl/issues/45>. It was some combination of info from the two of them that worked for me.",
+        "conversation_id": "878",
+        "index": 448
+    },
+    "so_post": {
+        "ts": "2020-09-13T08:35:58.739000",
+        "user": "Xinping",
+        "text": "@starcat I bookmarked <https://stackoverflow.com/questions/50149562/jupyterlabinteractiveplot> and <https://github.com/matplotlib/ipympl/issues/45>. It was some combination of info from the two of them that worked for me.",
+        "conversation_id": "878",
+        "index": 448
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

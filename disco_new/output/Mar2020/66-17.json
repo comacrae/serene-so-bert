@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-02T17:07:32.289000",
+        "user": "Atheena",
+        "text": "Does Django play well with react?",
+        "conversation_id": "66",
+        "index": 16
+    },
+    "so_post": {
+        "ts": "2020-03-02T17:07:54.376000",
+        "user": "Ramon",
+        "text": "SO thread on Django and React https://stackoverflow.com/questions/41867055/howtogetdjangoandreactjstoworktogether",
+        "conversation_id": "66",
+        "index": 17
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Self explanatory",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-16T16:09:57.776000",
+        "user": "Vaia",
+        "text": "> I need to convert this Python 2 supported code to Python 3. https://stackoverflow.com/a/30853584/12116796 Need help as I am new to Python",
+        "conversation_id": "974",
+        "index": 219
+    },
+    "so_post": {
+        "ts": "2020-06-16T16:09:57.776000",
+        "user": "Vaia",
+        "text": "> I need to convert this Python 2 supported code to Python 3. https://stackoverflow.com/a/30853584/12116796 Need help as I am new to Python",
+        "conversation_id": "974",
+        "index": 219
+    },
+    "category": "Other",
+    "comments": "> indicates commented",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

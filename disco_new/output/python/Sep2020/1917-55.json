@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-27T09:09:56.818000",
+        "user": "Han",
+        "text": "> @petr By class object you mean the instance? Well `sys.getsizeof` doesn't return _all_ the memory occupied by the object. It doesn't include the memory occupied by the object's dependent objects (i.e. its attributes and their dependent objects). So here> well how much memory is occupied by `a` and how much memory is occupied by `b`? Is it 48 for each of them or is it (48 + size of `numbers`) for each of them? > > Also see: <https://stackoverflow.com/questions/33978/findouthowmuchmemoryisbeingusedbyanobjectinpython>@fix error oh I see thanks. I meant (48 + size of `numbers`)",
+        "conversation_id": "1917",
+        "index": 55
+    },
+    "so_post": {
+        "ts": "2020-09-27T09:09:56.818000",
+        "user": "Han",
+        "text": "> @petr By class object you mean the instance? Well `sys.getsizeof` doesn't return _all_ the memory occupied by the object. It doesn't include the memory occupied by the object's dependent objects (i.e. its attributes and their dependent objects). So here> well how much memory is occupied by `a` and how much memory is occupied by `b`? Is it 48 for each of them or is it (48 + size of `numbers`) for each of them? > > Also see: <https://stackoverflow.com/questions/33978/findouthowmuchmemoryisbeingusedbyanobjectinpython>@fix error oh I see thanks. I meant (48 + size of `numbers`)",
+        "conversation_id": "1917",
+        "index": 55
+    },
+    "category": "Other",
+    "comments": "commenting",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T02:53:35.422000",
+        "user": "Robinson",
+        "text": "@yukki Here's an SO question that's basically what you're asking for: https://stackoverflow.com/questions/56344518/creatinggistwithpygithub",
+        "conversation_id": "138",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-09-03T02:53:35.422000",
+        "user": "Robinson",
+        "text": "@yukki Here's an SO question that's basically what you're asking for: https://stackoverflow.com/questions/56344518/creatinggistwithpygithub",
+        "conversation_id": "138",
+        "index": 18
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

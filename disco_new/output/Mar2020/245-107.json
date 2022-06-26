@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-06T21:14:43.368000",
+        "user": "Khlifa",
+        "text": "https://stackoverflow.com/questions/273946/howdoiresizeanimageusingpilandmaintainitsaspectratioAre these the best image resize approaches? If so which?",
+        "conversation_id": "245",
+        "index": 107
+    },
+    "so_post": {
+        "ts": "2020-03-06T21:14:43.368000",
+        "user": "Khlifa",
+        "text": "https://stackoverflow.com/questions/273946/howdoiresizeanimageusingpilandmaintainitsaspectratioAre these the best image resize approaches? If so which?",
+        "conversation_id": "245",
+        "index": 107
+    },
+    "category": "Question Repost",
+    "comments": "User is new and posting this question to instigate discussion on the matter.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

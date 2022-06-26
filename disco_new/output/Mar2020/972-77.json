@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-24T16:51:54.660000",
+        "user": "Nadim",
+        "text": "I want to extract table data from pdf using python",
+        "conversation_id": "972",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2020-03-24T16:53:42.983000",
+        "user": "Yuvi",
+        "text": "https://stackoverflow.com/questions/47533875/howtoextracttableastextfromthepdfusingpython/53050405",
+        "conversation_id": "972",
+        "index": 77
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

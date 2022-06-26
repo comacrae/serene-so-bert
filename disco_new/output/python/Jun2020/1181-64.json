@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-19T23:16:06.153000",
+        "user": "Javiel",
+        "text": "<https://stackoverflow.com/questions/3579568/choosingafileinpythonwithsimpledialog> This recommend using tki",
+        "conversation_id": "1181",
+        "index": 64
+    },
+    "so_post": {
+        "ts": "2020-06-19T23:16:06.153000",
+        "user": "Javiel",
+        "text": "<https://stackoverflow.com/questions/3579568/choosingafileinpythonwithsimpledialog> This recommend using tki",
+        "conversation_id": "1181",
+        "index": 64
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

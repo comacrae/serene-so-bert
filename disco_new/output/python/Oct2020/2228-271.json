@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T14:45:52.372000",
+        "user": "Abencio",
+        "text": "@Serag read this  https://stackoverflow.com/questions/3942888/unicodeencodeerrorlatin1codeccantencodecharacter",
+        "conversation_id": "2228",
+        "index": 271
+    },
+    "so_post": {
+        "ts": "2020-10-30T14:45:52.372000",
+        "user": "Abencio",
+        "text": "@Serag read this  https://stackoverflow.com/questions/3942888/unicodeencodeerrorlatin1codeccantencodecharacter",
+        "conversation_id": "2228",
+        "index": 271
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

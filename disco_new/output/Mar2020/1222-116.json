@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-30T12:34:22.136000",
+        "user": "Leodan",
+        "text": "this is similar to some of the approaches at <https://stackoverflow.com/questions/26724275/removingthefirstfolderinapath> but i feel it's still a bit messy",
+        "conversation_id": "1222",
+        "index": 116
+    },
+    "so_post": {
+        "ts": "2020-03-30T12:34:22.136000",
+        "user": "Leodan",
+        "text": "this is similar to some of the approaches at <https://stackoverflow.com/questions/26724275/removingthefirstfolderinapath> but i feel it's still a bit messy",
+        "conversation_id": "1222",
+        "index": 116
+    },
+    "category": "Question Repost",
+    "comments": "User made a question just above this message that suggest they are posting this link to encourage users to discuss the post.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

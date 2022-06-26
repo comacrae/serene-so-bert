@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-27T09:08:09.616000",
+        "user": "Balde",
+        "text": "@petr By class object you mean the instance? Well `sys.getsizeof` doesn't return _all_ the memory occupied by the object. It doesn't include the memory occupied by the object's dependent objects (i.e. its attributes and their dependent objects). So here```pyclass A: def __init__(self numbers): self.numbers = numbersa = A([1 2 3 ... 1000])```when you do `sys.getsizeof(a)` you get `48` i.e. it doesn't include the memory occupied by the list. ```pyclass A: def __init__(self numbers): self.numbers = numbersnumbers = [1 2 3 ... 1000]a = A(numbers)b = A(numbers)```^ well how much memory is occupied by `a` and how much memory is occupied by `b`? Is it 48 for each of them or is it (48 + size of `numbers`) for each of them? Also see: <https://stackoverflow.com/questions/33978/findouthowmuchmemoryisbeingusedbyanobjectinpython>",
+        "conversation_id": "1914",
+        "index": 115
+    },
+    "so_post": {
+        "ts": "2020-09-27T09:08:09.616000",
+        "user": "Balde",
+        "text": "@petr By class object you mean the instance? Well `sys.getsizeof` doesn't return _all_ the memory occupied by the object. It doesn't include the memory occupied by the object's dependent objects (i.e. its attributes and their dependent objects). So here```pyclass A: def __init__(self numbers): self.numbers = numbersa = A([1 2 3 ... 1000])```when you do `sys.getsizeof(a)` you get `48` i.e. it doesn't include the memory occupied by the list. ```pyclass A: def __init__(self numbers): self.numbers = numbersnumbers = [1 2 3 ... 1000]a = A(numbers)b = A(numbers)```^ well how much memory is occupied by `a` and how much memory is occupied by `b`? Is it 48 for each of them or is it (48 + size of `numbers`) for each of them? Also see: <https://stackoverflow.com/questions/33978/findouthowmuchmemoryisbeingusedbyanobjectinpython>",
+        "conversation_id": "1914",
+        "index": 115
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

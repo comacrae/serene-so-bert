@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-15T20:19:41.153000",
+        "user": "Abdias",
+        "text": "this is taken from https://stackoverflow.com/questions/1912434/howdoiparsexmlinpython",
+        "conversation_id": "740",
+        "index": 36
+    },
+    "so_post": {
+        "ts": "2020-04-15T20:19:41.153000",
+        "user": "Abdias",
+        "text": "this is taken from https://stackoverflow.com/questions/1912434/howdoiparsexmlinpython",
+        "conversation_id": "740",
+        "index": 36
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

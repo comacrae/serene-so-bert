@@ -2,7 +2,8 @@
     "related_post": {
         "ts": "2020-04-18T16:32:41.586000",
         "user": "Koraline",
-        "text": "im trying to get openpyxl in the terminal in pycharm and this happens",
+        "text": "im trying to get openpyxl in the terminal in pycharm and this happens ```austin@AustinsLaptop:~/Desktop/Programming/Python/Ecomers$ pip install openpyxlCollecting openpyxl Using cached https://files.pythonhosted.org/packages/d6/26/eb28e975b7a37aad38d7ec4f7a0f652bdee6ecf36e6bd06f473c5af9b87b/openpyxl2.6.4.tar.gz Complete output from command python setup.py egg_info: Traceback (most recent call last): File <string> line 1 in <module> ImportError: No module named setuptools  Command python setup.py egg_info failed with error code 1 in /tmp/pipbuildu79X7d/openpyxl/austin@AustinsLaptop:~/Desktop/Programming/Python/Ecomers$ ```
+",
         "conversation_id": "883",
         "index": 29
     },

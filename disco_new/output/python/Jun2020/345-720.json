@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-06T18:42:32.779000",
+        "user": "Rochdi",
+        "text": "@506_independent https://stackoverflow.com/questions/18425225/gettingthenameofavariableasastring",
+        "conversation_id": "345",
+        "index": 720
+    },
+    "so_post": {
+        "ts": "2020-06-06T18:42:32.779000",
+        "user": "Rochdi",
+        "text": "@506_independent https://stackoverflow.com/questions/18425225/gettingthenameofavariableasastring",
+        "conversation_id": "345",
+        "index": 720
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

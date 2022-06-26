@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-01T08:11:52.679000",
+        "user": "Eduard",
+        "text": "If so https://stackoverflow.com/questions/52154647/discordpyhowcanihave2argumentsinacommand",
+        "conversation_id": "16",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-03-01T08:11:52.679000",
+        "user": "Eduard",
+        "text": "If so https://stackoverflow.com/questions/52154647/discordpyhowcanihave2argumentsinacommand",
+        "conversation_id": "16",
+        "index": 1
+    },
+    "category": "Question Repost",
+    "comments": "No much context in the conversation, and the comment prior to it insinuates its a repost.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

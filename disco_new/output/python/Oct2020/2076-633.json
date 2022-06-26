@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-28T17:00:50.434000",
+        "user": "Aniello",
+        "text": "do you think this solution is useful for my question? ``` https://stackoverflow.com/questions/14007227/pythonsendingdatabetweentwocomputersviasockets``` @nope",
+        "conversation_id": "2076",
+        "index": 633
+    },
+    "so_post": {
+        "ts": "2020-10-28T17:00:50.434000",
+        "user": "Aniello",
+        "text": "do you think this solution is useful for my question? ``` https://stackoverflow.com/questions/14007227/pythonsendingdatabetweentwocomputersviasockets``` @nope",
+        "conversation_id": "2076",
+        "index": 633
+    },
+    "category": "Other",
+    "comments": "commenting on SO URl",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

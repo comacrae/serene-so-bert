@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-02-12T11:02:13.106000",
+        "user": "Shanaya",
+        "text": "this might help you https://stackoverflow.com/questions/6988849/howtoresetjenkinssecuritysettingsfromthecommandline",
+        "conversation_id": "489",
+        "index": 44
+    },
+    "so_post": {
+        "ts": "2020-02-12T11:02:13.106000",
+        "user": "Shanaya",
+        "text": "this might help you https://stackoverflow.com/questions/6988849/howtoresetjenkinssecuritysettingsfromthecommandline",
+        "conversation_id": "489",
+        "index": 44
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-02-01T00:00:03.013000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 38292
+    }
+}

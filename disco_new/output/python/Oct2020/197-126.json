@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-03T16:02:58.520000",
+        "user": "Mellow",
+        "text": "```py@client.command()async def sendembed(ctx): e = discord.Embed(title=\"Stack Overflow  Where Developers Learn Share & Build Careers\", url=\"https://stackoverflow.com\", description=\"Stack Overflow | The World\u2019s Largest Online Community for Developers\") e.set_thumbnail(url=\"https://i.imgur.com/ddx8Bpg.png\") await ctx.send(embed=e)```",
+        "conversation_id": "197",
+        "index": 126
+    },
+    "so_post": {
+        "ts": "2020-10-03T16:02:58.520000",
+        "user": "Mellow",
+        "text": "```py@client.command()async def sendembed(ctx): e = discord.Embed(title=\"Stack Overflow  Where Developers Learn Share & Build Careers\", url=\"https://stackoverflow.com\", description=\"Stack Overflow | The World\u2019s Largest Online Community for Developers\") e.set_thumbnail(url=\"https://i.imgur.com/ddx8Bpg.png\") await ctx.send(embed=e)```",
+        "conversation_id": "197",
+        "index": 126
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

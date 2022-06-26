@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-17T02:51:03.381000",
+        "user": "Brookelynn",
+        "text": "probably you want to add pip to your system PATH https://stackoverflow.com/questions/23708898/pipisnotrecognizedasaninternalorexternalcommand",
+        "conversation_id": "1191",
+        "index": 245
+    },
+    "so_post": {
+        "ts": "2020-10-17T02:51:03.381000",
+        "user": "Brookelynn",
+        "text": "probably you want to add pip to your system PATH https://stackoverflow.com/questions/23708898/pipisnotrecognizedasaninternalorexternalcommand",
+        "conversation_id": "1191",
+        "index": 245
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

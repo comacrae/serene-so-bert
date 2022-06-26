@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-17T16:59:15.940000",
+        "user": "Larry",
+        "text": "https://stackoverflow.com/questions/16694907/downloadlargefileinpythonwithrequests",
+        "conversation_id": "679",
+        "index": 120
+    },
+    "so_post": {
+        "ts": "2020-03-17T16:59:15.940000",
+        "user": "Larry",
+        "text": "https://stackoverflow.com/questions/16694907/downloadlargefileinpythonwithrequests",
+        "conversation_id": "679",
+        "index": 120
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

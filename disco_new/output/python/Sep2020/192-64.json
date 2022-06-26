@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T19:15:54.233000",
+        "user": "Dyana",
+        "text": "> @../../../shrekman.exe have you seen this https://stackoverflow.com/questions/16206380/pythonbeautifulsouphowtoremovealltagsfromanelement@Bag raise InvalidSchema(\"No connection adapters were found for {!r}\".format(url))requests.exceptions.InvalidSchema: No connection adapters were found for \\'ttps://www.edureka.co/community/49246/howtocheckifawebsiteallowswebscraping\\",
+        "conversation_id": "192",
+        "index": 64
+    },
+    "so_post": {
+        "ts": "2020-09-03T19:15:54.233000",
+        "user": "Dyana",
+        "text": "> @../../../shrekman.exe have you seen this https://stackoverflow.com/questions/16206380/pythonbeautifulsouphowtoremovealltagsfromanelement@Bag raise InvalidSchema(\"No connection adapters were found for {!r}\".format(url))requests.exceptions.InvalidSchema: No connection adapters were found for \\'ttps://www.edureka.co/community/49246/howtocheckifawebsiteallowswebscraping\\",
+        "conversation_id": "192",
+        "index": 64
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

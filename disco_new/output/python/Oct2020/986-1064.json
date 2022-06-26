@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-14T12:23:56.032000",
+        "user": "Abdelbasset",
+        "text": "https://stackoverflow.com/questions/18692617/howdoesrcarriagereturnworkinpython",
+        "conversation_id": "986",
+        "index": 1064
+    },
+    "so_post": {
+        "ts": "2020-10-14T12:23:56.032000",
+        "user": "Abdelbasset",
+        "text": "https://stackoverflow.com/questions/18692617/howdoesrcarriagereturnworkinpython",
+        "conversation_id": "986",
+        "index": 1064
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

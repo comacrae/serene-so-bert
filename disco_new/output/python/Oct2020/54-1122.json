@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-01T18:59:33.180000",
+        "user": "Jonhatan",
+        "text": "@SFM61319 https://stackoverflow.com/questions/41834621/cieeefloatsinfequalinf",
+        "conversation_id": "54",
+        "index": 1122
+    },
+    "so_post": {
+        "ts": "2020-10-01T18:59:33.180000",
+        "user": "Jonhatan",
+        "text": "@SFM61319 https://stackoverflow.com/questions/41834621/cieeefloatsinfequalinf",
+        "conversation_id": "54",
+        "index": 1122
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

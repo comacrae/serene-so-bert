@@ -2,7 +2,7 @@
     "related_post": {
         "ts": "2020-04-24T01:20:25.345000",
         "user": "Heidy",
-        "text": "is there a reason you would do this",
+        "text": "is there a reason you would do this ```pyfrom datetime import date timedelta``` instead of importing all of datetime and doing methods from that?",
         "conversation_id": "1158",
         "index": 28
     },

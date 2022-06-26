@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-18T17:13:53.708000",
+        "user": "Batsheva",
+        "text": "@boopy https://stackoverflow.com/questions/49088748/pythonusingwin32comclienttoacceptallchangesinworddocuments",
+        "conversation_id": "1268",
+        "index": 329
+    },
+    "so_post": {
+        "ts": "2020-09-18T17:13:53.708000",
+        "user": "Batsheva",
+        "text": "@boopy https://stackoverflow.com/questions/49088748/pythonusingwin32comclienttoacceptallchangesinworddocuments",
+        "conversation_id": "1268",
+        "index": 329
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

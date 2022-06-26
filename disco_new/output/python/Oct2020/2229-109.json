@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-30T14:56:35.026000",
+        "user": "Cavin",
+        "text": "I did but i gonna read again > @Serag > > Read this  https://stackoverflow.com/questions/3942888/unicodeencodeerrorlatin1codeccantencodecharacter@advrsh",
+        "conversation_id": "2229",
+        "index": 109
+    },
+    "so_post": {
+        "ts": "2020-10-30T14:56:35.026000",
+        "user": "Cavin",
+        "text": "I did but i gonna read again > @Serag > > Read this  https://stackoverflow.com/questions/3942888/unicodeencodeerrorlatin1codeccantencodecharacter@advrsh",
+        "conversation_id": "2229",
+        "index": 109
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

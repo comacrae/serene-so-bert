@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-16T14:31:06.506000",
+        "user": "Nyliyah",
+        "text": "@lakmatiol fair enough I can say I had the worst instructor ever when first learning (Pretty much self taught with a person I could occasionally get assistance troubleshooting from) otherwise while in school stackoverflow community helped me learn more than my instructor.",
+        "conversation_id": "1150",
+        "index": 251
+    },
+    "so_post": {
+        "ts": "2020-10-16T14:31:06.506000",
+        "user": "Nyliyah",
+        "text": "@lakmatiol fair enough I can say I had the worst instructor ever when first learning (Pretty much self taught with a person I could occasionally get assistance troubleshooting from) otherwise while in school stackoverflow community helped me learn more than my instructor.",
+        "conversation_id": "1150",
+        "index": 251
+    },
+    "category": "Other",
+    "comments": "stackoverflow is just mentioned as a word",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-30T05:35:11.597000",
+        "user": "Elody",
+        "text": "> @ItsNil https://stackoverflow.com/questions/18408307/howtoextractanddownloadallimagesfromawebsiteusingbeautifulsoup@super oh ok tnx",
+        "conversation_id": "1775",
+        "index": 132
+    },
+    "so_post": {
+        "ts": "2020-06-30T05:35:11.597000",
+        "user": "Elody",
+        "text": "> @ItsNil https://stackoverflow.com/questions/18408307/howtoextractanddownloadallimagesfromawebsiteusingbeautifulsoup@super oh ok tnx",
+        "conversation_id": "1775",
+        "index": 132
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

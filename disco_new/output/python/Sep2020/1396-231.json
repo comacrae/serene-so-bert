@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T09:14:09.680000",
+        "user": "Aniello",
+        "text": "> If you're curious though for me when I stated actually using python I spent a lot of time googling the small questions on stackoverflow.com@Darr how long ago was that /",
+        "conversation_id": "1396",
+        "index": 231
+    },
+    "so_post": {
+        "ts": "2020-09-20T09:14:09.680000",
+        "user": "Aniello",
+        "text": "> If you're curious though for me when I stated actually using python I spent a lot of time googling the small questions on stackoverflow.com@Darr how long ago was that /",
+        "conversation_id": "1396",
+        "index": 231
+    },
+    "category": "Other",
+    "comments": "sharing SO URL",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

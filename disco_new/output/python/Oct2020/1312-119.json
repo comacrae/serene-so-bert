@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-18T17:24:15.479000",
+        "user": "Besan",
+        "text": "https://stackoverflow.com/questions/455612/limitingfloatstotwodecimalpointsThe link explicitly states two decimal points but I'm sure you can derive from it",
+        "conversation_id": "1312",
+        "index": 119
+    },
+    "so_post": {
+        "ts": "2020-10-18T17:24:15.479000",
+        "user": "Besan",
+        "text": "https://stackoverflow.com/questions/455612/limitingfloatstotwodecimalpointsThe link explicitly states two decimal points but I'm sure you can derive from it",
+        "conversation_id": "1312",
+        "index": 119
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

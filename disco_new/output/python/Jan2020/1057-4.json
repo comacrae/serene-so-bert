@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-26T13:09:24.512000",
+        "user": "Avner",
+        "text": "guysi have this problem exactly on pycharm and i dont know how to fix ithttps://stackoverflow.com/questions/851628/djangouserdoesnotexistdoesnotexist",
+        "conversation_id": "1057",
+        "index": 4
+    },
+    "so_post": {
+        "ts": "2020-01-26T13:09:24.512000",
+        "user": "Avner",
+        "text": "guysi have this problem exactly on pycharm and i dont know how to fix ithttps://stackoverflow.com/questions/851628/djangouserdoesnotexistdoesnotexist",
+        "conversation_id": "1057",
+        "index": 4
+    },
+    "category": "Question Repost",
+    "comments": "Comment says it all",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

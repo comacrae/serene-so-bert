@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-17T16:20:25.786000",
+        "user": "Anastacia",
+        "text": "Guys Is there a difference between defining a class with parentheses or not?ClassName(Type): passClassName2: passDoes it default to Type parent class if not specified?",
+        "conversation_id": "680",
+        "index": 6
+    },
+    "so_post": {
+        "ts": "2020-03-17T16:24:27.635000",
+        "user": "Emperor",
+        "text": "it inherits an old style class https://stackoverflow.com/questions/54867/whatisthedifferencebetweenoldstyleandnewstyleclassesinpython",
+        "conversation_id": "680",
+        "index": 14
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

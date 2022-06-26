@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-08T23:44:12.332000",
+        "user": "Genelle",
+        "text": "<https://stackoverflow.com/questions/27740662/sendfriendrequesttoafacebookuserusingfacebookgraphapi2x>",
+        "conversation_id": "478",
+        "index": 184
+    },
+    "so_post": {
+        "ts": "2020-06-08T23:44:12.332000",
+        "user": "Genelle",
+        "text": "<https://stackoverflow.com/questions/27740662/sendfriendrequesttoafacebookuserusingfacebookgraphapi2x>",
+        "conversation_id": "478",
+        "index": 184
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-04T02:47:40.318000",
+        "user": "Ibrahime",
+        "text": "somebody knows how i can read data from the RAM memory using python 3.8?",
+        "conversation_id": "125",
+        "index": 79
+    },
+    "so_post": {
+        "ts": "2020-03-04T02:53:55.783000",
+        "user": "Ibrahime",
+        "text": "@Dexter of Ebonheart look https://stackoverflow.com/questions/22796469/readingarawramdatainpython",
+        "conversation_id": "125",
+        "index": 97
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Self-Explanatory",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

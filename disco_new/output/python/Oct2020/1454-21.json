@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-20T06:32:31.651000",
+        "user": "Torianna",
+        "text": "> @Deleted User When you get an error there are three ways to deal with it:> 1) FIx the code so that the error doesn't occur (if the error is a bug)> 2) _Handle_ the error (acknowledge that an error can occur in a certain place and do something with it)> 3) _Ignore_ the error (just continue as if it didn't happen)> `3)` is rarely the way to go!> > What you're getting is a _warning_ not an _error_. A warning occurs because the library warns you that you're doing something sloppy but is technically correct.> > This might be helpful:> <https://stackoverflow.com/questions/56726381/r2scoreisnotwelldefinedwithlessthantwosamplespythonsklearn>> <https://scikitlearn.org/stable/modules/generated/sklearn.metrics.r2_score.html>i dont want to fix the error i want to handle it but it isnt an error in the `except` thing i know what it does and the fix but in some cases it cant be fixed",
+        "conversation_id": "1454",
+        "index": 21
+    },
+    "so_post": {
+        "ts": "2020-10-20T06:32:31.651000",
+        "user": "Torianna",
+        "text": "> @Deleted User When you get an error there are three ways to deal with it:> 1) FIx the code so that the error doesn't occur (if the error is a bug)> 2) _Handle_ the error (acknowledge that an error can occur in a certain place and do something with it)> 3) _Ignore_ the error (just continue as if it didn't happen)> `3)` is rarely the way to go!> > What you're getting is a _warning_ not an _error_. A warning occurs because the library warns you that you're doing something sloppy but is technically correct.> > This might be helpful:> <https://stackoverflow.com/questions/56726381/r2scoreisnotwelldefinedwithlessthantwosamplespythonsklearn>> <https://scikitlearn.org/stable/modules/generated/sklearn.metrics.r2_score.html>i dont want to fix the error i want to handle it but it isnt an error in the `except` thing i know what it does and the fix but in some cases it cant be fixed",
+        "conversation_id": "1454",
+        "index": 21
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

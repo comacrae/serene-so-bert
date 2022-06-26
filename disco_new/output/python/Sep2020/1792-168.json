@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-25T17:15:13.332000",
+        "user": "Wladyslaw",
+        "text": "found this: https://stackoverflow.com/questions/798854/allcombinationsofalistoflists",
+        "conversation_id": "1792",
+        "index": 168
+    },
+    "so_post": {
+        "ts": "2020-09-25T17:15:13.332000",
+        "user": "Wladyslaw",
+        "text": "found this: https://stackoverflow.com/questions/798854/allcombinationsofalistoflists",
+        "conversation_id": "1792",
+        "index": 168
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

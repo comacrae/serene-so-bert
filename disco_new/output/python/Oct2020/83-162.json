@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-02T01:54:30.998000",
+        "user": "Advaita",
+        "text": "@Urkchar gotta use a package https://stackoverflow.com/questions/18425225/gettingthenameofavariableasastring",
+        "conversation_id": "83",
+        "index": 162
+    },
+    "so_post": {
+        "ts": "2020-10-02T01:54:30.998000",
+        "user": "Advaita",
+        "text": "@Urkchar gotta use a package https://stackoverflow.com/questions/18425225/gettingthenameofavariableasastring",
+        "conversation_id": "83",
+        "index": 162
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

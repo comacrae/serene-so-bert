@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-30T13:51:21.087000",
+        "user": "Ander",
+        "text": "https://stackoverflow.com/help/minimalreproducibleexample",
+        "conversation_id": "1227",
+        "index": 38
+    },
+    "so_post": {
+        "ts": "2020-03-30T13:51:21.087000",
+        "user": "Ander",
+        "text": "https://stackoverflow.com/help/minimalreproducibleexample",
+        "conversation_id": "1227",
+        "index": 38
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

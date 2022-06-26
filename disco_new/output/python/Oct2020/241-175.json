@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-04T07:53:59.338000",
+        "user": "Mery",
+        "text": "<https://stackoverflow.com/questions/62563668/howtomakevoiceassistantwaitformycommand>",
+        "conversation_id": "241",
+        "index": 175
+    },
+    "so_post": {
+        "ts": "2020-10-04T07:53:59.338000",
+        "user": "Mery",
+        "text": "<https://stackoverflow.com/questions/62563668/howtomakevoiceassistantwaitformycommand>",
+        "conversation_id": "241",
+        "index": 175
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

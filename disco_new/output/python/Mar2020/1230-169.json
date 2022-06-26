@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-30T15:06:35.879000",
+        "user": "Gonzalo",
+        "text": "decoding an image",
+        "conversation_id": "1230",
+        "index": 158
+    },
+    "so_post": {
+        "ts": "2020-03-30T15:08:00.469000",
+        "user": "Dacen",
+        "text": "https://stackoverflow.com/questions/42036890/howtodecodejpgpnginpython/42037963",
+        "conversation_id": "1230",
+        "index": 169
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Gonzalo is asking for help decoding an image, as the link points to.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

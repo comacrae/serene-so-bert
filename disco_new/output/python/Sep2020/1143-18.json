@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-16T23:16:37.596000",
+        "user": "Wouter",
+        "text": "are you the one who wrote this answer: https://stackoverflow.com/questions/312443/howdoyousplitalistintoevenlysizedchunks",
+        "conversation_id": "1143",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-09-16T23:16:37.596000",
+        "user": "Wouter",
+        "text": "are you the one who wrote this answer: https://stackoverflow.com/questions/312443/howdoyousplitalistintoevenlysizedchunks",
+        "conversation_id": "1143",
+        "index": 18
+    },
+    "category": "Other",
+    "comments": "just asking who wrote answer to a question",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

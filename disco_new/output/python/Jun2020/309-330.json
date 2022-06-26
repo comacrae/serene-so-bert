@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-06T02:20:54.692000",
+        "user": "Nyssa",
+        "text": "https://insights.stackoverflow.com/survey/2020#technologymostloveddreadedandwantedlanguagesloved",
+        "conversation_id": "309",
+        "index": 330
+    },
+    "so_post": {
+        "ts": "2020-06-06T02:20:54.692000",
+        "user": "Nyssa",
+        "text": "https://insights.stackoverflow.com/survey/2020#technologymostloveddreadedandwantedlanguagesloved",
+        "conversation_id": "309",
+        "index": 330
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

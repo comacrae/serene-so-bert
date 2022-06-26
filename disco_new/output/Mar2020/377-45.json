@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-09T22:49:54.203000",
+        "user": "Khlifa",
+        "text": "https://stackoverflow.com/questions/60609330/howdoidisableheadersandfootersseleniumprinting",
+        "conversation_id": "377",
+        "index": 45
+    },
+    "so_post": {
+        "ts": "2020-03-09T22:49:54.203000",
+        "user": "Khlifa",
+        "text": "https://stackoverflow.com/questions/60609330/howdoidisableheadersandfootersseleniumprinting",
+        "conversation_id": "377",
+        "index": 45
+    },
+    "category": "Question Repost",
+    "comments": "Seems to be unrelated to the rest of the chat log.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

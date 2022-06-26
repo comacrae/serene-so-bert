@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-19T20:01:57.261000",
+        "user": "Kaio",
+        "text": "@Deleted User https://stackoverflow.com/questions/7169845/usingpythonhowcaniaccessasharedfolderonwindowsnetwork try something like this?",
+        "conversation_id": "1416",
+        "index": 241
+    },
+    "so_post": {
+        "ts": "2020-10-19T20:01:57.261000",
+        "user": "Kaio",
+        "text": "@Deleted User https://stackoverflow.com/questions/7169845/usingpythonhowcaniaccessasharedfolderonwindowsnetwork try something like this?",
+        "conversation_id": "1416",
+        "index": 241
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

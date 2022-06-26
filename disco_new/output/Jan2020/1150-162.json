@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-28T22:01:16.583000",
+        "user": "Asif",
+        "text": "python and ipython handle things differently as well idk what ipython does that's different exactly",
+        "conversation_id": "1150",
+        "index": 73
+    },
+    "so_post": {
+        "ts": "2020-01-28T22:29:30.834000",
+        "user": "Asif",
+        "text": "https://stackoverflow.com/a/12370479/3130747",
+        "conversation_id": "1150",
+        "index": 162
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

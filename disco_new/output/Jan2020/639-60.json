@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-15T23:23:19.635000",
+        "user": "Asif",
+        "text": "OK so following my question from earlier it seems that it makes a difference whether one uses `python` or `ipython`here's the question for context not meaning to bump or whatever ^ that's new information (though i'm still not sure i fully follow)if i have a project setup as follows```txtrootdir/something/script.py```and i run `script.py` as `python ./something/script.py` from `rootdir` the paths within `script.py` don't need to have `../file.csv` if they're referencing `rootdir/file.csv` why is this?",
+        "conversation_id": "639",
+        "index": 53
+    },
+    "so_post": {
+        "ts": "2020-01-15T23:26:23.218000",
+        "user": "Asif",
+        "text": "<https://stackoverflow.com/a/12370479/3130747>",
+        "conversation_id": "639",
+        "index": 60
+    },
+    "category": "Direct Solution Provided by Asker",
+    "comments": "Seems like asker had previously asked a question about the difference between Python and iPython (Not found in the snippit) and they found the a good enough answer to their question.",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

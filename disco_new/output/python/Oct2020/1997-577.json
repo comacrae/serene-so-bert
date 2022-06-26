@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-27T17:57:38.465000",
+        "user": "Evergreen",
+        "text": "This explains it <https://stackoverflow.com/a/2347423/11661386>",
+        "conversation_id": "1997",
+        "index": 577
+    },
+    "so_post": {
+        "ts": "2020-10-27T17:57:38.465000",
+        "user": "Evergreen",
+        "text": "This explains it <https://stackoverflow.com/a/2347423/11661386>",
+        "conversation_id": "1997",
+        "index": 577
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

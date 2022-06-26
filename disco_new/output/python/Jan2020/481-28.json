@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-12T01:02:58.792000",
+        "user": "Ibaad",
+        "text": "Is there a commonly used parameter name when you are writing a heavily ducktyped function? My understanding is that `foo` is used for examples more than actual code but that was my first thought. Just wondering what y'all use in this circumstance",
+        "conversation_id": "481",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-01-12T01:15:53.317000",
+        "user": "Paraskevi",
+        "text": "https://stackoverflow.com/a/1647616",
+        "conversation_id": "481",
+        "index": 28
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Seems like the commenter was trying to describe overwriting a single instance's method without affecting the other instan",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

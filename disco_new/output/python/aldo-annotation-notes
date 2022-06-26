@@ -1,0 +1,112 @@
+"Debugging Solution"
+"Alternative Solution"
+"Question Repost"
+"Direct Solution Provided by Asker"
+"Related Information (Not Solution)"
+"Direct Solution Provided by Non-Asker"
+"Validating Solution"
+"Outsourcing SO Post"
+
+APR 2020============
+
+VERIFIED 122-9.json: A better related post needs to be chosen since the related post serves as the target for a previous pair. It doesn't make sense as a question without context
+
+VERIFIED: 193-127.json: Maybe being nitpicky, but might be considered as "related information (not solution) since" the SO post is related to a defaultdict's behavior, and not how to actually write them (i.e. import them from collections)
+
+FIXED: 258-16.json: Labeled as Direct Solution Provided by Asker but the users are different. So either the category is incorrect or a better related post needs to be found
+
+REMOVED: 444-187.json: I think this sample can be deleted since it's a repost of a previous QA pair
+
+FIXED: 575-99.json: I think this is Related Information (Not Solution) or even Outsourcing SO Post because it's not a direct solution to a bug or issue but a rhetorical question and therefore the SO post mentioned is just contextual information
+
+REMOVED: 589-58.json: this should be deleted from training data but saved as an instance of when the stackoverflow.com regex fails
+
+REMOVED: 693-29.json: A better related post needs to be found and if that isn't possible, this sample needs to be deleted
+
+FIXED: 693-31.json: I would say this is a Direct Solution Provided by Non-Asker and I would find the post from Zdziskee which describes the error or question they have (so just redo this one and delete old version)
+
+REDONE: 693-41.json: Find Annalina's post describing the issue and make that the related post (so redo and delete old version)
+
+FIXED: 883-34.json: If the info following "then this happens" is an error in text, then include it in the message (i.e. copy it from the message thread and include it in the "text" field of the JSON for this pair). Otherwise, if the info following "then this happens" refers to a screenshot of an error or some sort of information that can't be captured in text, delete this entry since it can't be formatted in a Question -> Answer manner
+
+REMOVED: 977-137.json: I would say delete this one since it's just a reiteration of the previous QA pair
+
+REMOVED 1071-71.json: Replace the related post with the related post from 1071-46.json
+
+FIXED: 1158-33.json: Try to concatenate two or more messages together so that the "it" in the related post's question "How do I stop it" is clearer and doesn't require context to be a coherent question
+
+VERIFIED: 1176-117.json: Is there a better related post that can be chosen? The current one is just the code, not even the issue the user is having
+
+REMOVED: 1206-84.json: Delete this one unless a better related post can be found
+
+REMOVED: 1207-22.json: Try to find a better related post
+
+REMOVED: 1265-86.json: Related post isn't a question so this should be deleted unless a better related post can be found
+
+REMOVED: 1396-377.json: Several options:
+	1. Could try to find a better related post since the current one doesn't include a question which is directly related to reversing a byte array
+	2. Could try to concatenate text from multiple messages to make a more complete question
+	3. Could just delete (last resort)
+
+REMOVED: 1396-378.json: Whatever you do for the above, repeat for this one (ie if you find a better related post for previous, make that the related post for this one too, etc.)
+
+FEB 2020=======================
+
+VERIFIED: 516-1.json: What is the question to the given solution? Need to replace the related post
+
+VERIFIED: 699-32.json: replace the related post with one closer to a question b/c the current msg describes the the process of searching for a solution but not the problem itself
+
+VERIFIED: 780-183.json: Are you sure this isn't a Direct Answer Provided by Non-Asker? Because judging from the SO title it seems to be directly related. I trust your judgment just wanted to double check
+
+REMVOED: 861-50.json: Delete this one as it's not exactly a question-problem. I encountered a lot of these debate-type conversations as well and I typically just didn't include them since they didn't create quality QA pairs for training
+
+REMOVED: 901-86.json: What is the question for this QA-pair? If something similar to a question can't be found, then delete this pair 
+
+REMVOED: 1116-198.json: Replace related post with a question and if you can't find one, delete this pair
+
+JAN 2020 ===============================
+
+REMVOED: 318-28.json: Delete because it's a survey one
+
+REMOVED: 513-6.json: I would say delete it on account of it being a dead link, but confirm this w/ Esteban & Haiduc
+
+REMVOED: 549-5.json: I would say delete this post since the actual question can't be found in the thread
+
+REMVOED: 844-9.json: Find a related post which is closer to a question if possible and delete otherwise
+
+REMVOED: 890-37.json: This isn't a question repost
+
+REMVOED: 944-61.json: Not a good related question
+
+REMVOED 982-27.json: related question needs to be replaced
+
+REMVOED 1150-87.json: Needs to be replaced
+
+MAR 2020 ===============================
+
+REMVOED 3-45.json: related question needs to be replaced
+
+REMVOED 3-61.json: related question needs to be replaced
+
+REMVOED 46-11.json: delete this one since the questin is oyut of context from the thread
+
+REMVOED 436-33.json: delete tehis one
+
+REMVOED 650-94.json: What is *this* need to concatenate or delete
+
+REMVOED 679.120.json: Delete this msg since it has an image for context
+
+REMVOED 811-101.json: needs to replace related question
+
+REMVOED 1185-154.json: concatentate msg
+
+REMVOED 1227-38.json: delete
+
+
+
+
+
+
+
+
+

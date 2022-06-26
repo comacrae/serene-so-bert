@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T16:50:42.919000",
+        "user": "Kyrell",
+        "text": "> @Kronos But if you change the instruction `a = [None]  5` to `a = [None]  7`@_rogue_shadow so i didn\\'t know and i went digging. extended slices (3 argument slices) arent as flexible as 2 arg ones they need the list being assigned to be the same size as the slice. take a look here for more. https://stackoverflow.com/questions/47968232/whyisextendedsliceassignmentlessflexiblethanregularsliceassignment",
+        "conversation_id": "1426",
+        "index": 70
+    },
+    "so_post": {
+        "ts": "2020-09-20T16:50:42.919000",
+        "user": "Kyrell",
+        "text": "> @Kronos But if you change the instruction `a = [None]  5` to `a = [None]  7`@_rogue_shadow so i didn\\'t know and i went digging. extended slices (3 argument slices) arent as flexible as 2 arg ones they need the list being assigned to be the same size as the slice. take a look here for more. https://stackoverflow.com/questions/47968232/whyisextendedsliceassignmentlessflexiblethanregularsliceassignment",
+        "conversation_id": "1426",
+        "index": 70
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-29T10:47:55.493000",
+        "user": "Suni",
+        "text": "@Deleted User you mean DRF right? it should work with django debug https://stackoverflow.com/questions/49862560/doesdjangodebugtoolbarworkwithdrf",
+        "conversation_id": "2133",
+        "index": 165
+    },
+    "so_post": {
+        "ts": "2020-10-29T10:47:55.493000",
+        "user": "Suni",
+        "text": "@Deleted User you mean DRF right? it should work with django debug https://stackoverflow.com/questions/49862560/doesdjangodebugtoolbarworkwithdrf",
+        "conversation_id": "2133",
+        "index": 165
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

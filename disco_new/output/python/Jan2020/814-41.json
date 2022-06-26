@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-20T13:44:11.084000",
+        "user": "Henzlee",
+        "text": "@Akarys I am trying to recreate the game of hacks because there isn't an API to create my own questions and implement on external site  however I am using django with restful framework for this task. (I am not sure  if this is the right to achieve this). I will do this via server because I dont want people to change js and bypass the stuff or even disable js and stop time  and continue with the same question but how can I translate into django this?https://stackoverflow.com/questions/59816877/randomlyselectfromasetofquestions",
+        "conversation_id": "814",
+        "index": 41
+    },
+    "so_post": {
+        "ts": "2020-01-20T13:44:11.084000",
+        "user": "Henzlee",
+        "text": "@Akarys I am trying to recreate the game of hacks because there isn't an API to create my own questions and implement on external site  however I am using django with restful framework for this task. (I am not sure  if this is the right to achieve this). I will do this via server because I dont want people to change js and bypass the stuff or even disable js and stop time  and continue with the same question but how can I translate into django this?https://stackoverflow.com/questions/59816877/randomlyselectfromasetofquestions",
+        "conversation_id": "814",
+        "index": 41
+    },
+    "category": "Question Repost",
+    "comments": "Seems like the asker is posting this question with the purpose of asking to translate a piece of code into DJango",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

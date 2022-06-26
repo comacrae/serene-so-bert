@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-13T08:47:13.193000",
+        "user": "Kensy",
+        "text": "@godlygeek https://stackoverflow.com/questions/50149562/jupyterlabinteractiveplotstep 5. it doesn't say to change to something.",
+        "conversation_id": "876",
+        "index": 205
+    },
+    "so_post": {
+        "ts": "2020-09-13T08:47:13.193000",
+        "user": "Kensy",
+        "text": "@godlygeek https://stackoverflow.com/questions/50149562/jupyterlabinteractiveplotstep 5. it doesn't say to change to something.",
+        "conversation_id": "876",
+        "index": 205
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

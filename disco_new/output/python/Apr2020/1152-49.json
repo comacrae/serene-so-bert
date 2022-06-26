@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-04-23T20:36:11.927000",
+        "user": "Kaiella",
+        "text": "@Deleted User https://stackoverflow.com/help/howtoask this is a good resource",
+        "conversation_id": "1152",
+        "index": 49
+    },
+    "so_post": {
+        "ts": "2020-04-23T20:36:11.927000",
+        "user": "Kaiella",
+        "text": "@Deleted User https://stackoverflow.com/help/howtoask this is a good resource",
+        "conversation_id": "1152",
+        "index": 49
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-04-01T00:02:12.875000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 76489
+    }
+}

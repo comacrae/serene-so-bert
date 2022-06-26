@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-11-28T07:36:09.328000",
+        "user": "Abdu",
+        "text": "it doesn't matter whether anyone thinks python should or should not be a first language. it is one already.> At the time of writing (July 2014) Python is currently the most popular language for teaching introductory computer science courses at topranked U.S. departments.<https://cacm.acm.org/blogs/blogcacm/176450pythonisnowthemostpopularintroductoryteachinglanguageattopusuniversities/fulltext>> Python the fastestgrowing major programming language has risen in the ranks of programming languages in our survey yet again edging out Java this year and standing as the second most loved language (behind Rust).<https://insights.stackoverflow.com/survey/2019>",
+        "conversation_id": "1007",
+        "index": 44
+    },
+    "so_post": {
+        "ts": "2019-11-28T07:36:09.328000",
+        "user": "Abdu",
+        "text": "it doesn't matter whether anyone thinks python should or should not be a first language. it is one already.> At the time of writing (July 2014) Python is currently the most popular language for teaching introductory computer science courses at topranked U.S. departments.<https://cacm.acm.org/blogs/blogcacm/176450pythonisnowthemostpopularintroductoryteachinglanguageattopusuniversities/fulltext>> Python the fastestgrowing major programming language has risen in the ranks of programming languages in our survey yet again edging out Java this year and standing as the second most loved language (behind Rust).<https://insights.stackoverflow.com/survey/2019>",
+        "conversation_id": "1007",
+        "index": 44
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2019-11-01T00:04:50.546000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 33912
+    }
+}

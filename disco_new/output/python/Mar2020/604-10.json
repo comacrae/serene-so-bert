@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-15T20:38:12.779000",
+        "user": "Khlifa",
+        "text": "I need a way to get arguments from the URL for example when I used PHP I would do https://site.com/abc?lista=100 (only example link) and pass a value through the URL transforming it into a variable in the future. I\\'m trying to do this in Flask and I\\'m not getting it can someone help me?",
+        "conversation_id": "604",
+        "index": 9
+    },
+    "so_post": {
+        "ts": "2020-03-15T20:39:12.616000",
+        "user": "Osias",
+        "text": "@Deleted User https://stackoverflow.com/questions/24892035/howcanigetthenamedparametersfromaurlusingflask",
+        "conversation_id": "604",
+        "index": 10
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

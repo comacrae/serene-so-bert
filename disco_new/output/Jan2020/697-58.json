@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-17T15:07:55.585000",
+        "user": "Ainsleigh",
+        "text": "quick question..if I create something in tkinter f.ex:oval=canvas.create_oval(blablabla)and then delete it withcanvas.delete(oval)then the object on the canvas will disappear however the object called oval will remain somewhere in the depths unless deleted withdel ovalright?",
+        "conversation_id": "697",
+        "index": 54
+    },
+    "so_post": {
+        "ts": "2020-01-17T15:14:16.273000",
+        "user": "Edahi",
+        "text": "https://stackoverflow.com/a/12689400/",
+        "conversation_id": "697",
+        "index": 58
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Seems like this is the source of the question, as the question is pretty much related to the SO answer.",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

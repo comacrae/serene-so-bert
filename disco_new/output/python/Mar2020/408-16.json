@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-10T16:52:00.783000",
+        "user": "Youssef",
+        "text": "Is it possible to .join() after certain amount of repetitions?",
+        "conversation_id": "408",
+        "index": 8
+    },
+    "so_post": {
+        "ts": "2020-03-10T16:55:58.881000",
+        "user": "Zhenyu",
+        "text": "Something like `'\\'.join( .join(names) for names in chunks(champions 3))` should do it (where `chunks` is anything from https://stackoverflow.com/questions/312443/howdoyousplitalistintoevenlysizedchunks)",
+        "conversation_id": "408",
+        "index": 16
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Seems like the question leads to this SO link as response.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

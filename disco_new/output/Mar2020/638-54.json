@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-16T13:03:14.835000",
+        "user": "Anastacia",
+        "text": "Can someone help me with this question I just posted to stackoverflow?<https://stackoverflow.com/questions/60706513/pythonhowcomewecancreateclassvariablesthatwerenotdefinedinclasscr>(it's easier to format on there)",
+        "conversation_id": "638",
+        "index": 54
+    },
+    "so_post": {
+        "ts": "2020-03-16T13:03:14.835000",
+        "user": "Anastacia",
+        "text": "Can someone help me with this question I just posted to stackoverflow?<https://stackoverflow.com/questions/60706513/pythonhowcomewecancreateclassvariablesthatwerenotdefinedinclasscr>(it's easier to format on there)",
+        "conversation_id": "638",
+        "index": 54
+    },
+    "category": "Question Repost",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

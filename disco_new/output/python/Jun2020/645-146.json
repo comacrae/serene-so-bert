@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-11T17:53:02.055000",
+        "user": "Kaylie",
+        "text": "https://stackoverflow.com/questions/10461045/pythontkinterlabelbackgroundtransparent",
+        "conversation_id": "645",
+        "index": 146
+    },
+    "so_post": {
+        "ts": "2020-06-11T17:53:02.055000",
+        "user": "Kaylie",
+        "text": "https://stackoverflow.com/questions/10461045/pythontkinterlabelbackgroundtransparent",
+        "conversation_id": "645",
+        "index": 146
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

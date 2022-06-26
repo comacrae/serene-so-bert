@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-26T04:41:27.934000",
+        "user": "Suni",
+        "text": "@escaleta by backing behind one pathhttps://stackoverflow.com/q/24868733/11225821",
+        "conversation_id": "1884",
+        "index": 248
+    },
+    "so_post": {
+        "ts": "2020-10-26T04:41:27.934000",
+        "user": "Suni",
+        "text": "@escaleta by backing behind one pathhttps://stackoverflow.com/q/24868733/11225821",
+        "conversation_id": "1884",
+        "index": 248
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-29T14:25:44.066000",
+        "user": "Ramon",
+        "text": "@rie Might be of help https://stackoverflow.com/questions/35280479/canichoosewheremycondaenvironmentisstored",
+        "conversation_id": "1185",
+        "index": 154
+    },
+    "so_post": {
+        "ts": "2020-03-29T14:25:44.066000",
+        "user": "Ramon",
+        "text": "@rie Might be of help https://stackoverflow.com/questions/35280479/canichoosewheremycondaenvironmentisstored",
+        "conversation_id": "1185",
+        "index": 154
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-08T05:41:18.132000",
+        "user": "Yarey",
+        "text": "> i was going to post this ||https://stackoverflow.com/questions/582056/gettinglistofparameternamesinsidepythonfunction||@Notepad hey this reminds me is there a way to get args in a function but in the dictionary format like kwargs. Normally when we make a dictionary we have to do `dict(a=a,b=b)` but if key name is same as the variable name it'd be easier to do just `mydict(a,b)` which will give dict `{'a':a,'b':b}`. is it possible?",
+        "conversation_id": "518",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-10-08T05:41:18.132000",
+        "user": "Yarey",
+        "text": "> i was going to post this ||https://stackoverflow.com/questions/582056/gettinglistofparameternamesinsidepythonfunction||@Notepad hey this reminds me is there a way to get args in a function but in the dictionary format like kwargs. Normally when we make a dictionary we have to do `dict(a=a,b=b)` but if key name is same as the variable name it'd be easier to do just `mydict(a,b)` which will give dict `{'a':a,'b':b}`. is it possible?",
+        "conversation_id": "518",
+        "index": 0
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

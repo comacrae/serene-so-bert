@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-26T17:40:03.302000",
+        "user": "Halli",
+        "text": "Add stackoverflow.com and the figure probably goes to 90+",
+        "conversation_id": "1575",
+        "index": 387
+    },
+    "so_post": {
+        "ts": "2020-06-26T17:40:03.302000",
+        "user": "Halli",
+        "text": "Add stackoverflow.com and the figure probably goes to 90+",
+        "conversation_id": "1575",
+        "index": 387
+    },
+    "category": "Other",
+    "comments": "just mentioning SO url in general",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

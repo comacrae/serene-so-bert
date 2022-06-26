@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-08T12:24:21.943000",
+        "user": "Jaycob",
+        "text": "https://stackoverflow.com/questions/58643462/pygsheetsusingdotenvinsteadofjsonfile/58647114#58647114",
+        "conversation_id": "452",
+        "index": 25
+    },
+    "so_post": {
+        "ts": "2020-06-08T12:24:21.943000",
+        "user": "Jaycob",
+        "text": "https://stackoverflow.com/questions/58643462/pygsheetsusingdotenvinsteadofjsonfile/58647114#58647114",
+        "conversation_id": "452",
+        "index": 25
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

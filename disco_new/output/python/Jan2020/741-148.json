@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-18T17:49:12.406000",
+        "user": "Kevion",
+        "text": "is there a way to check if a user is not in specific directory? (of pathlib.Path object)",
+        "conversation_id": "741",
+        "index": 125
+    },
+    "so_post": {
+        "ts": "2020-01-18T17:57:27.197000",
+        "user": "Yongming",
+        "text": "https://stackoverflow.com/a/34236245 this maybe",
+        "conversation_id": "741",
+        "index": 148
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-30T13:44:08.644000",
+        "user": "Calloway",
+        "text": "https://stackoverflow.com/questions/60929366/howcouldtheformdisplaydatathatittakesfromdatabasesimilartogoogle hey bros. I've posted this. help me out plz",
+        "conversation_id": "1228",
+        "index": 1
+    },
+    "so_post": {
+        "ts": "2020-03-30T13:44:08.644000",
+        "user": "Calloway",
+        "text": "https://stackoverflow.com/questions/60929366/howcouldtheformdisplaydatathatittakesfromdatabasesimilartogoogle hey bros. I've posted this. help me out plz",
+        "conversation_id": "1228",
+        "index": 1
+    },
+    "category": "Question Repost",
+    "comments": "Message says it all.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

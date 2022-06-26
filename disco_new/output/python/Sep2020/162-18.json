@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-03T10:19:22.944000",
+        "user": "Cyril",
+        "text": "@JZ try looking here https://stackoverflow.com/questions/37220055/pipfatalerrorinlauncherunabletocreateprocessusing",
+        "conversation_id": "162",
+        "index": 18
+    },
+    "so_post": {
+        "ts": "2020-09-03T10:19:22.944000",
+        "user": "Cyril",
+        "text": "@JZ try looking here https://stackoverflow.com/questions/37220055/pipfatalerrorinlauncherunabletocreateprocessusing",
+        "conversation_id": "162",
+        "index": 18
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

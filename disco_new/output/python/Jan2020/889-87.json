@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-22T10:00:22.619000",
+        "user": "Thayne",
+        "text": "the importerror pointed me to the `__init__.py` that it cannot read some name from",
+        "conversation_id": "889",
+        "index": 83
+    },
+    "so_post": {
+        "ts": "2020-01-22T10:02:02.482000",
+        "user": "Rajendra",
+        "text": "https://stackoverflow.com/questions/59842600/importerrorcannotimportnamesourcedistributionfrompipinternaldistrib",
+        "conversation_id": "889",
+        "index": 87
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "From the sound of it, Thayne is relatively new to Python and is having various issues. This seems to solve at least one of them.",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

@@ -335,7 +335,7 @@ class DISCO_Reader:
 
 if __name__ == "__main__":
     reader = DISCO_Reader("./data")
-    reader.load_xml("/home/colinm/Documents/serene/serene-so-bert/disco_new/data/pythongeneral/Aug2020/pythongeneralAug2020.xml.out")
+    reader.load_xml("/home/colinm/Documents/serene/serene-so-bert/disco_new/data/pythongeneral/Sep2020/pythongeneralSep2020.xml.out")
     reader.find_so_posts("stackoverflow.com")
-    reader.label_matches(output_dir_path="./output/python/Aug2020", start_conversation_id="1540")
+    reader.label_matches(output_dir_path="./output/python/Sep2020", start_conversation_id="2112")
 

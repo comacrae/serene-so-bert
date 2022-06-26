@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-23T20:24:14.703000",
+        "user": "Agatha",
+        "text": "https://stackoverflow.com/questions/2307283/whatdoesolognmeanexactly",
+        "conversation_id": "944",
+        "index": 61
+    },
+    "so_post": {
+        "ts": "2020-01-23T20:24:14.703000",
+        "user": "Agatha",
+        "text": "https://stackoverflow.com/questions/2307283/whatdoesolognmeanexactly",
+        "conversation_id": "944",
+        "index": 61
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

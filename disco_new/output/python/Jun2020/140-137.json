@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-03T06:37:50.562000",
+        "user": "Nyssa",
+        "text": "@Steve aka NecroNFriends https://stackoverflow.com/questions/32671747/visualstudiocodeinputfunctioninpython",
+        "conversation_id": "140",
+        "index": 137
+    },
+    "so_post": {
+        "ts": "2020-06-03T06:37:50.562000",
+        "user": "Nyssa",
+        "text": "@Steve aka NecroNFriends https://stackoverflow.com/questions/32671747/visualstudiocodeinputfunctioninpython",
+        "conversation_id": "140",
+        "index": 137
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

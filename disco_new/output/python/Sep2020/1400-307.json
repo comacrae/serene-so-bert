@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-20T10:49:56.319000",
+        "user": "Consuelo",
+        "text": "> @soundsLikecrazy I want to edit a specific value right?for your refernce : https://stackoverflow.com/questions/62740719/dataframeobjecthasnoattributesetvalue@KevinDev",
+        "conversation_id": "1400",
+        "index": 307
+    },
+    "so_post": {
+        "ts": "2020-09-20T10:49:56.319000",
+        "user": "Consuelo",
+        "text": "> @soundsLikecrazy I want to edit a specific value right?for your refernce : https://stackoverflow.com/questions/62740719/dataframeobjecthasnoattributesetvalue@KevinDev",
+        "conversation_id": "1400",
+        "index": 307
+    },
+    "category": "Other",
+    "comments": "commenting",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

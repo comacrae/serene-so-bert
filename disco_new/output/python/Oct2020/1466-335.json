@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-20T11:08:21.600000",
+        "user": "Braelynn",
+        "text": "https://stackoverflow.com/questions/9455111/defineamethodoutsideofclassdefinition @pratt",
+        "conversation_id": "1466",
+        "index": 335
+    },
+    "so_post": {
+        "ts": "2020-10-20T11:08:21.600000",
+        "user": "Braelynn",
+        "text": "https://stackoverflow.com/questions/9455111/defineamethodoutsideofclassdefinition @pratt",
+        "conversation_id": "1466",
+        "index": 335
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

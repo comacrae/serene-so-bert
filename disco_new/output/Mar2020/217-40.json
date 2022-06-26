@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-06T06:13:22.907000",
+        "user": "Lica",
+        "text": "i thought b=3 needed to be last",
+        "conversation_id": "217",
+        "index": 27
+    },
+    "so_post": {
+        "ts": "2020-03-06T06:42:16.129000",
+        "user": "Shneur",
+        "text": "@lakmatiol it's new syntax in python 3 not 3.8https://stackoverflow.com/a/14298976/2038264",
+        "conversation_id": "217",
+        "index": 40
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "A user answered another question and [27] made a question about this answer.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

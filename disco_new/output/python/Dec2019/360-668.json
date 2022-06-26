@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-10T17:31:28.795000",
+        "user": "Abdelmadjid",
+        "text": "@Mr. Hemlock fyi: you can use ctypes to enable ansi support on windows <https://stackoverflow.com/a/36760881>i did something similar in a c# cli app.",
+        "conversation_id": "360",
+        "index": 668
+    },
+    "so_post": {
+        "ts": "2019-12-10T17:31:28.795000",
+        "user": "Abdelmadjid",
+        "text": "@Mr. Hemlock fyi: you can use ctypes to enable ansi support on windows <https://stackoverflow.com/a/36760881>i did something similar in a c# cli app.",
+        "conversation_id": "360",
+        "index": 668
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

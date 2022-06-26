@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-13T04:31:34.761000",
+        "user": "Meeko",
+        "text": "@ItsNil I mean it's up to you. Just like this survey shows vscode is quite popular but that depends on you to choose and like it or not. https://insights.stackoverflow.com/survey/2019#developmentenvironmentsandtools",
+        "conversation_id": "744",
+        "index": 119
+    },
+    "so_post": {
+        "ts": "2020-06-13T04:31:34.761000",
+        "user": "Meeko",
+        "text": "@ItsNil I mean it's up to you. Just like this survey shows vscode is quite popular but that depends on you to choose and like it or not. https://insights.stackoverflow.com/survey/2019#developmentenvironmentsandtools",
+        "conversation_id": "744",
+        "index": 119
+    },
+    "category": "Other",
+    "comments": "survey",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

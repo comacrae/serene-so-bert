@@ -1,10 +1,11 @@
 {
     "related_post": {
         "ts": "2020-04-06T07:01:46.811000",
-        "user": "Dora",
-        "text": "theres no return statement",
+        "user": "Zamzam",
+        "text": "```Pythona = 10mylist = [1,2,3]print(a)print(mylist)def add_one(x): x = x + 1def add_to_list(l num): l.append(num)add_one(a)add_to_list(mylist 10)print(a)print(mylist)```Python didn't change the int type but changed the list type. Why?
+",
         "conversation_id": "258",
-        "index": 2
+        "index": 1
     },
     "so_post": {
         "ts": "2020-04-06T07:05:15.821000",

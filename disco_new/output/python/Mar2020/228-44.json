@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-06T13:58:22.332000",
+        "user": "Dakarie",
+        "text": "https://stackoverflow.com/questions/11231544/checkifvalueexistsinpostgresarray",
+        "conversation_id": "228",
+        "index": 44
+    },
+    "so_post": {
+        "ts": "2020-03-06T13:58:22.332000",
+        "user": "Dakarie",
+        "text": "https://stackoverflow.com/questions/11231544/checkifvalueexistsinpostgresarray",
+        "conversation_id": "228",
+        "index": 44
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

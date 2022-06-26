@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-11T07:51:17.350000",
+        "user": "Faraz",
+        "text": "Hey guys does anyone know of a python script to delete emails on gmail? Been looking but haven't found any",
+        "conversation_id": "434",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-03-11T07:53:03.418000",
+        "user": "Hanyu",
+        "text": "@Memphis please check this out https://stackoverflow.com/questions/1777264/usingpythonimaplibtodeleteanemailfromgmail",
+        "conversation_id": "434",
+        "index": 2
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "t",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

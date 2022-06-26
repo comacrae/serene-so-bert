@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-30T22:46:40.982000",
+        "user": "Esme",
+        "text": "I'm wrong @Deleted User <https://insights.stackoverflow.com/survey/2019#technology>",
+        "conversation_id": "1242",
+        "index": 404
+    },
+    "so_post": {
+        "ts": "2020-03-30T22:46:40.982000",
+        "user": "Esme",
+        "text": "I'm wrong @Deleted User <https://insights.stackoverflow.com/survey/2019#technology>",
+        "conversation_id": "1242",
+        "index": 404
+    },
+    "category": "Other",
+    "comments": "survey",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

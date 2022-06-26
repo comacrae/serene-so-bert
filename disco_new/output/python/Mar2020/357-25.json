@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-09T10:04:36.334000",
+        "user": "Malaika",
+        "text": "Based on real numbers. Such as stackoverflow.com developer survey",
+        "conversation_id": "357",
+        "index": 25
+    },
+    "so_post": {
+        "ts": "2020-03-09T10:04:36.334000",
+        "user": "Malaika",
+        "text": "Based on real numbers. Such as stackoverflow.com developer survey",
+        "conversation_id": "357",
+        "index": 25
+    },
+    "category": "Other",
+    "comments": "SO url plain",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

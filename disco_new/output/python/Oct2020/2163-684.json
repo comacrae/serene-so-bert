@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-29T19:49:08.843000",
+        "user": "Hailyn",
+        "text": "https://stackoverflow.com/questions/48140858/jsondecoderjsondecodeerrorextradataline2column1char190 Look at that website one of the answer was You have two records in your json file and json.loads( us bit able to decode more then one. You need to do it record by record",
+        "conversation_id": "2163",
+        "index": 684
+    },
+    "so_post": {
+        "ts": "2020-10-29T19:49:08.843000",
+        "user": "Hailyn",
+        "text": "https://stackoverflow.com/questions/48140858/jsondecoderjsondecodeerrorextradataline2column1char190 Look at that website one of the answer was You have two records in your json file and json.loads( us bit able to decode more then one. You need to do it record by record",
+        "conversation_id": "2163",
+        "index": 684
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2019-12-18T14:56:06.968000",
+        "user": "Rosaleen",
+        "text": "I seen <https://stackoverflow.com/questions/19944712/browseforfilepathinpython> seems a bit much for what it is though thought there might be something neater",
+        "conversation_id": "643",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2019-12-18T14:56:06.968000",
+        "user": "Rosaleen",
+        "text": "I seen <https://stackoverflow.com/questions/19944712/browseforfilepathinpython> seems a bit much for what it is though thought there might be something neater",
+        "conversation_id": "643",
+        "index": 0
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2019-12-01T00:56:23.288000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 30940
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-18T17:15:22.546000",
+        "user": "Huxson",
+        "text": "if I want to replace all \\'a\\ and \\'b\\ in a string with \\'c\\ how can I do it? atm I have .replace(\"a c\").replace(\"b c\"). Is there way to do it without calling replace twice",
+        "conversation_id": "1312",
+        "index": 106
+    },
+    "so_post": {
+        "ts": "2020-10-18T17:18:01.489000",
+        "user": "Besan",
+        "text": "https://stackoverflow.com/a/40003366",
+        "conversation_id": "1312",
+        "index": 112
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "Huxon gets direct answer from Besan via SO post about regexes",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

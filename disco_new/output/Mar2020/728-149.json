@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-18T21:41:09.699000",
+        "user": "Jadiel",
+        "text": "```py if grade >= 90: ^IndentationError: expected an indented block```",
+        "conversation_id": "728",
+        "index": 142
+    },
+    "so_post": {
+        "ts": "2020-03-18T21:47:03.262000",
+        "user": "Wrenley",
+        "text": "This link may be helpful if you want more explanation or information about indentation. Seems the original post was written by someone in a similar situation  learning the basics<https://stackoverflow.com/questions/10063223/understandingindentationinpython>",
+        "conversation_id": "728",
+        "index": 149
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

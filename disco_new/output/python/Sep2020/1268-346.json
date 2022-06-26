@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-18T17:16:57.970000",
+        "user": "Caycen",
+        "text": "> @boopy htt://stackoverflow.com/questions/49088748/pythonusingwin32comclienttoacceptallchangesinworddocuments@martor okay lemme put it like this. I need to create a file do some stuff in it and the save it in a specific location.",
+        "conversation_id": "1268",
+        "index": 346
+    },
+    "so_post": {
+        "ts": "2020-09-18T17:16:57.970000",
+        "user": "Caycen",
+        "text": "> @boopy htt://stackoverflow.com/questions/49088748/pythonusingwin32comclienttoacceptallchangesinworddocuments@martor okay lemme put it like this. I need to create a file do some stuff in it and the save it in a specific location.",
+        "conversation_id": "1268",
+        "index": 346
+    },
+    "category": "Other",
+    "comments": "commenting",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

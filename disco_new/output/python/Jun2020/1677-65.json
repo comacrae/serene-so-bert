@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-28T12:57:51.715000",
+        "user": "Heber",
+        "text": "there aren't going to be questions that are meant for you to practice to get better at. it's just a forum where people ask specific questions about issues they have and get responses from the community that hopefully help the person who asked the questionhttps://stackoverflow.com/",
+        "conversation_id": "1677",
+        "index": 65
+    },
+    "so_post": {
+        "ts": "2020-06-28T12:57:51.715000",
+        "user": "Heber",
+        "text": "there aren't going to be questions that are meant for you to practice to get better at. it's just a forum where people ask specific questions about issues they have and get responses from the community that hopefully help the person who asked the questionhttps://stackoverflow.com/",
+        "conversation_id": "1677",
+        "index": 65
+    },
+    "category": "Other",
+    "comments": "general SO url",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

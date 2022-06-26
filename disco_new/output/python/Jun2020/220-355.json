@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-04T17:02:48.347000",
+        "user": "Zaylani",
+        "text": "Actually a better example <https://stackoverflow.com/questions/19620498/howtocreateautilityclasscorrectly>",
+        "conversation_id": "220",
+        "index": 355
+    },
+    "so_post": {
+        "ts": "2020-06-04T17:02:48.347000",
+        "user": "Zaylani",
+        "text": "Actually a better example <https://stackoverflow.com/questions/19620498/howtocreateautilityclasscorrectly>",
+        "conversation_id": "220",
+        "index": 355
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

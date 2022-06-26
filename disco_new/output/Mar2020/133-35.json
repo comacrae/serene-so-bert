@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-04T08:05:49.153000",
+        "user": "Amaar",
+        "text": "Why is Pycharm better? I'm confused on what makes IDE's better rather than a VS Code editor",
+        "conversation_id": "133",
+        "index": 30
+    },
+    "so_post": {
+        "ts": "2020-03-04T08:06:38.694000",
+        "user": "Haneesh",
+        "text": "https://stackoverflow.com/questions/208193/whyshouldiuseanide",
+        "conversation_id": "133",
+        "index": 35
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": ".",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

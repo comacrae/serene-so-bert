@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-18T03:11:30.366000",
+        "user": "Gilmer",
+        "text": "not sure if i'm allowed to post links but this stackoverflow looks like what you have @Cornelius https://stackoverflow.com/questions/52030496/pycharmgetserrorcantfindmainmodule",
+        "conversation_id": "1067",
+        "index": 271
+    },
+    "so_post": {
+        "ts": "2020-06-18T03:11:30.366000",
+        "user": "Gilmer",
+        "text": "not sure if i'm allowed to post links but this stackoverflow looks like what you have @Cornelius https://stackoverflow.com/questions/52030496/pycharmgetserrorcantfindmainmodule",
+        "conversation_id": "1067",
+        "index": 271
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

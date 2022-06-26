@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-19T20:27:28.969000",
+        "user": "Sharod",
+        "text": "```pydef ord(__c: Union[Text bytes]) > int: ...if sys.version_info >= (3,): class _Writer(Protocol): def write(self __s: str) > Any: ... def print( values: object sep: Optional[Text] = ... end: Optional[Text] = ... file: Optional[_Writer] = ... flush: bool = ... ) > None: ...else: class _Writer(Protocol): def write(self __s: Any) > Any: ... # This is only available after from __future__ import print_function. def print(values: object sep: Optional[Text] = ... end: Optional[Text] = ... file: Optional[_Writer] = ...) > None: ...```",
+        "conversation_id": "771",
+        "index": 34
+    },
+    "so_post": {
+        "ts": "2020-03-19T20:30:31.554000",
+        "user": "Malaika",
+        "text": "https://stackoverflow.com/questions/41734836/whatdoesirepresentinpythonpyiextension",
+        "conversation_id": "771",
+        "index": 48
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "User was asking what something in what they posted meant. When questioned where they got it from, they posted a .pyi file and that's where they got the inspiration to post the SO link from.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

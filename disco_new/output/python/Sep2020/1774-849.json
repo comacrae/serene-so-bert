@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-25T15:28:14.051000",
+        "user": "Quinn",
+        "text": "elif \\'open youtube\\ in query: webbrowser.open(\"youtube.com\") elif \\'open google\\ in query: webbrowser.open(\"google.com\") elif \\'open stackoverflow\\ in query: webbrowser.open(\"stackoverflow.com\")Ok so I made it something like this but what i need is whenever a user says \\'open (sitename)\\ it opens (sitename).com",
+        "conversation_id": "1774",
+        "index": 849
+    },
+    "so_post": {
+        "ts": "2020-09-25T15:28:14.051000",
+        "user": "Quinn",
+        "text": "elif \\'open youtube\\ in query: webbrowser.open(\"youtube.com\") elif \\'open google\\ in query: webbrowser.open(\"google.com\") elif \\'open stackoverflow\\ in query: webbrowser.open(\"stackoverflow.com\")Ok so I made it something like this but what i need is whenever a user says \\'open (sitename)\\ it opens (sitename).com",
+        "conversation_id": "1774",
+        "index": 849
+    },
+    "category": "Other",
+    "comments": "just phrase \"stackvoerflow\"",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

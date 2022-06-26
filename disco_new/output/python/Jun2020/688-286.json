@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-12T09:32:52.928000",
+        "user": "Zeke",
+        "text": "> @Deleted User https://stackoverflow.com/a/5071376 this may answer your question about RAII@Xithrius Right so you are okay with helping other people",
+        "conversation_id": "688",
+        "index": 286
+    },
+    "so_post": {
+        "ts": "2020-06-12T09:32:52.928000",
+        "user": "Zeke",
+        "text": "> @Deleted User https://stackoverflow.com/a/5071376 this may answer your question about RAII@Xithrius Right so you are okay with helping other people",
+        "conversation_id": "688",
+        "index": 286
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-19T19:11:41.429000",
+        "user": "Berto",
+        "text": "> @Lete\u010diDebjule If I understand your problem correctly you need a setup script (setup.py/setup.cfg) and then output wheel with this commands https://packaging.python.org/guides/distributingpackagesusingsetuptools/#id73@isidentical Hi again! I tried doing this I specify a setup.py files with py_modules that I need but when I run in the console it just finishes immediately and I don't know where the .whl file is or whether it has been created at all! I described the issue on https://stackoverflow.com/questions/60763128/uploadingpythonmodulesaspythonwheels",
+        "conversation_id": "768",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-03-19T19:11:41.429000",
+        "user": "Berto",
+        "text": "> @Lete\u010diDebjule If I understand your problem correctly you need a setup script (setup.py/setup.cfg) and then output wheel with this commands https://packaging.python.org/guides/distributingpackagesusingsetuptools/#id73@isidentical Hi again! I tried doing this I specify a setup.py files with py_modules that I need but when I run in the console it just finishes immediately and I don't know where the .whl file is or whether it has been created at all! I described the issue on https://stackoverflow.com/questions/60763128/uploadingpythonmodulesaspythonwheels",
+        "conversation_id": "768",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "This is a reply to a user who posted a SO link of their question outside the scope of the chat log.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

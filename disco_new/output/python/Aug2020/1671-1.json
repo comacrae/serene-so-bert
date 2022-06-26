@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-08-24T16:11:05.269000",
+        "user": "Raekwon",
+        "text": "Hi Can anyone please reply to this question ASAP?? https://stackoverflow.com/questions/63339649/sendingmultiplefilesthroughpythonrequests",
+        "conversation_id": "1671",
+        "index": 0
+    },
+    "so_post": {
+        "ts": "2020-08-24T16:11:05.269000",
+        "user": "Raekwon",
+        "text": "Hi Can anyone please reply to this question ASAP?? https://stackoverflow.com/questions/63339649/sendingmultiplefilesthroughpythonrequests",
+        "conversation_id": "1671",
+        "index": 0
+    },
+    "category": "Question Repost",
+    "comments": "",
+    "meta": {
+        "start_date": "2020-08-01T00:00:09.346000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 209359
+    }
+}

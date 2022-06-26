@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-19T10:48:27.406000",
+        "user": "Suni",
+        "text": "@Platinum yes it's totally possible you would need to monitor the system to check if said program running https://stackoverflow.com/questions/7787120/pythoncheckifaprocessisrunningornot",
+        "conversation_id": "1376",
+        "index": 131
+    },
+    "so_post": {
+        "ts": "2020-10-19T10:48:27.406000",
+        "user": "Suni",
+        "text": "@Platinum yes it's totally possible you would need to monitor the system to check if said program running https://stackoverflow.com/questions/7787120/pythoncheckifaprocessisrunningornot",
+        "conversation_id": "1376",
+        "index": 131
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

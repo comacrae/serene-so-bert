@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-16T20:45:04.828000",
+        "user": "Anaira",
+        "text": "> @MADARA https://stackoverflow.com/questions/509211/understandingslicenotation@inclement Thank you buddy",
+        "conversation_id": "650",
+        "index": 95
+    },
+    "so_post": {
+        "ts": "2020-03-16T20:45:04.828000",
+        "user": "Anaira",
+        "text": "> @MADARA https://stackoverflow.com/questions/509211/understandingslicenotation@inclement Thank you buddy",
+        "conversation_id": "650",
+        "index": 95
+    },
+    "category": "Other",
+    "comments": "commenting on post",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}

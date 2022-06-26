@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-10-13T04:05:18.968000",
+        "user": "Claudette",
+        "text": "@Deleted User This is actually a pretty good SO for partials vs lambda. <https://stackoverflow.com/questions/3252228/pythonwhyisfunctoolspartialnecessary>The second answer with the code snippet is very useful to seeing the difference in how they execute. Try running this code:```pysum = lambda x y: x + yn = 5incr_lambda = lambda y: sum(n y)incr_partial = partial(sum n)print(f\"Lambda: {incr_lambda(3)}\")print(f\"Partial: {incr_partial(3)}\")n = 9print(\"n = 9\")print(f\"Lambda: {incr_lambda(3)}\")print(f\"Partial: {incr_partial(3)}\")```",
+        "conversation_id": "893",
+        "index": 755
+    },
+    "so_post": {
+        "ts": "2020-10-13T04:05:18.968000",
+        "user": "Claudette",
+        "text": "@Deleted User This is actually a pretty good SO for partials vs lambda. <https://stackoverflow.com/questions/3252228/pythonwhyisfunctoolspartialnecessary>The second answer with the code snippet is very useful to seeing the difference in how they execute. Try running this code:```pysum = lambda x y: x + yn = 5incr_lambda = lambda y: sum(n y)incr_partial = partial(sum n)print(f\"Lambda: {incr_lambda(3)}\")print(f\"Partial: {incr_partial(3)}\")n = 9print(\"n = 9\")print(f\"Lambda: {incr_lambda(3)}\")print(f\"Partial: {incr_partial(3)}\")```",
+        "conversation_id": "893",
+        "index": 755
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-10-01T00:00:04.097000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 205861
+    }
+}

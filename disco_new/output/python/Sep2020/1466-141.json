@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-21T11:30:40.665000",
+        "user": "Wladyslaw",
+        "text": "@Maugrim That thread might helphttps://stackoverflow.com/questions/40809729/canpythongetthescreenshotofaspecificwindow",
+        "conversation_id": "1466",
+        "index": 141
+    },
+    "so_post": {
+        "ts": "2020-09-21T11:30:40.665000",
+        "user": "Wladyslaw",
+        "text": "@Maugrim That thread might helphttps://stackoverflow.com/questions/40809729/canpythongetthescreenshotofaspecificwindow",
+        "conversation_id": "1466",
+        "index": 141
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

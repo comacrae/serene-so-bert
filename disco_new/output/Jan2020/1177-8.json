@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-01-29T14:08:56.548000",
+        "user": "Meera",
+        "text": "Now how do i generate new list items on the go according to what shows i have added to my database?",
+        "conversation_id": "1177",
+        "index": 3
+    },
+    "so_post": {
+        "ts": "2020-01-29T14:11:04.046000",
+        "user": "Bernabe",
+        "text": "@kingpeppe https://stackoverflow.com/questions/51556583/generatingadynamichtmltablefromdjangotemplatelanguage Might help",
+        "conversation_id": "1177",
+        "index": 8
+    },
+    "category": "Direct Solution Provided by Non-Asker",
+    "comments": "The question the user was asking seems to be answered by the SO link.",
+    "meta": {
+        "start_date": "2020-01-01T00:01:01.257000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 46313
+    }
+}

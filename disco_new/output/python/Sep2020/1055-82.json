@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-09-15T14:55:39.958000",
+        "user": "Nasiir",
+        "text": "@Sunshine There's a few techniques discussed here https://stackoverflow.com/questions/952914/howtomakeaflatlistoutoflistoflists",
+        "conversation_id": "1055",
+        "index": 82
+    },
+    "so_post": {
+        "ts": "2020-09-15T14:55:39.958000",
+        "user": "Nasiir",
+        "text": "@Sunshine There's a few techniques discussed here https://stackoverflow.com/questions/952914/howtomakeaflatlistoutoflistoflists",
+        "conversation_id": "1055",
+        "index": 82
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-09-01T00:00:01.179000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 173067
+    }
+}

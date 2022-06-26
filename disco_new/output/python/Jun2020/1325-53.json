@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-06-22T09:57:22.044000",
+        "user": "Zy",
+        "text": "@lakmatiol do you suggest maybe using this instead?https://stackoverflow.com/questions/11906925/pythonsimulatekeydown",
+        "conversation_id": "1325",
+        "index": 53
+    },
+    "so_post": {
+        "ts": "2020-06-22T09:57:22.044000",
+        "user": "Zy",
+        "text": "@lakmatiol do you suggest maybe using this instead?https://stackoverflow.com/questions/11906925/pythonsimulatekeydown",
+        "conversation_id": "1325",
+        "index": 53
+    },
+    "category": "Other",
+    "comments": "ooc",
+    "meta": {
+        "start_date": "2020-06-01T00:00:10.778000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 120648
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "related_post": {
+        "ts": "2020-03-18T10:37:00.066000",
+        "user": "Maxim",
+        "text": "I'm asking how to get an input on a line and then clear and use that same line again",
+        "conversation_id": "707",
+        "index": 55
+    },
+    "so_post": {
+        "ts": "2020-03-18T10:50:15.553000",
+        "user": "Maxim",
+        "text": "https://stackoverflow.com/questions/5290994/removeandreplaceprinteditems",
+        "conversation_id": "707",
+        "index": 100
+    },
+    "category": "Related Information (Not Solution)",
+    "comments": "I believe the SO link sort of answers the main question, but I'm not 100% it answers what they were looking for.",
+    "meta": {
+        "start_date": "2020-03-01T00:01:20.188000",
+        "end_time": null,
+        "channel_name": "python-general",
+        "team_domain": "Python",
+        "count": 56763
+    }
+}
